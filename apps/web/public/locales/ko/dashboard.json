@@ -1,0 +1,473 @@
+{
+  "title": "대시보드",
+  "subtitle": "마케팅 인텔리전스 개요",
+  "clients": {
+    "backToClients": "클라이언트로 돌아가기",
+    "addClient": {
+      "badge": "클라이언트 온보딩",
+      "title": "새 클라이언트 추가",
+      "description": "AI 기반 인사이트를 위해 비즈니스 컨텍스트와 함께 새 클라이언트를 온보딩하세요"
+    },
+    "editClient": {
+      "title": "클라이언트 수정",
+      "description": "클라이언트 정보와 비즈니스 컨텍스트를 업데이트하세요"
+    },
+    "features": {
+      "aiPowered": "AI 기반 인텔리전스",
+      "personalizedStrategies": "개인화된 전략"
+    }
+  },
+  "welcome": {
+    "morning": "좋은 아침입니다",
+    "afternoon": "좋은 오후입니다",
+    "evening": "좋은 저녁입니다",
+    "withName": "{{greeting}}, {{name}}님"
+  },
+  "hero": {
+    "badge": "AI 기반 인텔리전스",
+    "title": "인텔리전스 브리핑",
+    "subtitle": "비즈니스 컨텍스트에 맞춘 고효율 실행 항목입니다. 각 추천은 전략적 기반 위에 쌓입니다.",
+    "cta": "새 전략 세션 시작"
+  },
+  "loading": {
+    "intelligence": "인텔리전스를 불러오는 중...",
+    "data": "데이터를 준비하는 중...",
+    "dashboard": "대시보드를 불러오는 중...",
+    "clientDashboard": "{{clientSlug}} 대시보드를 불러오는 중...",
+    "fallback": "대시보드를 불러오는 중..."
+  },
+  "clientDashboard": {
+    "title": "{{clientName}} 대시보드",
+    "subtitle": "이 클라이언트의 모든 활동을 확인하고 관리하세요"
+  },
+  "noOrganization": {
+    "title": "조직을 찾을 수 없습니다",
+    "description": "아직 접근 가능한 조직이 없는 것 같습니다. 관리자에게 문의해 주세요.",
+    "viewProfile": "프로필 보기"
+  },
+  "error": {
+    "message": "오류: {{message}}"
+  },
+  "stats": {
+    "totalOutputs": "총 결과물",
+    "intelligenceOutputs": "인텔리전스 결과물",
+    "activeCampaigns": "활성 캠페인",
+    "aiInteractions": "AI 상호작용",
+    "strategySessions": "전략 세션",
+    "lastWeek": "지난 7일",
+    "subtitles": {
+      "strategicDocuments": "전략 문서",
+      "agentSessions": "에이전트 세션",
+      "inProgress": "진행 중",
+      "completed": "완료됨"
+    }
+  },
+  "quickActions": {
+    "title": "빠른 작업",
+    "newStrategy": "새 전략",
+    "createPersona": "페르소나 생성",
+    "startCampaign": "캠페인 시작"
+  },
+  "recommendations": {
+    "title": "추천 작업",
+    "available": "{{count}}개 사용 가능",
+    "highImpact": "고효율",
+    "estimatedTime": "{{time}}분",
+    "items": {
+      "personaAnalysis": {
+        "title": "고객 페르소나 분석 완료",
+        "description": "캠페인 타게팅을 개선할 수 있도록 상세한 구매자 페르소나를 구축하세요"
+      },
+      "marketingStrategy": {
+        "title": "마케팅 전략 검토",
+        "description": "시장에 맞춘 AI 생성 채널 믹스와 메시지 프레임워크를 확인하세요"
+      },
+      "contentGeneration": {
+        "title": "최상위 채널용 콘텐츠 생성",
+        "description": "가장 성과가 좋은 채널에 최적화된 캠페인 소재를 만드세요"
+      }
+    }
+  },
+  "recentIntelligence": {
+    "title": "최근 인텔리전스",
+    "vaultTitle": "인텔리전스 보관함",
+    "viewAll": "전체 보기",
+    "viewAllIntelligence": "모든 인텔리전스 보기",
+    "emptyState": "아직 결과물이 없습니다. 전략 세션부터 시작하세요.",
+    "emptyStateVault": "아직 인텔리전스 결과물이 없습니다. 전략적 기반부터 구축하세요.",
+    "generateFirst": "첫 전략 생성",
+    "total": "총 {{count}}개",
+    "agentLabels": {
+      "strategy": "전략",
+      "persona": "페르소나",
+      "marketingStrategy": "마케팅",
+      "content": "콘텐츠"
+    }
+  },
+  "recentActivity": {
+    "title": "최근 활동",
+    "noActivity": "최근 활동이 없습니다",
+    "viewAll": "모든 활동 보기"
+  },
+  "intelligenceBriefing": {
+    "title": "인텔리전스 브리핑",
+    "subtitle": "비즈니스 컨텍스트를 바탕으로 한 고효율 실행 항목",
+    "empty": "개인화된 추천을 받으려면 비즈니스 프로필을 완료하세요",
+    "badge": "AI 기반",
+    "toggleBriefing": "브리핑 전환",
+    "analyzing": "비즈니스 컨텍스트를 분석해 우선순위가 높은 다음 단계를 추천하고 있습니다.",
+    "startStrategy": "비즈니스 전략부터 시작",
+    "highImpact": "고효율",
+    "recommended": "추천",
+    "minutes": "{{time}}분",
+    "viewAll": "추천 {{count}}개 모두 보기"
+  },
+  "campaignReadiness": {
+    "ready": {
+      "title": "첫 캠페인을 만들 준비가 되었습니다",
+      "description": "강력한 전략적 기반을 구축했습니다. 캠페인을 만들어 비즈니스 이니셔티브별로 인텔리전스를 정리하고 성과를 추적하세요.",
+      "createCampaign": "캠페인 만들기",
+      "maybeLater": "나중에 하기"
+    },
+    "building": {
+      "title": "전략적 기반을 구축하는 중 ({{percentage}}% 완료)",
+      "description": "캠페인을 만들기 전에 다음 핵심 인텔리전스 결과물을 완료하세요:",
+      "businessStrategy": "비즈니스 전략",
+      "customerPersonas": "고객 페르소나",
+      "marketingStrategy": "마케팅 전략"
+    }
+  },
+  "agency": {
+    "loading": {
+      "agencyData": "에이전시 데이터를 불러오는 중...",
+      "clientPortfolio": "클라이언트 포트폴리오를 불러오는 중..."
+    },
+    "onboarding": {
+      "badge": "에이전시 커맨드 센터",
+      "title": "에이전시에 오신 것을 환영합니다",
+      "description": "AI 기반 마케팅 인텔리전스로 여러 클라이언트를 관리하세요",
+      "addFirstClient": "첫 클라이언트 추가",
+      "ctaHint": "5분 안에 첫 클라이언트 관리를 시작할 수 있습니다",
+      "learnPlatform": "플랫폼 알아보기",
+      "videoTitle": "여러 클라이언트 관리하기",
+      "videoHint": "동영상 가이드는 곧 제공됩니다",
+      "soon": "곧 제공",
+      "guideTitle": "에이전시 모범 운영 가이드",
+      "guideDescription": "클라이언트 업무를 확장하는 워크플로를 알아보세요",
+      "unlimitedClients": "무제한 클라이언트",
+      "fullAiAccess": "전체 AI 접근"
+    },
+    "header": {
+      "badge": "에이전시 커맨드 센터",
+      "title": "{{name}} 대시보드",
+      "subtitle": "<strong>{{clientCount}}</strong>개 클라이언트와 <strong>{{campaignCount}}</strong>개 캠페인을 관리 중",
+      "subtitleText": "{{clientCount}}개 클라이언트와 {{campaignCount}}개 캠페인을 관리 중"
+    },
+    "actions": {
+      "manageClients": "클라이언트 관리",
+      "addClient": "클라이언트 추가",
+      "addNewClient": "새 클라이언트 추가",
+      "viewAllClients": "모든 클라이언트 보기",
+      "manageTeam": "팀 관리",
+      "addFirstClient": "첫 클라이언트 추가",
+      "viewAllClientsCount": "{{count}}개 클라이언트 모두 보기"
+    },
+    "metrics": {
+      "totalClients": "총 클라이언트 수",
+      "activeCount": "{{count}}개 활성",
+      "monthlyRevenue": "월간 매출",
+      "avgPerClient": "클라이언트당 평균 {{amount}}",
+      "activeCampaigns": "활성 캠페인",
+      "ofTotal": "총 {{total}}개 중",
+      "avgCampaignsPerClient": "클라이언트당 평균 캠페인 수",
+      "perClient": "클라이언트당"
+    },
+    "portfolio": {
+      "title": "클라이언트 포트폴리오",
+      "subtitle": "에이전시 전체 클라이언트 개요",
+      "clientCount": "{{count}}개 클라이언트",
+      "noClients": "아직 클라이언트가 없습니다",
+      "campaigns": "캠페인 {{count}}개",
+      "active": "{{count}}개 활성"
+    },
+    "quickActions": {
+      "title": "빠른 작업"
+    }
+  },
+  "clientOverview": {
+    "notFound": {
+      "title": "클라이언트를 찾을 수 없습니다",
+      "description": "찾으시는 클라이언트가 없거나 접근 권한이 없습니다.",
+      "backToClients": "클라이언트로 돌아가기"
+    },
+    "quickStats": {
+      "title": "빠른 통계"
+    },
+    "recommendations": {
+      "personaAnalysis": {
+        "title": "고객 페르소나 분석 완료",
+        "description": "{{clientName}}의 캠페인 타게팅 개선을 위해 상세한 구매자 페르소나를 구축하세요"
+      },
+      "marketingStrategy": {
+        "title": "마케팅 전략 추천 검토",
+        "description": "이 클라이언트에 맞춰진 AI 생성 채널 믹스와 메시지 프레임워크"
+      },
+      "contentGeneration": {
+        "title": "최상위 채널용 콘텐츠 생성",
+        "description": "가장 성과가 좋은 채널에 최적화된 캠페인 소재를 만드세요"
+      }
+    }
+  },
+  "clientOnboarding": {
+    "title": "이 클라이언트를 위한 인텔리전스를 구축해 봅시다",
+    "subtitle": "먼저 비즈니스와 고객을 이해하는 것부터 시작하세요",
+    "hint": "캠페인과 콘텐츠는 그다음입니다. 먼저 인텔리전스를 구축하세요",
+    "divider": "또는 다른 AI 에이전트 살펴보기",
+    "moreAgentsTitle": "더 많은 AI 마케팅 에이전트",
+    "moreAgentsSubtitle": "이 클라이언트의 마케팅 성공을 지원하는 전문 에이전트",
+    "cards": {
+      "strategy": {
+        "title": "전략부터 시작",
+        "subtitle": "추천 첫 단계",
+        "description": "11개의 전략 프레임워크로 비즈니스를 분석하고 탄탄한 기반을 구축하세요",
+        "cta": "첫 인사이트까지 3분"
+      },
+      "persona": {
+        "title": "고객 이해하기",
+        "subtitle": "상세한 구매자 페르소나 구축",
+        "description": "AI 기반 고객 인사이트로 누구에게 마케팅하는지 파악하세요",
+        "cta": "페르소나 생성까지 5분"
+      },
+      "marketingStrategy": {
+        "title": "마케팅 전략",
+        "subtitle": "시장 진출 계획",
+        "description": "채널 믹스와 메시지 프레임워크를 포함한 종합 마케팅 전략을 만드세요",
+        "cta": "완료까지 7분"
+      }
+    },
+    "agents": {
+      "content": {
+        "name": "콘텐츠 에이전트",
+        "description": "캠페인을 위한 9가지 콘텐츠 생성 도구"
+      },
+      "performance": {
+        "name": "퍼포먼스 인텔리전스",
+        "description": "통합 분석, ROI 및 인사이트"
+      },
+      "competitive": {
+        "name": "경쟁 인텔리전스",
+        "description": "시장 분석 및 경쟁 동향"
+      },
+      "campaignPlanning": {
+        "name": "캠페인 기획",
+        "description": "멀티채널 캠페인 배포"
+      }
+    }
+  },
+  "quickStartModal": {
+    "title": "빠른 시작 - 5분 안에 인텔리전스 생성",
+    "description": "5개의 빠른 질문에 답하면 전략, 페르소나, 마케팅 계획을 생성해 드립니다",
+    "step": "{{total}}단계 중 {{current}}단계",
+    "complete": "{{percent}}% 완료",
+    "back": "뒤로",
+    "next": "다음",
+    "start": "빠른 시작하기",
+    "steps": {
+      "company": {
+        "label": "회사를 소개해 주세요",
+        "placeholder": "예: 원격 팀을 위한 프로젝트 관리 도구를 제공하는 B2B SaaS 회사입니다...",
+        "hint": "무엇을 하는지, 누구를 지원하는지, 무엇이 차별점인지 간단히 설명해 주세요"
+      },
+      "goal": {
+        "label": "가장 중요한 마케팅 목표는 무엇인가요?",
+        "placeholder": "예: 엔터프라이즈 제품에 대해 매월 100개의 유효 리드를 확보하고 싶습니다...",
+        "hint": "리드, 매출, 브랜드 인지도, 제품 출시 등 구체적으로 작성해 주세요"
+      },
+      "audience": {
+        "label": "타깃 고객은 누구인가요?",
+        "placeholder": "예: 팀 협업에 어려움을 겪는 중견 기술 기업(직원 50-500명)의 마케팅 관리자...",
+        "hint": "역할, 회사 규모, 과제, 행동 특성을 설명해 주세요"
+      },
+      "budget": {
+        "label": "월간 마케팅 예산은 얼마인가요?",
+        "placeholder": "예산 범위를 선택하세요",
+        "hint": "적절한 전술과 채널을 추천하는 데 도움이 됩니다",
+        "options": {
+          "bootstrap": "$0 - $1,000 (부트스트랩)",
+          "growing": "$1,000 - $5,000 (성장 단계)",
+          "scaling": "$5,000 - $20,000 (확장 단계)",
+          "enterprise": "$20,000+ (엔터프라이즈)"
+        }
+      },
+      "timeline": {
+        "label": "언제쯤 성과를 보고 싶으신가요?",
+        "placeholder": "일정을 선택하세요",
+        "hint": "원하는 기간에 맞춰 우선 전술을 제안합니다",
+        "options": {
+          "immediate": "즉시 (빠른 성과)",
+          "shortTerm": "1-3개월 (단기 캠페인)",
+          "mediumTerm": "3-6개월 (중기 전략)",
+          "longTerm": "6-12개월 (장기 성장)"
+        }
+      }
+    }
+  },
+  "sme": {
+    "onboarding": {
+      "badge": "시작해 봅시다",
+      "title": "STRAŦUM에 오신 것을 환영합니다",
+      "subtitle": "먼저 인텔리전스를 구축하고, 자신 있게 실행하세요",
+      "hint": "먼저 비즈니스와 고객을 이해하세요. 캠페인은 그다음입니다",
+      "divider": "또는 AI 에이전트 살펴보기",
+      "agentsTitle": "AI 마케팅 에이전트",
+      "agentsSubtitle": "마케팅 성공을 지원하는 7개의 전문 에이전트",
+      "agentCount": "(에이전트 {{count}}개)",
+      "cards": {
+        "strategy": {
+          "badge": "추천",
+          "title": "전략부터 시작",
+          "subtitle": "성공을 위한 기반",
+          "description": "11개의 전략 프레임워크로 비즈니스를 분석하고 탄탄한 기반을 구축하세요",
+          "cta": "첫 인사이트까지 3분"
+        },
+        "persona": {
+          "title": "고객 이해하기",
+          "subtitle": "상세한 구매자 페르소나 구축",
+          "description": "AI 기반 고객 인사이트로 누구에게 마케팅하는지 파악하세요",
+          "cta": "페르소나 생성까지 5분"
+        },
+        "quickStart": {
+          "title": "빠른 시작",
+          "subtitle": "질문 5개에 답하고 전체 전략 받기",
+          "description": "5개의 빠른 질문으로 전략, 페르소나, 마케팅 계획을 생성하세요",
+          "cta": "완료까지 5분"
+        }
+      },
+      "categories": {
+        "foundation": {
+          "name": "기반",
+          "description": "마케팅 인텔리전스를 구축하세요"
+        },
+        "execution": {
+          "name": "실행",
+          "description": "캠페인을 만들고 배포하세요"
+        },
+        "intelligence": {
+          "name": "인텔리전스",
+          "description": "성과를 분석하고 최적화하세요"
+        }
+      },
+      "agents": {
+        "strategy": {
+          "name": "비즈니스 전략",
+          "description": "11개 전략 프레임워크 및 분석"
+        },
+        "persona": {
+          "name": "페르소나 에이전트",
+          "description": "고객 프로파일링 및 인터뷰 모드"
+        },
+        "marketingStrategy": {
+          "name": "마케팅 전략",
+          "description": "시장 진출 및 채널 전략"
+        },
+        "content": {
+          "name": "콘텐츠 에이전트",
+          "description": "9가지 콘텐츠 생성 도구"
+        },
+        "campaignPlanning": {
+          "name": "캠페인 기획",
+          "description": "멀티채널 배포"
+        },
+        "performance": {
+          "name": "퍼포먼스 인텔리전스",
+          "description": "통합 분석, ROI 및 인사이트"
+        },
+        "competitive": {
+          "name": "경쟁 인텔리전스",
+          "description": "시장 분석 및 동향"
+        }
+      },
+      "trust": {
+        "noCreditCard": "신용카드 필요 없음",
+        "dataSecure": "데이터는 안전하게 보호됩니다",
+        "cancelAnytime": "언제든 취소 가능"
+      }
+    }
+  },
+  "buildingMomentum": {
+    "greeting": "{{name}}님, 다시 오신 것을 환영합니다!",
+    "progress": {
+      "label": "진행 상황:",
+      "status": "추진력 구축 중"
+    },
+    "stats": {
+      "activeCampaigns": "활성 캠페인",
+      "savedStrategies": "저장된 전략",
+      "aiInteractions": "AI 상호작용"
+    },
+    "continueSection": {
+      "title": "마지막으로 작업한 곳에서 이어가기",
+      "resumeEditing": "편집 계속하기",
+      "budget": "예산: ${{amount}}",
+      "emptyState": "아직 캠페인이 없습니다. 아래에서 첫 캠페인을 시작하세요!",
+      "createCampaign": "캠페인 만들기"
+    },
+    "campaignStatus": {
+      "active": "활성",
+      "paused": "일시 중지",
+      "draft": "초안",
+      "completed": "완료"
+    }
+  },
+  "scalingUp": {
+    "title": "대시보드",
+    "activeCampaigns": {
+      "title": "활성 캠페인 ({{active}}/{{total}})",
+      "metrics": {
+        "ctrUp": "CTR ↑ {{value}}%",
+        "convUp": "전환 ↑ {{value}}%",
+        "starting": "시작 중..."
+      }
+    },
+    "quickActions": {
+      "title": "빠른 작업",
+      "viewAnalytics": "분석 보기",
+      "createContent": "콘텐츠 만들기",
+      "strategyReview": "전략 검토"
+    },
+    "aiInsights": {
+      "title": "AI 인사이트",
+      "agents": {
+        "content": "콘텐츠 에이전트",
+        "strategy": "전략 에이전트"
+      },
+      "insights": {
+        "holidayPerformance": "연말 캠페인이 기준치를 상회하는 성과를 보이고 있습니다",
+        "competitorGap": "경쟁 공백에서 새로운 기회가 확인되었습니다"
+      }
+    }
+  },
+  "agencyScaling": {
+    "title": "에이전시 대시보드 - 활성 클라이언트 {{count}}개",
+    "campaigns": "캠페인 {{count}}개",
+    "status": {
+      "active": "활성",
+      "paused": "일시 중지"
+    },
+    "quickFilters": {
+      "title": "빠른 필터",
+      "all": "전체",
+      "active": "활성",
+      "needsAttention": "주의 필요",
+      "reportsDue": "보고서 마감"
+    },
+    "priorities": {
+      "title": "이번 주 우선순위",
+      "items": {
+        "strategyReview": "{{client}}: 목요일 전략 검토 미팅",
+        "contentApproval": "{{client}}: 콘텐츠 승인 필요",
+        "monthlyReport": "{{client}}: 월간 보고서 제출 예정"
+      }
+    }
+  }
+}

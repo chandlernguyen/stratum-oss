@@ -1,0 +1,1600 @@
+{
+  "common": {
+    "analyzing": "{{tools}}を使ってリクエストを分析しています...",
+    "complete": "完了",
+    "recommendation": "この分析に基づく推奨事項はこちらです:"
+  },
+  "strategy": {
+    "name": "戦略エージェント",
+    "description": "戦略立案のスペシャリスト",
+    "greeting": "ようこそ。一緒にビジネス課題を整理していきましょう。SWOT、ポーターの5フォース、成長の3つの地平線、ブルーオーシャン戦略など、実績あるフレームワークを使って明確さを見つけ、勝てる戦略を築くお手伝いをします。今日いちばん気になっていることは何ですか？戦略的な問いを掘り下げたり、競争環境を分析したり、いま最も重要なテーマから始めることもできます。",
+    "placeholder": "ビジネス戦略やSWOT分析について質問してください...（例: 「SWOT分析をして」）",
+    "page": {
+      "title": "ビジネス戦略エージェント",
+      "subtitle": "11の実証済みビジネスフレームワークによるAI戦略分析",
+      "defaultSessionTitle": "戦略分析",
+      "features": {
+        "analysis": {
+          "title": "包括的な分析",
+          "description": "SWOT、ポーターの5フォース、BCGマトリクスなど"
+        },
+        "recommendations": {
+          "title": "スマートな提案",
+          "description": "あなたのビジネスに合わせたデータドリブンな洞察"
+        },
+        "frameworks": {
+          "title": "可視化フレームワーク",
+          "description": "インタラクティブな図表と構造化された出力"
+        }
+      }
+    },
+    "hints": {
+      "beginner": {
+        "expandOrSpecialize": {
+          "trigger": "拡大すべきか、特化すべきか？",
+          "smeLabel": "拡大すべきか、特化すべきか？",
+          "agencyLabel": "クライアントは拡大すべきか、特化すべきか？",
+          "tooltip": "成長判断のためのポーターの5フォース + VRIO分析",
+          "description": "戦略的な成長方向の分析"
+        },
+        "swotPricing": {
+          "trigger": "価格設定のSWOTを実行",
+          "smeLabel": "価格設定のSWOTを実行",
+          "agencyLabel": "クライアント価格のSWOTを実行",
+          "tooltip": "実行可能な提案付きの価格設定特化SWOT",
+          "description": "価格戦略の分析"
+        }
+      },
+      "intermediate": {
+        "bcgMatrix": {
+          "trigger": "BCGマトリクス: 3つの製品ラインを評価",
+          "tooltip": "投資提案付きポートフォリオ分析",
+          "description": "製品ポートフォリオ管理"
+        },
+        "blueOcean": {
+          "trigger": "ブルーオーシャン: 未開拓市場を見つける",
+          "tooltip": "ERRCグリッドを使った戦略的差別化",
+          "description": "市場差別化戦略"
+        },
+        "vrio": {
+          "trigger": "VRIO: 競争優位を分析",
+          "tooltip": "資源ベースの競争優位評価",
+          "description": "競争優位分析"
+        },
+        "threeHorizons": {
+          "trigger": "3つの地平線: 成長のバランスを取る",
+          "tooltip": "バランスの取れた成長計画フレームワーク",
+          "description": "成長地平線の計画"
+        }
+      },
+      "expert": {
+        "completeSuite": {
+          "trigger": "戦略フレームワーク一式を実行",
+          "tooltip": "統合インサイト付き4フレーム分析",
+          "description": "包括的な複合フレーム分析"
+        },
+        "mckinsey7s": {
+          "trigger": "McKinsey 7S: 組織整合性",
+          "tooltip": "組織有効性の評価",
+          "description": "組織整合フレームワーク"
+        },
+        "okrs": {
+          "trigger": "次四半期の戦略OKR",
+          "tooltip": "測定可能な成果を伴う目標設計",
+          "description": "戦略OKRフレームワーク"
+        }
+      }
+    }
+  },
+  "persona": {
+    "name": "ペルソナエージェント",
+    "description": "顧客理解のスペシャリスト",
+    "greeting": "理想的な顧客を深く理解するお手伝いをします。詳細なペルソナ作成、購買ジャーニーの整理、インタビュー質問の作成ができます。",
+    "placeholder": "顧客像や購買ジャーニーについて質問してください...（例: 「顧客ペルソナを作成」）",
+    "page": {
+      "title": "顧客ペルソナエージェント",
+      "subtitle": "AIによる顧客プロファイリングと購買ジャーニーマッピング",
+      "defaultSessionTitle": "ペルソナ作成",
+      "tabs": {
+        "newPersona": "新しいペルソナ",
+        "myPersonas": "マイペルソナ"
+      },
+      "session": {
+        "newSession": "新しいセッション"
+      },
+      "features": {
+        "profiles": {
+          "title": "詳細プロフィール",
+          "description": "属性、心理特性、行動特性"
+        },
+        "journey": {
+          "title": "ジャーニーマッピング",
+          "description": "認知から推奨まで、顧客行動を可視化"
+        },
+        "insights": {
+          "title": "行動インサイト",
+          "description": "課題、動機、意思決定要因"
+        }
+      }
+    },
+    "interview": {
+      "pageTitle": "ペルソナインタビュー",
+      "header": {
+        "interviewMode": "インタビューモード",
+        "backToPersonaAgent": "ペルソナエージェントに戻る",
+        "back": "戻る"
+      },
+      "tabs": {
+        "interview": "インタビュー",
+        "liveInsights": "リアルタイムインサイト"
+      },
+      "loading": {
+        "title": "インタビューセッションを読み込み中...",
+        "error": "ペルソナが見つかりません",
+        "returnButton": "ペルソナエージェントに戻る"
+      }
+    }
+  },
+  "marketing_strategy": {
+    "name": "マーケティング戦略エージェント",
+    "description": "Go-to-marketのスペシャリスト",
+    "greeting": "私はあなたのマーケティング戦略エージェントです。あなたのビジネスに合わせた包括的なマーケティング計画を作成します。ビジネスコンテキスト、ペルソナ、目標を分析し、実行可能な戦略、メッセージングフレームワーク、チャネル提案、予算最適化を組み立てます。",
+    "placeholder": "ビジネス、ターゲット顧客、マーケティング目標を説明してください...",
+    "page": {
+      "title": "マーケティング戦略エージェント",
+      "subtitle": "顧客理解とコンテンツ作成の間をつなぐ",
+      "defaultSessionTitle": "マーケティング戦略",
+      "tabs": {
+        "newStrategy": "新しい戦略",
+        "myStrategies": "マイ戦略"
+      },
+      "modes": {
+        "quick": "🚀 クイック戦略モード",
+        "guided": "🎯 ガイド付き計画モード",
+        "chat": "💬 対話チャットモード",
+        "advanced": "⚙️ 詳細設定モード"
+      },
+      "actions": {
+        "changeMode": "モードを変更",
+        "viewAllStrategies": "すべての戦略を見る",
+        "startConversation": "戦略対話を開始"
+      },
+      "activeStrategy": "アクティブ戦略:",
+      "created": "作成日",
+      "loading": "マーケティング戦略エージェントを読み込み中...",
+      "loadingSubtitle": "あなた専用のマーケティング戦略ワークスペースを準備しています。",
+      "startPrompt": "ビジネスについて教えてください。包括的なマーケティング戦略を作成します",
+      "orStartWith": "または、次の文脈から始める:",
+      "contextCards": {
+        "starting": {
+          "title": "立ち上げたばかり",
+          "description": "初期段階ビジネス向けのブートストラップ戦略"
+        },
+        "scaling": {
+          "title": "拡大準備ができている",
+          "description": "成長フェーズ向けの拡大戦略"
+        },
+        "global": {
+          "title": "海外展開する",
+          "description": "国際展開向けの地域戦略"
+        }
+      },
+      "features": {
+        "budget": "どんな予算にも対応",
+        "aiInsights": "AI主導のインサイト",
+        "tactics": "すぐに実行できる施策",
+        "contextAware": "文脈を踏まえた推論",
+        "tradeoffs": "トレードオフを説明",
+        "regional": "地域知見を反映",
+        "iterative": "反復的な改善",
+        "smartBudget": "賢い予算配分",
+        "freeTactics": "無料で使える施策",
+        "dataInsights": "データドリブンな洞察"
+      },
+      "quickStrategy": {
+        "title": "クイック戦略ジェネレーター",
+        "description": "2つの質問に答えるだけで戦略を取得",
+        "budgetQuestion": "月間マーケティング予算はいくらですか？",
+        "goalQuestion": "最優先のマーケティング目標は何ですか？",
+        "generateButton": "戦略を生成する",
+        "cardTitle": "クイック戦略",
+        "cardDescription": "2分で完全な戦略を取得",
+        "features": {
+          "smartBudget": "賢い予算配分",
+          "channelRecs": "チャネル提案",
+          "messagingFramework": "メッセージングフレームワーク",
+          "readyTactics": "すぐ使える施策"
+        }
+      },
+      "guidedPlanning": {
+        "title": "ガイド付き戦略設計",
+        "description": "一緒に段階的にマーケティング戦略を作りましょう",
+        "explanation": "ビジネス、ターゲット顧客、目標について質問しながら、包括的なマーケティング戦略を一緒に作ります。会話形式なので、重要な項目を押さえつつシンプルに進められます。",
+        "startButton": "ガイド付き設計を開始",
+        "cardTitle": "ガイド付き設計",
+        "cardDescription": "ステップごとに作る戦略ビルダー",
+        "features": {
+          "conversational": "会話ベースの進行",
+          "tailored": "状況に合わせた提案",
+          "bestPractice": "ベストプラクティスの案内",
+          "iterative": "反復的な改善"
+        }
+      },
+      "advancedConfig": {
+        "title": "詳細設定",
+        "description": "戦略パラメータを細かく制御",
+        "explanation": "複数ペルソナのターゲティング、独自のチャネル配分、詳細な予算設定、複雑なキャンペーン条件など、戦略のあらゆる要素を設定できます。経験豊富なマーケターや代理店におすすめです。",
+        "openButton": "詳細設定を開く",
+        "cardTitle": "詳細設定",
+        "cardDescription": "すべてのパラメータを完全制御",
+        "features": {
+          "multiPersona": "複数ペルソナ対応",
+          "customChannel": "カスタムチャネル構成",
+          "detailedBudget": "詳細な予算設計",
+          "complexCampaigns": "複雑なキャンペーン"
+        }
+      },
+      "budgetOptions": {
+        "bootstrap": "$0（ブートストラップ）",
+        "under500": "$500未満",
+        "mid": "$500-$2000",
+        "high": "$2000以上"
+      },
+      "goalOptions": {
+        "firstCustomers": "最初の顧客を獲得",
+        "brandAwareness": "ブランド認知を高める",
+        "leadGeneration": "リードを獲得する",
+        "productLaunch": "新製品をローンチする"
+      },
+      "badges": {
+        "quick": "2分",
+        "guided": "10分",
+        "custom": "カスタム"
+      },
+      "header": {
+        "title": "マーケティング戦略設計",
+        "description": "顧客理解とコンテンツ作成の橋渡しをします"
+      },
+      "changeApproach": "進め方を変更",
+      "budget": "予算",
+      "allOptionsNote": "すべての選択肢はメニューからいつでも利用できます。必要に応じてモードを切り替えてください。"
+    }
+  },
+  "content": {
+    "name": "コンテンツエージェント",
+    "description": "コンテンツ制作のスペシャリスト",
+    "greeting": "成果につながる魅力的なコンテンツ作成を支援します。コンテンツアイデアの生成、ブログ草稿、SNS投稿、コンテンツカレンダーの設計が可能です。",
+    "placeholder": "コンテンツのアイデアやブログ記事について質問してください...（例: 「ブログ記事の案を生成して」）",
+    "page": {
+      "title": "コンテンツ制作エージェント",
+      "subtitle": "AIインテリジェンスで支える実践的なコンテンツ生成ツール",
+      "defaultSessionTitle": "コンテンツ制作",
+      "tabs": {
+        "generate": "コンテンツ生成",
+        "myContent": "マイコンテンツ"
+      },
+      "actions": {
+        "changeTool": "ツールを変更",
+        "newSession": "新しいセッション",
+        "startChat": "対話型チャットを開始"
+      },
+      "strategy": {
+        "title": "AI主導のコンテンツ戦略",
+        "subtitle": "ビジネスデータを分析し、最適なコンテンツ戦略を作成しました"
+      },
+      "stats": {
+        "strategy": "戦略",
+        "personas": "ペルソナ",
+        "contentCreated": "作成済みコンテンツ",
+        "recommendations": "提案"
+      },
+      "tools": {
+        "seoBlog": "🔍 SEOブログ生成",
+        "thoughtLeadership": "📈 ソートリーダーシップ作成",
+        "uspContent": "🎯 USP重視コンテンツ生成",
+        "emailDrip": "📧 メールドリップ設計",
+        "socialCalendar": "📅 ソーシャルメディアカレンダー",
+        "chat": "💬 対話型コンテンツ作成"
+      },
+      "quickStart": {
+        "title": "またはチャットから開始",
+        "description": "どのツールを使うべきか迷っていますか？会話から始めれば、ニーズに合った最適なコンテンツ作成をお手伝いします。"
+      },
+      "features": {
+        "multiFormat": {
+          "title": "マルチフォーマット対応",
+          "description": "ブログ、メール、SNS、広告まで対応"
+        },
+        "platform": {
+          "title": "プラットフォーム最適化",
+          "description": "各SNSのベストプラクティスに合わせて最適化"
+        },
+        "brandVoice": {
+          "title": "ブランドボイス維持",
+          "description": "すべてのコンテンツで一貫したトーンとメッセージを保持"
+        },
+        "research": {
+          "title": "リサーチに基づく",
+          "description": "データと実践知に基づいたコンテンツ"
+        },
+        "audience": {
+          "title": "顧客起点",
+          "description": "ターゲットペルソナと目標に合わせて最適化"
+        },
+        "brand": {
+          "title": "ブランド一貫性",
+          "description": "独自の声とスタイルを維持"
+        }
+      },
+      "toolGrid": {
+        "header": {
+          "title": "コンテンツ作成ツールを選択",
+          "subtitle": "AI搭載のコンテンツ生成ツール群から選び、数分で実用的なマーケティング素材を作成します"
+        },
+        "stats": {
+          "activeTools": "利用可能ツール",
+          "contentTypes": "コンテンツタイプ",
+          "avgGeneration": "平均生成時間",
+          "variations": "バリエーション"
+        },
+        "tools": {
+          "seoBlog": {
+            "name": "SEOブログ生成",
+            "description": "キーワード、メタ説明、構造化コンテンツを含むSEO最適化ブログを作成"
+          },
+          "thoughtLeadership": {
+            "name": "ソートリーダーシップ",
+            "description": "業界リーダーとしての立ち位置を築く専門コンテンツや連載を作成"
+          },
+          "uspContent": {
+            "name": "USP重視コンテンツ",
+            "description": "独自の強みや差別化要因を際立たせるコンテンツを生成"
+          },
+          "emailDrip": {
+            "name": "メールドリップキャンペーン",
+            "description": "育成、オンボーディング、エンゲージメント向けのメールシーケンスを設計"
+          },
+          "socialCalendar": {
+            "name": "ソーシャルメディアカレンダー",
+            "description": "複数プラットフォーム向けに1か月分の投稿を企画・生成"
+          },
+          "contentPlan": {
+            "name": "コンテンツ計画生成",
+            "description": "戦略に沿った4週間の包括的なコンテンツカレンダーを作成"
+          },
+          "contentIdeation": {
+            "name": "コンテンツアイデア出し",
+            "description": "トレンドと顧客関心に基づいて創造的な案を生成"
+          },
+          "blogTemplates": {
+            "name": "ブログ作成テンプレート",
+            "description": "さまざまな記事形式に対応する実証済みテンプレートを利用"
+          },
+          "contentAnalysis": {
+            "name": "コンテンツニーズ分析",
+            "description": "コンテンツ戦略の抜け漏れを見つけ、改善提案を提示"
+          }
+        },
+        "badges": {
+          "popular": "人気",
+          "highImpact": "高インパクト",
+          "comingSoon": "近日公開"
+        },
+        "buttons": {
+          "startCreating": "作成を開始"
+        },
+        "cta": {
+          "title": "どこから始めるべきか迷っていますか？",
+          "description": "まずはSEOブログ生成で即効性のある成果を狙うか、メールキャンペーン設計で見込み客を育成しましょう",
+          "seoBlog": "SEOブログを作成",
+          "emailCampaign": "メールキャンペーンを設計"
+        },
+        "recommendations": {
+          "loading": "コンテンツニーズを分析中...",
+          "smartAnalysis": "スマートコンテンツ分析",
+          "clarificationNeeded": "追加情報が必要です",
+          "clarificationMessage": "関連性の高い提案をするために、まずはビジネスをもう少し理解する必要があります",
+          "noRecommendations": {
+            "title": "提案はまだありません",
+            "description": "まずマーケティング戦略を完成させると、パーソナライズされたコンテンツ提案を受け取れます",
+            "cta": "マーケティング戦略を定義"
+          },
+          "priorities": {
+            "title": "あなたのコンテンツ優先事項",
+            "count": "{{count}}件の提案",
+            "count_one": "{{count}}件の提案",
+            "confidence": "確信度{{level}}"
+          },
+          "actions": {
+            "getStarted": "開始する",
+            "expand": "展開",
+            "collapse": "折りたたむ",
+            "startWriting": "執筆を開始",
+            "showLess": "表示を減らす",
+            "showMore": "さらに{{count}}件の提案を表示"
+          },
+          "status": {
+            "completed": "完了",
+            "progress": "{{total}}件中{{completed}}件完了"
+          }
+        }
+      }
+    }
+  },
+  "campaign_planning": {
+    "name": "キャンペーンプランニングエージェント",
+    "description": "展開設計のスペシャリスト",
+    "greeting": "戦略フレームワークと最適化戦略を使ってキャンペーン展開を計画するお手伝いをします。展開計画、A/Bテストの枠組み、マルチチャネル連携のインテリジェンスを提供します。実行そのものは行いません。",
+    "placeholder": "展開計画やA/Bテストについて質問してください...（例: 「展開計画を作って」）",
+    "page": {
+      "title": "キャンペーンプランニングエージェント",
+      "subtitle": "戦略的な展開設計とマルチチャネル連携",
+      "defaultSessionTitle": "キャンペーンプランニング",
+      "features": {
+        "deployment": {
+          "title": "展開設計",
+          "description": "キャンペーン開始のための戦略フレーム"
+        },
+        "testing": {
+          "title": "A/Bテスト",
+          "description": "データドリブンな検証枠組みと最適化"
+        },
+        "coordination": {
+          "title": "マルチチャネル",
+          "description": "全チャネルを連携したキャンペーン設計"
+        }
+      },
+      "plansDisplay": {
+        "title": "キャンペーン計画",
+        "subtitle": "ビジネスコンテキストから導かれたAI主導の展開戦略",
+        "chatForPlans": "カスタム計画をチャットで作る",
+        "badges": {
+          "iceScored": "ICE評価済み",
+          "multiChannel": "マルチチャネル",
+          "deploymentReady": "展開準備完了"
+        },
+        "loading": "ビジネスコンテキストを分析し、戦略的キャンペーン計画を生成しています...",
+        "setupNeeded": {
+          "title": "始めましょう",
+          "button": "セットアップを完了"
+        },
+        "clarificationNeeded": {
+          "title": "追加情報が必要です",
+          "button": "チャットで回答"
+        },
+        "recommended": {
+          "title": "おすすめのキャンペーン計画",
+          "sortInfo": "ICEスコア（Impact × Confidence × Ease）の順で表示",
+          "plansGenerated": "{{count}}件の計画を生成"
+        },
+        "scores": {
+          "impact": "Impact",
+          "confidence": "Confidence",
+          "ease": "Ease",
+          "ice": "ICE"
+        },
+        "details": {
+          "channels": "チャネル",
+          "duration": "期間",
+          "expectedOutcomes": "期待成果",
+          "prerequisites": "前提条件",
+          "riskFactors": "リスク要因"
+        },
+        "actions": {
+          "deployPlan": "この計画を進める",
+          "viewDetails": "詳細を見る",
+          "savePlan": "計画を保存",
+          "saving": "保存中..."
+        },
+        "emptyState": {
+          "title": "キャンペーン計画はまだありません",
+          "description": "まだ計画を生成できませんでした。具体的な目標をエージェントに相談するか、追加のビジネスコンテキストをアップロードしてください。",
+          "button": "エージェントと会話"
+        }
+      },
+      "session": {
+        "newSession": "新しいセッション",
+        "backToPlans": "計画一覧に戻る"
+      },
+      "chatMode": {
+        "title": "キャンペーン実行チャット",
+        "subtitle": "カスタム展開戦略を設計"
+      },
+      "tabs": {
+        "deploymentFramework": "展開フレーム",
+        "deploymentFrameworkShort": "フレーム",
+        "abTesting": "A/Bテスト",
+        "abTestingShort": "テスト",
+        "executionContext": "実行コンテキスト",
+        "executionContextShort": "コンテキスト"
+      }
+    }
+  },
+  "competitive_intelligence": {
+    "name": "競合インテリジェンスエージェント",
+    "description": "市場分析のスペシャリスト",
+    "greeting": "競争環境の理解を支援します。競合分析、市場ギャップの発見、戦略的機会の特定ができます。",
+    "placeholder": "競合や市場分析について質問してください...（例: 「競合を分析して」）",
+    "page": {
+      "title": "競合インテリジェンスエージェント",
+      "subtitle": "市場分析と競争環境インサイト",
+      "defaultSessionTitle": "競合分析",
+      "features": {
+        "competitors": {
+          "title": "競合分析",
+          "description": "競合戦略とポジショニングを深掘り"
+        },
+        "marketGaps": {
+          "title": "市場ギャップ",
+          "description": "市場の未開拓機会を特定"
+        },
+        "opportunities": {
+          "title": "戦略的機会",
+          "description": "競争優位につながる実行可能な示唆"
+        }
+      },
+      "analysisDisplay": {
+        "title": "競合インテリジェンス",
+        "subtitle": "リアルタイムのWeb調査を使った戦略競合分析",
+        "startResearch": "カスタム調査を開始",
+        "searchGrounding": {
+          "title": "Google検索グラウンディング有効",
+          "description": "以下のフレームワークをクリックすると、価格、機能、最近のローンチ、市場ポジショニングなどのリアルタイムデータを用いたAIインサイトを取得できます"
+        },
+        "frameworksTitle": "競合分析フレームワークを選択"
+      },
+      "session": {
+        "newSession": "新しいセッション",
+        "backToAnalysis": "分析に戻る"
+      },
+      "frameworks": {
+        "badges": {
+          "popular": "人気",
+          "competitorsOnly": "競合特化"
+        },
+        "youllGet": "得られる内容:",
+        "difficulty": {
+          "beginner": "初級",
+          "intermediate": "中級",
+          "advanced": "上級"
+        },
+        "setupRequired": {
+          "title": "パーソナライズ分析のためにビジネスプロフィールを設定",
+          "description": "あなたの会社、競合、業界に合わせたAI競合インサイトを取得",
+          "setupButton": "ビジネスプロフィールを設定（2分）",
+          "continueGeneric": "汎用プロンプトで続ける"
+        },
+        "swotAnalysis": {
+          "title": "SWOT分析",
+          "description": "競合の強み、弱み、機会、脅威を分析",
+          "expectedOutcome": "実行可能な競合インサイトを含む包括的なSWOTマトリクス"
+        },
+        "featureComparison": {
+          "title": "機能比較",
+          "description": "製品機能、価格、能力を並べて比較",
+          "expectedOutcome": "競合ギャップを含む詳細な機能比較マトリクス"
+        },
+        "marketPositioning": {
+          "title": "市場ポジショニング",
+          "description": "競合の立ち位置、ターゲット市場、差別化を分析",
+          "expectedOutcome": "差別化機会を含む市場ポジショニングマップ"
+        },
+        "companyIntelligence": {
+          "title": "企業インテリジェンス",
+          "description": "企業規模、資金調達、成長軌道、戦略方向を調査（競合中心）",
+          "expectedOutcome": "戦略インサイトを含む包括的な企業プロフィール"
+        },
+        "pricingAnalysis": {
+          "title": "価格分析",
+          "description": "価格モデル、パッケージ戦略、価値指標を比較",
+          "expectedOutcome": "収益化インサイトを含む価格比較"
+        },
+        "marketGapAnalysis": {
+          "title": "市場ギャップ分析",
+          "description": "十分に対応されていないセグメント、未充足ニーズ、ブルーオーシャン機会を特定（市場中心）",
+          "expectedOutcome": "ブルーオーシャン機会を含む市場ギャップマップ"
+        }
+      }
+    }
+  },
+  "client_success": {
+    "name": "クライアントサクセスエージェント",
+    "description": "継続率向上のスペシャリスト",
+    "greeting": "クライアントを満足させ、成長させ続けるお手伝いをします。顧客健全性の評価、継続施策の設計、アップセル機会の特定が可能です。",
+    "placeholder": "継続施策や顧客健全性について質問してください...（例: 「継続戦略を教えて」）",
+    "page": {
+      "title": "クライアントサクセスエージェント",
+      "subtitle": "顧客継続と拡張戦略",
+      "defaultSessionTitle": "クライアントサクセス分析",
+      "features": {
+        "health": {
+          "title": "健全性スコア",
+          "description": "顧客満足度と関与度を評価"
+        },
+        "retention": {
+          "title": "継続戦略",
+          "description": "離脱を減らす先回りのアプローチ"
+        },
+        "expansion": {
+          "title": "拡張機会",
+          "description": "アップセルとクロスセルの可能性を特定"
+        }
+      }
+    }
+  },
+  "performance_intelligence": {
+    "name": "パフォーマンスインテリジェンスエージェント",
+    "description": "成果追跡のスペシャリスト",
+    "greeting": "キャンペーン横断でマーケティング成果を追跡・分析します。指標の集約、トレンドの特定、実行可能なインサイトの提供が可能です。",
+    "placeholder": "データ分析や指標について質問してください...（例: 「キャンペーン成果を分析して」）",
+    "page": {
+      "title": "パフォーマンスインテリジェンスエージェント",
+      "subtitle": "マーケティング成果の追跡と分析",
+      "defaultSessionTitle": "パフォーマンス分析",
+      "features": {
+        "metrics": {
+          "title": "指標ダッシュボード",
+          "description": "全チャネルの成果データを集約"
+        },
+        "trends": {
+          "title": "トレンド分析",
+          "description": "パターンを見つけ、結果を予測"
+        },
+        "actionable": {
+          "title": "実行可能なインサイト",
+          "description": "最適化のためのデータドリブン提案"
+        }
+      },
+      "dashboard": {
+        "loading": "ダッシュボード指標を読み込み中...",
+        "emptyState": {
+          "title": "キャンペーンデータはまだありません",
+          "description": "キャンペーン指標を取り込むと、ROIの追跡、即効性のある改善点の発見、AI主導のパフォーマンス分析を始められます",
+          "importCsv": "CSVデータを取り込む",
+          "manualEntry": "手動入力"
+        },
+        "capabilities": {
+          "roiAnalysis": {
+            "title": "ROI分析",
+            "description": "キャンペーン横断でROI、ROAS、収益性を算出"
+          },
+          "quickWins": {
+            "title": "クイックウィン",
+            "description": "即効性の高い改善機会を特定"
+          },
+          "performanceAnalytics": {
+            "title": "パフォーマンス分析",
+            "description": "キャンペーン指標とトレンドの詳細分析"
+          },
+          "budgetOptimization": {
+            "title": "予算最適化",
+            "description": "成果データに基づいて予算配分を最適化"
+          }
+        }
+      },
+      "tools": {
+        "title": "パフォーマンスツール",
+        "subtitle": "データ管理、可視化、最適化のための専門ツール",
+        "importData": {
+          "title": "データ取り込み",
+          "description": "あいまいキャンペーン一致に対応したCSV取り込みウィザード"
+        },
+        "manageMetrics": {
+          "title": "キャンペーン指標を管理",
+          "description": "キャンペーン成果データを表示・編集・管理"
+        },
+        "visualize": {
+          "title": "指標を可視化",
+          "description": "成果データのインタラクティブな図表と可視化"
+        },
+        "budgetCalculator": {
+          "title": "予算計算機",
+          "description": "キャンペーン横断で最適な予算配分を算出"
+        },
+        "settings": {
+          "title": "ROI設定",
+          "description": "ROI計算と前提条件を設定"
+        },
+        "historicalPerformance": {
+          "title": "過去実績",
+          "description": "支出、売上、ROIの推移を可視化"
+        },
+        "roiCalculator": {
+          "title": "ROI計算機",
+          "description": "キャンペーンデータから投資対効果を算出"
+        },
+        "manualDataEntry": {
+          "title": "手動データ入力",
+          "description": "単一キャンペーン指標を素早く入力"
+        },
+        "budgetOptimizer": {
+          "title": "予算オプティマイザー",
+          "description": "4つのAIフレームワークで予算配分を最適化"
+        }
+      },
+      "aiAssistant": {
+        "title": "AIパフォーマンスアシスタント",
+        "hasData": "キャンペーンデータについて質問したり、提案を受けたり、特定指標を分析できます",
+        "noData": "ROI計算、予算最適化、パフォーマンス分析のベストプラクティスについて質問して始めましょう"
+      }
+    }
+  },
+  "quick_start": {
+    "name": "クイックスタートエージェント",
+    "description": "包括的なオンボーディングのスペシャリスト",
+    "greeting": "ようこそ。すばやく始めるお手伝いをします。わずか5分で、戦略分析、顧客ペルソナ、完全なマーケティング計画という包括的な基盤を生成します。あなたの回答を実行可能なインテリジェンスに変えていきましょう。",
+    "placeholder": "開始するために、あなたのビジネスについて教えてください...",
+    "page": {
+      "title": "クイックスタートエージェント",
+      "subtitle": "5分で完全なマーケティング基盤を生成",
+      "defaultSessionTitle": "クイックスタート",
+      "features": {
+        "fast": {
+          "title": "5分セットアップ",
+          "description": "数問に答えるだけで完全な戦略を取得"
+        },
+        "comprehensive": {
+          "title": "フル基盤",
+          "description": "戦略、ペルソナ、マーケティング計画をまとめて生成"
+        },
+        "actionable": {
+          "title": "すぐ実行できる",
+          "description": "初日から使える実行可能なインテリジェンス"
+        }
+      }
+    }
+  },
+  "tools": {
+    "get_swot_analysis": "SWOT分析",
+    "get_porters_five_forces": "ポーターの5フォース分析",
+    "get_jobs_to_be_done": "Jobs to Be Doneフレームワーク",
+    "get_business_model_canvas": "ビジネスモデルキャンバス",
+    "get_ice_scoring": "ICE優先順位付けフレームワーク",
+    "get_bcg_matrix": "BCG成長シェアマトリクス",
+    "get_vrio_analysis": "VRIO資源分析",
+    "get_three_horizons": "成長の3つの地平線",
+    "get_blue_ocean_strategy": "ブルーオーシャン戦略キャンバス",
+    "get_mckinsey_7s": "McKinsey 7Sフレームワーク",
+    "get_okr_framework": "OKR（Objectives & Key Results）",
+    "get_persona_context": "ペルソナ調査",
+    "analyze_buyer_journey": "購買ジャーニー分析",
+    "generate_content_brief": "コンテンツブリーフ生成",
+    "analyze_content_gaps": "コンテンツギャップ分析",
+    "generate_gtm_strategy": "Go-to-Market戦略",
+    "analyze_channel_mix": "チャネルミックス分析",
+    "analyze_metrics": "成果指標分析",
+    "calculate_roi": "ROI計算",
+    "plan_campaign": "キャンペーン計画",
+    "analyze_ab_tests": "A/Bテスト分析",
+    "analyze_competitors": "競合分析",
+    "identify_market_gaps": "市場ギャップ特定",
+    "calculate_health_score": "顧客健全性スコア",
+    "identify_retention_risks": "継続リスク分析"
+  },
+  "categories": {
+    "foundation": {
+      "name": "基盤",
+      "description": "マーケティングの土台を築く"
+    },
+    "execution": {
+      "name": "実行",
+      "description": "戦略を行動に移す"
+    },
+    "intelligence": {
+      "name": "インテリジェンス",
+      "description": "最適化と分析"
+    }
+  },
+  "navigation": {
+    "quickStart": "クイックスタート",
+    "strategy": "戦略",
+    "persona": "ペルソナ",
+    "marketingStrategy": "マーケティング戦略",
+    "content": "コンテンツ",
+    "campaignPlanning": "キャンペーン計画",
+    "performanceIntelligence": "パフォーマンスインテリジェンス",
+    "competitiveIntel": "競合インテル",
+    "clientSuccess": "クライアントサクセス",
+    "planningCreation": "設計と制作",
+    "whiteLabel": "ホワイトラベル"
+  },
+  "context": {
+    "companyProfile": {
+      "title": "会社プロフィール",
+      "dataCompleteness": "データ充足度: {{score}}%",
+      "complete": "{{score}}%完了",
+      "basicInfoNeeded": "基本的な会社情報が必要です",
+      "fields": {
+        "website": "ウェブサイト:",
+        "founded": "創業年:",
+        "teamSize": "チーム規模:",
+        "hq": "本社:",
+        "revenue": "売上:",
+        "stage": "ステージ:",
+        "funding": "資金調達:",
+        "industry": "業界:",
+        "companySize": "会社規模:",
+        "businessModel": "ビジネスモデル:",
+        "companyStage": "事業ステージ:",
+        "fundingStatus": "資金調達状況:",
+        "annualRevenue": "年間売上:",
+        "marketingBudget": "マーケティング予算:"
+      },
+      "sections": {
+        "companyDetails": "会社詳細",
+        "technologyStack": "技術スタック",
+        "operatingRegions": "展開地域",
+        "geographicPresence": "地理的プレゼンス",
+        "marketCompetition": "市場と競争",
+        "targetMarketSegments": "ターゲット市場セグメント:",
+        "mainProductsServices": "主要製品/サービス:",
+        "keyCompetitors": "主要競合:",
+        "missionStatement": "ミッション",
+        "coreValues": "コアバリュー"
+      }
+    },
+    "personas": {
+      "title": "顧客ペルソナ",
+      "clickToSeeMore": "矢印をクリックしてさらに{{count}}件のペルソナを表示",
+      "clickToSeeMore_other": "矢印をクリックしてさらに{{count}}件のペルソナを表示",
+      "emptyState": "顧客ペルソナがあると戦略ターゲティングが向上します"
+    },
+    "cards": {
+      "activeCampaign": {
+        "title": "アクティブキャンペーン",
+        "campaignName": "キャンペーン名",
+        "campaignBudget": "キャンペーン予算",
+        "percentSpent": "{{percent}}%消化",
+        "targetAudience": "ターゲットオーディエンス",
+        "objectives": "目標",
+        "startDate": "開始日",
+        "endDate": "終了日",
+        "totalBudget": "総予算",
+        "spentToDate": "消化額",
+        "percentUtilized": "{{percent}}%利用",
+        "channelStrategy": "チャネル戦略",
+        "ownedMedia": "オウンド",
+        "earnedMedia": "アーンド",
+        "paidMedia": "ペイド",
+        "activePlatforms": "アクティブプラットフォーム",
+        "contentThemes": "コンテンツテーマ",
+        "performanceMetrics": "成果指標",
+        "metrics": {
+          "impressions": "インプレッション",
+          "clicks": "クリック",
+          "ctr": "CTR",
+          "conversions": "コンバージョン"
+        },
+        "kpis": "主要KPI",
+        "target": "目標",
+        "campaignObjectives": "キャンペーン目標"
+      },
+      "aiLearning": {
+        "title": "AI学習履歴",
+        "approved": "承認済み",
+        "autoApproved": "自動承認",
+        "total": "合計",
+        "fromSource": "{{source}}から",
+        "confidence": "確信度{{percent}}%",
+        "fields": "{{count}}項目",
+        "identifiedPainPoints": "特定された課題",
+        "opportunities": "機会",
+        "autoExtractedNote": "これらのインサイトは会話と承認済みコンテンツから自動抽出されたものです"
+      },
+      "business": {
+        "title": "ビジネスコンテキスト",
+        "marketingBudget": "マーケティング予算",
+        "revenue": "売上",
+        "businessModel": "ビジネスモデル",
+        "cac": "CAC",
+        "ltv": "LTV",
+        "annualRevenue": "年間売上",
+        "customerAcquisitionCost": "顧客獲得コスト",
+        "customerLifetimeValue": "顧客生涯価値",
+        "uniqueValueProposition": "独自の価値提案",
+        "emptyState": "ビジネスコンテキストがあると、より的確な戦略が作れます"
+      },
+      "market": {
+        "title": "市場フォーカス",
+        "targetMarket": "ターゲット市場",
+        "geographicFocus": "対象地域",
+        "valueProposition": "価値提案",
+        "competingWith": "競合先",
+        "marketSize": "市場規模",
+        "marketPosition": "市場ポジション",
+        "growthStage": "成長ステージ",
+        "seasonalTrends": "季節トレンド",
+        "distributionChannels": "流通チャネル",
+        "competitiveAdvantages": "競争優位",
+        "keyCompetitors": "主要競合",
+        "emptyState": "市場データは機会と脅威の特定に役立ちます"
+      }
+    },
+    "personaCard": {
+      "at": "在籍",
+      "customerPersona": "顧客ペルソナ",
+      "global": "グローバル",
+      "insightsCount": "{{count}}件のインサイト",
+      "satisfaction": "満足度{{score}}%",
+      "location": "所在地",
+      "industry": "業界",
+      "companySize": "会社規模",
+      "revenue": "売上",
+      "goals": "目標",
+      "painPoints": "課題",
+      "personality": "性格特性",
+      "risk": "リスク許容度",
+      "innovation": "イノベーション志向",
+      "decision": "意思決定",
+      "currentTools": "現在のツール",
+      "preferredChannels": "好みのチャネル",
+      "background": "背景",
+      "aiInsights": "AIインサイト",
+      "insightsAvailable": "会話と分析から得られたインサイトがあります"
+    },
+    "intelligentContext": {
+      "title": "インテリジェントコンテキスト",
+      "subtitle": "AIが支えるビジネス理解",
+      "completeness": "{{percent}}%完了",
+      "readyForStrategy": "戦略準備完了",
+      "needsMoreContext": "追加コンテキストが必要",
+      "customerPersonas": "顧客ペルソナ",
+      "morePersonas": "さらに{{count}}件のペルソナ",
+      "personasEmptyState": "まだペルソナがありません。ターゲティング改善のため作成しましょう。",
+      "recentAIInsights": "最近のAIインサイト",
+      "moreInsights": "さらに{{count}}件のインサイト",
+      "startStrategicConversation": "戦略対話を開始",
+      "refineContext": "コンテキストを改善",
+      "guidanceReady": "ビジネスコンテキストの準備が整いました。戦略対話を始めると、パーソナライズされたマーケティング戦略を作成できます。",
+      "guidanceNeedsContext": "より良い戦略提案のため、ビジネスコンテキストを追加してください。"
+    },
+    "alert": {
+      "client": "クライアント:",
+      "campaign": "キャンペーン:",
+      "budget": "予算:",
+      "objectives": "目標:",
+      "switchClient": "クライアントを切り替え",
+      "switchCampaign": "キャンペーンを切り替え"
+    },
+    "intelligentDisplay": {
+      "header": {
+        "title": "AI主導のマーケティング戦略",
+        "subtitle": "ビジネスデータを分析し、最適なマーケティング戦略を作成しました"
+      },
+      "stats": {
+        "dataQuality": "データ品質",
+        "personas": "ペルソナ",
+        "activeCampaign": "アクティブキャンペーン",
+        "aiInsights": "AIインサイト"
+      },
+      "recentLearnings": "最近のAI学習",
+      "continueWork": {
+        "title": "最近の作業を続ける",
+        "viewAll": "すべて表示",
+        "orStartFresh": "または以下から新しく開始"
+      },
+      "actions": {
+        "generateStrategy": "マーケティング戦略を生成",
+        "refineContext": "ビジネスコンテキストを改善"
+      },
+      "helpText": "効果的なマーケティング戦略を生成するには、ビジネス情報をもう少し入力してください。「ビジネスコンテキストを改善」をクリックして不足情報を追加できます。",
+      "promptTemplate": {
+        "intro": "次のビジネスコンテキストに基づいて、包括的なマーケティング戦略の作成を手伝ってください:",
+        "company": "会社",
+        "industry": "業界",
+        "organizationType": "組織タイプ",
+        "targetMarket": "ターゲット市場",
+        "geographicFocus": "対象地域",
+        "businessModel": "ビジネスモデル",
+        "marketingBudget": "マーケティング予算",
+        "customerPersonas": "顧客ペルソナ",
+        "activeCampaign": "アクティブキャンペーン",
+        "campaignBudget": "キャンペーン予算"
+      }
+    },
+    "strategyList": {
+      "loading": "戦略を読み込み中...",
+      "empty": {
+        "title": "戦略はまだありません",
+        "description": "最初のマーケティング戦略を作成して、キャンペーン設計を始めましょう",
+        "createFirst": "最初の戦略を作成"
+      },
+      "types": {
+        "productLaunch": "製品ローンチ",
+        "brandAwareness": "ブランド認知",
+        "leadGeneration": "リード獲得",
+        "customerRetention": "顧客維持",
+        "marketExpansion": "市場拡大"
+      },
+      "actions": {
+        "viewDetails": "詳細を見る",
+        "edit": "編集",
+        "duplicate": "複製",
+        "archive": "アーカイブ",
+        "restore": "復元"
+      },
+      "archived": "アーカイブ済み"
+    },
+    "confirmation": {
+      "title": "新しいビジネスインサイトを検出しました",
+      "subtitle": "会話から次の内容を学習しました。今後の提案精度向上のため保存しますか？",
+      "confidence": "確信度",
+      "from": "{{agentType}}との会話から",
+      "noContext": "この会話から抽出されたビジネスコンテキストはありませんでした。",
+      "placeholder": "複数項目はカンマで区切ってください",
+      "actions": {
+        "editBefore": "保存前に編集",
+        "cancelEdit": "編集をキャンセル",
+        "doneEditing": "編集完了",
+        "dontSave": "保存しない",
+        "saveAll": "すべて保存",
+        "saving": "保存中..."
+      }
+    },
+    "saveStatus": {
+      "saving": "保存中...",
+      "autoSaved": "自動保存済み",
+      "draftSaved": "下書きを保存しました",
+      "saveFailed": "保存に失敗しました",
+      "finalized": "確定済み",
+      "markAsFinal": "最終版として確定",
+      "finalizing": "確定中...",
+      "toast": {
+        "saved": "回答を自動保存しました",
+        "savedDescription": "回答は下書きとして保存されました",
+        "finalized": "アウトプットを確定しました",
+        "finalizedDescription": "このアウトプットは最終版としてマークされました",
+        "viewOutputs": "アウトプットを見る",
+        "failedFinalize": "アウトプットの確定に失敗しました"
+      }
+    },
+    "sidebar": {
+      "tabs": {
+        "history": "履歴",
+        "outputs": "{{name}}"
+      },
+      "newSession": "新しいセッション",
+      "active": "アクティブ",
+      "archived": "アーカイブ済み",
+      "emptyStates": {
+        "noArchived": "アーカイブ済みセッションはありません",
+        "archivedHint": "アーカイブしたセッションはここに表示されます",
+        "viewActive": "アクティブセッションを見る",
+        "noSessions": "{{agentType}}セッションはまだありません",
+        "createFirst": "最初の{{agentType}}セッションを作成",
+        "noOutputs": "{{outputType}}はまだ保存されていません",
+        "startSession": "{{agentType}}セッションを作成して開始しましょう",
+        "startButton": "セッションを開始"
+      },
+      "loadingOutputs": "{{outputType}}を読み込み中...",
+      "showMore": "さらに{{count}}件表示",
+      "showLess": "表示を減らす",
+      "tooltips": {
+        "newAgent": "新しい{{agentName}}"
+      },
+      "collapseSidebar": "サイドバーを折りたたむ",
+      "expandSidebar": "サイドバーを展開",
+      "contextBadges": {
+        "client": "クライアント:",
+        "campaign": "キャンペーン:"
+      },
+      "archivedBadge": "アーカイブ済み",
+      "errors": {
+        "exportFailed": "エクスポートに失敗しました。もう一度お試しください。",
+        "archiveFailed": "アーカイブに失敗しました。もう一度お試しください。"
+      }
+    },
+    "sessionHistory": {
+      "title": "セッション履歴",
+      "newSession": "新しいセッション",
+      "emptyState": {
+        "title": "セッションはまだありません",
+        "description": "会話を始めると最初のセッションが作成されます"
+      },
+      "untitledSession": "無題のセッション",
+      "messageCount": {
+        "singular": "件",
+        "plural": "件"
+      }
+    },
+    "header": {
+      "sessionPrefix": "セッション:",
+      "newSession": "新しいセッション"
+    },
+    "quickStartSave": {
+      "title": "クイックスタートのインテリジェンスを保存しますか？",
+      "description": "包括的なマーケティングインテリジェンス（戦略、ペルソナ、提案）を今後参照できるよう保存します。",
+      "saveButton": "このプランを保存",
+      "hint": "または「このプランを保存」と入力してください"
+    },
+    "personaSave": {
+      "detected": "{{count}}件のペルソナを検出",
+      "detected_other": "{{count}}件のペルソナを検出",
+      "saveAll": "すべて保存",
+      "saving": "保存中...",
+      "saved": "保存済み",
+      "savePersona": "ペルソナを保存",
+      "demographics": "属性",
+      "goals": "目標",
+      "painPoints": "課題",
+      "moreItems": "さらに{{count}}件..."
+    },
+    "strategySave": {
+      "title": "マーケティング戦略を検出しました",
+      "sections": "{{count}}セクション",
+      "campaign": "キャンペーン:",
+      "budget": "予算:",
+      "duration": "期間:",
+      "mediaMix": "メディアミックス:",
+      "objectives": "目標:",
+      "targetPersonas": "対象ペルソナ:",
+      "targetVerticals": "対象業種:",
+      "summary": "要約:",
+      "strategyComponents": "戦略要素:",
+      "moreSections": "さらに{{count}}セクション",
+      "saveTo": "保存先:",
+      "campaignFolder": "キャンペーンフォルダ",
+      "companyOutputs": "会社アウトプット",
+      "saveStrategy": "戦略を保存",
+      "saving": "保存中...",
+      "saved": "保存済み",
+      "viewInOutputs": "アウトプットで見る",
+      "nextHint": "次: コンテンツエージェントで素材を作成"
+    },
+    "actionPlan": {
+      "workflowSuggestions": "スマートワークフロー提案（{{count}}）",
+      "startWorkflow": "ワークフローを開始",
+      "viewAllSuggestions": "{{count}}件の提案をすべて表示",
+      "individualActions": "個別アクション",
+      "match": "一致度{{percent}}%",
+      "impact": "インパクト{{level}}",
+      "nextBestActions": "次に取るべきアクション:",
+      "priority": "優先度{{value}}/10",
+      "confirmTitle": "{{agentName}}で続けますか？",
+      "confirmDescription": "戦略分析から抽出された次のアクション項目に取り組めます:",
+      "relatedTasks": "関連タスク{{count}}件",
+      "relatedTasks_other": "関連タスク{{count}}件",
+      "confidence": "確信度: {{percent}}%",
+      "andMoreTasks": "さらに{{count}}件のタスク...",
+      "stayHere": "ここに留まる",
+      "continueToAgent": "エージェントに進む",
+      "noSuggestions": "ワークフロー提案はありません",
+      "noSuggestionsHint": "より具体的なアクション項目を入力してみてください",
+      "analyzingPlan": "アクションプランを分析中...",
+      "nextStepsAvailable": "次のステップがあります",
+      "start": "開始"
+    },
+    "mobileHistory": {
+      "ariaLabel": "セッション履歴を表示"
+    }
+  },
+  "quickSelector": {
+    "title": "エージェントを選択",
+    "subtitle": "マーケティングインテリジェンスのためのAIツール",
+    "descriptions": {
+      "quickStart": "素早く開始",
+      "strategy": "11フレームワーク",
+      "persona": "顧客プロファイリング",
+      "marketingStrategy": "Go-to-market",
+      "content": "9つの生成ツール",
+      "campaignPlanning": "マルチチャネル展開",
+      "performanceIntelligence": "分析とROI",
+      "competitiveIntel": "市場分析",
+      "clientSuccess": "継続戦略"
+    },
+    "locked": "管理者に連絡"
+  },
+  "chat": {
+    "you": "あなた",
+    "thinking": "考えています...",
+    "retrying": "再試行中（{{current}}/{{max}}）",
+    "clearContext": "コンテキストをクリア",
+    "contextAlert": {
+      "title": "戦略エージェントからのコンテキスト",
+      "actionItems": "対応すべきアクション項目が{{count}}件あります:",
+      "andMore": "さらに{{count}}件...",
+      "prefillNote": "以下の入力欄には、これらの戦略優先事項に基づく推奨プロンプトが事前入力されています。"
+    }
+  },
+  "fileUpload": {
+    "attachFiles": "ファイルを添付",
+    "addToChat": "チャットに追加",
+    "fileTypeHint": "PDFまたはTXT、最大{{maxSize}}MB",
+    "errors": {
+      "unsupportedType": "対応しているのはPDFとTXTのみです",
+      "fileTooLarge": "ファイルが大きすぎます。最大サイズ: {{maxSize}}MB"
+    },
+    "removeFile": "{{filename}}を削除"
+  },
+  "toolLoading": {
+    "running": "{{agentName}}が{{toolName}}を実行中...",
+    "estimatedTime": "通常は{{time}}程度かかります"
+  },
+  "personaChat": {
+    "detected": "検出されたペルソナ: {{name}}",
+    "saveAsPersona": "ペルソナとして保存"
+  },
+  "interview": {
+    "mode": "インタビューモード",
+    "thinking": "考えています...",
+    "placeholder": "{{name}}の体験、ニーズ、課題について尋ねてみてください..."
+  },
+  "personas": {
+    "insightCapture": {
+      "savedTitle": "インサイトを保存しました",
+      "savedDescription": "インサイトはナレッジベースに保存されました",
+      "warningTitle": "警告",
+      "warningDescription": "インサイトが正しく保存されなかった可能性があります",
+      "errorTitle": "保存に失敗しました",
+      "errorDescription": "インサイトの保存に失敗しました: {{error}}",
+      "titleNew": "{{count}}件の新しいインサイト",
+      "titleCount": "{{count}}件のインサイトを取得",
+      "titleSaved": "{{count}}件のインサイトを保存",
+      "title": "ライブインサイト",
+      "analyzing": "分析中...",
+      "listening": "会話からインサイトを取得しています...",
+      "actions": "操作",
+      "saveInsight": "インサイトを保存",
+      "saving": "保存中...",
+      "savedSuccessfully": "保存しました",
+      "saveAll": "すべてのインサイトを保存"
+    },
+    "detector": {
+      "detecting": "ペルソナを検出中...",
+      "errorDetecting": "ペルソナの検出に失敗しました。もう一度お試しください。",
+      "notSpecified": "未指定",
+      "detectedCount": "{{count}}件のペルソナを検出",
+      "detectedCount_other": "{{count}}件のペルソナを検出",
+      "aiDetected": "AI検出",
+      "saved": "保存済み",
+      "industry": "業界",
+      "location": "所在地",
+      "goals": "目標",
+      "painPoints": "課題",
+      "keyQuote": "代表的な発言",
+      "preferredChannels": "好みのチャネル",
+      "saveToLibrary": "ペルソナライブラリに保存"
+    },
+    "form": {
+      "editTitle": "ペルソナを編集",
+      "createTitle": "新しいペルソナを作成",
+      "editDescription": "ペルソナプロフィール情報を更新",
+      "createDescription": "ワークスペースに新しい顧客ペルソナを追加",
+      "tabs": {
+        "basicInfo": "基本情報",
+        "goalsPainPoints": "目標と課題",
+        "toolsWorkflow": "ツールとワークフロー",
+        "personality": "性格",
+        "insights": "インサイト"
+      },
+      "fields": {
+        "name": "名前",
+        "title": "役職",
+        "companyName": "会社名",
+        "industry": "業界",
+        "vertical": "業種区分",
+        "location": "所在地",
+        "companySize": "会社規模",
+        "customerStatus": "顧客ステータス",
+        "satisfactionScore": "満足度スコア",
+        "backgroundStory": "背景ストーリー",
+        "characteristicQuote": "代表的な発言",
+        "techSavviness": "技術理解度",
+        "riskTolerance": "リスク許容度",
+        "innovationAppetite": "イノベーション志向",
+        "responseStyle": "反応スタイル",
+        "tags": "タグ"
+      },
+      "placeholders": {
+        "name": "山田 太郎",
+        "title": "プロジェクトマネージャー",
+        "companyName": "Acme Corporation",
+        "selectIndustry": "業界を選択",
+        "selectVertical": "業種区分を選択",
+        "location": "東京都渋谷区",
+        "companySize": "従業員51-200名",
+        "backgroundStory": "このペルソナの経験や背景を簡潔に記述してください...",
+        "characteristicQuote": "このペルソナの考え方を表す発言...",
+        "addTag": "タグを追加..."
+      },
+      "customerStatuses": {
+        "prospect": "見込み客",
+        "active": "既存顧客",
+        "churned": "離脱顧客",
+        "competitorUser": "競合製品利用者"
+      },
+      "responseStyles": {
+        "casual": "カジュアル",
+        "professional": "プロフェッショナル",
+        "technical": "技術的",
+        "executive": "経営層向け"
+      },
+      "insightsDescription": "このペルソナへのインタビューから集めたインサイトを表示します",
+      "cancel": "キャンセル",
+      "saving": "保存中...",
+      "savePersona": "ペルソナを保存"
+    },
+    "insights": {
+      "title": "ペルソナインサイト",
+      "loading": "インサイトを読み込み中...",
+      "noInsights": "まだインサイトはありません。ペルソナにインタビューして、課題、目標、嗜好に関するインサイトを生成してください。",
+      "topPainPoints": "主要な課題",
+      "personasAffected": "{{count}}件のペルソナに影響",
+      "personasAffected_other": "{{count}}件のペルソナに影響",
+      "personaSpecific": "ペルソナ固有のインサイト",
+      "recentInsights": "最近のインサイト",
+      "autoApproved": "自動承認",
+      "viewAll": "すべてのインサイトを見る",
+      "export": "エクスポート",
+      "applyToCampaign": "キャンペーンに適用",
+      "confirmDelete": "このインサイトを削除してもよろしいですか？",
+      "deleteFailed": "インサイトの削除に失敗しました",
+      "deleteInsight": "インサイトを削除",
+      "close": "閉じる",
+      "modal": {
+        "title": "インサイト詳細",
+        "description": "ペルソナインタビューのインサイトを表示・管理します",
+        "confidence": "確信度",
+        "fullDetails": "詳細全文",
+        "categories": "カテゴリ",
+        "type": "タイプ",
+        "created": "作成日"
+      }
+    },
+    "sidebar": {
+      "title": "ペルソナ",
+      "total": "合計{{count}}件",
+      "loading": "ペルソナを読み込み中...",
+      "new": "新規",
+      "filters": {
+        "all": "すべて",
+        "active": "アクティブ",
+        "archived": "アーカイブ済み"
+      },
+      "archived": "アーカイブ済み",
+      "interview": "インタビュー",
+      "duplicate": "複製",
+      "noPersonasFound": "「{{filter}}」フィルターに一致するペルソナはありません",
+      "deleteTitle": "{{name}}を削除しますか？",
+      "deleteDescriptionArchived": "このアーカイブ済みペルソナは完全に削除されます。",
+      "deleteDescriptionActive": "このペルソナはまずアーカイブされます。後で復元できます。",
+      "deleteConfirm": "ペルソナを削除"
+    }
+  },
+  "toolRenderers": {
+    "common": {
+      "saveToWorkspace": "ワークスペースに保存",
+      "copyText": "テキストをコピー",
+      "copied": "コピーしました！",
+      "copyAll": "すべてコピー",
+      "noItems": "このカテゴリには項目がありません",
+      "noFactors": "要素がありません",
+      "toolOutput": "ツール出力",
+      "clickToViewData": "クリックしてデータを表示"
+    },
+    "analysisReport": {
+      "title": "分析レポート",
+      "summary": "要約",
+      "keyFindings": "主要な発見",
+      "recommendations": "提案"
+    },
+    "bcgMatrix": {
+      "title": "BCG成長シェアマトリクス",
+      "questionMarks": "問題児",
+      "stars": "花形",
+      "dogs": "負け犬",
+      "cashCows": "金のなる木",
+      "highGrowthHighShare": "高成長・高シェア",
+      "lowGrowthHighShare": "低成長・高シェア",
+      "highGrowthLowShare": "高成長・低シェア",
+      "lowGrowthLowShare": "低成長・低シェア",
+      "lowMarketShare": "低市場シェア",
+      "highMarketShare": "高市場シェア",
+      "relativeMarketShare": "相対市場シェア",
+      "portfolioBalance": "ポートフォリオバランス",
+      "investmentPriorities": "投資優先順位",
+      "growth": "成長",
+      "share": "シェア"
+    },
+    "blogPost": {
+      "title": "ブログ記事草稿",
+      "outline": "構成",
+      "body": "本文",
+      "seoKeywords": "SEOキーワード",
+      "exportToCms": "CMSへエクスポート"
+    },
+    "blueOcean": {
+      "title": "ブルーオーシャン戦略キャンバス",
+      "eliminate": "排除",
+      "reduce": "削減",
+      "raise": "引き上げ",
+      "create": "創造",
+      "removeCompletely": "完全に取り除く",
+      "belowIndustry": "業界標準未満",
+      "aboveIndustry": "業界標準以上",
+      "industryNeverOffered": "業界が提供したことがない",
+      "currentRedOcean": "現在のレッドオーシャン",
+      "blueOceanOpportunity": "ブルーオーシャン機会",
+      "valueInnovation": "価値革新戦略"
+    },
+    "businessCanvas": {
+      "title": "ビジネスモデルキャンバス",
+      "keyPartnerships": "主要パートナー",
+      "keyActivities": "主要活動",
+      "keyResources": "主要リソース",
+      "valuePropositions": "価値提案",
+      "customerRelationships": "顧客関係",
+      "channels": "チャネル",
+      "customerSegments": "顧客セグメント",
+      "costStructure": "コスト構造",
+      "revenueStreams": "収益の流れ",
+      "developBusinessPlan": "事業計画を作成"
+    },
+    "buyerJourney": {
+      "title": "購買ジャーニーマップ",
+      "forPersona": "対象ペルソナ: {{name}}",
+      "keyQuestions": "重要な問い:",
+      "contentOpportunities": "コンテンツ機会:",
+      "generateContentIdeas": "コンテンツアイデアを生成"
+    },
+    "contentCalendar": {
+      "title": "コンテンツカレンダー",
+      "dateRange": "{{start}}から{{end}}まで"
+    },
+    "contentIdea": {
+      "title": "コンテンツアイデア",
+      "angle": "切り口",
+      "targetPersona": "対象ペルソナ",
+      "saveIdea": "アイデアを保存",
+      "draftThisPost": "この投稿を下書きにする"
+    },
+    "forecast": {
+      "title": "{{metric}}予測",
+      "forNextPeriod": "次の{{period}}に向けて",
+      "confidence": "確信度: {{level}}%",
+      "assumptions": "前提条件:"
+    },
+    "ice": {
+      "title": "ICE優先順位分析",
+      "noData": "優先順位データはありません",
+      "topPriority": "最優先",
+      "impact": "Impact",
+      "confidence": "Confidence",
+      "ease": "Ease",
+      "overallPriorityScore": "総合優先スコア",
+      "iceFormula": "ICEスコア = (Impact x Confidence x Ease) / 100",
+      "recommendation": "提案",
+      "resourceConsiderations": "リソース上の考慮点",
+      "createActionPlan": "アクションプランを作成",
+      "exportAnalysis": "分析をエクスポート"
+    },
+    "interviewQuestions": {
+      "title": "インタビュー質問",
+      "forValidating": "ペルソナ{{name}}を検証するための質問",
+      "addToGuide": "インタビューガイドに追加"
+    },
+    "jtbd": {
+      "title": "Jobs to Be Done分析",
+      "primaryJobs": "主要ジョブ",
+      "job": "ジョブ{{number}}",
+      "functional": "機能面",
+      "emotional": "感情面",
+      "social": "社会面",
+      "currentSolutions": "現在の代替手段",
+      "underservedJobs": "十分に満たされていないジョブ",
+      "innovationOpportunities": "イノベーション機会",
+      "highOpportunity": "高機会",
+      "goodOpportunity": "有望",
+      "moderateOpportunity": "中程度",
+      "lowOpportunity": "低機会"
+    },
+    "mckinsey7s": {
+      "title": "McKinsey 7Sフレームワーク",
+      "organizationalAlignment": "組織整合スコア",
+      "hardElements": "ハード要素",
+      "softElements": "ソフト要素",
+      "currentState": "現状",
+      "desiredState": "理想状態",
+      "gapAnalysis": "ギャップ分析",
+      "actionRequired": "必要なアクション",
+      "current": "現在",
+      "desired": "理想",
+      "gap": "ギャップ",
+      "action": "アクション",
+      "criticalMisalignments": "重大な不整合",
+      "strategicRecommendations": "戦略提案",
+      "strategy": "戦略",
+      "structure": "組織構造",
+      "systems": "仕組み",
+      "sharedValues": "共有価値観",
+      "style": "スタイル",
+      "staff": "人材",
+      "skills": "スキル",
+      "strategyDesc": "競争優位を実現するための計画",
+      "structureDesc": "組織の構造",
+      "systemsDesc": "日常業務と手順",
+      "sharedValuesDesc": "中核価値観と文化",
+      "styleDesc": "リーダーシップとマネジメントスタイル",
+      "staffDesc": "従業員と能力",
+      "skillsDesc": "中核スキルと能力"
+    },
+    "okr": {
+      "title": "OKRフレームワーク",
+      "successMetrics": "成功指標",
+      "reviewCadence": "レビュー頻度",
+      "companyOkrs": "全社OKR",
+      "teamOkrs": "チームOKR",
+      "objective": "目標{{number}}",
+      "teamObjective": "チーム目標{{number}}",
+      "timeFrame": "期間: {{value}}",
+      "owner": "担当者: {{value}}",
+      "keyResults": "主要結果",
+      "strategicAlignment": "戦略整合"
+    },
+    "optimization": {
+      "title": "最適化機会",
+      "area": "領域: {{value}}",
+      "impact": "インパクト: {{value}}"
+    },
+    "persona": {
+      "title": "顧客ペルソナ",
+      "demographics": "属性",
+      "psychographics": "心理特性",
+      "goals": "目標",
+      "painPoints": "課題",
+      "communicationChannels": "コミュニケーションチャネル",
+      "mapBuyerJourney": "購買ジャーニーを整理"
+    },
+    "porters": {
+      "title": "ポーターの5フォース分析",
+      "threatOfNewEntrants": "新規参入の脅威",
+      "bargainingPowerOfSuppliers": "供給者の交渉力",
+      "industryRivalry": "業界内競争",
+      "bargainingPowerOfBuyers": "買い手の交渉力",
+      "threatOfSubstitutes": "代替品の脅威",
+      "core": "CORE",
+      "lowThreat": "脅威が低い",
+      "moderate": "中程度",
+      "highThreat": "脅威が高い",
+      "low": "低",
+      "high": "高",
+      "viewDetails": "詳細を見る",
+      "generateStrategy": "戦略を生成"
+    },
+    "swot": {
+      "title": "SWOT分析",
+      "strengths": "強み",
+      "weaknesses": "弱み",
+      "opportunities": "機会",
+      "threats": "脅威",
+      "createActionPlan": "アクションプランを作成"
+    },
+    "threeHorizons": {
+      "title": "成長の3つの地平線",
+      "horizon1Title": "地平線1: 既存事業",
+      "horizon1Subtitle": "守り、伸ばす",
+      "horizon2Title": "地平線2: 新たな機会",
+      "horizon2Subtitle": "新しい能力を築く",
+      "horizon3Title": "地平線3: 変革的な賭け",
+      "horizon3Subtitle": "未来の選択肢を作る",
+      "resourceAllocation": "資源配分戦略",
+      "expected": "期待値: {{value}}"
+    },
+    "vrio": {
+      "title": "VRIO分析",
+      "resourceCapability": "資源/能力",
+      "valuable": "価値がある",
+      "rare": "希少",
+      "inimitable": "模倣困難",
+      "organized": "組織化されている",
+      "competitiveImplication": "競争上の示唆",
+      "coreCompetencies": "中核能力",
+      "strategicImplications": "戦略的示唆",
+      "frameworkKey": "VRIOフレームワークの要点:",
+      "valuableDesc": "機会を活かす、または脅威を抑える",
+      "rareDesc": "少数の競合しか保有していない",
+      "inimitableDesc": "模倣が難しい、または高コスト",
+      "organizedDesc": "企業が価値を回収できる体制がある"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Tableau de bord des metriques en temps reel",
+  "subtitle": "Suivi en direct des performances de campagne et des insights",
+  "loading": "Chargement des metriques...",
+  "live": "EN DIRECT",
+  "widget": {
+    "show": "Afficher le widget ROI",
+    "hide": "Masquer le widget ROI"
+  },
+  "cards": {
+    "totalROI": "ROI total",
+    "conversions": "Conversions",
+    "conversionRate": "Taux de conversion",
+    "clickThroughRate": "Taux de clic",
+    "impressions": "Impressions",
+    "budgetRemaining": "Budget restant"
+  },
+  "charts": {
+    "roiTrend": {
+      "title": "Evolution du ROI",
+      "description": "Performance du ROI en temps reel"
+    },
+    "conversionsSpend": {
+      "title": "Conversions et depenses",
+      "description": "Correlation entre depenses et conversions"
+    },
+    "legends": {
+      "conversions": "Conversions",
+      "spend": "Depenses ($)"
+    }
+  },
+  "agents": {
+    "title": "Agents IA actifs",
+    "description": "Optimisent actuellement votre campagne",
+    "status": "Actif",
+    "tip": "Vos agents surveillent et optimisent en continu les performances de campagne en temps reel."
+  },
+  "timePeriods": {
+    "minutes": "{{value}}m",
+    "hours": "{{value}}h",
+    "days": "{{value}}j",
+    "weeks": "{{value}}sem"
+  },
+  "statistics": {
+    "thousand": "{{value}}K",
+    "million": "{{value}}M",
+    "percent": "{{value}}%",
+    "currency": "${{value}}"
+  },
+  "trends": {
+    "up": "En hausse",
+    "down": "En baisse",
+    "stable": "Stable"
+  }
+}

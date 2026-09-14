@@ -1,0 +1,166 @@
+{
+  "title": "プロフィール",
+  "tabs": {
+    "profile": "プロフィール",
+    "intelligence": "ビジネスインテリジェンス",
+    "intelligenceShort": "インテル",
+    "permissions": "権限",
+    "settings": "設定"
+  },
+  "orgType": {
+    "agency": "代理店",
+    "sme": "中小企業"
+  },
+  "roles": {
+    "sme_owner": "中小企業オーナー",
+    "agency_owner": "代理店オーナー",
+    "agency_admin": "代理店管理者",
+    "agency_account_manager": "アカウントマネージャー",
+    "agency_strategist": "シニアストラテジスト",
+    "agency_creative": "クリエイティブチーム",
+    "agency_analyst": "アナリスト",
+    "agency_campaign_manager": "キャンペーンマネージャー",
+    "agency_client_viewer": "クライアント閲覧者",
+    "agency_freelancer": "フリーランサー",
+    "agency_viewer": "閲覧者",
+    "account_manager": "アカウントマネージャー",
+    "client_stakeholder": "クライアント担当者",
+    "client_collaborator": "クライアント共同作業者",
+    "default": "ユーザー"
+  },
+  "deletion": {
+    "title": "アカウントは削除予定です",
+    "deletionDate": "あなたのアカウントは{{date}}に完全に削除されます",
+    "reason": "理由: {{reason}}",
+    "restoreTitle": "アカウントを復元するには:",
+    "restoreDescription": "削除予定日までに{{email}}へ連絡してください。依頼にはメールアドレスとアカウントIDを含めてください。"
+  },
+  "profileInfo": {
+    "title": "プロフィール情報",
+    "subtitle": "個人情報と組織情報を管理します"
+  },
+  "personal": {
+    "title": "個人情報",
+    "displayName": "表示名",
+    "displayNamePlaceholder": "氏名を入力してください",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "phonePlaceholder": "+81 90-1234-5678",
+    "bio": "自己紹介",
+    "bioPlaceholder": "あなたについて教えてください..."
+  },
+  "organization": {
+    "title": "組織情報",
+    "name": "組織名",
+    "nameNote": "（アカウント名）",
+    "type": "組織タイプ",
+    "typeAgency": "マーケティング代理店",
+    "typeSME": "中小企業",
+    "memberSince": "利用開始日",
+    "activeCampaigns": "アクティブなキャンペーン",
+    "campaignCount_one": "{{count}}件のキャンペーン",
+    "campaignCount_other": "{{count}}件のキャンペーン",
+    "website": "会社のウェブサイト"
+  },
+  "permissions": {
+    "title": "アクセス権限",
+    "subtitle": "役割に応じた権限と利用可能な機能",
+    "fullAdmin": {
+      "title": "完全な管理者アクセス",
+      "enabled": "有効",
+      "permissions": [
+        "すべてのクライアントアカウントを管理",
+        "キャンペーンを作成・削除",
+        "すべてのエージェント機能にアクセス",
+        "ホワイトラベル設定を構成",
+        "すべての分析とレポートを閲覧",
+        "チームメンバーを管理",
+        "データをエクスポート・インポート"
+      ]
+    },
+    "businessOwner": {
+      "title": "ビジネスオーナーアクセス",
+      "enabled": "有効",
+      "permissions": [
+        "すべてのAIエージェントにフルアクセス",
+        "キャンペーンを作成・管理",
+        "分析とインサイトを閲覧",
+        "レポートとデータをエクスポート",
+        "チームコラボレーションを管理",
+        "ビジネス設定を構成"
+      ]
+    },
+    "accountManager": {
+      "title": "アカウントマネージャーアクセス",
+      "enabled": "有効",
+      "permissions": [
+        "担当クライアントアカウントを管理",
+        "クライアント向けキャンペーンを作成",
+        "クライアント固有の分析にアクセス",
+        "すべてのAIエージェントを利用",
+        "クライアントレポートをエクスポート",
+        "チームメンバーと連携"
+      ]
+    },
+    "guest": {
+      "title": "ゲストアクセス",
+      "limited": "限定",
+      "permissions": [
+        "キャンペーン結果を閲覧",
+        "承認済みレポートにアクセス",
+        "分析ダッシュボードを閲覧",
+        "エクスポート済みデータをダウンロード"
+      ]
+    },
+    "security": {
+      "title": "セキュリティ対策",
+      "description": "当社はセキュリティのベストプラクティスを実施していますが、アルファ版サービスのため完全な保護は保証できません。詳細はプライバシーポリシーをご確認ください。",
+      "measures": [
+        "データベースの行レベルセキュリティ（RLS）",
+        "マルチテナントのデータ分離",
+        "安全な認証（Supabase Auth）"
+      ]
+    }
+  },
+  "settings": {
+    "title": "アカウント設定",
+    "subtitle": "アカウント設定とセキュリティを管理します",
+    "security": {
+      "title": "セキュリティ",
+      "changePassword": "パスワードを変更",
+      "manageMFA": "二要素認証を管理",
+      "viewLoginActivity": "ログイン履歴を表示",
+      "comingSoon": "近日公開"
+    },
+    "dataPrivacy": {
+      "title": "データとプライバシー",
+      "downloadData": "自分のデータをダウンロード",
+      "downloading": "ダウンロード中...",
+      "deleteAccount": "アカウントを削除"
+    }
+  },
+  "validation": {
+    "fieldEmpty": "項目を空にすることはできません"
+  },
+  "toast": {
+    "notAuthenticated": "認証されていません",
+    "notAuthenticatedDesc": "データをダウンロードするにはログインしてください。",
+    "exportSuccess": "データのエクスポートが完了しました",
+    "exportSuccessDesc": "データはJSONファイルとしてダウンロードされました。",
+    "exportError": "データのエクスポートに失敗しました",
+    "exportErrorDesc": "しばらくしてからもう一度お試しください。"
+  },
+  "insights": {
+    "status": {
+      "approved": "承認済み",
+      "rejected": "却下",
+      "pendingReview": "レビュー待ち"
+    },
+    "time": {
+      "justNow": "たった今",
+      "minutesAgo": "{{count}}分前",
+      "hoursAgo": "{{count}}時間前",
+      "daysAgo": "{{count}}日前"
+    }
+  }
+}

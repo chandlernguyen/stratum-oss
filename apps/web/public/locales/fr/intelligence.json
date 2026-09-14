@@ -1,0 +1,130 @@
+{
+  "pageTitle": {
+    "clientProfile": "Profil client",
+    "businessProfile": "Profil d'entreprise"
+  },
+  "pageDescription": {
+    "client": "Gerez le profil d'entreprise, les guidelines de marque et l'intelligence de {{clientSlug}}",
+    "organization": "Gerez le profil d'entreprise, les guidelines de marque et l'intelligence de votre organisation"
+  },
+  "header": {
+    "title": "Intelligence de l'entreprise",
+    "description": "Votre profil d'entreprise combine les donnees manuelles et les insights appris par l'IA"
+  },
+  "loading": "Chargement de l'intelligence de l'entreprise...",
+  "tabs": {
+    "businessProfile": "Profil d'entreprise",
+    "businessProfileShort": "Profil",
+    "brandGuidelines": "Guidelines de marque",
+    "brandGuidelinesShort": "Marque",
+    "learningHistory": "Historique d'apprentissage",
+    "learningHistoryShort": "Apprentissage"
+  },
+  "alerts": {
+    "newSuggestions": "Vous avez {{count}} nouvelle suggestion IA a relire",
+    "newSuggestions_other": "Vous avez {{count}} nouvelles suggestions IA a relire",
+    "authoritative": "Il s'agit du contexte d'entreprise de reference utilise par tous les agents IA. Cliquez sur Modifier pour mettre a jour une information."
+  },
+  "metrics": {
+    "title": "Metriques d'entreprise apprises par l'IA"
+  },
+  "conflicts": {
+    "title": "Conflits de donnees detectes",
+    "description": "L'IA a repere des informations qui different de vos saisies manuelles",
+    "current": "Actuel",
+    "aiSuggestion": "Suggestion IA",
+    "notSet": "Non defini",
+    "acceptAI": "Accepter la valeur IA",
+    "keepCurrent": "Conserver l'actuel"
+  },
+  "learningHistory": {
+    "title": "Historique d'apprentissage de l'IA",
+    "description": "Suivez ce que l'IA a appris sur votre entreprise au fil du temps",
+    "totalInsights": "Total des insights :",
+    "noInsights": {
+      "title": "Aucun insight IA pour le moment",
+      "description": "Au fil de vos interactions avec les agents marketing, l'IA apprendra a connaitre votre entreprise et fera remonter ici les insights a relire."
+    },
+    "status": {
+      "approved": "Approuve",
+      "autoApproved": "Approuve automatiquement",
+      "pending": "En attente",
+      "rejected": "Rejete"
+    },
+    "filter": {
+      "allAgents": "Tous les agents",
+      "persona": "Insights personas",
+      "strategy": "Insights strategie",
+      "marketing": "Insights marketing",
+      "content": "Insights contenu"
+    },
+    "similar": "similaires",
+    "fieldsExtracted": "{{count}} champs extraits",
+    "confidence": "confiance",
+    "from": "Depuis"
+  },
+  "patterns": {
+    "title": "Patterns transverses entre personas",
+    "mentions": "{{count}} mention(s)",
+    "personas": "{{count}} persona(s)"
+  },
+  "fields": {
+    "companyName": "Nom de l'entreprise",
+    "organizationType": "Type d'organisation",
+    "industry": "Secteur",
+    "companySize": "Taille de l'entreprise",
+    "description": "Description",
+    "targetMarket": "Marche cible",
+    "geography": "Geographie",
+    "businessModel": "Modele economique",
+    "priceRange": "Fourchette de prix",
+    "competitors": "Concurrents",
+    "uniqueValueProposition": "Proposition de valeur unique",
+    "technologyStack": "Stack technologique",
+    "annualRevenue": "Chiffre d'affaires annuel",
+    "growthRate": "Taux de croissance",
+    "marketingBudget": "Budget marketing"
+  },
+  "content": {
+    "notSpecified": "Non precise",
+    "none": "Aucun",
+    "noFieldsAvailable": "Aucun champ disponible",
+    "errorDisplayingFields": "Erreur lors de l'affichage des champs",
+    "noContentAvailable": "Aucun contenu disponible",
+    "noDisplayableContent": "Aucun contenu affichable",
+    "errorDisplayingContent": "Erreur lors de l'affichage du contenu. Actualisez la page et reessayez.",
+    "noInsightSelected": "Aucun insight selectionne"
+  },
+  "dialog": {
+    "extractedFrom": "Extrait d'une conversation avec {{agent}}",
+    "confidence": "Confiance :",
+    "extractedContext": "Contexte d'entreprise extrait :",
+    "edit": "Modifier",
+    "saveChanges": "Enregistrer les modifications",
+    "cancel": "Annuler"
+  },
+  "actions": {
+    "approveApply": "Approuver et appliquer",
+    "reject": "Rejeter",
+    "approveAll": "Approuver tous les similaires",
+    "rejectAll": "Rejeter tous les similaires",
+    "approveThisOnly": "Approuver uniquement celui-ci",
+    "rejectThisOnly": "Rejeter uniquement celui-ci",
+    "bulkNote": "Note : cette action affectera {{count}} insights similaires en attente dans ce groupe.",
+    "orActOnThis": "Ou agir uniquement sur cet insight :"
+  },
+  "aiLearning": {
+    "businessContext": "Contexte d'entreprise",
+    "aiInsight": "Insight IA",
+    "aiAgent": "Agent IA",
+    "similar": "{{count}} similaires",
+    "confidence": "{{value}} % de confiance",
+    "fieldsExtracted": "{{count}} champs extraits",
+    "dialogTitle": "Insight d'apprentissage IA",
+    "extractedFrom": "Extrait d'une conversation avec {{source}}",
+    "confidenceLabel": "Confiance",
+    "extractedBusinessContext": "Contexte d'entreprise extrait",
+    "noContent": "Aucun contenu detaille disponible",
+    "capturedOn": "Capture le {{date}}"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "badge": "Portal de revision de contenido",
+    "defaultClientName": "Tu contenido",
+    "subtitle": "Revisa y aprueba el contenido creado por tu equipo de agencia"
+  },
+  "loading": {
+    "message": "Cargando contenido para revisar..."
+  },
+  "error": {
+    "title": "Error al cargar el contenido",
+    "defaultMessage": "No se pudo cargar el contenido. Intentalo de nuevo."
+  },
+  "tabs": {
+    "pending": "Pendiente",
+    "approved": "Aprobado",
+    "changes": "Cambios"
+  },
+  "stats": {
+    "pending": "Pendiente",
+    "approved": "Aprobado",
+    "changes": "Cambios"
+  },
+  "status": {
+    "draft": "Borrador",
+    "awaitingReview": "Pendiente de revision",
+    "approved": "Aprobado",
+    "changesRequested": "Cambios solicitados",
+    "rejected": "Rechazado"
+  },
+  "outputCard": {
+    "untitledOutput": "Resultado sin titulo",
+    "defaultAgentType": "Contenido",
+    "viewDetails": "Ver detalles",
+    "approve": "Aprobar",
+    "requestChanges": "Solicitar cambios",
+    "approvedByClient": "Aprobado por el cliente",
+    "changesRequestedByClient": "Cambios solicitados por el cliente"
+  },
+  "emptyState": {
+    "pending": {
+      "title": "Todo al dia",
+      "description": "No hay contenido esperando tu revision. Tu agencia te avisara cuando haya contenido nuevo listo.",
+      "hint": "Los nuevos envios apareceran aqui"
+    },
+    "approved": {
+      "title": "Todavia no hay contenido aprobado",
+      "description": "El contenido que apruebes se reunira aqui para que puedas consultarlo y reutilizarlo facilmente.",
+      "hint": "Tu biblioteca de contenido aprobado"
+    },
+    "changes": {
+      "title": "No hay solicitudes de cambio",
+      "description": "Cuando solicites cambios en un contenido, esos elementos apareceran aqui para que puedas hacer seguimiento.",
+      "hint": "Feedback en curso"
+    }
+  }
+}

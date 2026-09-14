@@ -1,0 +1,336 @@
+{
+  "title": "Thư Viện",
+  "subtitle": "Các kết quả phân tích marketing của bạn",
+  "savedOutputs": {
+    "title": "Kết Quả Đã Lưu",
+    "description": "Duyệt và quản lý các kết quả đã lưu. Sử dụng chúng giữa các tác vụ khác nhau để tối ưu hóa quy trình làm việc."
+  },
+  "header": {
+    "badge": "Thư Viện Phân Tích",
+    "title": "Kết Quả Của Bạn",
+    "subtitle": "Tất cả nội dung và phân tích AI tại một nơi",
+    "groupShort": "Nhóm",
+    "select": "Chọn",
+    "cancel": "Hủy",
+    "exportAll": "Xuất Tất Cả",
+    "exportFiltered": "Xuất Đã Lọc",
+    "exportShort": "Xuất"
+  },
+  "bulk": {
+    "itemsSelected": "Đã chọn {{count}} mục",
+    "itemsSelected_other": "Đã chọn {{count}} mục",
+    "exportSelected": "Xuất Mục Đã Chọn",
+    "archiveSelected": "Lưu Trữ Mục Đã Chọn"
+  },
+  "approved": {
+    "title": "Nội Dung Đã Duyệt",
+    "subtitle": "Nguồn nội dung chính thức đã được phê duyệt, sẵn sàng sử dụng hoặc xuất bản.",
+    "subtitleWithClient": "Nội dung đã được phê duyệt cho {{clientName}}, sẵn sàng sử dụng hoặc xuất bản.",
+    "searchPlaceholder": "Tìm kiếm nội dung đã duyệt...",
+    "filterByType": "Lọc theo loại",
+    "allTypes": "Tất Cả Loại",
+    "round": "Vòng {{round}}",
+    "stats": {
+      "totalApproved": "Tổng Đã Duyệt",
+      "thisMonth": "Tháng Này",
+      "contentTypes": "Loại Nội Dung",
+      "avgRounds": "Vòng TB"
+    },
+    "empty": {
+      "title": "Chưa có nội dung nào được duyệt",
+      "description": "Nội dung sẽ xuất hiện ở đây sau khi được xem xét và phê duyệt qua quy trình duyệt.",
+      "noMatch": "Không có nội dung nào phù hợp với bộ lọc. Hãy thử điều chỉnh tìm kiếm hoặc tiêu chí lọc."
+    },
+    "agentTypes": {
+      "businessStrategy": "Chiến Lược Kinh Doanh",
+      "customerPersona": "Chân Dung Khách Hàng",
+      "marketingStrategy": "Chiến Lược Marketing",
+      "content": "Nội Dung",
+      "campaign": "Chiến Dịch",
+      "performance": "Hiệu Suất",
+      "competitiveIntel": "Phân Tích Đối Thủ",
+      "clientSuccess": "Thành Công Khách Hàng"
+    }
+  },
+  "dialog": {
+    "description": "Xem và tương tác với nội dung AI đã lưu",
+    "tabs": {
+      "content": "Nội Dung",
+      "comments": "Bình Luận",
+      "history": "Lịch Sử"
+    },
+    "fields": {
+      "title": "Tiêu Đề"
+    },
+    "generatedBy": "Được tạo bởi {{agent}}",
+    "actions": {
+      "edit": "Chỉnh Sửa",
+      "cancel": "Hủy",
+      "save": "Lưu Thay Đổi",
+      "close": "Đóng",
+      "copy": "Sao Chép",
+      "copied": "Đã Sao Chép!",
+      "export": "Xuất",
+      "exportPDF": "Xuất PDF",
+      "exportText": "Xuất Text",
+      "exportJSON": "Xuất JSON"
+    },
+    "toast": {
+      "pdfStarted": "Đang xuất PDF - kiểm tra thư mục tải xuống",
+      "pdfError": "Xuất PDF thất bại",
+      "textSuccess": "Xuất file text thành công",
+      "textError": "Xuất file text thất bại",
+      "jsonSuccess": "Xuất JSON thành công",
+      "jsonError": "Xuất JSON thất bại",
+      "saveSuccess": "Cập nhật kết quả thành công",
+      "saveError": "Lưu thay đổi thất bại"
+    }
+  },
+  "filters": {
+    "byCategory": "Lọc Theo Danh Mục",
+    "all": "Tất Cả Kết Quả",
+    "strategic": "Chiến Lược",
+    "customer": "Khách Hàng",
+    "content": "Nội Dung",
+    "performance": "Hiệu Suất",
+    "archived": "Đã Lưu Trữ"
+  },
+  "list": {
+    "loading": "Đang tải kết quả...",
+    "empty": "Chưa có kết quả nào",
+    "emptyTitle": "Chưa có kết quả nào được lưu",
+    "emptyTitleFiltered": "Chưa có kết quả {{filterType}} nào",
+    "emptyDescription": "Bắt đầu trò chuyện với các trợ lý AI để tạo và lưu kết quả. Các phân tích của bạn sẽ xuất hiện ở đây.",
+    "emptyDescriptionFiltered": "Tạo kết quả {{filterType}} bằng cách sử dụng các trợ lý phù hợp.",
+    "emptyHint": "Hãy thử trợ lý Chiến Lược hoặc Nội Dung để bắt đầu",
+    "noResults": "Không tìm thấy kết quả phù hợp với tìm kiếm của bạn",
+    "error": "Không thể tải kết quả",
+    "errorTitle": "Lỗi Khi Tải Kết Quả",
+    "errorDescription": "Chúng tôi không thể tải kết quả của bạn. Vui lòng thử lại.",
+    "retry": "Thử Lại",
+    "similarItems": "{{count}} mục tương tự",
+    "similarStrategies": "{{count}} chiến lược tương tự"
+  },
+  "actions": {
+    "export": "Xuất",
+    "exportAll": "Xuất Tất Cả",
+    "archive": "Lưu Trữ",
+    "restore": "Khôi Phục",
+    "delete": "Xóa",
+    "edit": "Chỉnh Sửa",
+    "view": "Xem",
+    "duplicate": "Nhân Bản",
+    "bulkSelect": "Chọn Nhiều",
+    "selectAll": "Chọn Tất Cả",
+    "deselectAll": "Bỏ Chọn Tất Cả"
+  },
+  "grouping": {
+    "enable": "Nhóm Tương Tự",
+    "disable": "Hủy Nhóm",
+    "similarItems": "{{count}} mục tương tự",
+    "showAll": "Hiển thị tất cả"
+  },
+  "sort": {
+    "label": "Sắp xếp theo",
+    "date": "Ngày",
+    "title": "Tiêu đề",
+    "newest": "Mới Nhất Trước",
+    "oldest": "Cũ Nhất Trước",
+    "aToZ": "Tiêu Đề (A-Z)",
+    "zToA": "Tiêu Đề (Z-A)"
+  },
+  "search": {
+    "placeholder": "Tìm kiếm kết quả..."
+  },
+  "card": {
+    "generatedBy": "Được tạo bởi {{agent}}",
+    "createdOn": "Tạo ngày {{date}}",
+    "viewDetails": "Xem Chi Tiết",
+    "markActive": "Đánh Dấu Đang Dùng",
+    "setActive": "Đặt Làm Đang Dùng",
+    "active": "Đang Dùng",
+    "archived": "Đã Lưu Trữ",
+    "copy": "Sao Chép",
+    "export": "Xuất",
+    "archive": "Lưu Trữ",
+    "delete": "Xóa",
+    "restore": "Khôi Phục"
+  },
+  "time": {
+    "justNow": "Vừa xong",
+    "hoursAgo": "{{count}} giờ trước",
+    "yesterday": "Hôm qua"
+  },
+  "activity": {
+    "title": "Lịch Sử Hoạt Động",
+    "loading": "Đang tải hoạt động...",
+    "error": "Không thể tải lịch sử hoạt động",
+    "empty": "Chưa có hoạt động nào được ghi nhận",
+    "unknownActor": "Không rõ",
+    "labels": {
+      "created": "đã tạo",
+      "updated": "đã cập nhật",
+      "archived": "đã lưu trữ",
+      "restored": "đã khôi phục",
+      "deleted": "đã xóa",
+      "approval_requested": "đã yêu cầu phê duyệt",
+      "approved": "đã phê duyệt",
+      "rejected": "đã từ chối",
+      "changes_requested": "đã yêu cầu thay đổi",
+      "published": "đã xuất bản",
+      "unpublished": "đã hủy xuất bản",
+      "viewed": "đã xem",
+      "exported": "đã xuất",
+      "shared": "đã chia sẻ"
+    }
+  },
+  "editors": {
+    "common": {
+      "advancedSettings": "Cài Đặt Nâng Cao",
+      "completeJson": "JSON Đầy Đủ (Nâng Cao)"
+    },
+    "analytics": {
+      "reportInfo": "Thông Tin Báo Cáo Phân Tích",
+      "reportTitle": "Tiêu Đề Báo Cáo",
+      "reportTitlePlaceholder": "Nhập tiêu đề báo cáo",
+      "analyticsSummary": "Tóm Tắt Phân Tích",
+      "analyticsSummaryPlaceholder": "Tổng quan ngắn gọn về các thông tin phân tích",
+      "reportPeriod": "Kỳ Báo Cáo",
+      "reportPeriodPlaceholder": "Q4 2025, 30 ngày qua, v.v.",
+      "targetAudience": "Đối Tượng Mục Tiêu",
+      "targetAudiencePlaceholder": "SME, Agency, v.v.",
+      "tabs": {
+        "keyMetrics": "Chỉ Số Chính",
+        "performance": "Hiệu Suất",
+        "traffic": "Lưu Lượng",
+        "insights": "Thông Tin Chi Tiết"
+      },
+      "pageViews": "Lượt Xem Trang",
+      "conversionRate": "Tỷ Lệ Chuyển Đổi (%)",
+      "bounceRate": "Tỷ Lệ Thoát (%)",
+      "avgSession": "Thời Gian Phiên TB",
+      "performanceOverview": "Tổng Quan Hiệu Suất",
+      "performanceOverviewPlaceholder": "Chi tiết phân tích hiệu suất",
+      "kpis": "Chỉ Số Hiệu Suất Chính",
+      "kpisPlaceholder": "Chi tiết KPI và đo lường",
+      "growthTrends": "Xu Hướng Tăng Trưởng",
+      "growthTrendsPlaceholder": "Phân tích xu hướng tăng trưởng",
+      "trafficAnalysis": "Phân Tích Lưu Lượng",
+      "trafficAnalysisPlaceholder": "Nguồn lưu lượng và phân tích",
+      "channelPerformance": "Hiệu Suất Kênh",
+      "channelPerformancePlaceholder": "Dữ liệu hiệu suất kênh",
+      "userBehavior": "Hành Vi Người Dùng",
+      "userBehaviorPlaceholder": "Thông tin chi tiết hành vi người dùng",
+      "keyInsights": "Thông Tin Chi Tiết Chính (phân cách bằng dấu phẩy)",
+      "keyInsightsPlaceholder": "Lưu lượng tăng 25% so với tháng trước, Chuyển đổi di động cải thiện đáng kể",
+      "recommendations": "Khuyến Nghị (phân cách bằng dấu phẩy)",
+      "recommendationsPlaceholder": "Tối ưu hóa quy trình thanh toán di động, Tăng chi tiêu quảng cáo mạng xã hội",
+      "actionItems": "Hạng Mục Hành Động (phân cách bằng dấu phẩy)",
+      "actionItemsPlaceholder": "A/B test thiết kế trang đích mới, Thiết lập theo dõi chuyển đổi cho di động"
+    },
+    "content": {
+      "portfolioInfo": "Thông Tin Danh Mục Nội Dung",
+      "contentInfo": "Thông Tin Nội Dung",
+      "campaignName": "Tên Chiến Dịch",
+      "campaignNamePlaceholder": "Chiến Dịch Marketing Lễ Hội 2025",
+      "contentSummary": "Tóm Tắt Nội Dung",
+      "contentSummaryPlaceholder": "Tổng quan về chiến lược nội dung và thông điệp chính",
+      "targetAudience": "Đối Tượng Mục Tiêu",
+      "targetAudiencePlaceholder": "SME, người ra quyết định B2B",
+      "contentTheme": "Chủ Đề Nội Dung",
+      "contentThemePlaceholder": "Phát Triển Chuyên Môn, Đổi Mới",
+      "theme": "Chủ Đề/Đề Tài",
+      "themePlaceholder": "Ra mắt sản phẩm, theo mùa, v.v.",
+      "tabs": {
+        "socialMedia": "Mạng Xã Hội",
+        "email": "Email",
+        "advertising": "Quảng Cáo",
+        "longForm": "Nội Dung Dài"
+      },
+      "socialPosts": "Bài Đăng Mạng Xã Hội (Mảng JSON)",
+      "hashtagStrategy": "Chiến Lược Hashtag",
+      "hashtagStrategyPlaceholder": "Chiến lược và khuyến nghị hashtag",
+      "contentCalendar": "Lịch Nội Dung",
+      "contentCalendarPlaceholder": "Lập lịch và kế hoạch nội dung",
+      "totalPosts": "Tổng Số Bài Đăng",
+      "contentPieces": "Số Nội Dung",
+      "emailTemplates": "Mẫu Email (Mảng JSON)",
+      "subjectLines": "Tiêu Đề Email",
+      "subjectLinesPlaceholder": "Tăng ROI của bạn với 5 Chiến Lược này\nĐừng bỏ lỡ: Ưu đãi có thời hạn\nChiến Lược Marketing của bạn cần cập nhật này",
+      "emailSequences": "Chuỗi Email",
+      "emailSequencesPlaceholder": "Chiến lược chuỗi email và quy trình tự động",
+      "totalEmailTemplates": "Tổng Số Mẫu Email",
+      "adCopy": "Nội Dung Quảng Cáo (Mảng JSON)",
+      "headlines": "Tiêu Đề (mỗi dòng một tiêu đề)",
+      "headlinesPlaceholder": "Chuyển Đổi ROI Marketing Của Bạn Ngay Hôm Nay\nHướng Dẫn Tối Ưu Cho Thành Công B2B\nMở Khóa Cơ Hội Tăng Trưởng Ẩn",
+      "creativeAssets": "Tài Nguyên Sáng Tạo",
+      "creativeAssetsPlaceholder": "Mô tả tài nguyên sáng tạo, yêu cầu hình ảnh, đặc tả thiết kế",
+      "totalAdVariants": "Tổng Số Biến Thể Quảng Cáo",
+      "blogPosts": "Bài Blog",
+      "blogPostsPlaceholder": "Chủ đề bài blog, dàn ý và chiến lược nội dung",
+      "articles": "Bài Viết",
+      "articlesPlaceholder": "Bài viết dài và nội dung lãnh đạo tư tưởng",
+      "videoScripts": "Kịch Bản Video",
+      "videoScriptsPlaceholder": "Kịch bản nội dung video và storyboard",
+      "caseStudies": "Nghiên Cứu Điển Hình",
+      "caseStudiesPlaceholder": "Câu chuyện thành công khách hàng và mẫu nghiên cứu điển hình"
+    },
+    "generic": {
+      "editContent": "Chỉnh Sửa Nội Dung {{agentType}}",
+      "tabs": {
+        "structured": "Có Cấu Trúc",
+        "json": "JSON"
+      },
+      "noEditableFields": "Không tìm thấy trường có thể chỉnh sửa",
+      "switchToJson": "Chuyển sang chế độ JSON",
+      "rawJsonContent": "Nội Dung JSON Thô",
+      "enterValidJson": "Nhập JSON hợp lệ...",
+      "jsonError": "Lỗi JSON"
+    },
+    "strategy": {
+      "campaignInfo": "Thông Tin Chiến Dịch",
+      "campaignName": "Tên Chiến Dịch",
+      "tabs": {
+        "messaging": "Thông Điệp",
+        "channels": "Kênh",
+        "budget": "Ngân Sách",
+        "execution": "Thực Hiện"
+      }
+    },
+    "roiBudget": {
+      "financialReportInfo": "Thông Tin Báo Cáo Tài Chính",
+      "tabs": {
+        "budget": "Ngân Sách",
+        "roiAnalysis": "Phân Tích ROI",
+        "performance": "Hiệu Suất",
+        "projections": "Dự Báo"
+      }
+    }
+  },
+  "strategyCard": {
+    "active": "Đang Hoạt Động",
+    "archived": "Đã Lưu Trữ",
+    "archivedOn": "Lưu trữ vào",
+    "reason": "Lý do",
+    "alreadyActive": "Đã Hoạt Động",
+    "markAsActive": "Đánh Dấu Hoạt Động",
+    "copyContent": "Sao Chép Nội Dung",
+    "viewDetails": "Xem Chi Tiết",
+    "archive": "Lưu Trữ",
+    "deletePermanently": "Xóa Vĩnh Viễn",
+    "reach": "Tiếp Cận",
+    "budget": "Ngân Sách",
+    "priority": "Ưu Tiên",
+    "created": "Đã tạo",
+    "activate": "Kích Hoạt"
+  },
+  "comparison": {
+    "title": "So Sánh Chiến Lược",
+    "tabs": {
+      "overview": "Tổng Quan",
+      "messaging": "Thông Điệp",
+      "channels": "Kênh",
+      "budget": "Ngân Sách"
+    }
+  }
+}

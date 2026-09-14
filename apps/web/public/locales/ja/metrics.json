@@ -1,0 +1,55 @@
+{
+  "title": "リアルタイム指標ダッシュボード",
+  "subtitle": "キャンペーン成果をリアルタイムで監視し、示唆を得る",
+  "loading": "指標を読み込み中...",
+  "live": "LIVE",
+  "widget": {
+    "show": "ROIウィジェットを表示",
+    "hide": "ROIウィジェットを隠す"
+  },
+  "cards": {
+    "totalROI": "総ROI",
+    "conversions": "コンバージョン",
+    "conversionRate": "コンバージョン率",
+    "clickThroughRate": "クリック率",
+    "impressions": "インプレッション",
+    "budgetRemaining": "残予算"
+  },
+  "charts": {
+    "roiTrend": {
+      "title": "ROI推移",
+      "description": "時間経過に沿ったリアルタイムROIの推移"
+    },
+    "conversionsSpend": {
+      "title": "コンバージョンと支出",
+      "description": "支出とコンバージョンの相関"
+    },
+    "legends": {
+      "conversions": "コンバージョン",
+      "spend": "支出 ($)"
+    }
+  },
+  "agents": {
+    "title": "稼働中のAIエージェント",
+    "description": "現在キャンペーンを最適化中です",
+    "status": "稼働中",
+    "tip": "エージェントはリアルタイムでキャンペーン成果を監視し、継続的に最適化しています。"
+  },
+  "timePeriods": {
+    "minutes": "{{value}}分",
+    "hours": "{{value}}時間",
+    "days": "{{value}}日",
+    "weeks": "{{value}}週"
+  },
+  "statistics": {
+    "thousand": "{{value}}K",
+    "million": "{{value}}M",
+    "percent": "{{value}}%",
+    "currency": "${{value}}"
+  },
+  "trends": {
+    "up": "上昇傾向",
+    "down": "下降傾向",
+    "stable": "安定"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "page": {
+    "title": "KI-Workflow-Builder",
+    "subtitle": "Agenten verbinden, um leistungsstarke Marketing-Workflows zu erstellen"
+  },
+  "sections": {
+    "workflowBuilder": "Workflow-Builder - Hauptbereich",
+    "aiRecommendations": "KI-Empfehlungen - Seitenleiste"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "generic": "Something went wrong. Please try again.",
+  "network": "Network error. Please check your connection.",
+  "server": "Server error. Please try again later.",
+  "notFound": "Resource not found.",
+  "unauthorized": "You are not authorized to perform this action.",
+  "forbidden": "Access denied.",
+  "timeout": "Request timed out. Please try again.",
+  "sessionExpired": "Your session has expired. Please sign in again.",
+  "validation": {
+    "required": "{field} is required.",
+    "invalid": "Invalid {field}.",
+    "tooShort": "{field} must be at least {min} characters.",
+    "tooLong": "{field} must be at most {max} characters.",
+    "invalidEmail": "Please enter a valid email address.",
+    "invalidPassword": "Password does not meet requirements."
+  },
+  "auth": {
+    "invalidCredentials": "Invalid email or password.",
+    "emailInUse": "This email is already registered.",
+    "accountLocked": "Account temporarily locked. Please try again later.",
+    "tooManyAttempts": "Too many attempts. Please try again later.",
+    "invalidInvitationCode": "Invalid invitation code."
+  },
+  "agent": {
+    "unavailable": "Agent is temporarily unavailable. Please try again.",
+    "toolExecutionFailed": "Failed to execute {tool}. Please try again.",
+    "responseGenerationFailed": "Failed to generate response. Please try again."
+  }
+}

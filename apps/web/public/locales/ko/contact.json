@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "문의하기",
+    "subtitle": "창업자에게 직접 연결됩니다. 당신의 피드백이 STRAŦUM을 만듭니다."
+  },
+  "getInTouch": {
+    "title": "연락하기",
+    "description": "엔터프라이즈급 마케팅 인텔리전스를 복잡함 없이 제공하는 데 집중하는 1인 창업자가 만들었습니다. 지금 가입이 열려 있으니 무료로 시작해보세요.",
+    "wantAccess": "시작할 준비가 되셨나요?",
+    "requestInvitation": "무료 가입",
+    "alphaUsers": "알파 사용자:",
+    "alphaUsersNote": "로그인 후 앱 내 피드백을 이용하세요.",
+    "everyoneElse": "그 외 문의:",
+    "everyoneElseNote": "일반 문의는 이메일로 보내주세요."
+  },
+  "contactMethods": {
+    "title": "문의 방법",
+    "inAppFeedback": {
+      "title": "앱 내 피드백",
+      "badge": "알파 사용자용",
+      "description": "STRAŦUM에 로그인한 상태라면:",
+      "note": "버그 제보와 기능 요청에 가장 적합합니다. 계정 맥락이 함께 전달되어 더 빠르게 대응할 수 있습니다.",
+      "cta": "피드백 제출"
+    },
+    "email": {
+      "title": "이메일",
+      "badge": "모든 사용자용",
+      "description": "일반 질문, 기능 제안, 파트너십 등 어떤 문의든 가능합니다.",
+      "wantAccess": "접근 권한이 필요하신가요?",
+      "requestInvitation": "초대 요청"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "창업자와 연결하고 STRAŦUM의 개발 여정을 확인하세요",
+      "cta": "LinkedIn에서 연결"
+    }
+  },
+  "responseTime": {
+    "title": "응답 시간 및 가능 시간",
+    "commitment": "1인 창업자의 약속:",
+    "responseNote": "모든 메시지는 직접 읽고 1~2영업일 내에 답변합니다. 개발 스프린트 중에는 3~4일까지 걸릴 수 있습니다.",
+    "timezone": "미국 태평양 시간대 기준입니다. 업무 시간: 월요일~금요일 오전 9시~오후 5시 PST."
+  },
+  "partnership": {
+    "title": "파트너십 및 미디어",
+    "description": "전략적 파트너십 또는 미디어 문의는",
+    "subjectNote": "제목에 \"Partnership\" 또는 \"Media\"를 넣어 이메일을 보내주세요."
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "businessContext": {
+    "title": "Bienvenue chez {{orgName}} !",
+    "titleDefault": "Bienvenue sur STRAŦUM !",
+    "subtitle": "Personnalisons votre experience IA avec quelques informations sur votre entreprise",
+    "form": {
+      "industry": {
+        "label": "Secteur",
+        "placeholder": "Selectionnez votre secteur",
+        "required": "*"
+      },
+      "companySize": {
+        "label": "Taille de l'entreprise",
+        "placeholder": "Selectionnez la taille de l'entreprise",
+        "required": "*"
+      },
+      "description": {
+        "label": "Description de l'entreprise",
+        "optional": "(Optionnel)",
+        "placeholder": "Parlez-nous de votre entreprise, de vos produits ou de vos services..."
+      }
+    },
+    "validation": {
+      "requiredFields": "Veuillez selectionner votre secteur et la taille de votre entreprise pour continuer"
+    },
+    "buttons": {
+      "submit": "Commencer",
+      "submitting": "Enregistrement...",
+      "skip": "Passer pour le moment"
+    },
+    "errors": {
+      "organizationNotFound": "Organisation introuvable",
+      "saveFailed": "Impossible d'enregistrer le contexte de l'entreprise"
+    }
+  },
+  "industries": {
+    "advertisingMarketing": "Publicite et marketing",
+    "agricultureFarming": "Agriculture",
+    "automotive": "Automobile",
+    "construction": "Construction",
+    "consulting": "Conseil",
+    "ecommerce": "E-commerce",
+    "education": "Education",
+    "energyUtilities": "Energie et services publics",
+    "entertainmentMedia": "Divertissement et medias",
+    "financeBanking": "Finance et banque",
+    "foodBeverage": "Agroalimentaire",
+    "healthcare": "Sante",
+    "hospitalityTourism": "Hotellerie et tourisme",
+    "insurance": "Assurance",
+    "legalServices": "Services juridiques",
+    "manufacturing": "Industrie manufacturiere",
+    "nonprofit": "Association",
+    "professionalServices": "Services professionnels",
+    "realEstate": "Immobilier",
+    "retail": "Commerce",
+    "saasSoftware": "SaaS / logiciel",
+    "technology": "Technologie",
+    "telecommunications": "Telecommunications",
+    "transportationLogistics": "Transport et logistique",
+    "other": "Autre"
+  },
+  "companySizes": {
+    "1-10": "1-10 employes",
+    "11-50": "11-50 employes",
+    "51-200": "51-200 employes",
+    "201-500": "201-500 employes",
+    "500+": "500+ employes"
+  },
+  "progress": {
+    "step": "Etape {{current}} sur {{total}}",
+    "businessDetails": "Informations entreprise",
+    "complete": "Termine"
+  },
+  "flow": {
+    "stepOf": "Etape {{current}} sur {{total}}",
+    "estimatedTime": "Temps estime : {{time}}",
+    "rewardPreview": "Ce que vous allez obtenir : {{reward}}",
+    "steps": {
+      "welcome": {
+        "title": "Bienvenue dans votre equipe marketing IA !",
+        "description": "Vous avez 9 agents IA specialises prets a transformer votre marketing. Obtenons un premier quick win en moins de 5 minutes.",
+        "estimatedTime": "10 secondes",
+        "reward": "Decouvrir votre equipe IA"
+      },
+      "chooseGoal": {
+        "title": "Quel est votre objectif principal aujourd'hui ?",
+        "description": "Nous vous aiderons a obtenir des resultats immediats selon vos besoins.",
+        "estimatedTime": "30 secondes",
+        "reward": "Recevoir des recommandations personnalisees"
+      },
+      "quickWin": {
+        "title": "Obtenez votre premier quick win",
+        "description": "Choisissez un modele pour voir la puissance du marketing pilote par l'IA.",
+        "estimatedTime": "2-5 minutes",
+        "reward": "Generer une vraie valeur marketing"
+      }
+    },
+    "features": {
+      "aiAgents": {
+        "title": "9 agents IA",
+        "description": "Chacun specialise sur un aspect different du marketing"
+      },
+      "builtForTeams": {
+        "title": "Concu pour les equipes",
+        "description": "Adapte aussi bien aux PME qu'aux agences"
+      },
+      "quickResults": {
+        "title": "Des resultats rapides",
+        "description": "Obtenez des insights utiles en quelques minutes, pas en plusieurs heures"
+      }
+    },
+    "buttons": {
+      "skipTour": "Passer la visite",
+      "skipsLeft": "{{count}} restants",
+      "back": "Retour",
+      "continue": "Continuer",
+      "chooseTemplate": "Choisir un modele",
+      "exploreOnOwn": "Je prefere explorer par moi-meme"
+    }
+  },
+  "quickWin": {
+    "categories": {
+      "all": "Tous",
+      "analysis": "Analyse",
+      "content": "Contenu",
+      "strategy": "Strategie",
+      "growth": "Croissance"
+    },
+    "youllGet": "Vous obtiendrez",
+    "difficulty": {
+      "beginner": "Debutant",
+      "intermediate": "Intermediaire",
+      "advanced": "Avance"
+    },
+    "noTemplates": "Aucun modele disponible pour cette categorie"
+  }
+}

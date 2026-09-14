@@ -1,0 +1,342 @@
+{
+  "privacy": {
+    "pageTitle": "Datenschutzrichtlinie",
+    "lastUpdated": "Zuletzt aktualisiert: 13. Februar 2026",
+    "alphaNotice": {
+      "title": "Hinweis zur Alpha-Phase",
+      "description": "STRAŦUM befindet sich im Alpha-Test. Diese Datenschutzrichtlinie kann sich erheblich ändern. Nutzung auf eigenes Risiko. Wir geben keine Garantien bezüglich Datensicherheit oder Dienstverfügbarkeit."
+    },
+    "sections": {
+      "acceptance": {
+        "number": "1",
+        "title": "Akzeptanz und Geltungsbereich",
+        "intro": "Durch die Nutzung von STRAŦUM während der Alpha-Phase bestätigen Sie, dass:",
+        "items": {
+          "experimental": "Dieser Dienst experimentell ist und \"WIE BESEHEN\" bereitgestellt wird",
+          "dataChange": "Datenerfassungs- und -verarbeitungspraktiken sich ohne Vorankündigung ändern können",
+          "smallTeam": "Wir ein kleines Team mit begrenzten Ressourcen sind",
+          "ownRisk": "Sie diesen Dienst vollständig auf eigenes Risiko nutzen"
+        },
+        "seeTerms": "Für vollständige Bedingungen siehe unsere",
+        "termsLink": "Allgemeinen Geschäftsbedingungen"
+      },
+      "informationCollect": {
+        "number": "2",
+        "title": "Informationen, die wir erheben können",
+        "intro": "Während des Alpha-Tests können wir folgende Daten erheben:",
+        "accountInfo": {
+          "title": "Kontoinformationen",
+          "description": "E-Mail, Name, Organisationsdetails"
+        },
+        "businessContext": {
+          "title": "Geschäftskontext",
+          "description": "Unternehmensinformationen, Marketingziele, Strategien"
+        },
+        "contentCreated": {
+          "title": "Von Ihnen erstellte Inhalte",
+          "description": "Kampagnen, Personas, Marketingpläne"
+        },
+        "technicalData": {
+          "title": "Technische Daten",
+          "description": "Fehler, Nutzungsmuster, Performance"
+        },
+        "note": "Hinweis: Datenerfassungspraktiken können sich im Laufe der Dienstentwicklung ändern."
+      },
+      "howWeUse": {
+        "number": "3",
+        "title": "Wie wir Informationen verwenden",
+        "intro": "Wir verwenden Informationen hauptsächlich, um:",
+        "items": {
+          "provideServices": "Die Dienste bereitzustellen (Authentifizierung, KI-Agenten-Interaktionen, Intelligence-Generierung)",
+          "generateIntelligence": "Marketing-Intelligence und strategische Empfehlungen zu generieren",
+          "fixBugs": "Fehler zu beheben und den Alpha-Dienst zu verbessern",
+          "understandUsage": "Nutzungsmuster zu verstehen, um die Benutzererfahrung zu verbessern",
+          "communicate": "Mit Ihnen über den Dienst zu kommunizieren"
+        },
+        "note": "Wir sind zu klein, um etwas Ausgefallenes mit Ihren Daten zu machen. Wir möchten einfach ein funktionierendes Produkt bauen, das Ihnen bei Marketing-Intelligence hilft."
+      },
+      "thirdParty": {
+        "number": "4",
+        "title": "Drittanbieter-Dienste",
+        "intro": "Wir nutzen diese Dienste (deren Datenschutzrichtlinien gelten):",
+        "services": {
+          "supabase": {
+            "name": "Supabase",
+            "description": "Authentifizierung und Datenspeicherung"
+          },
+          "googleCloud": {
+            "name": "Google Cloud",
+            "description": "Backend-Dienst-Hosting"
+          },
+          "vercel": {
+            "name": "Vercel",
+            "description": "Frontend-Anwendungs-Hosting"
+          },
+          "googleAi": {
+            "name": "Google AI (Gemini)",
+            "description": "Content-Generierung und Intelligence"
+          },
+          "stripe": {
+            "name": "Stripe",
+            "description": "Zahlungsabwicklung und Abonnementverwaltung"
+          },
+          "cloudflare": {
+            "name": "Cloudflare",
+            "description": "Bot-Schutz (Turnstile CAPTCHA)"
+          },
+          "resend": {
+            "name": "Resend",
+            "description": "Transaktionale E-Mail-Zustellung"
+          }
+        },
+        "disclaimer": "Wir sind nicht verantwortlich für die Praktiken oder die Sicherheit von Drittanbieter-Diensten."
+      },
+      "aiUsage": {
+        "number": "5",
+        "title": "KI und Datennutzung",
+        "subtitle": "Wichtige Informationen zur KI-Verarbeitung:",
+        "items": {
+          "sentToGoogle": "Ihre Geschäftsdaten werden zur Verarbeitung und Intelligence-Generierung an Google AI (Gemini) gesendet",
+          "noTraining": "Wir verwenden Ihre Daten nicht zum Training unserer eigenen KI-Modelle",
+          "googlePolicies": "Die KI-Nutzungsrichtlinien von Google gelten für durch deren Dienste verarbeitete Daten",
+          "stored": "Ihre Marketing-Intelligence und Strategien werden in unserer Datenbank für Ihren Zugriff gespeichert"
+        }
+      },
+      "dataIsolation": {
+        "number": "6",
+        "title": "Datenisolierung",
+        "intro": "Wir implementieren Datenisolierung auf Datenbankebene:",
+        "items": {
+          "isolated": "Ihre Geschäftsdaten sind von anderen Organisationen isoliert",
+          "agencySeparation": "Agenturkunden haben vollständige Datentrennung",
+          "rls": "Datenbank-Row-Level-Security (RLS)-Richtlinien erzwingen Zugriffskontrolle"
+        },
+        "note": "Als Alpha-Dienst können wir jedoch keinen vollständigen Schutz gegen alle Sicherheitslücken garantieren."
+      },
+      "limitedSecurity": {
+        "number": "7",
+        "title": "Eingeschränkte Sicherheitsgarantien",
+        "disclaimerTitle": "WICHTIGER HAFTUNGSAUSSCHLUSS",
+        "intro": "Als Alpha-Dienst mit begrenzten Ressourcen können wir nicht garantieren:",
+        "items": {
+          "completeSecurity": "Vollständige Datensicherheit",
+          "breachProtection": "Schutz gegen alle Sicherheitsverletzungen",
+          "dataBackup": "Datensicherung oder -wiederherstellung in allen Szenarien",
+          "availability": "Dienstverfügbarkeit oder Betriebszeit",
+          "migrationProtection": "Verhinderung von Datenverlust bei Datenbankmigrationen"
+        },
+        "warning": "Nutzen Sie diesen Dienst auf eigenes Risiko. Laden Sie keine hochsensiblen oder vertraulichen Geschäftsinformationen hoch."
+      },
+      "yourRights": {
+        "number": "8",
+        "title": "Ihre Rechte (Eingeschränkt während der Alpha-Phase)",
+        "tryToHelp": "Wir werden versuchen, bei Folgendem zu helfen:",
+        "helpItems": {
+          "deleteAccount": "Löschung Ihres Kontos auf Anfrage",
+          "updateInfo": "Aktualisierung grundlegender Informationen",
+          "accessData": "Bereitstellung des Zugangs zu Ihren Daten"
+        },
+        "cannotGuarantee": "Während der Alpha-Phase können wir jedoch nicht garantieren:",
+        "limitedItems": {
+          "export": "Vollständige Datenexport-Funktionalität",
+          "deletion": "Vollständige Datenlöschung aus allen Systemen und Backups",
+          "timeliness": "Zeitnahe Antworten auf Datenanfragen"
+        }
+      },
+      "dataRetention": {
+        "number": "9",
+        "title": "Datenspeicherung",
+        "intro": "Während der Alpha-Phase:",
+        "items": {
+          "active": "Wir speichern Daten, solange Ihr Konto aktiv ist",
+          "migrations": "Wir können Daten bei Datenbankmigrationen oder -zurücksetzungen löschen",
+          "backups": "Gelöschte Daten können für einen angemessenen Zeitraum in Backups bestehen bleiben",
+          "noGuarantee": "Wir geben keine Garantien für Datenpersistenz während der Alpha-Phase"
+        }
+      },
+      "noWarranty": {
+        "number": "10",
+        "title": "Keine Gewährleistung oder Haftung",
+        "intro": "Wie in unseren",
+        "termsLink": "Allgemeinen Geschäftsbedingungen",
+        "items": {
+          "asIs": "Dienst wird \"WIE BESEHEN\" ohne Gewährleistungen bereitgestellt",
+          "notLiable": "Wir haften nicht für Datenverlust oder Sicherheitsverletzungen",
+          "noAvailability": "Keine Garantie für Dienstverfügbarkeit",
+          "assumeRisk": "Sie tragen alle Risiken der Nutzung eines Alpha-Dienstes"
+        }
+      },
+      "changes": {
+        "number": "11",
+        "title": "Änderungen ohne Vorankündigung",
+        "description": "Diese Datenschutzrichtlinie kann jederzeit ohne Vorankündigung geändert werden. Die fortgesetzte Nutzung des Dienstes gilt als Akzeptanz jeglicher Änderungen. Überprüfen Sie diese Seite regelmäßig."
+      },
+      "contact": {
+        "number": "12",
+        "title": "Kontakt",
+        "description": "Fragen? Schreiben Sie uns an",
+        "note": "(aber denken Sie daran, wir sind ein kleines Team und Antworten können sich verzögern)."
+      }
+    },
+    "tldr": {
+      "label": "Zusammenfassung:",
+      "text": "Dies ist ein Alpha-Dienst. Wir sind ein kleines Team. Wir geben unser Bestes, aber versprechen nichts. Laden Sie keine hochsensiblen Informationen hoch. Nutzung auf eigenes Risiko."
+    },
+    "navigation": {
+      "returnHome": "Zur Startseite",
+      "termsConditions": "Allgemeine Geschäftsbedingungen"
+    }
+  },
+  "terms": {
+    "pageTitle": "Allgemeine Geschäftsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: 13. Februar 2026",
+    "alphaNotice": {
+      "title": "Hinweis zum Alpha-Programm",
+      "description": "STRAŦUM befindet sich derzeit in der Alpha-Programm-Phase. Das bedeutet, dass sich der Dienst noch weiterentwickelt und erhebliche Änderungen erfahren kann, einschließlich Funktionen, Funktionalität und Datenbankstruktur."
+    },
+    "sections": {
+      "introduction": {
+        "number": "1",
+        "title": "Einleitung",
+        "welcome": "Willkommen bei STRAŦUM (\"wir\", \"unser\" oder \"uns\"). Diese Allgemeinen Geschäftsbedingungen regeln Ihre Nutzung unserer Website, Produkte und Dienste (zusammen die \"Dienste\").",
+        "agreement": "Durch den Zugang zu oder die Nutzung der Dienste stimmen Sie diesen Bedingungen zu. Wenn Sie mit einem Teil dieser Bedingungen nicht einverstanden sind, dürfen Sie die Dienste nicht nutzen.",
+        "alphaStatus": "Alpha-Status: STRAŦUM befindet sich derzeit in einem Alpha-Programm. Durch Ihre Teilnahme bestätigen Sie, dass die Dienste noch in der Entwicklung sind und kein fertiges Produkt darstellen."
+      },
+      "alphaProgram": {
+        "number": "2",
+        "title": "Alpha-Programm",
+        "intro": "Als Teilnehmer des Alpha-Programms verstehen und akzeptieren Sie Folgendes:",
+        "items": {
+          "bugs": "Die Dienste können Fehler oder andere Probleme enthalten, die die Funktionalität beeinträchtigen können",
+          "changes": "Wir können erhebliche Änderungen an den Diensten ohne vorherige Ankündigung vornehmen",
+          "downtime": "Die Dienste können Ausfallzeiten oder Leistungsprobleme erfahren",
+          "database": "Datenbankstrukturen können sich ändern, was gespeicherte Daten beeinflussen kann",
+          "resets": "Wir können Datenbanken während der Entwicklung zurücksetzen, was zu Datenverlust führen kann",
+          "pricing": "Preise, Pläne und Funktionen können sich vor der offiziellen Veröffentlichung ändern"
+        }
+      },
+      "accountRegistration": {
+        "number": "3",
+        "title": "Kontoregistrierung",
+        "responsibilitiesTitle": "Ihre Verantwortlichkeiten:",
+        "responsibilities": {
+          "accurate": "Genaue, aktuelle und vollständige Registrierungsinformationen angeben",
+          "updated": "Ihre Informationen aktuell halten",
+          "safeguard": "Ihr Passwort schützen",
+          "strongPasswords": "Sichere Passwörter verwenden (Groß-/Kleinbuchstaben, Zahlen, Sonderzeichen)"
+        }
+      },
+      "aiDisclaimer": {
+        "number": "4",
+        "title": "Haftungsausschluss für KI-generierte Inhalte",
+        "responsibilityTitle": "Keine Verantwortung für Ergebnisse",
+        "intro": "STRAŦUM nutzt KI zur Generierung von Marketing-Intelligence. Wir lehnen ausdrücklich die Verantwortung ab für:",
+        "items": {
+          "accuracy": "Richtigkeit, Vollständigkeit oder Zuverlässigkeit generierter Inhalte",
+          "errors": "Sachliche Fehler oder falsche Darstellungen",
+          "appropriateness": "Eignung für Ihre spezifischen Geschäftszwecke",
+          "actions": "Maßnahmen, die Sie auf Grundlage generierter Inhalte ergreifen",
+          "decisions": "Geschäftsentscheidungen, die unter Verwendung unserer Frameworks getroffen werden",
+          "claims": "Ansprüche, die aus Ihrer Nutzung generierter Inhalte entstehen"
+        },
+        "responsibility": "Sie sind allein dafür verantwortlich, alle Inhalte vor der Verwendung zu prüfen und zu validieren."
+      },
+      "userResponsibilities": {
+        "number": "5",
+        "title": "Benutzerverantwortlichkeiten",
+        "intro": "Bei der Nutzung unserer Dienste verpflichten Sie sich, nicht:",
+        "items": {
+          "laws": "Gegen geltende Gesetze oder Vorschriften zu verstoßen",
+          "ip": "Geistige Eigentumsrechte anderer zu verletzen",
+          "unauthorized": "Unbefugten Zugriff auf Teile der Dienste zu versuchen",
+          "illegal": "Illegale, schädliche oder anstößige Inhalte zu generieren",
+          "impersonate": "Personen oder Einrichtungen nachzuahmen",
+          "interfere": "Die Dienste zu stören oder zu beeinträchtigen"
+        }
+      },
+      "intellectualProperty": {
+        "number": "6",
+        "title": "Geistiges Eigentum",
+        "yourContent": {
+          "title": "Ihre Inhalte",
+          "description": "Sie behalten alle Rechte an den von Ihnen eingereichten Inhalten. Sie gewähren uns eine nicht-exklusive, weltweite, gebührenfreie Lizenz zur Nutzung Ihrer Inhalte ausschließlich zur Bereitstellung und Verbesserung der Dienste."
+        },
+        "generatedContent": {
+          "title": "Generierte Inhalte",
+          "description": "Sie erhalten eine nicht-exklusive, weltweite, gebührenfreie Lizenz zur Nutzung, Änderung und Verbreitung von durch unsere Dienste generierten Inhalten für jeden Zweck."
+        },
+        "ourIp": {
+          "title": "Unser geistiges Eigentum",
+          "description": "Die Dienste und ihre Originalinhalte sind unser Eigentum, geschützt durch Urheberrecht, Markenrecht und andere Gesetze."
+        }
+      },
+      "noRefund": {
+        "number": "7",
+        "title": "Keine Rückerstattung",
+        "headline": "ALLE KÄUFE SIND ENDGÜLTIG",
+        "intro": "Alle Käufe sind endgültig und nicht erstattungsfähig:",
+        "items": {
+          "noRefund": "Keine Rückerstattung, Gutschrift oder Entschädigung unter jeglichen Umständen",
+          "regardless": "Gilt unabhängig von der Dienstnutzung",
+          "evenTechnical": "Gilt auch bei technischen Problemen oder Unzufriedenheit"
+        },
+        "alphaNote": "Alle Pläne beinhalten eine 30-tägige kostenlose Testphase. Nach der Testphase wird Ihr Abonnement gemäß Ihrem gewählten Plan abgerechnet."
+      },
+      "dataPrivacy": {
+        "number": "8",
+        "title": "Datenerhebung und Datenschutz",
+        "description": "Wir erheben und verarbeiten personenbezogene Daten wie in unserer beschrieben",
+        "privacyLink": "Datenschutzrichtlinie",
+        "consent": "Durch die Nutzung unserer Dienste stimmen Sie dieser Verarbeitung zu.",
+        "feedbackNote": "Feedback und Verbesserung: Als Teilnehmer des Alpha-Programms bestätigen Sie, dass wir Nutzungsdaten, Fehlerberichte und Ihr Feedback sammeln können, um die Dienste zu verbessern."
+      },
+      "limitationLiability": {
+        "number": "9",
+        "title": "Haftungsbeschränkung",
+        "intro": "Im gesetzlich maximal zulässigen Umfang haften wir nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, einschließlich:",
+        "items": {
+          "losses": "Verlust von Gewinnen, Daten, Nutzung, Geschäftswert oder anderen immateriellen Verlusten",
+          "inability": "Unfähigkeit, auf die Dienste zuzugreifen oder sie zu nutzen",
+          "generatedContent": "Jegliche durch die Dienste generierten Inhalte",
+          "unauthorized": "Unbefugter Zugriff auf oder Änderung Ihrer Daten"
+        },
+        "alphaNote": "Alpha-Programm-spezifisch: Wir haften nicht für Schäden, die aus dem Alpha-Charakter der Dienste entstehen, einschließlich Änderungen, Datenbankzurücksetzungen oder Einstellung von Funktionen."
+      },
+      "disclaimerWarranties": {
+        "number": "10",
+        "title": "Gewährleistungsausschluss",
+        "asIs": "Die Dienste werden \"WIE BESEHEN\" und \"WIE VERFÜGBAR\" bereitgestellt.",
+        "disclaim": "Wir schließen ausdrücklich alle Gewährleistungen aus, ausdrückliche oder stillschweigende, einschließlich Marktgängigkeit, Eignung für einen bestimmten Zweck und Nichtverletzung.",
+        "noWarranty": "Wir übernehmen keine Gewähr dafür, dass die Dienste Ihren Anforderungen entsprechen, ununterbrochen, sicher oder fehlerfrei verfügbar sind oder dass Mängel behoben werden."
+      },
+      "termination": {
+        "number": "11",
+        "title": "Kündigung",
+        "weTerminate": "Wir können Ihr Konto und den Zugang zu den Diensten sofort, ohne vorherige Ankündigung oder Haftung, aus beliebigem Grund kündigen oder sperren, einschließlich bei Verstoß gegen die Bedingungen.",
+        "uponTermination": "Bei Kündigung erlischt Ihr Recht zur Nutzung der Dienste sofort. Um Ihr Konto zu kündigen, stellen Sie die Nutzung der Dienste ein oder kontaktieren Sie uns zur Kontolöschung."
+      },
+      "changesToTerms": {
+        "number": "12",
+        "title": "Änderungen der Bedingungen",
+        "description": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Bei wesentlichen Änderungen werden wir mindestens 30 Tage vorher informieren.",
+        "alphaNote": "Während der Alpha-Phase: Wir können die Bedingungen häufiger aktualisieren, da sich die Dienste weiterentwickeln. Die fortgesetzte Nutzung gilt als Akzeptanz der Änderungen."
+      },
+      "governingLaw": {
+        "number": "13",
+        "title": "Anwendbares Recht",
+        "description": "Diese Bedingungen unterliegen den Gesetzen der Vereinigten Staaten, ohne Berücksichtigung von Kollisionsnormen.",
+        "disputeTitle": "Streitbeilegung:",
+        "dispute": "Jede Streitigkeit wird durch bindende Schiedsgerichtsbarkeit gemäß den Regeln der American Arbitration Association beigelegt. Das Schiedsverfahren wird online per Videokonferenz durchgeführt."
+      },
+      "contactUs": {
+        "number": "14",
+        "title": "Kontaktieren Sie uns",
+        "description": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter"
+      }
+    },
+    "navigation": {
+      "returnHome": "Zur Startseite",
+      "privacyPolicy": "Datenschutzrichtlinie"
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "pageTitle": "에이전시 모범 운영 가이드",
+  "pageSubtitle": "5개 이상의 클라이언트를 효율적으로 관리할 수 있도록 STRAŦUM을 익히세요",
+  "backButton": "뒤로",
+  "privateAlpha": {
+    "title": "STRAŦUM에 오신 것을 환영합니다",
+    "description": "현재 STRAŦUM의 <strong>무료 요금제</strong>를 사용하고 있습니다. 플랫폼은 계속 구축되고 개선되고 있으며, 여러분의 피드백이 다음 방향을 만듭니다.",
+    "protectWork": "모범 운영",
+    "protectWorkItems": {
+      "databaseReset": "중요한 작업은 백업 습관처럼 정기적으로 내보내기 하세요",
+      "downloadData": "<strong>가치 있는 데이터는 정기적으로 다운로드하세요</strong> (전략, 콘텐츠, 인사이트)",
+      "useExport": "콘텐츠 에이전트와 결과물 허브의 내보내기 버튼을 사용하세요",
+      "feedbackValue": "여러분의 피드백이 제품을 만듭니다. 정말 큰 도움이 됩니다!"
+    },
+    "questionsTitle": "질문이나 피드백이 있으신가요?",
+    "questionsDescription": "오른쪽 상단의 프로필 사진을 클릭한 뒤 <strong>\"피드백 보내기\"</strong>를 선택하세요. 모든 메시지를 읽고 STRAŦUM을 개선하는 데 활용합니다."
+  },
+  "introduction": {
+    "title": "소개",
+    "description": "STRAŦUM에 오신 것을 환영합니다! 이 가이드는 여러 클라이언트를 효율적으로 관리하고 AI 기반 인텔리전스를 통해 뛰어난 결과를 제공하려는 마케팅 에이전시를 위한 모범 운영 방식을 안내합니다."
+  },
+  "clientOnboarding": {
+    "title": "클라이언트 온보딩 전략",
+    "firstClientSetup": "첫 클라이언트 설정 (15-20분)",
+    "steps": {
+      "addClient": "<strong>클라이언트 추가:</strong> 대시보드의 \"첫 클라이언트 추가\" 버튼으로 이동하세요",
+      "strategicFoundation": "<strong>전략적 기반:</strong> 비즈니스 전략 에이전트를 실행해 전략 프레임워크를 수립하세요",
+      "customerInsights": "<strong>고객 인사이트:</strong> 페르소나 에이전트로 3-5개의 페르소나를 생성하세요",
+      "marketingDirection": "<strong>마케팅 방향:</strong> 마케팅 전략 에이전트로 초기 마케팅 전략을 만드세요"
+    },
+    "proTipLabel": "전문가 팁:",
+    "proTipContent": "처음부터 모든 정보를 모으려 하지 마세요. AI 에이전트가 대화를 통해 점진적으로 학습하도록 두는 편이 좋습니다. 각 상호작용이 자동으로 컨텍스트를 쌓아 줍니다."
+  },
+  "dataProtection": {
+    "title": "클라이언트 데이터는 보호됩니다",
+    "description": "STRAŦUM은 각 클라이언트의 데이터를 <strong>완전히 분리되고 안전하게</strong> 유지합니다. 클라이언트 A는 클라이언트 B의 정보를 절대 볼 수 없으며, 반대도 마찬가지입니다. 이 보호는 데이터베이스 수준에서 플랫폼에 내장되어 있습니다.",
+    "doTitle": "해야 할 일:",
+    "doItems": {
+      "useSelector": "클라이언트 전환 시 클라이언트 선택기를 사용하세요",
+      "doubleCheck": "올바른 클라이언트 작업공간에 있는지 다시 확인하세요",
+      "downloadRegularly": "중요한 전략과 콘텐츠는 정기적으로 다운로드하세요",
+      "lookForBadge": "\"데이터 보호됨\" 배지를 확인해 안심하세요"
+    },
+    "dontTitle": "하지 말아야 할 일:",
+    "dontItems": {
+      "copySensitive": "민감한 정보를 클라이언트 작업공간 사이에서 복사하지 마세요",
+      "shareLogin": "로그인을 팀원과 공유하지 마세요 (대신 초대하세요)",
+      "exportWithoutPermission": "클라이언트 허가 없이 데이터를 내보내지 마세요"
+    },
+    "alphaTipTitle": "팁: 작업 저장하기",
+    "alphaTipContent": "가치 있는 전략과 콘텐츠는 생성하는 즉시 다운로드해 두는 것을 권장합니다. 콘텐츠 에이전트(Word, PDF, Google Docs)와 결과물 허브의 내보내기 버튼을 사용하세요. 문서 작업을 저장하는 것처럼, 늘 좋은 습관입니다."
+  },
+  "teamRoles": {
+    "title": "팀 협업 및 역할",
+    "description": "STRAŦUM은 에이전시를 위해 10가지 역할을 제공하므로 각 사용자는 자신의 업무에 필요한 것만 볼 수 있습니다:",
+    "roles": {
+      "agencyOwner": {
+        "title": "에이전시 소유자",
+        "description": "전체 접근, 결제, 팀 관리"
+      },
+      "agencyAdmin": {
+        "title": "에이전시 관리자",
+        "description": "모든 클라이언트 관리 가능, 결제 접근 없음"
+      },
+      "accountManager": {
+        "title": "어카운트 매니저",
+        "description": "클라이언트 관계 관리, 전체 데이터 열람"
+      },
+      "strategist": {
+        "title": "전략가",
+        "description": "전략, 페르소나, 비즈니스 인텔리전스 생성"
+      },
+      "campaignManager": {
+        "title": "캠페인 매니저",
+        "description": "캠페인 실행, 콘텐츠 캘린더 관리"
+      },
+      "analyst": {
+        "title": "애널리스트",
+        "description": "성과 추적, ROI 분석, 보고"
+      },
+      "creative": {
+        "title": "크리에이티브",
+        "description": "콘텐츠 제작 및 디자인 에셋"
+      },
+      "freelancer": {
+        "title": "프리랜서",
+        "description": "특정 클라이언트에 대한 프로젝트 기반 접근"
+      },
+      "clientViewer": {
+        "title": "클라이언트 뷰어",
+        "description": "할당된 클라이언트 데이터에 대한 읽기 전용 접근"
+      },
+      "agencyViewer": {
+        "title": "에이전시 뷰어",
+        "description": "모든 클라이언트에 대한 읽기 전용 접근"
+      }
+    },
+    "inviteInstructions": "<strong>팀원 초대 방법:</strong> 프로필 사진 → 설정 → 팀 관리 순으로 클릭하세요. 직함이나 연차가 아니라 실제 업무 기준으로 역할을 부여하세요. 필요한 것만, 그 이상도 이하도 아닌 수준으로 접근 권한을 주세요."
+  },
+  "aiWorkflow": {
+    "title": "AI 에이전트 워크플로",
+    "description": "새 클라이언트에는 다음 전략적 순서를 따르세요:",
+    "phases": {
+      "foundation": {
+        "title": "1단계: 기반 구축 (1주차)",
+        "steps": {
+          "step1": "비즈니스 전략 에이전트 - 프레임워크 수립 (SWOT, 포터의 5대 힘)",
+          "step2": "페르소나 에이전트 - 3-5개의 상세 고객 페르소나 생성",
+          "step3": "마케팅 전략 에이전트 - 시장 진출 전략 수립"
+        }
+      },
+      "execution": {
+        "title": "2단계: 실행 계획 (2주차)",
+        "steps": {
+          "step1": "콘텐츠 에이전트 - 콘텐츠 캘린더와 초기 에셋 생성",
+          "step2": "캠페인 기획 에이전트 - 멀티채널 캠페인 설계",
+          "step3": "경쟁 인텔리전스 에이전트 - 시장 포지셔닝 분석"
+        }
+      },
+      "optimization": {
+        "title": "3단계: 최적화 (지속 진행)",
+        "steps": {
+          "step1": "퍼포먼스 인텔리전스 에이전트 - ROI와 KPI를 추적하고 빠른 성과 기회를 식별",
+          "step2": "클라이언트 성공 에이전트 - 클라이언트 상태와 유지 가능성 모니터링"
+        }
+      }
+    },
+    "crossAgentTitle": "에이전트 간 인텔리전스:",
+    "crossAgentContent": "STRAŦUM 에이전트는 컨텍스트를 자동으로 공유합니다. 페르소나는 콘텐츠 생성에 반영되고, 전략은 캠페인에 정보를 제공하며, 성과 데이터는 최적화 인사이트를 촉발합니다. 시스템의 데이터 흐름을 신뢰하세요."
+  },
+  "campaignManagement": {
+    "title": "캠페인 관리",
+    "lifecycleTitle": "캠페인 생애주기",
+    "lifecycleSteps": {
+      "planning": "<strong>기획:</strong> 마케팅 전략 에이전트로 목표와 예산(70-20-10 규칙)을 정의하세요",
+      "content": "<strong>콘텐츠 제작:</strong> 콘텐츠 에이전트는 9가지 도구를 제공합니다 (SEO 블로그, 소셜 미디어, 이메일 캠페인 등)",
+      "execution": "<strong>실행 추적:</strong> 캠페인당 하나의 전략을 \"활성\"으로 표시하고 CSV로 성과 데이터를 업로드하세요",
+      "optimization": "<strong>최적화:</strong> 퍼포먼스 인텔리전스 에이전트로 빠른 성과 인사이트를 확인하고 예산 최적화 도구로 배분 추천을 받으세요"
+    },
+    "multiClientTitle": "다중 클라이언트 관리:",
+    "multiClientItems": {
+      "selector": "빠른 전환을 위한 상단 내비게이션 클라이언트 선택기",
+      "outputsHub": "결과물 허브에서 클라이언트 전반의 AI 생성 콘텐츠 확인",
+      "bulkOperations": "오래된 캠페인 보관을 위한 일괄 작업",
+      "comparison": "전략 벤치마킹을 위한 나란히 비교"
+    }
+  },
+  "performanceTracking": {
+    "title": "성과 추적",
+    "metricsTitle": "핵심 지표 대시보드",
+    "clientHealth": {
+      "title": "클라이언트 상태 점수:",
+      "items": {
+        "roi": "캠페인 ROI 추세",
+        "content": "콘텐츠 성과",
+        "alignment": "전략 정합성",
+        "budget": "예산 효율성"
+      }
+    },
+    "agencyEfficiency": {
+      "title": "에이전시 효율성:",
+      "items": {
+        "timeSaved": "클라이언트당 절약된 시간",
+        "campaigns": "동시에 관리하는 캠페인 수",
+        "retention": "클라이언트 유지율",
+        "upsell": "AI가 식별한 업셀 기회"
+      }
+    }
+  },
+  "quickReference": {
+    "title": "빠른 참고: 자주 하는 작업",
+    "tableHeaders": {
+      "task": "작업",
+      "navigation": "이동 경로"
+    },
+    "tasks": {
+      "addClient": {
+        "task": "새 클라이언트 추가",
+        "navigation": "대시보드 → \"클라이언트 추가\" 버튼"
+      },
+      "createPersona": {
+        "task": "고객 페르소나 생성",
+        "navigation": "클라이언트 → [클라이언트] → 에이전트 → 페르소나 에이전트"
+      },
+      "generateCalendar": {
+        "task": "콘텐츠 캘린더 생성",
+        "navigation": "클라이언트 → [클라이언트] → 에이전트 → 콘텐츠 에이전트"
+      },
+      "uploadPerformance": {
+        "task": "성과 데이터 업로드",
+        "navigation": "클라이언트 → [클라이언트] → 에이전트 → 퍼포먼스 인텔리전스"
+      },
+      "inviteTeam": {
+        "task": "팀원 초대",
+        "navigation": "설정 → 팀 관리"
+      },
+      "switchClients": {
+        "task": "클라이언트 전환",
+        "navigation": "상단 내비게이션 → 클라이언트 선택 드롭다운"
+      }
+    }
+  },
+  "nextSteps": {
+    "title": "다음 단계",
+    "steps": {
+      "step1": "대시보드에서 첫 클라이언트 추가",
+      "step2": "전략적 기반 생성 (비즈니스 전략 + 페르소나 + 마케팅 전략)",
+      "step3": "초기 콘텐츠 에셋 생성 (콘텐츠 에이전트)",
+      "step4": "성과 추적 설정 (퍼포먼스 인텔리전스 에이전트로 첫 CSV 데이터셋 업로드)",
+      "step5": "팀원 초대 (해당하는 경우)"
+    },
+    "remember": "<strong>기억하세요:</strong> STRAŦUM은 \"실행보다 인텔리전스\"를 제공합니다. 전술 자동화보다 전략 인사이트에 집중하세요. AI 에이전트가 자연스러운 대화를 통해 점진적으로 컨텍스트를 쌓게 하세요."
+  },
+  "footer": {
+    "feedbackTitle": "피드백을 기다립니다!",
+    "feedbackDescription": "여러분의 인사이트는 매우 중요합니다. 헷갈리는 점이 있었나요? 개선 아이디어가 있나요? 문제를 발견했나요?",
+    "feedbackCta": "프로필 사진(오른쪽 상단) → \"피드백 보내기\" 클릭",
+    "feedbackNote": "모든 메시지를 읽고 STRAŦUM의 미래를 만드는 데 활용합니다",
+    "lastUpdated": "최종 업데이트: 2026년 1월 20일 | 버전 1.2"
+  }
+}

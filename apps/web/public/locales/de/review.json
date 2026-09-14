@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "badge": "Content-Review-Portal",
+    "defaultClientName": "Ihre Inhalte",
+    "subtitle": "Inhalte prüfen und freigeben, die von Ihrem Agenturteam erstellt wurden"
+  },
+  "loading": {
+    "message": "Inhalte zur Prüfung werden geladen..."
+  },
+  "error": {
+    "title": "Fehler beim Laden der Inhalte",
+    "defaultMessage": "Inhalte konnten nicht geladen werden. Bitte versuchen Sie es erneut."
+  },
+  "tabs": {
+    "pending": "Ausstehend",
+    "approved": "Genehmigt",
+    "changes": "Änderungen"
+  },
+  "stats": {
+    "pending": "Ausstehend",
+    "approved": "Genehmigt",
+    "changes": "Änderungen"
+  },
+  "status": {
+    "draft": "Entwurf",
+    "awaitingReview": "Wartet auf Prüfung",
+    "approved": "Genehmigt",
+    "changesRequested": "Änderungen angefordert",
+    "rejected": "Abgelehnt"
+  },
+  "outputCard": {
+    "untitledOutput": "Unbenannter Output",
+    "defaultAgentType": "Inhalt",
+    "viewDetails": "Details anzeigen",
+    "approve": "Genehmigen",
+    "requestChanges": "Änderungen anfordern",
+    "approvedByClient": "Vom Kunden genehmigt",
+    "changesRequestedByClient": "Änderungen vom Kunden angefordert"
+  },
+  "emptyState": {
+    "pending": {
+      "title": "Alles erledigt",
+      "description": "Keine Inhalte warten auf Ihre Prüfung. Ihre Agentur benachrichtigt Sie, wenn neue Inhalte bereit sind.",
+      "hint": "Neue Einreichungen erscheinen hier"
+    },
+    "approved": {
+      "title": "Noch keine genehmigten Inhalte",
+      "description": "Von Ihnen genehmigte Inhalte werden hier zur einfachen Referenz und zukünftigen Verwendung gesammelt.",
+      "hint": "Ihre Bibliothek genehmigter Inhalte"
+    },
+    "changes": {
+      "title": "Keine Änderungsanfragen",
+      "description": "Wenn Sie Änderungen an Inhalten anfordern, erscheinen diese Elemente hier zur Nachverfolgung.",
+      "hint": "Feedback in Bearbeitung"
+    }
+  }
+}

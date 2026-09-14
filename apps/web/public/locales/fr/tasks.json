@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Taches",
+  "pageSubtitle": "Gerez et suivez le travail de votre equipe",
+  "newTask": "Nouvelle tache",
+  "myTasks": "Mes taches",
+  "allTasks": "Toutes les taches",
+  "noTasks": "Aucune tache",
+  "status": {
+    "todo": "A faire",
+    "in_progress": "En cours",
+    "review": "En revision",
+    "done": "Terminee",
+    "cancelled": "Annulee"
+  },
+  "taskType": {
+    "content_creation": "Creation de contenu",
+    "review": "Revision",
+    "analysis": "Analyse",
+    "campaign_setup": "Configuration de campagne",
+    "strategy": "Strategie",
+    "other": "Autre"
+  },
+  "priority": {
+    "low": "Basse",
+    "normal": "Normale",
+    "high": "Haute",
+    "urgent": "Urgente"
+  },
+  "dueDate": {
+    "overdue": "En retard",
+    "today": "Aujourd'hui",
+    "tomorrow": "Demain"
+  },
+  "assignee": {
+    "unassigned": "Non assignee"
+  },
+  "actions": {
+    "moveTo": "Deplacer vers {{status}}",
+    "cancel": "Annuler"
+  },
+  "createDialog": {
+    "title": "Creer une tache",
+    "description": "Assignez une nouvelle tache a un membre de l'equipe.",
+    "titleLabel": "Titre",
+    "titlePlaceholder": "Que faut-il faire ?",
+    "descriptionLabel": "Description (facultative)",
+    "descriptionPlaceholder": "Ajoutez plus de details...",
+    "typeLabel": "Type",
+    "priorityLabel": "Priorite",
+    "assigneeLabel": "Assigner a",
+    "assigneePlaceholder": "Selectionnez un membre de l'equipe",
+    "dueDateLabel": "Date d'echeance",
+    "cancelButton": "Annuler",
+    "createButton": "Creer la tache",
+    "creatingButton": "Creation..."
+  }
+}

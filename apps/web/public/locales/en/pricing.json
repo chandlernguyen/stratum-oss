@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "Pricing"
+  },
+  "hero": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "30-day free trial on every plan. No credit card required. Cancel anytime."
+  },
+  "tiers": {
+    "solo": {
+      "name": "Solo",
+      "description": "For individual marketers and consultants",
+      "features": {
+        "agents": "All 9 AI agents",
+        "seats": "1 team member",
+        "sessions": "Unlimited sessions"
+      }
+    },
+    "team": {
+      "name": "Team",
+      "description": "For small marketing teams",
+      "features": {
+        "agents": "All 9 AI agents",
+        "seats": "Up to 3 team members",
+        "sessions": "Unlimited sessions",
+        "collaboration": "Team collaboration"
+      }
+    },
+    "agency": {
+      "name": "Agency",
+      "description": "For agencies managing multiple clients",
+      "features": {
+        "agents": "All 9 AI agents",
+        "seats": "Up to 10 team members",
+        "clients": "Up to 5 clients",
+        "clientSuccess": "Client Success agent"
+      }
+    }
+  },
+  "perMonth": "/mo",
+  "perSeat": "per seat",
+  "recommended": "Recommended",
+  "startTrial": "Start Free Trial",
+  "getStarted": "Get Started",
+  "comparison": {
+    "title": "How STRATUM Compares",
+    "subtitle": "See how we stack up against the alternatives.",
+    "stratum": "STRATUM",
+    "competitor1": "Enterprise CRM Suite",
+    "competitor2": "AI Content Platform",
+    "competitor3": "Ad Automation Tool",
+    "capabilities": {
+      "strategicIntelligence": "Strategic Intelligence",
+      "creativeGeneration": "Creative Generation",
+      "performanceAnalysis": "Performance Analysis",
+      "learningAdaptation": "Learning & Adaptation",
+      "executionRisk": "Execution Risk",
+      "multiClient": "Multi-Client Native",
+      "startingPrice": "Starting Price"
+    },
+    "values": {
+      "stratum": {
+        "strategicIntelligence": "11+ frameworks",
+        "creativeGeneration": "9 content tools",
+        "performanceAnalysis": "Cross-channel",
+        "learningAdaptation": "Continuous",
+        "executionRisk": "None (read-only)",
+        "multiClient": "Built-in",
+        "startingPrice": "$29/mo"
+      },
+      "competitor1": {
+        "strategicIntelligence": "Basic",
+        "creativeGeneration": "Limited",
+        "performanceAnalysis": "CRM-focused",
+        "learningAdaptation": "Limited",
+        "executionRisk": "Medium",
+        "multiClient": "--",
+        "startingPrice": "$800+/mo"
+      },
+      "competitor2": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "Content only",
+        "performanceAnalysis": "--",
+        "learningAdaptation": "--",
+        "executionRisk": "None",
+        "multiClient": "--",
+        "startingPrice": "$39+/mo"
+      },
+      "competitor3": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "--",
+        "performanceAnalysis": "Paid only",
+        "learningAdaptation": "Limited",
+        "executionRisk": "High",
+        "multiClient": "Limited",
+        "startingPrice": "$2,000+/mo"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How does the 30-day free trial work?",
+        "answer": "Every plan comes with a 30-day free trial. No credit card required to start. You get full access to all features during the trial period."
+      },
+      {
+        "question": "Can I change plans later?",
+        "answer": "Absolutely. You can upgrade or downgrade your plan at any time from your billing settings. Changes take effect immediately."
+      },
+      {
+        "question": "What happens when I add more team members?",
+        "answer": "Each plan includes a set number of seats. If you need more seats, upgrade to a higher plan. All team members get full access to every AI agent."
+      },
+      {
+        "question": "How do you handle my data?",
+        "answer": "We implement industry-standard security practices including HTTPS encryption, database-level data isolation between organizations, and row-level access controls. STRATUM is currently in alpha — please review our Privacy Policy for full details on our security practices and limitations."
+      },
+      {
+        "question": "What does 'Intelligence Over Execution' mean?",
+        "answer": "STRATUM is a read-only intelligence platform. We help you think, plan, and strategize — but we never execute campaigns on your behalf. This means zero execution risk and full control over your marketing."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Think Smarter?",
+    "subtitle": "Join marketers who have replaced guesswork with strategic intelligence.",
+    "button": "Start Your Free Trial",
+    "benefits": {
+      "trial": "30-day free trial",
+      "noCreditCard": "No credit card required",
+      "cancelAnytime": "Cancel anytime"
+    }
+  }
+}

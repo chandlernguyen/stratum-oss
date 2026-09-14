@@ -1,0 +1,473 @@
+{
+  "title": "Dashboard",
+  "subtitle": "Your marketing intelligence overview",
+  "clients": {
+    "backToClients": "Back to Clients",
+    "addClient": {
+      "badge": "Client Onboarding",
+      "title": "Add New Client",
+      "description": "Onboard a new client with their business context for AI-powered insights"
+    },
+    "editClient": {
+      "title": "Edit Client",
+      "description": "Update client information and business context"
+    },
+    "features": {
+      "aiPowered": "AI-powered intelligence",
+      "personalizedStrategies": "Personalized strategies"
+    }
+  },
+  "welcome": {
+    "morning": "Good morning",
+    "afternoon": "Good afternoon",
+    "evening": "Good evening",
+    "withName": "{{greeting}}, {{name}}"
+  },
+  "hero": {
+    "badge": "AI-Powered Intelligence",
+    "title": "Your Intelligence Briefing",
+    "subtitle": "High-impact actions tailored to your business context. Each recommendation builds on your strategic foundation.",
+    "cta": "Start New Strategy Session"
+  },
+  "loading": {
+    "intelligence": "Loading your intelligence...",
+    "data": "Preparing your data...",
+    "dashboard": "Loading your dashboard...",
+    "clientDashboard": "Loading {{clientSlug}} dashboard...",
+    "fallback": "Loading Dashboard..."
+  },
+  "clientDashboard": {
+    "title": "{{clientName}} Dashboard",
+    "subtitle": "View and manage all activities for this client"
+  },
+  "noOrganization": {
+    "title": "No Organization Found",
+    "description": "It seems you don't have access to any organization yet. Please contact your administrator.",
+    "viewProfile": "View Profile"
+  },
+  "error": {
+    "message": "Error: {{message}}"
+  },
+  "stats": {
+    "totalOutputs": "Total Outputs",
+    "intelligenceOutputs": "Intelligence Outputs",
+    "activeCampaigns": "Active Campaigns",
+    "aiInteractions": "AI Interactions",
+    "strategySessions": "Strategy Sessions",
+    "lastWeek": "Last 7 days",
+    "subtitles": {
+      "strategicDocuments": "Strategic documents",
+      "agentSessions": "Agent sessions",
+      "inProgress": "In progress",
+      "completed": "Completed"
+    }
+  },
+  "quickActions": {
+    "title": "Quick Actions",
+    "newStrategy": "New Strategy",
+    "createPersona": "Create Persona",
+    "startCampaign": "Start Campaign"
+  },
+  "recommendations": {
+    "title": "Recommended Actions",
+    "available": "{{count}} available",
+    "highImpact": "High Impact",
+    "estimatedTime": "{{time}} min",
+    "items": {
+      "personaAnalysis": {
+        "title": "Complete Customer Persona Analysis",
+        "description": "Build detailed buyer personas to better target your campaigns"
+      },
+      "marketingStrategy": {
+        "title": "Review Marketing Strategy",
+        "description": "AI-generated channel mix and messaging framework for your market"
+      },
+      "contentGeneration": {
+        "title": "Generate Content for Top Channel",
+        "description": "Create campaign materials optimized for your best-performing channel"
+      }
+    }
+  },
+  "recentIntelligence": {
+    "title": "Recent Intelligence",
+    "vaultTitle": "Your Intelligence Vault",
+    "viewAll": "View all",
+    "viewAllIntelligence": "View all intelligence",
+    "emptyState": "No outputs yet. Start with a strategy session.",
+    "emptyStateVault": "No intelligence outputs yet. Start building your strategic foundation.",
+    "generateFirst": "Generate First Strategy",
+    "total": "{{count}} total",
+    "agentLabels": {
+      "strategy": "Strategy",
+      "persona": "Persona",
+      "marketingStrategy": "Marketing",
+      "content": "Content"
+    }
+  },
+  "recentActivity": {
+    "title": "Recent Activity",
+    "noActivity": "No recent activity",
+    "viewAll": "View all activity"
+  },
+  "intelligenceBriefing": {
+    "title": "Your Intelligence Briefing",
+    "subtitle": "High-impact actions based on your business context",
+    "empty": "Complete your business profile to receive personalized recommendations",
+    "badge": "AI-Powered",
+    "toggleBriefing": "Toggle briefing",
+    "analyzing": "We're analyzing your business context to suggest high-impact next steps.",
+    "startStrategy": "Start with Business Strategy",
+    "highImpact": "High Impact",
+    "recommended": "Recommended",
+    "minutes": "{{time}} min",
+    "viewAll": "View all {{count}} recommendations"
+  },
+  "campaignReadiness": {
+    "ready": {
+      "title": "Ready to Create Your First Campaign",
+      "description": "You've built a strong strategic foundation. Create a campaign to organize your intelligence by business initiative and track performance.",
+      "createCampaign": "Create Campaign",
+      "maybeLater": "Maybe Later"
+    },
+    "building": {
+      "title": "Building Your Strategic Foundation ({{percentage}}% Complete)",
+      "description": "Complete these key intelligence outputs before creating campaigns:",
+      "businessStrategy": "Business Strategy",
+      "customerPersonas": "Customer Personas",
+      "marketingStrategy": "Marketing Strategy"
+    }
+  },
+  "agency": {
+    "loading": {
+      "agencyData": "Loading agency data...",
+      "clientPortfolio": "Loading client portfolio..."
+    },
+    "onboarding": {
+      "badge": "Agency Command Center",
+      "title": "Welcome to Your Agency",
+      "description": "Manage multiple clients with AI-powered marketing intelligence",
+      "addFirstClient": "Add Your First Client",
+      "ctaHint": "Start managing your first client in under 5 minutes",
+      "learnPlatform": "LEARN THE PLATFORM",
+      "videoTitle": "Managing multiple clients",
+      "videoHint": "Video walkthrough coming soon",
+      "soon": "Soon",
+      "guideTitle": "Agency best practices guide",
+      "guideDescription": "Learn workflows for scaling client work",
+      "unlimitedClients": "Unlimited clients",
+      "fullAiAccess": "Full AI access"
+    },
+    "header": {
+      "badge": "Agency Command Center",
+      "title": "{{name}} Dashboard",
+      "subtitle": "Managing <strong>{{clientCount}}</strong> clients across <strong>{{campaignCount}}</strong> campaigns",
+      "subtitleText": "Managing {{clientCount}} clients across {{campaignCount}} campaigns"
+    },
+    "actions": {
+      "manageClients": "Manage Clients",
+      "addClient": "Add Client",
+      "addNewClient": "Add New Client",
+      "viewAllClients": "View All Clients",
+      "manageTeam": "Manage Team",
+      "addFirstClient": "Add Your First Client",
+      "viewAllClientsCount": "View All {{count}} Clients"
+    },
+    "metrics": {
+      "totalClients": "Total Clients",
+      "activeCount": "{{count}} active",
+      "monthlyRevenue": "Monthly Revenue",
+      "avgPerClient": "Avg {{amount}}/client",
+      "activeCampaigns": "Active Campaigns",
+      "ofTotal": "of {{total}} total",
+      "avgCampaignsPerClient": "Avg Campaigns/Client",
+      "perClient": "Per client"
+    },
+    "portfolio": {
+      "title": "Client Portfolio",
+      "subtitle": "Overview of all your agency clients",
+      "clientCount": "{{count}} clients",
+      "noClients": "No clients yet",
+      "campaigns": "{{count}} campaigns",
+      "active": "{{count}} active"
+    },
+    "quickActions": {
+      "title": "Quick Actions"
+    }
+  },
+  "clientOverview": {
+    "notFound": {
+      "title": "Client not found",
+      "description": "The client you're looking for doesn't exist or you don't have access.",
+      "backToClients": "Back to Clients"
+    },
+    "quickStats": {
+      "title": "Quick Stats"
+    },
+    "recommendations": {
+      "personaAnalysis": {
+        "title": "Complete Customer Persona Analysis",
+        "description": "Build detailed buyer personas for {{clientName}} to better target their campaigns"
+      },
+      "marketingStrategy": {
+        "title": "Review Marketing Strategy Recommendations",
+        "description": "AI-generated channel mix and messaging framework tailored to this client"
+      },
+      "contentGeneration": {
+        "title": "Generate Content for Top Channel",
+        "description": "Create campaign materials optimized for their best-performing channel"
+      }
+    }
+  },
+  "clientOnboarding": {
+    "title": "Let's Build Intelligence for This Client",
+    "subtitle": "Start by understanding their business and customers",
+    "hint": "Campaigns and content come after — intelligence first",
+    "divider": "OR EXPLORE OTHER AI AGENTS",
+    "moreAgentsTitle": "More AI Marketing Agents",
+    "moreAgentsSubtitle": "Specialized agents to power this client's marketing success",
+    "cards": {
+      "strategy": {
+        "title": "Start with Strategy",
+        "subtitle": "Recommended first step",
+        "description": "Analyze their business with 11 strategic frameworks and build a solid foundation",
+        "cta": "3 minutes to first insight"
+      },
+      "persona": {
+        "title": "Know Their Customers",
+        "subtitle": "Build detailed buyer personas",
+        "description": "Understand who they're marketing to with AI-powered customer insights",
+        "cta": "5 minutes to create persona"
+      },
+      "marketingStrategy": {
+        "title": "Marketing Strategy",
+        "subtitle": "Go-to-market planning",
+        "description": "Create comprehensive marketing strategy with channel mix and messaging frameworks",
+        "cta": "7 minutes to complete"
+      }
+    },
+    "agents": {
+      "content": {
+        "name": "Content Agent",
+        "description": "9 content generation tools for campaigns"
+      },
+      "performance": {
+        "name": "Performance Intelligence",
+        "description": "Unified analytics, ROI & insights"
+      },
+      "competitive": {
+        "name": "Competitive Intelligence",
+        "description": "Market analysis & competitive trends"
+      },
+      "campaignPlanning": {
+        "name": "Campaign Planning",
+        "description": "Multi-channel campaign deployment"
+      }
+    }
+  },
+  "quickStartModal": {
+    "title": "Quick Start - Generate Intelligence in 5 Minutes",
+    "description": "Answer 5 quick questions and we'll generate your strategy, personas, and marketing plan",
+    "step": "Step {{current}} of {{total}}",
+    "complete": "{{percent}}% Complete",
+    "back": "Back",
+    "next": "Next",
+    "start": "Start Quick Start",
+    "steps": {
+      "company": {
+        "label": "Tell us about your company",
+        "placeholder": "E.g., We're a B2B SaaS company providing project management tools for remote teams...",
+        "hint": "Brief description of what you do, who you serve, and what makes you unique"
+      },
+      "goal": {
+        "label": "What's your primary marketing goal?",
+        "placeholder": "E.g., Generate 100 qualified leads per month for our enterprise product...",
+        "hint": "Be specific: leads, sales, brand awareness, product launch, etc."
+      },
+      "audience": {
+        "label": "Who is your target audience?",
+        "placeholder": "E.g., Marketing managers at mid-size tech companies (50-500 employees) who struggle with team collaboration...",
+        "hint": "Describe their role, company size, challenges, and behaviors"
+      },
+      "budget": {
+        "label": "What's your monthly marketing budget?",
+        "placeholder": "Select your budget range",
+        "hint": "This helps us recommend appropriate tactics and channels",
+        "options": {
+          "bootstrap": "$0 - $1,000 (Bootstrap)",
+          "growing": "$1,000 - $5,000 (Growing)",
+          "scaling": "$5,000 - $20,000 (Scaling)",
+          "enterprise": "$20,000+ (Enterprise)"
+        }
+      },
+      "timeline": {
+        "label": "When do you need to see results?",
+        "placeholder": "Select your timeline",
+        "hint": "We'll prioritize tactics based on your timeframe",
+        "options": {
+          "immediate": "Immediately (Quick wins)",
+          "shortTerm": "1-3 months (Short-term campaign)",
+          "mediumTerm": "3-6 months (Medium-term strategy)",
+          "longTerm": "6-12 months (Long-term growth)"
+        }
+      }
+    }
+  },
+  "sme": {
+    "onboarding": {
+      "badge": "Let's get you started",
+      "title": "Welcome to STRAŦUM",
+      "subtitle": "Build intelligence first, execute with confidence",
+      "hint": "Start by understanding your business and customers — campaigns come after",
+      "divider": "OR EXPLORE AI AGENTS",
+      "agentsTitle": "AI Marketing Agents",
+      "agentsSubtitle": "7 specialized agents to power your marketing success",
+      "agentCount": "({{count}} agents)",
+      "cards": {
+        "strategy": {
+          "badge": "Recommended",
+          "title": "Start with Strategy",
+          "subtitle": "Your foundation for success",
+          "description": "Analyze your business with 11 strategic frameworks and build a solid foundation",
+          "cta": "3 min to first insight"
+        },
+        "persona": {
+          "title": "Know Your Customers",
+          "subtitle": "Build detailed buyer personas",
+          "description": "Understand who you're marketing to with AI-powered customer insights",
+          "cta": "5 min to create persona"
+        },
+        "quickStart": {
+          "title": "Quick Start",
+          "subtitle": "Answer 5 questions, get full strategy",
+          "description": "Generate strategy, personas, and marketing plan from 5 quick questions",
+          "cta": "5 min to complete"
+        }
+      },
+      "categories": {
+        "foundation": {
+          "name": "Foundation",
+          "description": "Build your marketing intelligence"
+        },
+        "execution": {
+          "name": "Execution",
+          "description": "Create and deploy campaigns"
+        },
+        "intelligence": {
+          "name": "Intelligence",
+          "description": "Analyze and optimize performance"
+        }
+      },
+      "agents": {
+        "strategy": {
+          "name": "Business Strategy",
+          "description": "11 strategic frameworks & analysis"
+        },
+        "persona": {
+          "name": "Persona Agent",
+          "description": "Customer profiling & interview mode"
+        },
+        "marketingStrategy": {
+          "name": "Marketing Strategy",
+          "description": "Go-to-market & channel strategies"
+        },
+        "content": {
+          "name": "Content Agent",
+          "description": "9 content generation tools"
+        },
+        "campaignPlanning": {
+          "name": "Campaign Planning",
+          "description": "Multi-channel deployment"
+        },
+        "performance": {
+          "name": "Performance Intelligence",
+          "description": "Unified analytics, ROI & insights"
+        },
+        "competitive": {
+          "name": "Competitive Intelligence",
+          "description": "Market analysis & trends"
+        }
+      },
+      "trust": {
+        "noCreditCard": "No credit card required",
+        "dataSecure": "Your data is secure",
+        "cancelAnytime": "Cancel anytime"
+      }
+    }
+  },
+  "buildingMomentum": {
+    "greeting": "Welcome back, {{name}}!",
+    "progress": {
+      "label": "Your Progress:",
+      "status": "Building Momentum"
+    },
+    "stats": {
+      "activeCampaigns": "Active campaigns",
+      "savedStrategies": "Saved strategies",
+      "aiInteractions": "AI interactions"
+    },
+    "continueSection": {
+      "title": "Continue where you left off",
+      "resumeEditing": "Resume editing",
+      "budget": "Budget: ${{amount}}",
+      "emptyState": "No campaigns yet. Start your first campaign below!",
+      "createCampaign": "Create Campaign"
+    },
+    "campaignStatus": {
+      "active": "Active",
+      "paused": "Paused",
+      "draft": "Draft",
+      "completed": "Completed"
+    }
+  },
+  "scalingUp": {
+    "title": "Dashboard",
+    "activeCampaigns": {
+      "title": "Active Campaigns ({{active}}/{{total}})",
+      "metrics": {
+        "ctrUp": "↑ {{value}}% CTR",
+        "convUp": "↑ {{value}}% Conv",
+        "starting": "Starting..."
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "viewAnalytics": "View Analytics",
+      "createContent": "Create Content",
+      "strategyReview": "Strategy Review"
+    },
+    "aiInsights": {
+      "title": "AI Insights",
+      "agents": {
+        "content": "Content Agent",
+        "strategy": "Strategy Agent"
+      },
+      "insights": {
+        "holidayPerformance": "Holiday campaign performing above benchmark",
+        "competitorGap": "New opportunity identified in competitor gap"
+      }
+    }
+  },
+  "agencyScaling": {
+    "title": "Agency Dashboard - {{count}} Active Clients",
+    "campaigns": "{{count}} campaigns",
+    "status": {
+      "active": "Active",
+      "paused": "Paused"
+    },
+    "quickFilters": {
+      "title": "Quick Filters",
+      "all": "All",
+      "active": "Active",
+      "needsAttention": "Needs Attention",
+      "reportsDue": "Reports Due"
+    },
+    "priorities": {
+      "title": "This Week's Priorities",
+      "items": {
+        "strategyReview": "{{client}}: Strategy review meeting Thursday",
+        "contentApproval": "{{client}}: Content approval needed",
+        "monthlyReport": "{{client}}: Monthly report due"
+      }
+    }
+  }
+}

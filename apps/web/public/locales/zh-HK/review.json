@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "badge": "內容審核門戶",
+    "defaultClientName": "你嘅內容",
+    "subtitle": "審核並批准由你嘅代理機構團隊製作嘅內容"
+  },
+  "loading": {
+    "message": "正在載入待審核內容..."
+  },
+  "error": {
+    "title": "載入內容時出錯",
+    "defaultMessage": "無法載入內容。請重試。"
+  },
+  "tabs": {
+    "pending": "待處理",
+    "approved": "已批准",
+    "changes": "需修改"
+  },
+  "stats": {
+    "pending": "待處理",
+    "approved": "已批准",
+    "changes": "需修改"
+  },
+  "status": {
+    "draft": "草稿",
+    "awaitingReview": "等待審核",
+    "approved": "已批准",
+    "changesRequested": "已請求修改",
+    "rejected": "已拒絕"
+  },
+  "outputCard": {
+    "untitledOutput": "未命名產出",
+    "defaultAgentType": "內容",
+    "viewDetails": "查看詳情",
+    "approve": "批准",
+    "requestChanges": "請求修改",
+    "approvedByClient": "已由客戶批准",
+    "changesRequestedByClient": "客戶已請求修改"
+  },
+  "emptyState": {
+    "pending": {
+      "title": "全部處理完成",
+      "description": "目前冇內容等緊你審核。代理機構喺有新內容可用嗰陣會通知你。",
+      "hint": "新嘅提交會顯示喺呢度"
+    },
+    "approved": {
+      "title": "仲未有已批准內容",
+      "description": "你批准嘅內容會匯總到呢度，方便查閱同後續使用。",
+      "hint": "你嘅已批准內容庫"
+    },
+    "changes": {
+      "title": "冇修改請求",
+      "description": "當你對內容提出修改請求嗰陣，呢啲項目會顯示喺呢度畀你追蹤。",
+      "hint": "意見回饋處理中"
+    }
+  }
+}

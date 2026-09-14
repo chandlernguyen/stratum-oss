@@ -1,0 +1,128 @@
+/* White-Label Theme Variables */
+/* Agencies can override these variables to match their brand */
+
+:root {
+  /* STRAŦUM Brand Colors - Customizable per agency */
+  --brand-primary: var(--agency-primary, #64748B); /* Slate Gray */
+  --brand-secondary: var(--agency-secondary, #1E293B); /* Charcoal */
+  --brand-accent: var(--agency-accent, #F59E0B); /* Gold */
+  --brand-success: var(--agency-success, #10b981);
+  --brand-warning: var(--agency-warning, #f59e0b);
+  --brand-danger: var(--agency-danger, #ef4444);
+
+  /* STRAŦUM Gradients */
+  --gradient-hero: linear-gradient(135deg, #64748B 0%, #1E293B 50%, #F59E0B 100%);
+  --gradient-button: linear-gradient(135deg, #F59E0B 0%, #FCD34D 100%);
+  --gradient-card: linear-gradient(to bottom right, #64748B, #1E293B);
+  
+  /* Agent-Specific Colors - Can be overridden for brand consistency */
+  --agent-strategy: var(--agency-strategy, #4f46e5);      /* Indigo */
+  --agent-persona: var(--agency-persona, #7c3aed);        /* Purple */
+  --agent-content: var(--agency-content, #10b981);        /* Green */
+  --agent-analytics: var(--agency-analytics, #f97316);    /* Orange */
+  --agent-roi-budget: var(--agency-roi, #eab308);         /* Yellow */
+  --agent-campaign: var(--agency-campaign, #14b8a6);      /* Teal */
+  --agent-quick-wins: var(--agency-quick, #ef4444);       /* Red */
+  --agent-competitive: var(--agency-competitive, #f59e0b); /* Amber */
+  --agent-client-success: var(--agency-success, #10b981); /* Emerald */
+  
+  /* Typography - For brand fonts */
+  --font-primary: var(--agency-font-primary, system-ui, -apple-system, sans-serif);
+  --font-heading: var(--agency-font-heading, var(--font-primary));
+  --font-mono: var(--agency-font-mono, ui-monospace, monospace);
+  
+  /* Spacing & Layout */
+  --border-radius: var(--agency-radius, 0.5rem);
+  --border-radius-sm: calc(var(--border-radius) * 0.75);
+  --border-radius-lg: calc(var(--border-radius) * 1.5);
+  --border-radius-full: 9999px;
+  
+  /* Shadows - Customizable depth */
+  --shadow-sm: var(--agency-shadow-sm, 0 1px 2px 0 rgb(0 0 0 / 0.05));
+  --shadow-md: var(--agency-shadow-md, 0 4px 6px -1px rgb(0 0 0 / 0.1));
+  --shadow-lg: var(--agency-shadow-lg, 0 10px 15px -3px rgb(0 0 0 / 0.1));
+  --shadow-xl: var(--agency-shadow-xl, 0 20px 25px -5px rgb(0 0 0 / 0.1));
+}
+
+/* Dark mode overrides */
+.dark {
+  --brand-primary: var(--agency-primary-dark, #94A3B8); /* Lighter slate for dark mode */
+  --brand-secondary: var(--agency-secondary-dark, #334155); /* Lighter charcoal */
+  --brand-accent: var(--agency-accent-dark, #FBBF24); /* Brighter gold */
+
+  /* Dark mode gradients */
+  --gradient-hero: linear-gradient(135deg, #94A3B8 0%, #334155 50%, #FBBF24 100%);
+  --gradient-button: linear-gradient(135deg, #FBBF24 0%, #FCD34D 100%);
+  --gradient-card: linear-gradient(to bottom right, #94A3B8, #334155);
+}
+
+/* Agent color classes using CSS variables */
+.text-agent-strategy { color: var(--agent-strategy); }
+.bg-agent-strategy { background-color: var(--agent-strategy); }
+.border-agent-strategy { border-color: var(--agent-strategy); }
+
+.text-agent-persona { color: var(--agent-persona); }
+.bg-agent-persona { background-color: var(--agent-persona); }
+.border-agent-persona { border-color: var(--agent-persona); }
+
+.text-agent-content { color: var(--agent-content); }
+.bg-agent-content { background-color: var(--agent-content); }
+.border-agent-content { border-color: var(--agent-content); }
+
+.text-agent-analytics { color: var(--agent-analytics); }
+.bg-agent-analytics { background-color: var(--agent-analytics); }
+.border-agent-analytics { border-color: var(--agent-analytics); }
+
+.text-agent-roi-budget { color: var(--agent-roi-budget); }
+.bg-agent-roi-budget { background-color: var(--agent-roi-budget); }
+.border-agent-roi-budget { border-color: var(--agent-roi-budget); }
+
+.text-agent-campaign { color: var(--agent-campaign); }
+.bg-agent-campaign { background-color: var(--agent-campaign); }
+.border-agent-campaign { border-color: var(--agent-campaign); }
+
+.text-agent-quick-wins { color: var(--agent-quick-wins); }
+.bg-agent-quick-wins { background-color: var(--agent-quick-wins); }
+.border-agent-quick-wins { border-color: var(--agent-quick-wins); }
+
+.text-agent-competitive { color: var(--agent-competitive); }
+.bg-agent-competitive { background-color: var(--agent-competitive); }
+.border-agent-competitive { border-color: var(--agent-competitive); }
+
+.text-agent-client-success { color: var(--agent-client-success); }
+.bg-agent-client-success { background-color: var(--agent-client-success); }
+.border-agent-client-success { border-color: var(--agent-client-success); }
+
+/* Utility classes for brand colors */
+.text-brand-primary { color: var(--brand-primary); }
+.bg-brand-primary { background-color: var(--brand-primary); }
+.border-brand-primary { border-color: var(--brand-primary); }
+
+.text-brand-secondary { color: var(--brand-secondary); }
+.bg-brand-secondary { background-color: var(--brand-secondary); }
+.border-brand-secondary { border-color: var(--brand-secondary); }
+
+.text-brand-accent { color: var(--brand-accent); }
+.bg-brand-accent { background-color: var(--brand-accent); }
+.border-brand-accent { border-color: var(--brand-accent); }
+
+/* STRAŦUM Gradient Utilities */
+.bg-gradient-hero {
+  background: var(--gradient-hero);
+}
+
+.bg-gradient-button {
+  background: var(--gradient-button);
+}
+
+.bg-gradient-card {
+  background: var(--gradient-card);
+}
+
+/* Additional gradient text support */
+.text-gradient-gold {
+  background: linear-gradient(135deg, #F59E0B 0%, #FCD34D 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

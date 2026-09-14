@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "定價"
+  },
+  "hero": {
+    "title": "簡單透明嘅定價",
+    "subtitle": "所有方案均提供 30 日免費試用。無需信用卡。隨時取消。"
+  },
+  "tiers": {
+    "solo": {
+      "name": "Solo",
+      "description": "適合個人營銷人員同顧問",
+      "features": {
+        "agents": "全部 9 個 AI 智能助手",
+        "seats": "1 名團隊成員",
+        "sessions": "無限對話次數"
+      }
+    },
+    "team": {
+      "name": "Team",
+      "description": "適合小型營銷團隊",
+      "features": {
+        "agents": "全部 9 個 AI 智能助手",
+        "seats": "最多 3 名團隊成員",
+        "sessions": "無限對話次數",
+        "collaboration": "團隊協作"
+      }
+    },
+    "agency": {
+      "name": "Agency",
+      "description": "適合管理多個客戶嘅代理機構",
+      "features": {
+        "agents": "全部 9 個 AI 智能助手",
+        "seats": "最多 10 名團隊成員",
+        "clients": "最多 5 個客戶",
+        "clientSuccess": "客戶成功智能助手"
+      }
+    }
+  },
+  "perMonth": "/月",
+  "perSeat": "每個席位",
+  "recommended": "推薦",
+  "startTrial": "開始免費試用",
+  "getStarted": "立即開始",
+  "comparison": {
+    "title": "STRATUM 對比如何",
+    "subtitle": "睇吓我哋與其他方案相比表現如何。",
+    "stratum": "STRATUM",
+    "competitor1": "企業級 CRM 套件",
+    "competitor2": "AI 內容平台",
+    "competitor3": "廣告自動化工具",
+    "capabilities": {
+      "strategicIntelligence": "策略智能",
+      "creativeGeneration": "創意生成",
+      "performanceAnalysis": "績效分析",
+      "learningAdaptation": "學習與適應",
+      "executionRisk": "執行風險",
+      "multiClient": "原生多客戶支援",
+      "startingPrice": "起始價格"
+    },
+    "values": {
+      "stratum": {
+        "strategicIntelligence": "11+ 個框架",
+        "creativeGeneration": "9 個內容工具",
+        "performanceAnalysis": "跨渠道",
+        "learningAdaptation": "持續進行",
+        "executionRisk": "無（唯讀）",
+        "multiClient": "內建支援",
+        "startingPrice": "$29/mo"
+      },
+      "competitor1": {
+        "strategicIntelligence": "基礎",
+        "creativeGeneration": "有限",
+        "performanceAnalysis": "以 CRM 為中心",
+        "learningAdaptation": "有限",
+        "executionRisk": "中等",
+        "multiClient": "--",
+        "startingPrice": "$800+/mo"
+      },
+      "competitor2": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "僅內容",
+        "performanceAnalysis": "--",
+        "learningAdaptation": "--",
+        "executionRisk": "無",
+        "multiClient": "--",
+        "startingPrice": "$39+/mo"
+      },
+      "competitor3": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "--",
+        "performanceAnalysis": "僅付費廣告",
+        "learningAdaptation": "有限",
+        "executionRisk": "高",
+        "multiClient": "有限",
+        "startingPrice": "$2,000+/mo"
+      }
+    }
+  },
+  "faq": {
+    "title": "常見問題",
+    "items": [
+      {
+        "question": "30 日免費試用點樣運作？",
+        "answer": "每個方案都包含 30 日免費試用。開始時無需信用卡。試用期間你可以完整使用所有功能。"
+      },
+      {
+        "question": "之後可以轉換方案嗎？",
+        "answer": "當然可以。你可以隨時喺帳單設定中升級或降級方案，變更會即時生效。"
+      },
+      {
+        "question": "加入團隊成員後會點樣？",
+        "answer": "每個方案都包含固定數量嘅席位。如果你需要更多席位，可以升級到更高嘅方案。所有團隊成員都能完整存取每個 AI 智能助手。"
+      },
+      {
+        "question": "你哋點樣處理我嘅數據？",
+        "answer": "我哋採用行業標準嘅安全措施，包括 HTTPS 加密、機構之間嘅資料庫級數據隔離以及行級存取控制。STRATUM 目前仲處於 Alpha 階段，請查閱我哋嘅私隱政策，了解完整嘅安全措施與限制說明。"
+      },
+      {
+        "question": "\u201c智能優先於執行\u201d係咩意思？",
+        "answer": "STRA\u0166UM 係一個唯讀型智能平台。我哋幫你思考、規劃同制定策略，但唔會代你執行營銷活動。呢代表零執行風險，以及你對營銷工作嘅完全掌控。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "準備開始更聰明咁思考？",
+    "subtitle": "加入嗰啲已經用策略智能取代拍腦袋決策嘅營銷人員。",
+    "button": "開始免費試用",
+    "benefits": {
+      "trial": "30 日免費試用",
+      "noCreditCard": "無需信用卡",
+      "cancelAnytime": "隨時取消"
+    }
+  }
+}

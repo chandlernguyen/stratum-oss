@@ -1,0 +1,62 @@
+{
+  "title": "Gestion de documentos",
+  "subtitle": "Sube, busca y gestiona la base de conocimiento de tu organizacion.",
+  "upload": {
+    "title": "Subir documentos",
+    "description": "Anade nuevos documentos a tu base de conocimiento.",
+    "button": "Subir"
+  },
+  "documents": {
+    "title": "Tus documentos",
+    "description": "Consulta y gestiona los documentos que has subido.",
+    "emptyState": "Aqui se mostrara una lista o cuadrícula de documentos.",
+    "noDocuments": "Todavia no hay documentos. Sube el primero para empezar."
+  },
+  "documentTypes": {
+    "pdf": "Documento PDF",
+    "doc": "Documento Word",
+    "docx": "Documento Word",
+    "txt": "Archivo de texto",
+    "csv": "Hoja de calculo CSV",
+    "xls": "Hoja de calculo Excel",
+    "xlsx": "Hoja de calculo Excel",
+    "ppt": "Presentacion PowerPoint",
+    "pptx": "Presentacion PowerPoint",
+    "image": "Archivo de imagen",
+    "other": "Otro"
+  },
+  "actions": {
+    "upload": "Subir",
+    "download": "Descargar",
+    "delete": "Eliminar",
+    "rename": "Cambiar nombre",
+    "share": "Compartir",
+    "view": "Ver",
+    "edit": "Editar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "search": "Buscar documentos..."
+  },
+  "status": {
+    "uploading": "Subiendo...",
+    "processing": "Procesando...",
+    "ready": "Listo",
+    "error": "Error",
+    "uploaded": "Subido correctamente",
+    "deleted": "Eliminado correctamente"
+  },
+  "errors": {
+    "uploadFailed": "La subida ha fallado. Vuelve a intentarlo.",
+    "deleteFailed": "No se pudo eliminar. Vuelve a intentarlo.",
+    "invalidFileType": "Tipo de archivo no valido. Sube un archivo compatible.",
+    "fileTooLarge": "El archivo es demasiado grande. El tamano maximo es {{maxSize}}.",
+    "noFileSelected": "No se ha seleccionado ningun archivo."
+  },
+  "metadata": {
+    "uploadedOn": "Subido el {{date}}",
+    "uploadedBy": "Subido por {{name}}",
+    "lastModified": "Ultima modificacion {{date}}",
+    "fileSize": "Tamano del archivo: {{size}}",
+    "fileType": "Tipo de archivo: {{type}}"
+  }
+}

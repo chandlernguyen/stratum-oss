@@ -1,0 +1,130 @@
+{
+  "pageTitle": {
+    "clientProfile": "Hồ Sơ Khách Hàng",
+    "businessProfile": "Hồ Sơ Doanh Nghiệp"
+  },
+  "pageDescription": {
+    "client": "Quản lý hồ sơ doanh nghiệp, hướng dẫn thương hiệu và thông tin cho {{clientSlug}}",
+    "organization": "Quản lý hồ sơ doanh nghiệp, hướng dẫn thương hiệu và thông tin của tổ chức"
+  },
+  "header": {
+    "title": "Thông Tin Doanh Nghiệp",
+    "description": "Hồ sơ doanh nghiệp kết hợp dữ liệu thủ công và thông tin AI đã học"
+  },
+  "loading": "Đang tải thông tin doanh nghiệp...",
+  "tabs": {
+    "businessProfile": "Hồ Sơ Doanh Nghiệp",
+    "businessProfileShort": "Hồ Sơ",
+    "brandGuidelines": "Hướng Dẫn Thương Hiệu",
+    "brandGuidelinesShort": "Thương Hiệu",
+    "learningHistory": "Lịch Sử Học",
+    "learningHistoryShort": "Học"
+  },
+  "alerts": {
+    "newSuggestions": "Bạn có {{count}} đề xuất AI mới cần xem xét",
+    "newSuggestions_other": "Bạn có {{count}} đề xuất AI mới cần xem xét",
+    "authoritative": "Đây là ngữ cảnh doanh nghiệp chính thức được sử dụng bởi tất cả các trợ lý AI. Nhấn Chỉnh sửa để thay đổi thông tin."
+  },
+  "metrics": {
+    "title": "Chỉ Số Doanh Nghiệp AI Đã Học"
+  },
+  "conflicts": {
+    "title": "Phát Hiện Xung Đột Dữ Liệu",
+    "description": "AI đã tìm thấy thông tin khác với dữ liệu bạn đã nhập",
+    "current": "Hiện Tại",
+    "aiSuggestion": "Đề Xuất AI",
+    "notSet": "Chưa thiết lập",
+    "acceptAI": "Chấp Nhận Giá Trị AI",
+    "keepCurrent": "Giữ Nguyên"
+  },
+  "learningHistory": {
+    "title": "Lịch Sử Học AI",
+    "description": "Theo dõi cách AI đã học về doanh nghiệp của bạn theo thời gian",
+    "totalInsights": "Tổng số thông tin:",
+    "noInsights": {
+      "title": "Chưa có thông tin AI",
+      "description": "Khi bạn tương tác với các trợ lý marketing, AI sẽ học về doanh nghiệp của bạn và hiển thị thông tin tại đây để bạn xem xét."
+    },
+    "status": {
+      "approved": "Đã Duyệt",
+      "autoApproved": "Tự Động Duyệt",
+      "pending": "Chờ Duyệt",
+      "rejected": "Đã Từ Chối"
+    },
+    "filter": {
+      "allAgents": "Tất cả trợ lý",
+      "persona": "Thông tin persona",
+      "strategy": "Thông tin chiến lược",
+      "marketing": "Thông tin marketing",
+      "content": "Thông tin nội dung"
+    },
+    "similar": "tương tự",
+    "fieldsExtracted": "{{count}} trường được trích xuất",
+    "confidence": "độ tin cậy",
+    "from": "Từ"
+  },
+  "patterns": {
+    "title": "Mẫu Xuyên Persona",
+    "mentions": "{{count}} lần đề cập",
+    "personas": "{{count}} persona"
+  },
+  "fields": {
+    "companyName": "Tên Công Ty",
+    "organizationType": "Loại Tổ Chức",
+    "industry": "Ngành Nghề",
+    "companySize": "Quy Mô Công Ty",
+    "description": "Mô Tả",
+    "targetMarket": "Thị Trường Mục Tiêu",
+    "geography": "Địa Lý",
+    "businessModel": "Mô Hình Kinh Doanh",
+    "priceRange": "Phạm Vi Giá",
+    "competitors": "Đối Thủ Cạnh Tranh",
+    "uniqueValueProposition": "Giá Trị Độc Đáo",
+    "technologyStack": "Công Nghệ Sử Dụng",
+    "annualRevenue": "Doanh Thu Hàng Năm",
+    "growthRate": "Tốc Độ Tăng Trưởng",
+    "marketingBudget": "Ngân Sách Marketing"
+  },
+  "content": {
+    "notSpecified": "Chưa xác định",
+    "none": "Không có",
+    "noFieldsAvailable": "Không có trường nào",
+    "errorDisplayingFields": "Lỗi hiển thị trường",
+    "noContentAvailable": "Không có nội dung",
+    "noDisplayableContent": "Không có nội dung hiển thị",
+    "errorDisplayingContent": "Lỗi hiển thị nội dung. Vui lòng làm mới và thử lại.",
+    "noInsightSelected": "Chưa chọn thông tin"
+  },
+  "dialog": {
+    "extractedFrom": "Trích xuất từ cuộc hội thoại {{agent}}",
+    "confidence": "Độ Tin Cậy:",
+    "extractedContext": "Ngữ Cảnh Doanh Nghiệp Đã Trích Xuất:",
+    "edit": "Chỉnh Sửa",
+    "saveChanges": "Lưu Thay Đổi",
+    "cancel": "Hủy"
+  },
+  "actions": {
+    "approveApply": "Duyệt & Áp Dụng",
+    "reject": "Từ Chối",
+    "approveAll": "Duyệt Tất Cả Tương Tự",
+    "rejectAll": "Từ Chối Tất Cả Tương Tự",
+    "approveThisOnly": "Chỉ Duyệt Mục Này",
+    "rejectThisOnly": "Chỉ Từ Chối Mục Này",
+    "bulkNote": "Lưu ý: Hành động này sẽ ảnh hưởng đến {{count}} thông tin tương tự đang chờ duyệt trong nhóm này.",
+    "orActOnThis": "Hoặc thao tác chỉ với thông tin này:"
+  },
+  "aiLearning": {
+    "businessContext": "Ngữ cảnh doanh nghiệp",
+    "aiInsight": "Thông tin AI",
+    "aiAgent": "Trợ lý AI",
+    "similar": "{{count}} tương tự",
+    "confidence": "{{value}}% độ tin cậy",
+    "fieldsExtracted": "{{count}} trường được trích xuất",
+    "dialogTitle": "Thông tin Học của AI",
+    "extractedFrom": "Trích xuất từ cuộc hội thoại {{source}}",
+    "confidenceLabel": "Độ tin cậy",
+    "extractedBusinessContext": "Ngữ cảnh Doanh nghiệp đã Trích xuất",
+    "noContent": "Không có nội dung chi tiết",
+    "capturedOn": "Ghi nhận vào {{date}}"
+  }
+}

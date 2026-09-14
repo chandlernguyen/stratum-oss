@@ -1,0 +1,55 @@
+{
+  "title": "實時指標儀表板",
+  "subtitle": "即時監控營銷活動表現同洞察",
+  "loading": "正在載入指標...",
+  "live": "即時",
+  "widget": {
+    "show": "顯示 ROI 小工具",
+    "hide": "隱藏 ROI 小工具"
+  },
+  "cards": {
+    "totalROI": "總 ROI",
+    "conversions": "轉化次數",
+    "conversionRate": "轉化率",
+    "clickThroughRate": "點擊率",
+    "impressions": "曝光次數",
+    "budgetRemaining": "剩餘預算"
+  },
+  "charts": {
+    "roiTrend": {
+      "title": "ROI 趨勢",
+      "description": "隨時間變化嘅即時 ROI 表現"
+    },
+    "conversionsSpend": {
+      "title": "轉化與支出",
+      "description": "支出同轉化之間嘅相關性"
+    },
+    "legends": {
+      "conversions": "轉化",
+      "spend": "支出（$）"
+    }
+  },
+  "agents": {
+    "title": "活躍 AI 智能助手",
+    "description": "目前正在優化你嘅營銷活動",
+    "status": "活躍",
+    "tip": "你嘅智能助手會持續即時監控並優化營銷活動表現。"
+  },
+  "timePeriods": {
+    "minutes": "{{value}}分",
+    "hours": "{{value}}小時",
+    "days": "{{value}}日",
+    "weeks": "{{value}}週"
+  },
+  "statistics": {
+    "thousand": "{{value}}K",
+    "million": "{{value}}M",
+    "percent": "{{value}}%",
+    "currency": "${{value}}"
+  },
+  "trends": {
+    "up": "趨勢上升",
+    "down": "趨勢下降",
+    "stable": "穩定"
+  }
+}

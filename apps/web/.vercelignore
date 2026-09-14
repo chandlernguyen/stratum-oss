@@ -1,0 +1,24 @@
+# Exclude local environment files from Vercel deployments
+# Vercel will use environment variables set via CLI or dashboard instead
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# Exclude test results and reports
+test-results/
+playwright-report/
+tests/screenshots/
+
+# Exclude node_modules (Vercel installs its own)
+node_modules/
+
+# Video files - large assets that can be regenerated
+*.mp4
+*.mov
+*.avi
+*.mp3
+*.wav
+*.aac

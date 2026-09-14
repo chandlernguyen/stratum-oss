@@ -1,0 +1,68 @@
+{
+  "title": "Clients",
+  "subtitle": "Gerez le portefeuille clients de votre agence",
+  "badge": "Portefeuille clients",
+  "addClient": "Ajouter un client",
+  "addFirstClient": "Ajouter votre premier client",
+  "search": {
+    "placeholder": "Rechercher un client par nom ou secteur..."
+  },
+  "filters": {
+    "label": "Filtrer par statut",
+    "active": "Actifs",
+    "archived": "Archives",
+    "all": "Tous les clients"
+  },
+  "card": {
+    "noIndustry": "Aucun secteur renseigne",
+    "archivedBadge": "Archive",
+    "archivedOn": "Archive",
+    "reason": "Motif : {{reason}}",
+    "campaigns": "Campagnes",
+    "campaignsCount": "{{active}} / {{total}}",
+    "clientSince": "Client depuis",
+    "restoreClient": "Restaurer le client",
+    "dashboard": "Tableau de bord",
+    "viewCampaignsAriaLabel": "Voir les campagnes de {{clientName}}"
+  },
+  "status": {
+    "active": "actif",
+    "paused": "en pause",
+    "churned": "perdu"
+  },
+  "emptyState": {
+    "noArchived": {
+      "title": "Aucun client archive",
+      "description": "Les clients archives apparaitront ici lorsque vous archiverez des clients actifs",
+      "viewActive": "Voir les clients actifs"
+    },
+    "noClients": {
+      "title": "Aucun client pour le moment",
+      "description": "Commencez par ajouter votre premier client pour profiter des insights alimentes par l'IA"
+    },
+    "noResults": {
+      "title": "Aucun client trouve",
+      "description": "Essayez de modifier votre recherche"
+    }
+  },
+  "actions": {
+    "edit": "Modifier",
+    "archive": "Archiver",
+    "restore": "Restaurer",
+    "delete": "Supprimer"
+  },
+  "toast": {
+    "archiveSuccess": "Client archive avec succes",
+    "archiveFailed": "Impossible d'archiver le client",
+    "deleteSuccess": "Client supprime avec succes",
+    "deleteFailed": "Impossible de supprimer le client",
+    "restoreSuccess": "Client restaure avec succes",
+    "restoreFailed": "Impossible de restaurer le client"
+  },
+  "onboarding": {
+    "industry": "Secteur",
+    "industryPlaceholder": "Selectionnez le secteur de votre client",
+    "companySize": "Taille de l'entreprise",
+    "companySizePlaceholder": "Selectionnez la taille de l'entreprise"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "실시간 지표 대시보드",
+  "subtitle": "실시간 캠페인 성과 모니터링과 인사이트",
+  "loading": "지표를 불러오는 중...",
+  "live": "실시간",
+  "widget": {
+    "show": "ROI 위젯 보기",
+    "hide": "ROI 위젯 숨기기"
+  },
+  "cards": {
+    "totalROI": "총 ROI",
+    "conversions": "전환",
+    "conversionRate": "전환율",
+    "clickThroughRate": "클릭률",
+    "impressions": "노출수",
+    "budgetRemaining": "남은 예산"
+  },
+  "charts": {
+    "roiTrend": {
+      "title": "ROI 추이",
+      "description": "시간에 따른 실시간 ROI 성과"
+    },
+    "conversionsSpend": {
+      "title": "전환 및 지출",
+      "description": "지출과 전환 간의 상관관계"
+    },
+    "legends": {
+      "conversions": "전환",
+      "spend": "지출 ($)"
+    }
+  },
+  "agents": {
+    "title": "활성 AI 에이전트",
+    "description": "현재 캠페인을 최적화하고 있습니다",
+    "status": "활성",
+    "tip": "에이전트는 실시간으로 캠페인 성과를 지속적으로 모니터링하고 최적화합니다."
+  },
+  "timePeriods": {
+    "minutes": "{{value}}분",
+    "hours": "{{value}}시간",
+    "days": "{{value}}일",
+    "weeks": "{{value}}주"
+  },
+  "statistics": {
+    "thousand": "{{value}}K",
+    "million": "{{value}}M",
+    "percent": "{{value}}%",
+    "currency": "${{value}}"
+  },
+  "trends": {
+    "up": "상승 추세",
+    "down": "하락 추세",
+    "stable": "안정적"
+  }
+}

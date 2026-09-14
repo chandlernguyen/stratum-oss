@@ -1,0 +1,505 @@
+{
+  "title": "キャンペーン",
+  "subtitle": "マーケティングキャンペーンを管理・追跡します",
+  "newCampaign": {
+    "pageTitle": "新しいキャンペーン",
+    "permissionTitle": "キャンペーン作成",
+    "title": "新しいキャンペーンを作成",
+    "subtitle": "キャンペーンを設定し、AIエージェントの支援で成果につなげましょう",
+    "templatesTitle": "クイックスタートテンプレート",
+    "formTitle": "キャンペーン詳細",
+    "formDescription": "キャンペーン条件を定義すると、AIが成功に向けた最適化を支援します",
+    "createButton": "キャンペーンを作成",
+    "creating": "作成中...",
+    "fields": {
+      "name": "キャンペーン名",
+      "namePlaceholder": "例: 2026年第1四半期 製品ローンチ",
+      "description": "説明",
+      "descriptionPlaceholder": "キャンペーンの目標と方針を簡潔に説明してください...",
+      "objectives": "キャンペーン目標",
+      "objectivesPlaceholder": "何を達成したいですか？指標やKPIを具体的に書いてください...",
+      "budget": "予算（$）",
+      "budgetPlaceholder": "10000",
+      "targetAudience": "ターゲットオーディエンス",
+      "targetAudiencePlaceholder": "理想顧客の属性、興味、行動を説明してください...",
+      "startDate": "開始日",
+      "endDate": "終了日",
+      "selectStartDate": "開始日を選択",
+      "selectEndDate": "終了日を選択"
+    },
+    "templates": {
+      "quickWin": {
+        "title": "クイックウィンキャンペーン",
+        "description": "取り組みやすい施策で即効性のある成果を狙う",
+        "presetName": "クイックウィンキャンペーン",
+        "presetObjectives": "戦術的最適化により、即時のROI改善を実現する"
+      },
+      "brandAwareness": {
+        "title": "ブランド認知",
+        "description": "市場での認知度と到達範囲を拡大する",
+        "presetName": "ブランド認知キャンペーン",
+        "presetObjectives": "対象セグメントでブランド認知を30%向上させる"
+      },
+      "leadGeneration": {
+        "title": "リード獲得",
+        "description": "見込み顧客を獲得し育成する",
+        "presetName": "リード獲得キャンペーン",
+        "presetObjectives": "月500件の有望リードを獲得する"
+      }
+    }
+  },
+  "emptyState": {
+    "title": "インテリジェンスを整理する準備はできましたか？",
+    "description": "キャンペーンはインテリジェンス出力をビジネス施策ごとに整理するためのものです。より良い計画のため、まずは主要なインテリジェンス収集を完了しましょう。",
+    "readinessLabel": "インテリジェンス準備度",
+    "readinessCount": "{{total}}件中{{completed}}件完了",
+    "readyMessage": "キャンペーンを作成するのに十分なインテリジェンスがあります",
+    "notReadyMessage": "開始するには少なくとも2件のインテリジェンス出力を完了してください",
+    "completeBadge": "完了",
+    "createFirst": "最初のキャンペーンを作成",
+    "continueGathering": "インテリジェンス収集を続ける",
+    "startGathering": "インテリジェンス収集を開始",
+    "createAnyway": "それでもキャンペーンを作成",
+    "whyGatherTitle": "なぜ先にインテリジェンスを集めるのですか？",
+    "whyGatherDescription": "キャンペーンは戦略インサイトを整理する枠組みです。ビジネス戦略、ペルソナ、マーケティング計画が揃っていると、初日からデータドリブンなキャンペーン運用ができます。",
+    "totalOutputsReady": "整理可能なインテリジェンス出力の総数",
+    "viewAllIntelligence": "すべてのインテリジェンスを見る",
+    "prerequisites": {
+      "strategy": {
+        "title": "ビジネス戦略",
+        "description": "市場でのポジションと競争優位を定義する"
+      },
+      "persona": {
+        "title": "顧客ペルソナ",
+        "description": "誰を狙うのか、その課題は何かを理解する"
+      },
+      "marketing": {
+        "title": "マーケティング戦略",
+        "description": "チャネルミックスとメッセージングの枠組みを決める"
+      },
+      "content": {
+        "title": "コンテンツプロトタイプ",
+        "description": "初期のキャンペーン素材とメッセージを作成する"
+      }
+    }
+  },
+  "analytics": {
+    "error": {
+      "title": "分析の読み込みに失敗しました",
+      "message": "{{message}}"
+    },
+    "empty": {
+      "title": "分析データがありません",
+      "description": "キャンペーンにアクティビティが発生すると分析が利用可能になります"
+    },
+    "cards": {
+      "budgetUtilized": "消化済み予算",
+      "budgetOf": "{{total}}のうち{{spent}}",
+      "conversionRate": "コンバージョン率",
+      "conversionsFromReach": "リーチ{{reach}}から{{conversions}}件のコンバージョン",
+      "engagement": "エンゲージメント",
+      "ctr": "CTR {{rate}}%",
+      "performance": "パフォーマンス",
+      "impressions": "{{count}}インプレッション"
+    },
+    "budget": {
+      "title": "予算分析",
+      "subtitle": "支出パターンと予測",
+      "dailySpendRate": "日次消化額",
+      "perDay": "{{amount}}/日",
+      "projectedTotalSpend": "予想総支出",
+      "budgetBurnRate": "予算消化ペース",
+      "daysToEnd": "予算終了までの日数",
+      "daysCount": "{{days}}日",
+      "costPerConversion": "1コンバージョンあたりコスト"
+    },
+    "progress": {
+      "title": "キャンペーン進捗",
+      "subtitle": "タイムラインとコンテンツ概要",
+      "campaignProgress": "キャンペーン進捗",
+      "daysActive": "{{days}}日稼働中",
+      "daysLeft": "残り{{days}}日",
+      "strategies": "戦略",
+      "personas": "ペルソナ",
+      "activeOutputs": "アクティブなアウトプット",
+      "topChannel": "最重要チャネル",
+      "channelsConfigured": "{{count}}チャネル設定済み"
+    },
+    "alerts": {
+      "title": "要対応",
+      "overBudget": "キャンペーンが予算超過です（{{percentage}}%）",
+      "underperforming": "キャンペーン成果は{{trend}}です"
+    },
+    "generated": "分析生成日: {{date}}",
+    "performanceLevels": {
+      "excellent": "非常に良い",
+      "good": "良い",
+      "average": "平均的",
+      "below_average": "平均以下"
+    },
+    "burnRates": {
+      "low": "低い",
+      "moderate": "中程度",
+      "high": "高い",
+      "very_high": "非常に高い"
+    }
+  },
+  "list": {
+    "title": "すべてのキャンペーン",
+    "empty": "キャンペーンはまだありません",
+    "emptyDescription": "最初のキャンペーンを作成して、マーケティング施策の追跡を始めましょう",
+    "createFirst": "最初のキャンペーンを作成",
+    "pageTitle": "マーケティングキャンペーン",
+    "pageSubtitle": "マーケティングキャンペーンを管理・モニタリングします",
+    "managementBadge": "キャンペーン管理",
+    "newCampaign": "新しいキャンペーン",
+    "filterByStatus": "ステータスで絞り込む",
+    "createdOn": "{{date}}に作成",
+    "noData": "データなし",
+    "metricsCount_one": "{{count}}件の指標",
+    "metricsCount_other": "{{count}}件の指標",
+    "fields": {
+      "budget": "予算",
+      "type": "タイプ",
+      "duration": "期間",
+      "notSet": "未設定",
+      "notScheduled": "未スケジュール"
+    },
+    "emptyStates": {
+      "noActive": {
+        "title": "アクティブなキャンペーンはありません",
+        "description": "開始準備が整った下書きキャンペーンが{{count}}件あります",
+        "viewDrafts": "下書きを見る"
+      },
+      "noCampaigns": {
+        "title": "キャンペーンはまだありません",
+        "description": "まずは戦略的インテリジェンスを構築し、その後キャンペーンに整理しましょう",
+        "startStrategy": "戦略から始める",
+        "createCampaign": "キャンペーンを作成"
+      },
+      "noPlanned": {
+        "title": "予定済みキャンペーンはまだありません",
+        "description": "Campaign Planningエージェントでキャンペーン計画を生成し、保存するとここに表示されます",
+        "generatePlans": "キャンペーン計画を生成"
+      },
+      "noPaused": {
+        "title": "一時停止中のキャンペーンはありません",
+        "descriptionWithActive": "実行中のアクティブキャンペーンが{{count}}件あります",
+        "descriptionEmpty": "アクティブなキャンペーンを一時停止すると、ここに表示されます",
+        "viewActive": "アクティブなキャンペーンを見る"
+      },
+      "noDraft": {
+        "title": "下書きキャンペーンはありません",
+        "description": "実行中のアクティブキャンペーンが{{count}}件あります"
+      },
+      "noCompleted": {
+        "title": "完了したキャンペーンはありません",
+        "description": "進行中のアクティブキャンペーンが{{count}}件あります"
+      },
+      "generic": {
+        "title": "{{status}}のキャンペーンはありません",
+        "description": "まずはインテリジェンス出力を構築し、その後整理のためにキャンペーンを作成してください",
+        "buildIntelligence": "インテリジェンスを構築"
+      }
+    }
+  },
+  "status": {
+    "draft": "下書き",
+    "active": "アクティブ",
+    "planned": "計画済み",
+    "paused": "一時停止",
+    "completed": "完了",
+    "archived": "アーカイブ済み"
+  },
+  "form": {
+    "create": "キャンペーンを作成",
+    "edit": "キャンペーンを編集",
+    "fields": {
+      "name": "キャンペーン名",
+      "namePlaceholder": "キャンペーン名を入力",
+      "description": "説明",
+      "descriptionPlaceholder": "キャンペーンの目標と戦略を説明してください",
+      "startDate": "開始日",
+      "endDate": "終了日",
+      "budget": "予算",
+      "budgetPlaceholder": "予算額を入力",
+      "status": "ステータス",
+      "channels": "チャネル",
+      "objectives": "キャンペーン目標",
+      "targetAudience": "ターゲットオーディエンス"
+    },
+    "validation": {
+      "nameRequired": "キャンペーン名は必須です",
+      "startDateRequired": "開始日は必須です",
+      "endDateAfterStart": "終了日は開始日より後である必要があります"
+    }
+  },
+  "detail": {
+    "pageTitle": "キャンペーン詳細",
+    "overview": "概要",
+    "performance": "パフォーマンス",
+    "assets": "アセット",
+    "timeline": "タイムライン",
+    "settings": "設定",
+    "notFound": "キャンペーンが見つかりません",
+    "backToCampaigns": "キャンペーン一覧に戻る",
+    "aiAgents": {
+      "title": "AIエージェント",
+      "description": "このキャンペーン専用の専門AIエージェントにアクセス",
+      "agents": {
+        "strategy": {
+          "name": "戦略エージェント",
+          "description": "戦略設計とSWOT分析"
+        },
+        "persona": {
+          "name": "ペルソナエージェント",
+          "description": "顧客プロファイリングとジャーニーマッピング"
+        },
+        "content": {
+          "name": "コンテンツエージェント",
+          "description": "コンテンツ作成と最適化"
+        },
+        "analytics": {
+          "name": "分析エージェント",
+          "description": "成果追跡とインサイト"
+        }
+      }
+    },
+    "collaboration": {
+      "discussion": {
+        "title": "ディスカッション",
+        "description": "このキャンペーンについてチームと協力する"
+      },
+      "tasks": {
+        "title": "タスク",
+        "description": "このキャンペーンの作業を割り当て、追跡する"
+      }
+    }
+  },
+  "metrics": {
+    "impressions": "インプレッション",
+    "clicks": "クリック",
+    "conversions": "コンバージョン",
+    "spend": "支出",
+    "ctr": "CTR",
+    "cpc": "CPC",
+    "cpa": "CPA",
+    "roas": "ROAS",
+    "roi": "ROI"
+  },
+  "actions": {
+    "create": "キャンペーンを作成",
+    "edit": "編集",
+    "editDetails": "詳細を編集",
+    "duplicate": "複製",
+    "archive": "アーカイブ",
+    "delete": "削除",
+    "pause": "一時停止",
+    "resume": "再開",
+    "export": "エクスポート",
+    "viewDetails": "詳細を見る",
+    "save": "保存",
+    "saveChanges": "変更を保存",
+    "cancel": "キャンセル"
+  },
+  "filters": {
+    "all": "すべてのキャンペーン",
+    "active": "アクティブ",
+    "draft": "下書き",
+    "completed": "完了",
+    "search": "キャンペーンを検索...",
+    "dateRange": "期間",
+    "channel": "チャネル"
+  },
+  "channels": {
+    "social": "ソーシャルメディア",
+    "email": "メール",
+    "paid": "有料広告",
+    "seo": "SEO",
+    "content": "コンテンツマーケティング",
+    "events": "イベント",
+    "pr": "PR",
+    "other": "その他"
+  },
+  "confirmDelete": {
+    "title": "キャンペーンを削除",
+    "message": "このキャンペーンを削除してもよろしいですか？この操作は元に戻せません。",
+    "confirm": "削除",
+    "cancel": "キャンセル"
+  },
+  "campaignTypes": {
+    "brand_awareness": "ブランド認知",
+    "lead_generation": "リード獲得",
+    "product_launch": "製品ローンチ",
+    "seasonal_promotion": "季節プロモーション",
+    "content_marketing": "コンテンツマーケティング",
+    "email_nurture": "メールナーチャリング",
+    "social_media": "ソーシャルメディア",
+    "event_promotion": "イベント集客",
+    "customer_retention": "顧客維持",
+    "referral_program": "紹介プログラム",
+    "other": "その他"
+  },
+  "marketingChannels": {
+    "email": "メールマーケティング",
+    "social": "ソーシャルメディア",
+    "content": "コンテンツマーケティング",
+    "paid_ads": "有料広告",
+    "seo": "SEO",
+    "events": "イベント",
+    "webinars": "ウェビナー",
+    "influencer": "インフルエンサーマーケティング",
+    "affiliate": "アフィリエイトマーケティング",
+    "direct_mail": "ダイレクトメール"
+  },
+  "priorityLevels": {
+    "low": "低",
+    "medium": "中",
+    "high": "高",
+    "critical": "最優先"
+  },
+  "statusActions": {
+    "activate": "有効化",
+    "activateCampaign": "キャンペーンを有効化",
+    "pause": "一時停止",
+    "complete": "完了",
+    "resume": "再開",
+    "archive": "アーカイブ"
+  },
+  "performance": {
+    "mapping": {
+      "title": "キャンペーンをマッピング",
+      "metricsFound": "CSV内に{{count}}件の指標が見つかりました",
+      "exactMatches": "完全一致{{count}}件",
+      "fuzzyMatches": "あいまい一致{{count}}件",
+      "unmapped": "未割り当て{{count}}件",
+      "description": "指標を取り込む前に、キャンペーンの対応付けを確認してください",
+      "table": {
+        "csvCampaign": "CSVのキャンペーン名",
+        "matchStatus": "一致状況",
+        "targetCampaign": "対象キャンペーン"
+      },
+      "importSelected": "選択した指標を取り込む",
+      "importing": "取り込み中...",
+      "successToast": "{{count}}件の指標を正常に取り込みました",
+      "errorToast": "指標の取り込みに失敗しました"
+    },
+    "selector": {
+      "placeholder": "キャンペーンを検索...",
+      "selectCampaign": "キャンペーンを選択",
+      "noCampaignsFound": "キャンペーンが見つかりません",
+      "createNew": "新しいキャンペーンを作成",
+      "exactMatch": "完全一致",
+      "fuzzyMatch": "一致率{{percent}}%",
+      "suggested": "候補",
+      "clear": "選択をクリア"
+    },
+    "upload": {
+      "title": "成果CSVをアップロード",
+      "description": "キャンペーン成果指標を含むCSVファイルをアップロードしてください",
+      "steps": {
+        "uploadCSV": "CSVをアップロード",
+        "mapCampaigns": "キャンペーンを対応付け",
+        "complete": "完了"
+      },
+      "dropHere": "ここにCSVファイルをドロップ",
+      "dragDrop": "CSVファイルをここへドラッグ&ドロップするか、クリックして選択してください",
+      "requiredColumns": "必須列: campaign_name, metric_date, spend",
+      "selectedFile": "選択したファイル",
+      "removeFile": "ファイルを削除",
+      "fileRemoved": "ファイルを削除しました",
+      "loadedMetrics": "{{filename}}から{{count}}件の指標を読み込みました",
+      "parseError": "CSVファイルの解析に失敗しました",
+      "csvExtensionError": "ファイルは.csv拡張子である必要があります",
+      "validationIssues": "検証上の問題が見つかりました",
+      "fixIssues": "取り込み前に次の問題を修正してください",
+      "fileFormatErrors": "ファイル形式エラー{{count}}件",
+      "dataValidationErrors": "データ検証エラー{{count}}件",
+      "howToFix": {
+        "title": "修正方法",
+        "requiredColumns": "これらの列が存在することを確認してください",
+        "dateFormat": "日付はYYYY-MM-DD形式を使用してください",
+        "numericFields": "spend、impressions、clicks、conversionsが数値であることを確認してください",
+        "downloadTemplate": "正しい形式のテンプレートをダウンロードしてください"
+      },
+      "clearFile": "ファイルをクリア",
+      "downloadTemplate": "テンプレートをダウンロード",
+      "downloadCSVTemplate": "CSVテンプレートをダウンロード",
+      "importSuccess": "取り込み成功！",
+      "importSuccessDescription": "指標は取り込まれ、キャンペーンに紐付けられました",
+      "importMore": "さらに取り込む",
+      "viewMetrics": "指標を見る"
+    },
+    "matchStatus": {
+      "noMatch": "一致が見つかりません",
+      "exactMatch": "完全一致",
+      "fuzzyMatch": "一致率{{percent}}%"
+    }
+  },
+  "editForm": {
+    "details": {
+      "title": "キャンペーン詳細",
+      "description": "このキャンペーンに関する基本情報"
+    },
+    "noDescription": "説明はありません",
+    "campaignType": "キャンペーンタイプ",
+    "selectType": "タイプを選択",
+    "notSet": "未設定",
+    "priority": "優先度",
+    "selectPriority": "優先度を選択",
+    "targetAudiencePlaceholder": "このキャンペーンは誰を対象としていますか？AI提案の精度を高めるため具体的に入力してください...",
+    "noTargetAudience": "ターゲットオーディエンスが定義されていません",
+    "objectivesGoals": "目標とゴール",
+    "objectivesPlaceholder": "主要な目標と成功基準は何ですか？例: 「Q4までに有望リードを100件獲得」または「対象セグメントでブランド認知を30%向上」",
+    "noObjectives": "目標は定義されていません",
+    "primary": "主要",
+    "secondary": "副次",
+    "cantChangeStartDate": "開始日は変更できません。キャンペーンはすでに開始しています",
+    "historicalData": "履歴データのため変更できません",
+    "budgetLabel": "予算（$）",
+    "channels": {
+      "title": "マーケティングチャネル",
+      "description": "このキャンペーンのチャネルを選択します",
+      "activeChannels": "アクティブなチャネル",
+      "noChannels": "チャネルが選択されていません"
+    },
+    "advanced": {
+      "addMoreDetails": "詳細情報を追加してAIエージェントの性能を高めましょう",
+      "showAdvanced": "詳細項目を表示",
+      "hideAdvanced": "詳細項目を非表示"
+    },
+    "contentStrategy": {
+      "title": "コンテンツ戦略",
+      "description": "コンテンツピラーとテーマを定義します",
+      "contentPillars": "コンテンツピラー",
+      "pillarsPlaceholder": "主要なコンテンツテーマをカンマ区切りで入力（例: thought leadership, product education, customer success stories, industry insights）",
+      "noPillars": "コンテンツピラーは定義されていません"
+    },
+    "successMetrics": {
+      "title": "成功指標とKPI",
+      "description": "成功をどのように測定するか定義します",
+      "primaryKPI": "主要KPI",
+      "kpiPlaceholder": "例: 有望リード数",
+      "targetPlaceholder": "目標値（例: 100）",
+      "noTarget": "目標なし",
+      "notDefined": "未定義"
+    },
+    "competitive": {
+      "title": "競争環境",
+      "description": "市場ポジションと競合状況",
+      "competitorContext": "競合コンテキスト",
+      "contextPlaceholder": "主要競合と自社の差別化ポイント...",
+      "noContext": "競合コンテキストは提供されていません",
+      "geographicTarget": "対象地域",
+      "geoPlaceholder": "例: 北米、グローバル、米国、カリフォルニア州、サンフランシスコ湾岸",
+      "notSpecified": "未指定"
+    },
+    "organization": {
+      "title": "整理",
+      "description": "タグと分類",
+      "tags": "タグ",
+      "tagsPlaceholder": "タグをカンマ区切りで入力",
+      "noTags": "タグなし"
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "title": "團隊",
+  "subtitle": "管理你嘅團隊成員同權限",
+  "management": {
+    "title": "團隊管理",
+    "subtitle": "管理你嘅團隊成員同邀請",
+    "inviteButton": "邀請團隊成員"
+  },
+  "list": {
+    "title": "團隊成員",
+    "empty": "仲未有團隊成員",
+    "emptyDescription": "邀請團隊成員一齊協作你嘅營銷策略",
+    "inviteFirst": "邀請你嘅第一位團隊成員"
+  },
+  "members": {
+    "title": "團隊成員",
+    "count": "團隊成員（{{count}}）",
+    "subtitle": "你組織中嘅活躍成員",
+    "empty": "搵唔到團隊成員",
+    "joined": "加入於 {{date}}"
+  },
+  "invitations": {
+    "title": "待處理邀請",
+    "count": "待處理邀請（{{count}}）",
+    "subtitle": "仲未被接受嘅邀請",
+    "empty": "冇待處理邀請",
+    "invitedBy": "邀請人：{{name}}",
+    "expires": "到期於 {{date}}",
+    "revoke": "撤銷邀請"
+  },
+  "table": {
+    "name": "姓名",
+    "email": "電郵",
+    "role": "角色",
+    "clientAccess": "客戶存取權限",
+    "joined": "加入時間",
+    "expires": "到期時間",
+    "invitedBy": "邀請人",
+    "actions": "操作"
+  },
+  "clientAccess": {
+    "allClients": "所有客戶",
+    "clientCount_one": "{{count}} 位客戶",
+    "clientCount_other": "{{count}} 位客戶",
+    "allClientsTooltip": "可存取所有目前同未來嘅客戶",
+    "assignedClients": "已分配客戶：",
+    "andMore": "……以及另外 {{count}} 位",
+    "noClientsAssigned": "未分配客戶"
+  },
+  "dialogs": {
+    "changeRole": {
+      "title": "更改成員角色",
+      "description": "更新 {{name}}（{{email}}）嘅角色",
+      "newRole": "新角色",
+      "selectRole": "揀選一個新角色",
+      "cancel": "取消",
+      "submit": "更新角色",
+      "submitting": "更新中..."
+    },
+    "clientAccess": {
+      "title": "管理客戶存取權限",
+      "description": "更新 {{name}}（{{email}}）嘅客戶存取權限",
+      "allClients": "所有客戶",
+      "allClientsDescription": "該用戶將可存取所有目前同未來嘅客戶",
+      "selectClients": "揀選特定客戶：",
+      "loadingClients": "正在載入客戶...",
+      "noClients": "冇可用客戶",
+      "selectAtLeastOne": "請至少揀選一個客戶，或揀選\u201c所有客戶\u201d",
+      "cancel": "取消",
+      "submit": "更新存取權限",
+      "submitting": "更新中..."
+    },
+    "revoke": {
+      "title": "撤銷邀請",
+      "description": "確定要撤銷發送畀 {{email}} 嘅邀請嗎？",
+      "confirm": "撤銷"
+    },
+    "remove": {
+      "title": "移除團隊成員",
+      "description": "確定要將 {{name}}（{{email}}）從你嘅組織中移除嗎？呢個操作無法撤銷。",
+      "confirm": "移除成員"
+    }
+  },
+  "actions": {
+    "changeRole": "更改角色",
+    "manageClientAccess": "管理客戶存取權限",
+    "removeMember": "移除成員",
+    "moreOptions": "更多選項"
+  },
+  "validation": {
+    "selectRole": "請揀選一個角色",
+    "rolesNotLoaded": "角色仲未載入",
+    "invalidRole": "所選角色無效",
+    "noMemberSelected": "未揀選成員",
+    "selectClientOrAll": "請至少揀選一個客戶，或揀選\u201c所有客戶\u201d"
+  },
+  "roles": {
+    "owner": "擁有者",
+    "admin": "管理員",
+    "editor": "編輯者",
+    "viewer": "查看者",
+    "descriptions": {
+      "owner": "完整存取所有功能，包括帳單同團隊管理",
+      "admin": "可管理團隊成員並存取除帳單外嘅所有功能",
+      "editor": "可建立同編輯內容、營銷活動同畫像",
+      "viewer": "只讀存取，可查看儀表板同報告"
+    }
+  },
+  "invite": {
+    "title": "邀請團隊成員",
+    "subtitle": "發送邀請加入你嘅團隊",
+    "fields": {
+      "email": "電郵地址",
+      "emailPlaceholder": "colleague@company.com",
+      "role": "角色",
+      "message": "個人訊息（選填）",
+      "messagePlaceholder": "喺邀請中加一段個人備註..."
+    },
+    "actions": {
+      "send": "發送邀請",
+      "sending": "發送中...",
+      "cancel": "取消"
+    },
+    "success": "邀請發送成功",
+    "error": "發送邀請失敗"
+  },
+  "member": {
+    "joined": "加入時間",
+    "lastActive": "最近活躍",
+    "pendingInvite": "待處理邀請",
+    "inviteSent": "邀請已發送",
+    "actions": {
+      "changeRole": "更改角色",
+      "resendInvite": "重新發送邀請",
+      "cancelInvite": "取消邀請",
+      "remove": "從團隊中移除"
+    }
+  },
+  "permissions": {
+    "title": "權限",
+    "categories": {
+      "campaigns": "營銷活動",
+      "personas": "畫像",
+      "agents": "AI 智能助手",
+      "analytics": "分析",
+      "settings": "設定",
+      "team": "團隊管理"
+    },
+    "levels": {
+      "none": "無權限",
+      "view": "僅查看",
+      "edit": "編輯",
+      "full": "完整存取"
+    }
+  },
+  "confirmRemove": {
+    "title": "移除團隊成員",
+    "message": "確定要將 {{name}} 從團隊中移除嗎？佢哋將失去對所有團隊資源嘅存取權限。",
+    "confirm": "移除",
+    "cancel": "取消"
+  },
+  "confirmCancelInvite": {
+    "title": "取消邀請",
+    "message": "確定要取消發送畀 {{email}} 嘅邀請嗎？",
+    "confirm": "取消邀請",
+    "cancel": "保留邀請"
+  },
+  "limits": {
+    "title": "團隊限制",
+    "membersUsed": "已使用 {{used}} / {{total}} 個成員名額",
+    "upgradePrompt": "升級以新增更多團隊成員"
+  },
+  "activity": {
+    "title": "最近活動",
+    "empty": "暫無最近活動",
+    "actions": {
+      "invited": "已邀請",
+      "joined": "加入咗團隊",
+      "removed": "已從團隊中移除",
+      "roleChanged": "角色已更改為"
+    }
+  }
+}

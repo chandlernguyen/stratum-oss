@@ -1,0 +1,62 @@
+{
+  "title": "文档管理",
+  "subtitle": "上传、搜索并管理你组织的知识库。",
+  "upload": {
+    "title": "上传文档",
+    "description": "将新文档添加到你的知识库。",
+    "button": "上传"
+  },
+  "documents": {
+    "title": "你的文档",
+    "description": "浏览并管理你上传的文档。",
+    "emptyState": "文档列表或网格将显示在这里。",
+    "noDocuments": "还没有文档。上传你的第一份文档开始使用。"
+  },
+  "documentTypes": {
+    "pdf": "PDF 文档",
+    "doc": "Word 文档",
+    "docx": "Word 文档",
+    "txt": "文本文件",
+    "csv": "CSV 表格",
+    "xls": "Excel 表格",
+    "xlsx": "Excel 表格",
+    "ppt": "PowerPoint 演示文稿",
+    "pptx": "PowerPoint 演示文稿",
+    "image": "图片文件",
+    "other": "其他"
+  },
+  "actions": {
+    "upload": "上传",
+    "download": "下载",
+    "delete": "删除",
+    "rename": "重命名",
+    "share": "分享",
+    "view": "查看",
+    "edit": "编辑",
+    "cancel": "取消",
+    "confirm": "确认",
+    "search": "搜索文档..."
+  },
+  "status": {
+    "uploading": "上传中...",
+    "processing": "处理中...",
+    "ready": "就绪",
+    "error": "错误",
+    "uploaded": "上传成功",
+    "deleted": "删除成功"
+  },
+  "errors": {
+    "uploadFailed": "上传失败。请重试。",
+    "deleteFailed": "删除失败。请重试。",
+    "invalidFileType": "文件类型无效。请上传受支持的文件。",
+    "fileTooLarge": "文件过大。最大大小为 {{maxSize}}。",
+    "noFileSelected": "未选择文件。"
+  },
+  "metadata": {
+    "uploadedOn": "上传于 {{date}}",
+    "uploadedBy": "上传者：{{name}}",
+    "lastModified": "最后修改于 {{date}}",
+    "fileSize": "文件大小：{{size}}",
+    "fileType": "文件类型：{{type}}"
+  }
+}

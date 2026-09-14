@@ -1,0 +1,1600 @@
+{
+  "common": {
+    "analyzing": "正在使用 {{tools}} 分析您的请求...",
+    "complete": "完成",
+    "recommendation": "基于此分析，以下是我的建议："
+  },
+  "strategy": {
+    "name": "策略代理",
+    "description": "您的战略规划专家",
+    "greeting": "欢迎！让我们一起应对您的商业挑战。我可以帮助您理清思路，运用 SWOT、Porter's Five Forces、增长三层面或 Blue Ocean Strategy 等成熟框架构建制胜战略。今天有什么想探讨的？我们可以研究战略问题、分析竞争格局，或者从当前最重要的事情开始。",
+    "placeholder": "咨询商业策略、SWOT 分析...（例如：'做一个 SWOT 分析'）",
+    "page": {
+      "title": "商业策略代理",
+      "subtitle": "基于 AI 的战略分析，涵盖 11 个成熟商业框架",
+      "defaultSessionTitle": "策略分析",
+      "features": {
+        "analysis": {
+          "title": "综合分析",
+          "description": "SWOT、Porter's Five Forces、BCG Matrix 等"
+        },
+        "recommendations": {
+          "title": "智能建议",
+          "description": "基于数据的定制化商业洞察"
+        },
+        "frameworks": {
+          "title": "可视化框架",
+          "description": "交互式图表与结构化输出"
+        }
+      }
+    },
+    "hints": {
+      "beginner": {
+        "expandOrSpecialize": {
+          "trigger": "我应该扩张还是专注？",
+          "smeLabel": "我应该扩张还是专注？",
+          "agencyLabel": "我的客户应该扩张还是专注？",
+          "tooltip": "用 Porter's Five Forces + VRIO 分析辅助增长决策",
+          "description": "战略增长方向分析"
+        },
+        "swotPricing": {
+          "trigger": "对我的定价做 SWOT 分析",
+          "smeLabel": "对我的定价做 SWOT 分析",
+          "agencyLabel": "对客户定价做 SWOT 分析",
+          "tooltip": "以定价为核心的 SWOT 分析，含可执行建议",
+          "description": "定价策略分析"
+        }
+      },
+      "intermediate": {
+        "bcgMatrix": {
+          "trigger": "BCG Matrix：评估 3 条产品线",
+          "tooltip": "产品组合分析及投资建议",
+          "description": "产品组合管理"
+        },
+        "blueOcean": {
+          "trigger": "Blue Ocean：寻找未开发的市场",
+          "tooltip": "使用 ERRC 框架进行战略差异化",
+          "description": "市场差异化战略"
+        },
+        "vrio": {
+          "trigger": "VRIO：分析竞争优势",
+          "tooltip": "基于资源的竞争优势评估",
+          "description": "竞争优势分析"
+        },
+        "threeHorizons": {
+          "trigger": "增长三层面：平衡增长",
+          "tooltip": "平衡增长规划框架",
+          "description": "增长层面规划"
+        }
+      },
+      "expert": {
+        "completeSuite": {
+          "trigger": "完整战略框架套件",
+          "tooltip": "4 框架分析并综合洞察",
+          "description": "全面的多框架分析"
+        },
+        "mckinsey7s": {
+          "trigger": "McKinsey 7S：组织协同",
+          "tooltip": "组织效能评估",
+          "description": "组织协同框架"
+        },
+        "okrs": {
+          "trigger": "下季度的战略 OKR",
+          "tooltip": "可量化成果的目标设定",
+          "description": "战略 OKR 框架"
+        }
+      }
+    }
+  },
+  "persona": {
+    "name": "用户画像代理",
+    "description": "您的客户洞察专家",
+    "greeting": "我帮助您深入了解理想客户。我可以创建详细的用户画像、绘制买家旅程，并生成访谈问题。",
+    "placeholder": "咨询客户画像、买家旅程...（例如：'创建一个客户画像'）",
+    "page": {
+      "title": "客户画像代理",
+      "subtitle": "基于 AI 的客户画像与买家旅程分析",
+      "defaultSessionTitle": "画像开发",
+      "tabs": {
+        "newPersona": "新建画像",
+        "myPersonas": "我的画像"
+      },
+      "session": {
+        "newSession": "新建会话"
+      },
+      "features": {
+        "profiles": {
+          "title": "详细画像",
+          "description": "人口统计、心理特征与行为分析"
+        },
+        "journey": {
+          "title": "旅程分析",
+          "description": "从认知到推荐的完整客户旅程"
+        },
+        "insights": {
+          "title": "行为洞察",
+          "description": "痛点、动机与决策因素"
+        }
+      }
+    },
+    "interview": {
+      "pageTitle": "画像访谈",
+      "header": {
+        "interviewMode": "访谈模式",
+        "backToPersonaAgent": "返回画像代理",
+        "back": "返回"
+      },
+      "tabs": {
+        "interview": "访谈",
+        "liveInsights": "实时洞察"
+      },
+      "loading": {
+        "title": "正在加载访谈会话...",
+        "error": "未找到画像",
+        "returnButton": "返回画像代理"
+      }
+    }
+  },
+  "marketing_strategy": {
+    "name": "营销策略代理",
+    "description": "您的市场推广专家",
+    "greeting": "我是您的营销策略代理，随时为您量身定制全面的营销方案。我会分析您的商业背景、用户画像和目标，制定可执行的策略，包括信息框架、渠道建议和预算优化。",
+    "placeholder": "描述您的业务、目标受众和营销目标...",
+    "page": {
+      "title": "营销策略代理",
+      "subtitle": "连接客户画像与内容创作的桥梁",
+      "defaultSessionTitle": "营销策略",
+      "tabs": {
+        "newStrategy": "新建策略",
+        "myStrategies": "我的策略"
+      },
+      "modes": {
+        "quick": "🚀 快速策略模式",
+        "guided": "🎯 引导规划模式",
+        "chat": "💬 互动对话模式",
+        "advanced": "⚙️ 高级配置模式"
+      },
+      "actions": {
+        "changeMode": "切换模式",
+        "viewAllStrategies": "查看所有策略",
+        "startConversation": "开始策略对话"
+      },
+      "activeStrategy": "当前策略：",
+      "created": "创建于",
+      "loading": "正在加载营销策略代理...",
+      "loadingSubtitle": "正在搭建您的个性化营销策略工作区。",
+      "startPrompt": "告诉我您的业务情况，我将为您制定全面的营销策略",
+      "orStartWith": "或从特定场景开始：",
+      "contextCards": {
+        "starting": {
+          "title": "刚刚起步",
+          "description": "适合初创企业的低成本策略"
+        },
+        "scaling": {
+          "title": "准备扩张",
+          "description": "适合成长型企业的增长策略"
+        },
+        "global": {
+          "title": "走向全球",
+          "description": "面向国际扩张的区域策略"
+        }
+      },
+      "features": {
+        "budget": "适用于任何预算",
+        "aiInsights": "AI 驱动的洞察",
+        "tactics": "可直接落地的战术",
+        "contextAware": "情境感知推理",
+        "tradeoffs": "清晰解释权衡",
+        "regional": "区域市场专长",
+        "iterative": "迭代优化",
+        "smartBudget": "智能预算分配",
+        "freeTactics": "免费营销战术",
+        "dataInsights": "数据驱动的洞察"
+      },
+      "quickStrategy": {
+        "title": "快速策略生成器",
+        "description": "回答 2 个问题，获取您的营销策略",
+        "budgetQuestion": "您每月的营销预算是多少？",
+        "goalQuestion": "您最重要的营销目标是什么？",
+        "generateButton": "生成我的策略",
+        "cardTitle": "快速策略",
+        "cardDescription": "2 分钟获取完整策略",
+        "features": {
+          "smartBudget": "智能预算分配",
+          "channelRecs": "渠道建议",
+          "messagingFramework": "信息框架",
+          "readyTactics": "可直接使用的战术"
+        }
+      },
+      "guidedPlanning": {
+        "title": "引导式策略规划",
+        "description": "让我们一步步共同制定您的营销策略",
+        "explanation": "我将通过询问您的业务、目标受众和目标，引导您创建全面的营销策略。这种对话式方法确保我们涵盖所有重要内容，同时保持简洁明了。",
+        "startButton": "开始引导规划",
+        "cardTitle": "引导规划",
+        "cardDescription": "逐步构建策略",
+        "features": {
+          "conversational": "对话式方法",
+          "tailored": "定制化建议",
+          "bestPractice": "最佳实践指导",
+          "iterative": "迭代优化"
+        }
+      },
+      "advancedConfig": {
+        "title": "高级配置",
+        "description": "完全掌控您的营销策略参数",
+        "explanation": "配置营销策略的各个方面，包括多画像定位、自定义渠道组合、详细预算分配和复杂的活动参数。推荐给有经验的营销人员和代理机构使用。",
+        "openButton": "打开高级配置",
+        "cardTitle": "高级配置",
+        "cardDescription": "完全掌控所有参数",
+        "features": {
+          "multiPersona": "多画像定位",
+          "customChannel": "自定义渠道组合",
+          "detailedBudget": "详细预算分配",
+          "complexCampaigns": "复杂活动规划"
+        }
+      },
+      "budgetOptions": {
+        "bootstrap": "$0（零成本启动）",
+        "under500": "500 美元以下",
+        "mid": "$500-$2000",
+        "high": "$2000+"
+      },
+      "goalOptions": {
+        "firstCustomers": "获取首批客户",
+        "brandAwareness": "提升品牌知名度",
+        "leadGeneration": "获取潜在客户",
+        "productLaunch": "新产品上市"
+      },
+      "badges": {
+        "quick": "2 分钟",
+        "guided": "10 分钟",
+        "custom": "自定义"
+      },
+      "header": {
+        "title": "营销策略规划",
+        "description": "连接客户理解与内容创作的桥梁"
+      },
+      "changeApproach": "切换方式",
+      "budget": "预算",
+      "allOptionsNote": "所有选项均可通过菜单随时访问。根据需要切换模式。"
+    }
+  },
+  "content": {
+    "name": "内容代理",
+    "description": "您的内容创作专家",
+    "greeting": "我帮助您创作能够转化的优质内容。我可以生成内容创意、撰写博客文章、创建社交媒体内容，以及规划内容日历。",
+    "placeholder": "咨询内容创意、博客文章...（例如：'生成博客文章创意'）",
+    "page": {
+      "title": "内容创作代理",
+      "subtitle": "AI 驱动的专业内容生成工具",
+      "defaultSessionTitle": "内容创作",
+      "tabs": {
+        "generate": "生成内容",
+        "myContent": "我的内容"
+      },
+      "actions": {
+        "changeTool": "切换工具",
+        "newSession": "新建会话",
+        "startChat": "开始互动对话"
+      },
+      "strategy": {
+        "title": "AI 驱动的内容策略",
+        "subtitle": "我已分析您的业务数据，为您制定了定制化内容策略"
+      },
+      "stats": {
+        "strategy": "策略",
+        "personas": "画像",
+        "contentCreated": "已创建内容",
+        "recommendations": "建议"
+      },
+      "tools": {
+        "seoBlog": "🔍 SEO 博客文章生成器",
+        "thoughtLeadership": "📈 思想领导力创作器",
+        "uspContent": "🎯 USP 聚焦内容生成器",
+        "emailDrip": "📧 邮件营销序列设计器",
+        "socialCalendar": "📅 社交媒体日历",
+        "chat": "💬 互动内容创作"
+      },
+      "quickStart": {
+        "title": "或从对话开始",
+        "description": "不确定用哪个工具？开始对话，我会帮助您创作最适合您需求的内容。"
+      },
+      "features": {
+        "multiFormat": {
+          "title": "多格式内容",
+          "description": "博客文章、邮件、社交媒体和广告"
+        },
+        "platform": {
+          "title": "平台优化",
+          "description": "针对各社交平台最佳实践定制"
+        },
+        "brandVoice": {
+          "title": "品牌调性",
+          "description": "所有内容保持一致的语调和信息"
+        },
+        "research": {
+          "title": "数据支撑",
+          "description": "基于数据和最佳实践的内容创作"
+        },
+        "audience": {
+          "title": "受众导向",
+          "description": "针对目标画像和目标定制"
+        },
+        "brand": {
+          "title": "品牌一致性",
+          "description": "保持您独特的品牌声音和风格"
+        }
+      },
+      "toolGrid": {
+        "header": {
+          "title": "选择您的内容创作工具",
+          "subtitle": "从我们的 AI 内容生成器套件中选择，几分钟内创作专业的营销素材"
+        },
+        "stats": {
+          "activeTools": "可用工具",
+          "contentTypes": "内容类型",
+          "avgGeneration": "平均生成时间",
+          "variations": "变体数量"
+        },
+        "tools": {
+          "seoBlog": {
+            "name": "SEO 博客生成器",
+            "description": "创建经过 SEO 优化的博客文章，包含关键词、元描述和结构化内容"
+          },
+          "thoughtLeadership": {
+            "name": "思想领导力",
+            "description": "打造专家级内容和系列文章，树立行业领袖地位"
+          },
+          "uspContent": {
+            "name": "USP 聚焦内容",
+            "description": "生成突出您独特卖点和差异化优势的内容"
+          },
+          "emailDrip": {
+            "name": "邮件营销序列",
+            "description": "设计完整的邮件序列，用于客户培育、引导和互动"
+          },
+          "socialCalendar": {
+            "name": "社交媒体日历",
+            "description": "规划并生成跨平台一个月的社交媒体内容"
+          },
+          "contentPlan": {
+            "name": "内容计划生成器",
+            "description": "创建与策略一致的 4 周综合内容日历"
+          },
+          "contentIdeation": {
+            "name": "内容创意",
+            "description": "基于趋势和受众兴趣生成创意内容构思"
+          },
+          "blogTemplates": {
+            "name": "博客写作模板",
+            "description": "获取针对不同内容类型的成熟博客模板"
+          },
+          "contentAnalysis": {
+            "name": "内容需求分析器",
+            "description": "发现内容策略中的缺口并获取建议"
+          }
+        },
+        "badges": {
+          "popular": "热门",
+          "highImpact": "高影响力",
+          "comingSoon": "即将推出"
+        },
+        "buttons": {
+          "startCreating": "开始创作"
+        },
+        "cta": {
+          "title": "不确定从哪里开始？",
+          "description": "试试我们的 SEO 博客生成器快速获得成果，或使用邮件营销设计器培育您的潜在客户",
+          "seoBlog": "创建 SEO 博客",
+          "emailCampaign": "设计邮件营销"
+        },
+        "recommendations": {
+          "loading": "正在分析您的内容需求...",
+          "smartAnalysis": "智能内容分析",
+          "clarificationNeeded": "需要进一步说明",
+          "clarificationMessage": "我需要更好地了解您的业务，才能提供相关建议",
+          "noRecommendations": {
+            "title": "暂无建议",
+            "description": "先完成您的营销策略，即可获得个性化内容建议",
+            "cta": "制定营销策略"
+          },
+          "priorities": {
+            "title": "您的内容优先级",
+            "count": "{{count}} 条建议",
+            "count_one": "{{count}} 条建议",
+            "confidence": "{{level}} 置信度"
+          },
+          "actions": {
+            "getStarted": "开始",
+            "expand": "展开",
+            "collapse": "收起",
+            "startWriting": "开始写作",
+            "showLess": "收起",
+            "showMore": "还有 {{count}} 条建议"
+          },
+          "status": {
+            "completed": "已完成",
+            "progress": "已完成 {{completed}}/{{total}}"
+          }
+        }
+      }
+    }
+  },
+  "campaign_planning": {
+    "name": "活动策划代理",
+    "description": "您的部署智能专家",
+    "greeting": "我帮助您运用战略框架和优化策略规划活动部署。我提供部署方案、A/B 测试框架和多渠道协调智能——而非执行。",
+    "placeholder": "咨询部署规划、A/B 测试...（例如：'创建部署方案'）",
+    "page": {
+      "title": "活动策划代理",
+      "subtitle": "战略活动部署与多渠道协调",
+      "defaultSessionTitle": "活动策划",
+      "features": {
+        "deployment": {
+          "title": "部署规划",
+          "description": "活动上线的战略框架"
+        },
+        "testing": {
+          "title": "A/B 测试",
+          "description": "数据驱动的测试框架与优化"
+        },
+        "coordination": {
+          "title": "多渠道",
+          "description": "跨渠道的协调活动"
+        }
+      },
+      "plansDisplay": {
+        "title": "活动方案",
+        "subtitle": "基于您的业务背景，AI 识别的部署策略",
+        "chatForPlans": "对话获取定制方案",
+        "badges": {
+          "iceScored": "ICE 评分",
+          "multiChannel": "多渠道",
+          "deploymentReady": "部署就绪"
+        },
+        "loading": "正在分析您的业务背景并生成战略活动方案...",
+        "setupNeeded": {
+          "title": "让我们开始吧",
+          "button": "完成设置"
+        },
+        "clarificationNeeded": {
+          "title": "我需要更多信息",
+          "button": "通过对话回答"
+        },
+        "recommended": {
+          "title": "推荐活动方案",
+          "sortInfo": "按 ICE 评分排序（影响力 × 置信度 × 易实施度）",
+          "plansGenerated": "已生成 {{count}} 个方案"
+        },
+        "scores": {
+          "impact": "影响力",
+          "confidence": "置信度",
+          "ease": "易实施度",
+          "ice": "ICE"
+        },
+        "details": {
+          "channels": "渠道",
+          "duration": "时长",
+          "expectedOutcomes": "预期成果",
+          "prerequisites": "前置条件",
+          "riskFactors": "风险因素"
+        },
+        "actions": {
+          "deployPlan": "部署此方案",
+          "viewDetails": "查看详情",
+          "savePlan": "保存方案",
+          "saving": "保存中..."
+        },
+        "emptyState": {
+          "title": "暂无活动方案",
+          "description": "目前还无法生成活动方案。与代理对话讨论您的具体目标，或上传更多业务背景数据。",
+          "button": "与代理对话"
+        }
+      },
+      "session": {
+        "newSession": "新建会话",
+        "backToPlans": "返回活动方案"
+      },
+      "chatMode": {
+        "title": "活动执行对话",
+        "subtitle": "设计定制部署策略"
+      },
+      "tabs": {
+        "deploymentFramework": "部署框架",
+        "deploymentFrameworkShort": "框架",
+        "abTesting": "A/B 测试",
+        "abTestingShort": "测试",
+        "executionContext": "执行背景",
+        "executionContextShort": "背景"
+      }
+    }
+  },
+  "competitive_intelligence": {
+    "name": "竞争情报代理",
+    "description": "您的市场分析专家",
+    "greeting": "我帮助您了解竞争格局。我可以分析竞争对手、发现市场缺口、识别战略机会。",
+    "placeholder": "咨询竞争对手、市场分析...（例如：'分析竞争对手'）",
+    "page": {
+      "title": "竞争情报代理",
+      "subtitle": "市场分析与竞争格局洞察",
+      "defaultSessionTitle": "竞争分析",
+      "features": {
+        "competitors": {
+          "title": "竞争对手分析",
+          "description": "深入分析竞争对手的策略和市场定位"
+        },
+        "marketGaps": {
+          "title": "市场缺口",
+          "description": "发现市场中未被满足的机会"
+        },
+        "opportunities": {
+          "title": "战略机会",
+          "description": "可执行的竞争优势洞察"
+        }
+      },
+      "analysisDisplay": {
+        "title": "竞争情报",
+        "subtitle": "基于实时网络研究的战略竞争分析",
+        "startResearch": "开始自定义研究",
+        "searchGrounding": {
+          "title": "已启用 Google 搜索数据增强",
+          "description": "点击下方框架，获取基于实时数据的 AI 洞察：定价、功能、最新动态、市场定位"
+        },
+        "frameworksTitle": "选择竞争分析框架"
+      },
+      "session": {
+        "newSession": "新建会话",
+        "backToAnalysis": "返回分析"
+      },
+      "frameworks": {
+        "badges": {
+          "popular": "热门",
+          "competitorsOnly": "仅限竞争对手"
+        },
+        "youllGet": "您将获得：",
+        "difficulty": {
+          "beginner": "入门",
+          "intermediate": "进阶",
+          "advanced": "高级"
+        },
+        "setupRequired": {
+          "title": "设置您的企业资料以获取个性化分析",
+          "description": "获取针对您公司、竞争对手和行业的 AI 竞争洞察",
+          "setupButton": "设置企业资料（2 分钟）",
+          "continueGeneric": "继续使用通用提示"
+        },
+        "swotAnalysis": {
+          "title": "SWOT 分析",
+          "description": "分析竞争对手的优势、劣势、机会和威胁",
+          "expectedOutcome": "包含可执行竞争洞察的综合 SWOT 矩阵"
+        },
+        "featureComparison": {
+          "title": "功能对比",
+          "description": "并排比较产品功能、定价和能力",
+          "expectedOutcome": "详细的功能对比矩阵，含竞争差距分析"
+        },
+        "marketPositioning": {
+          "title": "市场定位",
+          "description": "分析竞争定位、目标市场和差异化",
+          "expectedOutcome": "市场定位图，含差异化机会"
+        },
+        "companyIntelligence": {
+          "title": "企业情报",
+          "description": "研究公司规模、融资、增长轨迹和战略方向（以竞争对手为中心）",
+          "expectedOutcome": "含战略洞察的综合企业档案"
+        },
+        "pricingAnalysis": {
+          "title": "定价分析",
+          "description": "比较定价模式、打包策略和价值指标",
+          "expectedOutcome": "含盈利模式洞察的定价对比"
+        },
+        "marketGapAnalysis": {
+          "title": "市场缺口分析",
+          "description": "识别未充分服务的细分市场、未满足的需求和 Blue Ocean 机会（以市场为中心）",
+          "expectedOutcome": "含 Blue Ocean 机会的市场缺口地图"
+        }
+      }
+    }
+  },
+  "client_success": {
+    "name": "客户成功代理",
+    "description": "您的客户留存专家",
+    "greeting": "我帮助您维持客户满意度并促进增长。我可以评估客户健康度、制定留存策略、发现扩展机会。",
+    "placeholder": "咨询留存策略、客户健康度...（例如：'留存策略'）",
+    "page": {
+      "title": "客户成功代理",
+      "subtitle": "客户留存与扩展策略",
+      "defaultSessionTitle": "客户成功分析",
+      "features": {
+        "health": {
+          "title": "健康评分",
+          "description": "评估客户满意度和参与度"
+        },
+        "retention": {
+          "title": "留存策略",
+          "description": "主动降低客户流失的方案"
+        },
+        "expansion": {
+          "title": "扩展机会",
+          "description": "识别追加销售和交叉销售的潜力"
+        }
+      }
+    }
+  },
+  "performance_intelligence": {
+    "name": "效果分析代理",
+    "description": "您的效果追踪专家",
+    "greeting": "我帮助您追踪和分析各营销活动的效果。我可以汇总指标、识别趋势并提供可执行的洞察。",
+    "placeholder": "咨询数据分析、指标...（例如：'分析活动效果'）",
+    "page": {
+      "title": "效果分析代理",
+      "subtitle": "营销效果追踪与数据分析",
+      "defaultSessionTitle": "效果分析",
+      "features": {
+        "metrics": {
+          "title": "指标看板",
+          "description": "汇总所有渠道的效果数据"
+        },
+        "trends": {
+          "title": "趋势分析",
+          "description": "识别规律并预测结果"
+        },
+        "actionable": {
+          "title": "可执行洞察",
+          "description": "基于数据的优化建议"
+        }
+      },
+      "dashboard": {
+        "loading": "正在加载看板指标...",
+        "emptyState": {
+          "title": "暂无活动数据",
+          "description": "导入您的活动指标，开始追踪 ROI、发现速赢机会、获取 AI 驱动的效果洞察",
+          "importCsv": "导入 CSV 数据",
+          "manualEntry": "手动录入"
+        },
+        "capabilities": {
+          "roiAnalysis": {
+            "title": "ROI 分析",
+            "description": "计算各活动的 ROI、ROAS 和盈利能力"
+          },
+          "quickWins": {
+            "title": "速赢机会",
+            "description": "发现可立即实施的高影响力优化机会"
+          },
+          "performanceAnalytics": {
+            "title": "效果分析",
+            "description": "深入分析活动指标和趋势"
+          },
+          "budgetOptimization": {
+            "title": "预算优化",
+            "description": "基于效果数据优化预算分配"
+          }
+        }
+      },
+      "tools": {
+        "title": "效果工具",
+        "subtitle": "数据管理、可视化和优化的专业工具",
+        "importData": {
+          "title": "导入数据",
+          "description": "CSV 导入向导，支持模糊活动匹配"
+        },
+        "manageMetrics": {
+          "title": "管理活动指标",
+          "description": "查看、编辑和管理您的活动效果数据"
+        },
+        "visualize": {
+          "title": "可视化指标",
+          "description": "效果数据的交互式图表和可视化"
+        },
+        "budgetCalculator": {
+          "title": "预算计算器",
+          "description": "计算各活动间的最优预算分配"
+        },
+        "settings": {
+          "title": "ROI 设置",
+          "description": "配置 ROI 计算参数和假设条件"
+        },
+        "historicalPerformance": {
+          "title": "历史效果",
+          "description": "可视化展示支出、收入和 ROI 随时间的趋势"
+        },
+        "roiCalculator": {
+          "title": "ROI 计算器",
+          "description": "使用活动数据计算投资回报率"
+        },
+        "manualDataEntry": {
+          "title": "手动数据录入",
+          "description": "快速录入单个活动的指标数据"
+        },
+        "budgetOptimizer": {
+          "title": "预算优化器",
+          "description": "使用 4 个 AI 驱动的框架优化预算分配"
+        }
+      },
+      "aiAssistant": {
+        "title": "AI 效果助手",
+        "hasData": "询问关于您活动数据的问题，获取建议，或分析特定指标",
+        "noData": "开始了解 ROI 计算、预算优化或效果分析最佳实践"
+      }
+    }
+  },
+  "quick_start": {
+    "name": "快速入门代理",
+    "description": "您的全面入门专家",
+    "greeting": "欢迎！我帮助您快速上手。只需 5 分钟，我就能为您的营销生成全面的基础方案：策略分析、客户画像和完整的营销计划。让我们把您的回答转化为可执行的智能方案！",
+    "placeholder": "告诉我您的业务情况，开始使用...",
+    "page": {
+      "title": "快速入门代理",
+      "subtitle": "5 分钟生成您的完整营销基础方案",
+      "defaultSessionTitle": "快速入门",
+      "features": {
+        "fast": {
+          "title": "5 分钟搭建",
+          "description": "回答几个问题，获取完整策略"
+        },
+        "comprehensive": {
+          "title": "全面基础",
+          "description": "策略、画像和营销计划一步到位"
+        },
+        "actionable": {
+          "title": "即刻执行",
+          "description": "从第一天起即可行动的智能方案"
+        }
+      }
+    }
+  },
+  "tools": {
+    "get_swot_analysis": "SWOT 分析",
+    "get_porters_five_forces": "Porter's Five Forces 分析",
+    "get_jobs_to_be_done": "待完成工作框架",
+    "get_business_model_canvas": "商业模式画布",
+    "get_ice_scoring": "ICE 优先级排序框架",
+    "get_bcg_matrix": "BCG 增长-份额矩阵",
+    "get_vrio_analysis": "VRIO 资源分析",
+    "get_three_horizons": "增长三层面",
+    "get_blue_ocean_strategy": "Blue Ocean Strategy 画布",
+    "get_mckinsey_7s": "McKinsey 7S 框架",
+    "get_okr_framework": "OKR（目标与关键成果）",
+    "get_persona_context": "画像研究",
+    "analyze_buyer_journey": "买家旅程分析",
+    "generate_content_brief": "内容摘要生成",
+    "analyze_content_gaps": "内容缺口分析",
+    "generate_gtm_strategy": "市场推广策略",
+    "analyze_channel_mix": "渠道组合分析",
+    "analyze_metrics": "效果指标分析",
+    "calculate_roi": "ROI 计算",
+    "plan_campaign": "活动策划",
+    "analyze_ab_tests": "A/B 测试分析",
+    "analyze_competitors": "竞争分析",
+    "identify_market_gaps": "市场缺口识别",
+    "calculate_health_score": "客户健康评分",
+    "identify_retention_risks": "留存风险分析"
+  },
+  "categories": {
+    "foundation": {
+      "name": "基础",
+      "description": "构建您的营销基础"
+    },
+    "execution": {
+      "name": "执行",
+      "description": "将策略付诸行动"
+    },
+    "intelligence": {
+      "name": "智能分析",
+      "description": "优化与分析"
+    }
+  },
+  "navigation": {
+    "quickStart": "快速入门",
+    "strategy": "策略",
+    "persona": "画像",
+    "marketingStrategy": "营销策略",
+    "content": "内容",
+    "campaignPlanning": "活动策划",
+    "performanceIntelligence": "效果分析",
+    "competitiveIntel": "竞争情报",
+    "clientSuccess": "客户成功",
+    "planningCreation": "规划与创作",
+    "whiteLabel": "白标"
+  },
+  "context": {
+    "companyProfile": {
+      "title": "公司资料",
+      "dataCompleteness": "数据完整度：{{score}}%",
+      "complete": "{{score}}% 已完成",
+      "basicInfoNeeded": "需要基本的公司信息",
+      "fields": {
+        "website": "网站：",
+        "founded": "成立时间：",
+        "teamSize": "团队规模：",
+        "hq": "总部：",
+        "revenue": "营收：",
+        "stage": "阶段：",
+        "funding": "融资：",
+        "industry": "行业：",
+        "companySize": "公司规模：",
+        "businessModel": "商业模式：",
+        "companyStage": "公司阶段：",
+        "fundingStatus": "融资状态：",
+        "annualRevenue": "年营收：",
+        "marketingBudget": "营销预算："
+      },
+      "sections": {
+        "companyDetails": "公司详情",
+        "technologyStack": "技术栈",
+        "operatingRegions": "运营区域",
+        "geographicPresence": "地理覆盖",
+        "marketCompetition": "市场与竞争",
+        "targetMarketSegments": "目标市场细分：",
+        "mainProductsServices": "主要产品/服务：",
+        "keyCompetitors": "主要竞争对手：",
+        "missionStatement": "使命宣言",
+        "coreValues": "核心价值观"
+      }
+    },
+    "personas": {
+      "title": "客户画像",
+      "clickToSeeMore": "点击箭头查看另外 {{count}} 个画像",
+      "clickToSeeMore_other": "点击箭头查看另外 {{count}} 个画像",
+      "emptyState": "添加客户画像将提升策略的针对性"
+    },
+    "cards": {
+      "activeCampaign": {
+        "title": "进行中的活动",
+        "campaignName": "活动名称",
+        "campaignBudget": "活动预算",
+        "percentSpent": "已花费 {{percent}}%",
+        "targetAudience": "目标受众",
+        "objectives": "目标",
+        "startDate": "开始日期",
+        "endDate": "结束日期",
+        "totalBudget": "总预算",
+        "spentToDate": "已花费",
+        "percentUtilized": "已使用 {{percent}}%",
+        "channelStrategy": "渠道策略",
+        "ownedMedia": "自有媒体",
+        "earnedMedia": "赢得媒体",
+        "paidMedia": "付费媒体",
+        "activePlatforms": "活跃平台",
+        "contentThemes": "内容主题",
+        "performanceMetrics": "效果指标",
+        "metrics": {
+          "impressions": "曝光量",
+          "clicks": "点击量",
+          "ctr": "CTR",
+          "conversions": "转化量"
+        },
+        "kpis": "关键绩效指标",
+        "target": "目标",
+        "campaignObjectives": "活动目标"
+      },
+      "aiLearning": {
+        "title": "AI 学习历史",
+        "approved": "已审批",
+        "autoApproved": "自动审批",
+        "total": "总计",
+        "fromSource": "来源：{{source}}",
+        "confidence": "{{percent}}% 置信度",
+        "fields": "{{count}} 个字段",
+        "identifiedPainPoints": "已识别的痛点",
+        "opportunities": "机会",
+        "autoExtractedNote": "这些洞察是从您的对话和已审批内容中自动提取的"
+      },
+      "business": {
+        "title": "业务背景",
+        "marketingBudget": "营销预算",
+        "revenue": "营收",
+        "businessModel": "商业模式",
+        "cac": "CAC",
+        "ltv": "LTV",
+        "annualRevenue": "年营收",
+        "customerAcquisitionCost": "获客成本",
+        "customerLifetimeValue": "客户终身价值",
+        "uniqueValueProposition": "独特价值主张",
+        "emptyState": "添加业务背景有助于制定更精准的策略"
+      },
+      "market": {
+        "title": "市场聚焦",
+        "targetMarket": "目标市场",
+        "geographicFocus": "地理聚焦",
+        "valueProposition": "价值主张",
+        "competingWith": "竞争对手",
+        "marketSize": "市场规模",
+        "marketPosition": "市场地位",
+        "growthStage": "增长阶段",
+        "seasonalTrends": "季节性趋势",
+        "distributionChannels": "分销渠道",
+        "competitiveAdvantages": "竞争优势",
+        "keyCompetitors": "主要竞争对手",
+        "emptyState": "市场数据有助于发现机会和威胁"
+      }
+    },
+    "personaCard": {
+      "at": "就职于",
+      "customerPersona": "客户画像",
+      "global": "全球",
+      "insightsCount": "{{count}} 条洞察",
+      "satisfaction": "{{score}}% 满意度",
+      "location": "所在地",
+      "industry": "行业",
+      "companySize": "公司规模",
+      "revenue": "营收",
+      "goals": "目标",
+      "painPoints": "痛点",
+      "personality": "性格特征",
+      "risk": "风险偏好",
+      "innovation": "创新意愿",
+      "decision": "决策风格",
+      "currentTools": "当前工具",
+      "preferredChannels": "偏好渠道",
+      "background": "背景",
+      "aiInsights": "AI 洞察",
+      "insightsAvailable": "已有来自对话和分析的洞察"
+    },
+    "intelligentContext": {
+      "title": "智能背景",
+      "subtitle": "AI 驱动的业务理解",
+      "completeness": "{{percent}}% 已完成",
+      "readyForStrategy": "可进行策略制定",
+      "needsMoreContext": "需要更多背景信息",
+      "customerPersonas": "客户画像",
+      "morePersonas": "还有 {{count}} 个画像",
+      "personasEmptyState": "暂无画像。创建画像以改进定位。",
+      "recentAIInsights": "最新 AI 洞察",
+      "moreInsights": "还有 {{count}} 条洞察",
+      "startStrategicConversation": "开始策略对话",
+      "refineContext": "完善背景信息",
+      "guidanceReady": "您的业务背景已就绪。开始策略对话，制定个性化的营销策略。",
+      "guidanceNeedsContext": "添加更多业务背景信息以获得更好的策略建议。"
+    },
+    "alert": {
+      "client": "客户：",
+      "campaign": "活动：",
+      "budget": "预算：",
+      "objectives": "目标：",
+      "switchClient": "切换客户",
+      "switchCampaign": "切换活动"
+    },
+    "intelligentDisplay": {
+      "header": {
+        "title": "AI 驱动的营销策略",
+        "subtitle": "我已分析您的业务数据，为您制定了定制化营销策略"
+      },
+      "stats": {
+        "dataQuality": "数据质量",
+        "personas": "画像",
+        "activeCampaign": "进行中的活动",
+        "aiInsights": "AI 洞察"
+      },
+      "recentLearnings": "最新 AI 学习成果",
+      "continueWork": {
+        "title": "继续近期工作",
+        "viewAll": "查看全部",
+        "orStartFresh": "或从下方重新开始"
+      },
+      "actions": {
+        "generateStrategy": "生成营销策略",
+        "refineContext": "完善业务背景"
+      },
+      "helpText": "要生成有效的营销策略，请提供更多业务信息。点击“完善业务背景”添加缺失的详细信息。",
+      "promptTemplate": {
+        "intro": "请根据以下业务背景帮我制定全面的营销策略：",
+        "company": "公司",
+        "industry": "行业",
+        "organizationType": "组织类型",
+        "targetMarket": "目标市场",
+        "geographicFocus": "地理聚焦",
+        "businessModel": "商业模式",
+        "marketingBudget": "营销预算",
+        "customerPersonas": "客户画像",
+        "activeCampaign": "进行中的活动",
+        "campaignBudget": "活动预算"
+      }
+    },
+    "strategyList": {
+      "loading": "正在加载策略...",
+      "empty": {
+        "title": "暂无策略",
+        "description": "创建您的第一个营销策略，开始规划您的活动",
+        "createFirst": "创建第一个策略"
+      },
+      "types": {
+        "productLaunch": "产品上市",
+        "brandAwareness": "品牌知名度",
+        "leadGeneration": "潜在客户获取",
+        "customerRetention": "客户留存",
+        "marketExpansion": "市场扩张"
+      },
+      "actions": {
+        "viewDetails": "查看详情",
+        "edit": "编辑",
+        "duplicate": "复制",
+        "archive": "归档",
+        "restore": "恢复"
+      },
+      "archived": "已归档"
+    },
+    "confirmation": {
+      "title": "检测到新的业务洞察",
+      "subtitle": "我们从您的对话中了解到以下信息。保存这些信息以改进未来的建议？",
+      "confidence": "置信度",
+      "from": "来自 {{agentType}} 对话",
+      "noContext": "此次对话未提取到业务背景信息。",
+      "placeholder": "多个项目用逗号分隔",
+      "actions": {
+        "editBefore": "编辑后保存",
+        "cancelEdit": "取消编辑",
+        "doneEditing": "完成编辑",
+        "dontSave": "不保存",
+        "saveAll": "全部保存",
+        "saving": "保存中..."
+      }
+    },
+    "saveStatus": {
+      "saving": "保存中...",
+      "autoSaved": "已自动保存",
+      "draftSaved": "草稿已保存",
+      "saveFailed": "保存失败",
+      "finalized": "已定稿",
+      "markAsFinal": "标记为定稿",
+      "finalizing": "正在定稿...",
+      "toast": {
+        "saved": "回复已自动保存",
+        "savedDescription": "您的回复已保存为草稿",
+        "finalized": "输出已定稿",
+        "finalizedDescription": "此输出已标记为定稿",
+        "viewOutputs": "查看输出",
+        "failedFinalize": "定稿失败"
+      }
+    },
+    "sidebar": {
+      "tabs": {
+        "history": "历史",
+        "outputs": "{{name}}"
+      },
+      "newSession": "新建会话",
+      "active": "活跃",
+      "archived": "已归档",
+      "emptyStates": {
+        "noArchived": "暂无归档会话",
+        "archivedHint": "归档的会话将显示在这里",
+        "viewActive": "查看活跃会话",
+        "noSessions": "暂无 {{agentType}} 会话",
+        "createFirst": "创建您的第一个 {{agentType}} 会话",
+        "noOutputs": "暂无已保存的 {{outputType}}",
+        "startSession": "创建一个 {{agentType}} 会话以开始",
+        "startButton": "开始会话"
+      },
+      "loadingOutputs": "正在加载 {{outputType}}...",
+      "showMore": "显示更多 {{count}} 条",
+      "showLess": "收起",
+      "tooltips": {
+        "newAgent": "新建 {{agentName}}"
+      },
+      "collapseSidebar": "收起侧边栏",
+      "expandSidebar": "展开侧边栏",
+      "contextBadges": {
+        "client": "客户：",
+        "campaign": "活动："
+      },
+      "archivedBadge": "已归档",
+      "errors": {
+        "exportFailed": "导出失败，请重试。",
+        "archiveFailed": "归档失败，请重试。"
+      }
+    },
+    "sessionHistory": {
+      "title": "会话历史",
+      "newSession": "新建会话",
+      "emptyState": {
+        "title": "暂无会话",
+        "description": "开始对话以创建您的第一个会话"
+      },
+      "untitledSession": "未命名会话",
+      "messageCount": {
+        "singular": "条消息",
+        "plural": "条消息"
+      }
+    },
+    "header": {
+      "sessionPrefix": "会话：",
+      "newSession": "新建会话"
+    },
+    "quickStartSave": {
+      "title": "保存您的快速入门方案？",
+      "description": "保存您的综合营销情报（策略、画像和建议）以供日后参考。",
+      "saveButton": "保存此方案",
+      "hint": "或直接输入“保存此方案”"
+    },
+    "personaSave": {
+      "detected": "检测到 {{count}} 个画像",
+      "detected_other": "检测到 {{count}} 个画像",
+      "saveAll": "全部保存",
+      "saving": "保存中...",
+      "saved": "已保存",
+      "savePersona": "保存画像",
+      "demographics": "人口统计",
+      "goals": "目标",
+      "painPoints": "痛点",
+      "moreItems": "还有 {{count}} 项..."
+    },
+    "strategySave": {
+      "title": "检测到营销策略",
+      "sections": "{{count}} 个部分",
+      "campaign": "活动：",
+      "budget": "预算：",
+      "duration": "时长：",
+      "mediaMix": "媒体组合：",
+      "objectives": "目标：",
+      "targetPersonas": "目标画像：",
+      "targetVerticals": "目标行业垂直：",
+      "summary": "摘要：",
+      "strategyComponents": "策略组成：",
+      "moreSections": "还有 {{count}} 个部分",
+      "saveTo": "保存至：",
+      "campaignFolder": "活动文件夹",
+      "companyOutputs": "公司输出",
+      "saveStrategy": "保存策略",
+      "saving": "保存中...",
+      "saved": "已保存",
+      "viewInOutputs": "在输出中查看",
+      "nextHint": "下一步：使用内容代理创建素材"
+    },
+    "actionPlan": {
+      "workflowSuggestions": "智能工作流建议 ({{count}})",
+      "startWorkflow": "启动工作流",
+      "viewAllSuggestions": "查看全部 {{count}} 条建议",
+      "individualActions": "单项操作",
+      "match": "{{percent}}% 匹配度",
+      "impact": "{{level}} 影响力",
+      "nextBestActions": "下一步最佳行动：",
+      "priority": "优先级 {{value}}/10",
+      "confirmTitle": "继续使用 {{agentName}}？",
+      "confirmDescription": "我将帮您处理策略分析中的这些行动项：",
+      "relatedTasks": "{{count}} 个相关任务",
+      "relatedTasks_other": "{{count}} 个相关任务",
+      "confidence": "置信度：{{percent}}%",
+      "andMoreTasks": "...以及另外 {{count}} 个任务",
+      "stayHere": "留在此处",
+      "continueToAgent": "继续前往代理",
+      "noSuggestions": "暂无工作流建议",
+      "noSuggestionsHint": "尝试提供更具体的行动项",
+      "analyzingPlan": "正在分析您的行动计划...",
+      "nextStepsAvailable": "下一步操作可用",
+      "start": "开始"
+    },
+    "mobileHistory": {
+      "ariaLabel": "查看会话历史"
+    }
+  },
+  "quickSelector": {
+    "title": "选择代理",
+    "subtitle": "AI 驱动的营销智能工具",
+    "descriptions": {
+      "quickStart": "快速上手",
+      "strategy": "11 个框架",
+      "persona": "客户画像",
+      "marketingStrategy": "市场推广",
+      "content": "9 个生成工具",
+      "campaignPlanning": "多渠道部署",
+      "performanceIntelligence": "分析与 ROI",
+      "competitiveIntel": "市场分析",
+      "clientSuccess": "留存策略"
+    },
+    "locked": "联系管理员"
+  },
+  "chat": {
+    "you": "你",
+    "thinking": "思考中...",
+    "retrying": "重试中 ({{current}}/{{max}})",
+    "clearContext": "清除上下文",
+    "contextAlert": {
+      "title": "来自策略代理的上下文",
+      "actionItems": "您有 {{count}} 个行动项需要处理：",
+      "andMore": "...以及另外 {{count}} 个",
+      "prefillNote": "下方输入框已根据这些战略优先级预填了建议提示。"
+    }
+  },
+  "fileUpload": {
+    "attachFiles": "附加文件",
+    "addToChat": "添加到对话",
+    "fileTypeHint": "PDF 或 TXT，最大 {{maxSize}}MB",
+    "errors": {
+      "unsupportedType": "仅支持 PDF 和 TXT 文件",
+      "fileTooLarge": "文件过大。最大支持：{{maxSize}}MB"
+    },
+    "removeFile": "移除 {{filename}}"
+  },
+  "toolLoading": {
+    "running": "{{agentName}} 正在运行 {{toolName}}...",
+    "estimatedTime": "预计耗时 {{time}}"
+  },
+  "personaChat": {
+    "detected": "检测到画像：{{name}}",
+    "saveAsPersona": "保存为画像"
+  },
+  "interview": {
+    "mode": "访谈模式",
+    "thinking": "思考中...",
+    "placeholder": "向 {{name}} 了解他们的体验、需求和挑战..."
+  },
+  "personas": {
+    "insightCapture": {
+      "savedTitle": "洞察已保存",
+      "savedDescription": "洞察已存储到您的知识库",
+      "warningTitle": "警告",
+      "warningDescription": "洞察可能未正确保存",
+      "errorTitle": "保存失败",
+      "errorDescription": "保存洞察失败：{{error}}",
+      "titleNew": "{{count}} 条新洞察",
+      "titleCount": "已捕获 {{count}} 条洞察",
+      "titleSaved": "已保存 {{count}} 条洞察",
+      "title": "实时洞察",
+      "analyzing": "分析中...",
+      "listening": "正在从对话中捕获洞察...",
+      "actions": "操作",
+      "saveInsight": "保存洞察",
+      "saving": "保存中...",
+      "savedSuccessfully": "保存成功",
+      "saveAll": "保存所有洞察"
+    },
+    "detector": {
+      "detecting": "正在检测画像...",
+      "errorDetecting": "检测画像失败，请重试。",
+      "notSpecified": "未指定",
+      "detectedCount": "检测到 {{count}} 个画像",
+      "detectedCount_other": "检测到 {{count}} 个画像",
+      "aiDetected": "AI 检测",
+      "saved": "已保存",
+      "industry": "行业",
+      "location": "所在地",
+      "goals": "目标",
+      "painPoints": "痛点",
+      "keyQuote": "核心引述",
+      "preferredChannels": "偏好渠道",
+      "saveToLibrary": "保存到画像库"
+    },
+    "form": {
+      "editTitle": "编辑画像",
+      "createTitle": "创建新画像",
+      "editDescription": "更新画像信息",
+      "createDescription": "向您的工作区添加新的客户画像",
+      "tabs": {
+        "basicInfo": "基本信息",
+        "goalsPainPoints": "目标与痛点",
+        "toolsWorkflow": "工具与工作流",
+        "personality": "性格特征",
+        "insights": "洞察"
+      },
+      "fields": {
+        "name": "姓名",
+        "title": "职位",
+        "companyName": "公司名称",
+        "industry": "行业",
+        "vertical": "垂直领域",
+        "location": "所在地",
+        "companySize": "公司规模",
+        "customerStatus": "客户状态",
+        "satisfactionScore": "满意度评分",
+        "backgroundStory": "背景故事",
+        "characteristicQuote": "代表性语录",
+        "techSavviness": "技术水平",
+        "riskTolerance": "风险承受力",
+        "innovationAppetite": "创新意愿",
+        "responseStyle": "响应风格",
+        "tags": "标签"
+      },
+      "placeholders": {
+        "name": "张伟",
+        "title": "项目经理",
+        "companyName": "某某科技有限公司",
+        "selectIndustry": "选择行业",
+        "selectVertical": "选择垂直领域",
+        "location": "上海市",
+        "companySize": "51-200 名员工",
+        "backgroundStory": "简述此画像的经历和背景...",
+        "characteristicQuote": "一句能代表此画像思维方式的话...",
+        "addTag": "添加标签..."
+      },
+      "customerStatuses": {
+        "prospect": "潜在客户",
+        "active": "活跃客户",
+        "churned": "已流失",
+        "competitorUser": "竞品用户"
+      },
+      "responseStyles": {
+        "casual": "随意",
+        "professional": "专业",
+        "technical": "技术型",
+        "executive": "高管型"
+      },
+      "insightsDescription": "查看从此画像访谈中收集的洞察",
+      "cancel": "取消",
+      "saving": "保存中...",
+      "savePersona": "保存画像"
+    },
+    "insights": {
+      "title": "画像洞察",
+      "loading": "正在加载洞察...",
+      "noInsights": "暂未捕获洞察。通过访谈画像来生成关于其痛点、目标和偏好的洞察。",
+      "topPainPoints": "主要痛点",
+      "personasAffected": "影响 {{count}} 个画像",
+      "personasAffected_other": "影响 {{count}} 个画像",
+      "personaSpecific": "画像专属洞察",
+      "recentInsights": "最新洞察",
+      "autoApproved": "自动审批",
+      "viewAll": "查看全部洞察",
+      "export": "导出",
+      "applyToCampaign": "应用到活动",
+      "confirmDelete": "确定要删除此洞察吗？",
+      "deleteFailed": "删除洞察失败",
+      "deleteInsight": "删除洞察",
+      "close": "关闭",
+      "modal": {
+        "title": "洞察详情",
+        "description": "查看和管理画像访谈洞察",
+        "confidence": "置信度",
+        "fullDetails": "完整详情",
+        "categories": "分类",
+        "type": "类型",
+        "created": "创建时间"
+      }
+    },
+    "sidebar": {
+      "title": "画像",
+      "total": "共 {{count}} 个",
+      "loading": "正在加载画像...",
+      "new": "新建",
+      "filters": {
+        "all": "全部",
+        "active": "活跃",
+        "archived": "已归档"
+      },
+      "archived": "已归档",
+      "interview": "访谈",
+      "duplicate": "复制",
+      "noPersonasFound": "在“{{filter}}”筛选条件下未找到画像",
+      "deleteTitle": "删除 {{name}}？",
+      "deleteDescriptionArchived": "此操作将永久删除此已归档的画像。",
+      "deleteDescriptionActive": "此画像将先被归档。您可以稍后恢复。",
+      "deleteConfirm": "删除画像"
+    }
+  },
+  "toolRenderers": {
+    "common": {
+      "saveToWorkspace": "保存到工作区",
+      "copyText": "复制文本",
+      "copied": "已复制！",
+      "copyAll": "复制全部",
+      "noItems": "此分类下暂无内容",
+      "noFactors": "暂无因素",
+      "toolOutput": "工具输出",
+      "clickToViewData": "点击查看数据"
+    },
+    "analysisReport": {
+      "title": "分析报告",
+      "summary": "摘要",
+      "keyFindings": "关键发现",
+      "recommendations": "建议"
+    },
+    "bcgMatrix": {
+      "title": "BCG 增长-份额矩阵",
+      "questionMarks": "问题类",
+      "stars": "明星类",
+      "dogs": "瘦狗类",
+      "cashCows": "现金牛类",
+      "highGrowthHighShare": "高增长，高份额",
+      "lowGrowthHighShare": "低增长，高份额",
+      "highGrowthLowShare": "高增长，低份额",
+      "lowGrowthLowShare": "低增长，低份额",
+      "lowMarketShare": "低市场份额",
+      "highMarketShare": "高市场份额",
+      "relativeMarketShare": "相对市场份额",
+      "portfolioBalance": "组合平衡",
+      "investmentPriorities": "投资优先级",
+      "growth": "增长",
+      "share": "份额"
+    },
+    "blogPost": {
+      "title": "博客文章草稿",
+      "outline": "大纲",
+      "body": "正文",
+      "seoKeywords": "SEO 关键词",
+      "exportToCms": "导出到 CMS"
+    },
+    "blueOcean": {
+      "title": "Blue Ocean Strategy 画布",
+      "eliminate": "消除",
+      "reduce": "减少",
+      "raise": "增加",
+      "create": "创造",
+      "removeCompletely": "完全移除",
+      "belowIndustry": "低于行业标准",
+      "aboveIndustry": "高于行业标准",
+      "industryNeverOffered": "行业从未提供",
+      "currentRedOcean": "当前红海",
+      "blueOceanOpportunity": "Blue Ocean 机会",
+      "valueInnovation": "价值创新策略"
+    },
+    "businessCanvas": {
+      "title": "商业模式画布",
+      "keyPartnerships": "关键合作伙伴",
+      "keyActivities": "关键活动",
+      "keyResources": "关键资源",
+      "valuePropositions": "价值主张",
+      "customerRelationships": "客户关系",
+      "channels": "渠道",
+      "customerSegments": "客户细分",
+      "costStructure": "成本结构",
+      "revenueStreams": "收入来源",
+      "developBusinessPlan": "制定商业计划"
+    },
+    "buyerJourney": {
+      "title": "买家旅程地图",
+      "forPersona": "画像：{{name}}",
+      "keyQuestions": "关键问题：",
+      "contentOpportunities": "内容机会：",
+      "generateContentIdeas": "生成内容创意"
+    },
+    "contentCalendar": {
+      "title": "内容日历",
+      "dateRange": "从 {{start}} 到 {{end}}"
+    },
+    "contentIdea": {
+      "title": "内容创意",
+      "angle": "角度",
+      "targetPersona": "目标画像",
+      "saveIdea": "保存创意",
+      "draftThisPost": "撰写此文章"
+    },
+    "forecast": {
+      "title": "{{metric}} 预测",
+      "forNextPeriod": "未来 {{period}} 预测",
+      "confidence": "置信度：{{level}}%",
+      "assumptions": "假设条件："
+    },
+    "ice": {
+      "title": "ICE 优先级排序分析",
+      "noData": "暂无优先级排序数据",
+      "topPriority": "最高优先级",
+      "impact": "影响力",
+      "confidence": "置信度",
+      "ease": "易实施度",
+      "overallPriorityScore": "综合优先级评分",
+      "iceFormula": "ICE 评分 = (影响力 x 置信度 x 易实施度) / 100",
+      "recommendation": "建议",
+      "resourceConsiderations": "资源考量",
+      "createActionPlan": "创建行动计划",
+      "exportAnalysis": "导出分析"
+    },
+    "interviewQuestions": {
+      "title": "访谈问题",
+      "forValidating": "用于验证画像：{{name}}",
+      "addToGuide": "添加到访谈指南"
+    },
+    "jtbd": {
+      "title": "待完成工作分析",
+      "primaryJobs": "主要工作",
+      "job": "工作 {{number}}",
+      "functional": "功能性",
+      "emotional": "情感性",
+      "social": "社会性",
+      "currentSolutions": "当前解决方案",
+      "underservedJobs": "未充分满足的工作",
+      "innovationOpportunities": "创新机会",
+      "highOpportunity": "高机会",
+      "goodOpportunity": "良好机会",
+      "moderateOpportunity": "中等机会",
+      "lowOpportunity": "低机会"
+    },
+    "mckinsey7s": {
+      "title": "McKinsey 7S 框架",
+      "organizationalAlignment": "组织协同度评分",
+      "hardElements": "硬性要素",
+      "softElements": "软性要素",
+      "currentState": "当前状态",
+      "desiredState": "期望状态",
+      "gapAnalysis": "差距分析",
+      "actionRequired": "所需行动",
+      "current": "当前",
+      "desired": "期望",
+      "gap": "差距",
+      "action": "行动",
+      "criticalMisalignments": "关键错位",
+      "strategicRecommendations": "战略建议",
+      "strategy": "战略",
+      "structure": "结构",
+      "systems": "制度",
+      "sharedValues": "共同价值观",
+      "style": "风格",
+      "staff": "人员",
+      "skills": "技能",
+      "strategyDesc": "实现竞争优势的计划",
+      "structureDesc": "组织架构方式",
+      "systemsDesc": "日常活动和流程",
+      "sharedValuesDesc": "核心价值观和文化",
+      "styleDesc": "领导力和管理风格",
+      "staffDesc": "员工及其能力",
+      "skillsDesc": "核心能力和技能"
+    },
+    "okr": {
+      "title": "OKR 框架",
+      "successMetrics": "成功指标",
+      "reviewCadence": "评审节奏",
+      "companyOkrs": "公司 OKR",
+      "teamOkrs": "团队 OKR",
+      "objective": "目标 {{number}}",
+      "teamObjective": "团队目标 {{number}}",
+      "timeFrame": "时间框架：{{value}}",
+      "owner": "负责人：{{value}}",
+      "keyResults": "关键成果",
+      "strategicAlignment": "战略对齐"
+    },
+    "optimization": {
+      "title": "优化机会",
+      "area": "领域：{{value}}",
+      "impact": "影响力：{{value}}"
+    },
+    "persona": {
+      "title": "客户画像",
+      "demographics": "人口统计",
+      "psychographics": "心理特征",
+      "goals": "目标",
+      "painPoints": "痛点",
+      "communicationChannels": "沟通渠道",
+      "mapBuyerJourney": "绘制买家旅程"
+    },
+    "porters": {
+      "title": "Porter's Five Forces 分析",
+      "threatOfNewEntrants": "新进入者威胁",
+      "bargainingPowerOfSuppliers": "供应商议价能力",
+      "industryRivalry": "行业竞争程度",
+      "bargainingPowerOfBuyers": "买方议价能力",
+      "threatOfSubstitutes": "替代品威胁",
+      "core": "核心",
+      "lowThreat": "低威胁",
+      "moderate": "中等",
+      "highThreat": "高威胁",
+      "low": "低",
+      "high": "高",
+      "viewDetails": "查看详情",
+      "generateStrategy": "生成策略"
+    },
+    "swot": {
+      "title": "SWOT 分析",
+      "strengths": "优势",
+      "weaknesses": "劣势",
+      "opportunities": "机会",
+      "threats": "威胁",
+      "createActionPlan": "创建行动计划"
+    },
+    "threeHorizons": {
+      "title": "增长三层面",
+      "horizon1Title": "第一层面：核心业务",
+      "horizon1Subtitle": "巩固与延伸",
+      "horizon2Title": "第二层面：新兴机会",
+      "horizon2Subtitle": "构建新能力",
+      "horizon3Title": "第三层面：变革性赌注",
+      "horizon3Subtitle": "创造未来选项",
+      "resourceAllocation": "资源分配策略",
+      "expected": "预期：{{value}}"
+    },
+    "vrio": {
+      "title": "VRIO 分析",
+      "resourceCapability": "资源/能力",
+      "valuable": "有价值",
+      "rare": "稀缺",
+      "inimitable": "难以模仿",
+      "organized": "有组织",
+      "competitiveImplication": "竞争含义",
+      "coreCompetencies": "核心竞争力",
+      "strategicImplications": "战略启示",
+      "frameworkKey": "VRIO 框架要素：",
+      "valuableDesc": "能够利用机会或化解威胁",
+      "rareDesc": "少数竞争对手拥有",
+      "inimitableDesc": "难以或代价高昂地被模仿",
+      "organizedDesc": "企业能够捕获其价值"
+    }
+  }
+}

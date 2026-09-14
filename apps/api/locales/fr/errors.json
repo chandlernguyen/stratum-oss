@@ -1,0 +1,30 @@
+{
+  "generic": "Une erreur s'est produite. Veuillez reessayer.",
+  "network": "Erreur reseau. Verifiez votre connexion.",
+  "server": "Erreur serveur. Veuillez reessayer plus tard.",
+  "notFound": "Ressource introuvable.",
+  "unauthorized": "Vous n'etes pas autorise a effectuer cette action.",
+  "forbidden": "Acces refuse.",
+  "timeout": "La requete a expire. Veuillez reessayer.",
+  "sessionExpired": "Votre session a expire. Veuillez vous reconnecter.",
+  "validation": {
+    "required": "{field} est requis.",
+    "invalid": "{field} n'est pas valide.",
+    "tooShort": "{field} doit contenir au moins {min} caracteres.",
+    "tooLong": "{field} doit contenir au maximum {max} caracteres.",
+    "invalidEmail": "Veuillez saisir une adresse e-mail valide.",
+    "invalidPassword": "Le mot de passe ne respecte pas les exigences."
+  },
+  "auth": {
+    "invalidCredentials": "Adresse e-mail ou mot de passe incorrect.",
+    "emailInUse": "Cette adresse e-mail est deja utilisee.",
+    "accountLocked": "Compte temporairement verrouille. Veuillez reessayer plus tard.",
+    "tooManyAttempts": "Trop de tentatives. Veuillez reessayer plus tard.",
+    "invalidInvitationCode": "Code d'invitation invalide."
+  },
+  "agent": {
+    "unavailable": "L'agent est temporairement indisponible. Veuillez reessayer.",
+    "toolExecutionFailed": "Impossible d'executer {tool}. Veuillez reessayer.",
+    "responseGenerationFailed": "Impossible de generer la reponse. Veuillez reessayer."
+  }
+}

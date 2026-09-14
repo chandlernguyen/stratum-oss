@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Quick Start - Intelligence en 5 minutes",
+    "subtitle": "Generez votre strategie, vos personas et votre plan marketing en une seule session complete"
+  },
+  "featureCards": {
+    "strategyAnalysis": {
+      "title": "Analyse strategique",
+      "description": "SWOT, Business Model Canvas et frameworks strategiques"
+    },
+    "customerPersonas": {
+      "title": "Personas clients",
+      "description": "Profils d'acheteurs detailles et cartographie du parcours"
+    },
+    "marketingStrategy": {
+      "title": "Strategie marketing",
+      "description": "Strategie de canaux, messaging et feuille de route sur 90 jours"
+    }
+  },
+  "initialMessage": {
+    "intro": "Je viens de terminer le questionnaire Quick Start. Voici le contexte de mon entreprise :",
+    "company": "Entreprise/activite :",
+    "goal": "Objectif marketing principal :",
+    "audience": "Public cible :",
+    "budget": "Budget marketing mensuel :",
+    "timeline": "Delai pour obtenir des resultats :",
+    "request": "A partir de ces informations, merci de generer une base complete d'intelligence marketing comprenant :",
+    "item1": "1. Une analyse strategique (SWOT, positionnement concurrentiel)",
+    "item2": "2. Des personas clients detailles",
+    "item3": "3. Une strategie marketing complete avec recommandations de canaux et cadre de messaging",
+    "closing": "Construisons la base de mon marketing."
+  }
+}

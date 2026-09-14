@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Khởi Đầu Nhanh - Nền Tảng 5 Phút",
+    "subtitle": "Tạo chiến lược, chân dung khách hàng và kế hoạch marketing trong một phiên toàn diện"
+  },
+  "featureCards": {
+    "strategyAnalysis": {
+      "title": "Phân Tích Chiến Lược",
+      "description": "SWOT, Business Model Canvas và các khung chiến lược"
+    },
+    "customerPersonas": {
+      "title": "Chân Dung Khách Hàng",
+      "description": "Hồ sơ người mua chi tiết và bản đồ hành trình"
+    },
+    "marketingStrategy": {
+      "title": "Chiến Lược Marketing",
+      "description": "Chiến lược kênh, thông điệp và lộ trình 90 ngày"
+    }
+  },
+  "initialMessage": {
+    "intro": "Tôi vừa hoàn thành bảng câu hỏi Khởi Đầu Nhanh. Đây là bối cảnh kinh doanh của tôi:",
+    "company": "Công ty/Doanh nghiệp:",
+    "goal": "Mục Tiêu Marketing Chính:",
+    "audience": "Đối Tượng Mục Tiêu:",
+    "budget": "Ngân Sách Marketing Hàng Tháng:",
+    "timeline": "Thời Gian Mong Đợi Kết Quả:",
+    "request": "Dựa trên thông tin này, vui lòng tạo nền tảng marketing toàn diện bao gồm:",
+    "item1": "1. Phân tích chiến lược (SWOT, định vị cạnh tranh)",
+    "item2": "2. Chân dung khách hàng chi tiết",
+    "item3": "3. Chiến lược marketing hoàn chỉnh với đề xuất kênh và khung thông điệp",
+    "closing": "Hãy xây dựng nền tảng marketing của tôi!"
+  }
+}

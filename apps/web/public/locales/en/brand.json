@@ -1,0 +1,389 @@
+{
+  "comparison": {
+    "pageTitle": "Brand Comparison",
+    "fourWayTitle": "Compare 4 STRATUM Variations",
+    "fourWayDescription": "Choose the STRATUM variation that best represents your brand identity",
+    "cortexVsStratum": "CORTEX vs STRATUM",
+    "backToSingleView": "Back to Single View",
+    "singleView": "Single View",
+    "compareFourOptions": "Compare 4 STRATUM Options"
+  },
+  "brands": {
+    "cortex": {
+      "subtitle": "NEURAL INTELLIGENCE"
+    },
+    "stratum": {
+      "subtitle": "STRATEGIC LAYERS"
+    }
+  },
+  "hero": {
+    "subtitle": "Intelligence Over Execution"
+  },
+  "cta": {
+    "startFreeTrial": "Start Free Trial",
+    "watchDemo": "Watch Demo",
+    "selectThisOption": "Select This Option",
+    "learnMore": "Learn More"
+  },
+  "valuePropositions": {
+    "strategicIntelligence": {
+      "title": "Strategic Intelligence",
+      "description": "SWOT, Porter's 5 Forces, Business Model Canvas, and 8 more proven frameworks"
+    },
+    "customerInsights": {
+      "title": "Customer Insights",
+      "description": "Deep persona analysis, buyer journey mapping, and behavioral intelligence"
+    },
+    "roiTracking": {
+      "title": "ROI Tracking",
+      "description": "Real-time performance analytics and AI-powered optimization recommendations"
+    }
+  },
+  "features": {
+    "sectionTitle": {
+      "cortex": "Your Marketing Brain, Powered by AI",
+      "stratum": "Build Your Strategic Foundation"
+    },
+    "sectionSubtitle": {
+      "cortex": "Neural intelligence for every marketing decision",
+      "stratum": "Layer by layer, build comprehensive marketing intelligence"
+    },
+    "aiAgents": {
+      "title": "10 Specialized AI Agents",
+      "description": "Strategy, Persona, Content, Analytics, Campaign Planning, ROI Tracking, and more"
+    },
+    "continuousLearning": {
+      "title": "Continuous Learning System",
+      "description": "AI that gets smarter about YOUR business with every interaction"
+    },
+    "zeroExecutionRisk": {
+      "title": "Zero Execution Risk",
+      "description": "Intelligence and insights without automated execution - you stay in control"
+    }
+  },
+  "footer": {
+    "copyright": "2026 {{brandName}}.",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "contact": "Contact"
+  },
+  "detailedComparison": {
+    "title": "Detailed Comparison",
+    "criteria": {
+      "visualDistinction": "Visual Distinction",
+      "matchesDialogueDna": "Matches DIALOGUE DNA",
+      "easyToType": "Easy to Type",
+      "conceptualFit": "Conceptual Fit",
+      "professionalFeel": "Professional Feel",
+      "recommendation": "Recommendation"
+    },
+    "conceptualFitValues": {
+      "greekAlpha": "Greek Alpha",
+      "cuttingLayers": "Cutting Layers",
+      "topLayer": "Top Layer",
+      "multiLayer": "Multi-Layer"
+    },
+    "recommendations": {
+      "good": "Good",
+      "best": "Best",
+      "great": "Great",
+      "bold": "Bold"
+    },
+    "recommendedBrand": {
+      "title": "Recommended: STRATUM",
+      "description": "The T with horizontal stroke perfectly represents \"cutting through layers\" and matches DIALOGUE's O brand DNA (both use line-through-letter design). It's visually striking, conceptually aligned with \"layers of intelligence,\" and positioned prominently in the middle of the word."
+    }
+  },
+  "variationCard": {
+    "specialCharacter": "Special Character",
+    "colorPalette": "Color Palette",
+    "gradientPreview": "Gradient Preview",
+    "inContext": "In Context",
+    "url": "URL",
+    "tagline": "Tagline",
+    "positioning": "Positioning",
+    "colors": {
+      "primary": "Primary",
+      "dark": "Dark",
+      "gold": "Gold"
+    }
+  },
+  "splitView": {
+    "typography": "Typography",
+    "headingStyle": "Heading Style",
+    "bodyText": "Body text and descriptions use Inter with regular weight for optimal readability.",
+    "iconSymbol": "Icon Symbol"
+  },
+  "guidelines": {
+    "similar": "similar",
+    "untitled": "Untitled Guidelines",
+    "status": {
+      "archived": "Archived",
+      "default": "Default",
+      "active": "Active"
+    },
+    "activeCount": "{{count}} active",
+    "clickToView": "Click to view",
+    "actions": {
+      "restore": "Restore"
+    },
+    "emptyStates": {
+      "noGuidelines": {
+        "title": "No brand guidelines yet",
+        "description": "Create your first brand guidelines to establish your brand identity"
+      },
+      "noArchivedGuidelines": {
+        "title": "No archived guidelines",
+        "description": "Archived guidelines will appear here"
+      }
+    },
+    "alerts": {
+      "multipleActive": {
+        "title": "Multiple Active Guidelines",
+        "description": "You have {{count}} active guidelines. Consider archiving older versions to maintain clarity."
+      }
+    },
+    "stats": {
+      "totalGuidelines": "Total Guidelines",
+      "activeGuidelines": "Active Guidelines",
+      "archivedGuidelines": "Archived Guidelines"
+    },
+    "tabs": {
+      "active": "Active",
+      "archived": "Archived",
+      "all": "All"
+    },
+    "view": {
+      "title": "Brand Guidelines",
+      "tabs": {
+        "overview": "Overview",
+        "voice": "Voice & Tone",
+        "visual": "Visual Identity",
+        "messaging": "Messaging"
+      },
+      "sections": {
+        "toneOfVoice": "Tone of Voice",
+        "personality": "Personality",
+        "writingStyle": "Writing Style",
+        "doAndDont": "Do's & Don'ts",
+        "brandVoice": "Brand Voice",
+        "colorPalette": "Color Palette",
+        "typography": "Typography",
+        "imagery": "Imagery Guidelines",
+        "tagline": "Tagline",
+        "valueProposition": "Value Proposition",
+        "keyMessages": "Key Messages",
+        "targetAudience": "Target Audience"
+      }
+    },
+    "forms": {
+      "strategy": {
+        "title": "Brand Strategy",
+        "badge": "Strategy",
+        "fields": {
+          "mission": {
+            "label": "Mission Statement",
+            "placeholder": "What is your brand's mission?"
+          },
+          "vision": {
+            "label": "Vision Statement",
+            "placeholder": "What is your brand's long-term vision?"
+          },
+          "values": {
+            "label": "Core Values",
+            "placeholder": "Add a core value"
+          },
+          "positioning": {
+            "label": "Brand Positioning",
+            "placeholder": "How does your brand position itself in the market?"
+          },
+          "targetAudience": {
+            "label": "Target Audience",
+            "placeholder": "Who is your target audience?"
+          },
+          "competitors": {
+            "label": "Key Competitors",
+            "placeholder": "Add a competitor"
+          },
+          "differentiators": {
+            "label": "Key Differentiators",
+            "placeholder": "Add a differentiator"
+          }
+        }
+      },
+      "voice": {
+        "title": "Brand Voice",
+        "badge": "Voice",
+        "sections": {
+          "toneOfVoice": "Tone of Voice",
+          "personality": "Personality Traits",
+          "writingStyle": "Writing Style",
+          "doAndDont": "Do's and Don'ts"
+        },
+        "fields": {
+          "toneAttributes": {
+            "label": "Tone Attributes",
+            "placeholder": "Add a tone attribute (e.g., friendly, professional)"
+          },
+          "toneDescription": {
+            "label": "Tone Description",
+            "placeholder": "Describe your brand's overall tone"
+          },
+          "personalityTraits": {
+            "label": "Personality Traits",
+            "placeholder": "Add a personality trait"
+          },
+          "brandPersona": {
+            "label": "Brand Persona",
+            "placeholder": "If your brand were a person, how would you describe them?"
+          },
+          "writingPrinciples": {
+            "label": "Writing Principles",
+            "placeholder": "Add a writing principle"
+          },
+          "grammarPreferences": {
+            "label": "Grammar Preferences",
+            "placeholder": "Any specific grammar preferences (e.g., Oxford comma, contractions)"
+          },
+          "vocabularyGuidelines": {
+            "label": "Vocabulary Guidelines",
+            "placeholder": "Guidelines for vocabulary usage"
+          },
+          "dos": {
+            "label": "Do's",
+            "placeholder": "Add something your brand should do"
+          },
+          "donts": {
+            "label": "Don'ts",
+            "placeholder": "Add something your brand should avoid"
+          }
+        }
+      },
+      "messaging": {
+        "title": "Messaging",
+        "badge": "Messaging",
+        "fields": {
+          "tagline": {
+            "label": "Tagline",
+            "placeholder": "Your brand's tagline or slogan"
+          },
+          "valueProposition": {
+            "label": "Value Proposition",
+            "placeholder": "What unique value does your brand offer?"
+          },
+          "elevatorPitch": {
+            "label": "Elevator Pitch",
+            "placeholder": "A brief, compelling description of your brand"
+          },
+          "keyMessages": {
+            "label": "Key Messages",
+            "placeholder": "Add a key message"
+          },
+          "proofPoints": {
+            "label": "Proof Points",
+            "placeholder": "Add evidence that supports your claims"
+          },
+          "callToAction": {
+            "label": "Primary Call to Action",
+            "placeholder": "Your primary call to action"
+          }
+        }
+      },
+      "visual": {
+        "title": "Visual Identity",
+        "badge": "Visual",
+        "fields": {
+          "primaryColors": {
+            "label": "Primary Colors",
+            "placeholder": "Add a primary color (e.g., #FF5733)"
+          },
+          "secondaryColors": {
+            "label": "Secondary Colors",
+            "placeholder": "Add a secondary color"
+          },
+          "accentColors": {
+            "label": "Accent Colors",
+            "placeholder": "Add an accent color"
+          },
+          "primaryFont": {
+            "label": "Primary Font",
+            "placeholder": "Primary typeface (e.g., Inter, Roboto)"
+          },
+          "secondaryFont": {
+            "label": "Secondary Font",
+            "placeholder": "Secondary typeface"
+          },
+          "fontSizeScale": {
+            "label": "Font Size Scale",
+            "placeholder": "Font size scale or system"
+          },
+          "logoUsage": {
+            "label": "Logo Usage Guidelines",
+            "placeholder": "Guidelines for using the logo"
+          },
+          "imageryStyle": {
+            "label": "Imagery Style",
+            "placeholder": "Describe the style of imagery your brand uses"
+          },
+          "iconStyle": {
+            "label": "Icon Style",
+            "placeholder": "Describe the style of icons"
+          },
+          "photographyGuidelines": {
+            "label": "Photography Guidelines",
+            "placeholder": "Guidelines for brand photography"
+          }
+        }
+      }
+    }
+  },
+  "editor": {
+    "title": "White Label Brand Kit Editor",
+    "description": "Customize the platform with your brand identity",
+    "previewMode": "Preview Mode",
+    "export": "Export",
+    "import": "Import",
+    "sections": {
+      "companyIdentity": "Company Identity",
+      "colorPalette": "Color Palette",
+      "typography": "Typography",
+      "uiPreferences": "UI Preferences",
+      "customCss": "Custom CSS (Advanced)"
+    },
+    "fields": {
+      "companyName": "Company Name",
+      "logoUrl": "Logo URL",
+      "primaryColor": "Primary Color",
+      "secondaryColor": "Secondary Color",
+      "accentColor": "Accent Color",
+      "headingFont": "Heading Font",
+      "bodyFont": "Body Font",
+      "borderRadius": "Border Radius",
+      "contentDensity": "Content Density"
+    },
+    "placeholders": {
+      "companyName": "Your Company Name",
+      "logoUrl": "https://example.com/logo.png",
+      "customCss": "/* Add custom CSS here */\n.your-class {\n  property: value;\n}"
+    },
+    "options": {
+      "borderRadius": {
+        "none": "None (Square)",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large",
+        "extraLarge": "Extra Large"
+      },
+      "density": {
+        "comfortable": "Comfortable",
+        "compact": "Compact",
+        "spacious": "Spacious"
+      }
+    },
+    "buttons": {
+      "resetToDefault": "Reset to Default",
+      "preview": "Preview",
+      "saveAndApply": "Save & Apply"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = "The FastAPI backend and agent service for STRATUM."
+authors = ["STRATUM contributors"]
+# This is an application, not a distributable library: the code is run from the
+# repository root via `apps.api...` imports, so the root project does not need to
+# be packaged or installed. Without this, `poetry install` fails on a fresh clone
+# looking for a README.md that is not part of the repository.
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.116.1"
+uvicorn = {extras = ["standard"], version = "^0.35.0"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+python-dotenv = "^1.0.0"
+# Google Cloud dependencies for RAG system
+google-cloud-discoveryengine = "^0.11.0"
+google-cloud-storage = "^2.10.0"
+google-cloud-aiplatform = "^1.40.0"
+# Additional dependencies for file handling and processing
+python-multipart = "^0.0.9"
+psycopg2-binary = "^2.9.7"
+google-genai = "^2.23.0"
+pydantic = "^2.11.7"
+supabase = "^2.18.1"
+pyjwt = "^2.10.1"
+requests = {version = "^2.32.5", python = ">=3.9.2,<4.0"}
+cryptography = {version = ">=45.0.0", python = ">=3.9.2,<4.0"}
+sse-starlette = "^2.1.3"
+pytest-asyncio = "^0.21.0"
+sseclient-py = "^1.8.0"
+email-validator = "^2.3.0"
+google-cloud-recaptcha-enterprise = "^1.29.0"
+bcrypt = "^5.0.0"
+aiofiles = "^25.1.0"
+resend = "^2.19.0"
+stripe = "^14.3.0"
+Pillow = "^11.3.0"
+
+[tool.pytest.ini_options]
+# Pytest configuration for backend tests
+testpaths = ["tests/automated"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-v",                          # Verbose output
+    "--tb=short",                  # Shorter traceback format
+    "--strict-markers",            # Raise error on unknown markers
+    "--disable-warnings",          # Disable pytest warnings
+    "-p", "no:cacheprovider",      # Disable pytest cache
+]
+markers = [
+    "unit: Pure unit tests (no external dependencies)",
+    "integration: Integration tests (requires database, API)",
+    "agent: AI agent tests (requires GOOGLE_API_KEY)",
+    "slow: Slow-running tests (> 10 seconds)",
+    "auth: Authentication and authorization tests",
+    "multi_tenant: Multi-tenant architecture tests",
+]
+# Test discovery
+norecursedirs = [
+    ".*",
+    "build",
+    "dist",
+    "CVS",
+    "_darcs",
+    "{arch}",
+    "*.egg",
+    "venv",
+    "env",
+    "apps",  # Don't look for tests in apps/ directory
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

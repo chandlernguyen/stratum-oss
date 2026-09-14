@@ -1,0 +1,232 @@
+{
+  "pageTitle": "Hướng Dẫn Thực Hành Tốt Nhất Cho Agency",
+  "pageSubtitle": "Thành thạo STRAŦUM để quản lý 5-15 khách hàng hiệu quả",
+  "backButton": "Quay lại",
+
+  "privateAlpha": {
+    "title": "Chào Mừng Đến STRAŦUM",
+    "description": "Bạn đang sử dụng <strong>gói miễn phí</strong> của STRAŦUM. Chúng tôi đang tích cực xây dựng và cải thiện nền tảng — phản hồi của bạn giúp định hình sản phẩm.",
+    "protectWork": "Thực Hành Tốt Nhất",
+    "protectWorkItems": {
+      "databaseReset": "Xuất công việc quan trọng thường xuyên như một thói quen sao lưu",
+      "downloadData": "<strong>Tải xuống dữ liệu quan trọng thường xuyên</strong> (chiến lược, nội dung, phân tích)",
+      "useExport": "Sử dụng các nút xuất trong Trợ lý Nội dung và Trung tâm Kết quả",
+      "feedbackValue": "Phản hồi của bạn định hình sản phẩm — điều này vô cùng quý giá với chúng tôi!"
+    },
+    "questionsTitle": "Bạn Có Câu Hỏi Hoặc Phản Hồi?",
+    "questionsDescription": "Nhấp vào ảnh đại diện của bạn ở góc trên bên phải, sau đó chọn <strong>\"Gửi Phản Hồi\"</strong>. Chúng tôi đọc mọi tin nhắn và sử dụng đầu vào của bạn để cải thiện STRAŦUM."
+  },
+
+  "introduction": {
+    "title": "Giới Thiệu",
+    "description": "Chào mừng bạn đến với STRAŦUM! Hướng dẫn này cung cấp các thực hành tốt nhất cho các agency marketing sử dụng nền tảng để quản lý nhiều khách hàng một cách hiệu quả đồng thời mang lại kết quả xuất sắc thông qua phân tích được AI hỗ trợ."
+  },
+
+  "clientOnboarding": {
+    "title": "Chiến Lược Tiếp Nhận Khách Hàng",
+    "firstClientSetup": "Thiết Lập Khách Hàng Đầu Tiên (15-20 phút)",
+    "steps": {
+      "addClient": "<strong>Thêm Khách Hàng:</strong> Điều hướng đến nút \"Thêm Khách Hàng Đầu Tiên\" trên bảng điều khiển",
+      "strategicFoundation": "<strong>Nền Tảng Chiến Lược:</strong> Chạy Trợ lý Chiến lược Kinh doanh để thiết lập các khung chiến lược",
+      "customerInsights": "<strong>Phân Tích Khách Hàng:</strong> Tạo 3-5 chân dung khách hàng sử dụng Trợ lý Chân dung",
+      "marketingDirection": "<strong>Định Hướng Marketing:</strong> Tạo chiến lược marketing ban đầu với Trợ lý Chiến lược Marketing"
+    },
+    "proTipLabel": "Mẹo Chuyên Nghiệp:",
+    "proTipContent": "Đừng cố thu thập mọi thứ ngay từ đầu - hãy để các trợ lý AI học dần dần thông qua các cuộc trò chuyện. Mỗi tương tác tự động xây dựng ngữ cảnh."
+  },
+
+  "dataProtection": {
+    "title": "Dữ Liệu Khách Hàng Của Bạn Được Bảo Vệ",
+    "description": "STRAŦUM giữ dữ liệu của mỗi khách hàng <strong>hoàn toàn riêng biệt và an toàn</strong>. Khách hàng A sẽ không bao giờ thấy thông tin của Khách hàng B, và ngược lại. Bảo vệ này được tích hợp vào nền tảng ở cấp cơ sở dữ liệu.",
+    "doTitle": "NÊN LÀM:",
+    "doItems": {
+      "useSelector": "Sử dụng bộ chọn khách hàng để chuyển đổi giữa các khách hàng",
+      "doubleCheck": "Kiểm tra kỹ bạn đang ở đúng không gian làm việc của khách hàng",
+      "downloadRegularly": "Tải xuống các chiến lược và nội dung quan trọng thường xuyên",
+      "lookForBadge": "Tìm huy hiệu \"Dữ Liệu Được Bảo Vệ\" để yên tâm"
+    },
+    "dontTitle": "KHÔNG NÊN LÀM:",
+    "dontItems": {
+      "copySensitive": "Sao chép thông tin nhạy cảm giữa các không gian làm việc của khách hàng",
+      "shareLogin": "Chia sẻ thông tin đăng nhập với các thành viên trong nhóm (thay vào đó hãy mời họ)",
+      "exportWithoutPermission": "Xuất dữ liệu khách hàng mà không có sự cho phép của họ"
+    },
+    "alphaTipTitle": "Mẹo: Lưu Công Việc Của Bạn",
+    "alphaTipContent": "Chúng tôi khuyên bạn nên tải xuống các chiến lược và nội dung quan trọng khi bạn tạo chúng. Sử dụng các nút xuất trong Trợ lý Nội dung (Word, PDF, Google Docs) và Trung tâm Kết quả. Hãy nghĩ về nó như việc lưu công việc — luôn là một thói quen tốt!"
+  },
+
+  "teamRoles": {
+    "title": "Cộng Tác Nhóm & Vai Trò",
+    "description": "STRAŦUM cung cấp 10 vai trò nhóm khác nhau cho các agency, để mỗi người chỉ thấy những gì họ cần cho công việc:",
+    "roles": {
+      "agencyOwner": {
+        "title": "Chủ Sở Hữu Agency",
+        "description": "Toàn quyền truy cập, thanh toán, quản lý nhóm"
+      },
+      "agencyAdmin": {
+        "title": "Quản Trị Viên Agency",
+        "description": "Quản lý tất cả khách hàng, không có quyền thanh toán"
+      },
+      "accountManager": {
+        "title": "Quản Lý Tài Khoản",
+        "description": "Quan hệ khách hàng, xem tất cả dữ liệu"
+      },
+      "strategist": {
+        "title": "Chiến Lược Gia",
+        "description": "Tạo chiến lược, chân dung, phân tích kinh doanh"
+      },
+      "campaignManager": {
+        "title": "Quản Lý Chiến Dịch",
+        "description": "Thực hiện chiến dịch, quản lý lịch nội dung"
+      },
+      "analyst": {
+        "title": "Nhà Phân Tích",
+        "description": "Theo dõi hiệu suất, phân tích ROI, báo cáo"
+      },
+      "creative": {
+        "title": "Sáng Tạo",
+        "description": "Tạo nội dung và tài sản thiết kế"
+      },
+      "freelancer": {
+        "title": "Freelancer",
+        "description": "Truy cập dựa trên dự án cho các khách hàng cụ thể"
+      },
+      "clientViewer": {
+        "title": "Người Xem Khách Hàng",
+        "description": "Quyền chỉ đọc dữ liệu khách hàng được chỉ định"
+      },
+      "agencyViewer": {
+        "title": "Người Xem Agency",
+        "description": "Quyền chỉ đọc trên tất cả khách hàng"
+      }
+    },
+    "inviteInstructions": "<strong>Cách mời thành viên nhóm:</strong> Nhấp vào ảnh đại diện của bạn → Cài đặt → Quản lý Nhóm. Gán vai trò dựa trên những gì mỗi người thực sự làm, không phải chức danh hoặc thâm niên của họ. Cấp quyền truy cập cho những gì họ cần - không hơn, không kém."
+  },
+
+  "aiWorkflow": {
+    "title": "Quy Trình Trợ Lý AI",
+    "description": "Đối với khách hàng mới, hãy tuân theo trình tự chiến lược này:",
+    "phases": {
+      "foundation": {
+        "title": "Giai Đoạn 1: Nền Tảng (Tuần 1)",
+        "steps": {
+          "step1": "Trợ lý Chiến lược Kinh doanh - Thiết lập các khung (SWOT, Năm Lực Lượng của Porter)",
+          "step2": "Trợ lý Chân dung - Tạo 3-5 chân dung khách hàng chi tiết",
+          "step3": "Trợ lý Chiến lược Marketing - Phát triển chiến lược tiếp cận thị trường"
+        }
+      },
+      "execution": {
+        "title": "Giai Đoạn 2: Lập Kế Hoạch Thực Hiện (Tuần 2)",
+        "steps": {
+          "step1": "Trợ lý Nội dung - Tạo lịch nội dung và tài sản ban đầu",
+          "step2": "Trợ lý Lập Kế Hoạch Chiến Dịch - Lập bản đồ chiến dịch đa kênh",
+          "step3": "Trợ lý Phân Tích Cạnh Tranh - Phân tích vị thế thị trường"
+        }
+      },
+      "optimization": {
+        "title": "Giai Đoạn 3: Tối Ưu Hóa (Liên Tục)",
+        "steps": {
+          "step1": "Trợ lý Phân Tích Hiệu Suất - Theo dõi ROI, KPI và xác định kết quả nhanh",
+          "step2": "Trợ lý Thành Công Khách Hàng - Giám sát sức khỏe và giữ chân khách hàng"
+        }
+      }
+    },
+    "crossAgentTitle": "Kết Nối Thông Tin Giữa Các Trợ Lý:",
+    "crossAgentContent": "Các trợ lý STRAŦUM tự động chia sẻ ngữ cảnh. Chân dung được đưa vào tạo nội dung, chiến lược định hướng cho chiến dịch, và dữ liệu hiệu suất tạo ra các đề xuất tối ưu hóa. Hãy tin tưởng vào luồng dữ liệu của hệ thống."
+  },
+
+  "campaignManagement": {
+    "title": "Quản Lý Chiến Dịch",
+    "lifecycleTitle": "Vòng Đời Chiến Dịch",
+    "lifecycleSteps": {
+      "planning": "<strong>Lập Kế Hoạch:</strong> Sử dụng Trợ lý Chiến lược Marketing để xác định mục tiêu và ngân sách (quy tắc 70-20-10)",
+      "content": "<strong>Tạo Nội Dung:</strong> Trợ lý Nội dung cung cấp 9 công cụ (blog SEO, mạng xã hội, chiến dịch email, v.v.)",
+      "execution": "<strong>Theo Dõi Thực Hiện:</strong> Đánh dấu một chiến lược là \"Hoạt động\" cho mỗi chiến dịch, tải lên dữ liệu hiệu suất qua CSV",
+      "optimization": "<strong>Tối Ưu Hóa:</strong> Sử dụng Trợ lý Phân Tích Hiệu Suất để tìm kết quả nhanh và Công Cụ Tối Ưu Ngân Sách cho các đề xuất phân bổ"
+    },
+    "multiClientTitle": "Quản Lý Đa Khách Hàng:",
+    "multiClientItems": {
+      "selector": "Bộ chọn khách hàng trong điều hướng trên cùng để chuyển đổi nhanh",
+      "outputsHub": "Trung tâm Kết quả hiển thị tất cả nội dung do AI tạo trên các khách hàng",
+      "bulkOperations": "Các thao tác hàng loạt để lưu trữ các chiến dịch cũ",
+      "comparison": "So sánh song song để đối chiếu chiến lược"
+    }
+  },
+
+  "performanceTracking": {
+    "title": "Theo Dõi Hiệu Suất",
+    "metricsTitle": "Bảng Điều Khiển Chỉ Số Quan Trọng",
+    "clientHealth": {
+      "title": "Điểm Sức Khỏe Khách Hàng:",
+      "items": {
+        "roi": "Xu hướng ROI chiến dịch",
+        "content": "Hiệu suất nội dung",
+        "alignment": "Sự phù hợp chiến lược",
+        "budget": "Hiệu quả ngân sách"
+      }
+    },
+    "agencyEfficiency": {
+      "title": "Hiệu Quả Agency:",
+      "items": {
+        "timeSaved": "Thời gian tiết kiệm cho mỗi khách hàng",
+        "campaigns": "Số chiến dịch được quản lý đồng thời",
+        "retention": "Tỷ lệ giữ chân khách hàng",
+        "upsell": "Cơ hội upsell được AI xác định"
+      }
+    }
+  },
+
+  "quickReference": {
+    "title": "Tham Khảo Nhanh: Các Tác Vụ Thường Gặp",
+    "tableHeaders": {
+      "task": "Tác Vụ",
+      "navigation": "Đường Dẫn Điều Hướng"
+    },
+    "tasks": {
+      "addClient": {
+        "task": "Thêm khách hàng mới",
+        "navigation": "Bảng điều khiển → Nút \"Thêm Khách Hàng\""
+      },
+      "createPersona": {
+        "task": "Tạo chân dung khách hàng",
+        "navigation": "Khách hàng → [Khách hàng] → Trợ lý → Trợ lý Chân dung"
+      },
+      "generateCalendar": {
+        "task": "Tạo lịch nội dung",
+        "navigation": "Khách hàng → [Khách hàng] → Trợ lý → Trợ lý Nội dung"
+      },
+      "uploadPerformance": {
+        "task": "Tải lên dữ liệu hiệu suất",
+        "navigation": "Khách hàng → [Khách hàng] → Trợ lý → Phân Tích Hiệu Suất"
+      },
+      "inviteTeam": {
+        "task": "Mời thành viên nhóm",
+        "navigation": "Cài đặt → Quản lý Nhóm"
+      },
+      "switchClients": {
+        "task": "Chuyển đổi giữa các khách hàng",
+        "navigation": "Điều hướng trên cùng → Menu thả xuống chọn khách hàng"
+      }
+    }
+  },
+
+  "nextSteps": {
+    "title": "Các Bước Tiếp Theo",
+    "steps": {
+      "step1": "Thêm khách hàng đầu tiên của bạn qua bảng điều khiển",
+      "step2": "Tạo nền tảng chiến lược (Chiến lược Kinh doanh + Chân dung + Chiến lược Marketing)",
+      "step3": "Tạo tài sản nội dung ban đầu (Trợ lý Nội dung)",
+      "step4": "Thiết lập theo dõi hiệu suất (Tải lên bộ dữ liệu CSV đầu tiên với Trợ lý Phân Tích Hiệu Suất)",
+      "step5": "Mời các thành viên nhóm (nếu có)"
+    },
+    "remember": "<strong>Hãy nhớ:</strong> STRAŦUM theo triết lý \"Hiểu Rõ Trước Khi Hành Động\" - tập trung vào thông tin chiến lược, không phải tự động hóa chiến thuật. Hãy để các trợ lý AI xây dựng ngữ cảnh dần dần thông qua các cuộc trò chuyện tự nhiên."
+  },
+
+  "footer": {
+    "feedbackTitle": "Chúng Tôi Rất Mong Nhận Được Phản Hồi Của Bạn!",
+    "feedbackDescription": "Những góp ý của bạn vô cùng quý giá. Bạn thấy điều gì khó hiểu? Có ý tưởng cải thiện? Gặp sự cố?",
+    "feedbackCta": "Nhấp vào ảnh đại diện của bạn (góc trên bên phải) → \"Gửi Phản Hồi\"",
+    "feedbackNote": "Chúng tôi đọc mọi tin nhắn và sử dụng đầu vào của bạn để định hình tương lai của STRAŦUM",
+    "lastUpdated": "Cập nhật lần cuối: Ngày 20 tháng 1 năm 2026 | Phiên bản 1.2"
+  }
+}

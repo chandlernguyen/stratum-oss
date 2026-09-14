@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Schnellstart - 5-Minuten-Intelligence",
+    "subtitle": "Generieren Sie Ihre Strategie, Personas und Ihren Marketingplan in einer umfassenden Sitzung"
+  },
+  "featureCards": {
+    "strategyAnalysis": {
+      "title": "Strategieanalyse",
+      "description": "SWOT, Business Model Canvas und strategische Frameworks"
+    },
+    "customerPersonas": {
+      "title": "Kunden-Personas",
+      "description": "Detaillierte Käuferprofile und Journey-Mapping"
+    },
+    "marketingStrategy": {
+      "title": "Marketingstrategie",
+      "description": "Kanalstrategie, Messaging und 90-Tage-Fahrplan"
+    }
+  },
+  "initialMessage": {
+    "intro": "Ich habe gerade den Schnellstart-Fragebogen abgeschlossen. Hier ist mein Geschäftskontext:",
+    "company": "Unternehmen/Geschäft:",
+    "goal": "Primäres Marketingziel:",
+    "audience": "Zielgruppe:",
+    "budget": "Monatliches Marketingbudget:",
+    "timeline": "Zeitrahmen für Ergebnisse:",
+    "request": "Basierend auf diesen Informationen erstellen Sie bitte eine umfassende Marketing-Intelligence-Grundlage, einschließlich:",
+    "item1": "1. Strategische Analyse (SWOT, Wettbewerbspositionierung)",
+    "item2": "2. Detaillierte Kunden-Personas",
+    "item3": "3. Vollständige Marketingstrategie mit Kanalempfehlungen und Messaging-Framework",
+    "closing": "Lassen Sie uns mein Marketing-Fundament aufbauen!"
+  }
+}

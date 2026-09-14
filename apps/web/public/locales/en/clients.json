@@ -1,0 +1,68 @@
+{
+  "title": "Clients",
+  "subtitle": "Manage your agency's client portfolio",
+  "badge": "Client Portfolio",
+  "addClient": "Add Client",
+  "addFirstClient": "Add Your First Client",
+  "search": {
+    "placeholder": "Search clients by name or industry..."
+  },
+  "filters": {
+    "label": "Filter by Status",
+    "active": "Active",
+    "archived": "Archived",
+    "all": "All Clients"
+  },
+  "card": {
+    "noIndustry": "No industry specified",
+    "archivedBadge": "Archived",
+    "archivedOn": "Archived",
+    "reason": "Reason: {{reason}}",
+    "campaigns": "Campaigns",
+    "campaignsCount": "{{active}} / {{total}}",
+    "clientSince": "Client Since",
+    "restoreClient": "Restore Client",
+    "dashboard": "Dashboard",
+    "viewCampaignsAriaLabel": "View campaigns for {{clientName}}"
+  },
+  "status": {
+    "active": "active",
+    "paused": "paused",
+    "churned": "churned"
+  },
+  "emptyState": {
+    "noArchived": {
+      "title": "No archived clients",
+      "description": "Archived clients will appear here when you archive active clients",
+      "viewActive": "View Active Clients"
+    },
+    "noClients": {
+      "title": "No clients yet",
+      "description": "Get started by adding your first client to begin using AI-powered insights"
+    },
+    "noResults": {
+      "title": "No clients found",
+      "description": "Try adjusting your search query"
+    }
+  },
+  "actions": {
+    "edit": "Edit",
+    "archive": "Archive",
+    "restore": "Restore",
+    "delete": "Delete"
+  },
+  "toast": {
+    "archiveSuccess": "Client archived successfully",
+    "archiveFailed": "Failed to archive client",
+    "deleteSuccess": "Client deleted successfully",
+    "deleteFailed": "Failed to delete client",
+    "restoreSuccess": "Client restored successfully",
+    "restoreFailed": "Failed to restore client"
+  },
+  "onboarding": {
+    "industry": "Industry",
+    "industryPlaceholder": "Select your client's industry",
+    "companySize": "Company Size",
+    "companySizePlaceholder": "Select company size"
+  }
+}

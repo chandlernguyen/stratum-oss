@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "快速开始 - 5 分钟智能成果",
+    "subtitle": "在一次完整会话中生成你的战略、画像和营销计划"
+  },
+  "featureCards": {
+    "strategyAnalysis": {
+      "title": "战略分析",
+      "description": "SWOT、商业模式画布及战略框架"
+    },
+    "customerPersonas": {
+      "title": "客户画像",
+      "description": "详细买家档案与旅程映射"
+    },
+    "marketingStrategy": {
+      "title": "营销战略",
+      "description": "渠道战略、信息框架和 90 天路线图"
+    }
+  },
+  "initialMessage": {
+    "intro": "我刚刚完成了快速开始问卷。以下是我的业务背景：",
+    "company": "公司/业务：",
+    "goal": "主要营销目标：",
+    "audience": "目标受众：",
+    "budget": "每月营销预算：",
+    "timeline": "见效时间：",
+    "request": "请基于这些信息，为我生成完整的营销智能基础，包括：",
+    "item1": "1. 战略分析（SWOT、竞争定位）",
+    "item2": "2. 详细客户画像",
+    "item3": "3. 完整营销战略，包括渠道建议和信息框架",
+    "closing": "让我们开始打造我的营销基础！"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Kontakt",
+    "subtitle": "Direkter Draht zum Gründer. Ihr Input formt STRAŦUM."
+  },
+  "getInTouch": {
+    "title": "Kontakt aufnehmen",
+    "description": "Entwickelt von einem Solo-Gründer mit dem Fokus, Marketing-Intelligence auf Enterprise-Niveau ohne Enterprise-Komplexität zu liefern. Registrierung ist offen — starten Sie heute kostenlos.",
+    "wantAccess": "Bereit loszulegen?",
+    "requestInvitation": "Kostenlos registrieren",
+    "alphaUsers": "Alpha-Nutzer:",
+    "alphaUsersNote": "Nutzen Sie das In-App-Feedback, wenn Sie angemeldet sind.",
+    "everyoneElse": "Alle anderen:",
+    "everyoneElseNote": "E-Mail für allgemeine Anfragen."
+  },
+  "contactMethods": {
+    "title": "Kontaktmöglichkeiten",
+    "inAppFeedback": {
+      "title": "In-App-Feedback",
+      "badge": "Für Alpha-Nutzer",
+      "description": "Wenn Sie bei STRAŦUM angemeldet sind:",
+      "note": "Ideal für Fehlerberichte und Funktionswünsche. Ihr Kontokontext ermöglicht schnellere Lösungen.",
+      "cta": "Feedback senden"
+    },
+    "email": {
+      "title": "E-Mail",
+      "badge": "Für alle",
+      "description": "Für allgemeine Fragen, Funktionsvorschläge, Partnerschaften oder sonstige Anfragen.",
+      "wantAccess": "Zugang gewünscht?",
+      "requestInvitation": "Einladung anfragen"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "Vernetzen Sie sich mit dem Gründer und verfolgen Sie STRAŦUMs Entwicklungsreise",
+      "cta": "Auf LinkedIn vernetzen"
+    }
+  },
+  "responseTime": {
+    "title": "Antwortzeit & Verfügbarkeit",
+    "commitment": "Solo-Gründer-Versprechen:",
+    "responseNote": "Jede Nachricht wird persönlich gelesen und innerhalb von 1-2 Werktagen beantwortet (Entwicklungssprints können auf 3-4 Tage verlängern).",
+    "timezone": "Standort: US Pacific Zeitzone. Geschäftszeiten: 9-17 Uhr PST, Montag-Freitag."
+  },
+  "partnership": {
+    "title": "Partnerschaften & Medien",
+    "description": "Für strategische Partnerschaften oder Medienanfragen schreiben Sie an",
+    "subjectNote": "mit \"Partnerschaft\" oder \"Medien\" in der Betreffzeile."
+  }
+}

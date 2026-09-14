@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Aufgaben",
+  "pageSubtitle": "Die Arbeit Ihres Teams verwalten und verfolgen",
+  "newTask": "Neue Aufgabe",
+  "myTasks": "Meine Aufgaben",
+  "allTasks": "Alle Aufgaben",
+  "noTasks": "Keine Aufgaben",
+  "status": {
+    "todo": "Zu erledigen",
+    "in_progress": "In Bearbeitung",
+    "review": "In Prüfung",
+    "done": "Erledigt",
+    "cancelled": "Abgebrochen"
+  },
+  "taskType": {
+    "content_creation": "Content-Erstellung",
+    "review": "Prüfung",
+    "analysis": "Analyse",
+    "campaign_setup": "Kampagnen-Setup",
+    "strategy": "Strategie",
+    "other": "Sonstiges"
+  },
+  "priority": {
+    "low": "Niedrig",
+    "normal": "Normal",
+    "high": "Hoch",
+    "urgent": "Dringend"
+  },
+  "dueDate": {
+    "overdue": "Überfällig",
+    "today": "Heute",
+    "tomorrow": "Morgen"
+  },
+  "assignee": {
+    "unassigned": "Nicht zugewiesen"
+  },
+  "actions": {
+    "moveTo": "Verschieben nach {{status}}",
+    "cancel": "Abbrechen"
+  },
+  "createDialog": {
+    "title": "Aufgabe erstellen",
+    "description": "Eine neue Aufgabe einem Teammitglied zuweisen.",
+    "titleLabel": "Titel",
+    "titlePlaceholder": "Was muss erledigt werden?",
+    "descriptionLabel": "Beschreibung (optional)",
+    "descriptionPlaceholder": "Weitere Details hinzufügen...",
+    "typeLabel": "Typ",
+    "priorityLabel": "Priorität",
+    "assigneeLabel": "Zuweisen an",
+    "assigneePlaceholder": "Teammitglied auswählen",
+    "dueDateLabel": "Fälligkeitsdatum",
+    "cancelButton": "Abbrechen",
+    "createButton": "Aufgabe erstellen",
+    "creatingButton": "Wird erstellt..."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Tareas",
+  "pageSubtitle": "Gestiona y sigue el trabajo de tu equipo",
+  "newTask": "Nueva tarea",
+  "myTasks": "Mis tareas",
+  "allTasks": "Todas las tareas",
+  "noTasks": "No hay tareas",
+  "status": {
+    "todo": "Por hacer",
+    "in_progress": "En progreso",
+    "review": "En revision",
+    "done": "Hecha",
+    "cancelled": "Cancelada"
+  },
+  "taskType": {
+    "content_creation": "Creacion de contenido",
+    "review": "Revision",
+    "analysis": "Analisis",
+    "campaign_setup": "Configuracion de campana",
+    "strategy": "Estrategia",
+    "other": "Otro"
+  },
+  "priority": {
+    "low": "Baja",
+    "normal": "Normal",
+    "high": "Alta",
+    "urgent": "Urgente"
+  },
+  "dueDate": {
+    "overdue": "Vencida",
+    "today": "Hoy",
+    "tomorrow": "Manana"
+  },
+  "assignee": {
+    "unassigned": "Sin asignar"
+  },
+  "actions": {
+    "moveTo": "Mover a {{status}}",
+    "cancel": "Cancelar"
+  },
+  "createDialog": {
+    "title": "Crear tarea",
+    "description": "Asigna una nueva tarea a un miembro del equipo.",
+    "titleLabel": "Titulo",
+    "titlePlaceholder": "Que hay que hacer?",
+    "descriptionLabel": "Descripcion (opcional)",
+    "descriptionPlaceholder": "Anade mas detalles...",
+    "typeLabel": "Tipo",
+    "priorityLabel": "Prioridad",
+    "assigneeLabel": "Asignar a",
+    "assigneePlaceholder": "Selecciona a un miembro del equipo",
+    "dueDateLabel": "Fecha limite",
+    "cancelButton": "Cancelar",
+    "createButton": "Crear tarea",
+    "creatingButton": "Creando..."
+  }
+}

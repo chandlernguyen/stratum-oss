@@ -1,0 +1,30 @@
+{
+  "generic": "問題が発生しました。もう一度お試しください。",
+  "network": "ネットワークエラーです。接続状況をご確認ください。",
+  "server": "サーバーエラーです。しばらくしてからもう一度お試しください。",
+  "notFound": "リソースが見つかりません。",
+  "unauthorized": "この操作を実行する権限がありません。",
+  "forbidden": "アクセスが拒否されました。",
+  "timeout": "リクエストがタイムアウトしました。もう一度お試しください。",
+  "sessionExpired": "セッションの有効期限が切れました。再度ログインしてください。",
+  "validation": {
+    "required": "{field}は必須です。",
+    "invalid": "{field}が正しくありません。",
+    "tooShort": "{field}は{min}文字以上で入力してください。",
+    "tooLong": "{field}は{max}文字以内で入力してください。",
+    "invalidEmail": "有効なメールアドレスを入力してください。",
+    "invalidPassword": "パスワードが要件を満たしていません。"
+  },
+  "auth": {
+    "invalidCredentials": "メールアドレスまたはパスワードが正しくありません。",
+    "emailInUse": "このメールアドレスはすでに登録されています。",
+    "accountLocked": "アカウントは一時的にロックされています。しばらくしてからもう一度お試しください。",
+    "tooManyAttempts": "試行回数が多すぎます。しばらくしてからもう一度お試しください。",
+    "invalidInvitationCode": "招待コードが無効です。"
+  },
+  "agent": {
+    "unavailable": "エージェントは現在利用できません。もう一度お試しください。",
+    "toolExecutionFailed": "{tool}の実行に失敗しました。もう一度お試しください。",
+    "responseGenerationFailed": "応答の生成に失敗しました。もう一度お試しください。"
+  }
+}

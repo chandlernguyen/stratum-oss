@@ -1,0 +1,183 @@
+{
+  "title": "Team",
+  "subtitle": "Teammitglieder und Berechtigungen verwalten",
+  "management": {
+    "title": "Teamverwaltung",
+    "subtitle": "Teammitglieder und Einladungen verwalten",
+    "inviteButton": "Teammitglied einladen"
+  },
+  "list": {
+    "title": "Teammitglieder",
+    "empty": "Noch keine Teammitglieder",
+    "emptyDescription": "Laden Sie Teammitglieder ein, um an Ihrer Marketingstrategie zusammenzuarbeiten",
+    "inviteFirst": "Erstes Teammitglied einladen"
+  },
+  "members": {
+    "title": "Teammitglieder",
+    "count": "Teammitglieder ({{count}})",
+    "subtitle": "Aktive Mitglieder in Ihrer Organisation",
+    "empty": "Keine Teammitglieder gefunden",
+    "joined": "Beigetreten am {{date}}"
+  },
+  "invitations": {
+    "title": "Ausstehende Einladungen",
+    "count": "Ausstehende Einladungen ({{count}})",
+    "subtitle": "Einladungen, die noch nicht angenommen wurden",
+    "empty": "Keine ausstehenden Einladungen",
+    "invitedBy": "Eingeladen von {{name}}",
+    "expires": "Läuft ab am {{date}}",
+    "revoke": "Einladung widerrufen"
+  },
+  "table": {
+    "name": "Name",
+    "email": "E-Mail",
+    "role": "Rolle",
+    "clientAccess": "Kundenzugriff",
+    "joined": "Beigetreten",
+    "expires": "Läuft ab",
+    "invitedBy": "Eingeladen von",
+    "actions": "Aktionen"
+  },
+  "clientAccess": {
+    "allClients": "Alle Kunden",
+    "clientCount_one": "{{count}} Kunde",
+    "clientCount_other": "{{count}} Kunden",
+    "allClientsTooltip": "Hat Zugriff auf alle aktuellen und zukünftigen Kunden",
+    "assignedClients": "Zugewiesene Kunden:",
+    "andMore": "...und {{count}} weitere",
+    "noClientsAssigned": "Keine Kunden zugewiesen"
+  },
+  "dialogs": {
+    "changeRole": {
+      "title": "Mitgliederrolle ändern",
+      "description": "Rolle für {{name}} ({{email}}) aktualisieren",
+      "newRole": "Neue Rolle",
+      "selectRole": "Neue Rolle auswählen",
+      "cancel": "Abbrechen",
+      "submit": "Rolle aktualisieren",
+      "submitting": "Wird aktualisiert..."
+    },
+    "clientAccess": {
+      "title": "Kundenzugriff verwalten",
+      "description": "Kundenzugriff für {{name}} ({{email}}) aktualisieren",
+      "allClients": "Alle Kunden",
+      "allClientsDescription": "Benutzer hat Zugriff auf alle aktuellen und zukünftigen Kunden",
+      "selectClients": "Bestimmte Kunden auswählen:",
+      "loadingClients": "Kunden werden geladen...",
+      "noClients": "Keine Kunden verfügbar",
+      "selectAtLeastOne": "Wählen Sie mindestens einen Kunden oder \"Alle Kunden\"",
+      "cancel": "Abbrechen",
+      "submit": "Zugriff aktualisieren",
+      "submitting": "Wird aktualisiert..."
+    },
+    "revoke": {
+      "title": "Einladung widerrufen",
+      "description": "Sind Sie sicher, dass Sie die Einladung für {{email}} widerrufen möchten?",
+      "confirm": "Widerrufen"
+    },
+    "remove": {
+      "title": "Teammitglied entfernen",
+      "description": "Sind Sie sicher, dass Sie {{name}} ({{email}}) aus Ihrer Organisation entfernen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "confirm": "Mitglied entfernen"
+    }
+  },
+  "actions": {
+    "changeRole": "Rolle ändern",
+    "manageClientAccess": "Kundenzugriff verwalten",
+    "removeMember": "Mitglied entfernen",
+    "moreOptions": "Weitere Optionen"
+  },
+  "validation": {
+    "selectRole": "Bitte wählen Sie eine Rolle",
+    "rolesNotLoaded": "Rollen noch nicht geladen",
+    "invalidRole": "Ungültige Rolle ausgewählt",
+    "noMemberSelected": "Kein Mitglied ausgewählt",
+    "selectClientOrAll": "Bitte wählen Sie mindestens einen Kunden oder \"Alle Kunden\""
+  },
+  "roles": {
+    "owner": "Inhaber",
+    "admin": "Administrator",
+    "editor": "Bearbeiter",
+    "viewer": "Betrachter",
+    "descriptions": {
+      "owner": "Vollzugriff auf alle Funktionen einschließlich Abrechnung und Teamverwaltung",
+      "admin": "Kann Teammitglieder verwalten und auf alle Funktionen außer Abrechnung zugreifen",
+      "editor": "Kann Inhalte, Kampagnen und Personas erstellen und bearbeiten",
+      "viewer": "Nur-Lese-Zugriff auf Dashboards und Berichte"
+    }
+  },
+  "invite": {
+    "title": "Teammitglied einladen",
+    "subtitle": "Senden Sie eine Einladung, Ihrem Team beizutreten",
+    "fields": {
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "kollege@unternehmen.de",
+      "role": "Rolle",
+      "message": "Persönliche Nachricht (Optional)",
+      "messagePlaceholder": "Fügen Sie Ihrer Einladung eine persönliche Notiz hinzu..."
+    },
+    "actions": {
+      "send": "Einladung senden",
+      "sending": "Wird gesendet...",
+      "cancel": "Abbrechen"
+    },
+    "success": "Einladung erfolgreich gesendet",
+    "error": "Einladung konnte nicht gesendet werden"
+  },
+  "member": {
+    "joined": "Beigetreten",
+    "lastActive": "Zuletzt aktiv",
+    "pendingInvite": "Ausstehende Einladung",
+    "inviteSent": "Einladung gesendet",
+    "actions": {
+      "changeRole": "Rolle ändern",
+      "resendInvite": "Einladung erneut senden",
+      "cancelInvite": "Einladung abbrechen",
+      "remove": "Aus Team entfernen"
+    }
+  },
+  "permissions": {
+    "title": "Berechtigungen",
+    "categories": {
+      "campaigns": "Kampagnen",
+      "personas": "Personas",
+      "agents": "KI-Agenten",
+      "analytics": "Analysen",
+      "settings": "Einstellungen",
+      "team": "Teamverwaltung"
+    },
+    "levels": {
+      "none": "Kein Zugriff",
+      "view": "Nur ansehen",
+      "edit": "Bearbeiten",
+      "full": "Vollzugriff"
+    }
+  },
+  "confirmRemove": {
+    "title": "Teammitglied entfernen",
+    "message": "Sind Sie sicher, dass Sie {{name}} aus dem Team entfernen möchten? Der Zugriff auf alle Teamressourcen geht verloren.",
+    "confirm": "Entfernen",
+    "cancel": "Abbrechen"
+  },
+  "confirmCancelInvite": {
+    "title": "Einladung abbrechen",
+    "message": "Sind Sie sicher, dass Sie die Einladung an {{email}} abbrechen möchten?",
+    "confirm": "Einladung abbrechen",
+    "cancel": "Einladung beibehalten"
+  },
+  "limits": {
+    "title": "Team-Limits",
+    "membersUsed": "{{used}} von {{total}} Mitgliedern",
+    "upgradePrompt": "Upgraden, um weitere Teammitglieder hinzuzufügen"
+  },
+  "activity": {
+    "title": "Letzte Aktivitäten",
+    "empty": "Keine aktuellen Aktivitäten",
+    "actions": {
+      "invited": "eingeladen",
+      "joined": "ist dem Team beigetreten",
+      "removed": "wurde aus dem Team entfernt",
+      "roleChanged": "Rolle geändert zu"
+    }
+  }
+}

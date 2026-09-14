@@ -1,0 +1,138 @@
+{
+  "businessContext": {
+    "title": "Bienvenido a {{orgName}}",
+    "titleDefault": "Bienvenido a STRAŦUM",
+    "subtitle": "Personalicemos tu experiencia con IA con algunos datos sobre tu negocio",
+    "form": {
+      "industry": {
+        "label": "Sector",
+        "placeholder": "Selecciona tu sector",
+        "required": "*"
+      },
+      "companySize": {
+        "label": "Tamano de la empresa",
+        "placeholder": "Selecciona el tamano de la empresa",
+        "required": "*"
+      },
+      "description": {
+        "label": "Descripcion del negocio",
+        "optional": "(Opcional)",
+        "placeholder": "Cuentanos sobre tu negocio, productos o servicios..."
+      }
+    },
+    "validation": {
+      "requiredFields": "Selecciona el sector y el tamano de la empresa para continuar"
+    },
+    "buttons": {
+      "submit": "Empezar",
+      "submitting": "Guardando...",
+      "skip": "Omitir por ahora"
+    },
+    "errors": {
+      "organizationNotFound": "No se encontro la organizacion",
+      "saveFailed": "No se pudo guardar el contexto del negocio"
+    }
+  },
+  "industries": {
+    "advertisingMarketing": "Publicidad y marketing",
+    "agricultureFarming": "Agricultura y ganaderia",
+    "automotive": "Automocion",
+    "construction": "Construccion",
+    "consulting": "Consultoria",
+    "ecommerce": "Comercio electronico",
+    "education": "Educacion",
+    "energyUtilities": "Energia y suministros",
+    "entertainmentMedia": "Entretenimiento y medios",
+    "financeBanking": "Finanzas y banca",
+    "foodBeverage": "Alimentacion y bebidas",
+    "healthcare": "Salud",
+    "hospitalityTourism": "Hosteleria y turismo",
+    "insurance": "Seguros",
+    "legalServices": "Servicios legales",
+    "manufacturing": "Manufactura",
+    "nonprofit": "Sin animo de lucro",
+    "professionalServices": "Servicios profesionales",
+    "realEstate": "Inmobiliario",
+    "retail": "Retail",
+    "saasSoftware": "SaaS/Software",
+    "technology": "Tecnologia",
+    "telecommunications": "Telecomunicaciones",
+    "transportationLogistics": "Transporte y logistica",
+    "other": "Otro"
+  },
+  "companySizes": {
+    "1-10": "1-10 empleados",
+    "11-50": "11-50 empleados",
+    "51-200": "51-200 empleados",
+    "201-500": "201-500 empleados",
+    "500+": "500+ empleados"
+  },
+  "progress": {
+    "step": "Paso {{current}} de {{total}}",
+    "businessDetails": "Datos del negocio",
+    "complete": "Completado"
+  },
+  "flow": {
+    "stepOf": "Paso {{current}} de {{total}}",
+    "estimatedTime": "Tiempo estimado: {{time}}",
+    "rewardPreview": "Lo que conseguiras: {{reward}}",
+    "steps": {
+      "welcome": {
+        "title": "Bienvenido a tu equipo de marketing con IA",
+        "description": "Tienes 9 agentes de IA especializados listos para transformar tu marketing. Vamos a conseguirte un primer resultado util en menos de 5 minutos.",
+        "estimatedTime": "10 segundos",
+        "reward": "Conoce a tu equipo de IA"
+      },
+      "chooseGoal": {
+        "title": "Cual es tu principal objetivo hoy?",
+        "description": "Te ayudaremos a conseguir resultados inmediatos segun lo que necesites.",
+        "estimatedTime": "30 segundos",
+        "reward": "Recibe recomendaciones personalizadas"
+      },
+      "quickWin": {
+        "title": "Consigue tu primer resultado rapido",
+        "description": "Elige una plantilla para ver el poder del marketing impulsado por IA.",
+        "estimatedTime": "2-5 minutos",
+        "reward": "Genera valor real para marketing"
+      }
+    },
+    "features": {
+      "aiAgents": {
+        "title": "9 agentes de IA",
+        "description": "Cada uno especializado en un area distinta del marketing"
+      },
+      "builtForTeams": {
+        "title": "Creado para equipos",
+        "description": "Ideal tanto para pymes como para agencias"
+      },
+      "quickResults": {
+        "title": "Resultados rapidos",
+        "description": "Consigue insights valiosos en minutos, no en horas"
+      }
+    },
+    "buttons": {
+      "skipTour": "Omitir recorrido",
+      "skipsLeft": "{{count}} restantes",
+      "back": "Volver",
+      "continue": "Continuar",
+      "chooseTemplate": "Elegir plantilla",
+      "exploreOnOwn": "Prefiero explorar por mi cuenta"
+    }
+  },
+  "quickWin": {
+    "categories": {
+      "all": "Todo",
+      "analysis": "Analisis",
+      "content": "Contenido",
+      "strategy": "Estrategia",
+      "growth": "Crecimiento"
+    },
+    "youllGet": "Conseguiras",
+    "difficulty": {
+      "beginner": "Inicial",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado"
+    },
+    "noTemplates": "No se encontraron plantillas para esta categoria"
+  }
+}

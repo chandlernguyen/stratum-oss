@@ -1,0 +1,473 @@
+{
+  "title": "Tổng quan",
+  "subtitle": "Trung tâm thông tin marketing của bạn",
+  "clients": {
+    "backToClients": "Quay Lại Danh Sách Khách Hàng",
+    "addClient": {
+      "badge": "Tiếp Nhận Khách Hàng",
+      "title": "Thêm Khách Hàng Mới",
+      "description": "Tiếp nhận khách hàng mới với bối cảnh kinh doanh để có phân tích do AI cung cấp"
+    },
+    "editClient": {
+      "title": "Chỉnh Sửa Khách Hàng",
+      "description": "Cập nhật thông tin khách hàng và bối cảnh kinh doanh"
+    },
+    "features": {
+      "aiPowered": "Thông tin do AI cung cấp",
+      "personalizedStrategies": "Chiến lược cá nhân hóa"
+    }
+  },
+  "welcome": {
+    "morning": "Chào buổi sáng",
+    "afternoon": "Chào buổi chiều",
+    "evening": "Chào buổi tối",
+    "withName": "{{greeting}}, {{name}}"
+  },
+  "hero": {
+    "badge": "Thông tin do AI cung cấp",
+    "title": "Bản tin thông tin của bạn",
+    "subtitle": "Các hành động có tác động cao được tùy chỉnh theo bối cảnh kinh doanh của bạn. Mỗi đề xuất xây dựng dựa trên nền tảng chiến lược của bạn.",
+    "cta": "Bắt đầu phiên chiến lược mới"
+  },
+  "loading": {
+    "intelligence": "Đang tải thông tin của bạn...",
+    "data": "Đang chuẩn bị dữ liệu của bạn...",
+    "dashboard": "Đang tải bảng điều khiển của bạn...",
+    "clientDashboard": "Đang tải bảng điều khiển {{clientSlug}}...",
+    "fallback": "Đang tải bảng điều khiển..."
+  },
+  "clientDashboard": {
+    "title": "Bảng điều khiển {{clientName}}",
+    "subtitle": "Xem và quản lý tất cả hoạt động cho khách hàng này"
+  },
+  "noOrganization": {
+    "title": "Không tìm thấy tổ chức",
+    "description": "Có vẻ như bạn chưa có quyền truy cập vào bất kỳ tổ chức nào. Vui lòng liên hệ quản trị viên của bạn.",
+    "viewProfile": "Xem hồ sơ"
+  },
+  "error": {
+    "message": "Lỗi: {{message}}"
+  },
+  "stats": {
+    "totalOutputs": "Tổng kết quả",
+    "intelligenceOutputs": "Kết quả phân tích",
+    "activeCampaigns": "Chiến dịch đang hoạt động",
+    "aiInteractions": "Tương tác AI",
+    "strategySessions": "Phiên chiến lược",
+    "lastWeek": "7 ngày qua",
+    "subtitles": {
+      "strategicDocuments": "Tài liệu chiến lược",
+      "agentSessions": "Phiên trợ lý AI",
+      "inProgress": "Đang tiến hành",
+      "completed": "Đã hoàn thành"
+    }
+  },
+  "quickActions": {
+    "title": "Thao tác nhanh",
+    "newStrategy": "Chiến lược mới",
+    "createPersona": "Tạo chân dung",
+    "startCampaign": "Bắt đầu chiến dịch"
+  },
+  "recommendations": {
+    "title": "Hành động được đề xuất",
+    "available": "{{count}} có sẵn",
+    "highImpact": "Tác động cao",
+    "estimatedTime": "{{time}} phút",
+    "items": {
+      "personaAnalysis": {
+        "title": "Hoàn thành phân tích chân dung khách hàng",
+        "description": "Xây dựng chân dung người mua chi tiết để nhắm mục tiêu chiến dịch tốt hơn"
+      },
+      "marketingStrategy": {
+        "title": "Xem xét chiến lược marketing",
+        "description": "Kết hợp kênh và khung thông điệp do AI tạo ra cho thị trường của bạn"
+      },
+      "contentGeneration": {
+        "title": "Tạo nội dung cho kênh hàng đầu",
+        "description": "Tạo tài liệu chiến dịch được tối ưu hóa cho kênh hiệu suất tốt nhất của bạn"
+      }
+    }
+  },
+  "recentIntelligence": {
+    "title": "Thông Tin Gần Đây",
+    "vaultTitle": "Kho Dữ Liệu Của Bạn",
+    "viewAll": "Xem tất cả",
+    "viewAllIntelligence": "Xem tất cả",
+    "emptyState": "Chưa có kết quả. Bắt đầu với một phiên chiến lược.",
+    "emptyStateVault": "Chưa có dữ liệu. Bắt đầu xây dựng nền tảng chiến lược của bạn.",
+    "generateFirst": "Tạo Chiến Lược Đầu Tiên",
+    "total": "{{count}} tổng cộng",
+    "agentLabels": {
+      "strategy": "Chiến Lược",
+      "persona": "Chân Dung",
+      "marketingStrategy": "Marketing",
+      "content": "Nội Dung"
+    }
+  },
+  "recentActivity": {
+    "title": "Hoạt động gần đây",
+    "noActivity": "Chưa có hoạt động gần đây",
+    "viewAll": "Xem tất cả hoạt động"
+  },
+  "intelligenceBriefing": {
+    "title": "Đề Xuất Cho Bạn",
+    "subtitle": "Các hành động có tác động cao dựa trên bối cảnh kinh doanh của bạn",
+    "empty": "Hoàn thiện hồ sơ doanh nghiệp để nhận đề xuất cá nhân hóa",
+    "badge": "Do AI Cung Cấp",
+    "toggleBriefing": "Thu gọn/mở rộng bản tin",
+    "analyzing": "Chúng tôi đang phân tích bối cảnh kinh doanh để đề xuất các bước tiếp theo có tác động cao.",
+    "startStrategy": "Bắt Đầu Với Chiến Lược Kinh Doanh",
+    "highImpact": "Tác Động Cao",
+    "recommended": "Được Đề Xuất",
+    "minutes": "{{time}} phút",
+    "viewAll": "Xem tất cả {{count}} đề xuất"
+  },
+  "campaignReadiness": {
+    "ready": {
+      "title": "Sẵn sàng tạo chiến dịch đầu tiên",
+      "description": "Bạn đã xây dựng nền tảng chiến lược vững chắc. Tạo chiến dịch để tổ chức thông tin theo sáng kiến kinh doanh và theo dõi hiệu suất.",
+      "createCampaign": "Tạo chiến dịch",
+      "maybeLater": "Để sau"
+    },
+    "building": {
+      "title": "Đang xây dựng nền tảng chiến lược ({{percentage}}% Hoàn thành)",
+      "description": "Hoàn thành các kết quả quan trọng này trước khi tạo chiến dịch:",
+      "businessStrategy": "Chiến lược kinh doanh",
+      "customerPersonas": "Chân dung khách hàng",
+      "marketingStrategy": "Chiến lược marketing"
+    }
+  },
+  "agency": {
+    "loading": {
+      "agencyData": "Đang tải dữ liệu Agency...",
+      "clientPortfolio": "Đang tải danh mục khách hàng..."
+    },
+    "onboarding": {
+      "badge": "Trung Tâm Điều Khiển Agency",
+      "title": "Chào Mừng Đến Với Agency Của Bạn",
+      "description": "Quản lý nhiều khách hàng với thông tin marketing do AI cung cấp",
+      "addFirstClient": "Thêm Khách Hàng Đầu Tiên",
+      "ctaHint": "Bắt đầu quản lý khách hàng đầu tiên trong vòng 5 phút",
+      "learnPlatform": "TÌM HIỂU NỀN TẢNG",
+      "videoTitle": "Quản lý nhiều khách hàng",
+      "videoHint": "Video hướng dẫn sắp ra mắt",
+      "soon": "Sắp có",
+      "guideTitle": "Hướng dẫn thực hành tốt nhất cho Agency",
+      "guideDescription": "Tìm hiểu quy trình làm việc để mở rộng công việc khách hàng",
+      "unlimitedClients": "Không giới hạn khách hàng",
+      "fullAiAccess": "Truy cập AI đầy đủ"
+    },
+    "header": {
+      "badge": "Trung Tâm Điều Khiển Agency",
+      "title": "Bảng Điều Khiển {{name}}",
+      "subtitle": "Quản lý <strong>{{clientCount}}</strong> khách hàng trên <strong>{{campaignCount}}</strong> chiến dịch",
+      "subtitleText": "Quản lý {{clientCount}} khách hàng trên {{campaignCount}} chiến dịch"
+    },
+    "actions": {
+      "manageClients": "Quản Lý Khách Hàng",
+      "addClient": "Thêm Khách Hàng",
+      "addNewClient": "Thêm Khách Hàng Mới",
+      "viewAllClients": "Xem Tất Cả Khách Hàng",
+      "manageTeam": "Quản Lý Nhóm",
+      "addFirstClient": "Thêm Khách Hàng Đầu Tiên",
+      "viewAllClientsCount": "Xem Tất Cả {{count}} Khách Hàng"
+    },
+    "metrics": {
+      "totalClients": "Tổng Khách Hàng",
+      "activeCount": "{{count}} đang hoạt động",
+      "monthlyRevenue": "Doanh Thu Hàng Tháng",
+      "avgPerClient": "TB {{amount}}/khách hàng",
+      "activeCampaigns": "Chiến Dịch Đang Hoạt Động",
+      "ofTotal": "trong tổng số {{total}}",
+      "avgCampaignsPerClient": "TB Chiến Dịch/Khách Hàng",
+      "perClient": "Mỗi khách hàng"
+    },
+    "portfolio": {
+      "title": "Danh Mục Khách Hàng",
+      "subtitle": "Tổng quan tất cả khách hàng của Agency",
+      "clientCount": "{{count}} khách hàng",
+      "noClients": "Chưa có khách hàng",
+      "campaigns": "{{count}} chiến dịch",
+      "active": "{{count}} đang hoạt động"
+    },
+    "quickActions": {
+      "title": "Thao Tác Nhanh"
+    }
+  },
+  "clientOverview": {
+    "notFound": {
+      "title": "Không tìm thấy khách hàng",
+      "description": "Khách hàng bạn đang tìm không tồn tại hoặc bạn không có quyền truy cập.",
+      "backToClients": "Quay Lại Danh Sách Khách Hàng"
+    },
+    "quickStats": {
+      "title": "Thống Kê Nhanh"
+    },
+    "recommendations": {
+      "personaAnalysis": {
+        "title": "Hoàn Thành Phân Tích Chân Dung Khách Hàng",
+        "description": "Xây dựng chân dung người mua chi tiết cho {{clientName}} để nhắm mục tiêu chiến dịch tốt hơn"
+      },
+      "marketingStrategy": {
+        "title": "Xem Xét Đề Xuất Chiến Lược Marketing",
+        "description": "Kết hợp kênh và khung thông điệp do AI tạo riêng cho khách hàng này"
+      },
+      "contentGeneration": {
+        "title": "Tạo Nội Dung Cho Kênh Hàng Đầu",
+        "description": "Tạo tài liệu chiến dịch được tối ưu hóa cho kênh hiệu suất tốt nhất"
+      }
+    }
+  },
+  "clientOnboarding": {
+    "title": "Hãy Xây Dựng Dữ Liệu Cho Khách Hàng Này",
+    "subtitle": "Bắt đầu bằng việc hiểu doanh nghiệp và khách hàng của họ",
+    "hint": "Chiến dịch và nội dung sẽ đến sau — hiểu rõ trước đã",
+    "divider": "HOẶC KHÁM PHÁ CÁC TRỢ LÝ AI KHÁC",
+    "moreAgentsTitle": "Thêm Trợ Lý Marketing AI",
+    "moreAgentsSubtitle": "Các trợ lý chuyên biệt để thúc đẩy thành công marketing cho khách hàng này",
+    "cards": {
+      "strategy": {
+        "title": "Bắt Đầu Với Chiến Lược",
+        "subtitle": "Bước đầu tiên được đề xuất",
+        "description": "Phân tích doanh nghiệp của họ với 11 khung chiến lược và xây dựng nền tảng vững chắc",
+        "cta": "3 phút để có phân tích đầu tiên"
+      },
+      "persona": {
+        "title": "Hiểu Khách Hàng Của Họ",
+        "subtitle": "Xây dựng chân dung người mua chi tiết",
+        "description": "Hiểu họ đang marketing cho ai với thông tin khách hàng do AI cung cấp",
+        "cta": "5 phút để tạo chân dung"
+      },
+      "marketingStrategy": {
+        "title": "Chiến Lược Marketing",
+        "subtitle": "Lập kế hoạch go-to-market",
+        "description": "Tạo chiến lược marketing toàn diện với kết hợp kênh và khung thông điệp",
+        "cta": "7 phút để hoàn thành"
+      }
+    },
+    "agents": {
+      "content": {
+        "name": "Trợ Lý Nội Dung",
+        "description": "9 công cụ tạo nội dung cho chiến dịch"
+      },
+      "performance": {
+        "name": "Phân Tích Hiệu Suất",
+        "description": "Phân tích tổng hợp, ROI & gợi ý"
+      },
+      "competitive": {
+        "name": "Phân Tích Cạnh Tranh",
+        "description": "Phân tích thị trường & xu hướng cạnh tranh"
+      },
+      "campaignPlanning": {
+        "name": "Lập Kế Hoạch Chiến Dịch",
+        "description": "Triển khai chiến dịch đa kênh"
+      }
+    }
+  },
+  "quickStartModal": {
+    "title": "Khởi Động Nhanh - Tạo Chiến Lược Trong 5 Phút",
+    "description": "Trả lời 5 câu hỏi nhanh và chúng tôi sẽ tạo chiến lược, chân dung và kế hoạch marketing cho bạn",
+    "step": "Bước {{current}} / {{total}}",
+    "complete": "{{percent}}% Hoàn thành",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "start": "Bắt Đầu Khởi Động Nhanh",
+    "steps": {
+      "company": {
+        "label": "Hãy kể về công ty của bạn",
+        "placeholder": "VD: Chúng tôi là công ty SaaS B2B cung cấp công cụ quản lý dự án cho các nhóm làm việc từ xa...",
+        "hint": "Mô tả ngắn gọn về những gì bạn làm, phục vụ ai và điều gì làm bạn khác biệt"
+      },
+      "goal": {
+        "label": "Mục tiêu marketing chính của bạn là gì?",
+        "placeholder": "VD: Tạo 100 khách hàng tiềm năng đủ điều kiện mỗi tháng cho sản phẩm doanh nghiệp...",
+        "hint": "Hãy cụ thể: leads, doanh số, nhận diện thương hiệu, ra mắt sản phẩm, v.v."
+      },
+      "audience": {
+        "label": "Đối tượng mục tiêu của bạn là ai?",
+        "placeholder": "VD: Quản lý marketing tại các công ty công nghệ vừa (50-500 nhân viên) gặp khó khăn với sự phối hợp nhóm...",
+        "hint": "Mô tả vai trò, quy mô công ty, thách thức và hành vi của họ"
+      },
+      "budget": {
+        "label": "Ngân sách marketing hàng tháng của bạn là bao nhiêu?",
+        "placeholder": "Chọn phạm vi ngân sách",
+        "hint": "Điều này giúp chúng tôi đề xuất các chiến thuật và kênh phù hợp",
+        "options": {
+          "bootstrap": "$0 - $1,000 (Khởi nghiệp)",
+          "growing": "$1,000 - $5,000 (Đang phát triển)",
+          "scaling": "$5,000 - $20,000 (Mở rộng)",
+          "enterprise": "$20,000+ (Doanh nghiệp)"
+        }
+      },
+      "timeline": {
+        "label": "Khi nào bạn cần thấy kết quả?",
+        "placeholder": "Chọn khung thời gian",
+        "hint": "Chúng tôi sẽ ưu tiên các chiến thuật dựa trên khung thời gian của bạn",
+        "options": {
+          "immediate": "Ngay lập tức (Kết quả nhanh)",
+          "shortTerm": "1-3 tháng (Chiến dịch ngắn hạn)",
+          "mediumTerm": "3-6 tháng (Chiến lược trung hạn)",
+          "longTerm": "6-12 tháng (Tăng trưởng dài hạn)"
+        }
+      }
+    }
+  },
+  "sme": {
+    "onboarding": {
+      "badge": "Bắt đầu ngay",
+      "title": "Chào Mừng Đến Với STRAŦUM",
+      "subtitle": "Hiểu rõ trước, hành động tự tin",
+      "hint": "Bắt đầu bằng việc hiểu doanh nghiệp và khách hàng của bạn — chiến dịch sẽ đến sau",
+      "divider": "HOẶC KHÁM PHÁ TRỢ LÝ AI",
+      "agentsTitle": "Trợ Lý Marketing AI",
+      "agentsSubtitle": "7 trợ lý chuyên biệt để thúc đẩy thành công marketing của bạn",
+      "agentCount": "({{count}} trợ lý)",
+      "cards": {
+        "strategy": {
+          "badge": "Được Đề Xuất",
+          "title": "Bắt Đầu Với Chiến Lược",
+          "subtitle": "Nền tảng cho thành công của bạn",
+          "description": "Phân tích doanh nghiệp với 11 khung chiến lược và xây dựng nền tảng vững chắc",
+          "cta": "3 phút để có phân tích đầu tiên"
+        },
+        "persona": {
+          "title": "Hiểu Khách Hàng Của Bạn",
+          "subtitle": "Xây dựng chân dung người mua chi tiết",
+          "description": "Hiểu bạn đang marketing cho ai với thông tin khách hàng do AI cung cấp",
+          "cta": "5 phút để tạo chân dung"
+        },
+        "quickStart": {
+          "title": "Khởi Động Nhanh",
+          "subtitle": "Trả lời 5 câu hỏi, nhận chiến lược đầy đủ",
+          "description": "Tạo chiến lược, chân dung và kế hoạch marketing từ 5 câu hỏi nhanh",
+          "cta": "5 phút để hoàn thành"
+        }
+      },
+      "categories": {
+        "foundation": {
+          "name": "Nền Tảng",
+          "description": "Xây dựng nền tảng marketing của bạn"
+        },
+        "execution": {
+          "name": "Thực Thi",
+          "description": "Tạo và triển khai chiến dịch"
+        },
+        "intelligence": {
+          "name": "Phân Tích",
+          "description": "Phân tích và tối ưu hiệu suất"
+        }
+      },
+      "agents": {
+        "strategy": {
+          "name": "Chiến Lược Kinh Doanh",
+          "description": "11 khung chiến lược & phân tích"
+        },
+        "persona": {
+          "name": "Trợ Lý Chân Dung",
+          "description": "Hồ sơ khách hàng & chế độ phỏng vấn"
+        },
+        "marketingStrategy": {
+          "name": "Chiến Lược Marketing",
+          "description": "Chiến lược GTM & kênh"
+        },
+        "content": {
+          "name": "Trợ Lý Nội Dung",
+          "description": "9 công cụ tạo nội dung"
+        },
+        "campaignPlanning": {
+          "name": "Lập Kế Hoạch Chiến Dịch",
+          "description": "Triển khai đa kênh"
+        },
+        "performance": {
+          "name": "Phân Tích Hiệu Suất",
+          "description": "Phân tích tổng hợp, ROI & gợi ý"
+        },
+        "competitive": {
+          "name": "Phân Tích Cạnh Tranh",
+          "description": "Phân tích thị trường & xu hướng"
+        }
+      },
+      "trust": {
+        "noCreditCard": "Không cần thẻ tín dụng",
+        "dataSecure": "Dữ liệu của bạn được bảo mật",
+        "cancelAnytime": "Hủy bất cứ lúc nào"
+      }
+    }
+  },
+  "buildingMomentum": {
+    "greeting": "Chào mừng trở lại, {{name}}!",
+    "progress": {
+      "label": "Tiến độ của bạn:",
+      "status": "Đang Phát Triển"
+    },
+    "stats": {
+      "activeCampaigns": "Chiến dịch đang hoạt động",
+      "savedStrategies": "Chiến lược đã lưu",
+      "aiInteractions": "Tương tác AI"
+    },
+    "continueSection": {
+      "title": "Tiếp tục nơi bạn đã dừng",
+      "resumeEditing": "Tiếp tục chỉnh sửa",
+      "budget": "Ngân sách: ${{amount}}",
+      "emptyState": "Chưa có chiến dịch nào. Bắt đầu chiến dịch đầu tiên của bạn bên dưới!",
+      "createCampaign": "Tạo Chiến Dịch"
+    },
+    "campaignStatus": {
+      "active": "Đang hoạt động",
+      "paused": "Tạm dừng",
+      "draft": "Bản nháp",
+      "completed": "Hoàn thành"
+    }
+  },
+  "scalingUp": {
+    "title": "Bảng Điều Khiển",
+    "activeCampaigns": {
+      "title": "Chiến Dịch Đang Hoạt Động ({{active}}/{{total}})",
+      "metrics": {
+        "ctrUp": "↑ {{value}}% CTR",
+        "convUp": "↑ {{value}}% Conv",
+        "starting": "Đang bắt đầu..."
+      }
+    },
+    "quickActions": {
+      "title": "Hành Động Nhanh",
+      "viewAnalytics": "Xem Phân Tích",
+      "createContent": "Tạo Nội Dung",
+      "strategyReview": "Xem Xét Chiến Lược"
+    },
+    "aiInsights": {
+      "title": "Gợi Ý Từ AI",
+      "agents": {
+        "content": "Trợ Lý Nội Dung",
+        "strategy": "Trợ Lý Chiến Lược"
+      },
+      "insights": {
+        "holidayPerformance": "Chiến dịch lễ hội đang hoạt động vượt mức tiêu chuẩn",
+        "competitorGap": "Cơ hội mới được phát hiện từ lỗ hổng đối thủ cạnh tranh"
+      }
+    }
+  },
+  "agencyScaling": {
+    "title": "Bảng Điều Khiển Agency - {{count}} Khách Hàng Đang Hoạt Động",
+    "campaigns": "{{count}} chiến dịch",
+    "status": {
+      "active": "Đang hoạt động",
+      "paused": "Tạm dừng"
+    },
+    "quickFilters": {
+      "title": "Bộ Lọc Nhanh",
+      "all": "Tất cả",
+      "active": "Đang hoạt động",
+      "needsAttention": "Cần Chú Ý",
+      "reportsDue": "Báo Cáo Cần Nộp"
+    },
+    "priorities": {
+      "title": "Ưu Tiên Tuần Này",
+      "items": {
+        "strategyReview": "{{client}}: Họp xem xét chiến lược Thứ Năm",
+        "contentApproval": "{{client}}: Cần phê duyệt nội dung",
+        "monthlyReport": "{{client}}: Báo cáo tháng cần nộp"
+      }
+    }
+  }
+}

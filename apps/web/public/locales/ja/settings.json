@@ -1,0 +1,187 @@
+{
+  "title": "設定",
+  "subtitle": "アカウントと各種設定を管理します",
+  "tabs": {
+    "profile": "プロフィール",
+    "preferences": "基本設定",
+    "notifications": "通知",
+    "security": "セキュリティ",
+    "billing": "請求"
+  },
+  "profile": {
+    "title": "プロフィール情報",
+    "subtitle": "個人情報とアバターを更新します",
+    "fields": {
+      "avatar": "プロフィール写真",
+      "fullName": "氏名",
+      "email": "メールアドレス",
+      "phone": "電話番号",
+      "timezone": "タイムゾーン",
+      "language": "言語"
+    },
+    "actions": {
+      "save": "変更を保存",
+      "cancel": "キャンセル",
+      "uploadPhoto": "写真をアップロード",
+      "removePhoto": "写真を削除"
+    }
+  },
+  "preferences": {
+    "title": "基本設定",
+    "subtitle": "利用体験をカスタマイズします",
+    "language": {
+      "title": "言語",
+      "description": "インターフェースで使用する希望言語を選択してください"
+    },
+    "theme": {
+      "title": "テーマ",
+      "description": "ライト、ダーク、またはシステムテーマを選択します",
+      "options": {
+        "light": "ライト",
+        "dark": "ダーク",
+        "system": "システム"
+      }
+    },
+    "dateFormat": {
+      "title": "日付形式",
+      "description": "日付の表示方法を選択します"
+    },
+    "currency": {
+      "title": "デフォルト通貨",
+      "description": "予算とレポートで使用するデフォルト通貨を設定します"
+    }
+  },
+  "notifications": {
+    "title": "通知設定",
+    "subtitle": "通知の受け取り方法を管理します",
+    "email": {
+      "title": "メール通知",
+      "weeklyDigest": "週次ダイジェスト",
+      "weeklyDigestDesc": "マーケティング成果の週次サマリーを受け取る",
+      "campaignAlerts": "キャンペーンアラート",
+      "campaignAlertsDesc": "対応が必要なキャンペーンがあると通知を受け取る",
+      "teamUpdates": "チーム更新",
+      "teamUpdatesDesc": "チームメンバーのアクティビティに関する通知"
+    },
+    "push": {
+      "title": "プッシュ通知",
+      "browser": "ブラウザ通知",
+      "browserDesc": "ブラウザ内で通知を受け取る"
+    }
+  },
+  "security": {
+    "title": "セキュリティ",
+    "subtitle": "アカウントのセキュリティ設定を管理します",
+    "password": {
+      "title": "パスワードを変更",
+      "description": "アカウントを安全に保つため、定期的にパスワードを更新してください",
+      "currentPassword": "現在のパスワード",
+      "newPassword": "新しいパスワード",
+      "confirmPassword": "新しいパスワードを確認",
+      "updateButton": "パスワードを更新"
+    },
+    "twoFactor": {
+      "title": "二要素認証",
+      "description": "アカウントに追加のセキュリティ層を追加します",
+      "enable": "2FAを有効化",
+      "disable": "2FAを無効化",
+      "enabled": "有効",
+      "disabled": "無効"
+    },
+    "sessions": {
+      "title": "アクティブセッション",
+      "description": "複数デバイスのアクティブセッションを管理します",
+      "currentSession": "現在のセッション",
+      "signOutAll": "他のすべてのセッションからサインアウト"
+    }
+  },
+  "billing": {
+    "title": "請求とサブスクリプション",
+    "subtitle": "サブスクリプションと支払い方法を管理します",
+    "currentPlan": {
+      "title": "現在のプラン",
+      "freeTier": "無料プラン",
+      "pro": "Pro",
+      "enterprise": "Enterprise"
+    },
+    "usage": {
+      "title": "今月の使用量",
+      "aiCredits": "使用したAIクレジット",
+      "storage": "使用中のストレージ"
+    },
+    "paymentMethod": {
+      "title": "支払い方法",
+      "addNew": "支払い方法を追加",
+      "noMethod": "登録済みの支払い方法はありません"
+    }
+  },
+  "whiteLabel": {
+    "pageTitle": "ホワイトラベル設定",
+    "pageSubtitle": "代理店のブランドとドメインでプラットフォームをカスタマイズします",
+    "agencyOnly": {
+      "title": "代理店向け機能のみ",
+      "description": "ホワイトラベルのカスタマイズは代理店アカウントでのみ利用できます。",
+      "learnMore": "代理店プランについて詳しく見る"
+    },
+    "status": {
+      "title": "ホワイトラベルの状態",
+      "brandKit": {
+        "label": "ブランドキット",
+        "active": "有効",
+        "notConfigured": "未設定"
+      },
+      "customDomain": {
+        "label": "独自ドメイン",
+        "usingDefault": "デフォルトを使用中"
+      },
+      "sslCertificate": {
+        "label": "SSL証明書",
+        "autoProvisioned": "自動発行済み"
+      }
+    },
+    "domain": {
+      "title": "独自ドメイン設定",
+      "description": "自社ドメインでプラットフォームにアクセスできます",
+      "inputLabel": "独自ドメイン",
+      "inputPlaceholder": "marketing.youragency.com",
+      "configureButton": "設定する",
+      "dnsRequired": "DNS設定が必要です",
+      "copyButton": "コピー",
+      "copiedButton": "コピー済み",
+      "domainActive": {
+        "title": "独自ドメインが有効です",
+        "description": "プラットフォームには次のURLでアクセスできます:",
+        "visitSite": "サイトを開く",
+        "changeDomain": "ドメインを変更"
+      }
+    },
+    "benefits": {
+      "title": "独自ドメインのメリット",
+      "professional": {
+        "title": "プロフェッショナルな印象",
+        "description": "自社ドメインでブランド力を高めます"
+      },
+      "clientTrust": {
+        "title": "クライアントの信頼",
+        "description": "ブランド化されたURLで安心感を高めます"
+      },
+      "seo": {
+        "title": "SEOのメリット",
+        "description": "検索エンジンでの可視性を改善します"
+      },
+      "ssl": {
+        "title": "SSL込み",
+        "description": "HTTPS暗号化を自動で提供します"
+      }
+    }
+  },
+  "expertMode": {
+    "expert": "エキスパートモード",
+    "guided": "ガイドモード",
+    "expertAriaLabel": "エキスパートモードに関する情報",
+    "guidedAriaLabel": "ガイドモードに関する情報",
+    "expertDescription": "エキスパートモードでは、複数クライアントを管理する代理店向けに最適化された高密度の情報表示ですべてのツールとオプションをすぐに表示します。",
+    "guidedDescription": "ガイドモードでは、段階的に情報を開示するシンプルなインターフェースを提供し、素早く使い始めるのに最適です。",
+    "toggleAriaLabel": "エキスパートモードを切り替える"
+  }
+}

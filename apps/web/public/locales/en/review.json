@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "badge": "Content Review Portal",
+    "defaultClientName": "Your Content",
+    "subtitle": "Review and approve content crafted by your agency team"
+  },
+  "loading": {
+    "message": "Loading content for review..."
+  },
+  "error": {
+    "title": "Error Loading Content",
+    "defaultMessage": "Unable to load content. Please try again."
+  },
+  "tabs": {
+    "pending": "Pending",
+    "approved": "Approved",
+    "changes": "Changes"
+  },
+  "stats": {
+    "pending": "Pending",
+    "approved": "Approved",
+    "changes": "Changes"
+  },
+  "status": {
+    "draft": "Draft",
+    "awaitingReview": "Awaiting Review",
+    "approved": "Approved",
+    "changesRequested": "Changes Requested",
+    "rejected": "Rejected"
+  },
+  "outputCard": {
+    "untitledOutput": "Untitled Output",
+    "defaultAgentType": "Content",
+    "viewDetails": "View Details",
+    "approve": "Approve",
+    "requestChanges": "Request Changes",
+    "approvedByClient": "Approved by client",
+    "changesRequestedByClient": "Changes requested by client"
+  },
+  "emptyState": {
+    "pending": {
+      "title": "All Caught Up",
+      "description": "There's no content waiting for your review. Your agency will notify you when new content is ready.",
+      "hint": "New submissions will appear here"
+    },
+    "approved": {
+      "title": "No Approved Content Yet",
+      "description": "Content you approve will be collected here for easy reference and future use.",
+      "hint": "Your approved content library"
+    },
+    "changes": {
+      "title": "No Change Requests",
+      "description": "When you request changes on content, those items will appear here for tracking.",
+      "hint": "Feedback in progress"
+    }
+  }
+}

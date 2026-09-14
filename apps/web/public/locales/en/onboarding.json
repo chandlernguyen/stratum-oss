@@ -1,0 +1,138 @@
+{
+  "businessContext": {
+    "title": "Welcome to {{orgName}}!",
+    "titleDefault": "Welcome to STRAŦUM!",
+    "subtitle": "Let's personalize your AI experience with a few details about your business",
+    "form": {
+      "industry": {
+        "label": "Industry",
+        "placeholder": "Select your industry",
+        "required": "*"
+      },
+      "companySize": {
+        "label": "Company Size",
+        "placeholder": "Select company size",
+        "required": "*"
+      },
+      "description": {
+        "label": "Business Description",
+        "optional": "(Optional)",
+        "placeholder": "Tell us about your business, products, or services..."
+      }
+    },
+    "validation": {
+      "requiredFields": "Please select both your industry and company size to continue"
+    },
+    "buttons": {
+      "submit": "Get Started",
+      "submitting": "Saving...",
+      "skip": "Skip for Now"
+    },
+    "errors": {
+      "organizationNotFound": "Organization not found",
+      "saveFailed": "Failed to save business context"
+    }
+  },
+  "industries": {
+    "advertisingMarketing": "Advertising & Marketing",
+    "agricultureFarming": "Agriculture & Farming",
+    "automotive": "Automotive",
+    "construction": "Construction",
+    "consulting": "Consulting",
+    "ecommerce": "E-commerce",
+    "education": "Education",
+    "energyUtilities": "Energy & Utilities",
+    "entertainmentMedia": "Entertainment & Media",
+    "financeBanking": "Finance & Banking",
+    "foodBeverage": "Food & Beverage",
+    "healthcare": "Healthcare",
+    "hospitalityTourism": "Hospitality & Tourism",
+    "insurance": "Insurance",
+    "legalServices": "Legal Services",
+    "manufacturing": "Manufacturing",
+    "nonprofit": "Non-profit",
+    "professionalServices": "Professional Services",
+    "realEstate": "Real Estate",
+    "retail": "Retail",
+    "saasSoftware": "SaaS/Software",
+    "technology": "Technology",
+    "telecommunications": "Telecommunications",
+    "transportationLogistics": "Transportation & Logistics",
+    "other": "Other"
+  },
+  "companySizes": {
+    "1-10": "1-10 employees",
+    "11-50": "11-50 employees",
+    "51-200": "51-200 employees",
+    "201-500": "201-500 employees",
+    "500+": "500+ employees"
+  },
+  "progress": {
+    "step": "Step {{current}} of {{total}}",
+    "businessDetails": "Business Details",
+    "complete": "Complete"
+  },
+  "flow": {
+    "stepOf": "Step {{current}} of {{total}}",
+    "estimatedTime": "Estimated time: {{time}}",
+    "rewardPreview": "What you'll achieve: {{reward}}",
+    "steps": {
+      "welcome": {
+        "title": "Welcome to Your AI Marketing Team!",
+        "description": "You have 9 specialized AI agents ready to transform your marketing. Let's get you a quick win in under 5 minutes.",
+        "estimatedTime": "10 seconds",
+        "reward": "Meet your AI team"
+      },
+      "chooseGoal": {
+        "title": "What's Your Primary Goal Today?",
+        "description": "We'll help you achieve immediate results based on your needs.",
+        "estimatedTime": "30 seconds",
+        "reward": "Get personalized recommendations"
+      },
+      "quickWin": {
+        "title": "Get Your First Quick Win",
+        "description": "Choose a template to see the power of AI-driven marketing.",
+        "estimatedTime": "2-5 minutes",
+        "reward": "Generate real marketing value"
+      }
+    },
+    "features": {
+      "aiAgents": {
+        "title": "9 AI Agents",
+        "description": "Each specialized in different aspects of marketing"
+      },
+      "builtForTeams": {
+        "title": "Built for Teams",
+        "description": "Perfect for SMEs and agencies alike"
+      },
+      "quickResults": {
+        "title": "Quick Results",
+        "description": "Get valuable insights in minutes, not hours"
+      }
+    },
+    "buttons": {
+      "skipTour": "Skip Tour",
+      "skipsLeft": "{{count}} left",
+      "back": "Back",
+      "continue": "Continue",
+      "chooseTemplate": "Choose Template",
+      "exploreOnOwn": "I'll explore on my own"
+    }
+  },
+  "quickWin": {
+    "categories": {
+      "all": "All",
+      "analysis": "Analysis",
+      "content": "Content",
+      "strategy": "Strategy",
+      "growth": "Growth"
+    },
+    "youllGet": "You'll get",
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "noTemplates": "No templates found for this category"
+  }
+}

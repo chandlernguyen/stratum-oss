@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "联系我们",
+    "subtitle": "直接联系创始人。你的反馈会塑造 STRAŦUM。"
+  },
+  "getInTouch": {
+    "title": "保持联系",
+    "description": "由独立创始人打造，专注于提供企业级营销智能，同时避免企业级复杂度。注册现已开放，今天就可免费开始。",
+    "wantAccess": "准备开始了吗？",
+    "requestInvitation": "免费注册",
+    "alphaUsers": "Alpha 用户：",
+    "alphaUsersNote": "登录后请使用应用内反馈。",
+    "everyoneElse": "其他用户：",
+    "everyoneElseNote": "一般咨询请发送电子邮件。"
+  },
+  "contactMethods": {
+    "title": "联系方式",
+    "inAppFeedback": {
+      "title": "应用内反馈",
+      "badge": "面向 Alpha 用户",
+      "description": "如果你已登录 STRAŦUM：",
+      "note": "最适合提交 Bug 报告和功能请求。你的账号上下文能帮助我们更快处理。",
+      "cta": "提交反馈"
+    },
+    "email": {
+      "title": "电子邮件",
+      "badge": "面向所有人",
+      "description": "适用于一般问题、功能建议、合作洽谈或其他咨询。",
+      "wantAccess": "想获取访问资格？",
+      "requestInvitation": "申请邀请"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "与创始人建立联系，并关注 STRAŦUM 的发展历程",
+      "cta": "在 LinkedIn 上联系"
+    }
+  },
+  "responseTime": {
+    "title": "响应时间与可联系时段",
+    "commitment": "独立创始人承诺：",
+    "responseNote": "每条消息都会由本人阅读，并在 1 到 2 个工作日内回复（开发冲刺期间可能延长至 3 到 4 天）。",
+    "timezone": "位于美国太平洋时区。工作时间为周一至周五 PST 上午 9 点到下午 5 点。"
+  },
+  "partnership": {
+    "title": "合作与媒体",
+    "description": "如需洽谈战略合作或媒体采访，请发送邮件至",
+    "subjectNote": "并在邮件主题中注明“Partnership”或“Media”。"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "title": "个人资料",
+  "tabs": {
+    "profile": "个人资料",
+    "intelligence": "业务智能",
+    "intelligenceShort": "智能",
+    "permissions": "权限",
+    "settings": "设置"
+  },
+  "orgType": {
+    "agency": "代理机构",
+    "sme": "中小企业"
+  },
+  "roles": {
+    "sme_owner": "中小企业所有者",
+    "agency_owner": "代理机构所有者",
+    "agency_admin": "代理机构管理员",
+    "agency_account_manager": "客户经理",
+    "agency_strategist": "高级策略师",
+    "agency_creative": "创意团队",
+    "agency_analyst": "分析师",
+    "agency_campaign_manager": "活动经理",
+    "agency_client_viewer": "客户查看者",
+    "agency_freelancer": "自由职业者",
+    "agency_viewer": "查看者",
+    "account_manager": "客户经理",
+    "client_stakeholder": "客户利益相关者",
+    "client_collaborator": "客户协作者",
+    "default": "用户"
+  },
+  "deletion": {
+    "title": "账号已安排删除",
+    "deletionDate": "你的账号将于 {{date}} 被永久删除",
+    "reason": "原因：{{reason}}",
+    "restoreTitle": "如需恢复你的账号：",
+    "restoreDescription": "请在删除日期前通过 {{email}} 联系支持团队。在请求中附上你的电子邮件地址和账号 ID。"
+  },
+  "profileInfo": {
+    "title": "资料信息",
+    "subtitle": "管理你的个人和组织详情"
+  },
+  "personal": {
+    "title": "个人详情",
+    "displayName": "显示名称",
+    "displayNamePlaceholder": "输入你的全名",
+    "email": "电子邮件地址",
+    "phone": "电话号码",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "bio": "简介",
+    "bioPlaceholder": "介绍一下你自己..."
+  },
+  "organization": {
+    "title": "组织信息",
+    "name": "组织名称",
+    "nameNote": "（账号名称）",
+    "type": "组织类型",
+    "typeAgency": "营销代理机构",
+    "typeSME": "中小企业",
+    "memberSince": "加入时间",
+    "activeCampaigns": "活跃营销活动",
+    "campaignCount_one": "{{count}} 个营销活动",
+    "campaignCount_other": "{{count}} 个营销活动",
+    "website": "公司网站"
+  },
+  "permissions": {
+    "title": "访问权限",
+    "subtitle": "你的基于角色的权限与能力",
+    "fullAdmin": {
+      "title": "完整管理权限",
+      "enabled": "已启用",
+      "permissions": [
+        "管理所有客户账号",
+        "创建和删除营销活动",
+        "访问所有智能体功能",
+        "配置白标设置",
+        "查看所有分析和报告",
+        "管理团队成员",
+        "导出和导入数据"
+      ]
+    },
+    "businessOwner": {
+      "title": "业务所有者权限",
+      "enabled": "已启用",
+      "permissions": [
+        "完整访问所有 AI 智能体",
+        "创建和管理营销活动",
+        "查看分析和洞察",
+        "导出报告和数据",
+        "管理团队协作",
+        "配置业务设置"
+      ]
+    },
+    "accountManager": {
+      "title": "客户经理权限",
+      "enabled": "已启用",
+      "permissions": [
+        "管理分配给自己的客户账号",
+        "为客户创建营销活动",
+        "访问客户专属分析",
+        "使用所有 AI 智能体",
+        "导出客户报告",
+        "与团队成员协作"
+      ]
+    },
+    "guest": {
+      "title": "访客权限",
+      "limited": "有限",
+      "permissions": [
+        "查看营销活动结果",
+        "访问已批准报告",
+        "查看分析仪表盘",
+        "下载导出数据"
+      ]
+    },
+    "security": {
+      "title": "安全措施",
+      "description": "我们采用安全最佳实践，但作为 Alpha 服务，无法保证完全防护。详情请查看隐私政策。",
+      "measures": [
+        "数据库行级安全（RLS）",
+        "多租户数据隔离",
+        "安全身份验证（Supabase Auth）"
+      ]
+    }
+  },
+  "settings": {
+    "title": "账号设置",
+    "subtitle": "管理你的账号偏好与安全",
+    "security": {
+      "title": "安全",
+      "changePassword": "修改密码",
+      "manageMFA": "管理双重身份验证",
+      "viewLoginActivity": "查看登录活动",
+      "comingSoon": "即将推出"
+    },
+    "dataPrivacy": {
+      "title": "数据与隐私",
+      "downloadData": "下载我的数据",
+      "downloading": "下载中...",
+      "deleteAccount": "删除账号"
+    }
+  },
+  "validation": {
+    "fieldEmpty": "字段不能为空"
+  },
+  "toast": {
+    "notAuthenticated": "未通过身份验证",
+    "notAuthenticatedDesc": "请先登录后再下载你的数据。",
+    "exportSuccess": "数据导出成功",
+    "exportSuccessDesc": "你的数据已下载为 JSON 文件。",
+    "exportError": "导出数据失败",
+    "exportErrorDesc": "请稍后重试。"
+  },
+  "insights": {
+    "status": {
+      "approved": "已批准",
+      "rejected": "已拒绝",
+      "pendingReview": "待审核"
+    },
+    "time": {
+      "justNow": "刚刚",
+      "minutesAgo": "{{count}} 分钟前",
+      "hoursAgo": "{{count}} 小时前",
+      "daysAgo": "{{count}} 天前"
+    }
+  }
+}

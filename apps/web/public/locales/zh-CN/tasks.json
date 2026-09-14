@@ -1,0 +1,57 @@
+{
+  "pageTitle": "任务",
+  "pageSubtitle": "管理并跟踪团队工作",
+  "newTask": "新建任务",
+  "myTasks": "我的任务",
+  "allTasks": "全部任务",
+  "noTasks": "没有任务",
+  "status": {
+    "todo": "待办",
+    "in_progress": "进行中",
+    "review": "审核中",
+    "done": "已完成",
+    "cancelled": "已取消"
+  },
+  "taskType": {
+    "content_creation": "内容创作",
+    "review": "审核",
+    "analysis": "分析",
+    "campaign_setup": "活动设置",
+    "strategy": "战略",
+    "other": "其他"
+  },
+  "priority": {
+    "low": "低",
+    "normal": "普通",
+    "high": "高",
+    "urgent": "紧急"
+  },
+  "dueDate": {
+    "overdue": "已逾期",
+    "today": "今天",
+    "tomorrow": "明天"
+  },
+  "assignee": {
+    "unassigned": "未分配"
+  },
+  "actions": {
+    "moveTo": "移动到 {{status}}",
+    "cancel": "取消"
+  },
+  "createDialog": {
+    "title": "创建任务",
+    "description": "为团队成员分配一个新任务。",
+    "titleLabel": "标题",
+    "titlePlaceholder": "需要完成什么？",
+    "descriptionLabel": "描述（可选）",
+    "descriptionPlaceholder": "补充更多细节...",
+    "typeLabel": "类型",
+    "priorityLabel": "优先级",
+    "assigneeLabel": "分配给",
+    "assigneePlaceholder": "选择团队成员",
+    "dueDateLabel": "截止日期",
+    "cancelButton": "取消",
+    "createButton": "创建任务",
+    "creatingButton": "创建中..."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "badge": "コンテンツレビューポータル",
+    "defaultClientName": "あなたのコンテンツ",
+    "subtitle": "代理店チームが作成したコンテンツを確認して承認します"
+  },
+  "loading": {
+    "message": "レビュー用コンテンツを読み込み中..."
+  },
+  "error": {
+    "title": "コンテンツの読み込みエラー",
+    "defaultMessage": "コンテンツを読み込めませんでした。もう一度お試しください。"
+  },
+  "tabs": {
+    "pending": "保留中",
+    "approved": "承認済み",
+    "changes": "修正依頼"
+  },
+  "stats": {
+    "pending": "保留中",
+    "approved": "承認済み",
+    "changes": "修正依頼"
+  },
+  "status": {
+    "draft": "下書き",
+    "awaitingReview": "レビュー待ち",
+    "approved": "承認済み",
+    "changesRequested": "修正依頼済み",
+    "rejected": "却下"
+  },
+  "outputCard": {
+    "untitledOutput": "無題のアウトプット",
+    "defaultAgentType": "コンテンツ",
+    "viewDetails": "詳細を見る",
+    "approve": "承認",
+    "requestChanges": "修正を依頼",
+    "approvedByClient": "クライアントが承認済み",
+    "changesRequestedByClient": "クライアントが修正を依頼"
+  },
+  "emptyState": {
+    "pending": {
+      "title": "すべて確認済みです",
+      "description": "現在レビュー待ちのコンテンツはありません。新しいコンテンツが準備できたら代理店から通知されます。",
+      "hint": "新しい提出物はここに表示されます"
+    },
+    "approved": {
+      "title": "まだ承認済みコンテンツはありません",
+      "description": "承認したコンテンツは、参照や再利用のためにここへ蓄積されます。",
+      "hint": "承認済みコンテンツのライブラリ"
+    },
+    "changes": {
+      "title": "修正依頼はありません",
+      "description": "コンテンツに修正を依頼すると、その項目が進捗確認用にここへ表示されます。",
+      "hint": "フィードバック進行中"
+    }
+  }
+}

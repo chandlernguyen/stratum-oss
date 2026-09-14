@@ -1,0 +1,55 @@
+{
+  "title": "Echtzeit-Kennzahlen-Dashboard",
+  "subtitle": "Live-Kampagnen-Performance-Überwachung und Einblicke",
+  "loading": "Kennzahlen werden geladen...",
+  "live": "LIVE",
+  "widget": {
+    "show": "ROI-Widget anzeigen",
+    "hide": "ROI-Widget ausblenden"
+  },
+  "cards": {
+    "totalROI": "Gesamt-ROI",
+    "conversions": "Conversions",
+    "conversionRate": "Conversion-Rate",
+    "clickThroughRate": "Klickrate",
+    "impressions": "Impressionen",
+    "budgetRemaining": "Verbleibendes Budget"
+  },
+  "charts": {
+    "roiTrend": {
+      "title": "ROI-Trend",
+      "description": "Echtzeit-ROI-Performance im Zeitverlauf"
+    },
+    "conversionsSpend": {
+      "title": "Conversions & Ausgaben",
+      "description": "Korrelation zwischen Ausgaben und Conversions"
+    },
+    "legends": {
+      "conversions": "Conversions",
+      "spend": "Ausgaben (€)"
+    }
+  },
+  "agents": {
+    "title": "Aktive KI-Agenten",
+    "description": "Optimieren derzeit Ihre Kampagne",
+    "status": "Aktiv",
+    "tip": "Ihre Agenten überwachen und optimieren die Kampagnen-Performance kontinuierlich in Echtzeit."
+  },
+  "timePeriods": {
+    "minutes": "{{value}} Min.",
+    "hours": "{{value}} Std.",
+    "days": "{{value}} T.",
+    "weeks": "{{value}} Wo."
+  },
+  "statistics": {
+    "thousand": "{{value}}K",
+    "million": "{{value}}M",
+    "percent": "{{value}}%",
+    "currency": "{{value}} €"
+  },
+  "trends": {
+    "up": "Steigend",
+    "down": "Fallend",
+    "stable": "Stabil"
+  }
+}

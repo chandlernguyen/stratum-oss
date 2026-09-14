@@ -1,0 +1,30 @@
+{
+  "generic": "出現問題了。請重試。",
+  "network": "網路錯誤。請檢查你嘅連接。",
+  "server": "伺服器錯誤。請稍後再試。",
+  "notFound": "搵唔到資源。",
+  "unauthorized": "你無權執行呢個操作。",
+  "forbidden": "存取被拒絕。",
+  "timeout": "請求逾時。請重試。",
+  "sessionExpired": "你嘅會話已過期。請重新登入。",
+  "validation": {
+    "required": "必須填寫{field}。",
+    "invalid": "{field}無效。",
+    "tooShort": "{field}至少需要 {min} 個字元。",
+    "tooLong": "{field}最多只能有 {max} 個字元。",
+    "invalidEmail": "請輸入有效嘅電郵地址。",
+    "invalidPassword": "密碼唔符合要求。"
+  },
+  "auth": {
+    "invalidCredentials": "電郵或密碼無效。",
+    "emailInUse": "呢個電郵地址已被註冊。",
+    "accountLocked": "帳戶已被暫時鎖定。請稍後再試。",
+    "tooManyAttempts": "嘗試次數太多。請稍後再試。",
+    "invalidInvitationCode": "邀請碼無效。"
+  },
+  "agent": {
+    "unavailable": "智能助手暫時無法使用。請重試。",
+    "toolExecutionFailed": "執行 {tool} 失敗。請重試。",
+    "responseGenerationFailed": "生成回覆失敗。請重試。"
+  }
+}

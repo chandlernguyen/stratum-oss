@@ -1,0 +1,336 @@
+{
+  "title": "資料庫",
+  "subtitle": "你嘅營銷智能成果",
+  "savedOutputs": {
+    "title": "已儲存嘅成果",
+    "description": "瀏覽同管理你已儲存嘅智能助手成果。可以喺唔同智能助手之間跨工作流使用。"
+  },
+  "header": {
+    "badge": "智能資料庫",
+    "title": "我嘅成果",
+    "subtitle": "所有 AI 生成嘅洞察同內容集中喺一處",
+    "groupShort": "分組",
+    "select": "選擇",
+    "cancel": "取消",
+    "exportAll": "全部匯出",
+    "exportFiltered": "匯出篩選結果",
+    "exportShort": "匯出"
+  },
+  "bulk": {
+    "itemsSelected": "已選擇 {{count}} 個項目",
+    "itemsSelected_other": "已選擇 {{count}} 個項目",
+    "exportSelected": "匯出所選項",
+    "archiveSelected": "封存所選項"
+  },
+  "approved": {
+    "title": "已審批嘅成果",
+    "subtitle": "所有已審批內容嘅權威來源，隨時可用或發佈。",
+    "subtitleWithClient": "{{clientName}} 嘅已審批內容，可直接使用或發佈。",
+    "searchPlaceholder": "搜尋已審批嘅成果...",
+    "filterByType": "按類型篩選",
+    "allTypes": "所有類型",
+    "round": "第 {{round}} 輪",
+    "stats": {
+      "totalApproved": "審批總數",
+      "thisMonth": "本月",
+      "contentTypes": "內容類型",
+      "avgRounds": "平均輪次"
+    },
+    "empty": {
+      "title": "暫時冇已審批嘅成果",
+      "description": "成果經過審批工作流嘅審核同批准後會顯示喺呢度。",
+      "noMatch": "冇符合篩選條件嘅成果。請嘗試調整搜尋詞或篩選條件。"
+    },
+    "agentTypes": {
+      "businessStrategy": "商業策略",
+      "customerPersona": "客戶畫像",
+      "marketingStrategy": "營銷策略",
+      "content": "內容",
+      "campaign": "營銷活動",
+      "performance": "績效",
+      "competitiveIntel": "競爭情報",
+      "clientSuccess": "客戶成功"
+    }
+  },
+  "dialog": {
+    "description": "查看同操作你已儲存嘅 AI 生成內容",
+    "tabs": {
+      "content": "內容",
+      "comments": "評論",
+      "history": "歷史"
+    },
+    "fields": {
+      "title": "標題"
+    },
+    "generatedBy": "由 {{agent}} 智能助手生成",
+    "actions": {
+      "edit": "編輯",
+      "cancel": "取消",
+      "save": "儲存變更",
+      "close": "關閉",
+      "copy": "複製",
+      "copied": "已複製！",
+      "export": "匯出",
+      "exportPDF": "匯出為 PDF",
+      "exportText": "匯出為文字",
+      "exportJSON": "匯出為 JSON"
+    },
+    "toast": {
+      "pdfStarted": "PDF 匯出已開始，請查看你嘅下載內容",
+      "pdfError": "PDF 匯出失敗",
+      "textSuccess": "文字檔案匯出成功",
+      "textError": "文字檔案匯出失敗",
+      "jsonSuccess": "JSON 匯出成功",
+      "jsonError": "JSON 匯出失敗",
+      "saveSuccess": "成果更新成功",
+      "saveError": "儲存變更失敗"
+    }
+  },
+  "filters": {
+    "byCategory": "按類別篩選",
+    "all": "所有成果",
+    "strategic": "策略",
+    "customer": "客戶",
+    "content": "內容",
+    "performance": "績效",
+    "archived": "已封存"
+  },
+  "list": {
+    "loading": "正在載入成果...",
+    "empty": "暫時冇成果",
+    "emptyTitle": "暫時冇已儲存嘅成果",
+    "emptyTitleFiltered": "暫時冇{{filterType}}類成果",
+    "emptyDescription": "開始同智能助手對話嚟生成同儲存成果。AI 生成嘅洞察會顯示喺呢度。",
+    "emptyDescriptionFiltered": "使用相關智能助手生成{{filterType}}類成果。",
+    "emptyHint": "試吓策略或內容智能助手，快速上手",
+    "noResults": "搵唔到與搜尋匹配嘅成果",
+    "error": "載入成果失敗",
+    "errorTitle": "成果載入出錯",
+    "errorDescription": "無法載入你嘅成果，請重試。",
+    "retry": "重試",
+    "similarItems": "{{count}} 個相似項目",
+    "similarStrategies": "{{count}} 個相似策略"
+  },
+  "actions": {
+    "export": "匯出",
+    "exportAll": "全部匯出",
+    "archive": "封存",
+    "restore": "還原",
+    "delete": "刪除",
+    "edit": "編輯",
+    "view": "查看",
+    "duplicate": "複製",
+    "bulkSelect": "批量選擇",
+    "selectAll": "全選",
+    "deselectAll": "取消全選"
+  },
+  "grouping": {
+    "enable": "按相似分組",
+    "disable": "取消分組",
+    "similarItems": "{{count}} 個相似項目",
+    "showAll": "查看全部"
+  },
+  "sort": {
+    "label": "排序方式",
+    "date": "日期",
+    "title": "標題",
+    "newest": "最新優先",
+    "oldest": "最早優先",
+    "aToZ": "標題 (A-Z)",
+    "zToA": "標題 (Z-A)"
+  },
+  "search": {
+    "placeholder": "搜尋成果..."
+  },
+  "card": {
+    "generatedBy": "由 {{agent}} 生成",
+    "createdOn": "建立於 {{date}}",
+    "viewDetails": "查看詳情",
+    "markActive": "標記為活躍",
+    "setActive": "設為活躍",
+    "active": "活躍",
+    "archived": "已封存",
+    "copy": "複製",
+    "export": "匯出",
+    "archive": "封存",
+    "delete": "刪除",
+    "restore": "還原"
+  },
+  "time": {
+    "justNow": "剛剛",
+    "hoursAgo": "{{count}} 小時前",
+    "yesterday": "噚日"
+  },
+  "activity": {
+    "title": "活動歷史",
+    "loading": "正在載入活動記錄...",
+    "error": "載入活動歷史失敗",
+    "empty": "暫時冇活動記錄",
+    "unknownActor": "未知",
+    "labels": {
+      "created": "建立咗呢個項目",
+      "updated": "更新咗呢個項目",
+      "archived": "封存咗呢個項目",
+      "restored": "還原咗呢個項目",
+      "deleted": "刪除咗呢個項目",
+      "approval_requested": "請求咗審批",
+      "approved": "審批咗呢個項目",
+      "rejected": "駁回咗呢個項目",
+      "changes_requested": "請求咗修改",
+      "published": "發佈咗呢個項目",
+      "unpublished": "取消發佈咗呢個項目",
+      "viewed": "查看咗呢個項目",
+      "exported": "匯出咗呢個項目",
+      "shared": "分享咗呢個項目"
+    }
+  },
+  "editors": {
+    "common": {
+      "advancedSettings": "進階設定",
+      "completeJson": "完整 JSON（進階）"
+    },
+    "analytics": {
+      "reportInfo": "分析報告資訊",
+      "reportTitle": "報告標題",
+      "reportTitlePlaceholder": "輸入報告標題",
+      "analyticsSummary": "分析摘要",
+      "analyticsSummaryPlaceholder": "分析洞察嘅簡要概述",
+      "reportPeriod": "報告週期",
+      "reportPeriodPlaceholder": "2025年第四季度、最近30日等",
+      "targetAudience": "目標受眾",
+      "targetAudiencePlaceholder": "中小企業、代理機構等",
+      "tabs": {
+        "keyMetrics": "關鍵指標",
+        "performance": "績效",
+        "traffic": "流量",
+        "insights": "洞察"
+      },
+      "pageViews": "頁面瀏覽量",
+      "conversionRate": "轉化率 (%)",
+      "bounceRate": "跳出率 (%)",
+      "avgSession": "平均會話時長",
+      "performanceOverview": "績效概覽",
+      "performanceOverviewPlaceholder": "績效分析詳情",
+      "kpis": "關鍵績效指標",
+      "kpisPlaceholder": "KPI 詳情同度量",
+      "growthTrends": "增長趨勢",
+      "growthTrendsPlaceholder": "增長趨勢分析",
+      "trafficAnalysis": "流量分析",
+      "trafficAnalysisPlaceholder": "流量來源同分析",
+      "channelPerformance": "渠道績效",
+      "channelPerformancePlaceholder": "渠道績效數據",
+      "userBehavior": "用戶行為",
+      "userBehaviorPlaceholder": "用戶行為洞察",
+      "keyInsights": "關鍵洞察（逗號分隔）",
+      "keyInsightsPlaceholder": "流量按月增長25%，流動裝置轉化率顯著提升",
+      "recommendations": "建議（逗號分隔）",
+      "recommendationsPlaceholder": "優化流動裝置結帳流程，增加社交媒體廣告投放",
+      "actionItems": "行動項（逗號分隔）",
+      "actionItemsPlaceholder": "對新登陸頁設計進行 A/B 測試，為流動裝置設定轉化追蹤"
+    },
+    "content": {
+      "portfolioInfo": "內容組合資訊",
+      "contentInfo": "內容資訊",
+      "campaignName": "活動名稱",
+      "campaignNamePlaceholder": "2025年節日營銷活動",
+      "contentSummary": "內容摘要",
+      "contentSummaryPlaceholder": "內容策略同核心訊息概覽",
+      "targetAudience": "目標受眾",
+      "targetAudiencePlaceholder": "中小企業、B2B 決策者",
+      "contentTheme": "內容主題",
+      "contentThemePlaceholder": "職業成長、創新",
+      "theme": "主題/話題",
+      "themePlaceholder": "產品發佈、季節性等",
+      "tabs": {
+        "socialMedia": "社交媒體",
+        "email": "電郵",
+        "advertising": "廣告",
+        "longForm": "長文"
+      },
+      "socialPosts": "社交媒體帖文（JSON 陣列）",
+      "hashtagStrategy": "標籤策略",
+      "hashtagStrategyPlaceholder": "標籤策略同建議",
+      "contentCalendar": "內容日曆",
+      "contentCalendarPlaceholder": "內容排期同日曆規劃",
+      "totalPosts": "帖文總數",
+      "contentPieces": "內容條數",
+      "emailTemplates": "電郵模板（JSON 陣列）",
+      "subjectLines": "電郵主題",
+      "subjectLinesPlaceholder": "用呢 5 個策略提升你嘅 ROI\n唔好錯過：限時優惠\n你嘅營銷策略需要呢個更新",
+      "emailSequences": "電郵序列",
+      "emailSequencesPlaceholder": "電郵序列策略同自動化流程",
+      "totalEmailTemplates": "電郵模板總數",
+      "adCopy": "廣告文案（JSON 陣列）",
+      "headlines": "標題（每行一個）",
+      "headlinesPlaceholder": "即刻提升你嘅營銷 ROI\nB2B 成功嘅終極指南\n發掘隱藏嘅增長機會",
+      "creativeAssets": "創意素材",
+      "creativeAssetsPlaceholder": "創意素材描述、圖片需求、設計規範",
+      "totalAdVariants": "廣告變體總數",
+      "blogPosts": "網誌文章",
+      "blogPostsPlaceholder": "網誌主題、大綱同內容策略",
+      "articles": "文章",
+      "articlesPlaceholder": "長篇文章同思想領導力內容",
+      "videoScripts": "影片腳本",
+      "videoScriptsPlaceholder": "影片內容腳本同分鏡",
+      "caseStudies": "案例研究",
+      "caseStudiesPlaceholder": "客戶成功案例同案例研究模板"
+    },
+    "generic": {
+      "editContent": "編輯{{agentType}}內容",
+      "tabs": {
+        "structured": "結構化",
+        "json": "JSON"
+      },
+      "noEditableFields": "搵唔到可編輯嘅欄位",
+      "switchToJson": "切換到 JSON 模式",
+      "rawJsonContent": "原始 JSON 內容",
+      "enterValidJson": "請輸入有效嘅 JSON...",
+      "jsonError": "JSON 錯誤"
+    },
+    "strategy": {
+      "campaignInfo": "活動資訊",
+      "campaignName": "活動名稱",
+      "tabs": {
+        "messaging": "訊息傳達",
+        "channels": "渠道",
+        "budget": "預算",
+        "execution": "執行"
+      }
+    },
+    "roiBudget": {
+      "financialReportInfo": "財務報告資訊",
+      "tabs": {
+        "budget": "預算",
+        "roiAnalysis": "ROI 分析",
+        "performance": "績效",
+        "projections": "預測"
+      }
+    }
+  },
+  "strategyCard": {
+    "active": "活躍",
+    "archived": "已封存",
+    "archivedOn": "封存於",
+    "reason": "原因",
+    "alreadyActive": "已處於活躍狀態",
+    "markAsActive": "標記為活躍",
+    "copyContent": "複製內容",
+    "viewDetails": "查看詳情",
+    "archive": "封存",
+    "deletePermanently": "永久刪除",
+    "reach": "觸達",
+    "budget": "預算",
+    "priority": "優先級",
+    "created": "建立時間",
+    "activate": "啟動"
+  },
+  "comparison": {
+    "title": "策略對比",
+    "tabs": {
+      "overview": "概覽",
+      "messaging": "訊息傳達",
+      "channels": "渠道",
+      "budget": "預算"
+    }
+  }
+}

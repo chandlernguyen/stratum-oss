@@ -1,0 +1,138 @@
+{
+  "businessContext": {
+    "title": "欢迎来到 {{orgName}}！",
+    "titleDefault": "欢迎来到 STRAŦUM！",
+    "subtitle": "通过一些业务信息，让你的 AI 体验更贴合实际需求",
+    "form": {
+      "industry": {
+        "label": "行业",
+        "placeholder": "选择你的行业",
+        "required": "*"
+      },
+      "companySize": {
+        "label": "公司规模",
+        "placeholder": "选择公司规模",
+        "required": "*"
+      },
+      "description": {
+        "label": "业务描述",
+        "optional": "（可选）",
+        "placeholder": "告诉我们你的业务、产品或服务..."
+      }
+    },
+    "validation": {
+      "requiredFields": "请同时选择行业和公司规模后继续"
+    },
+    "buttons": {
+      "submit": "开始使用",
+      "submitting": "保存中...",
+      "skip": "暂时跳过"
+    },
+    "errors": {
+      "organizationNotFound": "未找到组织",
+      "saveFailed": "保存业务背景失败"
+    }
+  },
+  "industries": {
+    "advertisingMarketing": "广告与营销",
+    "agricultureFarming": "农业与农场",
+    "automotive": "汽车",
+    "construction": "建筑",
+    "consulting": "咨询",
+    "ecommerce": "电子商务",
+    "education": "教育",
+    "energyUtilities": "能源与公共事业",
+    "entertainmentMedia": "娱乐与媒体",
+    "financeBanking": "金融与银行",
+    "foodBeverage": "食品与饮料",
+    "healthcare": "医疗健康",
+    "hospitalityTourism": "酒店与旅游",
+    "insurance": "保险",
+    "legalServices": "法律服务",
+    "manufacturing": "制造业",
+    "nonprofit": "非营利组织",
+    "professionalServices": "专业服务",
+    "realEstate": "房地产",
+    "retail": "零售",
+    "saasSoftware": "SaaS/软件",
+    "technology": "科技",
+    "telecommunications": "电信",
+    "transportationLogistics": "运输与物流",
+    "other": "其他"
+  },
+  "companySizes": {
+    "1-10": "1-10 名员工",
+    "11-50": "11-50 名员工",
+    "51-200": "51-200 名员工",
+    "201-500": "201-500 名员工",
+    "500+": "500+ 名员工"
+  },
+  "progress": {
+    "step": "第 {{current}} 步，共 {{total}} 步",
+    "businessDetails": "业务详情",
+    "complete": "完成"
+  },
+  "flow": {
+    "stepOf": "第 {{current}} 步，共 {{total}} 步",
+    "estimatedTime": "预计时间：{{time}}",
+    "rewardPreview": "你将获得：{{reward}}",
+    "steps": {
+      "welcome": {
+        "title": "欢迎来到你的 AI 营销团队！",
+        "description": "你现在拥有 9 个专业 AI 智能体，随时准备改变你的营销方式。让我们在 5 分钟内先拿到一个快速成果。",
+        "estimatedTime": "10 秒",
+        "reward": "认识你的 AI 团队"
+      },
+      "chooseGoal": {
+        "title": "你今天的主要目标是什么？",
+        "description": "我们会根据你的需求帮助你快速取得成果。",
+        "estimatedTime": "30 秒",
+        "reward": "获得个性化推荐"
+      },
+      "quickWin": {
+        "title": "拿到你的第一个快速成果",
+        "description": "选择一个模板，体验 AI 驱动营销的力量。",
+        "estimatedTime": "2-5 分钟",
+        "reward": "创造真实营销价值"
+      }
+    },
+    "features": {
+      "aiAgents": {
+        "title": "9 个 AI 智能体",
+        "description": "每个都专注于营销的不同领域"
+      },
+      "builtForTeams": {
+        "title": "为团队打造",
+        "description": "同样适合中小企业和代理机构"
+      },
+      "quickResults": {
+        "title": "快速见效",
+        "description": "几分钟内获得有价值的洞察，而不是几小时"
+      }
+    },
+    "buttons": {
+      "skipTour": "跳过引导",
+      "skipsLeft": "还可跳过 {{count}} 次",
+      "back": "返回",
+      "continue": "继续",
+      "chooseTemplate": "选择模板",
+      "exploreOnOwn": "我想自己探索"
+    }
+  },
+  "quickWin": {
+    "categories": {
+      "all": "全部",
+      "analysis": "分析",
+      "content": "内容",
+      "strategy": "战略",
+      "growth": "增长"
+    },
+    "youllGet": "你将获得",
+    "difficulty": {
+      "beginner": "初级",
+      "intermediate": "中级",
+      "advanced": "高级"
+    },
+    "noTemplates": "该分类下未找到模板"
+  }
+}

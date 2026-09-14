@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Quick Start - 5-Minute Intelligence",
+    "subtitle": "Generate your strategy, personas, and marketing plan in one comprehensive session"
+  },
+  "featureCards": {
+    "strategyAnalysis": {
+      "title": "Strategy Analysis",
+      "description": "SWOT, Business Model Canvas, and strategic frameworks"
+    },
+    "customerPersonas": {
+      "title": "Customer Personas",
+      "description": "Detailed buyer profiles and journey mapping"
+    },
+    "marketingStrategy": {
+      "title": "Marketing Strategy",
+      "description": "Channel strategy, messaging, and 90-day roadmap"
+    }
+  },
+  "initialMessage": {
+    "intro": "I've just completed the Quick Start questionnaire. Here's my business context:",
+    "company": "Company/Business:",
+    "goal": "Primary Marketing Goal:",
+    "audience": "Target Audience:",
+    "budget": "Monthly Marketing Budget:",
+    "timeline": "Timeline for Results:",
+    "request": "Based on this information, please generate a comprehensive marketing intelligence foundation including:",
+    "item1": "1. Strategic analysis (SWOT, competitive positioning)",
+    "item2": "2. Detailed customer personas",
+    "item3": "3. Complete marketing strategy with channel recommendations and messaging framework",
+    "closing": "Let's build my marketing foundation!"
+  }
+}

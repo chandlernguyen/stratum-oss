@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Tarefas",
+  "pageSubtitle": "Gerencie e acompanhe o trabalho da sua equipe",
+  "newTask": "Nova Tarefa",
+  "myTasks": "Minhas Tarefas",
+  "allTasks": "Todas as Tarefas",
+  "noTasks": "Nenhuma tarefa",
+  "status": {
+    "todo": "A Fazer",
+    "in_progress": "Em Progresso",
+    "review": "Em Revisão",
+    "done": "Concluído",
+    "cancelled": "Cancelado"
+  },
+  "taskType": {
+    "content_creation": "Criação de Conteúdo",
+    "review": "Revisão",
+    "analysis": "Análise",
+    "campaign_setup": "Configuração de Campanha",
+    "strategy": "Estratégia",
+    "other": "Outro"
+  },
+  "priority": {
+    "low": "Baixa",
+    "normal": "Normal",
+    "high": "Alta",
+    "urgent": "Urgente"
+  },
+  "dueDate": {
+    "overdue": "Atrasado",
+    "today": "Hoje",
+    "tomorrow": "Amanhã"
+  },
+  "assignee": {
+    "unassigned": "Não atribuído"
+  },
+  "actions": {
+    "moveTo": "Mover para {{status}}",
+    "cancel": "Cancelar"
+  },
+  "createDialog": {
+    "title": "Criar Tarefa",
+    "description": "Atribua uma nova tarefa a um membro da equipe.",
+    "titleLabel": "Título",
+    "titlePlaceholder": "O que precisa ser feito?",
+    "descriptionLabel": "Descrição (opcional)",
+    "descriptionPlaceholder": "Adicione mais detalhes...",
+    "typeLabel": "Tipo",
+    "priorityLabel": "Prioridade",
+    "assigneeLabel": "Atribuir a",
+    "assigneePlaceholder": "Selecione um membro da equipe",
+    "dueDateLabel": "Data de entrega",
+    "cancelButton": "Cancelar",
+    "createButton": "Criar Tarefa",
+    "creatingButton": "Criando..."
+  }
+}

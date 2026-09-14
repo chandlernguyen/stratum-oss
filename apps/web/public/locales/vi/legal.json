@@ -1,0 +1,342 @@
+{
+  "privacy": {
+    "pageTitle": "Chính Sách Bảo Mật",
+    "lastUpdated": "Cập nhật lần cuối: 20 tháng 1, 2026",
+    "alphaNotice": {
+      "title": "Thông Báo Giai Đoạn Alpha",
+      "description": "STRAŦUM đang trong giai đoạn thử nghiệm alpha. Chính sách bảo mật này có thể thay đổi đáng kể. Bạn sử dụng dịch vụ với rủi ro của riêng mình. Chúng tôi không đảm bảo về bảo mật dữ liệu hoặc độ tin cậy của dịch vụ."
+    },
+    "sections": {
+      "acceptance": {
+        "number": "1",
+        "title": "Chấp Nhận và Phạm Vi",
+        "intro": "Bằng việc sử dụng STRAŦUM trong giai đoạn alpha, bạn xác nhận rằng:",
+        "items": {
+          "experimental": "Dịch vụ này mang tính thử nghiệm và được cung cấp \"NGUYÊN TRẠNG\"",
+          "dataChange": "Các phương thức thu thập và xử lý dữ liệu có thể thay đổi mà không báo trước",
+          "smallTeam": "Chúng tôi là một đội ngũ nhỏ với nguồn lực hạn chế",
+          "ownRisk": "Bạn sử dụng dịch vụ này hoàn toàn với rủi ro của riêng mình"
+        },
+        "seeTerms": "Để biết điều khoản đầy đủ, vui lòng xem",
+        "termsLink": "Điều Khoản và Điều Kiện"
+      },
+      "informationCollect": {
+        "number": "2",
+        "title": "Thông Tin Chúng Tôi Có Thể Thu Thập",
+        "intro": "Trong quá trình thử nghiệm alpha, chúng tôi có thể thu thập:",
+        "accountInfo": {
+          "title": "Thông Tin Tài Khoản",
+          "description": "Email, tên, thông tin tổ chức"
+        },
+        "businessContext": {
+          "title": "Bối Cảnh Kinh Doanh",
+          "description": "Thông tin công ty, mục tiêu marketing, chiến lược"
+        },
+        "contentCreated": {
+          "title": "Nội Dung Bạn Tạo",
+          "description": "Chiến dịch, chân dung khách hàng, kế hoạch marketing"
+        },
+        "technicalData": {
+          "title": "Dữ Liệu Kỹ Thuật",
+          "description": "Lỗi, mẫu sử dụng, hiệu suất"
+        },
+        "note": "Lưu ý: Các phương thức thu thập dữ liệu có thể thay đổi khi chúng tôi phát triển dịch vụ."
+      },
+      "howWeUse": {
+        "number": "3",
+        "title": "Cách Chúng Tôi Sử Dụng Thông Tin",
+        "intro": "Chúng tôi sử dụng thông tin chủ yếu để:",
+        "items": {
+          "provideServices": "Cung cấp Dịch vụ (xác thực, tương tác với trợ lý AI, tạo thông tin chiến lược)",
+          "generateIntelligence": "Tạo thông tin chiến lược marketing và đề xuất chiến lược",
+          "fixBugs": "Sửa lỗi và cải thiện dịch vụ alpha",
+          "understandUsage": "Hiểu mẫu sử dụng để nâng cao trải nghiệm người dùng",
+          "communicate": "Liên lạc với bạn về dịch vụ"
+        },
+        "note": "Chúng tôi quá nhỏ để làm bất cứ điều gì phức tạp với dữ liệu của bạn. Chúng tôi chỉ muốn xây dựng một sản phẩm hoạt động giúp bạn với thông tin chiến lược marketing."
+      },
+      "thirdParty": {
+        "number": "4",
+        "title": "Dịch Vụ Bên Thứ Ba",
+        "intro": "Chúng tôi dựa vào các dịch vụ này (và chính sách bảo mật của họ được áp dụng):",
+        "services": {
+          "supabase": {
+            "name": "Supabase",
+            "description": "Xác thực và lưu trữ dữ liệu"
+          },
+          "googleCloud": {
+            "name": "Google Cloud",
+            "description": "Lưu trữ dịch vụ backend"
+          },
+          "vercel": {
+            "name": "Vercel",
+            "description": "Lưu trữ ứng dụng frontend"
+          },
+          "googleAi": {
+            "name": "Google AI (Gemini)",
+            "description": "Tạo nội dung và thông tin chiến lược"
+          },
+          "stripe": {
+            "name": "Stripe",
+            "description": "Xử lý thanh toán và quản lý đăng ký"
+          },
+          "cloudflare": {
+            "name": "Cloudflare",
+            "description": "Bảo vệ chống bot (Turnstile CAPTCHA)"
+          },
+          "resend": {
+            "name": "Resend",
+            "description": "Gửi email giao dịch"
+          }
+        },
+        "disclaimer": "Chúng tôi không chịu trách nhiệm về các phương thức hoặc bảo mật của dịch vụ bên thứ ba."
+      },
+      "aiUsage": {
+        "number": "5",
+        "title": "AI và Sử Dụng Dữ Liệu",
+        "subtitle": "Thông Tin Quan Trọng Về Xử Lý AI:",
+        "items": {
+          "sentToGoogle": "Dữ liệu kinh doanh của bạn được gửi đến Google AI (Gemini) để xử lý và tạo thông tin chiến lược",
+          "noTraining": "Chúng tôi không sử dụng dữ liệu của bạn để huấn luyện các mô hình AI của riêng mình",
+          "googlePolicies": "Chính sách sử dụng AI của Google áp dụng cho dữ liệu được xử lý qua dịch vụ của họ",
+          "stored": "Thông tin chiến lược marketing và chiến lược của bạn được lưu trữ trong cơ sở dữ liệu của chúng tôi để bạn truy cập"
+        }
+      },
+      "dataIsolation": {
+        "number": "6",
+        "title": "Cách Ly Dữ Liệu",
+        "intro": "Chúng tôi triển khai cách ly dữ liệu ở cấp cơ sở dữ liệu:",
+        "items": {
+          "isolated": "Dữ liệu kinh doanh của bạn được cách ly khỏi các tổ chức khác",
+          "agencySeparation": "Khách hàng Agency có sự tách biệt dữ liệu hoàn toàn",
+          "rls": "Chính sách Bảo Mật Cấp Hàng (RLS) của cơ sở dữ liệu thực thi kiểm soát truy cập"
+        },
+        "note": "Tuy nhiên, với tư cách là dịch vụ alpha, chúng tôi không thể đảm bảo bảo vệ hoàn toàn chống lại tất cả các lỗ hổng bảo mật."
+      },
+      "limitedSecurity": {
+        "number": "7",
+        "title": "Bảo Đảm Bảo Mật Hạn Chế",
+        "disclaimerTitle": "TUYÊN BỐ MIỄN TRỪ QUAN TRỌNG",
+        "intro": "Với tư cách là dịch vụ alpha với nguồn lực hạn chế, chúng tôi không thể đảm bảo:",
+        "items": {
+          "completeSecurity": "Bảo mật dữ liệu hoàn toàn",
+          "breachProtection": "Bảo vệ chống lại tất cả các vi phạm bảo mật",
+          "dataBackup": "Sao lưu hoặc khôi phục dữ liệu trong mọi trường hợp",
+          "availability": "Tính khả dụng hoặc thời gian hoạt động của dịch vụ",
+          "migrationProtection": "Ngăn chặn mất dữ liệu trong quá trình di chuyển cơ sở dữ liệu"
+        },
+        "warning": "Bạn sử dụng dịch vụ này với rủi ro của riêng mình. Không tải lên thông tin kinh doanh nhạy cảm hoặc bí mật."
+      },
+      "yourRights": {
+        "number": "8",
+        "title": "Quyền Của Bạn (Hạn Chế Trong Alpha)",
+        "tryToHelp": "Mặc dù chúng tôi sẽ cố gắng hỗ trợ:",
+        "helpItems": {
+          "deleteAccount": "Xóa tài khoản của bạn theo yêu cầu",
+          "updateInfo": "Cập nhật thông tin cơ bản",
+          "accessData": "Cung cấp quyền truy cập vào dữ liệu của bạn"
+        },
+        "cannotGuarantee": "Tuy nhiên, trong giai đoạn alpha, chúng tôi không thể đảm bảo:",
+        "limitedItems": {
+          "export": "Chức năng xuất dữ liệu hoàn chỉnh",
+          "deletion": "Xóa dữ liệu hoàn toàn khỏi tất cả hệ thống và bản sao lưu",
+          "timeliness": "Phản hồi kịp thời cho các yêu cầu dữ liệu"
+        }
+      },
+      "dataRetention": {
+        "number": "9",
+        "title": "Lưu Giữ Dữ Liệu",
+        "intro": "Trong giai đoạn alpha:",
+        "items": {
+          "active": "Chúng tôi lưu giữ dữ liệu miễn là tài khoản của bạn còn hoạt động",
+          "migrations": "Chúng tôi có thể xóa dữ liệu trong quá trình di chuyển hoặc đặt lại cơ sở dữ liệu",
+          "backups": "Dữ liệu đã xóa có thể tồn tại trong bản sao lưu trong một khoảng thời gian hợp lý",
+          "noGuarantee": "Chúng tôi không đảm bảo về tính bền vững của dữ liệu trong alpha"
+        }
+      },
+      "noWarranty": {
+        "number": "10",
+        "title": "Không Bảo Hành Hoặc Trách Nhiệm",
+        "intro": "Như đã nêu trong",
+        "termsLink": "Điều Khoản và Điều Kiện",
+        "items": {
+          "asIs": "Dịch vụ được cung cấp \"NGUYÊN TRẠNG\" mà không có bảo hành",
+          "notLiable": "Chúng tôi không chịu trách nhiệm về mất dữ liệu hoặc vi phạm bảo mật",
+          "noAvailability": "Không đảm bảo tính khả dụng của dịch vụ",
+          "assumeRisk": "Bạn chấp nhận tất cả rủi ro khi sử dụng dịch vụ alpha"
+        }
+      },
+      "changes": {
+        "number": "11",
+        "title": "Thay Đổi Mà Không Báo Trước",
+        "description": "Chính sách bảo mật này có thể thay đổi bất cứ lúc nào mà không báo trước. Việc tiếp tục sử dụng dịch vụ đồng nghĩa với việc chấp nhận bất kỳ thay đổi nào. Vui lòng kiểm tra trang này định kỳ."
+      },
+      "contact": {
+        "number": "12",
+        "title": "Liên Hệ",
+        "description": "Có câu hỏi? Gửi email cho chúng tôi tại",
+        "note": "(nhưng xin nhớ, chúng tôi là một đội ngũ nhỏ và phản hồi có thể bị chậm trễ)."
+      }
+    },
+    "tldr": {
+      "label": "Tóm tắt:",
+      "text": "Đây là dịch vụ alpha. Chúng tôi là một đội ngũ nhỏ. Chúng tôi sẽ cố gắng hết sức nhưng không hứa hẹn gì. Không đặt thông tin nhạy cảm ở đây. Sử dụng với rủi ro của riêng bạn."
+    },
+    "navigation": {
+      "returnHome": "Quay Về Trang Chủ",
+      "termsConditions": "Điều Khoản & Điều Kiện"
+    }
+  },
+  "terms": {
+    "pageTitle": "Điều Khoản và Điều Kiện",
+    "lastUpdated": "Cập nhật lần cuối: 20 tháng 1, 2026",
+    "alphaNotice": {
+      "title": "Thông Báo Chương Trình Alpha",
+      "description": "STRAŦUM hiện đang trong giai đoạn Chương Trình Alpha. Điều này có nghĩa là dịch vụ vẫn đang phát triển và có thể trải qua những thay đổi đáng kể, bao gồm tính năng, chức năng và cấu trúc cơ sở dữ liệu."
+    },
+    "sections": {
+      "introduction": {
+        "number": "1",
+        "title": "Giới Thiệu",
+        "welcome": "Chào mừng đến với STRAŦUM (\"chúng tôi,\" \"của chúng tôi,\" hoặc \"chúng tôi\"). Các Điều Khoản và Điều Kiện này chi phối việc bạn sử dụng trang web, sản phẩm và dịch vụ của chúng tôi (gọi chung là \"Dịch Vụ\").",
+        "agreement": "Bằng việc truy cập hoặc sử dụng Dịch Vụ, bạn đồng ý bị ràng buộc bởi các Điều Khoản này. Nếu bạn không đồng ý với bất kỳ phần nào của các điều khoản này, bạn không được truy cập Dịch Vụ.",
+        "alphaStatus": "Trạng Thái Alpha: STRAŦUM hiện đang trong Chương Trình Alpha. Bằng việc tham gia, bạn xác nhận rằng Dịch Vụ vẫn đang được phát triển và chưa phải là sản phẩm hoàn chỉnh."
+      },
+      "alphaProgram": {
+        "number": "2",
+        "title": "Chương Trình Alpha",
+        "intro": "Với tư cách là người tham gia Chương Trình Alpha, bạn hiểu và đồng ý với những điều sau:",
+        "items": {
+          "bugs": "Dịch Vụ có thể chứa lỗi hoặc các vấn đề khác có thể ảnh hưởng đến chức năng",
+          "changes": "Chúng tôi có thể thực hiện những thay đổi đáng kể đối với Dịch Vụ mà không báo trước",
+          "downtime": "Dịch Vụ có thể gặp thời gian ngừng hoạt động hoặc các vấn đề về hiệu suất",
+          "database": "Cấu trúc cơ sở dữ liệu có thể thay đổi, có thể ảnh hưởng đến dữ liệu được lưu trữ",
+          "resets": "Chúng tôi có thể đặt lại cơ sở dữ liệu trong quá trình phát triển, dẫn đến mất dữ liệu",
+          "pricing": "Giá cả, gói và tính năng có thể thay đổi trước khi phát hành chính thức"
+        }
+      },
+      "accountRegistration": {
+        "number": "3",
+        "title": "Đăng Ký Tài Khoản",
+        "responsibilitiesTitle": "Trách Nhiệm Của Bạn:",
+        "responsibilities": {
+          "accurate": "Cung cấp thông tin đăng ký chính xác, hiện tại và đầy đủ",
+          "updated": "Cập nhật thông tin của bạn",
+          "safeguard": "Bảo vệ mật khẩu của bạn",
+          "strongPasswords": "Sử dụng mật khẩu mạnh (chữ hoa/thường, số, ký hiệu)"
+        }
+      },
+      "aiDisclaimer": {
+        "number": "4",
+        "title": "Tuyên Bố Miễn Trừ Nội Dung Tạo Bởi AI",
+        "responsibilityTitle": "Không Chịu Trách Nhiệm Về Đầu Ra",
+        "intro": "STRAŦUM sử dụng AI để tạo thông tin chiến lược marketing. Chúng tôi rõ ràng từ chối trách nhiệm về:",
+        "items": {
+          "accuracy": "Độ chính xác, đầy đủ hoặc độ tin cậy của nội dung được tạo",
+          "errors": "Lỗi thực tế hoặc thông tin sai lệch",
+          "appropriateness": "Tính phù hợp cho mục đích kinh doanh cụ thể của bạn",
+          "actions": "Hành động bạn thực hiện dựa trên nội dung được tạo",
+          "decisions": "Quyết định kinh doanh được đưa ra bằng cách sử dụng các framework của chúng tôi",
+          "claims": "Các khiếu nại phát sinh từ việc bạn sử dụng nội dung được tạo"
+        },
+        "responsibility": "Bạn hoàn toàn chịu trách nhiệm xem xét và xác nhận tất cả nội dung trước khi sử dụng."
+      },
+      "userResponsibilities": {
+        "number": "5",
+        "title": "Trách Nhiệm Người Dùng",
+        "intro": "Khi sử dụng Dịch Vụ của chúng tôi, bạn đồng ý không:",
+        "items": {
+          "laws": "Vi phạm bất kỳ luật hoặc quy định hiện hành nào",
+          "ip": "Xâm phạm quyền sở hữu trí tuệ của người khác",
+          "unauthorized": "Cố gắng truy cập trái phép bất kỳ phần nào của Dịch Vụ",
+          "illegal": "Tạo nội dung bất hợp pháp, có hại hoặc phản cảm",
+          "impersonate": "Mạo danh bất kỳ người hoặc tổ chức nào",
+          "interfere": "Can thiệp hoặc làm gián đoạn Dịch Vụ"
+        }
+      },
+      "intellectualProperty": {
+        "number": "6",
+        "title": "Sở Hữu Trí Tuệ",
+        "yourContent": {
+          "title": "Nội Dung Của Bạn",
+          "description": "Bạn giữ lại tất cả quyền đối với nội dung bạn gửi. Bạn cấp cho chúng tôi giấy phép không độc quyền, toàn cầu, miễn phí bản quyền để sử dụng nội dung của bạn chỉ để cung cấp và cải thiện Dịch Vụ."
+        },
+        "generatedContent": {
+          "title": "Nội Dung Được Tạo",
+          "description": "Bạn nhận được giấy phép không độc quyền, toàn cầu, miễn phí bản quyền để sử dụng, sửa đổi và phân phối nội dung được tạo bởi Dịch Vụ của chúng tôi cho bất kỳ mục đích nào."
+        },
+        "ourIp": {
+          "title": "Sở Hữu Trí Tuệ Của Chúng Tôi",
+          "description": "Dịch Vụ và nội dung gốc của chúng là tài sản của chúng tôi, được bảo vệ bởi bản quyền, thương hiệu và các luật khác."
+        }
+      },
+      "noRefund": {
+        "number": "7",
+        "title": "Chính Sách Không Hoàn Tiền",
+        "headline": "TẤT CẢ GIAO DỊCH LÀ CUỐI CÙNG",
+        "intro": "Một khi chúng tôi triển khai các gói trả phí, tất cả giao dịch mua sẽ là cuối cùng và không hoàn lại:",
+        "items": {
+          "noRefund": "Không hoàn tiền, tín dụng hoặc bồi hoàn trong bất kỳ trường hợp nào",
+          "regardless": "Áp dụng bất kể việc sử dụng dịch vụ",
+          "evenTechnical": "Áp dụng ngay cả đối với các vấn đề kỹ thuật hoặc không hài lòng"
+        },
+        "alphaNote": "Chương Trình Alpha: Trong giai đoạn alpha, dịch vụ miễn phí. Chúng tôi sẽ thông báo cho bạn trước khi triển khai các gói trả phí."
+      },
+      "dataPrivacy": {
+        "number": "8",
+        "title": "Thu Thập Dữ Liệu và Quyền Riêng Tư",
+        "description": "Chúng tôi thu thập và xử lý dữ liệu cá nhân như được mô tả trong",
+        "privacyLink": "Chính Sách Bảo Mật",
+        "consent": "Bằng việc sử dụng Dịch Vụ của chúng tôi, bạn đồng ý với việc xử lý đó.",
+        "feedbackNote": "Phản Hồi và Cải Tiến: Với tư cách là người tham gia Chương Trình Alpha, bạn xác nhận rằng chúng tôi có thể thu thập dữ liệu sử dụng, báo cáo lỗi và phản hồi của bạn để cải thiện Dịch Vụ."
+      },
+      "limitationLiability": {
+        "number": "9",
+        "title": "Giới Hạn Trách Nhiệm",
+        "intro": "Trong phạm vi tối đa được pháp luật cho phép, chúng tôi không chịu trách nhiệm về bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, hậu quả hoặc trừng phạt nào, bao gồm:",
+        "items": {
+          "losses": "Mất lợi nhuận, dữ liệu, việc sử dụng, uy tín hoặc các tổn thất vô hình khác",
+          "inability": "Không thể truy cập hoặc sử dụng Dịch Vụ",
+          "generatedContent": "Bất kỳ nội dung nào được tạo bởi Dịch Vụ",
+          "unauthorized": "Truy cập trái phép hoặc thay đổi dữ liệu của bạn"
+        },
+        "alphaNote": "Đặc Thù Chương Trình Alpha: Chúng tôi không chịu trách nhiệm về bất kỳ thiệt hại nào phát sinh từ tính chất alpha của Dịch Vụ, bao gồm các thay đổi, đặt lại cơ sở dữ liệu hoặc ngừng các tính năng."
+      },
+      "disclaimerWarranties": {
+        "number": "10",
+        "title": "Từ Chối Bảo Hành",
+        "asIs": "Dịch Vụ được cung cấp trên cơ sở \"NGUYÊN TRẠNG\" và \"KHẢ DỤNG\".",
+        "disclaim": "Chúng tôi rõ ràng từ chối tất cả các bảo hành, rõ ràng hoặc ngụ ý, bao gồm khả năng bán được, phù hợp cho một mục đích cụ thể và không vi phạm.",
+        "noWarranty": "Chúng tôi không bảo hành rằng Dịch Vụ sẽ đáp ứng yêu cầu của bạn, khả dụng liên tục, an toàn hoặc không có lỗi, hoặc các khuyết điểm sẽ được sửa chữa."
+      },
+      "termination": {
+        "number": "11",
+        "title": "Chấm Dứt",
+        "weTerminate": "Chúng tôi có thể chấm dứt hoặc đình chỉ tài khoản và quyền truy cập Dịch Vụ của bạn ngay lập tức, mà không báo trước hoặc chịu trách nhiệm, vì bất kỳ lý do gì, bao gồm vi phạm Điều Khoản.",
+        "uponTermination": "Khi chấm dứt, quyền sử dụng Dịch Vụ của bạn sẽ ngừng ngay lập tức. Để chấm dứt tài khoản, ngừng sử dụng Dịch Vụ hoặc liên hệ với chúng tôi để xóa tài khoản."
+      },
+      "changesToTerms": {
+        "number": "12",
+        "title": "Thay Đổi Điều Khoản",
+        "description": "Chúng tôi bảo lưu quyền sửa đổi các Điều Khoản này bất cứ lúc nào. Đối với các sửa đổi quan trọng, chúng tôi sẽ thông báo trước ít nhất 30 ngày.",
+        "alphaNote": "Trong Giai Đoạn Alpha: Chúng tôi có thể cập nhật Điều Khoản thường xuyên hơn khi Dịch Vụ phát triển. Việc tiếp tục sử dụng đồng nghĩa với việc chấp nhận các sửa đổi."
+      },
+      "governingLaw": {
+        "number": "13",
+        "title": "Luật Điều Chỉnh",
+        "description": "Các Điều Khoản này sẽ được điều chỉnh bởi luật pháp Hoa Kỳ, không tính đến các quy định về xung đột pháp luật.",
+        "disputeTitle": "Giải Quyết Tranh Chấp:",
+        "dispute": "Bất kỳ tranh chấp nào sẽ được giải quyết bằng trọng tài ràng buộc theo quy tắc của Hiệp Hội Trọng Tài Hoa Kỳ. Trọng tài sẽ được tiến hành trực tuyến qua hội nghị video."
+      },
+      "contactUs": {
+        "number": "14",
+        "title": "Liên Hệ Chúng Tôi",
+        "description": "Nếu bạn có bất kỳ câu hỏi nào về các Điều Khoản này, vui lòng liên hệ chúng tôi tại"
+      }
+    },
+    "navigation": {
+      "returnHome": "Quay Về Trang Chủ",
+      "privacyPolicy": "Chính Sách Bảo Mật"
+    }
+  }
+}

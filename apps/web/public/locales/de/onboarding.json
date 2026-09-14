@@ -1,0 +1,138 @@
+{
+  "businessContext": {
+    "title": "Willkommen bei {{orgName}}!",
+    "titleDefault": "Willkommen bei STRAŦUM!",
+    "subtitle": "Lassen Sie uns Ihr KI-Erlebnis mit ein paar Details über Ihr Unternehmen personalisieren",
+    "form": {
+      "industry": {
+        "label": "Branche",
+        "placeholder": "Branche auswählen",
+        "required": "*"
+      },
+      "companySize": {
+        "label": "Unternehmensgröße",
+        "placeholder": "Unternehmensgröße auswählen",
+        "required": "*"
+      },
+      "description": {
+        "label": "Geschäftsbeschreibung",
+        "optional": "(Optional)",
+        "placeholder": "Erzählen Sie uns von Ihrem Unternehmen, Ihren Produkten oder Dienstleistungen..."
+      }
+    },
+    "validation": {
+      "requiredFields": "Bitte wählen Sie sowohl Ihre Branche als auch Ihre Unternehmensgröße aus, um fortzufahren"
+    },
+    "buttons": {
+      "submit": "Loslegen",
+      "submitting": "Wird gespeichert...",
+      "skip": "Vorerst überspringen"
+    },
+    "errors": {
+      "organizationNotFound": "Organisation nicht gefunden",
+      "saveFailed": "Geschäftskontext konnte nicht gespeichert werden"
+    }
+  },
+  "industries": {
+    "advertisingMarketing": "Werbung & Marketing",
+    "agricultureFarming": "Landwirtschaft",
+    "automotive": "Automobilindustrie",
+    "construction": "Bauwesen",
+    "consulting": "Beratung",
+    "ecommerce": "E-Commerce",
+    "education": "Bildung",
+    "energyUtilities": "Energie & Versorgung",
+    "entertainmentMedia": "Unterhaltung & Medien",
+    "financeBanking": "Finanzen & Bankwesen",
+    "foodBeverage": "Lebensmittel & Getränke",
+    "healthcare": "Gesundheitswesen",
+    "hospitalityTourism": "Gastgewerbe & Tourismus",
+    "insurance": "Versicherungen",
+    "legalServices": "Rechtsdienstleistungen",
+    "manufacturing": "Fertigung",
+    "nonprofit": "Gemeinnützig",
+    "professionalServices": "Professionelle Dienstleistungen",
+    "realEstate": "Immobilien",
+    "retail": "Einzelhandel",
+    "saasSoftware": "SaaS/Software",
+    "technology": "Technologie",
+    "telecommunications": "Telekommunikation",
+    "transportationLogistics": "Transport & Logistik",
+    "other": "Sonstiges"
+  },
+  "companySizes": {
+    "1-10": "1-10 Mitarbeiter",
+    "11-50": "11-50 Mitarbeiter",
+    "51-200": "51-200 Mitarbeiter",
+    "201-500": "201-500 Mitarbeiter",
+    "500+": "500+ Mitarbeiter"
+  },
+  "progress": {
+    "step": "Schritt {{current}} von {{total}}",
+    "businessDetails": "Geschäftsdetails",
+    "complete": "Abgeschlossen"
+  },
+  "flow": {
+    "stepOf": "Schritt {{current}} von {{total}}",
+    "estimatedTime": "Geschätzte Zeit: {{time}}",
+    "rewardPreview": "Was Sie erreichen: {{reward}}",
+    "steps": {
+      "welcome": {
+        "title": "Willkommen bei Ihrem KI-Marketing-Team!",
+        "description": "Sie haben 9 spezialisierte KI-Agenten bereit, Ihr Marketing zu transformieren. Lassen Sie uns in unter 5 Minuten einen Quick Win erzielen.",
+        "estimatedTime": "10 Sekunden",
+        "reward": "Lernen Sie Ihr KI-Team kennen"
+      },
+      "chooseGoal": {
+        "title": "Was ist Ihr Hauptziel heute?",
+        "description": "Wir helfen Ihnen, sofortige Ergebnisse basierend auf Ihren Bedürfnissen zu erzielen.",
+        "estimatedTime": "30 Sekunden",
+        "reward": "Personalisierte Empfehlungen erhalten"
+      },
+      "quickWin": {
+        "title": "Ihren ersten Quick Win erzielen",
+        "description": "Wählen Sie eine Vorlage, um die Kraft von KI-getriebenem Marketing zu erleben.",
+        "estimatedTime": "2-5 Minuten",
+        "reward": "Echten Marketingwert generieren"
+      }
+    },
+    "features": {
+      "aiAgents": {
+        "title": "9 KI-Agenten",
+        "description": "Jeweils spezialisiert auf verschiedene Aspekte des Marketings"
+      },
+      "builtForTeams": {
+        "title": "Für Teams entwickelt",
+        "description": "Perfekt für KMUs und Agenturen gleichermaßen"
+      },
+      "quickResults": {
+        "title": "Schnelle Ergebnisse",
+        "description": "Wertvolle Einblicke in Minuten statt Stunden"
+      }
+    },
+    "buttons": {
+      "skipTour": "Tour überspringen",
+      "skipsLeft": "{{count}} übrig",
+      "back": "Zurück",
+      "continue": "Weiter",
+      "chooseTemplate": "Vorlage wählen",
+      "exploreOnOwn": "Ich erkunde selbst"
+    }
+  },
+  "quickWin": {
+    "categories": {
+      "all": "Alle",
+      "analysis": "Analyse",
+      "content": "Inhalt",
+      "strategy": "Strategie",
+      "growth": "Wachstum"
+    },
+    "youllGet": "Sie erhalten",
+    "difficulty": {
+      "beginner": "Einsteiger",
+      "intermediate": "Fortgeschritten",
+      "advanced": "Experte"
+    },
+    "noTemplates": "Keine Vorlagen für diese Kategorie gefunden"
+  }
+}

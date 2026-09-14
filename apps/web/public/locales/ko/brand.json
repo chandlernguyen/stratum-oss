@@ -1,0 +1,389 @@
+{
+  "comparison": {
+    "pageTitle": "브랜드 비교",
+    "fourWayTitle": "4가지 STRATUM 변형 비교",
+    "fourWayDescription": "브랜드 정체성을 가장 잘 나타내는 STRATUM 변형을 선택하세요",
+    "cortexVsStratum": "CORTEX 대 STRATUM",
+    "backToSingleView": "단일 보기로 돌아가기",
+    "singleView": "단일 보기",
+    "compareFourOptions": "4가지 STRATUM 옵션 비교"
+  },
+  "brands": {
+    "cortex": {
+      "subtitle": "신경망 인텔리전스"
+    },
+    "stratum": {
+      "subtitle": "전략적 레이어"
+    }
+  },
+  "hero": {
+    "subtitle": "실행보다 인텔리전스"
+  },
+  "cta": {
+    "startFreeTrial": "무료 체험 시작",
+    "watchDemo": "데모 보기",
+    "selectThisOption": "이 옵션 선택",
+    "learnMore": "자세히 보기"
+  },
+  "valuePropositions": {
+    "strategicIntelligence": {
+      "title": "전략적 인텔리전스",
+      "description": "SWOT, 포터의 5대 힘, 비즈니스 모델 캔버스 등 8개를 포함한 검증된 프레임워크"
+    },
+    "customerInsights": {
+      "title": "고객 인사이트",
+      "description": "깊이 있는 페르소나 분석, 구매 여정 매핑, 행동 인텔리전스"
+    },
+    "roiTracking": {
+      "title": "ROI 추적",
+      "description": "실시간 성과 분석과 AI 기반 최적화 추천"
+    }
+  },
+  "features": {
+    "sectionTitle": {
+      "cortex": "AI가 구동하는 마케팅 두뇌",
+      "stratum": "전략적 기반을 구축하세요"
+    },
+    "sectionSubtitle": {
+      "cortex": "모든 마케팅 의사결정을 위한 신경망 인텔리전스",
+      "stratum": "레이어를 하나씩 쌓아 포괄적인 마케팅 인텔리전스를 구축하세요"
+    },
+    "aiAgents": {
+      "title": "10개의 전문 AI 에이전트",
+      "description": "전략, 페르소나, 콘텐츠, 분석, 캠페인 기획, ROI 추적 등"
+    },
+    "continuousLearning": {
+      "title": "지속 학습 시스템",
+      "description": "상호작용할수록 YOUR 비즈니스에 대해 더 똑똑해지는 AI"
+    },
+    "zeroExecutionRisk": {
+      "title": "실행 리스크 제로",
+      "description": "자동 실행 없이 인텔리전스와 인사이트만 제공하므로 통제권은 사용자에게 있습니다"
+    }
+  },
+  "footer": {
+    "copyright": "2026 {{brandName}}.",
+    "privacyPolicy": "개인정보처리방침",
+    "termsConditions": "이용약관",
+    "contact": "문의"
+  },
+  "detailedComparison": {
+    "title": "상세 비교",
+    "criteria": {
+      "visualDistinction": "시각적 차별성",
+      "matchesDialogueDna": "DIALOGUE 브랜드 DNA와의 일치",
+      "easyToType": "입력 용이성",
+      "conceptualFit": "개념 적합성",
+      "professionalFeel": "전문적 인상",
+      "recommendation": "추천"
+    },
+    "conceptualFitValues": {
+      "greekAlpha": "그리스 알파",
+      "cuttingLayers": "레이어 관통",
+      "topLayer": "최상위 레이어",
+      "multiLayer": "다층 구조"
+    },
+    "recommendations": {
+      "good": "좋음",
+      "best": "최고",
+      "great": "매우 좋음",
+      "bold": "대담함"
+    },
+    "recommendedBrand": {
+      "title": "추천: STRATUM",
+      "description": "가로 획이 들어간 T는 \"레이어를 관통한다\"는 의미를 정확히 드러내며, DIALOGUE의 O 브랜드 DNA(둘 다 글자 위에 선을 활용한 디자인)와도 잘 맞습니다. 시각적으로 강렬하고 \"인텔리전스의 레이어\"라는 개념과도 정렬되며, 단어 중앙에서 눈에 띄게 배치됩니다."
+    }
+  },
+  "variationCard": {
+    "specialCharacter": "특수 문자",
+    "colorPalette": "색상 팔레트",
+    "gradientPreview": "그라디언트 미리보기",
+    "inContext": "실사용 맥락",
+    "url": "URL",
+    "tagline": "태그라인",
+    "positioning": "포지셔닝",
+    "colors": {
+      "primary": "기본색",
+      "dark": "다크",
+      "gold": "골드"
+    }
+  },
+  "splitView": {
+    "typography": "타이포그래피",
+    "headingStyle": "헤딩 스타일",
+    "bodyText": "본문 텍스트와 설명은 가독성을 위해 일반 두께의 Inter를 사용합니다.",
+    "iconSymbol": "아이콘 심볼"
+  },
+  "guidelines": {
+    "similar": "유사",
+    "untitled": "제목 없는 가이드라인",
+    "status": {
+      "archived": "보관됨",
+      "default": "기본",
+      "active": "활성"
+    },
+    "activeCount": "{{count}}개 활성",
+    "clickToView": "클릭하여 보기",
+    "actions": {
+      "restore": "복원"
+    },
+    "emptyStates": {
+      "noGuidelines": {
+        "title": "아직 브랜드 가이드라인이 없습니다",
+        "description": "첫 번째 브랜드 가이드라인을 만들어 브랜드 정체성을 정립하세요"
+      },
+      "noArchivedGuidelines": {
+        "title": "보관된 가이드라인이 없습니다",
+        "description": "보관된 가이드라인이 여기에 표시됩니다"
+      }
+    },
+    "alerts": {
+      "multipleActive": {
+        "title": "활성 가이드라인이 여러 개 있습니다",
+        "description": "현재 활성 가이드라인이 {{count}}개 있습니다. 명확성을 위해 이전 버전을 보관하는 것을 고려하세요."
+      }
+    },
+    "stats": {
+      "totalGuidelines": "총 가이드라인 수",
+      "activeGuidelines": "활성 가이드라인",
+      "archivedGuidelines": "보관된 가이드라인"
+    },
+    "tabs": {
+      "active": "활성",
+      "archived": "보관됨",
+      "all": "전체"
+    },
+    "view": {
+      "title": "브랜드 가이드라인",
+      "tabs": {
+        "overview": "개요",
+        "voice": "보이스 및 톤",
+        "visual": "비주얼 아이덴티티",
+        "messaging": "메시징"
+      },
+      "sections": {
+        "toneOfVoice": "말투와 톤",
+        "personality": "브랜드 성격",
+        "writingStyle": "작성 스타일",
+        "doAndDont": "해야 할 것과 피해야 할 것",
+        "brandVoice": "브랜드 보이스",
+        "colorPalette": "색상 팔레트",
+        "typography": "타이포그래피",
+        "imagery": "이미지 가이드라인",
+        "tagline": "태그라인",
+        "valueProposition": "가치 제안",
+        "keyMessages": "핵심 메시지",
+        "targetAudience": "타깃 고객"
+      }
+    },
+    "forms": {
+      "strategy": {
+        "title": "브랜드 전략",
+        "badge": "전략",
+        "fields": {
+          "mission": {
+            "label": "미션 선언문",
+            "placeholder": "브랜드의 미션은 무엇인가요?"
+          },
+          "vision": {
+            "label": "비전 선언문",
+            "placeholder": "브랜드의 장기 비전은 무엇인가요?"
+          },
+          "values": {
+            "label": "핵심 가치",
+            "placeholder": "핵심 가치를 추가하세요"
+          },
+          "positioning": {
+            "label": "브랜드 포지셔닝",
+            "placeholder": "브랜드는 시장에서 어떤 위치를 차지하나요?"
+          },
+          "targetAudience": {
+            "label": "타깃 고객",
+            "placeholder": "타깃 고객은 누구인가요?"
+          },
+          "competitors": {
+            "label": "주요 경쟁사",
+            "placeholder": "경쟁사를 추가하세요"
+          },
+          "differentiators": {
+            "label": "핵심 차별점",
+            "placeholder": "차별점을 추가하세요"
+          }
+        }
+      },
+      "voice": {
+        "title": "브랜드 보이스",
+        "badge": "보이스",
+        "sections": {
+          "toneOfVoice": "말투와 톤",
+          "personality": "성격 특성",
+          "writingStyle": "작성 스타일",
+          "doAndDont": "해야 할 것과 하지 말아야 할 것"
+        },
+        "fields": {
+          "toneAttributes": {
+            "label": "톤 속성",
+            "placeholder": "톤 속성을 추가하세요 (예: 친근한, 전문적인)"
+          },
+          "toneDescription": {
+            "label": "톤 설명",
+            "placeholder": "브랜드의 전반적인 톤을 설명하세요"
+          },
+          "personalityTraits": {
+            "label": "성격 특성",
+            "placeholder": "성격 특성을 추가하세요"
+          },
+          "brandPersona": {
+            "label": "브랜드 페르소나",
+            "placeholder": "브랜드가 사람이라면 어떻게 설명하시겠습니까?"
+          },
+          "writingPrinciples": {
+            "label": "작성 원칙",
+            "placeholder": "작성 원칙을 추가하세요"
+          },
+          "grammarPreferences": {
+            "label": "문법 선호",
+            "placeholder": "특정 문법 선호가 있다면 입력하세요 (예: 옥스퍼드 쉼표, 축약형 사용)"
+          },
+          "vocabularyGuidelines": {
+            "label": "어휘 가이드라인",
+            "placeholder": "어휘 사용 가이드라인"
+          },
+          "dos": {
+            "label": "해야 할 것",
+            "placeholder": "브랜드가 해야 할 행동을 추가하세요"
+          },
+          "donts": {
+            "label": "하지 말아야 할 것",
+            "placeholder": "브랜드가 피해야 할 행동을 추가하세요"
+          }
+        }
+      },
+      "messaging": {
+        "title": "메시징",
+        "badge": "메시징",
+        "fields": {
+          "tagline": {
+            "label": "태그라인",
+            "placeholder": "브랜드의 태그라인 또는 슬로건"
+          },
+          "valueProposition": {
+            "label": "가치 제안",
+            "placeholder": "브랜드가 제공하는 고유한 가치는 무엇인가요?"
+          },
+          "elevatorPitch": {
+            "label": "엘리베이터 피치",
+            "placeholder": "브랜드를 짧고 설득력 있게 설명해 보세요"
+          },
+          "keyMessages": {
+            "label": "핵심 메시지",
+            "placeholder": "핵심 메시지를 추가하세요"
+          },
+          "proofPoints": {
+            "label": "근거 요소",
+            "placeholder": "주장을 뒷받침하는 근거를 추가하세요"
+          },
+          "callToAction": {
+            "label": "주요 행동 유도 문구",
+            "placeholder": "가장 중요한 행동 유도 문구"
+          }
+        }
+      },
+      "visual": {
+        "title": "비주얼 아이덴티티",
+        "badge": "비주얼",
+        "fields": {
+          "primaryColors": {
+            "label": "기본 색상",
+            "placeholder": "기본 색상을 추가하세요 (예: #FF5733)"
+          },
+          "secondaryColors": {
+            "label": "보조 색상",
+            "placeholder": "보조 색상을 추가하세요"
+          },
+          "accentColors": {
+            "label": "포인트 색상",
+            "placeholder": "포인트 색상을 추가하세요"
+          },
+          "primaryFont": {
+            "label": "기본 글꼴",
+            "placeholder": "기본 서체 (예: Inter, Roboto)"
+          },
+          "secondaryFont": {
+            "label": "보조 글꼴",
+            "placeholder": "보조 서체"
+          },
+          "fontSizeScale": {
+            "label": "글꼴 크기 체계",
+            "placeholder": "글꼴 크기 체계 또는 시스템"
+          },
+          "logoUsage": {
+            "label": "로고 사용 가이드라인",
+            "placeholder": "로고 사용 규칙을 설명하세요"
+          },
+          "imageryStyle": {
+            "label": "이미지 스타일",
+            "placeholder": "브랜드가 사용하는 이미지 스타일을 설명하세요"
+          },
+          "iconStyle": {
+            "label": "아이콘 스타일",
+            "placeholder": "아이콘 스타일을 설명하세요"
+          },
+          "photographyGuidelines": {
+            "label": "사진 가이드라인",
+            "placeholder": "브랜드 사진 사용 가이드라인"
+          }
+        }
+      }
+    }
+  },
+  "editor": {
+    "title": "화이트라벨 브랜드 키트 편집기",
+    "description": "브랜드 아이덴티티로 플랫폼을 맞춤 설정하세요",
+    "previewMode": "미리보기 모드",
+    "export": "내보내기",
+    "import": "가져오기",
+    "sections": {
+      "companyIdentity": "회사 아이덴티티",
+      "colorPalette": "색상 팔레트",
+      "typography": "타이포그래피",
+      "uiPreferences": "UI 환경설정",
+      "customCss": "커스텀 CSS (고급)"
+    },
+    "fields": {
+      "companyName": "회사명",
+      "logoUrl": "로고 URL",
+      "primaryColor": "기본 색상",
+      "secondaryColor": "보조 색상",
+      "accentColor": "포인트 색상",
+      "headingFont": "헤딩 글꼴",
+      "bodyFont": "본문 글꼴",
+      "borderRadius": "모서리 반경",
+      "contentDensity": "콘텐츠 밀도"
+    },
+    "placeholders": {
+      "companyName": "회사 이름",
+      "logoUrl": "https://example.com/logo.png",
+      "customCss": "/* 여기에 커스텀 CSS를 추가하세요 */\n.your-class {\n  property: value;\n}"
+    },
+    "options": {
+      "borderRadius": {
+        "none": "없음 (사각형)",
+        "small": "작게",
+        "medium": "보통",
+        "large": "크게",
+        "extraLarge": "매우 크게"
+      },
+      "density": {
+        "comfortable": "편안함",
+        "compact": "촘촘함",
+        "spacious": "여유 있음"
+      }
+    },
+    "buttons": {
+      "resetToDefault": "기본값으로 재설정",
+      "preview": "미리보기",
+      "saveAndApply": "저장 후 적용"
+    }
+  }
+}

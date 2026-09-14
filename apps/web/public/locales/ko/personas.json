@@ -1,0 +1,140 @@
+{
+  "title": "고객 페르소나",
+  "subtitle": "타깃 고객을 이해하고 정의하세요",
+  "list": {
+    "title": "모든 페르소나",
+    "empty": "아직 페르소나가 없습니다",
+    "emptyDescription": "첫 번째 페르소나를 만들어 타깃 고객을 이해하기 시작하세요",
+    "createFirst": "첫 페르소나 만들기",
+    "loading": "페르소나를 불러오는 중...",
+    "primary": "주요",
+    "archived": "보관됨",
+    "restore": "복원",
+    "interview": "인터뷰"
+  },
+  "form": {
+    "create": "페르소나 만들기",
+    "edit": "페르소나 수정",
+    "sections": {
+      "basic": "기본 정보",
+      "demographics": "인구통계 정보",
+      "psychographics": "심리 특성",
+      "behaviors": "행동 특성",
+      "journey": "구매 여정"
+    },
+    "fields": {
+      "name": "페르소나 이름",
+      "namePlaceholder": "예: 마케팅 매니저 민지",
+      "avatar": "아바타",
+      "description": "설명",
+      "descriptionPlaceholder": "이 페르소나에 대한 간단한 설명",
+      "age": "연령대",
+      "gender": "성별",
+      "location": "지역",
+      "income": "소득 수준",
+      "education": "학력",
+      "jobTitle": "직무",
+      "industry": "업종",
+      "companySize": "회사 규모",
+      "goals": "목표 및 동기",
+      "goalsPlaceholder": "이 페르소나는 무엇을 이루고 싶어 하나요?",
+      "painPoints": "문제점 및 과제",
+      "painPointsPlaceholder": "어떤 문제를 겪고 있나요?",
+      "values": "가치관 및 우선순위",
+      "interests": "관심사 및 취미",
+      "mediaConsumption": "미디어 소비 패턴",
+      "preferredChannels": "선호 채널",
+      "buyingBehavior": "구매 행동",
+      "decisionFactors": "의사결정 요인",
+      "objections": "주요 반대 요소"
+    },
+    "validation": {
+      "nameRequired": "페르소나 이름은 필수입니다"
+    }
+  },
+  "detail": {
+    "overview": "개요",
+    "journey": "구매 여정",
+    "messaging": "메시지 가이드",
+    "campaigns": "관련 캠페인"
+  },
+  "journey": {
+    "stages": {
+      "awareness": "인지",
+      "consideration": "고려",
+      "decision": "결정",
+      "retention": "유지",
+      "advocacy": "추천"
+    },
+    "fields": {
+      "touchpoints": "접점",
+      "content": "필요한 콘텐츠",
+      "questions": "핵심 질문",
+      "actions": "원하는 행동"
+    }
+  },
+  "actions": {
+    "create": "페르소나 만들기",
+    "edit": "수정",
+    "duplicate": "복제",
+    "archive": "보관",
+    "delete": "삭제",
+    "export": "내보내기",
+    "viewDetails": "상세 보기",
+    "generateWithAI": "AI로 생성",
+    "moreOptions": "추가 옵션"
+  },
+  "filters": {
+    "all": "모든 페르소나",
+    "active": "활성",
+    "archived": "보관됨",
+    "search": "페르소나 검색..."
+  },
+  "confirmDelete": {
+    "title": "페르소나 삭제",
+    "message": "이 페르소나를 삭제하시겠습니까? 이 페르소나를 사용한 캠페인에는 영향을 주지 않습니다.",
+    "confirm": "삭제",
+    "cancel": "취소"
+  },
+  "aiGeneration": {
+    "title": "AI로 페르소나 생성",
+    "description": "타깃 고객을 설명하면 AI가 상세한 페르소나를 만들어 드립니다",
+    "placeholder": "이상적인 고객의 역할, 업종, 과제, 찾고 있는 것을 설명해 주세요...",
+    "generate": "페르소나 생성",
+    "generating": "생성 중..."
+  },
+  "sidebar": {
+    "expandTooltip": "사이드바 펼치기",
+    "collapseTooltip": "사이드바 접기",
+    "createTooltip": "새 페르소나 만들기",
+    "header": "페르소나 에이전트",
+    "tabs": {
+      "history": "기록",
+      "outputs": "페르소나"
+    },
+    "newPersona": "새 페르소나",
+    "newChat": "새 채팅",
+    "viewActive": "활성 보기",
+    "viewArchived": "보관 항목 보기",
+    "loading": "페르소나를 불러오는 중...",
+    "emptyPersonas": "아직 생성된 페르소나가 없습니다",
+    "emptyPersonasDescription": "첫 번째 페르소나를 만들어 고객을 이해하기 시작하세요",
+    "createFirstPersona": "첫 페르소나 만들기",
+    "emptyHistory": "아직 채팅 기록이 없습니다",
+    "emptyHistoryDescription": "페르소나와 인터뷰를 시작하면 기록이 여기에 표시됩니다",
+    "untitledSession": "제목 없는 세션",
+    "messages": "메시지 {{count}}개",
+    "archived": "보관됨",
+    "primary": "주요",
+    "sessionActions": {
+      "rename": "세션 이름 변경",
+      "export": "세션 내보내기",
+      "duplicate": "세션 복제"
+    }
+  },
+  "relativeTime": {
+    "justNow": "방금 전",
+    "hoursAgo": "{{count}}시간 전",
+    "daysAgo": "{{count}}일 전"
+  }
+}

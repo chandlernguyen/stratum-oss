@@ -1,0 +1,490 @@
+{
+  "aria": {
+    "bottomNavigation": "下部ナビゲーション",
+    "breadcrumb": "パンくずリスト",
+    "openMenu": "メニューを開く"
+  },
+  "buttons": {
+    "save": "保存",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "delete": "削除",
+    "edit": "編集",
+    "create": "作成",
+    "add": "追加",
+    "remove": "削除",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "submit": "送信",
+    "loading": "読み込み中...",
+    "retry": "再試行",
+    "continue": "続ける",
+    "skip": "スキップ",
+    "done": "完了",
+    "view": "表示",
+    "viewAll": "すべて表示",
+    "learnMore": "詳しく見る",
+    "getStarted": "始める",
+    "signUp": "登録",
+    "signIn": "ログイン",
+    "signOut": "ログアウト",
+    "upgrade": "アップグレード",
+    "download": "ダウンロード",
+    "export": "エクスポート",
+    "import": "インポート",
+    "refresh": "更新",
+    "search": "検索",
+    "filter": "絞り込み",
+    "sort": "並び替え",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "share": "共有",
+    "archive": "アーカイブ",
+    "restore": "復元",
+    "newSession": "新しいセッション"
+  },
+  "labels": {
+    "name": "名前",
+    "email": "メール",
+    "password": "パスワード",
+    "phone": "電話番号",
+    "description": "説明",
+    "title": "タイトル",
+    "status": "ステータス",
+    "date": "日付",
+    "time": "時間",
+    "type": "種類",
+    "category": "カテゴリ",
+    "tags": "タグ",
+    "notes": "メモ",
+    "actions": "操作",
+    "settings": "設定",
+    "profile": "プロフィール",
+    "account": "アカウント",
+    "preferences": "設定",
+    "language": "言語",
+    "notifications": "通知",
+    "privacy": "プライバシー",
+    "security": "セキュリティ",
+    "help": "ヘルプ",
+    "support": "サポート",
+    "feedback": "フィードバック",
+    "optional": "任意",
+    "required": "必須"
+  },
+  "status": {
+    "active": "有効",
+    "inactive": "無効",
+    "pending": "保留中",
+    "completed": "完了",
+    "failed": "失敗",
+    "processing": "処理中",
+    "draft": "下書き",
+    "published": "公開済み",
+    "archived": "アーカイブ済み",
+    "deleted": "削除済み"
+  },
+  "errors": {
+    "generic": "問題が発生しました。もう一度お試しください。",
+    "networkError": "ネットワークエラーです。接続状況をご確認ください。",
+    "serverError": "サーバーエラーです。しばらくしてからもう一度お試しください。",
+    "notFound": "対象が見つかりません。",
+    "unauthorized": "この操作を行う権限がありません。",
+    "forbidden": "アクセスが拒否されました。",
+    "validationError": "入力内容を確認して、もう一度お試しください。",
+    "timeout": "リクエストがタイムアウトしました。もう一度お試しください。",
+    "sessionExpired": "セッションの有効期限が切れました。再度ログインしてください。"
+  },
+  "success": {
+    "saved": "変更を保存しました。",
+    "created": "作成しました。",
+    "updated": "更新しました。",
+    "deleted": "削除しました。",
+    "copied": "クリップボードにコピーしました。",
+    "exported": "エクスポートしました。",
+    "imported": "インポートしました。"
+  },
+  "confirm": {
+    "delete": {
+      "title": "項目を削除",
+      "description": "この項目を削除してもよろしいですか？ この操作は元に戻せません。",
+      "confirmButton": "完全に削除",
+      "cancelButton": "キャンセル"
+    },
+    "unsavedChanges": {
+      "title": "未保存の変更があります",
+      "description": "保存されていない変更があります。このまま移動してもよろしいですか？",
+      "confirmButton": "移動する",
+      "cancelButton": "このまま留まる"
+    },
+    "archive": {
+      "title": "項目をアーカイブ",
+      "description": "この項目をアーカイブしてもよろしいですか？",
+      "confirmButton": "アーカイブ",
+      "cancelButton": "キャンセル",
+      "reasonLabel": "アーカイブ理由（任意）",
+      "reasonPlaceholder": "例: 古い戦略、完了した案件、不要になったため...",
+      "reasonHelp": "この理由は監査目的で保存され、後からアーカイブ済み項目を見直す際の参考になります。",
+      "reversibleTitle": "アーカイブは元に戻せます",
+      "reversibleMessage": "この{{itemName}}は、アーカイブ済み項目の一覧からいつでも復元できます。"
+    },
+    "warning": {
+      "confirmButton": "続ける"
+    },
+    "info": {
+      "confirmButton": "確認"
+    },
+    "deleteTip": "ヒント: 後で必要になる可能性がある場合は、削除ではなくアーカイブを検討してください。アーカイブした項目はいつでも復元できます。",
+    "processing": "処理中..."
+  },
+  "empty": {
+    "noResults": "結果が見つかりません。",
+    "noData": "利用できるデータがありません。",
+    "noItems": "まだ項目がありません。",
+    "noMatches": "検索条件に一致するものがありません。"
+  },
+  "loading": {
+    "default": "読み込み中...",
+    "pleaseWait": "しばらくお待ちください...",
+    "processing": "処理中...",
+    "saving": "保存中...",
+    "fetching": "データを取得中..."
+  },
+  "time": {
+    "justNow": "たった今",
+    "minutesAgo": "{{count}}分前",
+    "minutesAgo_other": "{{count}}分前",
+    "hoursAgo": "{{count}}時間前",
+    "hoursAgo_other": "{{count}}時間前",
+    "daysAgo": "{{count}}日前",
+    "daysAgo_other": "{{count}}日前",
+    "today": "今日",
+    "yesterday": "昨日",
+    "tomorrow": "明日"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "dashboard": "ダッシュボード",
+    "overview": "概要",
+    "campaigns": "キャンペーン",
+    "agents": "エージェント",
+    "library": "ライブラリ",
+    "approved": "承認済み",
+    "team": "チーム",
+    "tasks": "タスク",
+    "search": "検索",
+    "more": "その他",
+    "settings": "設定",
+    "profile": "プロフィール",
+    "myProfile": "マイプロフィール",
+    "billing": "請求とプラン",
+    "feedback": "フィードバック",
+    "contactUs": "お問い合わせ",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsConditions": "利用規約",
+    "signOut": "ログアウト",
+    "help": "ヘルプ",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "intelligence": "インテリジェンス",
+    "clients": "クライアント",
+    "agencyOverview": "代理店概要",
+    "requestAccess": "登録",
+    "account": "アカウント",
+    "accountOptions": "アカウント設定",
+    "request": "リクエスト",
+    "pricing": "料金",
+    "blog": "ブログ",
+    "whiteLabel": "ホワイトラベル",
+    "accountTypes": {
+      "agency": "代理店アカウント",
+      "sme": "中小企業アカウント"
+    }
+  },
+  "auth": {
+    "signIn": "ログイン",
+    "signUp": "登録",
+    "alreadyHaveAccount": "すでにアカウントをお持ちですか？",
+    "haveInvitation": "招待をお持ちですか？ 今すぐ参加"
+  },
+  "breadcrumbs": {
+    "campaign": "キャンペーン",
+    "businessStrategy": "事業戦略",
+    "personas": "ペルソナ",
+    "marketingStrategy": "マーケティング戦略",
+    "content": "コンテンツ",
+    "analytics": "分析",
+    "roiBudget": "ROIと予算",
+    "campaignExecution": "キャンペーン実行計画",
+    "competitiveIntelligence": "競合インテリジェンス",
+    "clientSuccess": "クライアント成功支援",
+    "quickWins": "クイックウィン",
+    "switchClient": "クライアントを切り替える",
+    "contentCreation": "コンテンツ制作",
+    "strategy": "戦略",
+    "strategyAgent": "戦略エージェント",
+    "personaAgent": "ペルソナエージェント",
+    "contentAgent": "コンテンツエージェント",
+    "analyticsAgent": "分析エージェント",
+    "campaignPlanning": "キャンペーン計画",
+    "performanceIntelligence": "パフォーマンスインテリジェンス",
+    "client": "クライアント"
+  },
+  "clientLayout": {
+    "clientNotFound": "クライアントが見つからないか、アクセス権がありません",
+    "loadingClientData": "クライアントデータを読み込み中...",
+    "clientFeatureName": "クライアントワークスペース",
+    "noAccessMessage": "このクライアントワークスペースへのアクセス権がありません。代理店管理者にお問い合わせください。"
+  },
+  "clientPortal": {
+    "title": "クライアントポータル",
+    "review": "レビュー",
+    "loading": "ワークスペースを読み込み中...",
+    "noAccess": "クライアントアクセスなし",
+    "noAccessDescription": "アクセス可能なクライアントワークスペースがありません。代理店にお問い合わせください。"
+  },
+  "footer": {
+    "copyright": "© 2026 STRAŦUM. All rights reserved.",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "contact": "お問い合わせ",
+    "pricing": "料金",
+    "blog": "ブログ",
+    "tagline": "実行より先に、インテリジェンス。"
+  },
+  "theme": {
+    "light": "ライト",
+    "dark": "ダーク",
+    "switchToLight": "ライトモードに切り替える",
+    "switchToDark": "ダークモードに切り替える"
+  },
+  "language": {
+    "switchToVietnamese": "ベトナム語に切り替える",
+    "switchToEnglish": "英語に切り替える"
+  },
+  "session": {
+    "untitled": "無題のセッション",
+    "archived": "アーカイブ済み",
+    "message": "{{count}}件のメッセージ",
+    "message_other": "{{count}}件のメッセージ",
+    "actions": {
+      "rename": "セッション名を変更",
+      "export": "セッションをエクスポート",
+      "duplicate": "セッションを複製",
+      "restore": "復元",
+      "archive": "アーカイブ",
+      "delete": "削除"
+    }
+  },
+  "approvals": {
+    "title": "承認待ち",
+    "from": "{{name}}から",
+    "reviewContent": "内容を確認",
+    "contentNotAvailable": "確認できる内容がありません",
+    "viewToApprove": "内容を確認し、承認または修正依頼を行ってください",
+    "noPending": "承認待ちはありません",
+    "allCaughtUp": "すべて確認済みです",
+    "viewAll": "すべて表示",
+    "priority": {
+      "low": "低",
+      "normal": "通常",
+      "high": "高",
+      "urgent": "緊急"
+    }
+  },
+  "feedback": {
+    "pageTitle": "フィードバック",
+    "title": "フィードバックを共有",
+    "subtitle": "感想、提案、不具合報告を通じてSTRAŦUMの改善にご協力ください。",
+    "categoryLabel": "カテゴリ",
+    "categoryPlaceholder": "カテゴリを選択",
+    "feedbackLabel": "フィードバック内容",
+    "feedbackPlaceholder": "気づいたことをお聞かせください...",
+    "submitButton": "フィードバックを送信",
+    "submitting": "送信中...",
+    "privacyNote": "フィードバックは非公開で、STRAŦUMチームのみが確認できます。",
+    "successTitle": "送信しました",
+    "successMessage": "STRAŦUMの改善にご協力いただきありがとうございます。いただいた声は大切に活用します。",
+    "submitAnother": "続けて送信する",
+    "categories": {
+      "generalFeedback": {
+        "label": "全体的なフィードバック",
+        "description": "STRAŦUM全体に関する感想"
+      },
+      "agentPerformance": {
+        "label": "エージェントの品質",
+        "description": "Strategy、Persona、Contentなどへのフィードバック"
+      },
+      "featureRequest": {
+        "label": "機能要望",
+        "description": "新機能や改善案の提案"
+      },
+      "bugReport": {
+        "label": "不具合報告",
+        "description": "技術的な問題やエラーの報告"
+      },
+      "userExperience": {
+        "label": "ユーザー体験",
+        "description": "UI/UXに関するフィードバック"
+      },
+      "dataAccuracy": {
+        "label": "データ精度",
+        "description": "誤りや誤解を招くAI出力の報告"
+      }
+    },
+    "validation": {
+      "feedbackRequired": "フィードバック内容は必須です",
+      "feedbackMinLength": "フィードバックは{{min}}文字以上で入力してください",
+      "feedbackMaxLength": "フィードバックは{{max}}文字以内で入力してください",
+      "categoryRequired": "カテゴリを選択してください"
+    },
+    "messages": {
+      "authError": "認証エラーです。ページを再読み込みしてください。",
+      "submitError": "フィードバックの送信に失敗しました。もう一度お試しください。",
+      "unexpectedError": "予期しないエラーが発生しました。もう一度お試しください。",
+      "thankYou": "フィードバックありがとうございます。"
+    }
+  },
+  "chat": {
+    "showSuggestions": "候補を表示",
+    "hideSuggestions": "候補を隠す",
+    "sendMessage": "メッセージを送信",
+    "analyzing": "次の実行アクションを分析中...",
+    "analyzingStrategy": "マーケティング戦略の要素を分析中..."
+  },
+  "search": {
+    "placeholder": "検索..."
+  },
+  "notifications": {
+    "count": "{{count}}件の通知",
+    "count_one": "{{count}}件の通知",
+    "noNotifications": "まだ通知はありません",
+    "viewAll": "{{count}}件の通知をすべて表示"
+  },
+  "protectedRoute": {
+    "initializingAuth": "認証を初期化中...",
+    "loadingWorkspace": "ワークスペースを読み込み中..."
+  },
+  "security": {
+    "secureWorkspace": "安全なワークスペース",
+    "workingInWorkspace": "{{clientName}}のワークスペースで作業中",
+    "dataProtected": "データ保護済み",
+    "enterpriseGradeSecurity": "企業水準のセキュリティ",
+    "dataIsolation": "完全なデータ分離",
+    "endToEndEncryption": "エンドツーエンド暗号化",
+    "soc2Compliant": "SOC 2準拠",
+    "aiPrivate": "AIデータは非公開のまま保持",
+    "currentlyWorkingIn": "現在の作業先"
+  },
+  "archiveReasonDialog": {
+    "description": "\"{{resourceName}}\"をアクティブ表示から外しますが、データは保持されます。アーカイブ済み一覧からいつでも復元できます。",
+    "archiving": "アーカイブ中...",
+    "archiveButton": "{{resourceDisplayName}}をアーカイブ"
+  },
+  "deleteConfirmDialog": {
+    "title": "本当に実行しますか？",
+    "archivedDescription": "この{{itemName}}はすでにアーカイブされています。削除するとシステムから完全に消去され、この操作は元に戻せません。",
+    "activeDescription": "{{itemName}}と関連データを完全に削除します。この操作は元に戻せません。",
+    "item": "項目",
+    "thisItem": "この項目"
+  },
+  "languageSwitcher": {
+    "ariaLabel": "現在の言語: {{language}}。クリックして変更します。"
+  },
+  "outputBrowser": {
+    "loading": "保存済みアウトプットを読み込み中...",
+    "savedOutputs": "保存済みアウトプット",
+    "searchPlaceholder": "アウトプットを検索...",
+    "allAgents": "すべてのエージェント",
+    "agents": {
+      "strategy": "戦略",
+      "persona": "ペルソナ",
+      "content": "コンテンツ",
+      "analytics": "分析"
+    },
+    "sortBy": {
+      "recent": "新しい順",
+      "popular": "人気順",
+      "topRated": "高評価順"
+    },
+    "suggestedFor": "{{agent}}向けの候補",
+    "noSavedOutputs": "まだ保存済みアウトプットはありません。",
+    "saveHint": "エージェントの回答を保存して、後から再利用しましょう。",
+    "noMatchingOutputs": "条件に一致するアウトプットがありません。",
+    "views": "{{count}}回表示",
+    "views_one": "{{count}}回表示",
+    "reuses": "{{count}}回再利用",
+    "reuses_one": "{{count}}回再利用",
+    "selected": "{{count}}件選択中",
+    "useSelected": "選択した{{count}}件を使う",
+    "weeksAgo": "{{count}}週間前",
+    "weeksAgo_one": "{{count}}週間前"
+  },
+  "quickSave": {
+    "quickSave": "クイック保存",
+    "saved": "保存済み",
+    "saving": "保存中...",
+    "saveWithDetails": "詳細を付けて保存",
+    "copyToClipboard": "クリップボードにコピー"
+  },
+  "relatedOutputs": {
+    "title": "関連する作業",
+    "description": "{{agent}}の作業に役立ちそうな過去のアウトプット",
+    "hide": "関連アウトプットを隠す",
+    "show": "関連アウトプットを表示",
+    "smartSuggestions": "スマート提案",
+    "fromRelatedAgents": "関連エージェントから",
+    "useAsContext": "文脈として使う",
+    "usedTimes": "{{count}}回使用",
+    "usedTimes_one": "{{count}}回使用",
+    "emptyState": "まだ関連アウトプットはありません。まず他のエージェントを使って、{{agent}}の作業に必要な文脈を作りましょう。",
+    "loading": "関連アウトプットを読み込み中...",
+    "copyError": "クリップボードへのコピーに失敗しました"
+  },
+  "resourceActions": {
+    "actionsFor": "{{name}}に対する操作",
+    "view": "{{name}}を表示",
+    "edit": "{{name}}を編集",
+    "copyContent": "内容をコピー",
+    "restore": "{{name}}を復元",
+    "restoring": "復元中...",
+    "archive": "{{name}}をアーカイブ",
+    "archiving": "アーカイブ中...",
+    "deleting": "削除中..."
+  },
+  "saveOutputDialog": {
+    "title": "{{agentType}}のアウトプットを保存",
+    "description": "後から参照できるよう、タイトルとタグを追加して保存します",
+    "saveWithDetails": "詳細付きで保存 (Cmd+S)",
+    "titleLabel": "タイトル",
+    "titlePlaceholder": "{{date}}の{{agentType}}分析",
+    "tagsPlaceholder": "カスタムタグを追加...",
+    "suggestedTags": "おすすめタグ:",
+    "contentPreview": "内容プレビュー",
+    "words": "{{count}}語",
+    "words_one": "{{count}}語",
+    "minRead": "読了目安 {{count}}分",
+    "outputType": "{{agentType}}アウトプット",
+    "structuredData": "構造化データ",
+    "structuredDataHint": "他のエージェントでも再利用できる構造化分析データを含みます",
+    "keyboardHint": "Cmd+Enterで素早く保存できます",
+    "saveOutput": "アウトプットを保存"
+  },
+  "smartStart": {
+    "preparingSuggestions": "スマート提案を準備中...",
+    "readyToWork": "{{agent}}エージェントで作業を始める準備ができました",
+    "smartSuggestions": "スマート提案",
+    "continuePreviousWork": "以前の作業を続ける",
+    "fromAgent": "{{agent}}から",
+    "uses": "{{count}}回利用",
+    "uses_one": "{{count}}回利用",
+    "workflowTip": "ワークフローヒント",
+    "workflowTipSuffix": "上の提案をクリックしてその文脈を引き継ぐか、下から新しく始められます。",
+    "startFresh": "新しく始める",
+    "useBestMatch": "最適な候補を使う",
+    "readyForFreshIdeas": "新しいアイデアを始める準備完了",
+    "noPreviousWork": "過去の作業は見つかりませんでした。ここから{{agent}}の土台を作り始めるのに最適です。"
+  }
+}

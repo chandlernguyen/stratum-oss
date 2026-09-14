@@ -1,0 +1,138 @@
+{
+  "businessContext": {
+    "title": "{{orgName}}へようこそ",
+    "titleDefault": "STRAŦUMへようこそ",
+    "subtitle": "いくつかの情報を入力して、AI体験をあなたのビジネス向けに最適化しましょう",
+    "form": {
+      "industry": {
+        "label": "業界",
+        "placeholder": "業界を選択",
+        "required": "*"
+      },
+      "companySize": {
+        "label": "企業規模",
+        "placeholder": "企業規模を選択",
+        "required": "*"
+      },
+      "description": {
+        "label": "事業内容",
+        "optional": "(任意)",
+        "placeholder": "ビジネス、製品、サービスについて教えてください..."
+      }
+    },
+    "validation": {
+      "requiredFields": "続けるには、業界と企業規模の両方を選択してください"
+    },
+    "buttons": {
+      "submit": "始める",
+      "submitting": "保存中...",
+      "skip": "今はスキップ"
+    },
+    "errors": {
+      "organizationNotFound": "組織が見つかりません",
+      "saveFailed": "ビジネスコンテキストを保存できませんでした"
+    }
+  },
+  "industries": {
+    "advertisingMarketing": "広告・マーケティング",
+    "agricultureFarming": "農業",
+    "automotive": "自動車",
+    "construction": "建設",
+    "consulting": "コンサルティング",
+    "ecommerce": "Eコマース",
+    "education": "教育",
+    "energyUtilities": "エネルギー・公益",
+    "entertainmentMedia": "エンターテインメント・メディア",
+    "financeBanking": "金融・銀行",
+    "foodBeverage": "食品・飲料",
+    "healthcare": "ヘルスケア",
+    "hospitalityTourism": "宿泊・観光",
+    "insurance": "保険",
+    "legalServices": "法務サービス",
+    "manufacturing": "製造",
+    "nonprofit": "非営利",
+    "professionalServices": "専門サービス",
+    "realEstate": "不動産",
+    "retail": "小売",
+    "saasSoftware": "SaaS / ソフトウェア",
+    "technology": "テクノロジー",
+    "telecommunications": "通信",
+    "transportationLogistics": "運輸・物流",
+    "other": "その他"
+  },
+  "companySizes": {
+    "1-10": "1〜10名",
+    "11-50": "11〜50名",
+    "51-200": "51〜200名",
+    "201-500": "201〜500名",
+    "500+": "500名以上"
+  },
+  "progress": {
+    "step": "ステップ {{current}} / {{total}}",
+    "businessDetails": "事業情報",
+    "complete": "完了"
+  },
+  "flow": {
+    "stepOf": "ステップ {{current}} / {{total}}",
+    "estimatedTime": "想定時間: {{time}}",
+    "rewardPreview": "得られるもの: {{reward}}",
+    "steps": {
+      "welcome": {
+        "title": "あなた専用のAIマーケティングチームへようこそ",
+        "description": "9体の専門AIエージェントが、あなたのマーケティングを前進させる準備を整えています。まずは5分以内で1つ成果を出しましょう。",
+        "estimatedTime": "10秒",
+        "reward": "AIチームを知る"
+      },
+      "chooseGoal": {
+        "title": "今日の最優先目標は何ですか？",
+        "description": "今のニーズに合わせて、すぐ使える成果につながるサポートを行います。",
+        "estimatedTime": "30秒",
+        "reward": "最適な提案を受け取る"
+      },
+      "quickWin": {
+        "title": "最初のクイックウィンを得る",
+        "description": "テンプレートを選んで、AIドリブンなマーケティングの力を体験しましょう。",
+        "estimatedTime": "2〜5分",
+        "reward": "実際のマーケティング価値を得る"
+      }
+    },
+    "features": {
+      "aiAgents": {
+        "title": "9体のAIエージェント",
+        "description": "それぞれが異なるマーケティング領域に特化"
+      },
+      "builtForTeams": {
+        "title": "チームで使える設計",
+        "description": "中小企業にも代理店にも適しています"
+      },
+      "quickResults": {
+        "title": "すばやい成果",
+        "description": "何時間もかけず、数分で価値ある示唆を得られます"
+      }
+    },
+    "buttons": {
+      "skipTour": "ツアーをスキップ",
+      "skipsLeft": "残り{{count}}回",
+      "back": "戻る",
+      "continue": "続ける",
+      "chooseTemplate": "テンプレートを選ぶ",
+      "exploreOnOwn": "自分で探索する"
+    }
+  },
+  "quickWin": {
+    "categories": {
+      "all": "すべて",
+      "analysis": "分析",
+      "content": "コンテンツ",
+      "strategy": "戦略",
+      "growth": "成長"
+    },
+    "youllGet": "得られるもの",
+    "difficulty": {
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級"
+    },
+    "noTemplates": "このカテゴリにはテンプレートがありません"
+  }
+}

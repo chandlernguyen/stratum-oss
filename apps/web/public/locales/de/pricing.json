@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "Preise"
+  },
+  "hero": {
+    "title": "Einfache, transparente Preise",
+    "subtitle": "30 Tage kostenlose Testversion bei jedem Plan. Keine Kreditkarte erforderlich. Jederzeit kündbar."
+  },
+  "tiers": {
+    "solo": {
+      "name": "Solo",
+      "description": "Für einzelne Marketer und Berater",
+      "features": {
+        "agents": "Alle 9 KI-Agenten",
+        "seats": "1 Teammitglied",
+        "sessions": "Unbegrenzte Sitzungen"
+      }
+    },
+    "team": {
+      "name": "Team",
+      "description": "Für kleine Marketingteams",
+      "features": {
+        "agents": "Alle 9 KI-Agenten",
+        "seats": "Bis zu 3 Teammitglieder",
+        "sessions": "Unbegrenzte Sitzungen",
+        "collaboration": "Teamzusammenarbeit"
+      }
+    },
+    "agency": {
+      "name": "Agentur",
+      "description": "Für Agenturen, die mehrere Kunden verwalten",
+      "features": {
+        "agents": "Alle 9 KI-Agenten",
+        "seats": "Bis zu 10 Teammitglieder",
+        "clients": "Bis zu 5 Kunden",
+        "clientSuccess": "Client-Success-Agent"
+      }
+    }
+  },
+  "perMonth": "/Monat",
+  "perSeat": "pro Platz",
+  "recommended": "Empfohlen",
+  "startTrial": "Kostenlose Testversion starten",
+  "getStarted": "Loslegen",
+  "comparison": {
+    "title": "STRATUM im Vergleich",
+    "subtitle": "Sehen Sie, wie wir im Vergleich zu den Alternativen abschneiden.",
+    "stratum": "STRATUM",
+    "competitor1": "Enterprise-CRM-Suite",
+    "competitor2": "KI-Content-Plattform",
+    "competitor3": "Werbeautomatisierungs-Tool",
+    "capabilities": {
+      "strategicIntelligence": "Strategische Intelligence",
+      "creativeGeneration": "Kreative Generierung",
+      "performanceAnalysis": "Performance-Analyse",
+      "learningAdaptation": "Lernen & Anpassung",
+      "executionRisk": "Umsetzungsrisiko",
+      "multiClient": "Nativ Multi-Client",
+      "startingPrice": "Einstiegspreis"
+    },
+    "values": {
+      "stratum": {
+        "strategicIntelligence": "11+ Frameworks",
+        "creativeGeneration": "9 Content-Tools",
+        "performanceAnalysis": "Kanalübergreifend",
+        "learningAdaptation": "Kontinuierlich",
+        "executionRisk": "Keines (nur lesend)",
+        "multiClient": "Integriert",
+        "startingPrice": "29 $/Monat"
+      },
+      "competitor1": {
+        "strategicIntelligence": "Einfach",
+        "creativeGeneration": "Eingeschränkt",
+        "performanceAnalysis": "CRM-fokussiert",
+        "learningAdaptation": "Eingeschränkt",
+        "executionRisk": "Mittel",
+        "multiClient": "--",
+        "startingPrice": "800+ $/Monat"
+      },
+      "competitor2": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "Nur Content",
+        "performanceAnalysis": "--",
+        "learningAdaptation": "--",
+        "executionRisk": "Keines",
+        "multiClient": "--",
+        "startingPrice": "39+ $/Monat"
+      },
+      "competitor3": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "--",
+        "performanceAnalysis": "Nur bezahlt",
+        "learningAdaptation": "Eingeschränkt",
+        "executionRisk": "Hoch",
+        "multiClient": "Eingeschränkt",
+        "startingPrice": "2.000+ $/Monat"
+      }
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Wie funktioniert die 30-tägige kostenlose Testversion?",
+        "answer": "Jeder Plan beinhaltet eine 30-tägige kostenlose Testversion. Keine Kreditkarte zum Start erforderlich. Sie erhalten vollen Zugriff auf alle Funktionen während der Testphase."
+      },
+      {
+        "question": "Kann ich den Plan später wechseln?",
+        "answer": "Selbstverständlich. Sie können Ihren Plan jederzeit in den Abrechnungseinstellungen upgraden oder downgraden. Änderungen werden sofort wirksam."
+      },
+      {
+        "question": "Was passiert, wenn ich weitere Teammitglieder hinzufüge?",
+        "answer": "Jeder Plan umfasst eine bestimmte Anzahl von Plätzen. Wenn Sie mehr Plätze benötigen, upgraden Sie auf einen höheren Plan. Alle Teammitglieder erhalten vollen Zugriff auf jeden KI-Agenten."
+      },
+      {
+        "question": "Wie gehen Sie mit meinen Daten um?",
+        "answer": "Wir setzen branchenübliche Sicherheitspraktiken ein, einschließlich HTTPS-Verschlüsselung, Datenisolierung auf Datenbankebene zwischen Organisationen und zeilenbasierten Zugriffskontrollen. STRATUM befindet sich derzeit in der Alpha-Phase — bitte lesen Sie unsere Datenschutzrichtlinie für vollständige Details zu unseren Sicherheitspraktiken und -einschränkungen."
+      },
+      {
+        "question": "Was bedeutet 'Intelligence statt Umsetzung'?",
+        "answer": "STRATUM ist eine rein lesende Intelligence-Plattform. Wir helfen Ihnen beim Denken, Planen und Strategieentwicklung — aber wir führen niemals Kampagnen in Ihrem Namen aus. Das bedeutet null Umsetzungsrisiko und volle Kontrolle über Ihr Marketing."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, intelligenter zu denken?",
+    "subtitle": "Schließen Sie sich Marketern an, die Rätselraten durch strategische Intelligence ersetzt haben.",
+    "button": "Kostenlose Testversion starten",
+    "benefits": {
+      "trial": "30 Tage kostenlose Testversion",
+      "noCreditCard": "Keine Kreditkarte erforderlich",
+      "cancelAnytime": "Jederzeit kündbar"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "required": "必须填写{{field}}",
+  "minLength": "{{field}}至少需要 {{min}} 个字符",
+  "maxLength": "{{field}}最多只能有 {{max}} 个字符",
+  "email": "请输入有效的电子邮件地址",
+  "password": {
+    "minLength": "密码至少需要 8 个字符",
+    "uppercase": "密码必须包含至少一个大写字母",
+    "lowercase": "密码必须包含至少一个小写字母",
+    "number": "密码必须包含至少一个数字",
+    "special": "密码必须包含至少一个特殊字符",
+    "match": "两次输入的密码必须一致"
+  },
+  "phone": "请输入有效的电话号码",
+  "url": "请输入有效的 URL",
+  "date": "请输入有效的日期",
+  "number": {
+    "min": "{{field}}不能小于 {{min}}",
+    "max": "{{field}}不能大于 {{max}}",
+    "integer": "{{field}}必须是整数",
+    "positive": "{{field}}必须是正数"
+  },
+  "file": {
+    "required": "请选择文件",
+    "tooLarge": "文件大小必须小于 {{max}}",
+    "invalidType": "文件类型无效。允许的类型：{{types}}"
+  },
+  "custom": {
+    "invitationCode": "邀请码无效",
+    "slugFormat": "Slug 只能包含小写字母、数字和连字符",
+    "uniqueEmail": "该电子邮件地址已被注册"
+  }
+}

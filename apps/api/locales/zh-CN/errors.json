@@ -1,0 +1,30 @@
+{
+  "generic": "出现问题了。请重试。",
+  "network": "网络错误。请检查你的连接。",
+  "server": "服务器错误。请稍后再试。",
+  "notFound": "未找到资源。",
+  "unauthorized": "你无权执行此操作。",
+  "forbidden": "访问被拒绝。",
+  "timeout": "请求超时。请重试。",
+  "sessionExpired": "你的会话已过期。请重新登录。",
+  "validation": {
+    "required": "必须填写{field}。",
+    "invalid": "{field}无效。",
+    "tooShort": "{field}至少需要 {min} 个字符。",
+    "tooLong": "{field}最多只能有 {max} 个字符。",
+    "invalidEmail": "请输入有效的电子邮件地址。",
+    "invalidPassword": "密码不符合要求。"
+  },
+  "auth": {
+    "invalidCredentials": "电子邮件或密码无效。",
+    "emailInUse": "该电子邮件地址已被注册。",
+    "accountLocked": "账号已被暂时锁定。请稍后再试。",
+    "tooManyAttempts": "尝试次数过多。请稍后再试。",
+    "invalidInvitationCode": "邀请码无效。"
+  },
+  "agent": {
+    "unavailable": "智能体暂时不可用。请重试。",
+    "toolExecutionFailed": "执行 {tool} 失败。请重试。",
+    "responseGenerationFailed": "生成回复失败。请重试。"
+  }
+}

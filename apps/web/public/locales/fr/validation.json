@@ -1,0 +1,33 @@
+{
+  "required": "{{field}} est obligatoire",
+  "minLength": "{{field}} doit contenir au moins {{min}} caracteres",
+  "maxLength": "{{field}} doit contenir au maximum {{max}} caracteres",
+  "email": "Veuillez saisir une adresse e-mail valide",
+  "password": {
+    "minLength": "Le mot de passe doit contenir au moins 8 caracteres",
+    "uppercase": "Le mot de passe doit contenir au moins une majuscule",
+    "lowercase": "Le mot de passe doit contenir au moins une minuscule",
+    "number": "Le mot de passe doit contenir au moins un chiffre",
+    "special": "Le mot de passe doit contenir au moins un caractere special",
+    "match": "Les mots de passe doivent correspondre"
+  },
+  "phone": "Veuillez saisir un numero de telephone valide",
+  "url": "Veuillez saisir une URL valide",
+  "date": "Veuillez saisir une date valide",
+  "number": {
+    "min": "{{field}} doit etre au moins egal a {{min}}",
+    "max": "{{field}} doit etre au maximum egal a {{max}}",
+    "integer": "{{field}} doit etre un nombre entier",
+    "positive": "{{field}} doit etre un nombre positif"
+  },
+  "file": {
+    "required": "Veuillez selectionner un fichier",
+    "tooLarge": "Le fichier doit faire moins de {{max}}",
+    "invalidType": "Type de fichier invalide. Types autorises : {{types}}"
+  },
+  "custom": {
+    "invitationCode": "Code d'invitation invalide",
+    "slugFormat": "Le slug peut uniquement contenir des lettres minuscules, des chiffres et des traits d'union",
+    "uniqueEmail": "Cette adresse e-mail est deja enregistree"
+  }
+}

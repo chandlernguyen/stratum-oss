@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Contact",
+    "subtitle": "Direct line to the founder. Your input shapes STRAŦUM."
+  },
+  "getInTouch": {
+    "title": "Get in Touch",
+    "description": "Built by a solo founder focused on delivering enterprise-level marketing intelligence without enterprise complexity. Sign up is open — start free today.",
+    "wantAccess": "Ready to start?",
+    "requestInvitation": "Sign up free",
+    "alphaUsers": "Alpha users:",
+    "alphaUsersNote": "Use in-app feedback while logged in.",
+    "everyoneElse": "Everyone else:",
+    "everyoneElseNote": "Email for general inquiries."
+  },
+  "contactMethods": {
+    "title": "Contact Methods",
+    "inAppFeedback": {
+      "title": "In-App Feedback",
+      "badge": "For Alpha Users",
+      "description": "If you're logged into STRAŦUM:",
+      "note": "Best for bug reports and feature requests. Your account context enables faster resolution.",
+      "cta": "Submit Feedback"
+    },
+    "email": {
+      "title": "Email",
+      "badge": "For Everyone",
+      "description": "For general questions, feature suggestions, partnerships, or any inquiries.",
+      "wantAccess": "Want access?",
+      "requestInvitation": "Request an invitation"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "Connect with the founder and follow STRAŦUM's development journey",
+      "cta": "Connect on LinkedIn"
+    }
+  },
+  "responseTime": {
+    "title": "Response Time & Availability",
+    "commitment": "Solo founder commitment:",
+    "responseNote": "Every message is personally read and answered within 1-2 business days (development sprints may extend to 3-4 days).",
+    "timezone": "Based in US Pacific timezone. Business hours: 9 AM - 5 PM PST, Monday-Friday."
+  },
+  "partnership": {
+    "title": "Partnership & Media",
+    "description": "For strategic partnerships or media inquiries, email",
+    "subjectNote": "with \"Partnership\" or \"Media\" in the subject line."
+  }
+}

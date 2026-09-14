@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Contato",
+    "subtitle": "Linha direta com o fundador. Sua opinião molda o STRAŦUM."
+  },
+  "getInTouch": {
+    "title": "Entre em contato",
+    "description": "Construído por um fundador solo focado em entregar inteligência de marketing de nível empresarial sem a complexidade empresarial. O cadastro está aberto - comece gratuitamente hoje.",
+    "wantAccess": "Pronto para começar?",
+    "requestInvitation": "Cadastre-se grátis",
+    "alphaUsers": "Usuários Alpha:",
+    "alphaUsersNote": "Use o feedback dentro do app enquanto estiver logado.",
+    "everyoneElse": "Todos os outros:",
+    "everyoneElseNote": "E-mail para consultas gerais."
+  },
+  "contactMethods": {
+    "title": "Métodos de contato",
+    "inAppFeedback": {
+      "title": "Feedback no app",
+      "badge": "Para usuários Alpha",
+      "description": "Se você está logado no STRAŦUM:",
+      "note": "Ideal para relatórios de bugs e solicitações de recursos. O contexto da sua conta permite resolução mais rápida.",
+      "cta": "Enviar feedback"
+    },
+    "email": {
+      "title": "E-mail",
+      "badge": "Para todos",
+      "description": "Para perguntas gerais, sugestões de recursos, parcerias ou qualquer consulta.",
+      "wantAccess": "Quer acesso?",
+      "requestInvitation": "Solicite um convite"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "Conecte-se com o fundador e acompanhe a jornada de desenvolvimento do STRAŦUM",
+      "cta": "Conectar no LinkedIn"
+    }
+  },
+  "responseTime": {
+    "title": "Tempo de resposta e disponibilidade",
+    "commitment": "Compromisso do fundador solo:",
+    "responseNote": "Cada mensagem é pessoalmente lida e respondida em 1-2 dias úteis (sprints de desenvolvimento podem estender para 3-4 dias).",
+    "timezone": "Localizado no fuso horário do Pacífico dos EUA. Horário comercial: 9h - 17h PST, segunda a sexta."
+  },
+  "partnership": {
+    "title": "Parcerias e mídia",
+    "description": "Para parcerias estratégicas ou consultas de mídia, envie e-mail para",
+    "subjectNote": "com Parceria ou Mídia no assunto."
+  }
+}

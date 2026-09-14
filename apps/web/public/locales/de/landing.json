@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "STRAŦUM - Strategische Marketing-Intelligence",
+    "description": "11 strategische Frameworks. 9 KI-Agenten. Progressives Lernen. Schluss mit Raten. Anfangen zu Wissen."
+  },
+  "hero": {
+    "badge": "Jetzt verfügbar",
+    "headlinePart1": "Marketingumsetzung",
+    "headlinePart2": "ohne Strategie",
+    "headlinePart3": "ist nur teurer Lärm.",
+    "tagline": "Intelligence statt Umsetzung.",
+    "description": "11 strategische Frameworks. 9 KI-Agenten. Progressives Lernen.",
+    "cta": "Schluss mit Raten. Anfangen zu Wissen.",
+    "primaryButton": "Kostenlose Testversion starten",
+    "secondaryText": "Bereits ein Konto?",
+    "secondaryLink": "Anmelden",
+    "trialNote": "Kostenlose Testversion bei allen Plänen",
+    "scrollDiscover": "Entdecken"
+  },
+  "valueProps": {
+    "clarity": {
+      "title": "Strategische Klarheit, sofort",
+      "description": "SWOT, Porter's Five Forces, Blue Ocean Strategy, BCG Matrix, VRIO, McKinsey 7S — bewährte Frameworks auf Knopfdruck."
+    },
+    "intelligence": {
+      "title": "Intelligence, die lernt",
+      "description": "Wird mit jedem Gespräch über IHR Unternehmen intelligenter. Einem Agenten mitteilen, alle neun informieren.",
+      "badge": "Progressives Lernen"
+    },
+    "quickWins": {
+      "title": "15-Minuten Quick Wins",
+      "description": "Umsetzbare Einblicke in Ihrer ersten Sitzung, nicht in Ihrer fünften Woche. Für vielbeschäftigte Marketer."
+    }
+  },
+  "audience": {
+    "title": "Für zwei unterschiedliche Zielgruppen entwickelt",
+    "subtitle": "Verschiedene Bedürfnisse, dieselbe Intelligence-Plattform",
+    "sme": {
+      "label": "Für KMUs",
+      "title": "Für KMUs",
+      "subtitle": "Der strategische Mitgründer, den Sie sich leisten können",
+      "features": {
+        "clarity": {
+          "title": "Klarheit in 15 Minuten",
+          "description": "Erhalten Sie Ihre erste vollständige, datengestützte Strategie, bevor Ihr Kaffee kalt wird."
+        },
+        "budget": {
+          "title": "Budgetsicher handeln",
+          "description": "Strategien für Ihr 0-Euro-Budget, die sich automatisch anpassen, wenn Sie wachsen."
+        },
+        "confidence": {
+          "title": "Zuversicht statt Verwirrung",
+          "description": "Verstehen Sie das Warum hinter Ihrem Plan mit Frameworks, die verständlich erklärt werden."
+        }
+      }
+    },
+    "agency": {
+      "label": "Für Agenturen",
+      "title": "Für Agenturen",
+      "subtitle": "Strategische Kapazität skalieren, nicht Ihren Personalbestand",
+      "features": {
+        "clientReady": {
+          "title": "Kundenbereite Strategien",
+          "description": "Generieren Sie ein vollständiges strategisches Konzept für einen neuen Kunden in der Zeit, die eine E-Mail braucht."
+        },
+        "premiumFees": {
+          "title": "Premium-Honorare rechtfertigen",
+          "description": "Liefern Sie Strategien basierend auf 9 vernetzten KI-Agenten, nicht nur auf Ihrem Bauchgefühl."
+        },
+        "systematic": {
+          "title": "Systematische Exzellenz",
+          "description": "Verwalten Sie Strategien für mehrere Kunden mit integrierter Datenisolierung und Teamzusammenarbeit."
+        }
+      }
+    }
+  },
+  "progressiveLearning": {
+    "badge": "Adaptives Intelligence-System",
+    "title": "Intelligence, die mit Ihrem Unternehmen wächst",
+    "subtitle": "Anders als statische Tools lernen STRAŦUMs KI-Agenten mit jedem Gespräch kontinuierlich über Ihr Unternehmen.",
+    "timeline": {
+      "day1": {
+        "label": "Tag 1",
+        "title": "Erste Interaktion",
+        "description": "Teilen Sie Ihren Geschäftskontext einmal mit. Agenten beginnen automatisch, wichtige Einblicke über Ihren Markt, Wettbewerber und Kunden zu erfassen."
+      },
+      "week1": {
+        "label": "Woche 1",
+        "title": "Vertiefende Intelligence",
+        "description": "Jedes Gespräch erweitert Ihren Lernverlauf. Agenten greifen auf vergangene Einblicke zurück, um zunehmend personalisierte Empfehlungen zu geben."
+      },
+      "ongoing": {
+        "label": "Fortlaufend",
+        "title": "Vorausschauende Intelligence",
+        "description": "Mit einer umfangreichen Wissensbasis antizipieren Agenten Ihre Bedürfnisse und füllen Kontexte vor. Sie behalten die Kontrolle — überprüfen und löschen Sie jeden Einblick."
+      }
+    }
+  },
+  "frameworks": {
+    "title": "11 strategische Frameworks auf Knopfdruck",
+    "subtitle": "Dieselben Frameworks, die von Fortune-500-Beratern verwendet werden, jetzt für alle zugänglich.",
+    "list": [
+      "SWOT-Analyse",
+      "Porter's Five Forces",
+      "Blue Ocean Strategy",
+      "BCG Matrix",
+      "VRIO Framework",
+      "McKinsey 7S",
+      "OKRs",
+      "Three Horizons",
+      "ICE-Priorisierung",
+      "Business Model Canvas",
+      "Jobs to Be Done"
+    ]
+  },
+  "demo": {
+    "title": "STRAŦUM in Aktion erleben",
+    "subtitle": "Ein 15-minütiger Rundgang, der zeigt, wie KMUs vollständige Marketingstrategien erstellen"
+  },
+  "cta": {
+    "badge": "Strategische Intelligence für alle",
+    "title": "Heute mit dem Aufbau intelligenterer Strategien beginnen",
+    "description": "Schließen Sie sich Unternehmen und Agenturen an, die KI-gestützte strategische Intelligence nutzen, um bessere Marketingentscheidungen zu treffen. Alle 9 Agenten. Alle 11 Frameworks. Eine Plattform.",
+    "primaryButton": "Kostenlos starten",
+    "secondaryText": "Bereits ein Konto?",
+    "secondaryLink": "Anmelden",
+    "benefits": {
+      "noCreditCard": "Keine Kreditkarte erforderlich",
+      "foundingMember": "Jederzeit kündbar"
+    }
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "title": "Biblioteca",
+  "subtitle": "Suas saídas de inteligência de marketing",
+  "savedOutputs": {
+    "title": "Saídas Salvas",
+    "description": "Navegue e gerencie suas saídas de agentes salvas. Use-as em diferentes agentes para workflows integrados."
+  },
+  "header": {
+    "badge": "Biblioteca de Inteligência",
+    "title": "Suas Saídas",
+    "subtitle": "Todos os insights e conteúdos gerados por IA em um só lugar",
+    "groupShort": "Agrupar",
+    "select": "Selecionar",
+    "cancel": "Cancelar",
+    "exportAll": "Exportar Tudo",
+    "exportFiltered": "Exportar Filtrado",
+    "exportShort": "Exportar"
+  },
+  "bulk": {
+    "itemsSelected": "{{count}} item selecionado",
+    "itemsSelected_other": "{{count}} itens selecionados",
+    "exportSelected": "Exportar Selecionados",
+    "archiveSelected": "Arquivar Selecionados"
+  },
+  "approved": {
+    "title": "Saídas Aprovadas",
+    "subtitle": "Sua fonte confiável para todo o conteúdo aprovado pronto para uso ou publicação.",
+    "subtitleWithClient": "Conteúdo aprovado para {{clientName}} pronto para uso ou publicação.",
+    "searchPlaceholder": "Pesquisar saídas aprovadas...",
+    "filterByType": "Filtrar por tipo",
+    "allTypes": "Todos os Tipos",
+    "round": "Rodada {{round}}",
+    "stats": {
+      "totalApproved": "Total Aprovado",
+      "thisMonth": "Este Mês",
+      "contentTypes": "Tipos de Conteúdo",
+      "avgRounds": "Média de Rodadas"
+    },
+    "empty": {
+      "title": "Nenhuma saída aprovada ainda",
+      "description": "As saídas aparecerão aqui depois de serem revisadas e aprovadas pelo workflow de aprovação.",
+      "noMatch": "Nenhuma saída corresponde aos seus filtros. Tente ajustar sua busca ou critérios de filtro."
+    },
+    "agentTypes": {
+      "businessStrategy": "Estratégia de Negócio",
+      "customerPersona": "Persona de Cliente",
+      "marketingStrategy": "Estratégia de Marketing",
+      "content": "Conteúdo",
+      "campaign": "Campanha",
+      "performance": "Desempenho",
+      "competitiveIntel": "Intel Competitiva",
+      "clientSuccess": "Sucesso do Cliente"
+    }
+  },
+  "dialog": {
+    "description": "Visualize e interaja com seu conteúdo salvo gerado por IA",
+    "tabs": {
+      "content": "Conteúdo",
+      "comments": "Comentários",
+      "history": "Histórico"
+    },
+    "fields": {
+      "title": "Título"
+    },
+    "generatedBy": "Gerado pelo agente {{agent}}",
+    "actions": {
+      "edit": "Editar",
+      "cancel": "Cancelar",
+      "save": "Salvar Alterações",
+      "close": "Fechar",
+      "copy": "Copiar",
+      "copied": "Copiado!",
+      "export": "Exportar",
+      "exportPDF": "Exportar como PDF",
+      "exportText": "Exportar como Texto",
+      "exportJSON": "Exportar como JSON"
+    },
+    "toast": {
+      "pdfStarted": "Exportação PDF iniciada - verifique seus downloads",
+      "pdfError": "Falha ao exportar PDF",
+      "textSuccess": "Arquivo de texto exportado com sucesso",
+      "textError": "Falha ao exportar arquivo de texto",
+      "jsonSuccess": "JSON exportado com sucesso",
+      "jsonError": "Falha ao exportar JSON",
+      "saveSuccess": "Saída atualizada com sucesso",
+      "saveError": "Falha ao salvar alterações"
+    }
+  },
+  "filters": {
+    "byCategory": "Filtrar por Categoria",
+    "all": "Todas as Saídas",
+    "strategic": "Estratégico",
+    "customer": "Cliente",
+    "content": "Conteúdo",
+    "performance": "Desempenho",
+    "archived": "Arquivado"
+  },
+  "list": {
+    "loading": "Carregando saídas...",
+    "empty": "Nenhuma saída ainda",
+    "emptyTitle": "Nenhuma saída salva ainda",
+    "emptyTitleFiltered": "Nenhuma saída de {{filterType}} ainda",
+    "emptyDescription": "Comece a conversar com os agentes para gerar e salvar saídas. Seus insights gerados por IA aparecerão aqui.",
+    "emptyDescriptionFiltered": "Gere saídas de {{filterType}} usando os agentes relevantes.",
+    "emptyHint": "Experimente os agentes de Estratégia ou Conteúdo para começar",
+    "noResults": "Nenhuma saída encontrada para sua busca",
+    "error": "Falha ao carregar saídas",
+    "errorTitle": "Erro ao Carregar Saídas",
+    "errorDescription": "Não foi possível carregar suas saídas. Por favor, tente novamente.",
+    "retry": "Tentar Novamente",
+    "similarItems": "{{count}} itens similares",
+    "similarStrategies": "{{count}} estratégias similares"
+  },
+  "actions": {
+    "export": "Exportar",
+    "exportAll": "Exportar Tudo",
+    "archive": "Arquivar",
+    "restore": "Restaurar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "view": "Visualizar",
+    "duplicate": "Duplicar",
+    "bulkSelect": "Selecionar Múltiplos",
+    "selectAll": "Selecionar Tudo",
+    "deselectAll": "Desselecionar Tudo"
+  },
+  "grouping": {
+    "enable": "Agrupar Similares",
+    "disable": "Desagrupar",
+    "similarItems": "{{count}} itens similares",
+    "showAll": "Mostrar tudo"
+  },
+  "sort": {
+    "label": "Ordenar por",
+    "date": "Data",
+    "title": "Título",
+    "newest": "Mais Recentes",
+    "oldest": "Mais Antigos",
+    "aToZ": "Título (A-Z)",
+    "zToA": "Título (Z-A)"
+  },
+  "search": {
+    "placeholder": "Pesquisar saídas..."
+  },
+  "card": {
+    "generatedBy": "Gerado por {{agent}}",
+    "createdOn": "Criado em {{date}}",
+    "viewDetails": "Ver Detalhes",
+    "markActive": "Marcar como Ativa",
+    "setActive": "Definir como Ativa",
+    "active": "Ativa",
+    "archived": "Arquivada",
+    "copy": "Copiar",
+    "export": "Exportar",
+    "archive": "Arquivar",
+    "delete": "Excluir",
+    "restore": "Restaurar"
+  },
+  "time": {
+    "justNow": "Agora mesmo",
+    "hoursAgo": "{{count}}h atrás",
+    "yesterday": "Ontem"
+  },
+  "activity": {
+    "title": "Histórico de Atividade",
+    "loading": "Carregando atividade...",
+    "error": "Falha ao carregar histórico de atividade",
+    "empty": "Nenhuma atividade registrada ainda",
+    "unknownActor": "Desconhecido",
+    "labels": {
+      "created": "criou isto",
+      "updated": "atualizou isto",
+      "archived": "arquivou isto",
+      "restored": "restaurou isto",
+      "deleted": "excluiu isto",
+      "approval_requested": "solicitou aprovação",
+      "approved": "aprovou isto",
+      "rejected": "rejeitou isto",
+      "changes_requested": "solicitou alterações",
+      "published": "publicou isto",
+      "unpublished": "despublicou isto",
+      "viewed": "visualizou isto",
+      "exported": "exportou isto",
+      "shared": "compartilhou isto"
+    }
+  },
+  "editors": {
+    "common": {
+      "advancedSettings": "Configurações Avançadas",
+      "completeJson": "JSON Completo (Avançado)"
+    },
+    "analytics": {
+      "reportInfo": "Informações do Relatório de Análise",
+      "reportTitle": "Título do Relatório",
+      "reportTitlePlaceholder": "Digite o título do relatório",
+      "analyticsSummary": "Resumo das Análises",
+      "analyticsSummaryPlaceholder": "Breve visão geral dos insights analíticos",
+      "reportPeriod": "Período do Relatório",
+      "reportPeriodPlaceholder": "Q4 2025, Últimos 30 dias, etc.",
+      "targetAudience": "Público-Alvo",
+      "targetAudiencePlaceholder": "PMEs, Agências, etc.",
+      "tabs": {
+        "keyMetrics": "Métricas-Chave",
+        "performance": "Desempenho",
+        "traffic": "Tráfego",
+        "insights": "Insights"
+      },
+      "pageViews": "Visualizações de Página",
+      "conversionRate": "Taxa de Conversão (%)",
+      "bounceRate": "Taxa de Rejeição (%)",
+      "avgSession": "Duração Média da Sessão",
+      "performanceOverview": "Visão Geral de Desempenho",
+      "performanceOverviewPlaceholder": "Detalhes da análise de desempenho",
+      "kpis": "Indicadores-Chave de Desempenho",
+      "kpisPlaceholder": "Detalhes e medições de KPIs",
+      "growthTrends": "Tendências de Crescimento",
+      "growthTrendsPlaceholder": "Análise de tendências de crescimento",
+      "trafficAnalysis": "Análise de Tráfego",
+      "trafficAnalysisPlaceholder": "Fontes de tráfego e análise",
+      "channelPerformance": "Desempenho de Canais",
+      "channelPerformancePlaceholder": "Dados de desempenho de canais",
+      "userBehavior": "Comportamento do Usuário",
+      "userBehaviorPlaceholder": "Insights de comportamento do usuário",
+      "keyInsights": "Insights-Chave (separados por vírgulas)",
+      "keyInsightsPlaceholder": "Tráfego aumentou 25% mês a mês, Conversão mobile melhorou significativamente",
+      "recommendations": "Recomendações (separadas por vírgulas)",
+      "recommendationsPlaceholder": "Otimizar fluxo de checkout mobile, Aumentar gastos com anúncios em mídias sociais",
+      "actionItems": "Itens de Ação (separados por vírgulas)",
+      "actionItemsPlaceholder": "Teste A/B do novo design da landing page, Configurar rastreamento de conversão para mobile"
+    },
+    "content": {
+      "portfolioInfo": "Informações do Portfólio de Conteúdo",
+      "contentInfo": "Informações de Conteúdo",
+      "campaignName": "Nome da Campanha",
+      "campaignNamePlaceholder": "Campanha de Marketing de Natal 2025",
+      "contentSummary": "Resumo do Conteúdo",
+      "contentSummaryPlaceholder": "Visão geral da estratégia de conteúdo e mensagens-chave",
+      "targetAudience": "Público-Alvo",
+      "targetAudiencePlaceholder": "PMEs, tomadores de decisão B2B",
+      "contentTheme": "Tema do Conteúdo",
+      "contentThemePlaceholder": "Crescimento Profissional, Inovação",
+      "theme": "Tema/Tópico",
+      "themePlaceholder": "Lançamento de produto, sazonal, etc.",
+      "tabs": {
+        "socialMedia": "Mídias Sociais",
+        "email": "E-mail",
+        "advertising": "Publicidade",
+        "longForm": "Conteúdo Longo"
+      },
+      "socialPosts": "Posts de Mídias Sociais (Array JSON)",
+      "hashtagStrategy": "Estratégia de Hashtags",
+      "hashtagStrategyPlaceholder": "Estratégia e recomendações de hashtags",
+      "contentCalendar": "Calendário de Conteúdo",
+      "contentCalendarPlaceholder": "Planejamento e agendamento de conteúdo",
+      "totalPosts": "Total de Posts",
+      "contentPieces": "Peças de Conteúdo",
+      "emailTemplates": "Templates de E-mail (Array JSON)",
+      "subjectLines": "Linhas de Assunto",
+      "subjectLinesPlaceholder": "Aumente Seu ROI com Estas 5 Estratégias\nNão Perca: Oferta Por Tempo Limitado\nSua Estratégia de Marketing Precisa Desta Atualização",
+      "emailSequences": "Sequências de E-mail",
+      "emailSequencesPlaceholder": "Estratégias de sequência de e-mail e fluxos de automação",
+      "totalEmailTemplates": "Total de Templates de E-mail",
+      "adCopy": "Texto Publicitário (Array JSON)",
+      "headlines": "Títulos (separados por linha)",
+      "headlinesPlaceholder": "Transforme Seu ROI de Marketing Hoje\nO Guia Definitivo para Sucesso B2B\nDesbloqueie Oportunidades de Crescimento Ocultas",
+      "creativeAssets": "Ativos Criativos",
+      "creativeAssetsPlaceholder": "Descrições de ativos criativos, requisitos de imagem, especificações de design",
+      "totalAdVariants": "Total de Variantes de Anúncio",
+      "blogPosts": "Posts de Blog",
+      "blogPostsPlaceholder": "Tópicos de posts de blog, outlines e estratégias de conteúdo",
+      "articles": "Artigos",
+      "articlesPlaceholder": "Artigos longos e conteúdo de liderança de pensamento",
+      "videoScripts": "Roteiros de Vídeo",
+      "videoScriptsPlaceholder": "Roteiros e storyboards de conteúdo em vídeo",
+      "caseStudies": "Estudos de Caso",
+      "caseStudiesPlaceholder": "Histórias de sucesso de clientes e templates de estudo de caso"
+    },
+    "generic": {
+      "editContent": "Editar Conteúdo de {{agentType}}",
+      "tabs": {
+        "structured": "Estruturado",
+        "json": "JSON"
+      },
+      "noEditableFields": "Nenhum campo editável encontrado",
+      "switchToJson": "Mudar para modo JSON",
+      "rawJsonContent": "Conteúdo JSON Bruto",
+      "enterValidJson": "Digite JSON válido...",
+      "jsonError": "Erro de JSON"
+    },
+    "strategy": {
+      "campaignInfo": "Informações da Campanha",
+      "campaignName": "Nome da Campanha",
+      "tabs": {
+        "messaging": "Mensagens",
+        "channels": "Canais",
+        "budget": "Orçamento",
+        "execution": "Execução"
+      }
+    },
+    "roiBudget": {
+      "financialReportInfo": "Informações do Relatório Financeiro",
+      "tabs": {
+        "budget": "Orçamento",
+        "roiAnalysis": "Análise de ROI",
+        "performance": "Desempenho",
+        "projections": "Projeções"
+      }
+    }
+  },
+  "strategyCard": {
+    "active": "Ativa",
+    "archived": "Arquivada",
+    "archivedOn": "Arquivada em",
+    "reason": "Motivo",
+    "alreadyActive": "Já Ativa",
+    "markAsActive": "Marcar como Ativa",
+    "copyContent": "Copiar Conteúdo",
+    "viewDetails": "Ver Detalhes",
+    "archive": "Arquivar",
+    "deletePermanently": "Excluir Permanentemente",
+    "reach": "Alcance",
+    "budget": "Orçamento",
+    "priority": "Prioridade",
+    "created": "Criada",
+    "activate": "Ativar"
+  },
+  "comparison": {
+    "title": "Comparação de Estratégias",
+    "tabs": {
+      "overview": "Visão Geral",
+      "messaging": "Mensagens",
+      "channels": "Canais",
+      "budget": "Orçamento"
+    }
+  }
+}

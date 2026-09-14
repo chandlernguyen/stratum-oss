@@ -1,0 +1,130 @@
+{
+  "pageTitle": {
+    "clientProfile": "客戶資料",
+    "businessProfile": "業務資料"
+  },
+  "pageDescription": {
+    "client": "管理 {{clientSlug}} 嘅業務資料、品牌規範同智能成果",
+    "organization": "管理你組織嘅業務資料、品牌規範同智能成果"
+  },
+  "header": {
+    "title": "業務智能",
+    "description": "結合手動數據同 AI 學習洞察嘅業務資料"
+  },
+  "loading": "正在載入業務智能...",
+  "tabs": {
+    "businessProfile": "業務資料",
+    "businessProfileShort": "資料",
+    "brandGuidelines": "品牌規範",
+    "brandGuidelinesShort": "品牌",
+    "learningHistory": "學習歷史",
+    "learningHistoryShort": "學習"
+  },
+  "alerts": {
+    "newSuggestions": "你有 {{count}} 條新嘅 AI 建議待審核",
+    "newSuggestions_other": "你有 {{count}} 條新嘅 AI 建議待審核",
+    "authoritative": "呢個係所有 AI 智能助手使用嘅權威業務背景。點擊編輯即可修改任何資訊。"
+  },
+  "metrics": {
+    "title": "AI 學習到嘅業務指標"
+  },
+  "conflicts": {
+    "title": "偵測到數據衝突",
+    "description": "AI 發現嘅資訊同你嘅手動錄入存在差異",
+    "current": "目前值",
+    "aiSuggestion": "AI 建議",
+    "notSet": "未設定",
+    "acceptAI": "接受 AI 值",
+    "keepCurrent": "保留目前值"
+  },
+  "learningHistory": {
+    "title": "AI 學習歷史",
+    "description": "追蹤 AI 隨時間點樣了解你嘅業務",
+    "totalInsights": "洞察總數：",
+    "noInsights": {
+      "title": "仲未有 AI 洞察",
+      "description": "隨住你同營銷智能助手互動，AI 會逐步了解你嘅業務，並喺呢度呈現洞察畀你審核。"
+    },
+    "status": {
+      "approved": "已批准",
+      "autoApproved": "自動批准",
+      "pending": "待處理",
+      "rejected": "已拒絕"
+    },
+    "filter": {
+      "allAgents": "所有智能助手",
+      "persona": "畫像洞察",
+      "strategy": "策略洞察",
+      "marketing": "營銷洞察",
+      "content": "內容洞察"
+    },
+    "similar": "相似",
+    "fieldsExtracted": "已提取 {{count}} 個欄位",
+    "confidence": "信心度",
+    "from": "來源於"
+  },
+  "patterns": {
+    "title": "跨畫像模式",
+    "mentions": "{{count}} 次提及",
+    "personas": "{{count}} 個畫像"
+  },
+  "fields": {
+    "companyName": "公司名稱",
+    "organizationType": "組織類型",
+    "industry": "行業",
+    "companySize": "公司規模",
+    "description": "描述",
+    "targetMarket": "目標市場",
+    "geography": "地域",
+    "businessModel": "商業模式",
+    "priceRange": "價格區間",
+    "competitors": "競爭對手",
+    "uniqueValueProposition": "獨特價值主張",
+    "technologyStack": "技術棧",
+    "annualRevenue": "年收入",
+    "growthRate": "增長率",
+    "marketingBudget": "營銷預算"
+  },
+  "content": {
+    "notSpecified": "未指定",
+    "none": "無",
+    "noFieldsAvailable": "冇可用欄位",
+    "errorDisplayingFields": "顯示欄位時出錯",
+    "noContentAvailable": "冇可用內容",
+    "noDisplayableContent": "冇可顯示內容",
+    "errorDisplayingContent": "顯示內容時出錯。請重新整理後再試。",
+    "noInsightSelected": "未揀選洞察"
+  },
+  "dialog": {
+    "extractedFrom": "從 {{agent}} 對話中提取",
+    "confidence": "信心度：",
+    "extractedContext": "提取嘅業務背景：",
+    "edit": "編輯",
+    "saveChanges": "儲存變更",
+    "cancel": "取消"
+  },
+  "actions": {
+    "approveApply": "批准並套用",
+    "reject": "拒絕",
+    "approveAll": "批准全部相似項",
+    "rejectAll": "拒絕全部相似項",
+    "approveThisOnly": "僅批准當前項",
+    "rejectThisOnly": "僅拒絕當前項",
+    "bulkNote": "注意：呢個操作會影響該組中 {{count}} 條相似嘅待處理洞察。",
+    "orActOnThis": "或者只處理當前洞察："
+  },
+  "aiLearning": {
+    "businessContext": "業務背景",
+    "aiInsight": "AI 洞察",
+    "aiAgent": "AI 智能助手",
+    "similar": "{{count}} 條相似項",
+    "confidence": "{{value}}% 信心度",
+    "fieldsExtracted": "已提取 {{count}} 個欄位",
+    "dialogTitle": "AI 學習洞察",
+    "extractedFrom": "從 {{source}} 對話中提取",
+    "confidenceLabel": "信心度",
+    "extractedBusinessContext": "提取嘅業務背景",
+    "noContent": "冇詳細內容可用",
+    "capturedOn": "記錄於 {{date}}"
+  }
+}

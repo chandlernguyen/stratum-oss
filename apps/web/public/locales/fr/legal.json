@@ -1,0 +1,342 @@
+{
+  "privacy": {
+    "pageTitle": "Politique de confidentialite",
+    "lastUpdated": "Derniere mise a jour : 13 fevrier 2026",
+    "alphaNotice": {
+      "title": "Avis relatif a la phase alpha",
+      "description": "STRAŦUM est en phase alpha. Cette politique de confidentialite peut changer de maniere importante. Vous utilisez le service a vos propres risques. Nous ne garantissons ni la securite des donnees ni la fiabilite du service."
+    },
+    "sections": {
+      "acceptance": {
+        "number": "1",
+        "title": "Acceptation et champ d'application",
+        "intro": "En utilisant STRAŦUM pendant la phase alpha, vous reconnaissez que :",
+        "items": {
+          "experimental": "Ce service est experimental et fourni \"EN L'ETAT\"",
+          "dataChange": "Les pratiques de collecte et de traitement des donnees peuvent changer sans preavis",
+          "smallTeam": "Nous sommes une petite equipe avec des ressources limitees",
+          "ownRisk": "Vous utilisez ce service entierement a vos propres risques"
+        },
+        "seeTerms": "Pour consulter les conditions completes, voir nos",
+        "termsLink": "Conditions generales"
+      },
+      "informationCollect": {
+        "number": "2",
+        "title": "Informations que nous pouvons collecter",
+        "intro": "Pendant la phase alpha, nous pouvons collecter :",
+        "accountInfo": {
+          "title": "Informations de compte",
+          "description": "Adresse e-mail, nom et informations sur l'organisation"
+        },
+        "businessContext": {
+          "title": "Contexte de l'entreprise",
+          "description": "Informations sur l'entreprise, objectifs marketing et strategies"
+        },
+        "contentCreated": {
+          "title": "Contenu que vous creez",
+          "description": "Campagnes, personas et plans marketing"
+        },
+        "technicalData": {
+          "title": "Donnees techniques",
+          "description": "Erreurs, habitudes d'utilisation et performances"
+        },
+        "note": "Remarque : les pratiques de collecte de donnees peuvent evoluer a mesure que nous developpons le service."
+      },
+      "howWeUse": {
+        "number": "3",
+        "title": "Comment nous utilisons les informations",
+        "intro": "Nous utilisons principalement les informations pour :",
+        "items": {
+          "provideServices": "Fournir les Services (authentification, interactions avec les agents IA et generation d'intelligence)",
+          "generateIntelligence": "Generer de l'intelligence marketing et des recommandations strategiques",
+          "fixBugs": "Corriger les bugs et ameliorer le service alpha",
+          "understandUsage": "Comprendre les usages pour ameliorer l'experience utilisateur",
+          "communicate": "Communiquer avec vous au sujet du service"
+        },
+        "note": "Nous sommes une petite equipe et nous ne faisons rien de complexe avec vos donnees. Nous voulons surtout construire un produit utile pour votre intelligence marketing."
+      },
+      "thirdParty": {
+        "number": "4",
+        "title": "Services tiers",
+        "intro": "Nous dependons des services suivants (et leurs propres politiques de confidentialite s'appliquent) :",
+        "services": {
+          "supabase": {
+            "name": "Supabase",
+            "description": "Authentification et stockage des donnees"
+          },
+          "googleCloud": {
+            "name": "Google Cloud",
+            "description": "Hebergement des services backend"
+          },
+          "vercel": {
+            "name": "Vercel",
+            "description": "Hebergement de l'application frontend"
+          },
+          "googleAi": {
+            "name": "Google AI (Gemini)",
+            "description": "Generation de contenu et d'intelligence"
+          },
+          "stripe": {
+            "name": "Stripe",
+            "description": "Traitement des paiements et gestion des abonnements"
+          },
+          "cloudflare": {
+            "name": "Cloudflare",
+            "description": "Protection contre les bots (Turnstile CAPTCHA)"
+          },
+          "resend": {
+            "name": "Resend",
+            "description": "Envoi d'e-mails transactionnels"
+          }
+        },
+        "disclaimer": "Nous ne sommes pas responsables des pratiques ni de la securite des services tiers."
+      },
+      "aiUsage": {
+        "number": "5",
+        "title": "Usage de l'IA et des donnees",
+        "subtitle": "Informations importantes sur le traitement par IA :",
+        "items": {
+          "sentToGoogle": "Vos donnees d'entreprise sont envoyees a Google AI (Gemini) pour traitement et generation d'intelligence",
+          "noTraining": "Nous n'utilisons pas vos donnees pour entrainer nos propres modeles d'IA",
+          "googlePolicies": "Les politiques d'usage de l'IA de Google s'appliquent aux donnees traitees par leurs services",
+          "stored": "Votre intelligence marketing et vos strategies sont stockees dans notre base de donnees pour vous permettre d'y acceder"
+        }
+      },
+      "dataIsolation": {
+        "number": "6",
+        "title": "Isolement des donnees",
+        "intro": "Nous appliquons un isolement des donnees au niveau de la base de donnees :",
+        "items": {
+          "isolated": "Vos donnees d'entreprise sont isolees des autres organisations",
+          "agencySeparation": "Les clients d'agence beneficient d'une separation complete des donnees",
+          "rls": "Les politiques de securite au niveau des lignes (RLS) appliquent le controle d'acces"
+        },
+        "note": "Cela dit, comme il s'agit d'un service alpha, nous ne pouvons pas garantir une protection complete contre toutes les vulnerabilites de securite."
+      },
+      "limitedSecurity": {
+        "number": "7",
+        "title": "Garanties de securite limitees",
+        "disclaimerTitle": "AVIS IMPORTANT",
+        "intro": "En tant que service alpha avec des ressources limitees, nous ne pouvons pas garantir :",
+        "items": {
+          "completeSecurity": "Une securite totale des donnees",
+          "breachProtection": "Une protection contre toutes les failles de securite",
+          "dataBackup": "Des sauvegardes ou une recuperation des donnees dans tous les cas",
+          "availability": "La disponibilite ou le temps de fonctionnement du service",
+          "migrationProtection": "La prevention des pertes de donnees pendant les migrations de base de donnees"
+        },
+        "warning": "Utilisez ce service a vos propres risques. Ne televersez pas d'informations professionnelles hautement sensibles ou confidentielles."
+      },
+      "yourRights": {
+        "number": "8",
+        "title": "Vos droits (limites pendant la phase alpha)",
+        "tryToHelp": "Nous essaierons de vous aider pour :",
+        "helpItems": {
+          "deleteAccount": "Supprimer votre compte sur demande",
+          "updateInfo": "Mettre a jour les informations de base",
+          "accessData": "Vous donner acces a vos donnees"
+        },
+        "cannotGuarantee": "En revanche, pendant la phase alpha, nous ne pouvons pas garantir :",
+        "limitedItems": {
+          "export": "Une fonctionnalite complete d'export des donnees",
+          "deletion": "La suppression complete des donnees dans tous les systemes et sauvegardes",
+          "timeliness": "Des reponses rapides aux demandes liees aux donnees"
+        }
+      },
+      "dataRetention": {
+        "number": "9",
+        "title": "Conservation des donnees",
+        "intro": "Pendant la phase alpha :",
+        "items": {
+          "active": "Nous conservons les donnees tant que votre compte reste actif",
+          "migrations": "Nous pouvons supprimer des donnees pendant des migrations ou des reinitialisations de base de donnees",
+          "backups": "Les donnees supprimees peuvent rester dans des sauvegardes pendant une periode raisonnable",
+          "noGuarantee": "Nous ne garantissons pas la persistance des donnees pendant la phase alpha"
+        }
+      },
+      "noWarranty": {
+        "number": "10",
+        "title": "Absence de garantie ou de responsabilite",
+        "intro": "Comme indique dans nos",
+        "termsLink": "Conditions generales",
+        "items": {
+          "asIs": "Service fourni \"EN L'ETAT\" sans garantie",
+          "notLiable": "Nous ne sommes pas responsables des pertes de donnees ni des violations de securite",
+          "noAvailability": "Aucune garantie de disponibilite du service",
+          "assumeRisk": "Vous assumez tous les risques lies a l'utilisation d'un service alpha"
+        }
+      },
+      "changes": {
+        "number": "11",
+        "title": "Changements sans preavis",
+        "description": "Cette politique de confidentialite peut changer a tout moment et sans preavis. La poursuite de l'utilisation du service vaut acceptation de toute modification. Consultez regulierement cette page."
+      },
+      "contact": {
+        "number": "12",
+        "title": "Contact",
+        "description": "Des questions ? Ecrivez-nous a",
+        "note": "(mais gardez a l'esprit que nous sommes une petite equipe et que les reponses peuvent prendre du temps)."
+      }
+    },
+    "tldr": {
+      "label": "En bref :",
+      "text": "Il s'agit d'un service alpha. Nous sommes une toute petite equipe. Nous ferons de notre mieux, mais nous ne promettons rien. N'ajoutez pas d'informations tres sensibles. Utilisez le service a vos propres risques."
+    },
+    "navigation": {
+      "returnHome": "Retour a l'accueil",
+      "termsConditions": "Conditions generales"
+    }
+  },
+  "terms": {
+    "pageTitle": "Conditions generales",
+    "lastUpdated": "Derniere mise a jour : 13 fevrier 2026",
+    "alphaNotice": {
+      "title": "Avis relatif au programme alpha",
+      "description": "STRAŦUM est actuellement en phase de programme alpha. Cela signifie que le service evolue encore et peut faire l'objet de changements importants, y compris sur les fonctionnalites, le comportement et la structure de la base de donnees."
+    },
+    "sections": {
+      "introduction": {
+        "number": "1",
+        "title": "Introduction",
+        "welcome": "Bienvenue sur STRAŦUM (\"nous\", \"notre\" ou \"nos\"). Les presentes Conditions generales regissent l'utilisation de notre site web, de nos produits et de nos services (ensemble, les \"Services\").",
+        "agreement": "En accedant aux Services ou en les utilisant, vous acceptez d'etre lie par ces Conditions. Si vous n'etes pas d'accord avec une partie de ces conditions, vous ne devez pas acceder aux Services.",
+        "alphaStatus": "Statut alpha : STRAŦUM est actuellement en programme alpha. En participant, vous reconnaissez que les Services sont encore en cours de developpement et ne constituent pas encore un produit final."
+      },
+      "alphaProgram": {
+        "number": "2",
+        "title": "Programme alpha",
+        "intro": "En tant que participant au programme alpha, vous comprenez et acceptez ce qui suit :",
+        "items": {
+          "bugs": "Les Services peuvent contenir des bugs, des erreurs ou d'autres problemes affectant leur fonctionnement",
+          "changes": "Nous pouvons apporter des changements importants aux Services sans preavis",
+          "downtime": "Les Services peuvent connaitre des interruptions ou des problemes de performance",
+          "database": "Les structures de base de donnees peuvent changer et affecter les donnees stockees",
+          "resets": "Nous pouvons reinitialiser des bases de donnees pendant le developpement, ce qui peut entrainer des pertes de donnees",
+          "pricing": "Les prix, plans et fonctionnalites peuvent changer avant le lancement officiel"
+        }
+      },
+      "accountRegistration": {
+        "number": "3",
+        "title": "Inscription au compte",
+        "responsibilitiesTitle": "Vos responsabilites :",
+        "responsibilities": {
+          "accurate": "Fournir des informations d'inscription exactes, a jour et completes",
+          "updated": "Garder vos informations a jour",
+          "safeguard": "Proteger votre mot de passe",
+          "strongPasswords": "Utiliser des mots de passe robustes (majuscules, minuscules, chiffres et symboles)"
+        }
+      },
+      "aiDisclaimer": {
+        "number": "4",
+        "title": "Clause de non-responsabilite sur le contenu genere par l'IA",
+        "responsibilityTitle": "Aucune responsabilite quant aux resultats",
+        "intro": "STRAŦUM utilise l'IA pour generer de l'intelligence marketing. Nous excluons expressement toute responsabilite concernant :",
+        "items": {
+          "accuracy": "L'exactitude, l'exhaustivite ou la fiabilite du contenu genere",
+          "errors": "Les erreurs factuelles ou les presentations trompeuses",
+          "appropriateness": "L'adaptation du contenu a vos besoins metier specifiques",
+          "actions": "Les actions que vous entreprenez sur la base du contenu genere",
+          "decisions": "Les decisions metier prises a l'aide de nos frameworks",
+          "claims": "Toute reclamation decoulant de votre utilisation du contenu genere"
+        },
+        "responsibility": "Vous etes seul responsable de la verification et de la validation de tout contenu avant utilisation."
+      },
+      "userResponsibilities": {
+        "number": "5",
+        "title": "Responsabilites de l'utilisateur",
+        "intro": "En utilisant nos Services, vous acceptez de ne pas :",
+        "items": {
+          "laws": "Violer les lois ou reglementations applicables",
+          "ip": "Porter atteinte aux droits de propriete intellectuelle d'autrui",
+          "unauthorized": "Tenter d'acceder sans autorisation a toute partie des Services",
+          "illegal": "Generer du contenu illegal, nuisible ou inapproprie",
+          "impersonate": "Usurper l'identite d'une personne ou d'une entite",
+          "interfere": "Perturber ou interrompre le fonctionnement des Services"
+        }
+      },
+      "intellectualProperty": {
+        "number": "6",
+        "title": "Propriete intellectuelle",
+        "yourContent": {
+          "title": "Votre contenu",
+          "description": "Vous conservez l'ensemble des droits sur le contenu que vous soumettez. Vous nous accordez une licence non exclusive, mondiale et sans redevance pour utiliser votre contenu uniquement afin de fournir et d'ameliorer les Services."
+        },
+        "generatedContent": {
+          "title": "Contenu genere",
+          "description": "Vous recevez une licence non exclusive, mondiale et sans redevance pour utiliser, modifier et distribuer le contenu genere par nos Services a toute fin."
+        },
+        "ourIp": {
+          "title": "Notre propriete intellectuelle",
+          "description": "Les Services et leur contenu original nous appartiennent et sont proteges par le droit d'auteur, le droit des marques et les autres lois applicables."
+        }
+      },
+      "noRefund": {
+        "number": "7",
+        "title": "Politique de non-remboursement",
+        "headline": "TOUTES LES VENTES SONT DEFINITIVES",
+        "intro": "Tous les achats sont definitifs et non remboursables :",
+        "items": {
+          "noRefund": "Aucun remboursement, avoir ou compensation en aucune circonstance",
+          "regardless": "S'applique quel que soit votre niveau d'utilisation du service",
+          "evenTechnical": "S'applique meme en cas de probleme technique ou d'insatisfaction"
+        },
+        "alphaNote": "Tous les plans incluent un essai gratuit de 30 jours. Apres cette periode, votre abonnement sera facture selon le plan selectionne."
+      },
+      "dataPrivacy": {
+        "number": "8",
+        "title": "Collecte des donnees et confidentialite",
+        "description": "Nous collectons et traitons les donnees personnelles comme decrit dans notre",
+        "privacyLink": "Politique de confidentialite",
+        "consent": "En utilisant les Services, vous consentez a ce traitement.",
+        "feedbackNote": "Retours et amelioration : en tant que participant au programme alpha, vous reconnaissez que nous pouvons collecter des donnees d'utilisation, des rapports d'erreur et vos retours afin d'ameliorer les Services."
+      },
+      "limitationLiability": {
+        "number": "9",
+        "title": "Limitation de responsabilite",
+        "intro": "Dans toute la mesure permise par la loi, nous ne serons pas responsables des dommages indirects, accessoires, speciaux, consecutifs ou punitifs, y compris :",
+        "items": {
+          "losses": "La perte de benefices, de donnees, d'usage, de clientele ou d'autres pertes immaterielles",
+          "inability": "L'impossibilite d'acceder aux Services ou de les utiliser",
+          "generatedContent": "Tout contenu genere par les Services",
+          "unauthorized": "Tout acces non autorise a vos donnees ou toute alteration de celles-ci"
+        },
+        "alphaNote": "Specifique a l'alpha : nous ne serons pas responsables des dommages lies a la nature alpha des Services, y compris les changements, reinitialisations de base de donnees ou suppressions de fonctionnalites."
+      },
+      "disclaimerWarranties": {
+        "number": "10",
+        "title": "Exclusion de garanties",
+        "asIs": "Les Services sont fournis \"EN L'ETAT\" et \"SELON DISPONIBILITE\".",
+        "disclaim": "Nous excluons expressement toutes les garanties, expresses ou implicites, y compris la qualite marchande, l'adequation a un usage particulier et l'absence de contrefacon.",
+        "noWarranty": "Nous ne garantissons pas que les Services repondront a vos besoins, seront disponibles sans interruption, seront securises ou exempts d'erreurs, ni que les defauts seront corriges."
+      },
+      "termination": {
+        "number": "11",
+        "title": "Resiliation",
+        "weTerminate": "Nous pouvons resilier ou suspendre immediatement votre compte et votre acces aux Services, sans preavis ni responsabilite, pour quelque raison que ce soit, y compris en cas de violation des Conditions.",
+        "uponTermination": "En cas de resiliation, votre droit d'utiliser les Services prendra fin immediatement. Pour fermer votre compte, cessez d'utiliser les Services ou contactez-nous pour demander sa suppression."
+      },
+      "changesToTerms": {
+        "number": "12",
+        "title": "Modifications des conditions",
+        "description": "Nous nous reservons le droit de modifier ces Conditions a tout moment. En cas de revision importante, nous fournirons un preavis d'au moins 30 jours.",
+        "alphaNote": "Pendant l'alpha : nous pouvons mettre a jour les Conditions plus frequemment a mesure que les Services evoluent. La poursuite de l'utilisation vaut acceptation des modifications."
+      },
+      "governingLaw": {
+        "number": "13",
+        "title": "Droit applicable",
+        "description": "Ces Conditions sont regies par le droit des Etats-Unis, sans tenir compte des regles de conflit de lois.",
+        "disputeTitle": "Resolution des litiges :",
+        "dispute": "Tout litige sera regle par arbitrage contraignant conformement aux regles de l'American Arbitration Association. L'arbitrage se deroulera en ligne par visioconference."
+      },
+      "contactUs": {
+        "number": "14",
+        "title": "Nous contacter",
+        "description": "Si vous avez des questions sur ces Conditions, contactez-nous a"
+      }
+    },
+    "navigation": {
+      "returnHome": "Retour a l'accueil",
+      "privacyPolicy": "Politique de confidentialite"
+    }
+  }
+}

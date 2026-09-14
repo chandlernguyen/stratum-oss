@@ -1,0 +1,10 @@
+{
+  "page": {
+    "title": "AI 워크플로 빌더",
+    "subtitle": "에이전트를 연결해 강력한 마케팅 워크플로를 만드세요"
+  },
+  "sections": {
+    "workflowBuilder": "워크플로 빌더 - 메인 영역",
+    "aiRecommendations": "AI 추천 - 사이드바"
+  }
+}

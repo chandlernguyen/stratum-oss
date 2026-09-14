@@ -1,0 +1,149 @@
+{
+  "intelligenceBriefing": {
+    "title": "Ihr Intelligence-Briefing",
+    "subtitle": "KI-empfohlene Maßnahmen basierend auf Ihrem Geschäftskontext",
+    "tooltip": "Ihre KI-gestützten nächsten Schritte, zugeschnitten auf Ihre Geschäftsziele",
+    "emptyState": "Wir analysieren Ihr Unternehmen, um wirkungsstarke nächste Schritte vorzuschlagen.",
+    "emptyAction": "Mit Geschäftsstrategie starten",
+    "aiBadge": "KI-gestützt",
+    "loadingState": "Ihr Geschäftskontext wird analysiert..."
+  },
+  "intelligenceVault": {
+    "title": "Aktuelle Intelligence",
+    "subtitle": "Strategische Einblicke und Outputs Ihrer KI-Agenten",
+    "emptyState": "Noch keine Intelligence vorhanden. Beginnen Sie mit dem Aufbau Ihres strategischen Fundaments.",
+    "emptyAction": "Erste Strategie erstellen",
+    "viewAll": "Alle Intelligence anzeigen →",
+    "totalBadge": "{{count}} gesamt"
+  },
+  "campaigns": {
+    "title": "Ihre Kampagnen",
+    "subtitle": "Intelligence nach Geschäftsinitiativen organisieren",
+    "createButton": "Intelligence in Kampagne organisieren",
+    "createButtonShort": "Kampagne erstellen",
+    "emptyStateNoIntelligence": "Noch keine Kampagnen. Schließen Sie zuerst wichtige Intelligence-Outputs ab (Strategie, Personas, Marketing).",
+    "emptyStateHasIntelligence": "Bereit, Ihre Intelligence nach Geschäftsinitiativen zu organisieren?",
+    "emptyActionPrimary": "Mit Strategie starten",
+    "emptyActionSecondary": "Intelligence aufbauen",
+    "emptyActionReady": "Erste Kampagne erstellen",
+    "sectionDescription": "Intelligence nach Geschäftsinitiativen organisieren"
+  },
+  "intelligenceReadiness": {
+    "bannerIncompleteTitle": "Aufbau Ihres strategischen Fundaments",
+    "bannerIncompleteSubtitle": "({{percentage}}% abgeschlossen)",
+    "bannerCompleteTitle": "Bereit für Ihre erste Kampagne",
+    "bannerCompleteSubtitle": "Sie haben ein starkes strategisches Fundament aufgebaut",
+    "checklistLabel": "Schließen Sie diese wichtigen Intelligence-Outputs ab:",
+    "checklistItems": {
+      "strategy": "Geschäftsstrategie",
+      "persona": "Kunden-Personas",
+      "marketingStrategy": "Marketingstrategie"
+    },
+    "actions": {
+      "createCampaign": "Kampagne erstellen",
+      "maybeLater": "Vielleicht später"
+    },
+    "descriptionComplete": "Erstellen Sie eine Kampagne, um Ihre Intelligence nach Geschäftsinitiativen zu organisieren und die Leistung zu verfolgen.",
+    "descriptionIncomplete": "Schließen Sie diese wichtigen Intelligence-Outputs ab, bevor Sie Kampagnen erstellen:"
+  },
+  "outputs": {
+    "pageTitle": "Outputs Hub",
+    "pageSubtitle": "Alle KI-generierten Einblicke und Inhalte an einem Ort",
+    "organizeButtonNotReady": "Intelligence organisieren",
+    "organizeButtonReady": "Kampagne erstellen",
+    "emptyState": "Noch keine Intelligence-Outputs",
+    "emptyAction": "Strategische Einblicke generieren"
+  },
+  "onboarding": {
+    "welcomeTitle": "Willkommen bei der STRAŦUM Marketing Suite",
+    "welcomeSubtitle": "Erst Intelligence aufbauen, dann mit Zuversicht umsetzen",
+    "welcomeDescription": "Beginnen Sie damit, Ihr Geschäft und Ihre Kunden zu verstehen — Kampagnen kommen danach",
+    "ctaStrategy": {
+      "title": "Mit Strategie starten",
+      "subtitle": "Empfohlener erster Schritt",
+      "description": "Analysieren Sie Ihr Geschäft mit 11 strategischen Frameworks und bauen Sie ein solides Fundament auf",
+      "timeEstimate": "3 Minuten bis zum ersten Einblick"
+    },
+    "ctaPersona": {
+      "title": "Ihre Kunden kennenlernen",
+      "subtitle": "Detaillierte Buyer Personas erstellen",
+      "description": "Verstehen Sie, an wen Sie vermarkten, mit KI-gestützten Kundeneinblicken",
+      "timeEstimate": "5 Minuten zur Persona-Erstellung"
+    },
+    "ctaQuickStart": {
+      "title": "Schnellstart-Vorlagen",
+      "subtitle": "Ergebnisse in Minuten",
+      "description": "Wählen Sie aus vorkonfigurierten Intelligence-Workflows für sofortige Einblicke",
+      "timeEstimate": "2-10 Minuten bis zur Fertigstellung"
+    },
+    "agentExplorerTitle": "ODER KI-AGENTEN ERKUNDEN",
+    "agentCount": "{{count}} spezialisierte Agenten für Ihren Marketingerfolg"
+  },
+  "agentCategories": {
+    "foundation": {
+      "name": "Fundament",
+      "description": "Ihr Marketing-Fundament aufbauen"
+    },
+    "execution": {
+      "name": "Umsetzung",
+      "description": "Ihre Strategie in die Tat umsetzen"
+    },
+    "intelligence": {
+      "name": "Intelligence",
+      "description": "Optimieren und analysieren"
+    }
+  },
+  "emptyStates": {
+    "noIntelligence": {
+      "title": "Noch keine Intelligence",
+      "description": "Beginnen Sie mit dem Aufbau Ihres strategischen Fundaments mit KI-gestützten Einblicken",
+      "action": "Mit Strategie starten"
+    },
+    "noCampaigns": {
+      "title": "Noch keine Kampagnen",
+      "description": "Kampagnen organisieren Intelligence nach Geschäftsinitiativen",
+      "action": "Erst Intelligence aufbauen"
+    },
+    "intelligenceVaultEmpty": {
+      "title": "Ihr Intelligence-Tresor",
+      "description": "Noch keine Intelligence-Outputs. Beginnen Sie mit dem Aufbau Ihres strategischen Fundaments.",
+      "action": "Erste Strategie erstellen"
+    },
+    "campaignsNotReady": {
+      "title": "Erst Intelligence aufbauen",
+      "description": "Erstellen Sie Strategie, Personas und Marketingpläne, bevor Sie diese in Kampagnen organisieren.",
+      "action": "Mit Strategie starten"
+    }
+  },
+  "tooltips": {
+    "intelligenceBriefing": {
+      "title": "Ihre KI-gestützten nächsten Schritte",
+      "description": "Wir analysieren Ihren Geschäftskontext, um wirkungsstarke Maßnahmen zu empfehlen",
+      "dismissLabel": "Verstanden"
+    }
+  },
+  "buttons": {
+    "organizeIntelligence": "Intelligence in Kampagne organisieren",
+    "createCampaign": "Kampagne erstellen",
+    "startWithStrategy": "Mit Strategie starten",
+    "buildIntelligence": "Intelligence aufbauen",
+    "viewAllIntelligence": "Alle Intelligence anzeigen",
+    "generateStrategy": "Strategie erstellen",
+    "exploreAgents": "KI-Agenten erkunden",
+    "quickStart": "Schnellstart (5 Min.)"
+  },
+  "progress": {
+    "readinessPercentage": "{{percentage}}% bis Kampagnenbereitschaft",
+    "intelligenceOutputs": "{{count}} Intelligence-Output",
+    "intelligenceOutputs_other": "{{count}} Intelligence-Outputs",
+    "agentInteractions": "{{count}} KI-Interaktion diese Woche",
+    "agentInteractions_other": "{{count}} KI-Interaktionen diese Woche",
+    "strategicFoundation": "Strategisches Fundament: {{status}}"
+  },
+  "concepts": {
+    "intelligenceFirst": "Strategische Intelligence vor der Umsetzung aufbauen für bessere Ergebnisse",
+    "campaignsOrganize": "Kampagnen organisieren Ihre Intelligence — sie steuern nicht die Umsetzung",
+    "aiAgents": "9 spezialisierte KI-Agenten helfen Ihnen beim Aufbau strategischer Grundlagen",
+    "quickWins": "Sofort umsetzbare Einblicke beim Aufbau einer langfristigen Strategie"
+  }
+}

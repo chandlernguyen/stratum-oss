@@ -1,0 +1,149 @@
+{
+  "intelligenceBriefing": {
+    "title": "Votre briefing d'intelligence",
+    "subtitle": "Actions recommandees par l'IA selon votre contexte business",
+    "tooltip": "Les prochaines actions recommandees par l'IA en fonction de vos objectifs",
+    "emptyState": "Nous analysons votre activite pour suggerer les prochaines actions a fort impact.",
+    "emptyAction": "Commencer par la strategie business",
+    "aiBadge": "Propulse par l'IA",
+    "loadingState": "Analyse de votre contexte business..."
+  },
+  "intelligenceVault": {
+    "title": "Intelligence recente",
+    "subtitle": "Analyses strategiques et livrables issus de vos agents IA",
+    "emptyState": "Aucune intelligence pour le moment. Commencez a construire votre socle strategique.",
+    "emptyAction": "Generer une premiere strategie",
+    "viewAll": "Voir toute l'intelligence →",
+    "totalBadge": "{{count}} au total"
+  },
+  "campaigns": {
+    "title": "Vos campagnes",
+    "subtitle": "Organisez votre intelligence par initiative business",
+    "createButton": "Organiser l'intelligence dans une campagne",
+    "createButtonShort": "Creer une campagne",
+    "emptyStateNoIntelligence": "Pas encore de campagne. Finalisez d'abord les livrables cles (Strategie, Personas, Marketing).",
+    "emptyStateHasIntelligence": "Pret a organiser votre intelligence par initiative business ?",
+    "emptyActionPrimary": "Commencer par la strategie",
+    "emptyActionSecondary": "Construire l'intelligence",
+    "emptyActionReady": "Creer la premiere campagne",
+    "sectionDescription": "Organisez votre intelligence par initiative business"
+  },
+  "intelligenceReadiness": {
+    "bannerIncompleteTitle": "Construction de votre socle strategique",
+    "bannerIncompleteSubtitle": "({{percentage}}% complete)",
+    "bannerCompleteTitle": "Pret a creer votre premiere campagne",
+    "bannerCompleteSubtitle": "Vous avez construit un socle strategique solide",
+    "checklistLabel": "Finalisez ces livrables d'intelligence cles :",
+    "checklistItems": {
+      "strategy": "Strategie business",
+      "persona": "Personas clients",
+      "marketingStrategy": "Strategie marketing"
+    },
+    "actions": {
+      "createCampaign": "Creer une campagne",
+      "maybeLater": "Plus tard"
+    },
+    "descriptionComplete": "Creez une campagne pour organiser votre intelligence par initiative business et suivre la performance.",
+    "descriptionIncomplete": "Finalisez ces livrables d'intelligence cles avant de creer des campagnes :"
+  },
+  "outputs": {
+    "pageTitle": "Hub des livrables",
+    "pageSubtitle": "Tous les contenus et analyses generes par l'IA au meme endroit",
+    "organizeButtonNotReady": "Organiser l'intelligence",
+    "organizeButtonReady": "Creer une campagne",
+    "emptyState": "Aucun livrable d'intelligence pour le moment",
+    "emptyAction": "Commencer a generer des analyses strategiques"
+  },
+  "onboarding": {
+    "welcomeTitle": "Bienvenue dans STRAŦUM Marketing Suite",
+    "welcomeSubtitle": "Construisez l'intelligence d'abord, executez ensuite avec assurance",
+    "welcomeDescription": "Commencez par comprendre votre entreprise et vos clients : les campagnes viennent ensuite",
+    "ctaStrategy": {
+      "title": "Commencer par la strategie",
+      "subtitle": "Premiere etape recommandee",
+      "description": "Analysez votre entreprise avec 11 frameworks strategiques et posez une base solide",
+      "timeEstimate": "3 minutes pour obtenir un premier insight"
+    },
+    "ctaPersona": {
+      "title": "Mieux connaitre vos clients",
+      "subtitle": "Construire des personas detailles",
+      "description": "Comprenez a qui vous vous adressez grace a des insights clients assistes par l'IA",
+      "timeEstimate": "5 minutes pour creer un persona"
+    },
+    "ctaQuickStart": {
+      "title": "Modeles Quick Start",
+      "subtitle": "Des resultats en quelques minutes",
+      "description": "Choisissez des workflows d'intelligence preconfigures pour obtenir des insights immediats",
+      "timeEstimate": "2 a 10 minutes pour terminer"
+    },
+    "agentExplorerTitle": "OU EXPLORER LES AGENTS IA",
+    "agentCount": "{{count}} agents specialises pour faire progresser votre marketing"
+  },
+  "agentCategories": {
+    "foundation": {
+      "name": "Fondation",
+      "description": "Construisez vos fondamentaux marketing"
+    },
+    "execution": {
+      "name": "Execution",
+      "description": "Passez a l'action a partir de votre strategie"
+    },
+    "intelligence": {
+      "name": "Intelligence",
+      "description": "Optimisez et analysez"
+    }
+  },
+  "emptyStates": {
+    "noIntelligence": {
+      "title": "Pas encore d'intelligence",
+      "description": "Commencez a construire votre socle strategique avec des insights assistes par l'IA",
+      "action": "Commencer par la strategie"
+    },
+    "noCampaigns": {
+      "title": "Pas encore de campagne",
+      "description": "Les campagnes servent a organiser l'intelligence par initiative business",
+      "action": "Construire l'intelligence d'abord"
+    },
+    "intelligenceVaultEmpty": {
+      "title": "Votre coffre d'intelligence",
+      "description": "Aucun livrable d'intelligence pour le moment. Commencez a poser votre socle strategique.",
+      "action": "Generer une premiere strategie"
+    },
+    "campaignsNotReady": {
+      "title": "Construire l'intelligence d'abord",
+      "description": "Creez la strategie, les personas et les plans marketing avant de les organiser en campagnes.",
+      "action": "Commencer par la strategie"
+    }
+  },
+  "tooltips": {
+    "intelligenceBriefing": {
+      "title": "Vos prochaines actions pilotees par l'IA",
+      "description": "Nous analysons votre contexte business pour recommander les actions les plus utiles",
+      "dismissLabel": "Compris"
+    }
+  },
+  "buttons": {
+    "organizeIntelligence": "Organiser l'intelligence dans une campagne",
+    "createCampaign": "Creer une campagne",
+    "startWithStrategy": "Commencer par la strategie",
+    "buildIntelligence": "Construire l'intelligence",
+    "viewAllIntelligence": "Voir toute l'intelligence",
+    "generateStrategy": "Generer une strategie",
+    "exploreAgents": "Explorer les agents IA",
+    "quickStart": "Quick Start (5 min)"
+  },
+  "progress": {
+    "readinessPercentage": "{{percentage}}% avant d'etre pret pour une campagne",
+    "intelligenceOutputs": "{{count}} livrable d'intelligence",
+    "intelligenceOutputs_other": "{{count}} livrables d'intelligence",
+    "agentInteractions": "{{count}} interaction IA cette semaine",
+    "agentInteractions_other": "{{count}} interactions IA cette semaine",
+    "strategicFoundation": "Socle strategique : {{status}}"
+  },
+  "concepts": {
+    "intelligenceFirst": "Construire l'intelligence strategique avant l'execution donne de meilleurs resultats",
+    "campaignsOrganize": "Les campagnes organisent votre intelligence, elles ne pilotent pas l'execution",
+    "aiAgents": "9 agents IA specialises vous aident a construire des bases strategiques solides",
+    "quickWins": "Des insights actionnables immediats pendant que vous construisez votre strategie de long terme"
+  }
+}

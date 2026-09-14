@@ -1,0 +1,10 @@
+{
+  "page": {
+    "title": "Constructor de flujos con IA",
+    "subtitle": "Conecta agentes para crear flujos de trabajo de marketing potentes"
+  },
+  "sections": {
+    "workflowBuilder": "Constructor de flujos - area principal",
+    "aiRecommendations": "Recomendaciones de IA - barra lateral"
+  }
+}

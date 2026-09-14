@@ -1,0 +1,30 @@
+{
+  "masthead": {
+    "eyebrow": "Einblicke & Leitfäden",
+    "title": "Der STRATUM Blog",
+    "description": "Strategische Marketing-Intelligence, Framework-Vertiefungen und Erkenntnisse vom Aufbau einer KI-gestützten Plattform."
+  },
+  "hubs": {
+    "all": "Alle Beiträge",
+    "marketingIntelligence": "Marketing-Intelligence",
+    "marketingFrameworks": "Frameworks",
+    "aiAgents": "KI-Agenten",
+    "agencyOperations": "Agentur-Betrieb"
+  },
+  "post": {
+    "notFoundTitle": "Beitrag nicht gefunden",
+    "backToBlog": "Zurück zum Blog",
+    "allPosts": "Alle Beiträge",
+    "completeGuide": "Vollständiger Leitfaden",
+    "minRead": "Min. Lesezeit",
+    "min": "Min.",
+    "moreFrom": "Mehr aus {{hub}}",
+    "read": "Lesen",
+    "readArticle": "Artikel lesen",
+    "emptyHub": "Noch keine weiteren Beiträge in diesem Hub. Schauen Sie bald wieder vorbei."
+  },
+  "languages": {
+    "english": "English",
+    "vietnamese": "Tiếng Việt"
+  }
+}

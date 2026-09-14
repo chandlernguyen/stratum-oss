@@ -1,0 +1,232 @@
+{
+  "pageTitle": "Agency Best Practices Guide",
+  "pageSubtitle": "Master STRAŦUM to manage 5+ clients efficiently",
+  "backButton": "Back",
+
+  "privateAlpha": {
+    "title": "Welcome to STRAŦUM",
+    "description": "You're using the <strong>free tier</strong> of STRAŦUM. We're actively building and improving the platform — your feedback helps shape what comes next.",
+    "protectWork": "Best Practices",
+    "protectWorkItems": {
+      "databaseReset": "Export important work regularly as a backup habit",
+      "downloadData": "<strong>Download valuable data regularly</strong> (strategies, content, insights)",
+      "useExport": "Use the export buttons in the Content Agent and Outputs Hub",
+      "feedbackValue": "Your feedback shapes the product — it's invaluable to us!"
+    },
+    "questionsTitle": "Have Questions or Feedback?",
+    "questionsDescription": "Click your profile picture in the top-right corner, then select <strong>\"Send Feedback\"</strong>. We read every message and use your input to make STRAŦUM better."
+  },
+
+  "introduction": {
+    "title": "Introduction",
+    "description": "Welcome to STRAŦUM! This guide provides best practices for marketing agencies using the platform to manage multiple clients efficiently while delivering exceptional results through AI-powered intelligence."
+  },
+
+  "clientOnboarding": {
+    "title": "Client Onboarding Strategy",
+    "firstClientSetup": "First Client Setup (15-20 minutes)",
+    "steps": {
+      "addClient": "<strong>Add Client:</strong> Navigate to \"Add Your First Client\" button on the dashboard",
+      "strategicFoundation": "<strong>Strategic Foundation:</strong> Run Business Strategy Agent to establish strategic frameworks",
+      "customerInsights": "<strong>Customer Insights:</strong> Generate 3-5 personas using Persona Agent",
+      "marketingDirection": "<strong>Marketing Direction:</strong> Create initial marketing strategy with Marketing Strategy Agent"
+    },
+    "proTipLabel": "Pro Tip:",
+    "proTipContent": "Don't try to gather everything upfront - let AI agents learn progressively through conversations. Each interaction builds context automatically."
+  },
+
+  "dataProtection": {
+    "title": "Your Client Data is Protected",
+    "description": "STRAŦUM keeps each client's data <strong>completely separate and secure</strong>. Client A will never see Client B's information, and vice versa. This protection is built into the platform at the database level.",
+    "doTitle": "DO:",
+    "doItems": {
+      "useSelector": "Use the client selector to switch between clients",
+      "doubleCheck": "Double-check you're in the right client workspace",
+      "downloadRegularly": "Download important strategies and content regularly",
+      "lookForBadge": "Look for the \"Data Protected\" badge for peace of mind"
+    },
+    "dontTitle": "DON'T:",
+    "dontItems": {
+      "copySensitive": "Copy sensitive information between client workspaces",
+      "shareLogin": "Share your login with team members (invite them instead)",
+      "exportWithoutPermission": "Export client data without their permission"
+    },
+    "alphaTipTitle": "Tip: Save Your Work",
+    "alphaTipContent": "We recommend downloading valuable strategies and content as you create them. Use the export buttons in the Content Agent (Word, PDF, Google Docs) and the Outputs Hub. Think of it like saving your work in a document — always a good habit!"
+  },
+
+  "teamRoles": {
+    "title": "Team Collaboration & Roles",
+    "description": "STRAŦUM offers 10 different team roles for agencies, so each person only sees what they need for their job:",
+    "roles": {
+      "agencyOwner": {
+        "title": "Agency Owner",
+        "description": "Full access, billing, team management"
+      },
+      "agencyAdmin": {
+        "title": "Agency Admin",
+        "description": "All client management, no billing access"
+      },
+      "accountManager": {
+        "title": "Account Manager",
+        "description": "Client relationships, view all data"
+      },
+      "strategist": {
+        "title": "Strategist",
+        "description": "Create strategies, personas, business intelligence"
+      },
+      "campaignManager": {
+        "title": "Campaign Manager",
+        "description": "Execute campaigns, manage content calendar"
+      },
+      "analyst": {
+        "title": "Analyst",
+        "description": "Performance tracking, ROI analysis, reporting"
+      },
+      "creative": {
+        "title": "Creative",
+        "description": "Content creation and design assets"
+      },
+      "freelancer": {
+        "title": "Freelancer",
+        "description": "Project-based access to specific clients"
+      },
+      "clientViewer": {
+        "title": "Client Viewer",
+        "description": "Read-only access to assigned client data"
+      },
+      "agencyViewer": {
+        "title": "Agency Viewer",
+        "description": "Read-only access across all clients"
+      }
+    },
+    "inviteInstructions": "<strong>How to invite team members:</strong> Click your profile picture → Settings → Team Management. Assign roles based on what each person actually does, not their job title or seniority. Give people access to what they need - nothing more, nothing less."
+  },
+
+  "aiWorkflow": {
+    "title": "AI Agent Workflow",
+    "description": "For new clients, follow this strategic sequence:",
+    "phases": {
+      "foundation": {
+        "title": "Phase 1: Foundation (Week 1)",
+        "steps": {
+          "step1": "Business Strategy Agent - Establish frameworks (SWOT, Porter's Five Forces)",
+          "step2": "Persona Agent - Create 3-5 detailed customer personas",
+          "step3": "Marketing Strategy Agent - Develop go-to-market strategy"
+        }
+      },
+      "execution": {
+        "title": "Phase 2: Execution Planning (Week 2)",
+        "steps": {
+          "step1": "Content Agent - Generate content calendar and initial assets",
+          "step2": "Campaign Planning Agent - Map out multi-channel campaigns",
+          "step3": "Competitive Intelligence Agent - Analyze market positioning"
+        }
+      },
+      "optimization": {
+        "title": "Phase 3: Optimization (Ongoing)",
+        "steps": {
+          "step1": "Performance Intelligence Agent - Track ROI, KPIs, and identify quick wins",
+          "step2": "Client Success Agent - Monitor client health and retention"
+        }
+      }
+    },
+    "crossAgentTitle": "Cross-Agent Intelligence:",
+    "crossAgentContent": "STRAŦUM agents share context automatically. Personas feed into content generation, strategies inform campaigns, and performance data triggers optimization insights. Trust the system's data flow."
+  },
+
+  "campaignManagement": {
+    "title": "Campaign Management",
+    "lifecycleTitle": "Campaign Lifecycle",
+    "lifecycleSteps": {
+      "planning": "<strong>Planning:</strong> Use Marketing Strategy Agent to define objectives and budget (70-20-10 rule)",
+      "content": "<strong>Content Creation:</strong> Content Agent provides 9 tools (SEO blog, social media, email campaigns, etc.)",
+      "execution": "<strong>Execution Tracking:</strong> Mark one strategy as \"Active\" per campaign, upload performance data via CSV",
+      "optimization": "<strong>Optimization:</strong> Use Performance Intelligence Agent for quick wins insights and Budget Optimizer for allocation recommendations"
+    },
+    "multiClientTitle": "Multi-Client Management:",
+    "multiClientItems": {
+      "selector": "Client selector in top navigation for quick switching",
+      "outputsHub": "Outputs Hub shows all AI-generated content across clients",
+      "bulkOperations": "Bulk operations for archiving old campaigns",
+      "comparison": "Side-by-side comparison for strategy benchmarking"
+    }
+  },
+
+  "performanceTracking": {
+    "title": "Performance Tracking",
+    "metricsTitle": "Key Metrics Dashboard",
+    "clientHealth": {
+      "title": "Client Health Score:",
+      "items": {
+        "roi": "Campaign ROI trends",
+        "content": "Content performance",
+        "alignment": "Strategy alignment",
+        "budget": "Budget efficiency"
+      }
+    },
+    "agencyEfficiency": {
+      "title": "Agency Efficiency:",
+      "items": {
+        "timeSaved": "Time saved per client",
+        "campaigns": "Campaigns managed simultaneously",
+        "retention": "Client retention rates",
+        "upsell": "AI-identified upsell opportunities"
+      }
+    }
+  },
+
+  "quickReference": {
+    "title": "Quick Reference: Common Tasks",
+    "tableHeaders": {
+      "task": "Task",
+      "navigation": "Navigation Path"
+    },
+    "tasks": {
+      "addClient": {
+        "task": "Add new client",
+        "navigation": "Dashboard → \"Add Client\" button"
+      },
+      "createPersona": {
+        "task": "Create customer persona",
+        "navigation": "Clients → [Client] → Agents → Persona Agent"
+      },
+      "generateCalendar": {
+        "task": "Generate content calendar",
+        "navigation": "Clients → [Client] → Agents → Content Agent"
+      },
+      "uploadPerformance": {
+        "task": "Upload performance data",
+        "navigation": "Clients → [Client] → Agents → Performance Intelligence"
+      },
+      "inviteTeam": {
+        "task": "Invite team member",
+        "navigation": "Settings → Team Management"
+      },
+      "switchClients": {
+        "task": "Switch between clients",
+        "navigation": "Top navigation → Client selector dropdown"
+      }
+    }
+  },
+
+  "nextSteps": {
+    "title": "Next Steps",
+    "steps": {
+      "step1": "Add your first client via the dashboard",
+      "step2": "Generate strategic foundation (Business Strategy + Personas + Marketing Strategy)",
+      "step3": "Create initial content assets (Content Agent)",
+      "step4": "Set up performance tracking (Upload first CSV dataset with Performance Intelligence Agent)",
+      "step5": "Invite team members (if applicable)"
+    },
+    "remember": "<strong>Remember:</strong> STRAŦUM provides \"Intelligence Over Execution\" - focus on strategic insights, not tactical automation. Let the AI agents build context progressively through natural conversations."
+  },
+
+  "footer": {
+    "feedbackTitle": "We'd Love Your Feedback!",
+    "feedbackDescription": "Your insights are incredibly valuable. Found something confusing? Have an idea for improvement? Run into an issue?",
+    "feedbackCta": "Click your profile picture (top-right) → \"Send Feedback\"",
+    "feedbackNote": "We read every message and use your input to shape STRAŦUM's future",
+    "lastUpdated": "Last Updated: January 20, 2026 | Version 1.2"
+  }
+}

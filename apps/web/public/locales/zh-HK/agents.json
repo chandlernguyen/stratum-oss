@@ -1,0 +1,1600 @@
+{
+  "common": {
+    "analyzing": "正在使用 {{tools}} 分析你嘅請求...",
+    "complete": "完成",
+    "recommendation": "根據呢個分析，以下係我嘅建議："
+  },
+  "strategy": {
+    "name": "策略智能助手",
+    "description": "你嘅策略規劃專家",
+    "greeting": "歡迎！等我哋一齊應對你嘅商業挑戰。我可以幫你理清思路，運用 SWOT、Porter's Five Forces、增長三層面或 Blue Ocean Strategy 等成熟框架構建制勝策略。今日有咩想探討？我哋可以研究策略問題、分析競爭格局，或者從目前最重要嘅事情開始。",
+    "placeholder": "查詢商業策略、SWOT 分析...（例如：\u201c做一個 SWOT 分析\u201d）",
+    "page": {
+      "title": "商業策略智能助手",
+      "subtitle": "基於 AI 嘅策略分析，涵蓋 11 個成熟商業框架",
+      "defaultSessionTitle": "策略分析",
+      "features": {
+        "analysis": {
+          "title": "綜合分析",
+          "description": "SWOT、Porter's Five Forces、BCG Matrix 等"
+        },
+        "recommendations": {
+          "title": "智能建議",
+          "description": "基於數據嘅度身定制商業洞察"
+        },
+        "frameworks": {
+          "title": "視覺化框架",
+          "description": "互動式圖表同結構化輸出"
+        }
+      }
+    },
+    "hints": {
+      "beginner": {
+        "expandOrSpecialize": {
+          "trigger": "我應該擴張定係專注？",
+          "smeLabel": "我應該擴張定係專注？",
+          "agencyLabel": "我嘅客戶應該擴張定係專注？",
+          "tooltip": "用 Porter's Five Forces + VRIO 分析輔助增長決策",
+          "description": "策略增長方向分析"
+        },
+        "swotPricing": {
+          "trigger": "對我嘅定價做 SWOT 分析",
+          "smeLabel": "對我嘅定價做 SWOT 分析",
+          "agencyLabel": "對客戶定價做 SWOT 分析",
+          "tooltip": "以定價為核心嘅 SWOT 分析，含可執行建議",
+          "description": "定價策略分析"
+        }
+      },
+      "intermediate": {
+        "bcgMatrix": {
+          "trigger": "BCG Matrix：評估 3 條產品線",
+          "tooltip": "產品組合分析及投資建議",
+          "description": "產品組合管理"
+        },
+        "blueOcean": {
+          "trigger": "Blue Ocean：搵未開發嘅市場",
+          "tooltip": "使用 ERRC 框架進行策略差異化",
+          "description": "市場差異化策略"
+        },
+        "vrio": {
+          "trigger": "VRIO：分析競爭優勢",
+          "tooltip": "基於資源嘅競爭優勢評估",
+          "description": "競爭優勢分析"
+        },
+        "threeHorizons": {
+          "trigger": "增長三層面：平衡增長",
+          "tooltip": "平衡增長規劃框架",
+          "description": "增長層面規劃"
+        }
+      },
+      "expert": {
+        "completeSuite": {
+          "trigger": "完整策略框架套件",
+          "tooltip": "4 框架分析並綜合洞察",
+          "description": "全面嘅多框架分析"
+        },
+        "mckinsey7s": {
+          "trigger": "McKinsey 7S：組織協同",
+          "tooltip": "組織效能評估",
+          "description": "組織協同框架"
+        },
+        "okrs": {
+          "trigger": "下季度嘅策略 OKR",
+          "tooltip": "可量化成果嘅目標設定",
+          "description": "策略 OKR 框架"
+        }
+      }
+    }
+  },
+  "persona": {
+    "name": "畫像智能助手",
+    "description": "你嘅客戶洞察專家",
+    "greeting": "我幫你深入了解理想客戶。我可以建立詳細嘅客戶畫像、繪製買家旅程，並生成訪談問題。",
+    "placeholder": "查詢客戶畫像、買家旅程...（例如：\u201c建立一個客戶畫像\u201d）",
+    "page": {
+      "title": "客戶畫像智能助手",
+      "subtitle": "基於 AI 嘅客戶畫像同買家旅程分析",
+      "defaultSessionTitle": "畫像開發",
+      "tabs": {
+        "newPersona": "新建畫像",
+        "myPersonas": "我嘅畫像"
+      },
+      "session": {
+        "newSession": "新建會話"
+      },
+      "features": {
+        "profiles": {
+          "title": "詳細畫像",
+          "description": "人口統計、心理特徵同行為分析"
+        },
+        "journey": {
+          "title": "旅程分析",
+          "description": "從認知到倡導嘅完整客戶旅程"
+        },
+        "insights": {
+          "title": "行為洞察",
+          "description": "痛點、動機同決策因素"
+        }
+      }
+    },
+    "interview": {
+      "pageTitle": "畫像訪談",
+      "header": {
+        "interviewMode": "訪談模式",
+        "backToPersonaAgent": "返回畫像智能助手",
+        "back": "返回"
+      },
+      "tabs": {
+        "interview": "訪談",
+        "liveInsights": "實時洞察"
+      },
+      "loading": {
+        "title": "正在載入訪談會話...",
+        "error": "搵唔到畫像",
+        "returnButton": "返回畫像智能助手"
+      }
+    }
+  },
+  "marketing_strategy": {
+    "name": "營銷策略智能助手",
+    "description": "你嘅市場推廣專家",
+    "greeting": "我係你嘅營銷策略智能助手，隨時為你度身定制全面嘅營銷方案。我會分析你嘅商業背景、客戶畫像同目標，制定可執行嘅策略，包括訊息框架、渠道建議同預算優化。",
+    "placeholder": "描述你嘅業務、目標受眾同營銷目標...",
+    "page": {
+      "title": "營銷策略智能助手",
+      "subtitle": "連接客戶畫像同內容創作嘅橋樑",
+      "defaultSessionTitle": "營銷策略",
+      "tabs": {
+        "newStrategy": "新建策略",
+        "myStrategies": "我嘅策略"
+      },
+      "modes": {
+        "quick": "🚀 快速策略模式",
+        "guided": "🎯 導覽規劃模式",
+        "chat": "💬 互動對話模式",
+        "advanced": "⚙️ 進階配置模式"
+      },
+      "actions": {
+        "changeMode": "切換模式",
+        "viewAllStrategies": "查看所有策略",
+        "startConversation": "開始策略對話"
+      },
+      "activeStrategy": "目前策略：",
+      "created": "建立於",
+      "loading": "正在載入營銷策略智能助手...",
+      "loadingSubtitle": "正在搭建你嘅個人化營銷策略工作區。",
+      "startPrompt": "同我講下你嘅業務情況，我會為你制定全面嘅營銷策略",
+      "orStartWith": "或從特定場景開始：",
+      "contextCards": {
+        "starting": {
+          "title": "啱啱起步",
+          "description": "適合初創企業嘅低成本策略"
+        },
+        "scaling": {
+          "title": "準備擴張",
+          "description": "適合成長型企業嘅增長策略"
+        },
+        "global": {
+          "title": "走向全球",
+          "description": "面向國際擴張嘅區域策略"
+        }
+      },
+      "features": {
+        "budget": "適用於任何預算",
+        "aiInsights": "AI 驅動嘅洞察",
+        "tactics": "可直接落地嘅戰術",
+        "contextAware": "情境感知推理",
+        "tradeoffs": "清晰解釋權衡",
+        "regional": "區域市場專長",
+        "iterative": "迭代優化",
+        "smartBudget": "智能預算分配",
+        "freeTactics": "免費營銷戰術",
+        "dataInsights": "數據驅動嘅洞察"
+      },
+      "quickStrategy": {
+        "title": "快速策略產生器",
+        "description": "回答 2 個問題，獲取你嘅營銷策略",
+        "budgetQuestion": "你每月嘅營銷預算係幾多？",
+        "goalQuestion": "你最重要嘅營銷目標係咩？",
+        "generateButton": "生成我嘅策略",
+        "cardTitle": "快速策略",
+        "cardDescription": "2 分鐘獲取完整策略",
+        "features": {
+          "smartBudget": "智能預算分配",
+          "channelRecs": "渠道建議",
+          "messagingFramework": "訊息框架",
+          "readyTactics": "可直接使用嘅戰術"
+        }
+      },
+      "guidedPlanning": {
+        "title": "導覽式策略規劃",
+        "description": "等我哋一步步共同制定你嘅營銷策略",
+        "explanation": "我會透過詢問你嘅業務、目標受眾同目標，引導你建立全面嘅營銷策略。呢種對話式方法確保我哋涵蓋所有重要內容，同時保持簡潔明了。",
+        "startButton": "開始導覽規劃",
+        "cardTitle": "導覽規劃",
+        "cardDescription": "逐步構建策略",
+        "features": {
+          "conversational": "對話式方法",
+          "tailored": "度身定制建議",
+          "bestPractice": "最佳實踐指導",
+          "iterative": "迭代優化"
+        }
+      },
+      "advancedConfig": {
+        "title": "進階配置",
+        "description": "完全掌控你嘅營銷策略參數",
+        "explanation": "配置營銷策略嘅各個方面，包括多畫像定位、自訂渠道組合、詳細預算分配同複雜嘅活動參數。推薦畀有經驗嘅營銷人員同代理機構使用。",
+        "openButton": "開啟進階配置",
+        "cardTitle": "進階配置",
+        "cardDescription": "完全掌控所有參數",
+        "features": {
+          "multiPersona": "多畫像定位",
+          "customChannel": "自訂渠道組合",
+          "detailedBudget": "詳細預算分配",
+          "complexCampaigns": "複雜活動規劃"
+        }
+      },
+      "budgetOptions": {
+        "bootstrap": "$0（零成本啟動）",
+        "under500": "500 美元以下",
+        "mid": "$500-$2000",
+        "high": "$2000+"
+      },
+      "goalOptions": {
+        "firstCustomers": "獲取首批客戶",
+        "brandAwareness": "提升品牌知名度",
+        "leadGeneration": "獲取潛在客戶",
+        "productLaunch": "新產品上市"
+      },
+      "badges": {
+        "quick": "2 分鐘",
+        "guided": "10 分鐘",
+        "custom": "自訂"
+      },
+      "header": {
+        "title": "營銷策略規劃",
+        "description": "連接客戶理解同內容創作嘅橋樑"
+      },
+      "changeApproach": "切換方式",
+      "budget": "預算",
+      "allOptionsNote": "所有選項均可透過選單隨時存取。根據需要切換模式。"
+    }
+  },
+  "content": {
+    "name": "內容智能助手",
+    "description": "你嘅內容創作專家",
+    "greeting": "我幫你創作能夠轉化嘅優質內容。我可以生成內容創意、撰寫網誌文章、建立社交媒體內容，以及規劃內容日曆。",
+    "placeholder": "查詢內容創意、網誌文章...（例如：\u201c生成網誌文章創意\u201d）",
+    "page": {
+      "title": "內容創作智能助手",
+      "subtitle": "AI 驅動嘅專業內容生成工具",
+      "defaultSessionTitle": "內容創作",
+      "tabs": {
+        "generate": "生成內容",
+        "myContent": "我嘅內容"
+      },
+      "actions": {
+        "changeTool": "切換工具",
+        "newSession": "新建會話",
+        "startChat": "開始互動對話"
+      },
+      "strategy": {
+        "title": "AI 驅動嘅內容策略",
+        "subtitle": "我已分析你嘅業務數據，為你制定咗度身定制內容策略"
+      },
+      "stats": {
+        "strategy": "策略",
+        "personas": "畫像",
+        "contentCreated": "已建立內容",
+        "recommendations": "建議"
+      },
+      "tools": {
+        "seoBlog": "🔍 SEO 網誌文章產生器",
+        "thoughtLeadership": "📈 思想領袖內容創作器",
+        "uspContent": "🎯 USP 聚焦內容產生器",
+        "emailDrip": "📧 電郵營銷序列設計器",
+        "socialCalendar": "📅 社交媒體日曆",
+        "chat": "💬 互動內容創作"
+      },
+      "quickStart": {
+        "title": "或從對話開始",
+        "description": "唔確定用邊個工具？開始對話，我會幫你創作最適合你需要嘅內容。"
+      },
+      "features": {
+        "multiFormat": {
+          "title": "多格式內容",
+          "description": "網誌文章、電郵、社交媒體同廣告"
+        },
+        "platform": {
+          "title": "平台優化",
+          "description": "針對各社交平台最佳實踐定制"
+        },
+        "brandVoice": {
+          "title": "品牌調性",
+          "description": "所有內容保持一致嘅語調同訊息"
+        },
+        "research": {
+          "title": "數據支撐",
+          "description": "基於數據同最佳實踐嘅內容創作"
+        },
+        "audience": {
+          "title": "受眾導向",
+          "description": "針對目標畫像同目標度身定制"
+        },
+        "brand": {
+          "title": "品牌一致性",
+          "description": "保持你獨特嘅品牌聲音同風格"
+        }
+      },
+      "toolGrid": {
+        "header": {
+          "title": "揀選你嘅內容創作工具",
+          "subtitle": "從我哋嘅 AI 內容產生器套件中揀選，幾分鐘內創作專業嘅營銷素材"
+        },
+        "stats": {
+          "activeTools": "可用工具",
+          "contentTypes": "內容類型",
+          "avgGeneration": "平均生成時間",
+          "variations": "變體數量"
+        },
+        "tools": {
+          "seoBlog": {
+            "name": "SEO 網誌產生器",
+            "description": "建立經過 SEO 優化嘅網誌文章，包含關鍵字、元描述同結構化內容"
+          },
+          "thoughtLeadership": {
+            "name": "思想領袖內容",
+            "description": "打造專家級內容同系列文章，樹立行業領袖地位"
+          },
+          "uspContent": {
+            "name": "USP 聚焦內容",
+            "description": "生成突出你獨特賣點同差異化優勢嘅內容"
+          },
+          "emailDrip": {
+            "name": "電郵營銷序列",
+            "description": "設計完整嘅電郵序列，用於客戶培育、引導同互動"
+          },
+          "socialCalendar": {
+            "name": "社交媒體日曆",
+            "description": "規劃並生成跨平台一個月嘅社交媒體內容"
+          },
+          "contentPlan": {
+            "name": "內容計劃產生器",
+            "description": "建立與策略一致嘅 4 週綜合內容日曆"
+          },
+          "contentIdeation": {
+            "name": "內容創意",
+            "description": "基於趨勢同受眾興趣生成創意內容構思"
+          },
+          "blogTemplates": {
+            "name": "網誌寫作模板",
+            "description": "獲取針對唔同內容類型嘅成熟網誌模板"
+          },
+          "contentAnalysis": {
+            "name": "內容需求分析器",
+            "description": "發現內容策略中嘅缺口並獲取建議"
+          }
+        },
+        "badges": {
+          "popular": "熱門",
+          "highImpact": "高影響力",
+          "comingSoon": "即將推出"
+        },
+        "buttons": {
+          "startCreating": "開始創作"
+        },
+        "cta": {
+          "title": "唔確定從邊度開始？",
+          "description": "試下我哋嘅 SEO 網誌產生器快速獲得成果，或使用電郵營銷設計器培育你嘅潛在客戶",
+          "seoBlog": "建立 SEO 網誌",
+          "emailCampaign": "設計電郵營銷"
+        },
+        "recommendations": {
+          "loading": "正在分析你嘅內容需求...",
+          "smartAnalysis": "智能內容分析",
+          "clarificationNeeded": "需要進一步說明",
+          "clarificationMessage": "我需要更好咁了解你嘅業務，先可以提供相關建議",
+          "noRecommendations": {
+            "title": "暫無建議",
+            "description": "先完成你嘅營銷策略，即可獲得個人化內容建議",
+            "cta": "制定營銷策略"
+          },
+          "priorities": {
+            "title": "你嘅內容優先級",
+            "count": "{{count}} 條建議",
+            "count_one": "{{count}} 條建議",
+            "confidence": "{{level}} 置信度"
+          },
+          "actions": {
+            "getStarted": "開始",
+            "expand": "展開",
+            "collapse": "收起",
+            "startWriting": "開始寫作",
+            "showLess": "收起",
+            "showMore": "仲有 {{count}} 條建議"
+          },
+          "status": {
+            "completed": "已完成",
+            "progress": "已完成 {{completed}}/{{total}}"
+          }
+        }
+      }
+    }
+  },
+  "campaign_planning": {
+    "name": "活動策劃智能助手",
+    "description": "你嘅部署智能專家",
+    "greeting": "我幫你運用策略框架同優化策略規劃活動部署。我提供部署方案、A/B 測試框架同多渠道協調智能——而非執行。",
+    "placeholder": "查詢部署規劃、A/B 測試...（例如：\u201c建立部署方案\u201d）",
+    "page": {
+      "title": "活動策劃智能助手",
+      "subtitle": "策略活動部署同多渠道協調",
+      "defaultSessionTitle": "活動策劃",
+      "features": {
+        "deployment": {
+          "title": "部署規劃",
+          "description": "活動上線嘅策略框架"
+        },
+        "testing": {
+          "title": "A/B 測試",
+          "description": "數據驅動嘅測試框架同優化"
+        },
+        "coordination": {
+          "title": "多渠道",
+          "description": "跨渠道嘅協調活動"
+        }
+      },
+      "plansDisplay": {
+        "title": "活動方案",
+        "subtitle": "基於你嘅業務背景，AI 識別嘅部署策略",
+        "chatForPlans": "對話獲取度身定制方案",
+        "badges": {
+          "iceScored": "ICE 評分",
+          "multiChannel": "多渠道",
+          "deploymentReady": "部署就緒"
+        },
+        "loading": "正在分析你嘅業務背景並生成策略活動方案...",
+        "setupNeeded": {
+          "title": "等我哋開始啦",
+          "button": "完成設定"
+        },
+        "clarificationNeeded": {
+          "title": "我需要更多資訊",
+          "button": "透過對話回答"
+        },
+        "recommended": {
+          "title": "推薦活動方案",
+          "sortInfo": "按 ICE 評分排序（影響力 × 置信度 × 易實施度）",
+          "plansGenerated": "已生成 {{count}} 個方案"
+        },
+        "scores": {
+          "impact": "影響力",
+          "confidence": "置信度",
+          "ease": "易實施度",
+          "ice": "ICE"
+        },
+        "details": {
+          "channels": "渠道",
+          "duration": "時長",
+          "expectedOutcomes": "預期成果",
+          "prerequisites": "前置條件",
+          "riskFactors": "風險因素"
+        },
+        "actions": {
+          "deployPlan": "部署此方案",
+          "viewDetails": "查看詳情",
+          "savePlan": "儲存方案",
+          "saving": "儲存中..."
+        },
+        "emptyState": {
+          "title": "暫無活動方案",
+          "description": "目前仲未能生成活動方案。同智能助手對話討論你嘅具體目標，或上傳更多業務背景數據。",
+          "button": "同智能助手對話"
+        }
+      },
+      "session": {
+        "newSession": "新建會話",
+        "backToPlans": "返回活動方案"
+      },
+      "chatMode": {
+        "title": "活動執行對話",
+        "subtitle": "設計度身定制部署策略"
+      },
+      "tabs": {
+        "deploymentFramework": "部署框架",
+        "deploymentFrameworkShort": "框架",
+        "abTesting": "A/B 測試",
+        "abTestingShort": "測試",
+        "executionContext": "執行背景",
+        "executionContextShort": "背景"
+      }
+    }
+  },
+  "competitive_intelligence": {
+    "name": "競爭情報智能助手",
+    "description": "你嘅市場分析專家",
+    "greeting": "我幫你了解競爭格局。我可以分析競爭對手、發現市場缺口、識別策略機會。",
+    "placeholder": "查詢競爭對手、市場分析...（例如：\u201c分析競爭對手\u201d）",
+    "page": {
+      "title": "競爭情報智能助手",
+      "subtitle": "市場分析同競爭格局洞察",
+      "defaultSessionTitle": "競爭分析",
+      "features": {
+        "competitors": {
+          "title": "競爭對手分析",
+          "description": "深入分析競爭對手嘅策略同市場定位"
+        },
+        "marketGaps": {
+          "title": "市場缺口",
+          "description": "發現市場中未被滿足嘅機會"
+        },
+        "opportunities": {
+          "title": "策略機會",
+          "description": "可執行嘅競爭優勢洞察"
+        }
+      },
+      "analysisDisplay": {
+        "title": "競爭情報",
+        "subtitle": "基於即時網路研究嘅策略競爭分析",
+        "startResearch": "開始自訂研究",
+        "searchGrounding": {
+          "title": "已啟用 Google 搜尋數據增強",
+          "description": "點擊下方框架，獲取基於即時數據嘅 AI 洞察：定價、功能、最新動態、市場定位"
+        },
+        "frameworksTitle": "揀選競爭分析框架"
+      },
+      "session": {
+        "newSession": "新建會話",
+        "backToAnalysis": "返回分析"
+      },
+      "frameworks": {
+        "badges": {
+          "popular": "熱門",
+          "competitorsOnly": "僅限競爭對手"
+        },
+        "youllGet": "你將獲得：",
+        "difficulty": {
+          "beginner": "入門",
+          "intermediate": "進階",
+          "advanced": "高級"
+        },
+        "setupRequired": {
+          "title": "設定你嘅企業資料以獲取個人化分析",
+          "description": "獲取針對你公司、競爭對手同行業嘅 AI 競爭洞察",
+          "setupButton": "設定企業資料（2 分鐘）",
+          "continueGeneric": "繼續使用通用提示"
+        },
+        "swotAnalysis": {
+          "title": "SWOT 分析",
+          "description": "分析競爭對手嘅優勢、劣勢、機會同威脅",
+          "expectedOutcome": "包含可執行競爭洞察嘅綜合 SWOT 矩陣"
+        },
+        "featureComparison": {
+          "title": "功能對比",
+          "description": "並排比較產品功能、定價同能力",
+          "expectedOutcome": "詳細嘅功能對比矩陣，含競爭差距分析"
+        },
+        "marketPositioning": {
+          "title": "市場定位",
+          "description": "分析競爭定位、目標市場同差異化",
+          "expectedOutcome": "市場定位圖，含差異化機會"
+        },
+        "companyIntelligence": {
+          "title": "企業情報",
+          "description": "研究公司規模、融資、增長軌跡同策略方向（以競爭對手為中心）",
+          "expectedOutcome": "含策略洞察嘅綜合企業檔案"
+        },
+        "pricingAnalysis": {
+          "title": "定價分析",
+          "description": "比較定價模式、打包策略同價值指標",
+          "expectedOutcome": "含盈利模式洞察嘅定價對比"
+        },
+        "marketGapAnalysis": {
+          "title": "市場缺口分析",
+          "description": "識別未充分服務嘅細分市場、未滿足嘅需求同 Blue Ocean 機會（以市場為中心）",
+          "expectedOutcome": "含 Blue Ocean 機會嘅市場缺口地圖"
+        }
+      }
+    }
+  },
+  "client_success": {
+    "name": "客戶成功智能助手",
+    "description": "你嘅客戶留存專家",
+    "greeting": "我幫你保持客戶滿意並促進增長。我可以評估客戶健康度、制定留存策略、發現擴展機會。",
+    "placeholder": "查詢留存策略、客戶健康度...（例如：\u201c留存策略\u201d）",
+    "page": {
+      "title": "客戶成功智能助手",
+      "subtitle": "客戶留存同擴展策略",
+      "defaultSessionTitle": "客戶成功分析",
+      "features": {
+        "health": {
+          "title": "健康評分",
+          "description": "評估客戶滿意度同參與度"
+        },
+        "retention": {
+          "title": "留存策略",
+          "description": "主動降低客戶流失嘅方案"
+        },
+        "expansion": {
+          "title": "擴展機會",
+          "description": "識別追加銷售同交叉銷售嘅潛力"
+        }
+      }
+    }
+  },
+  "performance_intelligence": {
+    "name": "成效分析智能助手",
+    "description": "你嘅成效追蹤專家",
+    "greeting": "我幫你追蹤同分析各營銷活動嘅成效。我可以匯總指標、識別趨勢並提供可執行嘅洞察。",
+    "placeholder": "查詢數據分析、指標...（例如：\u201c分析活動成效\u201d）",
+    "page": {
+      "title": "成效分析智能助手",
+      "subtitle": "營銷成效追蹤同數據分析",
+      "defaultSessionTitle": "成效分析",
+      "features": {
+        "metrics": {
+          "title": "指標儀表板",
+          "description": "匯總所有渠道嘅成效數據"
+        },
+        "trends": {
+          "title": "趨勢分析",
+          "description": "識別規律並預測結果"
+        },
+        "actionable": {
+          "title": "可執行洞察",
+          "description": "基於數據嘅優化建議"
+        }
+      },
+      "dashboard": {
+        "loading": "正在載入儀表板指標...",
+        "emptyState": {
+          "title": "暫無活動數據",
+          "description": "匯入你嘅活動指標，開始追蹤 ROI、發現速贏機會、獲取 AI 驅動嘅成效洞察",
+          "importCsv": "匯入 CSV 數據",
+          "manualEntry": "手動錄入"
+        },
+        "capabilities": {
+          "roiAnalysis": {
+            "title": "ROI 分析",
+            "description": "計算各活動嘅 ROI、ROAS 同盈利能力"
+          },
+          "quickWins": {
+            "title": "速贏機會",
+            "description": "發現可即時實施嘅高影響力優化機會"
+          },
+          "performanceAnalytics": {
+            "title": "成效分析",
+            "description": "深入分析活動指標同趨勢"
+          },
+          "budgetOptimization": {
+            "title": "預算優化",
+            "description": "基於成效數據優化預算分配"
+          }
+        }
+      },
+      "tools": {
+        "title": "成效工具",
+        "subtitle": "數據管理、視覺化同優化嘅專業工具",
+        "importData": {
+          "title": "匯入數據",
+          "description": "CSV 匯入精靈，支援模糊活動配對"
+        },
+        "manageMetrics": {
+          "title": "管理活動指標",
+          "description": "查看、編輯同管理你嘅活動成效數據"
+        },
+        "visualize": {
+          "title": "視覺化指標",
+          "description": "成效數據嘅互動式圖表同視覺化"
+        },
+        "budgetCalculator": {
+          "title": "預算計算器",
+          "description": "計算各活動之間嘅最佳預算分配"
+        },
+        "settings": {
+          "title": "ROI 設定",
+          "description": "配置 ROI 計算參數同假設條件"
+        },
+        "historicalPerformance": {
+          "title": "歷史成效",
+          "description": "視覺化展示支出、收入同 ROI 隨時間嘅趨勢"
+        },
+        "roiCalculator": {
+          "title": "ROI 計算器",
+          "description": "使用活動數據計算投資回報率"
+        },
+        "manualDataEntry": {
+          "title": "手動數據錄入",
+          "description": "快速錄入單一活動嘅指標數據"
+        },
+        "budgetOptimizer": {
+          "title": "預算優化器",
+          "description": "使用 4 個 AI 驅動嘅框架優化預算分配"
+        }
+      },
+      "aiAssistant": {
+        "title": "AI 成效助手",
+        "hasData": "就你嘅活動數據提問，獲取建議，或分析特定指標",
+        "noData": "開始了解 ROI 計算、預算優化或成效分析最佳實踐"
+      }
+    }
+  },
+  "quick_start": {
+    "name": "快速入門智能助手",
+    "description": "你嘅全面入門專家",
+    "greeting": "歡迎！我幫你快速上手。只需 5 分鐘，我就能為你嘅營銷生成全面嘅基礎方案：策略分析、客戶畫像同完整嘅營銷計劃。等我哋將你嘅回答轉化為可執行嘅智能方案！",
+    "placeholder": "同我講下你嘅業務情況，開始使用...",
+    "page": {
+      "title": "快速入門智能助手",
+      "subtitle": "5 分鐘生成你嘅完整營銷基礎方案",
+      "defaultSessionTitle": "快速入門",
+      "features": {
+        "fast": {
+          "title": "5 分鐘搭建",
+          "description": "回答幾個問題，獲取完整策略"
+        },
+        "comprehensive": {
+          "title": "全面基礎",
+          "description": "策略、畫像同營銷計劃一步到位"
+        },
+        "actionable": {
+          "title": "即刻執行",
+          "description": "從第一日起即可行動嘅智能方案"
+        }
+      }
+    }
+  },
+  "tools": {
+    "get_swot_analysis": "SWOT 分析",
+    "get_porters_five_forces": "Porter's Five Forces 分析",
+    "get_jobs_to_be_done": "待完成工作框架",
+    "get_business_model_canvas": "商業模式畫布",
+    "get_ice_scoring": "ICE 優先排序框架",
+    "get_bcg_matrix": "BCG 增長-份額矩陣",
+    "get_vrio_analysis": "VRIO 資源分析",
+    "get_three_horizons": "增長三層面",
+    "get_blue_ocean_strategy": "Blue Ocean Strategy 畫布",
+    "get_mckinsey_7s": "McKinsey 7S 框架",
+    "get_okr_framework": "OKR（目標與關鍵成果）",
+    "get_persona_context": "畫像研究",
+    "analyze_buyer_journey": "買家旅程分析",
+    "generate_content_brief": "內容摘要生成",
+    "analyze_content_gaps": "內容缺口分析",
+    "generate_gtm_strategy": "市場推廣策略",
+    "analyze_channel_mix": "渠道組合分析",
+    "analyze_metrics": "成效指標分析",
+    "calculate_roi": "ROI 計算",
+    "plan_campaign": "活動策劃",
+    "analyze_ab_tests": "A/B 測試分析",
+    "analyze_competitors": "競爭分析",
+    "identify_market_gaps": "市場缺口識別",
+    "calculate_health_score": "客戶健康評分",
+    "identify_retention_risks": "留存風險分析"
+  },
+  "categories": {
+    "foundation": {
+      "name": "基礎",
+      "description": "構建你嘅營銷基礎"
+    },
+    "execution": {
+      "name": "執行",
+      "description": "將策略付諸行動"
+    },
+    "intelligence": {
+      "name": "智能分析",
+      "description": "優化同分析"
+    }
+  },
+  "navigation": {
+    "quickStart": "快速入門",
+    "strategy": "策略",
+    "persona": "畫像",
+    "marketingStrategy": "營銷策略",
+    "content": "內容",
+    "campaignPlanning": "活動策劃",
+    "performanceIntelligence": "成效分析",
+    "competitiveIntel": "競爭情報",
+    "clientSuccess": "客戶成功",
+    "planningCreation": "規劃同創作",
+    "whiteLabel": "白標"
+  },
+  "context": {
+    "companyProfile": {
+      "title": "公司資料",
+      "dataCompleteness": "數據完整度：{{score}}%",
+      "complete": "{{score}}% 已完成",
+      "basicInfoNeeded": "需要基本嘅公司資訊",
+      "fields": {
+        "website": "網站：",
+        "founded": "成立時間：",
+        "teamSize": "團隊規模：",
+        "hq": "總部：",
+        "revenue": "營收：",
+        "stage": "階段：",
+        "funding": "融資：",
+        "industry": "行業：",
+        "companySize": "公司規模：",
+        "businessModel": "商業模式：",
+        "companyStage": "公司階段：",
+        "fundingStatus": "融資狀態：",
+        "annualRevenue": "年營收：",
+        "marketingBudget": "營銷預算："
+      },
+      "sections": {
+        "companyDetails": "公司詳情",
+        "technologyStack": "技術棧",
+        "operatingRegions": "營運區域",
+        "geographicPresence": "地理覆蓋",
+        "marketCompetition": "市場同競爭",
+        "targetMarketSegments": "目標市場細分：",
+        "mainProductsServices": "主要產品/服務：",
+        "keyCompetitors": "主要競爭對手：",
+        "missionStatement": "使命宣言",
+        "coreValues": "核心價值觀"
+      }
+    },
+    "personas": {
+      "title": "客戶畫像",
+      "clickToSeeMore": "點擊箭嘴查看另外 {{count}} 個畫像",
+      "clickToSeeMore_other": "點擊箭嘴查看另外 {{count}} 個畫像",
+      "emptyState": "新增客戶畫像將提升策略嘅針對性"
+    },
+    "cards": {
+      "activeCampaign": {
+        "title": "進行中嘅活動",
+        "campaignName": "活動名稱",
+        "campaignBudget": "活動預算",
+        "percentSpent": "已花費 {{percent}}%",
+        "targetAudience": "目標受眾",
+        "objectives": "目標",
+        "startDate": "開始日期",
+        "endDate": "結束日期",
+        "totalBudget": "總預算",
+        "spentToDate": "已花費",
+        "percentUtilized": "已使用 {{percent}}%",
+        "channelStrategy": "渠道策略",
+        "ownedMedia": "自有媒體",
+        "earnedMedia": "贏得媒體",
+        "paidMedia": "付費媒體",
+        "activePlatforms": "活躍平台",
+        "contentThemes": "內容主題",
+        "performanceMetrics": "成效指標",
+        "metrics": {
+          "impressions": "曝光量",
+          "clicks": "點擊量",
+          "ctr": "CTR",
+          "conversions": "轉化量"
+        },
+        "kpis": "關鍵績效指標",
+        "target": "目標",
+        "campaignObjectives": "活動目標"
+      },
+      "aiLearning": {
+        "title": "AI 學習歷史",
+        "approved": "已審批",
+        "autoApproved": "自動審批",
+        "total": "總計",
+        "fromSource": "來源：{{source}}",
+        "confidence": "{{percent}}% 置信度",
+        "fields": "{{count}} 個欄位",
+        "identifiedPainPoints": "已識別嘅痛點",
+        "opportunities": "機會",
+        "autoExtractedNote": "呢啲洞察係從你嘅對話同已審批內容中自動提取嘅"
+      },
+      "business": {
+        "title": "業務背景",
+        "marketingBudget": "營銷預算",
+        "revenue": "營收",
+        "businessModel": "商業模式",
+        "cac": "CAC",
+        "ltv": "LTV",
+        "annualRevenue": "年營收",
+        "customerAcquisitionCost": "獲客成本",
+        "customerLifetimeValue": "客戶終身價值",
+        "uniqueValueProposition": "獨特價值主張",
+        "emptyState": "新增業務背景有助於制定更精準嘅策略"
+      },
+      "market": {
+        "title": "市場聚焦",
+        "targetMarket": "目標市場",
+        "geographicFocus": "地理聚焦",
+        "valueProposition": "價值主張",
+        "competingWith": "競爭對手",
+        "marketSize": "市場規模",
+        "marketPosition": "市場地位",
+        "growthStage": "增長階段",
+        "seasonalTrends": "季節性趨勢",
+        "distributionChannels": "分銷渠道",
+        "competitiveAdvantages": "競爭優勢",
+        "keyCompetitors": "主要競爭對手",
+        "emptyState": "市場數據有助於發現機會同威脅"
+      }
+    },
+    "personaCard": {
+      "at": "就職於",
+      "customerPersona": "客戶畫像",
+      "global": "全球",
+      "insightsCount": "{{count}} 條洞察",
+      "satisfaction": "{{score}}% 滿意度",
+      "location": "所在地",
+      "industry": "行業",
+      "companySize": "公司規模",
+      "revenue": "營收",
+      "goals": "目標",
+      "painPoints": "痛點",
+      "personality": "性格特徵",
+      "risk": "風險偏好",
+      "innovation": "創新意願",
+      "decision": "決策風格",
+      "currentTools": "目前工具",
+      "preferredChannels": "偏好渠道",
+      "background": "背景",
+      "aiInsights": "AI 洞察",
+      "insightsAvailable": "已有來自對話同分析嘅洞察"
+    },
+    "intelligentContext": {
+      "title": "智能背景",
+      "subtitle": "AI 驅動嘅業務理解",
+      "completeness": "{{percent}}% 已完成",
+      "readyForStrategy": "可進行策略制定",
+      "needsMoreContext": "需要更多背景資訊",
+      "customerPersonas": "客戶畫像",
+      "morePersonas": "仲有 {{count}} 個畫像",
+      "personasEmptyState": "暫無畫像。建立畫像以改進定位。",
+      "recentAIInsights": "最新 AI 洞察",
+      "moreInsights": "仲有 {{count}} 條洞察",
+      "startStrategicConversation": "開始策略對話",
+      "refineContext": "完善背景資訊",
+      "guidanceReady": "你嘅業務背景已就緒。開始策略對話，制定個人化嘅營銷策略。",
+      "guidanceNeedsContext": "新增更多業務背景資訊以獲得更好嘅策略建議。"
+    },
+    "alert": {
+      "client": "客戶：",
+      "campaign": "活動：",
+      "budget": "預算：",
+      "objectives": "目標：",
+      "switchClient": "切換客戶",
+      "switchCampaign": "切換活動"
+    },
+    "intelligentDisplay": {
+      "header": {
+        "title": "AI 驅動嘅營銷策略",
+        "subtitle": "我已分析你嘅業務數據，為你制定咗度身定制營銷策略"
+      },
+      "stats": {
+        "dataQuality": "數據質素",
+        "personas": "畫像",
+        "activeCampaign": "進行中嘅活動",
+        "aiInsights": "AI 洞察"
+      },
+      "recentLearnings": "最新 AI 學習成果",
+      "continueWork": {
+        "title": "繼續近期工作",
+        "viewAll": "查看全部",
+        "orStartFresh": "或從下方重新開始"
+      },
+      "actions": {
+        "generateStrategy": "生成營銷策略",
+        "refineContext": "完善業務背景"
+      },
+      "helpText": "要生成有效嘅營銷策略，請提供更多業務資訊。點擊\u201c完善業務背景\u201d新增缺少嘅詳細資訊。",
+      "promptTemplate": {
+        "intro": "請根據以下業務背景幫我制定全面嘅營銷策略：",
+        "company": "公司",
+        "industry": "行業",
+        "organizationType": "組織類型",
+        "targetMarket": "目標市場",
+        "geographicFocus": "地理聚焦",
+        "businessModel": "商業模式",
+        "marketingBudget": "營銷預算",
+        "customerPersonas": "客戶畫像",
+        "activeCampaign": "進行中嘅活動",
+        "campaignBudget": "活動預算"
+      }
+    },
+    "strategyList": {
+      "loading": "正在載入策略...",
+      "empty": {
+        "title": "暫無策略",
+        "description": "建立你嘅第一個營銷策略，開始規劃你嘅活動",
+        "createFirst": "建立第一個策略"
+      },
+      "types": {
+        "productLaunch": "產品上市",
+        "brandAwareness": "品牌知名度",
+        "leadGeneration": "潛在客戶獲取",
+        "customerRetention": "客戶留存",
+        "marketExpansion": "市場擴張"
+      },
+      "actions": {
+        "viewDetails": "查看詳情",
+        "edit": "編輯",
+        "duplicate": "複製",
+        "archive": "封存",
+        "restore": "還原"
+      },
+      "archived": "已封存"
+    },
+    "confirmation": {
+      "title": "偵測到新嘅業務洞察",
+      "subtitle": "我哋從你嘅對話中了解到以下資訊。儲存呢啲資訊以改進日後嘅建議？",
+      "confidence": "置信度",
+      "from": "來自 {{agentType}} 對話",
+      "noContext": "呢次對話未提取到業務背景資訊。",
+      "placeholder": "多個項目用逗號分隔",
+      "actions": {
+        "editBefore": "編輯後儲存",
+        "cancelEdit": "取消編輯",
+        "doneEditing": "完成編輯",
+        "dontSave": "唔儲存",
+        "saveAll": "全部儲存",
+        "saving": "儲存中..."
+      }
+    },
+    "saveStatus": {
+      "saving": "儲存中...",
+      "autoSaved": "已自動儲存",
+      "draftSaved": "草稿已儲存",
+      "saveFailed": "儲存失敗",
+      "finalized": "已定稿",
+      "markAsFinal": "標記為定稿",
+      "finalizing": "正在定稿...",
+      "toast": {
+        "saved": "回覆已自動儲存",
+        "savedDescription": "你嘅回覆已儲存為草稿",
+        "finalized": "產出已定稿",
+        "finalizedDescription": "呢個產出已標記為定稿",
+        "viewOutputs": "查看產出",
+        "failedFinalize": "定稿失敗"
+      }
+    },
+    "sidebar": {
+      "tabs": {
+        "history": "歷史",
+        "outputs": "{{name}}"
+      },
+      "newSession": "新建會話",
+      "active": "活躍",
+      "archived": "已封存",
+      "emptyStates": {
+        "noArchived": "暫無封存會話",
+        "archivedHint": "封存嘅會話會顯示喺呢度",
+        "viewActive": "查看活躍會話",
+        "noSessions": "暫無 {{agentType}} 會話",
+        "createFirst": "建立你嘅第一個 {{agentType}} 會話",
+        "noOutputs": "暫無已儲存嘅 {{outputType}}",
+        "startSession": "建立一個 {{agentType}} 會話以開始",
+        "startButton": "開始會話"
+      },
+      "loadingOutputs": "正在載入 {{outputType}}...",
+      "showMore": "顯示更多 {{count}} 條",
+      "showLess": "收起",
+      "tooltips": {
+        "newAgent": "新建 {{agentName}}"
+      },
+      "collapseSidebar": "收起側邊欄",
+      "expandSidebar": "展開側邊欄",
+      "contextBadges": {
+        "client": "客戶：",
+        "campaign": "活動："
+      },
+      "archivedBadge": "已封存",
+      "errors": {
+        "exportFailed": "匯出失敗，請重試。",
+        "archiveFailed": "封存失敗，請重試。"
+      }
+    },
+    "sessionHistory": {
+      "title": "會話歷史",
+      "newSession": "新建會話",
+      "emptyState": {
+        "title": "暫無會話",
+        "description": "開始對話以建立你嘅第一個會話"
+      },
+      "untitledSession": "未命名會話",
+      "messageCount": {
+        "singular": "條訊息",
+        "plural": "條訊息"
+      }
+    },
+    "header": {
+      "sessionPrefix": "會話：",
+      "newSession": "新建會話"
+    },
+    "quickStartSave": {
+      "title": "儲存你嘅快速入門方案？",
+      "description": "儲存你嘅綜合營銷情報（策略、畫像同建議）以供日後參考。",
+      "saveButton": "儲存此方案",
+      "hint": "或直接輸入\u201c儲存此方案\u201d"
+    },
+    "personaSave": {
+      "detected": "偵測到 {{count}} 個畫像",
+      "detected_other": "偵測到 {{count}} 個畫像",
+      "saveAll": "全部儲存",
+      "saving": "儲存中...",
+      "saved": "已儲存",
+      "savePersona": "儲存畫像",
+      "demographics": "人口統計",
+      "goals": "目標",
+      "painPoints": "痛點",
+      "moreItems": "仲有 {{count}} 項..."
+    },
+    "strategySave": {
+      "title": "偵測到營銷策略",
+      "sections": "{{count}} 個部分",
+      "campaign": "活動：",
+      "budget": "預算：",
+      "duration": "時長：",
+      "mediaMix": "媒體組合：",
+      "objectives": "目標：",
+      "targetPersonas": "目標畫像：",
+      "targetVerticals": "目標行業垂直：",
+      "summary": "摘要：",
+      "strategyComponents": "策略組成：",
+      "moreSections": "仲有 {{count}} 個部分",
+      "saveTo": "儲存至：",
+      "campaignFolder": "活動資料夾",
+      "companyOutputs": "公司產出",
+      "saveStrategy": "儲存策略",
+      "saving": "儲存中...",
+      "saved": "已儲存",
+      "viewInOutputs": "喺產出中查看",
+      "nextHint": "下一步：使用內容智能助手建立素材"
+    },
+    "actionPlan": {
+      "workflowSuggestions": "智能工作流建議 ({{count}})",
+      "startWorkflow": "啟動工作流",
+      "viewAllSuggestions": "查看全部 {{count}} 條建議",
+      "individualActions": "單項操作",
+      "match": "{{percent}}% 匹配度",
+      "impact": "{{level}} 影響力",
+      "nextBestActions": "下一步最佳行動：",
+      "priority": "優先級 {{value}}/10",
+      "confirmTitle": "繼續使用 {{agentName}}？",
+      "confirmDescription": "我會幫你處理策略分析中嘅呢啲行動項：",
+      "relatedTasks": "{{count}} 個相關任務",
+      "relatedTasks_other": "{{count}} 個相關任務",
+      "confidence": "置信度：{{percent}}%",
+      "andMoreTasks": "……以及另外 {{count}} 個任務",
+      "stayHere": "留喺呢度",
+      "continueToAgent": "繼續前往智能助手",
+      "noSuggestions": "暫無工作流建議",
+      "noSuggestionsHint": "試下提供更具體嘅行動項",
+      "analyzingPlan": "正在分析你嘅行動計劃...",
+      "nextStepsAvailable": "下一步操作可用",
+      "start": "開始"
+    },
+    "mobileHistory": {
+      "ariaLabel": "查看會話歷史"
+    }
+  },
+  "quickSelector": {
+    "title": "揀選智能助手",
+    "subtitle": "AI 驅動嘅營銷智能工具",
+    "descriptions": {
+      "quickStart": "快速上手",
+      "strategy": "11 個框架",
+      "persona": "客戶畫像",
+      "marketingStrategy": "市場推廣",
+      "content": "9 個生成工具",
+      "campaignPlanning": "多渠道部署",
+      "performanceIntelligence": "分析同 ROI",
+      "competitiveIntel": "市場分析",
+      "clientSuccess": "留存策略"
+    },
+    "locked": "聯絡管理員"
+  },
+  "chat": {
+    "you": "你",
+    "thinking": "思考中...",
+    "retrying": "重試中 ({{current}}/{{max}})",
+    "clearContext": "清除上下文",
+    "contextAlert": {
+      "title": "來自策略智能助手嘅上下文",
+      "actionItems": "你有 {{count}} 個行動項需要處理：",
+      "andMore": "……以及另外 {{count}} 個",
+      "prefillNote": "下方輸入框已根據呢啲策略優先級預填咗建議提示。"
+    }
+  },
+  "fileUpload": {
+    "attachFiles": "附加檔案",
+    "addToChat": "新增到對話",
+    "fileTypeHint": "PDF 或 TXT，最大 {{maxSize}}MB",
+    "errors": {
+      "unsupportedType": "僅支援 PDF 同 TXT 檔案",
+      "fileTooLarge": "檔案太大。最大支援：{{maxSize}}MB"
+    },
+    "removeFile": "移除 {{filename}}"
+  },
+  "toolLoading": {
+    "running": "{{agentName}} 正在運行 {{toolName}}...",
+    "estimatedTime": "預計需時 {{time}}"
+  },
+  "personaChat": {
+    "detected": "偵測到畫像：{{name}}",
+    "saveAsPersona": "儲存為畫像"
+  },
+  "interview": {
+    "mode": "訪談模式",
+    "thinking": "思考中...",
+    "placeholder": "向 {{name}} 了解佢哋嘅體驗、需求同挑戰..."
+  },
+  "personas": {
+    "insightCapture": {
+      "savedTitle": "洞察已儲存",
+      "savedDescription": "洞察已儲存到你嘅知識庫",
+      "warningTitle": "警告",
+      "warningDescription": "洞察可能未正確儲存",
+      "errorTitle": "儲存失敗",
+      "errorDescription": "儲存洞察失敗：{{error}}",
+      "titleNew": "{{count}} 條新洞察",
+      "titleCount": "已捕獲 {{count}} 條洞察",
+      "titleSaved": "已儲存 {{count}} 條洞察",
+      "title": "實時洞察",
+      "analyzing": "分析中...",
+      "listening": "正在從對話中捕獲洞察...",
+      "actions": "操作",
+      "saveInsight": "儲存洞察",
+      "saving": "儲存中...",
+      "savedSuccessfully": "儲存成功",
+      "saveAll": "儲存所有洞察"
+    },
+    "detector": {
+      "detecting": "正在偵測畫像...",
+      "errorDetecting": "偵測畫像失敗，請重試。",
+      "notSpecified": "未指定",
+      "detectedCount": "偵測到 {{count}} 個畫像",
+      "detectedCount_other": "偵測到 {{count}} 個畫像",
+      "aiDetected": "AI 偵測",
+      "saved": "已儲存",
+      "industry": "行業",
+      "location": "所在地",
+      "goals": "目標",
+      "painPoints": "痛點",
+      "keyQuote": "核心引述",
+      "preferredChannels": "偏好渠道",
+      "saveToLibrary": "儲存到畫像庫"
+    },
+    "form": {
+      "editTitle": "編輯畫像",
+      "createTitle": "建立新畫像",
+      "editDescription": "更新畫像資料",
+      "createDescription": "向你嘅工作區新增新嘅客戶畫像",
+      "tabs": {
+        "basicInfo": "基本資訊",
+        "goalsPainPoints": "目標同痛點",
+        "toolsWorkflow": "工具同工作流",
+        "personality": "性格特徵",
+        "insights": "洞察"
+      },
+      "fields": {
+        "name": "姓名",
+        "title": "職銜",
+        "companyName": "公司名稱",
+        "industry": "行業",
+        "vertical": "垂直領域",
+        "location": "所在地",
+        "companySize": "公司規模",
+        "customerStatus": "客戶狀態",
+        "satisfactionScore": "滿意度評分",
+        "backgroundStory": "背景故事",
+        "characteristicQuote": "代表性語錄",
+        "techSavviness": "技術水平",
+        "riskTolerance": "風險承受力",
+        "innovationAppetite": "創新意願",
+        "responseStyle": "回應風格",
+        "tags": "標籤"
+      },
+      "placeholders": {
+        "name": "陳大文",
+        "title": "項目經理",
+        "companyName": "某某科技有限公司",
+        "selectIndustry": "揀選行業",
+        "selectVertical": "揀選垂直領域",
+        "location": "香港",
+        "companySize": "51-200 名員工",
+        "backgroundStory": "簡述呢個畫像嘅經歷同背景...",
+        "characteristicQuote": "一句能代表呢個畫像思維方式嘅說話...",
+        "addTag": "新增標籤..."
+      },
+      "customerStatuses": {
+        "prospect": "潛在客戶",
+        "active": "活躍客戶",
+        "churned": "已流失",
+        "competitorUser": "競品用戶"
+      },
+      "responseStyles": {
+        "casual": "隨意",
+        "professional": "專業",
+        "technical": "技術型",
+        "executive": "高管型"
+      },
+      "insightsDescription": "查看從呢個畫像訪談中收集嘅洞察",
+      "cancel": "取消",
+      "saving": "儲存中...",
+      "savePersona": "儲存畫像"
+    },
+    "insights": {
+      "title": "畫像洞察",
+      "loading": "正在載入洞察...",
+      "noInsights": "暫未捕獲洞察。透過訪談畫像來生成關於佢哋痛點、目標同偏好嘅洞察。",
+      "topPainPoints": "主要痛點",
+      "personasAffected": "影響 {{count}} 個畫像",
+      "personasAffected_other": "影響 {{count}} 個畫像",
+      "personaSpecific": "畫像專屬洞察",
+      "recentInsights": "最新洞察",
+      "autoApproved": "自動審批",
+      "viewAll": "查看全部洞察",
+      "export": "匯出",
+      "applyToCampaign": "套用到活動",
+      "confirmDelete": "確定要刪除呢條洞察嗎？",
+      "deleteFailed": "刪除洞察失敗",
+      "deleteInsight": "刪除洞察",
+      "close": "關閉",
+      "modal": {
+        "title": "洞察詳情",
+        "description": "查看同管理畫像訪談洞察",
+        "confidence": "置信度",
+        "fullDetails": "完整詳情",
+        "categories": "分類",
+        "type": "類型",
+        "created": "建立時間"
+      }
+    },
+    "sidebar": {
+      "title": "畫像",
+      "total": "共 {{count}} 個",
+      "loading": "正在載入畫像...",
+      "new": "新增",
+      "filters": {
+        "all": "全部",
+        "active": "活躍",
+        "archived": "已封存"
+      },
+      "archived": "已封存",
+      "interview": "訪談",
+      "duplicate": "複製",
+      "noPersonasFound": "喺\u201c{{filter}}\u201d篩選條件下搵唔到畫像",
+      "deleteTitle": "刪除 {{name}}？",
+      "deleteDescriptionArchived": "呢個操作將永久刪除呢個已封存嘅畫像。",
+      "deleteDescriptionActive": "呢個畫像會先被封存。你可以稍後還原。",
+      "deleteConfirm": "刪除畫像"
+    }
+  },
+  "toolRenderers": {
+    "common": {
+      "saveToWorkspace": "儲存到工作區",
+      "copyText": "複製文字",
+      "copied": "已複製！",
+      "copyAll": "複製全部",
+      "noItems": "呢個分類下暫無內容",
+      "noFactors": "暫無因素",
+      "toolOutput": "工具輸出",
+      "clickToViewData": "點擊查看數據"
+    },
+    "analysisReport": {
+      "title": "分析報告",
+      "summary": "摘要",
+      "keyFindings": "關鍵發現",
+      "recommendations": "建議"
+    },
+    "bcgMatrix": {
+      "title": "BCG 增長-份額矩陣",
+      "questionMarks": "問題類",
+      "stars": "明星類",
+      "dogs": "瘦狗類",
+      "cashCows": "現金牛類",
+      "highGrowthHighShare": "高增長，高份額",
+      "lowGrowthHighShare": "低增長，高份額",
+      "highGrowthLowShare": "高增長，低份額",
+      "lowGrowthLowShare": "低增長，低份額",
+      "lowMarketShare": "低市場份額",
+      "highMarketShare": "高市場份額",
+      "relativeMarketShare": "相對市場份額",
+      "portfolioBalance": "組合平衡",
+      "investmentPriorities": "投資優先級",
+      "growth": "增長",
+      "share": "份額"
+    },
+    "blogPost": {
+      "title": "網誌文章草稿",
+      "outline": "大綱",
+      "body": "正文",
+      "seoKeywords": "SEO 關鍵字",
+      "exportToCms": "匯出到 CMS"
+    },
+    "blueOcean": {
+      "title": "Blue Ocean Strategy 畫布",
+      "eliminate": "消除",
+      "reduce": "減少",
+      "raise": "增加",
+      "create": "創造",
+      "removeCompletely": "完全移除",
+      "belowIndustry": "低於行業標準",
+      "aboveIndustry": "高於行業標準",
+      "industryNeverOffered": "行業從未提供",
+      "currentRedOcean": "目前紅海",
+      "blueOceanOpportunity": "Blue Ocean 機會",
+      "valueInnovation": "價值創新策略"
+    },
+    "businessCanvas": {
+      "title": "商業模式畫布",
+      "keyPartnerships": "關鍵合作夥伴",
+      "keyActivities": "關鍵活動",
+      "keyResources": "關鍵資源",
+      "valuePropositions": "價值主張",
+      "customerRelationships": "客戶關係",
+      "channels": "渠道",
+      "customerSegments": "客戶細分",
+      "costStructure": "成本結構",
+      "revenueStreams": "收入來源",
+      "developBusinessPlan": "制定商業計劃"
+    },
+    "buyerJourney": {
+      "title": "買家旅程地圖",
+      "forPersona": "畫像：{{name}}",
+      "keyQuestions": "關鍵問題：",
+      "contentOpportunities": "內容機會：",
+      "generateContentIdeas": "生成內容創意"
+    },
+    "contentCalendar": {
+      "title": "內容日曆",
+      "dateRange": "從 {{start}} 到 {{end}}"
+    },
+    "contentIdea": {
+      "title": "內容創意",
+      "angle": "角度",
+      "targetPersona": "目標畫像",
+      "saveIdea": "儲存創意",
+      "draftThisPost": "撰寫此文章"
+    },
+    "forecast": {
+      "title": "{{metric}} 預測",
+      "forNextPeriod": "未來 {{period}} 預測",
+      "confidence": "置信度：{{level}}%",
+      "assumptions": "假設條件："
+    },
+    "ice": {
+      "title": "ICE 優先排序分析",
+      "noData": "暫無優先排序數據",
+      "topPriority": "最高優先級",
+      "impact": "影響力",
+      "confidence": "置信度",
+      "ease": "易實施度",
+      "overallPriorityScore": "綜合優先級評分",
+      "iceFormula": "ICE 評分 = (影響力 x 置信度 x 易實施度) / 100",
+      "recommendation": "建議",
+      "resourceConsiderations": "資源考量",
+      "createActionPlan": "建立行動計劃",
+      "exportAnalysis": "匯出分析"
+    },
+    "interviewQuestions": {
+      "title": "訪談問題",
+      "forValidating": "用於驗證畫像：{{name}}",
+      "addToGuide": "新增到訪談指南"
+    },
+    "jtbd": {
+      "title": "待完成工作分析",
+      "primaryJobs": "主要工作",
+      "job": "工作 {{number}}",
+      "functional": "功能性",
+      "emotional": "情感性",
+      "social": "社會性",
+      "currentSolutions": "目前解決方案",
+      "underservedJobs": "未充分滿足嘅工作",
+      "innovationOpportunities": "創新機會",
+      "highOpportunity": "高機會",
+      "goodOpportunity": "良好機會",
+      "moderateOpportunity": "中等機會",
+      "lowOpportunity": "低機會"
+    },
+    "mckinsey7s": {
+      "title": "McKinsey 7S 框架",
+      "organizationalAlignment": "組織協同度評分",
+      "hardElements": "硬性要素",
+      "softElements": "軟性要素",
+      "currentState": "目前狀態",
+      "desiredState": "期望狀態",
+      "gapAnalysis": "差距分析",
+      "actionRequired": "所需行動",
+      "current": "目前",
+      "desired": "期望",
+      "gap": "差距",
+      "action": "行動",
+      "criticalMisalignments": "關鍵錯位",
+      "strategicRecommendations": "策略建議",
+      "strategy": "策略",
+      "structure": "結構",
+      "systems": "制度",
+      "sharedValues": "共同價值觀",
+      "style": "風格",
+      "staff": "人員",
+      "skills": "技能",
+      "strategyDesc": "實現競爭優勢嘅計劃",
+      "structureDesc": "組織架構方式",
+      "systemsDesc": "日常活動同流程",
+      "sharedValuesDesc": "核心價值觀同文化",
+      "styleDesc": "領導力同管理風格",
+      "staffDesc": "員工及其能力",
+      "skillsDesc": "核心能力同技能"
+    },
+    "okr": {
+      "title": "OKR 框架",
+      "successMetrics": "成功指標",
+      "reviewCadence": "評審節奏",
+      "companyOkrs": "公司 OKR",
+      "teamOkrs": "團隊 OKR",
+      "objective": "目標 {{number}}",
+      "teamObjective": "團隊目標 {{number}}",
+      "timeFrame": "時間框架：{{value}}",
+      "owner": "負責人：{{value}}",
+      "keyResults": "關鍵成果",
+      "strategicAlignment": "策略對齊"
+    },
+    "optimization": {
+      "title": "優化機會",
+      "area": "領域：{{value}}",
+      "impact": "影響力：{{value}}"
+    },
+    "persona": {
+      "title": "客戶畫像",
+      "demographics": "人口統計",
+      "psychographics": "心理特徵",
+      "goals": "目標",
+      "painPoints": "痛點",
+      "communicationChannels": "溝通渠道",
+      "mapBuyerJourney": "繪製買家旅程"
+    },
+    "porters": {
+      "title": "Porter's Five Forces 分析",
+      "threatOfNewEntrants": "新進入者威脅",
+      "bargainingPowerOfSuppliers": "供應商議價能力",
+      "industryRivalry": "行業競爭程度",
+      "bargainingPowerOfBuyers": "買方議價能力",
+      "threatOfSubstitutes": "替代品威脅",
+      "core": "核心",
+      "lowThreat": "低威脅",
+      "moderate": "中等",
+      "highThreat": "高威脅",
+      "low": "低",
+      "high": "高",
+      "viewDetails": "查看詳情",
+      "generateStrategy": "生成策略"
+    },
+    "swot": {
+      "title": "SWOT 分析",
+      "strengths": "優勢",
+      "weaknesses": "劣勢",
+      "opportunities": "機會",
+      "threats": "威脅",
+      "createActionPlan": "建立行動計劃"
+    },
+    "threeHorizons": {
+      "title": "增長三層面",
+      "horizon1Title": "第一層面：核心業務",
+      "horizon1Subtitle": "鞏固同延伸",
+      "horizon2Title": "第二層面：新興機會",
+      "horizon2Subtitle": "構建新能力",
+      "horizon3Title": "第三層面：變革性賭注",
+      "horizon3Subtitle": "創造未來選項",
+      "resourceAllocation": "資源分配策略",
+      "expected": "預期：{{value}}"
+    },
+    "vrio": {
+      "title": "VRIO 分析",
+      "resourceCapability": "資源/能力",
+      "valuable": "有價值",
+      "rare": "稀缺",
+      "inimitable": "難以模仿",
+      "organized": "有組織",
+      "competitiveImplication": "競爭含義",
+      "coreCompetencies": "核心競爭力",
+      "strategicImplications": "策略啟示",
+      "frameworkKey": "VRIO 框架要素：",
+      "valuableDesc": "能夠利用機會或化解威脅",
+      "rareDesc": "少數競爭對手擁有",
+      "inimitableDesc": "難以或代價高昂咁被模仿",
+      "organizedDesc": "企業能夠捕獲其價值"
+    }
+  }
+}

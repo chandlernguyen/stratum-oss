@@ -1,0 +1,149 @@
+{
+  "intelligenceBriefing": {
+    "title": "인텔리전스 브리핑",
+    "subtitle": "비즈니스 컨텍스트를 바탕으로 한 AI 추천 작업",
+    "tooltip": "비즈니스 목표에 맞춰진 AI 기반 다음 단계",
+    "emptyState": "비즈니스를 분석해 우선순위가 높은 다음 단계를 추천하고 있습니다.",
+    "emptyAction": "비즈니스 전략부터 시작",
+    "aiBadge": "AI 기반",
+    "loadingState": "비즈니스 컨텍스트를 분석하는 중..."
+  },
+  "intelligenceVault": {
+    "title": "최근 인텔리전스",
+    "subtitle": "AI 에이전트가 생성한 전략 인사이트와 결과물",
+    "emptyState": "아직 인텔리전스가 없습니다. 전략적 기반 구축부터 시작하세요.",
+    "emptyAction": "첫 전략 생성",
+    "viewAll": "모든 인텔리전스 보기 →",
+    "totalBadge": "총 {{count}}개"
+  },
+  "campaigns": {
+    "title": "내 캠페인",
+    "subtitle": "비즈니스 이니셔티브별로 인텔리전스를 정리하세요",
+    "createButton": "인텔리전스를 캠페인으로 정리",
+    "createButtonShort": "캠페인 만들기",
+    "emptyStateNoIntelligence": "아직 캠페인이 없습니다. 먼저 핵심 인텔리전스 결과물(전략, 페르소나, 마케팅)을 완료하세요.",
+    "emptyStateHasIntelligence": "비즈니스 이니셔티브별로 인텔리전스를 정리할 준비가 되셨나요?",
+    "emptyActionPrimary": "전략부터 시작",
+    "emptyActionSecondary": "인텔리전스 구축",
+    "emptyActionReady": "첫 캠페인 만들기",
+    "sectionDescription": "비즈니스 이니셔티브별로 인텔리전스를 정리하세요"
+  },
+  "intelligenceReadiness": {
+    "bannerIncompleteTitle": "전략적 기반을 구축하는 중",
+    "bannerIncompleteSubtitle": "({{percentage}}% 완료)",
+    "bannerCompleteTitle": "첫 캠페인을 만들 준비가 되었습니다",
+    "bannerCompleteSubtitle": "탄탄한 전략적 기반이 갖춰졌습니다",
+    "checklistLabel": "다음 핵심 인텔리전스 결과물을 완료하세요:",
+    "checklistItems": {
+      "strategy": "비즈니스 전략",
+      "persona": "고객 페르소나",
+      "marketingStrategy": "마케팅 전략"
+    },
+    "actions": {
+      "createCampaign": "캠페인 만들기",
+      "maybeLater": "나중에 하기"
+    },
+    "descriptionComplete": "캠페인을 만들어 비즈니스 이니셔티브별로 인텔리전스를 정리하고 성과를 추적하세요.",
+    "descriptionIncomplete": "캠페인을 만들기 전에 다음 핵심 인텔리전스 결과물을 완료하세요:"
+  },
+  "outputs": {
+    "pageTitle": "결과물 허브",
+    "pageSubtitle": "AI가 생성한 모든 인사이트와 콘텐츠를 한곳에서",
+    "organizeButtonNotReady": "인텔리전스 정리",
+    "organizeButtonReady": "캠페인 만들기",
+    "emptyState": "아직 인텔리전스 결과물이 없습니다",
+    "emptyAction": "전략 인사이트 생성을 시작하세요"
+  },
+  "onboarding": {
+    "welcomeTitle": "STRAŦUM 마케팅 스위트에 오신 것을 환영합니다",
+    "welcomeSubtitle": "먼저 인텔리전스를 구축하고, 자신 있게 실행하세요",
+    "welcomeDescription": "먼저 비즈니스와 고객을 이해하는 것부터 시작하세요. 캠페인은 그다음입니다",
+    "ctaStrategy": {
+      "title": "전략부터 시작",
+      "subtitle": "추천 첫 단계",
+      "description": "11개의 전략 프레임워크로 비즈니스를 분석하고 탄탄한 기반을 구축하세요",
+      "timeEstimate": "첫 인사이트까지 3분"
+    },
+    "ctaPersona": {
+      "title": "고객 이해하기",
+      "subtitle": "상세한 구매자 페르소나 구축",
+      "description": "AI 기반 고객 인사이트로 누구에게 마케팅하는지 파악하세요",
+      "timeEstimate": "페르소나 생성까지 5분"
+    },
+    "ctaQuickStart": {
+      "title": "빠른 시작 템플릿",
+      "subtitle": "몇 분 안에 결과 얻기",
+      "description": "즉시 인사이트를 얻을 수 있는 사전 구성 인텔리전스 워크플로에서 선택하세요",
+      "timeEstimate": "완료까지 2-10분"
+    },
+    "agentExplorerTitle": "또는 AI 에이전트 살펴보기",
+    "agentCount": "마케팅 성공을 지원하는 전문 에이전트 {{count}}개"
+  },
+  "agentCategories": {
+    "foundation": {
+      "name": "기반",
+      "description": "마케팅 기반을 구축하세요"
+    },
+    "execution": {
+      "name": "실행",
+      "description": "전략을 실행에 옮기세요"
+    },
+    "intelligence": {
+      "name": "인텔리전스",
+      "description": "최적화하고 분석하세요"
+    }
+  },
+  "emptyStates": {
+    "noIntelligence": {
+      "title": "아직 인텔리전스가 없습니다",
+      "description": "AI 기반 인사이트로 전략적 기반 구축을 시작하세요",
+      "action": "전략부터 시작"
+    },
+    "noCampaigns": {
+      "title": "아직 캠페인이 없습니다",
+      "description": "캠페인은 비즈니스 이니셔티브별로 인텔리전스를 정리합니다",
+      "action": "먼저 인텔리전스 구축"
+    },
+    "intelligenceVaultEmpty": {
+      "title": "인텔리전스 보관함",
+      "description": "아직 인텔리전스 결과물이 없습니다. 전략적 기반 구축부터 시작하세요.",
+      "action": "첫 전략 생성"
+    },
+    "campaignsNotReady": {
+      "title": "먼저 인텔리전스를 구축하세요",
+      "description": "캠페인으로 정리하기 전에 전략, 페르소나, 마케팅 계획을 먼저 만드세요.",
+      "action": "전략부터 시작"
+    }
+  },
+  "tooltips": {
+    "intelligenceBriefing": {
+      "title": "AI 기반 다음 단계",
+      "description": "비즈니스 컨텍스트를 분석해 고효율 작업을 추천합니다",
+      "dismissLabel": "알겠습니다"
+    }
+  },
+  "buttons": {
+    "organizeIntelligence": "인텔리전스를 캠페인으로 정리",
+    "createCampaign": "캠페인 만들기",
+    "startWithStrategy": "전략부터 시작",
+    "buildIntelligence": "인텔리전스 구축",
+    "viewAllIntelligence": "모든 인텔리전스 보기",
+    "generateStrategy": "전략 생성",
+    "exploreAgents": "AI 에이전트 살펴보기",
+    "quickStart": "빠른 시작 (5분)"
+  },
+  "progress": {
+    "readinessPercentage": "캠페인 준비까지 {{percentage}}%",
+    "intelligenceOutputs": "인텔리전스 결과물 {{count}}개",
+    "intelligenceOutputs_other": "인텔리전스 결과물 {{count}}개",
+    "agentInteractions": "이번 주 AI 상호작용 {{count}}회",
+    "agentInteractions_other": "이번 주 AI 상호작용 {{count}}회",
+    "strategicFoundation": "전략적 기반: {{status}}"
+  },
+  "concepts": {
+    "intelligenceFirst": "더 나은 결과를 위해 실행보다 먼저 전략적 인텔리전스를 구축하세요",
+    "campaignsOrganize": "캠페인은 인텔리전스를 정리하는 도구이지 실행을 자동화하지 않습니다",
+    "aiAgents": "9개의 전문 AI 에이전트가 전략적 기반 구축을 도와줍니다",
+    "quickWins": "장기 전략을 구축하면서 즉시 실행 가능한 인사이트도 얻을 수 있습니다"
+  }
+}

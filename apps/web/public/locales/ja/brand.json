@@ -1,0 +1,389 @@
+{
+  "comparison": {
+    "pageTitle": "ブランド比較",
+    "fourWayTitle": "4つのSTRAŦUMバリエーションを比較",
+    "fourWayDescription": "ブランドアイデンティティを最もよく表すSTRAŦUMのバリエーションを選択してください",
+    "cortexVsStratum": "CORTEX vs STRATUM",
+    "backToSingleView": "単一表示に戻る",
+    "singleView": "単一表示",
+    "compareFourOptions": "4つのSTRAŦUM案を比較"
+  },
+  "brands": {
+    "cortex": {
+      "subtitle": "ニューラルインテリジェンス"
+    },
+    "stratum": {
+      "subtitle": "戦略のレイヤー"
+    }
+  },
+  "hero": {
+    "subtitle": "実行よりインテリジェンス"
+  },
+  "cta": {
+    "startFreeTrial": "無料トライアルを開始",
+    "watchDemo": "デモを見る",
+    "selectThisOption": "この案を選ぶ",
+    "learnMore": "詳しく見る"
+  },
+  "valuePropositions": {
+    "strategicIntelligence": {
+      "title": "戦略的インテリジェンス",
+      "description": "SWOT、ポーターの5フォース、ビジネスモデルキャンバスなど、実証済みの11フレームワークを活用"
+    },
+    "customerInsights": {
+      "title": "顧客インサイト",
+      "description": "深いペルソナ分析、購買ジャーニーの可視化、行動インテリジェンス"
+    },
+    "roiTracking": {
+      "title": "ROIトラッキング",
+      "description": "リアルタイムの成果分析とAIによる最適化提案"
+    }
+  },
+  "features": {
+    "sectionTitle": {
+      "cortex": "AIで強化された、あなたのマーケティングブレイン",
+      "stratum": "戦略的基盤を築く"
+    },
+    "sectionSubtitle": {
+      "cortex": "あらゆるマーケティング判断にニューラルインテリジェンスを",
+      "stratum": "レイヤーごとに包括的なマーケティングインテリジェンスを構築"
+    },
+    "aiAgents": {
+      "title": "10の専門AIエージェント",
+      "description": "戦略、ペルソナ、コンテンツ、分析、キャンペーン設計、ROI追跡など"
+    },
+    "continuousLearning": {
+      "title": "継続学習システム",
+      "description": "やり取りを重ねるほど、あなたのビジネスを深く理解するAI"
+    },
+    "zeroExecutionRisk": {
+      "title": "実行リスクゼロ",
+      "description": "自動実行なしで、インテリジェンスとインサイトだけを提供。主導権は常にあなたにあります"
+    }
+  },
+  "footer": {
+    "copyright": "2026 {{brandName}}.",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsConditions": "利用規約",
+    "contact": "お問い合わせ"
+  },
+  "detailedComparison": {
+    "title": "詳細比較",
+    "criteria": {
+      "visualDistinction": "視覚的な識別性",
+      "matchesDialogueDna": "DIALOGUEのDNAとの一致",
+      "easyToType": "入力しやすさ",
+      "conceptualFit": "概念との適合性",
+      "professionalFeel": "プロフェッショナル感",
+      "recommendation": "推奨"
+    },
+    "conceptualFitValues": {
+      "greekAlpha": "ギリシャ文字アルファ",
+      "cuttingLayers": "レイヤーを切り開く",
+      "topLayer": "最上層",
+      "multiLayer": "多層構造"
+    },
+    "recommendations": {
+      "good": "良い",
+      "best": "最良",
+      "great": "非常に良い",
+      "bold": "大胆"
+    },
+    "recommendedBrand": {
+      "title": "推奨: STRATUM",
+      "description": "横線の入ったTは「レイヤーを切り開く」ことを完璧に表し、DIALOGUEのOのブランドDNA（どちらも文字に線を通すデザイン）とも一致します。視覚的に印象的で、「インテリジェンスの層」という概念にも合致し、単語の中央で強く存在感を示します。"
+    }
+  },
+  "variationCard": {
+    "specialCharacter": "特殊文字",
+    "colorPalette": "カラーパレット",
+    "gradientPreview": "グラデーションプレビュー",
+    "inContext": "利用イメージ",
+    "url": "URL",
+    "tagline": "タグライン",
+    "positioning": "ポジショニング",
+    "colors": {
+      "primary": "メイン",
+      "dark": "ダーク",
+      "gold": "ゴールド"
+    }
+  },
+  "splitView": {
+    "typography": "タイポグラフィ",
+    "headingStyle": "見出しスタイル",
+    "bodyText": "本文と説明文には、可読性を最適化するため通常ウェイトのInterを使用します。",
+    "iconSymbol": "アイコンシンボル"
+  },
+  "guidelines": {
+    "similar": "類似",
+    "untitled": "無題のガイドライン",
+    "status": {
+      "archived": "アーカイブ済み",
+      "default": "デフォルト",
+      "active": "アクティブ"
+    },
+    "activeCount": "{{count}}件がアクティブ",
+    "clickToView": "クリックして表示",
+    "actions": {
+      "restore": "復元"
+    },
+    "emptyStates": {
+      "noGuidelines": {
+        "title": "ブランドガイドラインはまだありません",
+        "description": "最初のブランドガイドラインを作成して、ブランドアイデンティティを確立しましょう"
+      },
+      "noArchivedGuidelines": {
+        "title": "アーカイブ済みガイドラインはありません",
+        "description": "アーカイブしたガイドラインはここに表示されます"
+      }
+    },
+    "alerts": {
+      "multipleActive": {
+        "title": "複数のアクティブガイドラインがあります",
+        "description": "{{count}}件のアクティブなガイドラインがあります。明確さを保つため、古いバージョンのアーカイブを検討してください。"
+      }
+    },
+    "stats": {
+      "totalGuidelines": "総ガイドライン数",
+      "activeGuidelines": "アクティブなガイドライン",
+      "archivedGuidelines": "アーカイブ済みガイドライン"
+    },
+    "tabs": {
+      "active": "アクティブ",
+      "archived": "アーカイブ済み",
+      "all": "すべて"
+    },
+    "view": {
+      "title": "ブランドガイドライン",
+      "tabs": {
+        "overview": "概要",
+        "voice": "ボイスとトーン",
+        "visual": "ビジュアルアイデンティティ",
+        "messaging": "メッセージング"
+      },
+      "sections": {
+        "toneOfVoice": "トーン",
+        "personality": "パーソナリティ",
+        "writingStyle": "文章スタイル",
+        "doAndDont": "推奨と禁止",
+        "brandVoice": "ブランドボイス",
+        "colorPalette": "カラーパレット",
+        "typography": "タイポグラフィ",
+        "imagery": "画像ガイドライン",
+        "tagline": "タグライン",
+        "valueProposition": "価値提案",
+        "keyMessages": "主要メッセージ",
+        "targetAudience": "ターゲットオーディエンス"
+      }
+    },
+    "forms": {
+      "strategy": {
+        "title": "ブランド戦略",
+        "badge": "戦略",
+        "fields": {
+          "mission": {
+            "label": "ミッションステートメント",
+            "placeholder": "ブランドの使命は何ですか？"
+          },
+          "vision": {
+            "label": "ビジョンステートメント",
+            "placeholder": "ブランドの長期的なビジョンは何ですか？"
+          },
+          "values": {
+            "label": "コアバリュー",
+            "placeholder": "コアバリューを追加"
+          },
+          "positioning": {
+            "label": "ブランドポジショニング",
+            "placeholder": "ブランドは市場でどのように位置づけられていますか？"
+          },
+          "targetAudience": {
+            "label": "ターゲットオーディエンス",
+            "placeholder": "ターゲットオーディエンスは誰ですか？"
+          },
+          "competitors": {
+            "label": "主要競合",
+            "placeholder": "競合を追加"
+          },
+          "differentiators": {
+            "label": "主な差別化要因",
+            "placeholder": "差別化要因を追加"
+          }
+        }
+      },
+      "voice": {
+        "title": "ブランドボイス",
+        "badge": "ボイス",
+        "sections": {
+          "toneOfVoice": "トーン",
+          "personality": "パーソナリティ特性",
+          "writingStyle": "文章スタイル",
+          "doAndDont": "推奨事項と禁止事項"
+        },
+        "fields": {
+          "toneAttributes": {
+            "label": "トーン属性",
+            "placeholder": "トーン属性を追加（例: 親しみやすい、プロフェッショナル）"
+          },
+          "toneDescription": {
+            "label": "トーンの説明",
+            "placeholder": "ブランド全体のトーンを説明してください"
+          },
+          "personalityTraits": {
+            "label": "パーソナリティ特性",
+            "placeholder": "パーソナリティ特性を追加"
+          },
+          "brandPersona": {
+            "label": "ブランドペルソナ",
+            "placeholder": "もしブランドが一人の人物だったら、どのように表現しますか？"
+          },
+          "writingPrinciples": {
+            "label": "文章作成の原則",
+            "placeholder": "文章原則を追加"
+          },
+          "grammarPreferences": {
+            "label": "文法上の好み",
+            "placeholder": "特定の文法上の好み（例: オックスフォードコンマ、短縮形の使用）"
+          },
+          "vocabularyGuidelines": {
+            "label": "語彙ガイドライン",
+            "placeholder": "語彙使用に関するガイドライン"
+          },
+          "dos": {
+            "label": "推奨事項",
+            "placeholder": "ブランドが行うべきことを追加"
+          },
+          "donts": {
+            "label": "避けるべきこと",
+            "placeholder": "ブランドが避けるべきことを追加"
+          }
+        }
+      },
+      "messaging": {
+        "title": "メッセージング",
+        "badge": "メッセージング",
+        "fields": {
+          "tagline": {
+            "label": "タグライン",
+            "placeholder": "ブランドのタグラインまたはスローガン"
+          },
+          "valueProposition": {
+            "label": "価値提案",
+            "placeholder": "ブランドが提供する独自価値は何ですか？"
+          },
+          "elevatorPitch": {
+            "label": "エレベーターピッチ",
+            "placeholder": "ブランドを簡潔かつ魅力的に説明してください"
+          },
+          "keyMessages": {
+            "label": "主要メッセージ",
+            "placeholder": "主要メッセージを追加"
+          },
+          "proofPoints": {
+            "label": "裏付け要素",
+            "placeholder": "主張を支える根拠を追加"
+          },
+          "callToAction": {
+            "label": "主要CTA",
+            "placeholder": "主な行動喚起"
+          }
+        }
+      },
+      "visual": {
+        "title": "ビジュアルアイデンティティ",
+        "badge": "ビジュアル",
+        "fields": {
+          "primaryColors": {
+            "label": "メインカラー",
+            "placeholder": "メインカラーを追加（例: #FF5733）"
+          },
+          "secondaryColors": {
+            "label": "セカンダリカラー",
+            "placeholder": "セカンダリカラーを追加"
+          },
+          "accentColors": {
+            "label": "アクセントカラー",
+            "placeholder": "アクセントカラーを追加"
+          },
+          "primaryFont": {
+            "label": "メインフォント",
+            "placeholder": "メイン書体（例: Inter、Roboto）"
+          },
+          "secondaryFont": {
+            "label": "サブフォント",
+            "placeholder": "セカンダリ書体"
+          },
+          "fontSizeScale": {
+            "label": "フォントサイズスケール",
+            "placeholder": "フォントサイズのスケールまたはシステム"
+          },
+          "logoUsage": {
+            "label": "ロゴ利用ガイドライン",
+            "placeholder": "ロゴ使用時のルール"
+          },
+          "imageryStyle": {
+            "label": "画像スタイル",
+            "placeholder": "ブランドが使用する画像のスタイルを説明してください"
+          },
+          "iconStyle": {
+            "label": "アイコンスタイル",
+            "placeholder": "アイコンのスタイルを説明してください"
+          },
+          "photographyGuidelines": {
+            "label": "写真ガイドライン",
+            "placeholder": "ブランド写真に関するガイドライン"
+          }
+        }
+      }
+    }
+  },
+  "editor": {
+    "title": "ホワイトラベルブランドキットエディター",
+    "description": "ブランドアイデンティティでプラットフォームをカスタマイズ",
+    "previewMode": "プレビューモード",
+    "export": "エクスポート",
+    "import": "インポート",
+    "sections": {
+      "companyIdentity": "会社情報",
+      "colorPalette": "カラーパレット",
+      "typography": "タイポグラフィ",
+      "uiPreferences": "UI設定",
+      "customCss": "カスタムCSS（上級者向け）"
+    },
+    "fields": {
+      "companyName": "会社名",
+      "logoUrl": "ロゴURL",
+      "primaryColor": "メインカラー",
+      "secondaryColor": "セカンダリカラー",
+      "accentColor": "アクセントカラー",
+      "headingFont": "見出しフォント",
+      "bodyFont": "本文フォント",
+      "borderRadius": "角丸",
+      "contentDensity": "情報密度"
+    },
+    "placeholders": {
+      "companyName": "会社名を入力",
+      "logoUrl": "https://example.com/logo.png",
+      "customCss": "/* ここにカスタムCSSを追加 */\n.your-class {\n  property: value;\n}"
+    },
+    "options": {
+      "borderRadius": {
+        "none": "なし（四角）",
+        "small": "小",
+        "medium": "中",
+        "large": "大",
+        "extraLarge": "特大"
+      },
+      "density": {
+        "comfortable": "標準",
+        "compact": "コンパクト",
+        "spacious": "ゆったり"
+      }
+    },
+    "buttons": {
+      "resetToDefault": "デフォルトに戻す",
+      "preview": "プレビュー",
+      "saveAndApply": "保存して適用"
+    }
+  }
+}

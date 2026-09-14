@@ -1,0 +1,55 @@
+{
+  "title": "Panel de metricas en tiempo real",
+  "subtitle": "Seguimiento en vivo del rendimiento de campanas e insights",
+  "loading": "Cargando metricas...",
+  "live": "EN VIVO",
+  "widget": {
+    "show": "Mostrar widget de ROI",
+    "hide": "Ocultar widget de ROI"
+  },
+  "cards": {
+    "totalROI": "ROI total",
+    "conversions": "Conversiones",
+    "conversionRate": "Tasa de conversion",
+    "clickThroughRate": "CTR",
+    "impressions": "Impresiones",
+    "budgetRemaining": "Presupuesto restante"
+  },
+  "charts": {
+    "roiTrend": {
+      "title": "Evolucion del ROI",
+      "description": "Rendimiento del ROI en tiempo real"
+    },
+    "conversionsSpend": {
+      "title": "Conversiones y gasto",
+      "description": "Relacion entre gasto y conversiones"
+    },
+    "legends": {
+      "conversions": "Conversiones",
+      "spend": "Gasto ($)"
+    }
+  },
+  "agents": {
+    "title": "Agentes de IA activos",
+    "description": "Optimizando tu campana en este momento",
+    "status": "Activo",
+    "tip": "Tus agentes supervisan y optimizan continuamente el rendimiento de la campana en tiempo real."
+  },
+  "timePeriods": {
+    "minutes": "{{value}}m",
+    "hours": "{{value}}h",
+    "days": "{{value}}d",
+    "weeks": "{{value}}s"
+  },
+  "statistics": {
+    "thousand": "{{value}}K",
+    "million": "{{value}}M",
+    "percent": "{{value}}%",
+    "currency": "${{value}}"
+  },
+  "trends": {
+    "up": "Tendencia al alza",
+    "down": "Tendencia a la baja",
+    "stable": "Estable"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "businessContext": {
+    "title": "Chào mừng bạn đến với {{orgName}}!",
+    "titleDefault": "Chào mừng bạn đến với STRAŦUM!",
+    "subtitle": "Hãy để chúng tôi cá nhân hóa trải nghiệm AI với một vài thông tin về doanh nghiệp của bạn",
+    "form": {
+      "industry": {
+        "label": "Ngành nghề",
+        "placeholder": "Chọn ngành nghề của bạn",
+        "required": "*"
+      },
+      "companySize": {
+        "label": "Quy mô công ty",
+        "placeholder": "Chọn quy mô công ty",
+        "required": "*"
+      },
+      "description": {
+        "label": "Mô tả doanh nghiệp",
+        "optional": "(Không bắt buộc)",
+        "placeholder": "Hãy cho chúng tôi biết về doanh nghiệp, sản phẩm hoặc dịch vụ của bạn..."
+      }
+    },
+    "validation": {
+      "requiredFields": "Vui lòng chọn cả ngành nghề và quy mô công ty để tiếp tục"
+    },
+    "buttons": {
+      "submit": "Bắt Đầu",
+      "submitting": "Đang lưu...",
+      "skip": "Bỏ Qua"
+    },
+    "errors": {
+      "organizationNotFound": "Không tìm thấy tổ chức",
+      "saveFailed": "Không thể lưu thông tin doanh nghiệp"
+    }
+  },
+  "industries": {
+    "advertisingMarketing": "Quảng cáo & Marketing",
+    "agricultureFarming": "Nông nghiệp",
+    "automotive": "Ô tô",
+    "construction": "Xây dựng",
+    "consulting": "Tư vấn",
+    "ecommerce": "Thương mại điện tử",
+    "education": "Giáo dục",
+    "energyUtilities": "Năng lượng & Tiện ích",
+    "entertainmentMedia": "Giải trí & Truyền thông",
+    "financeBanking": "Tài chính & Ngân hàng",
+    "foodBeverage": "Thực phẩm & Đồ uống",
+    "healthcare": "Y tế",
+    "hospitalityTourism": "Khách sạn & Du lịch",
+    "insurance": "Bảo hiểm",
+    "legalServices": "Dịch vụ pháp lý",
+    "manufacturing": "Sản xuất",
+    "nonprofit": "Phi lợi nhuận",
+    "professionalServices": "Dịch vụ chuyên nghiệp",
+    "realEstate": "Bất động sản",
+    "retail": "Bán lẻ",
+    "saasSoftware": "SaaS/Phần mềm",
+    "technology": "Công nghệ",
+    "telecommunications": "Viễn thông",
+    "transportationLogistics": "Vận tải & Logistics",
+    "other": "Khác"
+  },
+  "companySizes": {
+    "1-10": "1-10 nhân viên",
+    "11-50": "11-50 nhân viên",
+    "51-200": "51-200 nhân viên",
+    "201-500": "201-500 nhân viên",
+    "500+": "Hơn 500 nhân viên"
+  },
+  "progress": {
+    "step": "Bước {{current}} trong {{total}}",
+    "businessDetails": "Thông tin doanh nghiệp",
+    "complete": "Hoàn tất"
+  },
+  "flow": {
+    "stepOf": "Bước {{current}} trong {{total}}",
+    "estimatedTime": "Thời gian ước tính: {{time}}",
+    "rewardPreview": "Bạn sẽ đạt được: {{reward}}",
+    "steps": {
+      "welcome": {
+        "title": "Chào mừng đến với Đội ngũ Marketing AI!",
+        "description": "Bạn có 9 trợ lý AI chuyên biệt sẵn sàng chuyển đổi marketing của bạn. Hãy đạt được thành công nhanh trong dưới 5 phút.",
+        "estimatedTime": "10 giây",
+        "reward": "Gặp gỡ đội ngũ AI của bạn"
+      },
+      "chooseGoal": {
+        "title": "Mục tiêu chính của bạn hôm nay là gì?",
+        "description": "Chúng tôi sẽ giúp bạn đạt được kết quả ngay lập tức dựa trên nhu cầu của bạn.",
+        "estimatedTime": "30 giây",
+        "reward": "Nhận gợi ý được cá nhân hóa"
+      },
+      "quickWin": {
+        "title": "Đạt được Thành công Nhanh đầu tiên",
+        "description": "Chọn một mẫu để thấy sức mạnh của marketing do AI điều khiển.",
+        "estimatedTime": "2-5 phút",
+        "reward": "Tạo ra giá trị marketing thực sự"
+      }
+    },
+    "features": {
+      "aiAgents": {
+        "title": "9 Trợ lý AI",
+        "description": "Mỗi trợ lý chuyên biệt trong các khía cạnh khác nhau của marketing"
+      },
+      "builtForTeams": {
+        "title": "Được xây dựng cho Đội nhóm",
+        "description": "Hoàn hảo cho cả SME và agency"
+      },
+      "quickResults": {
+        "title": "Kết quả Nhanh",
+        "description": "Nhận thông tin có giá trị trong vài phút, không phải hàng giờ"
+      }
+    },
+    "buttons": {
+      "skipTour": "Bỏ qua Hướng dẫn",
+      "skipsLeft": "còn {{count}}",
+      "back": "Quay lại",
+      "continue": "Tiếp tục",
+      "chooseTemplate": "Chọn Mẫu",
+      "exploreOnOwn": "Tôi sẽ tự khám phá"
+    }
+  },
+  "quickWin": {
+    "categories": {
+      "all": "Tất cả",
+      "analysis": "Phân tích",
+      "content": "Nội dung",
+      "strategy": "Chiến lược",
+      "growth": "Tăng trưởng"
+    },
+    "youllGet": "Bạn sẽ nhận được",
+    "difficulty": {
+      "beginner": "Người mới",
+      "intermediate": "Trung cấp",
+      "advanced": "Nâng cao"
+    },
+    "noTemplates": "Không tìm thấy mẫu nào cho danh mục này"
+  }
+}

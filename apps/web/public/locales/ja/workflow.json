@@ -1,0 +1,10 @@
+{
+  "page": {
+    "title": "AIワークフロービルダー",
+    "subtitle": "エージェントをつなげて強力なマーケティングワークフローを作成"
+  },
+  "sections": {
+    "workflowBuilder": "ワークフロービルダー - メインエリア",
+    "aiRecommendations": "AIレコメンド - サイドバー"
+  }
+}

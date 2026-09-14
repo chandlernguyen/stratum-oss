@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Quick Start - Inteligencia en 5 minutos",
+    "subtitle": "Genera tu estrategia, tus personas y tu plan de marketing en una sola sesion"
+  },
+  "featureCards": {
+    "strategyAnalysis": {
+      "title": "Analisis estrategico",
+      "description": "FODA, Business Model Canvas y marcos estrategicos"
+    },
+    "customerPersonas": {
+      "title": "Buyer personas",
+      "description": "Perfiles detallados de clientes y recorrido de compra"
+    },
+    "marketingStrategy": {
+      "title": "Estrategia de marketing",
+      "description": "Estrategia de canales, mensajes y roadmap de 90 dias"
+    }
+  },
+  "initialMessage": {
+    "intro": "Acabo de completar el cuestionario de Quick Start. Este es el contexto de mi negocio:",
+    "company": "Empresa/negocio:",
+    "goal": "Objetivo principal de marketing:",
+    "audience": "Publico objetivo:",
+    "budget": "Presupuesto mensual de marketing:",
+    "timeline": "Plazo para ver resultados:",
+    "request": "Con esta informacion, genera una base completa de inteligencia de marketing que incluya:",
+    "item1": "1. Analisis estrategico (FODA y posicionamiento competitivo)",
+    "item2": "2. Buyer personas detalladas",
+    "item3": "3. Estrategia de marketing completa con recomendaciones de canales y marco de mensajes",
+    "closing": "Construyamos la base de mi marketing"
+  }
+}

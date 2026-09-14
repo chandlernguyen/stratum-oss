@@ -1,0 +1,505 @@
+{
+  "title": "캠페인",
+  "subtitle": "마케팅 캠페인을 관리하고 추적하세요",
+  "newCampaign": {
+    "pageTitle": "새 캠페인",
+    "permissionTitle": "캠페인 생성",
+    "title": "새 캠페인 만들기",
+    "subtitle": "마케팅 캠페인을 설정하고 AI 에이전트의 도움으로 성과를 높이세요",
+    "templatesTitle": "빠른 시작 템플릿",
+    "formTitle": "캠페인 세부 정보",
+    "formDescription": "캠페인 파라미터를 정의하면 AI가 성공적으로 최적화할 수 있도록 도와줍니다",
+    "createButton": "캠페인 만들기",
+    "creating": "생성 중...",
+    "fields": {
+      "name": "캠페인 이름",
+      "namePlaceholder": "예: 2026년 1분기 제품 출시",
+      "description": "설명",
+      "descriptionPlaceholder": "캠페인 목표와 접근 방식을 간단히 설명하세요...",
+      "objectives": "캠페인 목표",
+      "objectivesPlaceholder": "무엇을 달성하고 싶나요? 지표와 KPI를 구체적으로 적어 주세요...",
+      "budget": "예산 ($)",
+      "budgetPlaceholder": "10000",
+      "targetAudience": "타깃 고객",
+      "targetAudiencePlaceholder": "이상적인 고객의 인구통계, 관심사, 행동을 설명하세요...",
+      "startDate": "시작일",
+      "endDate": "종료일",
+      "selectStartDate": "시작일 선택",
+      "selectEndDate": "종료일 선택"
+    },
+    "templates": {
+      "quickWin": {
+        "title": "빠른 성과 캠페인",
+        "description": "즉시 성과를 낼 수 있는 기회를 활용하세요",
+        "presetName": "빠른 성과 캠페인",
+        "presetObjectives": "전술적 최적화를 통해 즉각적인 ROI 개선 달성"
+      },
+      "brandAwareness": {
+        "title": "브랜드 인지도",
+        "description": "시장 가시성과 도달 범위를 확대하세요",
+        "presetName": "브랜드 인지도 캠페인",
+        "presetObjectives": "타깃 고객층에서 브랜드 인지도를 30% 향상"
+      },
+      "leadGeneration": {
+        "title": "리드 생성",
+        "description": "잠재 고객을 확보하고 육성하세요",
+        "presetName": "리드 생성 캠페인",
+        "presetObjectives": "월 500개의 유효 리드 생성"
+      }
+    }
+  },
+  "emptyState": {
+    "title": "인텔리전스를 정리할 준비가 되셨나요?",
+    "description": "캠페인은 인텔리전스 결과물을 비즈니스 이니셔티브별로 정리하는 데 도움을 줍니다. 더 나은 캠페인 계획을 위해 먼저 핵심 인텔리전스를 확보하세요.",
+    "readinessLabel": "인텔리전스 준비도",
+    "readinessCount": "{{total}}개 중 {{completed}}개 완료",
+    "readyMessage": "캠페인을 만들기 위한 인텔리전스가 충분합니다",
+    "notReadyMessage": "시작하려면 최소 2개의 인텔리전스 결과물을 완료하세요",
+    "completeBadge": "완료",
+    "createFirst": "첫 캠페인 만들기",
+    "continueGathering": "계속 인텔리전스 수집",
+    "startGathering": "인텔리전스 수집 시작",
+    "createAnyway": "그래도 캠페인 만들기",
+    "whyGatherTitle": "왜 먼저 인텔리전스를 모아야 하나요?",
+    "whyGatherDescription": "캠페인은 전략적 인사이트를 정리하는 구조입니다. 비즈니스 전략, 페르소나, 마케팅 계획이 준비되어 있으면 첫날부터 데이터 기반 캠페인을 만들 수 있습니다.",
+    "totalOutputsReady": "정리 가능한 총 인텔리전스 결과물",
+    "viewAllIntelligence": "모든 인텔리전스 보기",
+    "prerequisites": {
+      "strategy": {
+        "title": "비즈니스 전략",
+        "description": "시장 포지션과 경쟁 우위를 정의하세요"
+      },
+      "persona": {
+        "title": "고객 페르소나",
+        "description": "누구를 타깃으로 하는지와 그들의 문제를 이해하세요"
+      },
+      "marketing": {
+        "title": "마케팅 전략",
+        "description": "채널 믹스와 메시징 프레임워크를 결정하세요"
+      },
+      "content": {
+        "title": "콘텐츠 프로토타입",
+        "description": "초기 캠페인 소재와 메시지를 만드세요"
+      }
+    }
+  },
+  "analytics": {
+    "error": {
+      "title": "분석을 불러오지 못했습니다",
+      "message": "{{message}}"
+    },
+    "empty": {
+      "title": "분석 데이터 없음",
+      "description": "캠페인 활동이 생기면 분석이 제공됩니다"
+    },
+    "cards": {
+      "budgetUtilized": "사용된 예산",
+      "budgetOf": "{{total}} 중 {{spent}} 사용",
+      "conversionRate": "전환율",
+      "conversionsFromReach": "{{reach}} 도달에서 {{conversions}} 전환",
+      "engagement": "참여도",
+      "ctr": "CTR {{rate}}%",
+      "performance": "성과",
+      "impressions": "노출 {{count}}회"
+    },
+    "budget": {
+      "title": "예산 분석",
+      "subtitle": "지출 패턴과 예측",
+      "dailySpendRate": "일일 지출 속도",
+      "perDay": "일 {{amount}}",
+      "projectedTotalSpend": "예상 총지출",
+      "budgetBurnRate": "예산 소진 속도",
+      "daysToEnd": "예산 종료까지 남은 일수",
+      "daysCount": "{{days}}일",
+      "costPerConversion": "전환당 비용"
+    },
+    "progress": {
+      "title": "캠페인 진행 상황",
+      "subtitle": "타임라인과 콘텐츠 개요",
+      "campaignProgress": "캠페인 진행률",
+      "daysActive": "{{days}}일째 진행 중",
+      "daysLeft": "{{days}}일 남음",
+      "strategies": "전략",
+      "personas": "페르소나",
+      "activeOutputs": "활성 결과물",
+      "topChannel": "최상위 채널",
+      "channelsConfigured": "{{count}}개 채널 구성됨"
+    },
+    "alerts": {
+      "title": "주의 필요",
+      "overBudget": "캠페인이 예산을 초과했습니다 ({{percentage}}%)",
+      "underperforming": "캠페인 성과가 {{trend}} 수준입니다"
+    },
+    "generated": "분석 생성일: {{date}}",
+    "performanceLevels": {
+      "excellent": "매우 우수",
+      "good": "좋음",
+      "average": "보통",
+      "below_average": "평균 이하"
+    },
+    "burnRates": {
+      "low": "낮음",
+      "moderate": "보통",
+      "high": "높음",
+      "very_high": "매우 높음"
+    }
+  },
+  "list": {
+    "title": "모든 캠페인",
+    "empty": "아직 캠페인이 없습니다",
+    "emptyDescription": "첫 캠페인을 만들어 마케팅 활동 추적을 시작하세요",
+    "createFirst": "첫 캠페인 만들기",
+    "pageTitle": "마케팅 캠페인",
+    "pageSubtitle": "마케팅 캠페인을 관리하고 모니터링하세요",
+    "managementBadge": "캠페인 관리",
+    "newCampaign": "새 캠페인",
+    "filterByStatus": "상태별 필터",
+    "createdOn": "{{date}} 생성",
+    "noData": "데이터 없음",
+    "metricsCount_one": "지표 {{count}}개",
+    "metricsCount_other": "지표 {{count}}개",
+    "fields": {
+      "budget": "예산",
+      "type": "유형",
+      "duration": "기간",
+      "notSet": "설정되지 않음",
+      "notScheduled": "일정 미정"
+    },
+    "emptyStates": {
+      "noActive": {
+        "title": "활성 캠페인이 없습니다",
+        "description": "시작 준비가 된 초안 캠페인 {{count}}개가 있습니다",
+        "viewDrafts": "초안 보기"
+      },
+      "noCampaigns": {
+        "title": "아직 캠페인이 없습니다",
+        "description": "먼저 전략적 인텔리전스를 구축한 뒤 캠페인으로 정리하세요",
+        "startStrategy": "전략부터 시작",
+        "createCampaign": "캠페인 만들기"
+      },
+      "noPlanned": {
+        "title": "예정된 캠페인이 아직 없습니다",
+        "description": "캠페인 기획 에이전트에서 캠페인 계획을 생성하고 저장하면 여기에 표시됩니다",
+        "generatePlans": "캠페인 계획 생성"
+      },
+      "noPaused": {
+        "title": "일시 중지된 캠페인이 없습니다",
+        "descriptionWithActive": "현재 활성 캠페인 {{count}}개가 진행 중입니다",
+        "descriptionEmpty": "활성 캠페인을 일시 중지하면 여기에 표시됩니다",
+        "viewActive": "활성 캠페인 보기"
+      },
+      "noDraft": {
+        "title": "초안 캠페인이 없습니다",
+        "description": "현재 활성 캠페인 {{count}}개가 진행 중입니다"
+      },
+      "noCompleted": {
+        "title": "완료된 캠페인이 없습니다",
+        "description": "현재 활성 캠페인 {{count}}개가 진행 중입니다"
+      },
+      "generic": {
+        "title": "{{status}} 캠페인이 없습니다",
+        "description": "먼저 인텔리전스 결과물을 구축한 뒤 이를 정리할 캠페인을 만드세요",
+        "buildIntelligence": "인텔리전스 구축"
+      }
+    }
+  },
+  "status": {
+    "draft": "초안",
+    "active": "활성",
+    "planned": "예정",
+    "paused": "일시 중지",
+    "completed": "완료",
+    "archived": "보관됨"
+  },
+  "form": {
+    "create": "캠페인 만들기",
+    "edit": "캠페인 수정",
+    "fields": {
+      "name": "캠페인 이름",
+      "namePlaceholder": "캠페인 이름 입력",
+      "description": "설명",
+      "descriptionPlaceholder": "캠페인 목표와 전략을 설명하세요",
+      "startDate": "시작일",
+      "endDate": "종료일",
+      "budget": "예산",
+      "budgetPlaceholder": "예산 금액 입력",
+      "status": "상태",
+      "channels": "채널",
+      "objectives": "캠페인 목표",
+      "targetAudience": "타깃 고객"
+    },
+    "validation": {
+      "nameRequired": "캠페인 이름은 필수입니다",
+      "startDateRequired": "시작일은 필수입니다",
+      "endDateAfterStart": "종료일은 시작일 이후여야 합니다"
+    }
+  },
+  "detail": {
+    "pageTitle": "캠페인 상세",
+    "overview": "개요",
+    "performance": "성과",
+    "assets": "에셋",
+    "timeline": "타임라인",
+    "settings": "설정",
+    "notFound": "캠페인을 찾을 수 없습니다",
+    "backToCampaigns": "캠페인으로 돌아가기",
+    "aiAgents": {
+      "title": "AI 에이전트",
+      "description": "이 캠페인에 특화된 AI 에이전트에 접근하세요",
+      "agents": {
+        "strategy": {
+          "name": "전략 에이전트",
+          "description": "전략 기획 및 SWOT 분석"
+        },
+        "persona": {
+          "name": "페르소나 에이전트",
+          "description": "고객 프로파일링과 여정 매핑"
+        },
+        "content": {
+          "name": "콘텐츠 에이전트",
+          "description": "콘텐츠 제작과 최적화"
+        },
+        "analytics": {
+          "name": "분석 에이전트",
+          "description": "성과 추적과 인사이트"
+        }
+      }
+    },
+    "collaboration": {
+      "discussion": {
+        "title": "토론",
+        "description": "이 캠페인에서 팀과 협업하세요"
+      },
+      "tasks": {
+        "title": "작업",
+        "description": "이 캠페인의 업무를 할당하고 추적하세요"
+      }
+    }
+  },
+  "metrics": {
+    "impressions": "노출",
+    "clicks": "클릭",
+    "conversions": "전환",
+    "spend": "지출",
+    "ctr": "CTR",
+    "cpc": "CPC",
+    "cpa": "CPA",
+    "roas": "ROAS",
+    "roi": "ROI"
+  },
+  "actions": {
+    "create": "캠페인 만들기",
+    "edit": "수정",
+    "editDetails": "세부 정보 수정",
+    "duplicate": "복제",
+    "archive": "보관",
+    "delete": "삭제",
+    "pause": "일시 중지",
+    "resume": "재개",
+    "export": "내보내기",
+    "viewDetails": "상세 보기",
+    "save": "저장",
+    "saveChanges": "변경 사항 저장",
+    "cancel": "취소"
+  },
+  "filters": {
+    "all": "모든 캠페인",
+    "active": "활성",
+    "draft": "초안",
+    "completed": "완료",
+    "search": "캠페인 검색...",
+    "dateRange": "기간",
+    "channel": "채널"
+  },
+  "channels": {
+    "social": "소셜 미디어",
+    "email": "이메일",
+    "paid": "유료 광고",
+    "seo": "SEO",
+    "content": "콘텐츠 마케팅",
+    "events": "이벤트",
+    "pr": "PR",
+    "other": "기타"
+  },
+  "confirmDelete": {
+    "title": "캠페인 삭제",
+    "message": "이 캠페인을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+    "confirm": "삭제",
+    "cancel": "취소"
+  },
+  "campaignTypes": {
+    "brand_awareness": "브랜드 인지도",
+    "lead_generation": "리드 생성",
+    "product_launch": "제품 출시",
+    "seasonal_promotion": "시즌 프로모션",
+    "content_marketing": "콘텐츠 마케팅",
+    "email_nurture": "이메일 육성",
+    "social_media": "소셜 미디어",
+    "event_promotion": "이벤트 홍보",
+    "customer_retention": "고객 유지",
+    "referral_program": "추천 프로그램",
+    "other": "기타"
+  },
+  "marketingChannels": {
+    "email": "이메일 마케팅",
+    "social": "소셜 미디어",
+    "content": "콘텐츠 마케팅",
+    "paid_ads": "유료 광고",
+    "seo": "SEO",
+    "events": "이벤트",
+    "webinars": "웨비나",
+    "influencer": "인플루언서 마케팅",
+    "affiliate": "제휴 마케팅",
+    "direct_mail": "다이렉트 메일"
+  },
+  "priorityLevels": {
+    "low": "낮음",
+    "medium": "보통",
+    "high": "높음",
+    "critical": "매우 높음"
+  },
+  "statusActions": {
+    "activate": "활성화",
+    "activateCampaign": "캠페인 활성화",
+    "pause": "일시 중지",
+    "complete": "완료",
+    "resume": "재개",
+    "archive": "보관"
+  },
+  "performance": {
+    "mapping": {
+      "title": "캠페인 매핑",
+      "metricsFound": "CSV에서 지표 {{count}}개를 찾았습니다",
+      "exactMatches": "정확히 일치 {{count}}개",
+      "fuzzyMatches": "유사 일치 {{count}}개",
+      "unmapped": "미매핑 {{count}}개",
+      "description": "지표를 가져오기 전에 캠페인 매핑을 검토하고 확인하세요",
+      "table": {
+        "csvCampaign": "CSV 캠페인 이름",
+        "matchStatus": "일치 상태",
+        "targetCampaign": "대상 캠페인"
+      },
+      "importSelected": "선택한 지표 가져오기",
+      "importing": "가져오는 중...",
+      "successToast": "지표 {{count}}개를 성공적으로 가져왔습니다",
+      "errorToast": "지표 가져오기에 실패했습니다"
+    },
+    "selector": {
+      "placeholder": "캠페인 검색...",
+      "selectCampaign": "캠페인 선택",
+      "noCampaignsFound": "캠페인을 찾을 수 없습니다",
+      "createNew": "새 캠페인 만들기",
+      "exactMatch": "정확한 일치",
+      "fuzzyMatch": "{{percent}}% 일치",
+      "suggested": "추천",
+      "clear": "선택 해제"
+    },
+    "upload": {
+      "title": "성과 CSV 업로드",
+      "description": "캠페인 성과 지표가 포함된 CSV 파일을 업로드하세요",
+      "steps": {
+        "uploadCSV": "CSV 업로드",
+        "mapCampaigns": "캠페인 매핑",
+        "complete": "완료"
+      },
+      "dropHere": "여기에 CSV 파일을 놓으세요",
+      "dragDrop": "CSV 파일을 끌어다 놓거나 클릭해 선택하세요",
+      "requiredColumns": "필수 열: campaign_name, metric_date, spend",
+      "selectedFile": "선택된 파일",
+      "removeFile": "파일 제거",
+      "fileRemoved": "파일이 제거되었습니다",
+      "loadedMetrics": "{{filename}}에서 지표 {{count}}개를 불러왔습니다",
+      "parseError": "CSV 파일을 파싱하지 못했습니다",
+      "csvExtensionError": "파일 확장자는 .csv여야 합니다",
+      "validationIssues": "검증 문제 발견",
+      "fixIssues": "가져오기 전에 다음 문제를 수정해 주세요",
+      "fileFormatErrors": "파일 형식 오류 {{count}}개",
+      "dataValidationErrors": "데이터 검증 오류 {{count}}개",
+      "howToFix": {
+        "title": "수정 방법",
+        "requiredColumns": "다음 열이 존재하는지 확인하세요",
+        "dateFormat": "날짜는 YYYY-MM-DD 형식을 사용하세요",
+        "numericFields": "spend, impressions, clicks, conversions 값이 숫자인지 확인하세요",
+        "downloadTemplate": "올바른 형식을 위해 템플릿을 다운로드하세요"
+      },
+      "clearFile": "파일 지우기",
+      "downloadTemplate": "템플릿 다운로드",
+      "downloadCSVTemplate": "CSV 템플릿 다운로드",
+      "importSuccess": "가져오기 성공!",
+      "importSuccessDescription": "지표가 가져와져 캠페인과 연결되었습니다",
+      "importMore": "추가 가져오기",
+      "viewMetrics": "지표 보기"
+    },
+    "matchStatus": {
+      "noMatch": "일치 항목 없음",
+      "exactMatch": "정확한 일치",
+      "fuzzyMatch": "{{percent}}% 일치"
+    }
+  },
+  "editForm": {
+    "details": {
+      "title": "캠페인 세부 정보",
+      "description": "이 캠페인에 대한 핵심 정보"
+    },
+    "noDescription": "설명 없음",
+    "campaignType": "캠페인 유형",
+    "selectType": "유형 선택",
+    "notSet": "설정되지 않음",
+    "priority": "우선순위",
+    "selectPriority": "우선순위 선택",
+    "targetAudiencePlaceholder": "이 캠페인의 타깃 고객은 누구인가요? 더 나은 AI 추천을 위해 구체적으로 작성하세요...",
+    "noTargetAudience": "정의된 타깃 고객이 없습니다",
+    "objectivesGoals": "목표 및 성과 기준",
+    "objectivesPlaceholder": "핵심 목표와 성공 기준은 무엇인가요? 예: '4분기까지 유효 리드 100건 생성' 또는 '타깃 고객층에서 브랜드 인지도 30% 향상'",
+    "noObjectives": "정의된 목표가 없습니다",
+    "primary": "주요",
+    "secondary": "보조",
+    "cantChangeStartDate": "캠페인이 이미 시작되어 시작일을 변경할 수 없습니다",
+    "historicalData": "과거 데이터이므로 변경할 수 없습니다",
+    "budgetLabel": "예산 ($)",
+    "channels": {
+      "title": "마케팅 채널",
+      "description": "이 캠페인에 사용할 채널을 선택하세요",
+      "activeChannels": "활성 채널",
+      "noChannels": "선택된 채널이 없습니다"
+    },
+    "advanced": {
+      "addMoreDetails": "AI 에이전트 성능을 높이기 위해 더 많은 세부 정보를 추가하세요",
+      "showAdvanced": "고급 필드 표시",
+      "hideAdvanced": "고급 필드 숨기기"
+    },
+    "contentStrategy": {
+      "title": "콘텐츠 전략",
+      "description": "콘텐츠 축과 테마를 정의하세요",
+      "contentPillars": "콘텐츠 필러",
+      "pillarsPlaceholder": "핵심 콘텐츠 테마를 쉼표로 구분해 입력하세요 (예: 사고 리더십, 제품 교육, 고객 성공 사례, 업계 인사이트)",
+      "noPillars": "정의된 콘텐츠 필러가 없습니다"
+    },
+    "successMetrics": {
+      "title": "성공 지표 및 KPI",
+      "description": "성공 측정 방식을 정의하세요",
+      "primaryKPI": "주요 KPI",
+      "kpiPlaceholder": "예: 유효 리드",
+      "targetPlaceholder": "목표값 (예: 100)",
+      "noTarget": "목표 없음",
+      "notDefined": "정의되지 않음"
+    },
+    "competitive": {
+      "title": "경쟁 맥락",
+      "description": "시장 포지셔닝과 경쟁 환경",
+      "competitorContext": "경쟁사 맥락",
+      "contextPlaceholder": "주요 경쟁사와 차별화 방식...",
+      "noContext": "제공된 경쟁 맥락이 없습니다",
+      "geographicTarget": "지리적 타깃",
+      "geoPlaceholder": "예: 북미, 글로벌, 미국, 캘리포니아, 샌프란시스코 베이 에어리어",
+      "notSpecified": "지정되지 않음"
+    },
+    "organization": {
+      "title": "정리 및 분류",
+      "description": "태그와 카테고리 설정",
+      "tags": "태그",
+      "tagsPlaceholder": "태그를 쉼표로 구분해 입력하세요",
+      "noTags": "태그 없음"
+    }
+  }
+}

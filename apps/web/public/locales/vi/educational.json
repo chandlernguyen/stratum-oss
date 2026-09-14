@@ -1,0 +1,149 @@
+{
+  "intelligenceBriefing": {
+    "title": "Bản Tin Thông Tin Của Bạn",
+    "subtitle": "Các hành động được AI đề xuất dựa trên bối cảnh kinh doanh của bạn",
+    "tooltip": "Các bước tiếp theo được AI hỗ trợ, phù hợp với mục tiêu kinh doanh của bạn",
+    "emptyState": "Chúng tôi đang phân tích doanh nghiệp của bạn để đề xuất các bước tiếp theo có tác động cao.",
+    "emptyAction": "Bắt đầu với Chiến lược Kinh doanh",
+    "aiBadge": "AI Hỗ Trợ",
+    "loadingState": "Đang phân tích bối cảnh kinh doanh của bạn..."
+  },
+  "intelligenceVault": {
+    "title": "Thông Tin Gần Đây",
+    "subtitle": "Phân tích chiến lược và kết quả từ các trợ lý AI của bạn",
+    "emptyState": "Chưa có thông tin nào. Hãy bắt đầu xây dựng nền tảng chiến lược.",
+    "emptyAction": "Tạo Chiến Lược Đầu Tiên",
+    "viewAll": "Xem tất cả thông tin →",
+    "totalBadge": "{{count}} tổng cộng"
+  },
+  "campaigns": {
+    "title": "Chiến Dịch Của Bạn",
+    "subtitle": "Tổ chức thông tin của bạn theo sáng kiến kinh doanh",
+    "createButton": "Tổ Chức Thông Tin Thành Chiến Dịch",
+    "createButtonShort": "Tạo Chiến Dịch",
+    "emptyStateNoIntelligence": "Chưa có chiến dịch nào. Hoàn thành các kết quả thông tin quan trọng trước (Chiến lược, Chân dung, Marketing).",
+    "emptyStateHasIntelligence": "Sẵn sàng tổ chức thông tin của bạn theo sáng kiến kinh doanh?",
+    "emptyActionPrimary": "Bắt đầu với Chiến lược",
+    "emptyActionSecondary": "Xây dựng Nền tảng",
+    "emptyActionReady": "Tạo Chiến Dịch Đầu Tiên",
+    "sectionDescription": "Tổ chức thông tin của bạn theo sáng kiến kinh doanh"
+  },
+  "intelligenceReadiness": {
+    "bannerIncompleteTitle": "Đang Xây Dựng Nền Tảng Chiến Lược",
+    "bannerIncompleteSubtitle": "(Hoàn thành {{percentage}}%)",
+    "bannerCompleteTitle": "Sẵn Sàng Tạo Chiến Dịch Đầu Tiên",
+    "bannerCompleteSubtitle": "Bạn đã xây dựng nền tảng chiến lược vững chắc",
+    "checklistLabel": "Hoàn thành các kết quả thông tin quan trọng sau:",
+    "checklistItems": {
+      "strategy": "Chiến lược Kinh doanh",
+      "persona": "Chân dung Khách hàng",
+      "marketingStrategy": "Chiến lược Marketing"
+    },
+    "actions": {
+      "createCampaign": "Tạo Chiến Dịch",
+      "maybeLater": "Để Sau"
+    },
+    "descriptionComplete": "Tạo chiến dịch để tổ chức thông tin theo sáng kiến kinh doanh và theo dõi hiệu suất.",
+    "descriptionIncomplete": "Hoàn thành các kết quả thông tin quan trọng sau trước khi tạo chiến dịch:"
+  },
+  "outputs": {
+    "pageTitle": "Trung Tâm Kết Quả",
+    "pageSubtitle": "Tất cả phân tích và nội dung do AI tạo ở một nơi",
+    "organizeButtonNotReady": "Tổ Chức Thông Tin",
+    "organizeButtonReady": "Tạo Chiến Dịch",
+    "emptyState": "Chưa có kết quả thông tin nào",
+    "emptyAction": "Bắt đầu tạo phân tích chiến lược"
+  },
+  "onboarding": {
+    "welcomeTitle": "Chào Mừng Đến STRAŦUM Marketing Suite",
+    "welcomeSubtitle": "Xây dựng thông tin trước, thực thi với tự tin",
+    "welcomeDescription": "Bắt đầu bằng việc hiểu doanh nghiệp và khách hàng của bạn - chiến dịch đến sau",
+    "ctaStrategy": {
+      "title": "Bắt đầu với Chiến lược",
+      "subtitle": "Bước đầu tiên được khuyến nghị",
+      "description": "Phân tích doanh nghiệp của bạn với 11 khung chiến lược và xây dựng nền tảng vững chắc",
+      "timeEstimate": "3 phút để có phân tích đầu tiên"
+    },
+    "ctaPersona": {
+      "title": "Hiểu Khách Hàng",
+      "subtitle": "Xây dựng chân dung người mua chi tiết",
+      "description": "Hiểu bạn đang marketing cho ai với phân tích khách hàng được AI hỗ trợ",
+      "timeEstimate": "5 phút để tạo chân dung"
+    },
+    "ctaQuickStart": {
+      "title": "Mẫu Khởi Đầu Nhanh",
+      "subtitle": "Có kết quả trong vài phút",
+      "description": "Chọn từ các quy trình thông tin được cấu hình sẵn để có phân tích ngay lập tức",
+      "timeEstimate": "2-10 phút để hoàn thành"
+    },
+    "agentExplorerTitle": "HOẶC KHÁM PHÁ CÁC TRỢ LÝ AI",
+    "agentCount": "{{count}} trợ lý chuyên biệt để hỗ trợ thành công marketing của bạn"
+  },
+  "agentCategories": {
+    "foundation": {
+      "name": "Nền tảng",
+      "description": "Xây dựng nền tảng marketing của bạn"
+    },
+    "execution": {
+      "name": "Thực thi",
+      "description": "Hành động theo chiến lược của bạn"
+    },
+    "intelligence": {
+      "name": "Phân tích",
+      "description": "Tối ưu hóa và phân tích"
+    }
+  },
+  "emptyStates": {
+    "noIntelligence": {
+      "title": "Chưa có thông tin nào",
+      "description": "Bắt đầu xây dựng nền tảng chiến lược với phân tích được AI hỗ trợ",
+      "action": "Bắt đầu với Chiến lược"
+    },
+    "noCampaigns": {
+      "title": "Chưa có chiến dịch nào",
+      "description": "Chiến dịch tổ chức thông tin theo sáng kiến kinh doanh",
+      "action": "Xây dựng Nền tảng Trước"
+    },
+    "intelligenceVaultEmpty": {
+      "title": "Kho Thông Tin Của Bạn",
+      "description": "Chưa có kết quả thông tin nào. Hãy bắt đầu xây dựng nền tảng chiến lược.",
+      "action": "Tạo Chiến Lược Đầu Tiên"
+    },
+    "campaignsNotReady": {
+      "title": "Xây dựng Nền tảng Trước",
+      "description": "Tạo chiến lược, chân dung và kế hoạch marketing trước khi tổ chức thành chiến dịch.",
+      "action": "Bắt đầu với Chiến lược"
+    }
+  },
+  "tooltips": {
+    "intelligenceBriefing": {
+      "title": "Các Bước Tiếp Theo Được AI Hỗ Trợ",
+      "description": "Chúng tôi phân tích bối cảnh kinh doanh của bạn để đề xuất các hành động có tác động cao",
+      "dismissLabel": "Đã hiểu"
+    }
+  },
+  "buttons": {
+    "organizeIntelligence": "Tổ Chức Thông Tin Thành Chiến Dịch",
+    "createCampaign": "Tạo Chiến Dịch",
+    "startWithStrategy": "Bắt đầu với Chiến lược",
+    "buildIntelligence": "Xây dựng Nền tảng",
+    "viewAllIntelligence": "Xem Tất Cả Thông Tin",
+    "generateStrategy": "Tạo Chiến Lược",
+    "exploreAgents": "Khám Phá Trợ Lý AI",
+    "quickStart": "Khởi Đầu Nhanh (5 phút)"
+  },
+  "progress": {
+    "readinessPercentage": "{{percentage}}% để sẵn sàng chiến dịch",
+    "intelligenceOutputs": "{{count}} kết quả thông tin",
+    "intelligenceOutputs_other": "{{count}} kết quả thông tin",
+    "agentInteractions": "{{count}} tương tác AI tuần này",
+    "agentInteractions_other": "{{count}} tương tác AI tuần này",
+    "strategicFoundation": "Nền tảng chiến lược: {{status}}"
+  },
+  "concepts": {
+    "intelligenceFirst": "Xây dựng thông tin chiến lược trước khi thực thi để có kết quả tốt hơn",
+    "campaignsOrganize": "Chiến dịch tổ chức thông tin của bạn, không phải thúc đẩy thực thi",
+    "aiAgents": "9 trợ lý AI chuyên biệt giúp bạn xây dựng nền tảng chiến lược",
+    "quickWins": "Gợi ý hành động ngay lập tức trong khi xây dựng chiến lược dài hạn"
+  }
+}

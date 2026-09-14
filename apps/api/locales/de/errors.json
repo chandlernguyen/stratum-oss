@@ -1,0 +1,30 @@
+{
+  "generic": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+  "network": "Netzwerkfehler. Bitte prüfen Sie Ihre Verbindung.",
+  "server": "Serverfehler. Bitte versuchen Sie es später erneut.",
+  "notFound": "Ressource nicht gefunden.",
+  "unauthorized": "Sie sind nicht berechtigt, diese Aktion durchzuführen.",
+  "forbidden": "Zugriff verweigert.",
+  "timeout": "Zeitüberschreitung der Anfrage. Bitte versuchen Sie es erneut.",
+  "sessionExpired": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an.",
+  "validation": {
+    "required": "{field} ist erforderlich.",
+    "invalid": "Ungültiges Feld: {field}.",
+    "tooShort": "{field} muss mindestens {min} Zeichen lang sein.",
+    "tooLong": "{field} darf höchstens {max} Zeichen lang sein.",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "invalidPassword": "Das Passwort erfüllt nicht die Anforderungen."
+  },
+  "auth": {
+    "invalidCredentials": "Ungültige E-Mail-Adresse oder ungültiges Passwort.",
+    "emailInUse": "Diese E-Mail-Adresse ist bereits registriert.",
+    "accountLocked": "Konto vorübergehend gesperrt. Bitte versuchen Sie es später erneut.",
+    "tooManyAttempts": "Zu viele Versuche. Bitte versuchen Sie es später erneut.",
+    "invalidInvitationCode": "Ungültiger Einladungscode."
+  },
+  "agent": {
+    "unavailable": "Agent ist vorübergehend nicht verfügbar. Bitte versuchen Sie es erneut.",
+    "toolExecutionFailed": "Ausführung von {tool} fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "responseGenerationFailed": "Antwortgenerierung fehlgeschlagen. Bitte versuchen Sie es erneut."
+  }
+}

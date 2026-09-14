@@ -1,0 +1,342 @@
+{
+  "privacy": {
+    "pageTitle": "隐私政策",
+    "lastUpdated": "最后更新：2026年2月13日",
+    "alphaNotice": {
+      "title": "Alpha 阶段说明",
+      "description": "STRAŦUM 当前处于 Alpha 测试阶段。本隐私政策可能会发生重大变化。请自行承担使用风险。我们不对数据安全或服务可靠性作出保证。"
+    },
+    "sections": {
+      "acceptance": {
+        "number": "1",
+        "title": "接受与适用范围",
+        "intro": "在 Alpha 阶段使用 STRAŦUM，即表示你确认：",
+        "items": {
+          "experimental": "本服务为实验性服务，并按“现状”提供",
+          "dataChange": "数据收集与处理方式可能会在不另行通知的情况下发生变化",
+          "smallTeam": "我们是一个资源有限的小团队",
+          "ownRisk": "你使用本服务的全部风险由你自行承担"
+        },
+        "seeTerms": "完整条款请参阅我们的",
+        "termsLink": "条款与条件"
+      },
+      "informationCollect": {
+        "number": "2",
+        "title": "我们可能收集的信息",
+        "intro": "在 Alpha 测试期间，我们可能会收集：",
+        "accountInfo": {
+          "title": "账号信息",
+          "description": "电子邮件、姓名、组织详情"
+        },
+        "businessContext": {
+          "title": "业务背景",
+          "description": "公司信息、营销目标、战略"
+        },
+        "contentCreated": {
+          "title": "你创建的内容",
+          "description": "营销活动、画像、营销计划"
+        },
+        "technicalData": {
+          "title": "技术数据",
+          "description": "错误、使用模式、性能"
+        },
+        "note": "注意：随着服务发展，数据收集方式可能会发生变化。"
+      },
+      "howWeUse": {
+        "number": "3",
+        "title": "我们如何使用信息",
+        "intro": "我们主要将信息用于：",
+        "items": {
+          "provideServices": "提供服务（身份验证、AI 智能体互动、智能内容生成）",
+          "generateIntelligence": "生成营销智能和战略建议",
+          "fixBugs": "修复问题并改进 Alpha 服务",
+          "understandUsage": "了解使用模式以提升用户体验",
+          "communicate": "就服务相关事项与你沟通"
+        },
+        "note": "我们的团队规模很小，不会对你的数据做复杂操作。我们只是希望打造一个真正能帮助你获得营销智能的产品。"
+      },
+      "thirdParty": {
+        "number": "4",
+        "title": "第三方服务",
+        "intro": "我们依赖以下服务（并适用它们各自的隐私政策）：",
+        "services": {
+          "supabase": {
+            "name": "Supabase",
+            "description": "身份验证与数据存储"
+          },
+          "googleCloud": {
+            "name": "Google Cloud",
+            "description": "后端服务托管"
+          },
+          "vercel": {
+            "name": "Vercel",
+            "description": "前端应用托管"
+          },
+          "googleAi": {
+            "name": "Google AI (Gemini)",
+            "description": "内容生成与智能分析"
+          },
+          "stripe": {
+            "name": "Stripe",
+            "description": "支付处理与订阅管理"
+          },
+          "cloudflare": {
+            "name": "Cloudflare",
+            "description": "机器人防护（Turnstile CAPTCHA）"
+          },
+          "resend": {
+            "name": "Resend",
+            "description": "事务性电子邮件投递"
+          }
+        },
+        "disclaimer": "我们不对第三方服务的做法或安全性负责。"
+      },
+      "aiUsage": {
+        "number": "5",
+        "title": "AI 与数据使用",
+        "subtitle": "关于 AI 处理的重要信息：",
+        "items": {
+          "sentToGoogle": "你的业务数据会发送至 Google AI（Gemini）进行处理和智能生成",
+          "noTraining": "我们不会使用你的数据训练我们自己的 AI 模型",
+          "googlePolicies": "通过 Google 服务处理的数据适用 Google 的 AI 使用政策",
+          "stored": "你的营销智能和战略会存储在我们的数据库中，供你访问"
+        }
+      },
+      "dataIsolation": {
+        "number": "6",
+        "title": "数据隔离",
+        "intro": "我们实施数据库级的数据隔离：",
+        "items": {
+          "isolated": "你的业务数据与其他组织隔离",
+          "agencySeparation": "代理机构客户之间完全数据分离",
+          "rls": "数据库行级安全（RLS）策略用于强制访问控制"
+        },
+        "note": "但作为 Alpha 服务，我们无法保证完全防护所有安全漏洞。"
+      },
+      "limitedSecurity": {
+        "number": "7",
+        "title": "有限的安全保证",
+        "disclaimerTitle": "重要免责声明",
+        "intro": "作为资源有限的 Alpha 服务，我们无法保证：",
+        "items": {
+          "completeSecurity": "完整的数据安全",
+          "breachProtection": "防范所有安全事件",
+          "dataBackup": "所有场景下的数据备份或恢复",
+          "availability": "服务可用性或正常运行时间",
+          "migrationProtection": "数据库迁移期间防止数据丢失"
+        },
+        "warning": "请自行承担使用本服务的风险。不要上传高度敏感或机密的业务信息。"
+      },
+      "yourRights": {
+        "number": "8",
+        "title": "你的权利（Alpha 期间有限）",
+        "tryToHelp": "我们会尽力帮助你：",
+        "helpItems": {
+          "deleteAccount": "按请求删除你的账号",
+          "updateInfo": "更新基础信息",
+          "accessData": "提供你的数据访问权限"
+        },
+        "cannotGuarantee": "但在 Alpha 期间，我们无法保证：",
+        "limitedItems": {
+          "export": "完整的数据导出功能",
+          "deletion": "从所有系统和备份中彻底删除数据",
+          "timeliness": "及时响应数据请求"
+        }
+      },
+      "dataRetention": {
+        "number": "9",
+        "title": "数据保留",
+        "intro": "在 Alpha 阶段：",
+        "items": {
+          "active": "只要你的账号处于活跃状态，我们就会保留数据",
+          "migrations": "我们可能会在数据库迁移或重置期间删除数据",
+          "backups": "被删除的数据可能会在备份中保留一段合理时间",
+          "noGuarantee": "我们不对 Alpha 期间的数据持久性作出保证"
+        }
+      },
+      "noWarranty": {
+        "number": "10",
+        "title": "无保证与责任限制",
+        "intro": "正如我们的",
+        "termsLink": "条款与条件",
+        "items": {
+          "asIs": "服务按“现状”提供，不附带任何保证",
+          "notLiable": "我们不对数据丢失或安全事件承担责任",
+          "noAvailability": "不保证服务持续可用",
+          "assumeRisk": "你需自行承担使用 Alpha 服务的所有风险"
+        }
+      },
+      "changes": {
+        "number": "11",
+        "title": "变更无需另行通知",
+        "description": "本隐私政策可能随时在不通知的情况下变更。继续使用本服务即表示你接受任何变更。请定期查看此页面。"
+      },
+      "contact": {
+        "number": "12",
+        "title": "联系我们",
+        "description": "如有问题，请发送邮件至",
+        "note": "（但请记住，我们是一个小团队，回复可能会延迟）。"
+      }
+    },
+    "tldr": {
+      "label": "TL;DR:",
+      "text": "这是一个 Alpha 服务。我们是一个很小的团队。我们会尽力，但不作任何承诺。不要在这里放入高度敏感的信息。请自行承担使用风险。"
+    },
+    "navigation": {
+      "returnHome": "返回首页",
+      "termsConditions": "条款与条件"
+    }
+  },
+  "terms": {
+    "pageTitle": "条款与条件",
+    "lastUpdated": "最后更新：2026年2月13日",
+    "alphaNotice": {
+      "title": "Alpha 项目说明",
+      "description": "STRAŦUM 当前处于 Alpha 项目阶段。这意味着服务仍在演进中，可能会发生重大变化，包括功能、特性和数据库结构。"
+    },
+    "sections": {
+      "introduction": {
+        "number": "1",
+        "title": "简介",
+        "welcome": "欢迎使用 STRAŦUM（“我们”）。本条款与条件适用于你对我们网站、产品和服务（统称“服务”）的使用。",
+        "agreement": "访问或使用本服务即表示你同意受这些条款约束。如果你不同意其中任何内容，则不得访问本服务。",
+        "alphaStatus": "Alpha 状态：STRAŦUM 当前处于 Alpha 项目阶段。参与即表示你确认本服务仍在开发中，尚不是最终成品。"
+      },
+      "alphaProgram": {
+        "number": "2",
+        "title": "Alpha 项目",
+        "intro": "作为 Alpha 项目参与者，你理解并同意以下内容：",
+        "items": {
+          "bugs": "服务可能包含影响功能的缺陷、错误或其他问题",
+          "changes": "我们可能在不事先通知的情况下对服务进行重大调整",
+          "downtime": "服务可能会出现中断或性能问题",
+          "database": "数据库结构可能发生变化，从而影响已存储的数据",
+          "resets": "我们可能在开发期间重置数据库，导致数据丢失",
+          "pricing": "定价、套餐和功能在正式发布前均可能发生变化"
+        }
+      },
+      "accountRegistration": {
+        "number": "3",
+        "title": "账号注册",
+        "responsibilitiesTitle": "你的责任：",
+        "responsibilities": {
+          "accurate": "提供准确、最新且完整的注册信息",
+          "updated": "保持你的信息为最新状态",
+          "safeguard": "妥善保管你的密码",
+          "strongPasswords": "使用强密码（大小写字母、数字、符号）"
+        }
+      },
+      "aiDisclaimer": {
+        "number": "4",
+        "title": "AI 生成内容免责声明",
+        "responsibilityTitle": "不对输出内容负责",
+        "intro": "STRAŦUM 使用 AI 生成营销智能。我们明确不对以下事项承担责任：",
+        "items": {
+          "accuracy": "生成内容的准确性、完整性或可靠性",
+          "errors": "事实错误或错误表述",
+          "appropriateness": "是否适合你的具体业务用途",
+          "actions": "你基于生成内容采取的行动",
+          "decisions": "你使用我们的框架做出的商业决策",
+          "claims": "因你使用生成内容而产生的任何主张"
+        },
+        "responsibility": "在使用任何内容前，你有责任自行审查并验证其准确性。"
+      },
+      "userResponsibilities": {
+        "number": "5",
+        "title": "用户责任",
+        "intro": "使用本服务时，你同意不会：",
+        "items": {
+          "laws": "违反任何适用法律或法规",
+          "ip": "侵犯他人的知识产权",
+          "unauthorized": "尝试未经授权访问服务的任何部分",
+          "illegal": "生成非法、有害或令人反感的内容",
+          "impersonate": "冒充任何个人或实体",
+          "interfere": "干扰或破坏服务运行"
+        }
+      },
+      "intellectualProperty": {
+        "number": "6",
+        "title": "知识产权",
+        "yourContent": {
+          "title": "你的内容",
+          "description": "你保留对所提交内容的全部权利。你授予我们一项非独占、全球范围、免版税的许可，仅用于提供和改进本服务。"
+        },
+        "generatedContent": {
+          "title": "生成内容",
+          "description": "你获得一项非独占、全球范围、免版税的许可，可出于任何目的使用、修改和分发本服务生成的内容。"
+        },
+        "ourIp": {
+          "title": "我们的知识产权",
+          "description": "本服务及其原创内容归我们所有，并受版权、商标及其他法律保护。"
+        }
+      },
+      "noRefund": {
+        "number": "7",
+        "title": "不退款政策",
+        "headline": "所有销售均为最终结果",
+        "intro": "所有购买均为最终成交，且不予退款：",
+        "items": {
+          "noRefund": "在任何情况下均不提供退款、积分或补偿",
+          "regardless": "无论服务使用情况如何均适用",
+          "evenTechnical": "即使出现技术问题或对服务不满意也同样适用"
+        },
+        "alphaNote": "所有套餐均包含 30 天免费试用。试用期结束后，将按你所选套餐进行收费。"
+      },
+      "dataPrivacy": {
+        "number": "8",
+        "title": "数据收集与隐私",
+        "description": "我们会按照我们的",
+        "privacyLink": "隐私政策",
+        "consent": "中所述方式收集和处理个人数据。使用本服务即表示你同意该处理方式。",
+        "feedbackNote": "反馈与改进：作为 Alpha 项目参与者，你确认我们可能会收集使用数据、错误报告和你的反馈，以改进本服务。"
+      },
+      "limitationLiability": {
+        "number": "9",
+        "title": "责任限制",
+        "intro": "在法律允许的最大范围内，我们不对任何间接、附带、特殊、后果性或惩罚性损害承担责任，包括：",
+        "items": {
+          "losses": "利润、数据、使用权、商誉或其他无形损失",
+          "inability": "无法访问或使用本服务",
+          "generatedContent": "本服务生成的任何内容",
+          "unauthorized": "未经授权访问或篡改你的数据"
+        },
+        "alphaNote": "Alpha 项目特别说明：对于因服务的 Alpha 属性而产生的任何损害，包括服务变更、数据库重置或功能下线，我们均不承担责任。"
+      },
+      "disclaimerWarranties": {
+        "number": "10",
+        "title": "免责声明与保证排除",
+        "asIs": "本服务按“现状”和“可用时”提供。",
+        "disclaim": "我们明确排除所有明示或默示保证，包括适销性、特定用途适用性和不侵权保证。",
+        "noWarranty": "我们不保证本服务会满足你的要求、持续不中断、足够安全或无错误，也不保证缺陷会被修复。"
+      },
+      "termination": {
+        "number": "11",
+        "title": "终止",
+        "weTerminate": "我们可因任何原因立即终止或暂停你的账号及服务访问权限，无需事先通知，也不承担责任，包括但不限于违反条款。",
+        "uponTermination": "一旦终止，你使用本服务的权利将立即停止。如需终止你的账号，请停止使用本服务或联系我们删除账号。"
+      },
+      "changesToTerms": {
+        "number": "12",
+        "title": "条款变更",
+        "description": "我们保留随时修改这些条款的权利。对于重大修订，我们将至少提前 30 天通知。",
+        "alphaNote": "Alpha 期间：随着服务演进，我们可能会更频繁地更新条款。继续使用即表示你接受这些修改。"
+      },
+      "governingLaw": {
+        "number": "13",
+        "title": "适用法律",
+        "description": "本条款受美国法律管辖，不考虑法律冲突原则。",
+        "disputeTitle": "争议解决：",
+        "dispute": "任何争议均应依照美国仲裁协会规则通过具有约束力的仲裁解决。仲裁将通过在线视频会议进行。"
+      },
+      "contactUs": {
+        "number": "14",
+        "title": "联系我们",
+        "description": "如果你对这些条款有任何疑问，请通过以下方式联系我们："
+      }
+    },
+    "navigation": {
+      "returnHome": "返回首页",
+      "privacyPolicy": "隐私政策"
+    }
+  }
+}

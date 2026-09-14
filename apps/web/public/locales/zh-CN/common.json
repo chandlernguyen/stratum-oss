@@ -1,0 +1,490 @@
+{
+  "aria": {
+    "bottomNavigation": "底部导航",
+    "breadcrumb": "面包屑导航",
+    "openMenu": "打开菜单"
+  },
+  "buttons": {
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "delete": "删除",
+    "edit": "编辑",
+    "create": "创建",
+    "add": "添加",
+    "remove": "移除",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "submit": "提交",
+    "loading": "加载中...",
+    "retry": "重试",
+    "continue": "继续",
+    "skip": "跳过",
+    "done": "完成",
+    "view": "查看",
+    "viewAll": "查看全部",
+    "learnMore": "了解更多",
+    "getStarted": "立即开始",
+    "signUp": "注册",
+    "signIn": "登录",
+    "signOut": "退出登录",
+    "upgrade": "升级",
+    "download": "下载",
+    "export": "导出",
+    "import": "导入",
+    "refresh": "刷新",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "copy": "复制",
+    "copied": "已复制！",
+    "share": "分享",
+    "archive": "归档",
+    "restore": "恢复",
+    "newSession": "新会话"
+  },
+  "labels": {
+    "name": "名称",
+    "email": "电子邮件",
+    "password": "密码",
+    "phone": "电话",
+    "description": "描述",
+    "title": "标题",
+    "status": "状态",
+    "date": "日期",
+    "time": "时间",
+    "type": "类型",
+    "category": "分类",
+    "tags": "标签",
+    "notes": "备注",
+    "actions": "操作",
+    "settings": "设置",
+    "profile": "个人资料",
+    "account": "账号",
+    "preferences": "偏好设置",
+    "language": "语言",
+    "notifications": "通知",
+    "privacy": "隐私",
+    "security": "安全",
+    "help": "帮助",
+    "support": "支持",
+    "feedback": "反馈",
+    "optional": "可选",
+    "required": "必填"
+  },
+  "status": {
+    "active": "启用",
+    "inactive": "停用",
+    "pending": "待处理",
+    "completed": "已完成",
+    "failed": "失败",
+    "processing": "处理中",
+    "draft": "草稿",
+    "published": "已发布",
+    "archived": "已归档",
+    "deleted": "已删除"
+  },
+  "errors": {
+    "generic": "出现问题了。请重试。",
+    "networkError": "网络错误。请检查你的连接。",
+    "serverError": "服务器错误。请稍后再试。",
+    "notFound": "未找到资源。",
+    "unauthorized": "你无权执行此操作。",
+    "forbidden": "访问被拒绝。",
+    "validationError": "请检查你的输入后重试。",
+    "timeout": "请求超时。请重试。",
+    "sessionExpired": "你的会话已过期。请重新登录。"
+  },
+  "success": {
+    "saved": "更改已成功保存。",
+    "created": "创建成功。",
+    "updated": "更新成功。",
+    "deleted": "删除成功。",
+    "copied": "已复制到剪贴板。",
+    "exported": "导出成功。",
+    "imported": "导入成功。"
+  },
+  "confirm": {
+    "delete": {
+      "title": "删除项目",
+      "description": "确定要删除此项目吗？此操作无法撤销。",
+      "confirmButton": "永久删除",
+      "cancelButton": "取消"
+    },
+    "unsavedChanges": {
+      "title": "存在未保存的更改",
+      "description": "你有未保存的更改。确定要离开吗？",
+      "confirmButton": "离开",
+      "cancelButton": "留下"
+    },
+    "archive": {
+      "title": "归档项目",
+      "description": "确定要归档此项目吗？",
+      "confirmButton": "归档",
+      "cancelButton": "取消",
+      "reasonLabel": "归档原因（可选）",
+      "reasonPlaceholder": "例如：战略已过时、项目已完成、不再需要...",
+      "reasonHelp": "该原因将被保存用于审计，并有助于日后回顾已归档项目。",
+      "reversibleTitle": "归档可恢复",
+      "reversibleMessage": "你可以随时在已归档项目中恢复这个 {{itemName}}。"
+    },
+    "warning": {
+      "confirmButton": "继续"
+    },
+    "info": {
+      "confirmButton": "确认"
+    },
+    "deleteTip": "提示：如果你之后可能还需要它，可以考虑先归档而不是删除。归档项目可随时恢复。",
+    "processing": "处理中..."
+  },
+  "empty": {
+    "noResults": "未找到结果。",
+    "noData": "暂无可用数据。",
+    "noItems": "还没有项目。",
+    "noMatches": "没有符合搜索条件的结果。"
+  },
+  "loading": {
+    "default": "加载中...",
+    "pleaseWait": "请稍候...",
+    "processing": "处理中...",
+    "saving": "保存中...",
+    "fetching": "正在获取数据..."
+  },
+  "time": {
+    "justNow": "刚刚",
+    "minutesAgo": "{{count}} 分钟前",
+    "minutesAgo_other": "{{count}} 分钟前",
+    "hoursAgo": "{{count}} 小时前",
+    "hoursAgo_other": "{{count}} 小时前",
+    "daysAgo": "{{count}} 天前",
+    "daysAgo_other": "{{count}} 天前",
+    "today": "今天",
+    "yesterday": "昨天",
+    "tomorrow": "明天"
+  },
+  "navigation": {
+    "home": "首页",
+    "dashboard": "仪表盘",
+    "overview": "概览",
+    "campaigns": "营销活动",
+    "agents": "智能体",
+    "library": "资料库",
+    "approved": "已批准",
+    "team": "团队",
+    "tasks": "任务",
+    "search": "搜索",
+    "more": "更多",
+    "settings": "设置",
+    "profile": "个人资料",
+    "myProfile": "我的资料",
+    "billing": "账单与订阅",
+    "feedback": "反馈",
+    "contactUs": "联系我们",
+    "privacyPolicy": "隐私政策",
+    "termsConditions": "条款与条件",
+    "signOut": "退出登录",
+    "help": "帮助",
+    "lightMode": "浅色模式",
+    "darkMode": "深色模式",
+    "intelligence": "智能分析",
+    "clients": "客户",
+    "agencyOverview": "代理机构概览",
+    "requestAccess": "注册",
+    "account": "账号",
+    "accountOptions": "账号选项",
+    "request": "申请",
+    "pricing": "定价",
+    "blog": "博客",
+    "whiteLabel": "白标",
+    "accountTypes": {
+      "agency": "代理机构账号",
+      "sme": "中小企业账号"
+    }
+  },
+  "auth": {
+    "signIn": "登录",
+    "signUp": "注册",
+    "alreadyHaveAccount": "已有账号",
+    "haveInvitation": "有邀请？立即加入"
+  },
+  "breadcrumbs": {
+    "campaign": "营销活动",
+    "businessStrategy": "业务战略",
+    "personas": "用户画像",
+    "marketingStrategy": "营销战略",
+    "content": "内容",
+    "analytics": "分析",
+    "roiBudget": "ROI 与预算",
+    "campaignExecution": "活动执行",
+    "competitiveIntelligence": "竞争情报",
+    "clientSuccess": "客户成功",
+    "quickWins": "快速见效",
+    "switchClient": "切换客户",
+    "contentCreation": "内容创作",
+    "strategy": "战略",
+    "strategyAgent": "战略智能体",
+    "personaAgent": "画像智能体",
+    "contentAgent": "内容智能体",
+    "analyticsAgent": "分析智能体",
+    "campaignPlanning": "活动规划",
+    "performanceIntelligence": "绩效智能",
+    "client": "客户"
+  },
+  "clientLayout": {
+    "clientNotFound": "未找到客户或访问被拒绝",
+    "loadingClientData": "正在加载客户数据...",
+    "clientFeatureName": "客户工作区",
+    "noAccessMessage": "你无权访问此客户工作区。请联系你的代理机构管理员。"
+  },
+  "clientPortal": {
+    "title": "客户门户",
+    "review": "审核",
+    "loading": "正在加载你的工作区...",
+    "noAccess": "没有客户访问权限",
+    "noAccessDescription": "你无权访问任何客户工作区。请联系你的代理机构获取帮助。"
+  },
+  "footer": {
+    "copyright": "© 2026 STRAŦUM. All rights reserved.",
+    "privacy": "隐私",
+    "terms": "条款",
+    "contact": "联系",
+    "pricing": "定价",
+    "blog": "博客",
+    "tagline": "智能优先于执行"
+  },
+  "theme": {
+    "light": "浅色",
+    "dark": "深色",
+    "switchToLight": "切换到浅色模式",
+    "switchToDark": "切换到深色模式"
+  },
+  "language": {
+    "switchToVietnamese": "切换到越南语",
+    "switchToEnglish": "切换到英语"
+  },
+  "session": {
+    "untitled": "未命名会话",
+    "archived": "已归档",
+    "message": "{{count}} 条消息",
+    "message_other": "{{count}} 条消息",
+    "actions": {
+      "rename": "重命名会话",
+      "export": "导出会话",
+      "duplicate": "复制会话",
+      "restore": "恢复",
+      "archive": "归档",
+      "delete": "删除"
+    }
+  },
+  "approvals": {
+    "title": "待审批",
+    "from": "来自 {{name}}",
+    "reviewContent": "审核内容",
+    "contentNotAvailable": "没有可供审核的内容",
+    "viewToApprove": "查看内容以批准或请求修改",
+    "noPending": "没有待审批项",
+    "allCaughtUp": "你已经处理完所有事项！",
+    "viewAll": "查看全部",
+    "priority": {
+      "low": "低",
+      "normal": "普通",
+      "high": "高",
+      "urgent": "紧急"
+    }
+  },
+  "feedback": {
+    "pageTitle": "反馈",
+    "title": "分享你的反馈",
+    "subtitle": "通过分享你的想法、建议或问题报告，帮助我们改进 STRAŦUM。",
+    "categoryLabel": "分类",
+    "categoryPlaceholder": "选择一个分类",
+    "feedbackLabel": "你的反馈",
+    "feedbackPlaceholder": "告诉我们你的想法...",
+    "submitButton": "提交反馈",
+    "submitting": "提交中...",
+    "privacyNote": "你的反馈是私密的，只有 STRAŦUM 团队可以看到。",
+    "successTitle": "反馈已提交！",
+    "successMessage": "感谢你帮助我们改进 STRAŦUM。你的反馈对我们非常重要。",
+    "submitAnother": "继续提交反馈",
+    "categories": {
+      "generalFeedback": {
+        "label": "一般反馈",
+        "description": "关于 STRAŦUM 的整体想法"
+      },
+      "agentPerformance": {
+        "label": "智能体表现",
+        "description": "关于战略、画像、内容等方面的反馈"
+      },
+      "featureRequest": {
+        "label": "功能请求",
+        "description": "建议新功能或改进"
+      },
+      "bugReport": {
+        "label": "Bug 报告",
+        "description": "报告技术问题或错误"
+      },
+      "userExperience": {
+        "label": "用户体验",
+        "description": "关于 UI/UX 设计的反馈"
+      },
+      "dataAccuracy": {
+        "label": "数据准确性",
+        "description": "报告错误或误导性的 AI 输出"
+      }
+    },
+    "validation": {
+      "feedbackRequired": "必须填写反馈内容",
+      "feedbackMinLength": "反馈内容至少需要 {{min}} 个字符",
+      "feedbackMaxLength": "反馈内容不能超过 {{max}} 个字符",
+      "categoryRequired": "请选择一个分类"
+    },
+    "messages": {
+      "authError": "身份验证错误。请刷新页面。",
+      "submitError": "提交反馈失败。请重试。",
+      "unexpectedError": "发生了意外错误。请重试。",
+      "thankYou": "感谢你的反馈！"
+    }
+  },
+  "chat": {
+    "showSuggestions": "显示建议",
+    "hideSuggestions": "隐藏建议",
+    "sendMessage": "发送消息",
+    "analyzing": "正在分析可执行的下一步...",
+    "analyzingStrategy": "正在分析营销战略组件..."
+  },
+  "search": {
+    "placeholder": "搜索..."
+  },
+  "notifications": {
+    "count": "{{count}} 条通知",
+    "count_one": "{{count}} 条通知",
+    "noNotifications": "还没有通知",
+    "viewAll": "查看全部 {{count}} 条通知"
+  },
+  "protectedRoute": {
+    "initializingAuth": "正在初始化身份验证...",
+    "loadingWorkspace": "正在加载你的工作区..."
+  },
+  "security": {
+    "secureWorkspace": "安全工作区",
+    "workingInWorkspace": "正在 {{clientName}} 的工作区中工作",
+    "dataProtected": "数据受保护",
+    "enterpriseGradeSecurity": "企业级安全",
+    "dataIsolation": "完整的数据隔离",
+    "endToEndEncryption": "端到端加密",
+    "soc2Compliant": "符合 SOC 2 标准",
+    "aiPrivate": "AI 数据保持私密",
+    "currentlyWorkingIn": "当前工作于"
+  },
+  "archiveReasonDialog": {
+    "description": "这会将“{{resourceName}}”从活动视图中移除，但会保留所有数据。你可以随时从归档项目中恢复它。",
+    "archiving": "归档中...",
+    "archiveButton": "归档 {{resourceDisplayName}}"
+  },
+  "deleteConfirmDialog": {
+    "title": "你确定吗？",
+    "archivedDescription": "这个 {{itemName}} 已经归档。删除后将从系统中永久移除，且无法撤销。",
+    "activeDescription": "这将永久删除 {{itemName}} 及其所有相关数据。此操作无法撤销。",
+    "item": "项目",
+    "thisItem": "此项目"
+  },
+  "languageSwitcher": {
+    "ariaLabel": "当前语言：{{language}}。点击切换语言。"
+  },
+  "outputBrowser": {
+    "loading": "正在加载已保存输出...",
+    "savedOutputs": "已保存输出",
+    "searchPlaceholder": "搜索输出...",
+    "allAgents": "全部智能体",
+    "agents": {
+      "strategy": "战略",
+      "persona": "画像",
+      "content": "内容",
+      "analytics": "分析"
+    },
+    "sortBy": {
+      "recent": "最近",
+      "popular": "热门",
+      "topRated": "评分最高"
+    },
+    "suggestedFor": "为 {{agent}} 推荐",
+    "noSavedOutputs": "还没有已保存输出。",
+    "saveHint": "保存智能体回复，方便后续复用！",
+    "noMatchingOutputs": "没有输出符合你的搜索条件。",
+    "views": "{{count}} 次查看",
+    "views_one": "{{count}} 次查看",
+    "reuses": "{{count}} 次复用",
+    "reuses_one": "{{count}} 次复用",
+    "selected": "已选择 {{count}} 项",
+    "useSelected": "使用所选内容（{{count}}）",
+    "weeksAgo": "{{count}} 周前",
+    "weeksAgo_one": "{{count}} 周前"
+  },
+  "quickSave": {
+    "quickSave": "快速保存",
+    "saved": "已保存",
+    "saving": "保存中...",
+    "saveWithDetails": "保存并添加详情",
+    "copyToClipboard": "复制到剪贴板"
+  },
+  "relatedOutputs": {
+    "title": "相关成果",
+    "description": "可能有助于你完成 {{agent}} 工作的历史输出",
+    "hide": "隐藏相关输出",
+    "show": "显示相关输出",
+    "smartSuggestions": "智能建议",
+    "fromRelatedAgents": "来自相关智能体",
+    "useAsContext": "用作上下文",
+    "usedTimes": "已使用 {{count}} 次",
+    "usedTimes_one": "已使用 {{count}} 次",
+    "emptyState": "还没有相关输出。先使用其他智能体，为你的 {{agent}} 工作建立上下文。",
+    "loading": "正在加载相关输出...",
+    "copyError": "复制到剪贴板失败"
+  },
+  "resourceActions": {
+    "actionsFor": "{{name}} 的操作",
+    "view": "查看 {{name}}",
+    "edit": "编辑 {{name}}",
+    "copyContent": "复制内容",
+    "restore": "恢复 {{name}}",
+    "restoring": "恢复中...",
+    "archive": "归档 {{name}}",
+    "archiving": "归档中...",
+    "deleting": "删除中..."
+  },
+  "saveOutputDialog": {
+    "title": "保存 {{agentType}} 输出",
+    "description": "添加标题和标签，以便保存该输出供日后参考",
+    "saveWithDetails": "保存并添加详情（Cmd+S）",
+    "titleLabel": "标题",
+    "titlePlaceholder": "{{date}} 的 {{agentType}} 分析",
+    "tagsPlaceholder": "添加自定义标签...",
+    "suggestedTags": "推荐标签：",
+    "contentPreview": "内容预览",
+    "words": "{{count}} 个词",
+    "words_one": "{{count}} 个词",
+    "minRead": "{{count}} 分钟阅读",
+    "outputType": "{{agentType}} 输出",
+    "structuredData": "结构化数据",
+    "structuredDataHint": "包含可在多个智能体之间复用的结构化分析数据",
+    "keyboardHint": "按 Cmd+Enter 可快速保存",
+    "saveOutput": "保存输出"
+  },
+  "smartStart": {
+    "preparingSuggestions": "正在准备智能建议...",
+    "readyToWork": "已准备好与你的 {{agent}} 智能体协作",
+    "smartSuggestions": "智能建议",
+    "continuePreviousWork": "继续之前的工作",
+    "fromAgent": "来自 {{agent}}",
+    "uses": "{{count}} 次使用",
+    "uses_one": "{{count}} 次使用",
+    "workflowTip": "工作流提示",
+    "workflowTipSuffix": "点击上方任一建议即可延续该上下文，或在下方重新开始。",
+    "startFresh": "重新开始",
+    "useBestMatch": "使用最佳匹配",
+    "readyForFreshIdeas": "准备迎接新思路",
+    "noPreviousWork": "未找到历史工作。这正是为你的 {{agent}} 建立基础的好时机。"
+  }
+}

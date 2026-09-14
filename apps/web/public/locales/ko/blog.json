@@ -1,0 +1,30 @@
+{
+  "masthead": {
+    "eyebrow": "인사이트와 가이드",
+    "title": "STRAŦUM 블로그",
+    "description": "전략적 마케팅 인텔리전스, 프레임워크 심화 분석, 그리고 AI 기반 플랫폼을 구축하며 얻은 교훈."
+  },
+  "hubs": {
+    "all": "전체 게시글",
+    "marketingIntelligence": "마케팅 인텔리전스",
+    "marketingFrameworks": "프레임워크",
+    "aiAgents": "AI 에이전트",
+    "agencyOperations": "에이전시 운영"
+  },
+  "post": {
+    "notFoundTitle": "게시글을 찾을 수 없습니다",
+    "backToBlog": "블로그로 돌아가기",
+    "allPosts": "전체 게시글",
+    "completeGuide": "완전 가이드",
+    "minRead": "분 읽기",
+    "min": "분",
+    "moreFrom": "{{hub}}의 다른 글",
+    "read": "읽기",
+    "readArticle": "글 읽기",
+    "emptyHub": "이 허브에는 아직 추가 게시글이 없습니다. 곧 다시 확인해 주세요."
+  },
+  "languages": {
+    "english": "영어",
+    "vietnamese": "Tiếng Việt"
+  }
+}

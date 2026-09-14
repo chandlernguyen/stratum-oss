@@ -1,0 +1,187 @@
+{
+  "title": "Configuracion",
+  "subtitle": "Gestiona tu cuenta y tus preferencias",
+  "tabs": {
+    "profile": "Perfil",
+    "preferences": "Preferencias",
+    "notifications": "Notificaciones",
+    "security": "Seguridad",
+    "billing": "Facturacion"
+  },
+  "profile": {
+    "title": "Informacion del perfil",
+    "subtitle": "Actualiza tu informacion personal y tu avatar",
+    "fields": {
+      "avatar": "Foto de perfil",
+      "fullName": "Nombre completo",
+      "email": "Correo electronico",
+      "phone": "Numero de telefono",
+      "timezone": "Zona horaria",
+      "language": "Idioma"
+    },
+    "actions": {
+      "save": "Guardar cambios",
+      "cancel": "Cancelar",
+      "uploadPhoto": "Subir foto",
+      "removePhoto": "Eliminar foto"
+    }
+  },
+  "preferences": {
+    "title": "Preferencias",
+    "subtitle": "Personaliza tu experiencia",
+    "language": {
+      "title": "Idioma",
+      "description": "Selecciona el idioma que prefieres para la interfaz"
+    },
+    "theme": {
+      "title": "Tema",
+      "description": "Elige entre tema claro, oscuro o del sistema",
+      "options": {
+        "light": "Claro",
+        "dark": "Oscuro",
+        "system": "Sistema"
+      }
+    },
+    "dateFormat": {
+      "title": "Formato de fecha",
+      "description": "Elige como se muestran las fechas"
+    },
+    "currency": {
+      "title": "Moneda predeterminada",
+      "description": "Define tu moneda predeterminada para presupuestos e informes"
+    }
+  },
+  "notifications": {
+    "title": "Preferencias de notificaciones",
+    "subtitle": "Gestiona como recibes las notificaciones",
+    "email": {
+      "title": "Notificaciones por correo",
+      "weeklyDigest": "Resumen semanal",
+      "weeklyDigestDesc": "Recibe un resumen semanal del rendimiento de tu marketing",
+      "campaignAlerts": "Alertas de campanas",
+      "campaignAlertsDesc": "Recibe avisos cuando una campana necesite atencion",
+      "teamUpdates": "Actualizaciones del equipo",
+      "teamUpdatesDesc": "Notificaciones sobre la actividad de los miembros del equipo"
+    },
+    "push": {
+      "title": "Notificaciones push",
+      "browser": "Notificaciones del navegador",
+      "browserDesc": "Recibe notificaciones en tu navegador"
+    }
+  },
+  "security": {
+    "title": "Seguridad",
+    "subtitle": "Gestiona la seguridad de tu cuenta",
+    "password": {
+      "title": "Cambiar contrasena",
+      "description": "Actualiza tu contrasena con regularidad para mantener protegida tu cuenta",
+      "currentPassword": "Contrasena actual",
+      "newPassword": "Nueva contrasena",
+      "confirmPassword": "Confirmar nueva contrasena",
+      "updateButton": "Actualizar contrasena"
+    },
+    "twoFactor": {
+      "title": "Autenticacion en dos factores",
+      "description": "Anade una capa extra de seguridad a tu cuenta",
+      "enable": "Activar 2FA",
+      "disable": "Desactivar 2FA",
+      "enabled": "Activada",
+      "disabled": "Desactivada"
+    },
+    "sessions": {
+      "title": "Sesiones activas",
+      "description": "Gestiona tus sesiones activas en distintos dispositivos",
+      "currentSession": "Sesion actual",
+      "signOutAll": "Cerrar todas las demas sesiones"
+    }
+  },
+  "billing": {
+    "title": "Facturacion y suscripcion",
+    "subtitle": "Gestiona tu suscripcion y tus metodos de pago",
+    "currentPlan": {
+      "title": "Plan actual",
+      "freeTier": "Plan gratuito",
+      "pro": "Pro",
+      "enterprise": "Enterprise"
+    },
+    "usage": {
+      "title": "Uso de este mes",
+      "aiCredits": "Creditos de IA usados",
+      "storage": "Almacenamiento usado"
+    },
+    "paymentMethod": {
+      "title": "Metodo de pago",
+      "addNew": "Anadir metodo de pago",
+      "noMethod": "No hay ningun metodo de pago registrado"
+    }
+  },
+  "whiteLabel": {
+    "pageTitle": "Configuracion white label",
+    "pageSubtitle": "Personaliza la plataforma con la marca y el dominio de tu agencia",
+    "agencyOnly": {
+      "title": "Funcion exclusiva para agencias",
+      "description": "La personalizacion white label solo esta disponible para cuentas de agencia.",
+      "learnMore": "Mas informacion sobre los planes para agencias"
+    },
+    "status": {
+      "title": "Estado de white label",
+      "brandKit": {
+        "label": "Kit de marca",
+        "active": "Activo",
+        "notConfigured": "Sin configurar"
+      },
+      "customDomain": {
+        "label": "Dominio personalizado",
+        "usingDefault": "Usando el dominio predeterminado"
+      },
+      "sslCertificate": {
+        "label": "Certificado SSL",
+        "autoProvisioned": "Aprovisionado automaticamente"
+      }
+    },
+    "domain": {
+      "title": "Configuracion del dominio personalizado",
+      "description": "Usa tu propio dominio para acceder a la plataforma",
+      "inputLabel": "Tu dominio personalizado",
+      "inputPlaceholder": "marketing.tuagencia.com",
+      "configureButton": "Configurar",
+      "dnsRequired": "Se requiere configurar el DNS",
+      "copyButton": "Copiar",
+      "copiedButton": "Copiado",
+      "domainActive": {
+        "title": "Dominio personalizado activo",
+        "description": "Tu plataforma esta disponible en:",
+        "visitSite": "Visitar sitio",
+        "changeDomain": "Cambiar dominio"
+      }
+    },
+    "benefits": {
+      "title": "Ventajas del dominio personalizado",
+      "professional": {
+        "title": "Imagen profesional",
+        "description": "Refuerza tu marca con tu propio dominio"
+      },
+      "clientTrust": {
+        "title": "Confianza de los clientes",
+        "description": "Genera confianza con URLs personalizadas"
+      },
+      "seo": {
+        "title": "Ventajas SEO",
+        "description": "Mejora la visibilidad en los motores de busqueda"
+      },
+      "ssl": {
+        "title": "SSL incluido",
+        "description": "Cifrado HTTPS automatico"
+      }
+    }
+  },
+  "expertMode": {
+    "expert": "Modo experto",
+    "guided": "Modo guiado",
+    "expertAriaLabel": "Informacion sobre el modo experto",
+    "guidedAriaLabel": "Informacion sobre el modo guiado",
+    "expertDescription": "El modo experto muestra todas las herramientas y opciones desde el principio, con vistas densas de informacion pensadas para agencias que gestionan varios clientes.",
+    "guidedDescription": "El modo guiado ofrece una interfaz simplificada con revelacion progresiva, ideal para empezar rapidamente.",
+    "toggleAriaLabel": "Cambiar modo experto"
+  }
+}

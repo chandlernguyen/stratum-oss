@@ -1,0 +1,187 @@
+{
+  "title": "Einstellungen",
+  "subtitle": "Konto und Einstellungen verwalten",
+  "tabs": {
+    "profile": "Profil",
+    "preferences": "Einstellungen",
+    "notifications": "Benachrichtigungen",
+    "security": "Sicherheit",
+    "billing": "Abrechnung"
+  },
+  "profile": {
+    "title": "Profilinformationen",
+    "subtitle": "Persönliche Informationen und Avatar aktualisieren",
+    "fields": {
+      "avatar": "Profilfoto",
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "timezone": "Zeitzone",
+      "language": "Sprache"
+    },
+    "actions": {
+      "save": "Änderungen speichern",
+      "cancel": "Abbrechen",
+      "uploadPhoto": "Foto hochladen",
+      "removePhoto": "Foto entfernen"
+    }
+  },
+  "preferences": {
+    "title": "Einstellungen",
+    "subtitle": "Passen Sie Ihre Erfahrung an",
+    "language": {
+      "title": "Sprache",
+      "description": "Wählen Sie Ihre bevorzugte Sprache für die Benutzeroberfläche"
+    },
+    "theme": {
+      "title": "Design",
+      "description": "Wählen Sie zwischen hellem, dunklem oder System-Design",
+      "options": {
+        "light": "Hell",
+        "dark": "Dunkel",
+        "system": "System"
+      }
+    },
+    "dateFormat": {
+      "title": "Datumsformat",
+      "description": "Wählen Sie, wie Daten angezeigt werden"
+    },
+    "currency": {
+      "title": "Standardwährung",
+      "description": "Legen Sie Ihre Standardwährung für Budgets und Berichte fest"
+    }
+  },
+  "notifications": {
+    "title": "Benachrichtigungseinstellungen",
+    "subtitle": "Verwalten Sie, wie Sie Benachrichtigungen erhalten",
+    "email": {
+      "title": "E-Mail-Benachrichtigungen",
+      "weeklyDigest": "Wöchentliche Zusammenfassung",
+      "weeklyDigestDesc": "Erhalten Sie eine wöchentliche Übersicht Ihrer Marketing-Performance",
+      "campaignAlerts": "Kampagnen-Benachrichtigungen",
+      "campaignAlertsDesc": "Werden Sie benachrichtigt, wenn Kampagnen Aufmerksamkeit benötigen",
+      "teamUpdates": "Team-Updates",
+      "teamUpdatesDesc": "Benachrichtigungen über Teammitglieder-Aktivitäten"
+    },
+    "push": {
+      "title": "Push-Benachrichtigungen",
+      "browser": "Browser-Benachrichtigungen",
+      "browserDesc": "Benachrichtigungen im Browser erhalten"
+    }
+  },
+  "security": {
+    "title": "Sicherheit",
+    "subtitle": "Sicherheitseinstellungen Ihres Kontos verwalten",
+    "password": {
+      "title": "Passwort ändern",
+      "description": "Aktualisieren Sie Ihr Passwort regelmäßig, um Ihr Konto zu schützen",
+      "currentPassword": "Aktuelles Passwort",
+      "newPassword": "Neues Passwort",
+      "confirmPassword": "Neues Passwort bestätigen",
+      "updateButton": "Passwort aktualisieren"
+    },
+    "twoFactor": {
+      "title": "Zwei-Faktor-Authentifizierung",
+      "description": "Fügen Sie Ihrem Konto eine zusätzliche Sicherheitsebene hinzu",
+      "enable": "2FA aktivieren",
+      "disable": "2FA deaktivieren",
+      "enabled": "Aktiviert",
+      "disabled": "Deaktiviert"
+    },
+    "sessions": {
+      "title": "Aktive Sitzungen",
+      "description": "Verwalten Sie Ihre aktiven Sitzungen auf verschiedenen Geräten",
+      "currentSession": "Aktuelle Sitzung",
+      "signOutAll": "Alle anderen Sitzungen beenden"
+    }
+  },
+  "billing": {
+    "title": "Abrechnung & Abonnement",
+    "subtitle": "Abonnement und Zahlungsmethoden verwalten",
+    "currentPlan": {
+      "title": "Aktueller Plan",
+      "freeTier": "Kostenlos",
+      "pro": "Pro",
+      "enterprise": "Enterprise"
+    },
+    "usage": {
+      "title": "Nutzung diesen Monat",
+      "aiCredits": "Verbrauchte KI-Credits",
+      "storage": "Genutzter Speicher"
+    },
+    "paymentMethod": {
+      "title": "Zahlungsmethode",
+      "addNew": "Zahlungsmethode hinzufügen",
+      "noMethod": "Keine Zahlungsmethode hinterlegt"
+    }
+  },
+  "whiteLabel": {
+    "pageTitle": "White-Label-Einstellungen",
+    "pageSubtitle": "Passen Sie die Plattform mit dem Branding und der Domain Ihrer Agentur an",
+    "agencyOnly": {
+      "title": "Nur für Agenturen",
+      "description": "White-Label-Anpassung ist nur für Agenturkonten verfügbar.",
+      "learnMore": "Mehr über Agenturpläne erfahren"
+    },
+    "status": {
+      "title": "White-Label-Status",
+      "brandKit": {
+        "label": "Brand Kit",
+        "active": "Aktiv",
+        "notConfigured": "Nicht konfiguriert"
+      },
+      "customDomain": {
+        "label": "Eigene Domain",
+        "usingDefault": "Standard wird verwendet"
+      },
+      "sslCertificate": {
+        "label": "SSL-Zertifikat",
+        "autoProvisioned": "Automatisch bereitgestellt"
+      }
+    },
+    "domain": {
+      "title": "Einrichtung eigener Domain",
+      "description": "Verwenden Sie Ihre eigene Domain für den Plattformzugang",
+      "inputLabel": "Ihre eigene Domain",
+      "inputPlaceholder": "marketing.ihreagentur.de",
+      "configureButton": "Konfigurieren",
+      "dnsRequired": "DNS-Konfiguration erforderlich",
+      "copyButton": "Kopieren",
+      "copiedButton": "Kopiert",
+      "domainActive": {
+        "title": "Eigene Domain aktiv",
+        "description": "Ihre Plattform ist erreichbar unter:",
+        "visitSite": "Seite besuchen",
+        "changeDomain": "Domain ändern"
+      }
+    },
+    "benefits": {
+      "title": "Vorteile einer eigenen Domain",
+      "professional": {
+        "title": "Professionelles Erscheinungsbild",
+        "description": "Stärken Sie Ihre Marke mit Ihrer eigenen Domain"
+      },
+      "clientTrust": {
+        "title": "Kundenvertrauen",
+        "description": "Schaffen Sie Vertrauen durch gebrandete URLs"
+      },
+      "seo": {
+        "title": "SEO-Vorteile",
+        "description": "Verbessern Sie die Sichtbarkeit in Suchmaschinen"
+      },
+      "ssl": {
+        "title": "SSL inklusive",
+        "description": "Automatische HTTPS-Verschlüsselung"
+      }
+    }
+  },
+  "expertMode": {
+    "expert": "Expertenmodus",
+    "guided": "Geführter Modus",
+    "expertAriaLabel": "Informationen zum Expertenmodus",
+    "guidedAriaLabel": "Informationen zum geführten Modus",
+    "expertDescription": "Der Expertenmodus zeigt alle Tools und Optionen sofort an, mit kompakten Informationsanzeigen, optimiert für Agenturen, die mehrere Kunden verwalten.",
+    "guidedDescription": "Der geführte Modus bietet eine vereinfachte Oberfläche mit schrittweiser Darstellung, perfekt für den schnellen Einstieg.",
+    "toggleAriaLabel": "Expertenmodus umschalten"
+  }
+}

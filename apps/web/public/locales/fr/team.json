@@ -1,0 +1,183 @@
+{
+  "title": "Equipe",
+  "subtitle": "Gerez les membres de votre equipe et leurs permissions",
+  "management": {
+    "title": "Gestion d'equipe",
+    "subtitle": "Gerez les membres de l'equipe et leurs invitations",
+    "inviteButton": "Inviter un membre"
+  },
+  "list": {
+    "title": "Membres de l'equipe",
+    "empty": "Aucun membre dans l'equipe pour le moment",
+    "emptyDescription": "Invitez des collaborateurs pour travailler ensemble sur votre strategie marketing",
+    "inviteFirst": "Inviter votre premier membre"
+  },
+  "members": {
+    "title": "Membres de l'equipe",
+    "count": "Membres de l'equipe ({{count}})",
+    "subtitle": "Membres actifs de votre organisation",
+    "empty": "Aucun membre trouve",
+    "joined": "A rejoint le {{date}}"
+  },
+  "invitations": {
+    "title": "Invitations en attente",
+    "count": "Invitations en attente ({{count}})",
+    "subtitle": "Invitations qui n'ont pas encore ete acceptees",
+    "empty": "Aucune invitation en attente",
+    "invitedBy": "Invite par {{name}}",
+    "expires": "Expire le {{date}}",
+    "revoke": "Revoquer l'invitation"
+  },
+  "table": {
+    "name": "Nom",
+    "email": "Adresse e-mail",
+    "role": "Role",
+    "clientAccess": "Acces clients",
+    "joined": "Arrivee",
+    "expires": "Expiration",
+    "invitedBy": "Invite par",
+    "actions": "Actions"
+  },
+  "clientAccess": {
+    "allClients": "Tous les clients",
+    "clientCount_one": "{{count}} client",
+    "clientCount_other": "{{count}} clients",
+    "allClientsTooltip": "A acces a tous les clients actuels et futurs",
+    "assignedClients": "Clients assignes :",
+    "andMore": "...et {{count}} autres",
+    "noClientsAssigned": "Aucun client assigne"
+  },
+  "dialogs": {
+    "changeRole": {
+      "title": "Changer le role du membre",
+      "description": "Mettez a jour le role de {{name}} ({{email}})",
+      "newRole": "Nouveau role",
+      "selectRole": "Selectionnez un nouveau role",
+      "cancel": "Annuler",
+      "submit": "Mettre a jour le role",
+      "submitting": "Mise a jour..."
+    },
+    "clientAccess": {
+      "title": "Gerer l'acces clients",
+      "description": "Mettez a jour l'acces clients de {{name}} ({{email}})",
+      "allClients": "Tous les clients",
+      "allClientsDescription": "L'utilisateur aura acces a tous les clients actuels et futurs",
+      "selectClients": "Selectionnez des clients precis :",
+      "loadingClients": "Chargement des clients...",
+      "noClients": "Aucun client disponible",
+      "selectAtLeastOne": "Selectionnez au moins un client ou choisissez \"Tous les clients\"",
+      "cancel": "Annuler",
+      "submit": "Mettre a jour l'acces",
+      "submitting": "Mise a jour..."
+    },
+    "revoke": {
+      "title": "Revoquer l'invitation",
+      "description": "Voulez-vous vraiment revoquer l'invitation de {{email}} ?",
+      "confirm": "Revoquer"
+    },
+    "remove": {
+      "title": "Retirer un membre de l'equipe",
+      "description": "Voulez-vous vraiment retirer {{name}} ({{email}}) de votre organisation ? Cette action est irreversible.",
+      "confirm": "Retirer le membre"
+    }
+  },
+  "actions": {
+    "changeRole": "Changer le role",
+    "manageClientAccess": "Gerer l'acces clients",
+    "removeMember": "Retirer le membre",
+    "moreOptions": "Plus d'options"
+  },
+  "validation": {
+    "selectRole": "Veuillez selectionner un role",
+    "rolesNotLoaded": "Les roles ne sont pas encore charges",
+    "invalidRole": "Le role selectionne est invalide",
+    "noMemberSelected": "Aucun membre selectionne",
+    "selectClientOrAll": "Selectionnez au moins un client ou choisissez \"Tous les clients\""
+  },
+  "roles": {
+    "owner": "Responsable",
+    "admin": "Administrateur",
+    "editor": "Editeur",
+    "viewer": "Lecteur",
+    "descriptions": {
+      "owner": "Acces complet a toutes les fonctionnalites, y compris la facturation et la gestion d'equipe",
+      "admin": "Peut gerer les membres de l'equipe et acceder a toutes les fonctionnalites sauf la facturation",
+      "editor": "Peut creer et modifier du contenu, des campagnes et des personas",
+      "viewer": "Acces en lecture seule pour consulter les tableaux de bord et les rapports"
+    }
+  },
+  "invite": {
+    "title": "Inviter un membre",
+    "subtitle": "Envoyez une invitation pour rejoindre votre equipe",
+    "fields": {
+      "email": "Adresse e-mail",
+      "emailPlaceholder": "collegue@entreprise.com",
+      "role": "Role",
+      "message": "Message personnel (facultatif)",
+      "messagePlaceholder": "Ajoutez un message personnel a votre invitation..."
+    },
+    "actions": {
+      "send": "Envoyer l'invitation",
+      "sending": "Envoi...",
+      "cancel": "Annuler"
+    },
+    "success": "Invitation envoyee avec succes",
+    "error": "Impossible d'envoyer l'invitation"
+  },
+  "member": {
+    "joined": "A rejoint",
+    "lastActive": "Derniere activite",
+    "pendingInvite": "Invitation en attente",
+    "inviteSent": "Invitation envoyee",
+    "actions": {
+      "changeRole": "Changer le role",
+      "resendInvite": "Renvoyer l'invitation",
+      "cancelInvite": "Annuler l'invitation",
+      "remove": "Retirer de l'equipe"
+    }
+  },
+  "permissions": {
+    "title": "Permissions",
+    "categories": {
+      "campaigns": "Campagnes",
+      "personas": "Personas",
+      "agents": "Agents IA",
+      "analytics": "Analytics",
+      "settings": "Parametres",
+      "team": "Gestion d'equipe"
+    },
+    "levels": {
+      "none": "Aucun acces",
+      "view": "Consultation uniquement",
+      "edit": "Modification",
+      "full": "Acces complet"
+    }
+  },
+  "confirmRemove": {
+    "title": "Retirer un membre de l'equipe",
+    "message": "Voulez-vous vraiment retirer {{name}} de l'equipe ? Cette personne perdra l'acces a toutes les ressources partagees.",
+    "confirm": "Retirer",
+    "cancel": "Annuler"
+  },
+  "confirmCancelInvite": {
+    "title": "Annuler l'invitation",
+    "message": "Voulez-vous vraiment annuler l'invitation envoyee a {{email}} ?",
+    "confirm": "Annuler l'invitation",
+    "cancel": "Conserver l'invitation"
+  },
+  "limits": {
+    "title": "Limites d'equipe",
+    "membersUsed": "{{used}} sur {{total}} membres",
+    "upgradePrompt": "Passez a un plan superieur pour ajouter plus de membres"
+  },
+  "activity": {
+    "title": "Activite recente",
+    "empty": "Aucune activite recente",
+    "actions": {
+      "invited": "a invite",
+      "joined": "a rejoint l'equipe",
+      "removed": "a ete retire de l'equipe",
+      "roleChanged": "a change de role pour"
+    }
+  }
+}

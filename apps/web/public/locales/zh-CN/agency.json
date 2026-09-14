@@ -1,0 +1,173 @@
+{
+  "pageTitle": "代理机构最佳实践指南",
+  "pageSubtitle": "掌握 STRAŦUM，高效管理 5 个以上客户",
+  "backButton": "返回",
+  "privateAlpha": {
+    "title": "欢迎来到 STRAŦUM",
+    "description": "你正在使用 STRAŦUM 的<strong>免费层</strong>。我们正在积极构建和改进平台，你的反馈将帮助决定下一步发展方向。",
+    "protectWork": "最佳实践",
+    "protectWorkItems": {
+      "databaseReset": "养成定期导出重要工作的备份习惯",
+      "downloadData": "<strong>定期下载有价值的数据</strong>（战略、内容、洞察）",
+      "useExport": "使用 Content Agent 和 Outputs Hub 中的导出按钮",
+      "feedbackValue": "你的反馈会塑造产品，对我们非常宝贵！"
+    },
+    "questionsTitle": "有问题或反馈？",
+    "questionsDescription": "点击右上角头像，然后选择 <strong>“发送反馈”</strong>。我们会阅读每一条消息，并用你的意见让 STRAŦUM 变得更好。"
+  },
+  "introduction": {
+    "title": "介绍",
+    "description": "欢迎来到 STRAŦUM！本指南为营销代理机构提供使用平台管理多个客户的最佳实践，同时借助 AI 驱动智能交付卓越成果。"
+  },
+  "clientOnboarding": {
+    "title": "客户入驻策略",
+    "firstClientSetup": "首个客户设置（15-20 分钟）",
+    "steps": {
+      "addClient": "<strong>添加客户：</strong>在仪表盘中点击“添加你的第一个客户”按钮",
+      "strategicFoundation": "<strong>战略基础：</strong>运行业务战略智能体，建立战略框架",
+      "customerInsights": "<strong>客户洞察：</strong>使用画像智能体生成 3-5 个画像",
+      "marketingDirection": "<strong>营销方向：</strong>使用营销战略智能体创建初始营销战略"
+    },
+    "proTipLabel": "专业提示：",
+    "proTipContent": "不要一开始就试图收集所有信息，让 AI 智能体通过对话逐步学习。每一次互动都会自动建立上下文。"
+  },
+  "dataProtection": {
+    "title": "你的客户数据受到保护",
+    "description": "STRAŦUM 会将每个客户的数据<strong>完全分离并安全保护</strong>。客户 A 永远不会看到客户 B 的信息，反之亦然。这种保护在数据库层面内建于平台中。",
+    "doTitle": "建议做：",
+    "doItems": {
+      "useSelector": "使用客户选择器在不同客户之间切换",
+      "doubleCheck": "再次确认你处于正确的客户工作区",
+      "downloadRegularly": "定期下载重要战略和内容",
+      "lookForBadge": "留意“数据受保护”徽章以安心操作"
+    },
+    "dontTitle": "不要做：",
+    "dontItems": {
+      "copySensitive": "在不同客户工作区之间复制敏感信息",
+      "shareLogin": "与团队成员共享登录信息（应改为邀请他们）",
+      "exportWithoutPermission": "在未经客户允许的情况下导出客户数据"
+    },
+    "alphaTipTitle": "提示：保存你的工作",
+    "alphaTipContent": "我们建议你在创建有价值的战略和内容时就及时下载保存。使用 Content Agent（Word、PDF、Google Docs）和 Outputs Hub 中的导出按钮。把它当作在文档中随手保存工作一样，这是个好习惯！"
+  },
+  "teamRoles": {
+    "title": "团队协作与角色",
+    "description": "STRAŦUM 为代理机构提供 10 种不同的团队角色，让每个人只看到完成工作所需的内容：",
+    "roles": {
+      "agencyOwner": { "title": "代理机构所有者", "description": "完整访问、账单、团队管理" },
+      "agencyAdmin": { "title": "代理机构管理员", "description": "管理所有客户，无账单访问权限" },
+      "accountManager": { "title": "客户经理", "description": "客户关系管理，可查看所有数据" },
+      "strategist": { "title": "策略师", "description": "创建战略、画像和业务智能" },
+      "campaignManager": { "title": "活动经理", "description": "执行营销活动，管理内容日历" },
+      "analyst": { "title": "分析师", "description": "绩效跟踪、ROI 分析、报告" },
+      "creative": { "title": "创意人员", "description": "内容创作与设计素材" },
+      "freelancer": { "title": "自由职业者", "description": "按项目访问特定客户" },
+      "clientViewer": { "title": "客户查看者", "description": "只读访问分配的客户数据" },
+      "agencyViewer": { "title": "代理机构查看者", "description": "对所有客户拥有只读访问权限" }
+    },
+    "inviteInstructions": "<strong>如何邀请团队成员：</strong>点击头像 → 设置 → 团队管理。根据每个人实际做的工作分配角色，而不是根据职称或资历。只给他们需要的访问权限，不多也不少。"
+  },
+  "aiWorkflow": {
+    "title": "AI 智能体工作流",
+    "description": "对于新客户，请遵循以下战略顺序：",
+    "phases": {
+      "foundation": {
+        "title": "阶段 1：基础（第 1 周）",
+        "steps": {
+          "step1": "业务战略智能体 - 建立框架（SWOT、波特五力）",
+          "step2": "画像智能体 - 创建 3-5 个详细客户画像",
+          "step3": "营销战略智能体 - 制定市场进入战略"
+        }
+      },
+      "execution": {
+        "title": "阶段 2：执行规划（第 2 周）",
+        "steps": {
+          "step1": "内容智能体 - 生成内容日历和初始素材",
+          "step2": "营销活动规划智能体 - 规划多渠道营销活动",
+          "step3": "竞争智能体 - 分析市场定位"
+        }
+      },
+      "optimization": {
+        "title": "阶段 3：优化（持续进行）",
+        "steps": {
+          "step1": "绩效智能体 - 跟踪 ROI、KPI 并识别快速收益",
+          "step2": "客户成功智能体 - 监控客户健康度和留存"
+        }
+      }
+    },
+    "crossAgentTitle": "跨智能体智能：",
+    "crossAgentContent": "STRAŦUM 智能体会自动共享上下文。画像会反哺内容生成，战略会指导营销活动，绩效数据会触发优化洞察。相信系统中的数据流。"
+  },
+  "campaignManagement": {
+    "title": "营销活动管理",
+    "lifecycleTitle": "营销活动生命周期",
+    "lifecycleSteps": {
+      "planning": "<strong>规划：</strong>使用营销战略智能体定义目标和预算（70-20-10 规则）",
+      "content": "<strong>内容创作：</strong>内容智能体提供 9 种工具（SEO 博客、社媒、邮件营销等）",
+      "execution": "<strong>执行跟踪：</strong>每个营销活动只标记一个“活跃”战略，并通过 CSV 上传绩效数据",
+      "optimization": "<strong>优化：</strong>使用绩效智能体获取快速收益洞察，并用预算优化器获得分配建议"
+    },
+    "multiClientTitle": "多客户管理：",
+    "multiClientItems": {
+      "selector": "顶部导航中的客户选择器便于快速切换",
+      "outputsHub": "Outputs Hub 展示跨客户的所有 AI 生成内容",
+      "bulkOperations": "可批量归档旧营销活动",
+      "comparison": "支持并排比较以进行战略基准评估"
+    }
+  },
+  "performanceTracking": {
+    "title": "绩效跟踪",
+    "metricsTitle": "关键指标仪表盘",
+    "clientHealth": {
+      "title": "客户健康评分：",
+      "items": {
+        "roi": "营销活动 ROI 趋势",
+        "content": "内容表现",
+        "alignment": "战略一致性",
+        "budget": "预算效率"
+      }
+    },
+    "agencyEfficiency": {
+      "title": "代理机构效率：",
+      "items": {
+        "timeSaved": "每位客户节省的时间",
+        "campaigns": "同时管理的营销活动数量",
+        "retention": "客户留存率",
+        "upsell": "AI 识别的增购机会"
+      }
+    }
+  },
+  "quickReference": {
+    "title": "快速参考：常见任务",
+    "tableHeaders": {
+      "task": "任务",
+      "navigation": "导航路径"
+    },
+    "tasks": {
+      "addClient": { "task": "添加新客户", "navigation": "仪表盘 → “添加客户”按钮" },
+      "createPersona": { "task": "创建客户画像", "navigation": "客户 → [客户] → 智能体 → 画像智能体" },
+      "generateCalendar": { "task": "生成内容日历", "navigation": "客户 → [客户] → 智能体 → 内容智能体" },
+      "uploadPerformance": { "task": "上传绩效数据", "navigation": "客户 → [客户] → 智能体 → 绩效智能体" },
+      "inviteTeam": { "task": "邀请团队成员", "navigation": "设置 → 团队管理" },
+      "switchClients": { "task": "在客户间切换", "navigation": "顶部导航 → 客户选择下拉菜单" }
+    }
+  },
+  "nextSteps": {
+    "title": "下一步",
+    "steps": {
+      "step1": "通过仪表盘添加你的第一个客户",
+      "step2": "生成战略基础（业务战略 + 画像 + 营销战略）",
+      "step3": "创建初始内容资产（内容智能体）",
+      "step4": "设置绩效跟踪（使用绩效智能体上传第一份 CSV 数据集）",
+      "step5": "邀请团队成员（如适用）"
+    },
+    "remember": "<strong>请记住：</strong>STRAŦUM 提供的是“智能优先于执行” - 专注于战略洞察，而不是战术自动化。让 AI 智能体通过自然对话逐步建立上下文。"
+  },
+  "footer": {
+    "feedbackTitle": "我们很想听到你的反馈！",
+    "feedbackDescription": "你的洞察对我们极其宝贵。发现了让你困惑的地方？有改进想法？遇到了问题？",
+    "feedbackCta": "点击头像（右上角）→ “发送反馈”",
+    "feedbackNote": "我们会阅读每一条消息，并用你的意见塑造 STRAŦUM 的未来",
+    "lastUpdated": "最后更新：2026年1月20日 | 版本 1.2"
+  }
+}

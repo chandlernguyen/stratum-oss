@@ -1,0 +1,140 @@
+{
+  "title": "Customer Personas",
+  "subtitle": "Understand and define your target customers",
+  "list": {
+    "title": "All Personas",
+    "empty": "No personas yet",
+    "emptyDescription": "Create your first persona to start understanding your target customers",
+    "createFirst": "Create First Persona",
+    "loading": "Loading personas...",
+    "primary": "Primary",
+    "archived": "Archived",
+    "restore": "Restore",
+    "interview": "Interview"
+  },
+  "form": {
+    "create": "Create Persona",
+    "edit": "Edit Persona",
+    "sections": {
+      "basic": "Basic Information",
+      "demographics": "Demographics",
+      "psychographics": "Psychographics",
+      "behaviors": "Behaviors",
+      "journey": "Buyer Journey"
+    },
+    "fields": {
+      "name": "Persona Name",
+      "namePlaceholder": "e.g., Marketing Manager Maria",
+      "avatar": "Avatar",
+      "description": "Description",
+      "descriptionPlaceholder": "Brief description of this persona",
+      "age": "Age Range",
+      "gender": "Gender",
+      "location": "Location",
+      "income": "Income Level",
+      "education": "Education",
+      "jobTitle": "Job Title",
+      "industry": "Industry",
+      "companySize": "Company Size",
+      "goals": "Goals & Motivations",
+      "goalsPlaceholder": "What does this persona want to achieve?",
+      "painPoints": "Pain Points & Challenges",
+      "painPointsPlaceholder": "What problems do they face?",
+      "values": "Values & Priorities",
+      "interests": "Interests & Hobbies",
+      "mediaConsumption": "Media Consumption",
+      "preferredChannels": "Preferred Channels",
+      "buyingBehavior": "Buying Behavior",
+      "decisionFactors": "Decision Factors",
+      "objections": "Common Objections"
+    },
+    "validation": {
+      "nameRequired": "Persona name is required"
+    }
+  },
+  "detail": {
+    "overview": "Overview",
+    "journey": "Buyer Journey",
+    "messaging": "Messaging Guide",
+    "campaigns": "Related Campaigns"
+  },
+  "journey": {
+    "stages": {
+      "awareness": "Awareness",
+      "consideration": "Consideration",
+      "decision": "Decision",
+      "retention": "Retention",
+      "advocacy": "Advocacy"
+    },
+    "fields": {
+      "touchpoints": "Touchpoints",
+      "content": "Content Needs",
+      "questions": "Key Questions",
+      "actions": "Desired Actions"
+    }
+  },
+  "actions": {
+    "create": "Create Persona",
+    "edit": "Edit",
+    "duplicate": "Duplicate",
+    "archive": "Archive",
+    "delete": "Delete",
+    "export": "Export",
+    "viewDetails": "View Details",
+    "generateWithAI": "Generate with AI",
+    "moreOptions": "More options"
+  },
+  "filters": {
+    "all": "All Personas",
+    "active": "Active",
+    "archived": "Archived",
+    "search": "Search personas..."
+  },
+  "confirmDelete": {
+    "title": "Delete Persona",
+    "message": "Are you sure you want to delete this persona? This will not affect campaigns that used this persona.",
+    "confirm": "Delete",
+    "cancel": "Cancel"
+  },
+  "aiGeneration": {
+    "title": "Generate Persona with AI",
+    "description": "Describe your target customer and our AI will create a detailed persona",
+    "placeholder": "Describe your ideal customer: their role, industry, challenges, and what they're looking for...",
+    "generate": "Generate Persona",
+    "generating": "Generating..."
+  },
+  "sidebar": {
+    "expandTooltip": "Expand sidebar",
+    "collapseTooltip": "Collapse sidebar",
+    "createTooltip": "Create new persona",
+    "header": "Persona Agent",
+    "tabs": {
+      "history": "History",
+      "outputs": "Personas"
+    },
+    "newPersona": "New Persona",
+    "newChat": "New Chat",
+    "viewActive": "View Active",
+    "viewArchived": "View Archived",
+    "loading": "Loading personas...",
+    "emptyPersonas": "No personas created yet",
+    "emptyPersonasDescription": "Create your first persona to start understanding your customers",
+    "createFirstPersona": "Create First Persona",
+    "emptyHistory": "No chat history yet",
+    "emptyHistoryDescription": "Start an interview with a persona to see history here",
+    "untitledSession": "Untitled Session",
+    "messages": "{{count}} messages",
+    "archived": "Archived",
+    "primary": "Primary",
+    "sessionActions": {
+      "rename": "Rename Session",
+      "export": "Export Session",
+      "duplicate": "Duplicate Session"
+    }
+  },
+  "relativeTime": {
+    "justNow": "Just now",
+    "hoursAgo": "{{count}}h ago",
+    "daysAgo": "{{count}}d ago"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "privacy": {
+    "pageTitle": "Política de Privacidade",
+    "lastUpdated": "Última Atualização: 13 de fevereiro de 2026",
+    "alphaNotice": {
+      "title": "Aviso de Estágio Alpha",
+      "description": "O STRAŦUM está em teste alpha. Esta política de privacidade pode mudar significativamente. Use por sua conta e risco. Não fazemos garantias sobre segurança de dados ou confiabilidade do serviço."
+    },
+    "sections": {
+      "acceptance": {
+        "number": "1",
+        "title": "Aceitação e Escopo",
+        "intro": "Ao usar o STRAŦUM durante a fase alpha, você reconhece que:",
+        "items": {
+          "experimental": "Este serviço é experimental e fornecido \"NO ESTADO EM QUE SE ENCONTRA\"",
+          "dataChange": "As práticas de coleta e manuseio de dados podem mudar sem aviso prévio",
+          "smallTeam": "Somos uma equipe pequena com recursos limitados",
+          "ownRisk": "Você usa este serviço inteiramente por sua conta e risco"
+        },
+        "seeTerms": "Para termos completos, consulte nossos",
+        "termsLink": "Termos e Condições"
+      },
+      "informationCollect": {
+        "number": "2",
+        "title": "Informações que Podemos Coletar",
+        "intro": "Durante o teste alpha, podemos coletar:",
+        "accountInfo": {
+          "title": "Informações da Conta",
+          "description": "E-mail, nome, detalhes da organização"
+        },
+        "businessContext": {
+          "title": "Contexto de Negócio",
+          "description": "Informações da empresa, metas de marketing, estratégias"
+        },
+        "contentCreated": {
+          "title": "Conteúdo que Você Cria",
+          "description": "Campanhas, personas, planos de marketing"
+        },
+        "technicalData": {
+          "title": "Dados Técnicos",
+          "description": "Erros, padrões de uso, desempenho"
+        },
+        "note": "Nota: As práticas de coleta de dados estão sujeitas a alterações conforme desenvolvemos o serviço."
+      },
+      "howWeUse": {
+        "number": "3",
+        "title": "Como Usamos as Informações",
+        "intro": "Usamos as informações principalmente para:",
+        "items": {
+          "provideServices": "Fornecer os Serviços (autenticação, interações com agentes de IA, geração de inteligência)",
+          "generateIntelligence": "Gerar inteligência de marketing e recomendações estratégicas",
+          "fixBugs": "Corrigir bugs e melhorar o serviço alpha",
+          "understandUsage": "Entender padrões de uso para melhorar a experiência do usuário",
+          "communicate": "Comunicar-nos com você sobre o serviço"
+        },
+        "note": "Somos pequenos demais para fazer algo sofisticado com seus dados. Só queremos construir um produto funcional que ajude você com inteligência de marketing."
+      },
+      "thirdParty": {
+        "number": "4",
+        "title": "Serviços de Terceiros",
+        "intro": "Dependemos destes serviços (e suas políticas de privacidade se aplicam):",
+        "services": {
+          "supabase": {
+            "name": "Supabase",
+            "description": "Autenticação e armazenamento de dados"
+          },
+          "googleCloud": {
+            "name": "Google Cloud",
+            "description": "Hospedagem do serviço de backend"
+          },
+          "vercel": {
+            "name": "Vercel",
+            "description": "Hospedagem da aplicação frontend"
+          },
+          "googleAi": {
+            "name": "Google AI (Gemini)",
+            "description": "Geração de conteúdo e inteligência"
+          },
+          "stripe": {
+            "name": "Stripe",
+            "description": "Processamento de pagamentos e gerenciamento de assinaturas"
+          },
+          "cloudflare": {
+            "name": "Cloudflare",
+            "description": "Proteção contra bots (Turnstile CAPTCHA)"
+          },
+          "resend": {
+            "name": "Resend",
+            "description": "Entrega de e-mails transacionais"
+          }
+        },
+        "disclaimer": "Não somos responsáveis pelas práticas ou segurança dos serviços de terceiros."
+      },
+      "aiUsage": {
+        "number": "5",
+        "title": "IA e Uso de Dados",
+        "subtitle": "Informações Importantes Sobre Processamento de IA:",
+        "items": {
+          "sentToGoogle": "Seus dados de negócio são enviados ao Google AI (Gemini) para processamento e geração de inteligência",
+          "noTraining": "Não usamos seus dados para treinar nossos próprios modelos de IA",
+          "googlePolicies": "As políticas de uso de IA do Google se aplicam aos dados processados por seus serviços",
+          "stored": "Sua inteligência de marketing e estratégias são armazenadas em nosso banco de dados para seu acesso"
+        }
+      },
+      "dataIsolation": {
+        "number": "6",
+        "title": "Isolamento de Dados",
+        "intro": "Implementamos isolamento de dados no nível do banco de dados:",
+        "items": {
+          "isolated": "Seus dados de negócio são isolados de outras organizações",
+          "agencySeparation": "Clientes de agência têm separação completa de dados",
+          "rls": "Políticas de Segurança em Nível de Linha (RLS) no banco de dados aplicam controle de acesso"
+        },
+        "note": "No entanto, como serviço alpha, não podemos garantir proteção completa contra todas as vulnerabilidades de segurança."
+      },
+      "limitedSecurity": {
+        "number": "7",
+        "title": "Garantias de Segurança Limitadas",
+        "disclaimerTitle": "AVISO IMPORTANTE",
+        "intro": "Como serviço alpha com recursos limitados, não podemos garantir:",
+        "items": {
+          "completeSecurity": "Segurança completa dos dados",
+          "breachProtection": "Proteção contra todas as violações de segurança",
+          "dataBackup": "Backup ou recuperação de dados em todos os cenários",
+          "availability": "Disponibilidade ou uptime do serviço",
+          "migrationProtection": "Prevenção de perda de dados durante migrações de banco de dados"
+        },
+        "warning": "Use este serviço por sua conta e risco. Não envie informações de negócio altamente sensíveis ou confidenciais."
+      },
+      "yourRights": {
+        "number": "8",
+        "title": "Seus Direitos (Limitados Durante o Alpha)",
+        "tryToHelp": "Embora tentaremos ajudar com:",
+        "helpItems": {
+          "deleteAccount": "Excluir sua conta mediante solicitação",
+          "updateInfo": "Atualizar informações básicas",
+          "accessData": "Fornecer acesso aos seus dados"
+        },
+        "cannotGuarantee": "No entanto, durante o alpha não podemos garantir:",
+        "limitedItems": {
+          "export": "Funcionalidade completa de exportação de dados",
+          "deletion": "Exclusão completa de dados de todos os sistemas e backups",
+          "timeliness": "Respostas oportunas a solicitações de dados"
+        }
+      },
+      "dataRetention": {
+        "number": "9",
+        "title": "Retenção de Dados",
+        "intro": "Durante a fase alpha:",
+        "items": {
+          "active": "Retemos dados enquanto sua conta estiver ativa",
+          "migrations": "Podemos excluir dados durante migrações ou resets de banco de dados",
+          "backups": "Dados excluídos podem persistir em backups por um período razoável",
+          "noGuarantee": "Não fazemos garantias sobre persistência de dados durante o alpha"
+        }
+      },
+      "noWarranty": {
+        "number": "10",
+        "title": "Sem Garantia ou Responsabilidade",
+        "intro": "Conforme declarado em nossos",
+        "termsLink": "Termos e Condições",
+        "items": {
+          "asIs": "Serviço fornecido \"NO ESTADO EM QUE SE ENCONTRA\" sem garantias",
+          "notLiable": "Não somos responsáveis por perda de dados ou violações de segurança",
+          "noAvailability": "Sem garantia de disponibilidade do serviço",
+          "assumeRisk": "Você assume todos os riscos de usar um serviço alpha"
+        }
+      },
+      "changes": {
+        "number": "11",
+        "title": "Alterações sem Aviso Prévio",
+        "description": "Esta política de privacidade pode mudar a qualquer momento sem aviso prévio. O uso contínuo do serviço constitui aceitação de quaisquer alterações. Verifique esta página periodicamente."
+      },
+      "contact": {
+        "number": "12",
+        "title": "Contato",
+        "description": "Dúvidas? Envie-nos um e-mail para",
+        "note": "(mas lembre-se, somos uma equipe pequena e as respostas podem demorar)."
+      }
+    },
+    "tldr": {
+      "label": "Resumo:",
+      "text": "Este é um serviço alpha. Somos uma equipe minúscula. Faremos o nosso melhor, mas não fazemos promessas. Não coloque informações altamente sensíveis aqui. Use por sua conta e risco."
+    },
+    "navigation": {
+      "returnHome": "Voltar para a Página Inicial",
+      "termsConditions": "Termos e Condições"
+    }
+  },
+  "terms": {
+    "pageTitle": "Termos e Condições",
+    "lastUpdated": "Última Atualização: 13 de fevereiro de 2026",
+    "alphaNotice": {
+      "title": "Aviso do Programa Alpha",
+      "description": "O STRAŦUM está atualmente em fase de Programa Alpha. Isso significa que o serviço ainda está evoluindo e pode passar por mudanças significativas, incluindo recursos, funcionalidades e estrutura do banco de dados."
+    },
+    "sections": {
+      "introduction": {
+        "number": "1",
+        "title": "Introdução",
+        "welcome": "Bem-vindo ao STRAŦUM (\"nós,\" \"nosso\" ou \"nos\"). Estes Termos e Condições regem o uso do nosso site, produtos e serviços (coletivamente, os \"Serviços\").",
+        "agreement": "Ao acessar ou usar os Serviços, você concorda em se vincular a estes Termos. Se discordar de qualquer parte destes termos, você não poderá acessar os Serviços.",
+        "alphaStatus": "Status Alpha: O STRAŦUM está atualmente em Programa Alpha. Ao participar, você reconhece que os Serviços ainda estão em desenvolvimento e não são um produto finalizado."
+      },
+      "alphaProgram": {
+        "number": "2",
+        "title": "Programa Alpha",
+        "intro": "Como participante do Programa Alpha, você entende e concorda com o seguinte:",
+        "items": {
+          "bugs": "Os Serviços podem conter bugs, erros ou outros problemas que podem afetar a funcionalidade",
+          "changes": "Podemos fazer alterações significativas nos Serviços sem aviso prévio",
+          "downtime": "Os Serviços podem apresentar tempo de inatividade ou problemas de desempenho",
+          "database": "Estruturas de banco de dados podem mudar, potencialmente afetando dados armazenados",
+          "resets": "Podemos resetar bancos de dados durante o desenvolvimento, resultando em perda de dados",
+          "pricing": "Preços, planos e recursos estão sujeitos a alterações antes do lançamento oficial"
+        }
+      },
+      "accountRegistration": {
+        "number": "3",
+        "title": "Registro de Conta",
+        "responsibilitiesTitle": "Suas Responsabilidades:",
+        "responsibilities": {
+          "accurate": "Fornecer informações de registro precisas, atuais e completas",
+          "updated": "Manter suas informações atualizadas",
+          "safeguard": "Proteger sua senha",
+          "strongPasswords": "Usar senhas fortes (maiúsculas/minúsculas, números, símbolos)"
+        }
+      },
+      "aiDisclaimer": {
+        "number": "4",
+        "title": "Aviso sobre Conteúdo Gerado por IA",
+        "responsibilityTitle": "Sem Responsabilidade pelas Saídas",
+        "intro": "O STRAŦUM usa IA para gerar inteligência de marketing. Nos isentamos explicitamente de responsabilidade por:",
+        "items": {
+          "accuracy": "Precisão, completude ou confiabilidade do conteúdo gerado",
+          "errors": "Erros factuais ou representações incorretas",
+          "appropriateness": "Adequação para seus propósitos comerciais específicos",
+          "actions": "Ações que você toma com base no conteúdo gerado",
+          "decisions": "Decisões de negócio tomadas usando nossos frameworks",
+          "claims": "Reivindicações decorrentes do uso do conteúdo gerado"
+        },
+        "responsibility": "Você é o único responsável por revisar e validar todo o conteúdo antes do uso."
+      },
+      "userResponsibilities": {
+        "number": "5",
+        "title": "Responsabilidades do Usuário",
+        "intro": "Ao usar nossos Serviços, você concorda em não:",
+        "items": {
+          "laws": "Violar quaisquer leis ou regulamentos aplicáveis",
+          "ip": "Infringir direitos de propriedade intelectual de terceiros",
+          "unauthorized": "Tentar acesso não autorizado a qualquer parte dos Serviços",
+          "illegal": "Gerar conteúdo ilegal, prejudicial ou censurável",
+          "impersonate": "Se passar por qualquer pessoa ou entidade",
+          "interfere": "Interferir ou perturbar os Serviços"
+        }
+      },
+      "intellectualProperty": {
+        "number": "6",
+        "title": "Propriedade Intelectual",
+        "yourContent": {
+          "title": "Seu Conteúdo",
+          "description": "Você retém todos os direitos sobre o conteúdo que envia. Você nos concede uma licença não exclusiva, mundial e livre de royalties para usar seu conteúdo exclusivamente para fornecer e melhorar os Serviços."
+        },
+        "generatedContent": {
+          "title": "Conteúdo Gerado",
+          "description": "Você recebe uma licença não exclusiva, mundial e livre de royalties para usar, modificar e distribuir conteúdo gerado pelos nossos Serviços para qualquer finalidade."
+        },
+        "ourIp": {
+          "title": "Nossa Propriedade Intelectual",
+          "description": "Os Serviços e seu conteúdo original são nossa propriedade, protegidos por direitos autorais, marcas registradas e outras leis."
+        }
+      },
+      "noRefund": {
+        "number": "7",
+        "title": "Política de Não Reembolso",
+        "headline": "TODAS AS VENDAS SÃO FINAIS",
+        "intro": "Todas as compras são finais e não reembolsáveis:",
+        "items": {
+          "noRefund": "Sem reembolso, crédito ou reembolso em nenhuma circunstância",
+          "regardless": "Aplica-se independentemente do uso do serviço",
+          "evenTechnical": "Aplica-se mesmo para problemas técnicos ou insatisfação"
+        },
+        "alphaNote": "Todos os planos incluem um teste gratuito de 30 dias. Após o período de teste, sua assinatura será cobrada de acordo com o plano selecionado."
+      },
+      "dataPrivacy": {
+        "number": "8",
+        "title": "Coleta de Dados e Privacidade",
+        "description": "Coletamos e processamos dados pessoais conforme descrito em nossa",
+        "privacyLink": "Política de Privacidade",
+        "consent": "Ao usar nossos Serviços, você consente com tal processamento.",
+        "feedbackNote": "Feedback e Melhoria: Como participante do Programa Alpha, você reconhece que podemos coletar dados de uso, relatórios de erros e seu feedback para melhorar os Serviços."
+      },
+      "limitationLiability": {
+        "number": "9",
+        "title": "Limitação de Responsabilidade",
+        "intro": "Na máxima extensão permitida por lei, não seremos responsáveis por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos, incluindo:",
+        "items": {
+          "losses": "Perda de lucros, dados, uso, boa vontade ou outras perdas intangíveis",
+          "inability": "Incapacidade de acessar ou usar os Serviços",
+          "generatedContent": "Qualquer conteúdo gerado pelos Serviços",
+          "unauthorized": "Acesso não autorizado ou alteração dos seus dados"
+        },
+        "alphaNote": "Específico do Programa Alpha: Não seremos responsáveis por quaisquer danos decorrentes da natureza alpha dos Serviços, incluindo alterações, resets de banco de dados ou descontinuação de recursos."
+      },
+      "disclaimerWarranties": {
+        "number": "10",
+        "title": "Isenção de Garantias",
+        "asIs": "Os Serviços são fornecidos \"NO ESTADO EM QUE SE ENCONTRAM\" e \"CONFORME DISPONÍVEIS\".",
+        "disclaim": "Renunciamos explicitamente a todas as garantias, expressas ou implícitas, incluindo comercialização, adequação a um propósito específico e não violação.",
+        "noWarranty": "Não garantimos que os Serviços atenderão seus requisitos, estarão disponíveis ininterruptamente, serão seguros ou livres de erros, ou que defeitos serão corrigidos."
+      },
+      "termination": {
+        "number": "11",
+        "title": "Rescisão",
+        "weTerminate": "Podemos encerrar ou suspender sua conta e acesso aos Serviços imediatamente, sem aviso prévio ou responsabilidade, por qualquer motivo, incluindo violação dos Termos.",
+        "uponTermination": "Após a rescisão, seu direito de usar os Serviços cessará imediatamente. Para encerrar sua conta, pare de usar os Serviços ou entre em contato conosco para exclusão da conta."
+      },
+      "changesToTerms": {
+        "number": "12",
+        "title": "Alterações nos Termos",
+        "description": "Reservamo-nos o direito de modificar estes Termos a qualquer momento. Para revisões materiais, forneceremos pelo menos 30 dias de aviso prévio.",
+        "alphaNote": "Durante o Alpha: Podemos atualizar os Termos com mais frequência conforme os Serviços evoluem. O uso contínuo constitui aceitação das modificações."
+      },
+      "governingLaw": {
+        "number": "13",
+        "title": "Lei Aplicável",
+        "description": "Estes Termos serão regidos pelas leis dos Estados Unidos, sem consideração a disposições sobre conflito de leis.",
+        "disputeTitle": "Resolução de Disputas:",
+        "dispute": "Qualquer disputa será resolvida por arbitragem vinculante de acordo com as regras da American Arbitration Association. A arbitragem será conduzida online via videoconferência."
+      },
+      "contactUs": {
+        "number": "14",
+        "title": "Fale Conosco",
+        "description": "Se você tiver alguma dúvida sobre estes Termos, entre em contato conosco em"
+      }
+    },
+    "navigation": {
+      "returnHome": "Voltar para a Página Inicial",
+      "privacyPolicy": "Política de Privacidade"
+    }
+  }
+}

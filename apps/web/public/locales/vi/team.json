@@ -1,0 +1,183 @@
+{
+  "title": "Nhóm",
+  "subtitle": "Quản lý thành viên và quyền hạn",
+  "management": {
+    "title": "Quản Lý Nhóm",
+    "subtitle": "Quản lý thành viên và lời mời",
+    "inviteButton": "Mời Thành Viên"
+  },
+  "list": {
+    "title": "Thành Viên Nhóm",
+    "empty": "Chưa có thành viên nào",
+    "emptyDescription": "Mời thành viên để cùng cộng tác chiến lược marketing",
+    "inviteFirst": "Mời Thành Viên Đầu Tiên"
+  },
+  "members": {
+    "title": "Thành Viên Nhóm",
+    "count": "Thành Viên Nhóm ({{count}})",
+    "subtitle": "Thành viên đang hoạt động trong tổ chức",
+    "empty": "Không tìm thấy thành viên",
+    "joined": "Tham gia {{date}}"
+  },
+  "invitations": {
+    "title": "Lời Mời Đang Chờ",
+    "count": "Lời Mời Đang Chờ ({{count}})",
+    "subtitle": "Lời mời chưa được chấp nhận",
+    "empty": "Không có lời mời đang chờ",
+    "invitedBy": "Được mời bởi {{name}}",
+    "expires": "Hết hạn {{date}}",
+    "revoke": "Thu hồi lời mời"
+  },
+  "table": {
+    "name": "Tên",
+    "email": "Email",
+    "role": "Vai Trò",
+    "clientAccess": "Quyền Khách Hàng",
+    "joined": "Tham Gia",
+    "expires": "Hết Hạn",
+    "invitedBy": "Người Mời",
+    "actions": "Thao Tác"
+  },
+  "clientAccess": {
+    "allClients": "Tất Cả Khách Hàng",
+    "clientCount_one": "{{count}} Khách Hàng",
+    "clientCount_other": "{{count}} Khách Hàng",
+    "allClientsTooltip": "Có quyền truy cập tất cả khách hàng hiện tại và tương lai",
+    "assignedClients": "Khách hàng được phân:",
+    "andMore": "...và {{count}} khách hàng nữa",
+    "noClientsAssigned": "Chưa phân khách hàng"
+  },
+  "dialogs": {
+    "changeRole": {
+      "title": "Đổi Vai Trò Thành Viên",
+      "description": "Cập nhật vai trò cho {{name}} ({{email}})",
+      "newRole": "Vai Trò Mới",
+      "selectRole": "Chọn vai trò mới",
+      "cancel": "Hủy",
+      "submit": "Cập Nhật Vai Trò",
+      "submitting": "Đang cập nhật..."
+    },
+    "clientAccess": {
+      "title": "Quản Lý Quyền Khách Hàng",
+      "description": "Cập nhật quyền khách hàng cho {{name}} ({{email}})",
+      "allClients": "Tất Cả Khách Hàng",
+      "allClientsDescription": "Người dùng sẽ có quyền truy cập tất cả khách hàng hiện tại và tương lai",
+      "selectClients": "Chọn khách hàng cụ thể:",
+      "loadingClients": "Đang tải khách hàng...",
+      "noClients": "Không có khách hàng",
+      "selectAtLeastOne": "Chọn ít nhất một khách hàng hoặc chọn \"Tất Cả Khách Hàng\"",
+      "cancel": "Hủy",
+      "submit": "Cập Nhật Quyền",
+      "submitting": "Đang cập nhật..."
+    },
+    "revoke": {
+      "title": "Thu Hồi Lời Mời",
+      "description": "Bạn có chắc chắn muốn thu hồi lời mời cho {{email}}?",
+      "confirm": "Thu Hồi"
+    },
+    "remove": {
+      "title": "Xóa Thành Viên",
+      "description": "Bạn có chắc chắn muốn xóa {{name}} ({{email}}) khỏi tổ chức? Hành động này không thể hoàn tác.",
+      "confirm": "Xóa Thành Viên"
+    }
+  },
+  "actions": {
+    "changeRole": "Đổi Vai Trò",
+    "manageClientAccess": "Quản Lý Quyền Khách Hàng",
+    "removeMember": "Xóa Thành Viên",
+    "moreOptions": "Thêm tùy chọn"
+  },
+  "validation": {
+    "selectRole": "Vui lòng chọn vai trò",
+    "rolesNotLoaded": "Vai trò chưa được tải",
+    "invalidRole": "Vai trò không hợp lệ",
+    "noMemberSelected": "Chưa chọn thành viên",
+    "selectClientOrAll": "Vui lòng chọn ít nhất một khách hàng hoặc chọn \"Tất Cả Khách Hàng\""
+  },
+  "roles": {
+    "owner": "Chủ Sở Hữu",
+    "admin": "Quản Trị Viên",
+    "editor": "Biên Tập Viên",
+    "viewer": "Người Xem",
+    "descriptions": {
+      "owner": "Toàn quyền truy cập tất cả tính năng bao gồm thanh toán và quản lý nhóm",
+      "admin": "Có thể quản lý thành viên và truy cập tất cả tính năng trừ thanh toán",
+      "editor": "Có thể tạo và chỉnh sửa nội dung, chiến dịch và chân dung",
+      "viewer": "Chỉ xem dashboard và báo cáo"
+    }
+  },
+  "invite": {
+    "title": "Mời Thành Viên",
+    "subtitle": "Gửi lời mời tham gia nhóm",
+    "fields": {
+      "email": "Địa Chỉ Email",
+      "emailPlaceholder": "dongminhminh@congty.com",
+      "role": "Vai Trò",
+      "message": "Lời Nhắn Cá Nhân (Tùy Chọn)",
+      "messagePlaceholder": "Thêm lời nhắn cá nhân vào lời mời..."
+    },
+    "actions": {
+      "send": "Gửi Lời Mời",
+      "sending": "Đang gửi...",
+      "cancel": "Hủy"
+    },
+    "success": "Đã gửi lời mời thành công",
+    "error": "Gửi lời mời thất bại"
+  },
+  "member": {
+    "joined": "Đã Tham Gia",
+    "lastActive": "Hoạt Động Lần Cuối",
+    "pendingInvite": "Đang Chờ Xác Nhận",
+    "inviteSent": "Đã gửi lời mời",
+    "actions": {
+      "changeRole": "Đổi Vai Trò",
+      "resendInvite": "Gửi Lại Lời Mời",
+      "cancelInvite": "Hủy Lời Mời",
+      "remove": "Xóa Khỏi Nhóm"
+    }
+  },
+  "permissions": {
+    "title": "Quyền Hạn",
+    "categories": {
+      "campaigns": "Chiến Dịch",
+      "personas": "Chân Dung",
+      "agents": "Trợ Lý AI",
+      "analytics": "Phân Tích",
+      "settings": "Cài Đặt",
+      "team": "Quản Lý Nhóm"
+    },
+    "levels": {
+      "none": "Không Truy Cập",
+      "view": "Chỉ Xem",
+      "edit": "Chỉnh Sửa",
+      "full": "Toàn Quyền"
+    }
+  },
+  "confirmRemove": {
+    "title": "Xóa Thành Viên",
+    "message": "Bạn có chắc chắn muốn xóa {{name}} khỏi nhóm? Họ sẽ mất quyền truy cập vào tất cả tài nguyên nhóm.",
+    "confirm": "Xóa",
+    "cancel": "Hủy"
+  },
+  "confirmCancelInvite": {
+    "title": "Hủy Lời Mời",
+    "message": "Bạn có chắc chắn muốn hủy lời mời cho {{email}}?",
+    "confirm": "Hủy Lời Mời",
+    "cancel": "Giữ Lời Mời"
+  },
+  "limits": {
+    "title": "Giới Hạn Nhóm",
+    "membersUsed": "{{used}} trên {{total}} thành viên",
+    "upgradePrompt": "Nâng cấp để thêm thành viên"
+  },
+  "activity": {
+    "title": "Hoạt Động Gần Đây",
+    "empty": "Không có hoạt động gần đây",
+    "actions": {
+      "invited": "đã mời",
+      "joined": "đã tham gia nhóm",
+      "removed": "đã bị xóa khỏi nhóm",
+      "roleChanged": "đã đổi vai trò thành"
+    }
+  }
+}

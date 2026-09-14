@@ -1,0 +1,30 @@
+{
+  "masthead": {
+    "eyebrow": "インサイトとガイド",
+    "title": "STRAŦUMブログ",
+    "description": "戦略的マーケティングインテリジェンス、フレームワークの深掘り、そしてAIプラットフォームを作る中で得た学びを発信します。"
+  },
+  "hubs": {
+    "all": "すべての記事",
+    "marketingIntelligence": "マーケティングインテリジェンス",
+    "marketingFrameworks": "フレームワーク",
+    "aiAgents": "AIエージェント",
+    "agencyOperations": "代理店運営"
+  },
+  "post": {
+    "notFoundTitle": "記事が見つかりません",
+    "backToBlog": "ブログに戻る",
+    "allPosts": "すべての記事",
+    "completeGuide": "完全ガイド",
+    "minRead": "分で読めます",
+    "min": "分",
+    "moreFrom": "{{hub}}の関連記事",
+    "read": "読む",
+    "readArticle": "記事を読む",
+    "emptyHub": "このハブにはまだ追加記事がありません。しばらくしてからご確認ください。"
+  },
+  "languages": {
+    "english": "English",
+    "vietnamese": "Tiếng Việt"
+  }
+}

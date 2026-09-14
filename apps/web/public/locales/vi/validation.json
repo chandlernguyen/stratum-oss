@@ -1,0 +1,33 @@
+{
+  "required": "{{field}} là bắt buộc",
+  "minLength": "{{field}} phải có ít nhất {{min}} ký tự",
+  "maxLength": "{{field}} phải có tối đa {{max}} ký tự",
+  "email": "Vui lòng nhập địa chỉ email hợp lệ",
+  "password": {
+    "minLength": "Mật khẩu phải có ít nhất 8 ký tự",
+    "uppercase": "Mật khẩu phải chứa ít nhất một chữ hoa",
+    "lowercase": "Mật khẩu phải chứa ít nhất một chữ thường",
+    "number": "Mật khẩu phải chứa ít nhất một chữ số",
+    "special": "Mật khẩu phải chứa ít nhất một ký tự đặc biệt",
+    "match": "Mật khẩu phải khớp"
+  },
+  "phone": "Vui lòng nhập số điện thoại hợp lệ",
+  "url": "Vui lòng nhập URL hợp lệ",
+  "date": "Vui lòng nhập ngày hợp lệ",
+  "number": {
+    "min": "{{field}} phải ít nhất {{min}}",
+    "max": "{{field}} phải tối đa {{max}}",
+    "integer": "{{field}} phải là số nguyên",
+    "positive": "{{field}} phải là số dương"
+  },
+  "file": {
+    "required": "Vui lòng chọn tệp",
+    "tooLarge": "Kích thước tệp phải nhỏ hơn {{max}}",
+    "invalidType": "Loại tệp không hợp lệ. Các loại được phép: {{types}}"
+  },
+  "custom": {
+    "invitationCode": "Mã mời không hợp lệ",
+    "slugFormat": "Slug chỉ có thể chứa chữ thường, số và dấu gạch ngang",
+    "uniqueEmail": "Email này đã được đăng ký"
+  }
+}

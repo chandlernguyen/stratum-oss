@@ -1,0 +1,187 @@
+{
+  "title": "Parametres",
+  "subtitle": "Gerez votre compte et vos preferences",
+  "tabs": {
+    "profile": "Profil",
+    "preferences": "Preferences",
+    "notifications": "Notifications",
+    "security": "Securite",
+    "billing": "Facturation"
+  },
+  "profile": {
+    "title": "Informations du profil",
+    "subtitle": "Mettez a jour vos informations personnelles et votre avatar",
+    "fields": {
+      "avatar": "Photo de profil",
+      "fullName": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Numero de telephone",
+      "timezone": "Fuseau horaire",
+      "language": "Langue"
+    },
+    "actions": {
+      "save": "Enregistrer les modifications",
+      "cancel": "Annuler",
+      "uploadPhoto": "Televerser une photo",
+      "removePhoto": "Supprimer la photo"
+    }
+  },
+  "preferences": {
+    "title": "Preferences",
+    "subtitle": "Personnalisez votre experience",
+    "language": {
+      "title": "Langue",
+      "description": "Selectionnez la langue d'interface preferee"
+    },
+    "theme": {
+      "title": "Theme",
+      "description": "Choisissez entre le theme clair, sombre ou systeme",
+      "options": {
+        "light": "Clair",
+        "dark": "Sombre",
+        "system": "Systeme"
+      }
+    },
+    "dateFormat": {
+      "title": "Format de date",
+      "description": "Choisissez comment les dates sont affichees"
+    },
+    "currency": {
+      "title": "Devise par defaut",
+      "description": "Definissez votre devise par defaut pour les budgets et les rapports"
+    }
+  },
+  "notifications": {
+    "title": "Preferences de notification",
+    "subtitle": "Gerez la maniere dont vous recevez les notifications",
+    "email": {
+      "title": "Notifications par e-mail",
+      "weeklyDigest": "Recap hebdomadaire",
+      "weeklyDigestDesc": "Recevez un resume hebdomadaire de vos performances marketing",
+      "campaignAlerts": "Alertes de campagne",
+      "campaignAlertsDesc": "Recevez une notification lorsqu'une campagne demande votre attention",
+      "teamUpdates": "Mises a jour d'equipe",
+      "teamUpdatesDesc": "Notifications concernant l'activite des membres de l'equipe"
+    },
+    "push": {
+      "title": "Notifications push",
+      "browser": "Notifications du navigateur",
+      "browserDesc": "Recevez des notifications directement dans votre navigateur"
+    }
+  },
+  "security": {
+    "title": "Securite",
+    "subtitle": "Gerez les parametres de securite de votre compte",
+    "password": {
+      "title": "Changer le mot de passe",
+      "description": "Mettez votre mot de passe a jour regulierement pour proteger votre compte",
+      "currentPassword": "Mot de passe actuel",
+      "newPassword": "Nouveau mot de passe",
+      "confirmPassword": "Confirmer le nouveau mot de passe",
+      "updateButton": "Mettre a jour le mot de passe"
+    },
+    "twoFactor": {
+      "title": "Authentification a deux facteurs",
+      "description": "Ajoutez une couche de securite supplementaire a votre compte",
+      "enable": "Activer la 2FA",
+      "disable": "Desactiver la 2FA",
+      "enabled": "Activee",
+      "disabled": "Desactivee"
+    },
+    "sessions": {
+      "title": "Sessions actives",
+      "description": "Gerez vos sessions actives sur differents appareils",
+      "currentSession": "Session actuelle",
+      "signOutAll": "Deconnecter toutes les autres sessions"
+    }
+  },
+  "billing": {
+    "title": "Facturation et abonnement",
+    "subtitle": "Gerez votre abonnement et vos moyens de paiement",
+    "currentPlan": {
+      "title": "Plan actuel",
+      "freeTier": "Plan gratuit",
+      "pro": "Pro",
+      "enterprise": "Enterprise"
+    },
+    "usage": {
+      "title": "Utilisation ce mois-ci",
+      "aiCredits": "Credits IA utilises",
+      "storage": "Stockage utilise"
+    },
+    "paymentMethod": {
+      "title": "Moyen de paiement",
+      "addNew": "Ajouter un moyen de paiement",
+      "noMethod": "Aucun moyen de paiement enregistre"
+    }
+  },
+  "whiteLabel": {
+    "pageTitle": "Parametres white-label",
+    "pageSubtitle": "Personnalisez la plateforme avec la marque et le domaine de votre agence",
+    "agencyOnly": {
+      "title": "Fonction reservee aux agences",
+      "description": "La personnalisation white-label est disponible uniquement pour les comptes d'agence.",
+      "learnMore": "En savoir plus sur les plans Agence"
+    },
+    "status": {
+      "title": "Etat du white-label",
+      "brandKit": {
+        "label": "Brand kit",
+        "active": "Actif",
+        "notConfigured": "Non configure"
+      },
+      "customDomain": {
+        "label": "Domaine personnalise",
+        "usingDefault": "Domaine par defaut utilise"
+      },
+      "sslCertificate": {
+        "label": "Certificat SSL",
+        "autoProvisioned": "Provisionne automatiquement"
+      }
+    },
+    "domain": {
+      "title": "Configuration du domaine personnalise",
+      "description": "Utilisez votre propre domaine pour acceder a la plateforme",
+      "inputLabel": "Votre domaine personnalise",
+      "inputPlaceholder": "marketing.votreagence.com",
+      "configureButton": "Configurer",
+      "dnsRequired": "Configuration DNS requise",
+      "copyButton": "Copier",
+      "copiedButton": "Copie",
+      "domainActive": {
+        "title": "Domaine personnalise actif",
+        "description": "Votre plateforme est accessible a l'adresse :",
+        "visitSite": "Visiter le site",
+        "changeDomain": "Changer de domaine"
+      }
+    },
+    "benefits": {
+      "title": "Avantages du domaine personnalise",
+      "professional": {
+        "title": "Image professionnelle",
+        "description": "Renforcez votre marque avec votre propre domaine"
+      },
+      "clientTrust": {
+        "title": "Confiance client",
+        "description": "Rassurez vos clients avec des URLs a votre marque"
+      },
+      "seo": {
+        "title": "Benefices SEO",
+        "description": "Ameliorez votre visibilite dans les moteurs de recherche"
+      },
+      "ssl": {
+        "title": "SSL inclus",
+        "description": "Chiffrement HTTPS automatique"
+      }
+    }
+  },
+  "expertMode": {
+    "expert": "Mode expert",
+    "guided": "Mode guide",
+    "expertAriaLabel": "Informations sur le mode expert",
+    "guidedAriaLabel": "Informations sur le mode guide",
+    "expertDescription": "Le mode expert affiche immediatement tous les outils et options, avec des vues denses en informations adaptees aux agences qui gerent plusieurs clients.",
+    "guidedDescription": "Le mode guide propose une interface simplifiee avec divulgation progressive, ideale pour demarrer rapidement.",
+    "toggleAriaLabel": "Activer ou desactiver le mode expert"
+  }
+}

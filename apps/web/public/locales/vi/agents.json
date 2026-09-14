@@ -1,0 +1,1600 @@
+{
+  "common": {
+    "analyzing": "Đang phân tích bằng {{tools}}...",
+    "complete": "hoàn tất",
+    "recommendation": "Dựa trên phân tích, đây là đề xuất của tôi:"
+  },
+  "strategy": {
+    "name": "Trợ Lý Chiến Lược",
+    "description": "Chuyên gia hoạch định chiến lược của bạn",
+    "greeting": "Xin chào! Hãy cùng giải quyết các thách thức kinh doanh của bạn. Tôi có thể giúp bạn tìm ra hướng đi rõ ràng và xây dựng chiến lược chiến thắng bằng các khung phân tích đã được chứng minh như SWOT, 5 Lực lượng Porter, Ba Chân Trời Tăng Trưởng, hoặc Chiến lược Đại Dương Xanh. Bạn đang nghĩ về điều gì hôm nay? Chúng ta có thể khám phá các câu hỏi chiến lược, phân tích bối cảnh cạnh tranh, hoặc đơn giản bắt đầu với điều quan trọng nhất với bạn ngay bây giờ.",
+    "placeholder": "Hỏi về chiến lược kinh doanh, phân tích SWOT... (VD: 'chạy phân tích SWOT')",
+    "page": {
+      "title": "Trợ Lý Chiến Lược Kinh Doanh",
+      "subtitle": "Phân tích chiến lược với 11 khung kinh doanh đã được kiểm chứng",
+      "defaultSessionTitle": "Phân Tích Chiến Lược",
+      "features": {
+        "analysis": {
+          "title": "Phân Tích Toàn Diện",
+          "description": "SWOT, 5 Lực lượng Porter, Ma trận BCG & nhiều hơn nữa"
+        },
+        "recommendations": {
+          "title": "Đề Xuất Thông Minh",
+          "description": "Phân tích dựa trên dữ liệu phù hợp với doanh nghiệp của bạn"
+        },
+        "frameworks": {
+          "title": "Khung Trực Quan",
+          "description": "Biểu đồ tương tác và đầu ra có cấu trúc"
+        }
+      }
+    },
+    "hints": {
+      "beginner": {
+        "expandOrSpecialize": {
+          "trigger": "Nên mở rộng hay chuyên môn hóa?",
+          "smeLabel": "Tôi nên mở rộng hay chuyên môn hóa?",
+          "agencyLabel": "Khách hàng nên mở rộng hay chuyên môn hóa?",
+          "tooltip": "Phân tích 5 Lực lượng Porter + VRIO cho quyết định tăng trưởng",
+          "description": "Phân tích định hướng tăng trưởng chiến lược"
+        },
+        "swotPricing": {
+          "trigger": "Phân tích SWOT về giá",
+          "smeLabel": "Phân tích SWOT về chiến lược giá của tôi",
+          "agencyLabel": "Phân tích SWOT về giá cho khách hàng",
+          "tooltip": "SWOT tập trung vào định giá với đề xuất hành động",
+          "description": "Phân tích chiến lược định giá"
+        }
+      },
+      "intermediate": {
+        "bcgMatrix": {
+          "trigger": "Ma trận BCG: Đánh giá 3 dòng sản phẩm",
+          "tooltip": "Phân tích danh mục với đề xuất đầu tư",
+          "description": "Quản lý danh mục sản phẩm"
+        },
+        "blueOcean": {
+          "trigger": "Đại Dương Xanh: Tìm thị trường chưa khai thác",
+          "tooltip": "Khác biệt hóa chiến lược bằng Lưới ERRC",
+          "description": "Chiến lược khác biệt hóa thị trường"
+        },
+        "vrio": {
+          "trigger": "VRIO: Phân tích lợi thế cạnh tranh",
+          "tooltip": "Đánh giá lợi thế cạnh tranh dựa trên nguồn lực",
+          "description": "Phân tích lợi thế cạnh tranh"
+        },
+        "threeHorizons": {
+          "trigger": "Ba Chân Trời: Cân bằng tăng trưởng",
+          "tooltip": "Khung hoạch định tăng trưởng cân bằng",
+          "description": "Hoạch định tầm nhìn tăng trưởng"
+        }
+      },
+      "expert": {
+        "completeSuite": {
+          "trigger": "Bộ khung chiến lược hoàn chỉnh",
+          "tooltip": "Phân tích 4 khung với gợi ý tổng hợp",
+          "description": "Phân tích đa khung toàn diện"
+        },
+        "mckinsey7s": {
+          "trigger": "McKinsey 7S: Đồng bộ tổ chức",
+          "tooltip": "Đánh giá hiệu quả tổ chức",
+          "description": "Khung đồng bộ tổ chức"
+        },
+        "okrs": {
+          "trigger": "OKRs chiến lược cho quý tới",
+          "tooltip": "Đặt mục tiêu với kết quả đo lường được",
+          "description": "Khung OKR chiến lược"
+        }
+      }
+    }
+  },
+  "persona": {
+    "name": "Trợ Lý Chân Dung Khách Hàng",
+    "description": "Chuyên gia phân tích khách hàng của bạn",
+    "greeting": "Tôi giúp bạn hiểu sâu về khách hàng lý tưởng của mình. Tôi có thể tạo chân dung khách hàng chi tiết, lập bản đồ hành trình mua hàng, và tạo câu hỏi phỏng vấn.",
+    "placeholder": "Hỏi về hồ sơ khách hàng, hành trình mua hàng... (VD: 'tạo chân dung khách hàng')",
+    "page": {
+      "title": "Trợ Lý Chân Dung Khách Hàng",
+      "subtitle": "Phân tích hồ sơ khách hàng và lập bản đồ hành trình mua hàng với AI",
+      "defaultSessionTitle": "Phát Triển Chân Dung",
+      "tabs": {
+        "newPersona": "Chân Dung Mới",
+        "myPersonas": "Chân Dung Của Tôi"
+      },
+      "session": {
+        "newSession": "Phiên Mới"
+      },
+      "features": {
+        "profiles": {
+          "title": "Hồ Sơ Chi Tiết",
+          "description": "Nhân khẩu học, tâm lý học và hành vi"
+        },
+        "journey": {
+          "title": "Bản Đồ Hành Trình",
+          "description": "Hành trình khách hàng hoàn chỉnh từ nhận biết đến ủng hộ"
+        },
+        "insights": {
+          "title": "Phân Tích Hành Vi",
+          "description": "Điểm đau, động lực và yếu tố quyết định"
+        }
+      }
+    },
+    "interview": {
+      "pageTitle": "Phỏng Vấn Chân Dung",
+      "header": {
+        "interviewMode": "Chế Độ Phỏng Vấn",
+        "backToPersonaAgent": "Quay Lại Trợ Lý Chân Dung",
+        "back": "Quay lại"
+      },
+      "tabs": {
+        "interview": "Phỏng Vấn",
+        "liveInsights": "Phân Tích Trực Tiếp"
+      },
+      "loading": {
+        "title": "Đang tải phiên phỏng vấn...",
+        "error": "Không tìm thấy chân dung",
+        "returnButton": "Quay Lại Trợ Lý Chân Dung"
+      }
+    }
+  },
+  "marketing_strategy": {
+    "name": "Trợ Lý Chiến Lược Marketing",
+    "description": "Chuyên gia go-to-market của bạn",
+    "greeting": "Tôi là Trợ Lý Chiến Lược Marketing, sẵn sàng tạo kế hoạch marketing toàn diện phù hợp với doanh nghiệp của bạn. Tôi sẽ phân tích bối cảnh kinh doanh, chân dung khách hàng và mục tiêu để phát triển chiến lược hành động với khung thông điệp, đề xuất kênh và tối ưu ngân sách.",
+    "placeholder": "Mô tả doanh nghiệp, đối tượng mục tiêu và mục tiêu marketing của bạn...",
+    "page": {
+      "title": "Trợ Lý Chiến Lược Marketing",
+      "subtitle": "Kết nối hồ sơ khách hàng để sáng tạo nội dung",
+      "defaultSessionTitle": "Chiến Lược Marketing",
+      "tabs": {
+        "newStrategy": "Chiến Lược Mới",
+        "myStrategies": "Chiến Lược Của Tôi"
+      },
+      "modes": {
+        "quick": "🚀 Chiến Lược Nhanh",
+        "guided": "🎯 Kế Hoạch Hướng Dẫn",
+        "chat": "💬 Chat Tương Tác",
+        "advanced": "⚙️ Cấu Hình Nâng Cao"
+      },
+      "actions": {
+        "changeMode": "Đổi Chế Độ",
+        "viewAllStrategies": "Xem Tất Cả Chiến Lược",
+        "startConversation": "Bắt Đầu Cuộc Trò Chuyện Chiến Lược"
+      },
+      "activeStrategy": "Chiến Lược Đang Hoạt Động:",
+      "created": "Tạo lúc",
+      "loading": "Đang tải Trợ Lý Chiến Lược Marketing...",
+      "loadingSubtitle": "Đang thiết lập không gian chiến lược marketing cá nhân hóa của bạn.",
+      "startPrompt": "Hãy kể về doanh nghiệp của bạn, và tôi sẽ tạo chiến lược marketing toàn diện",
+      "orStartWith": "Hoặc bắt đầu với bối cảnh cụ thể:",
+      "contextCards": {
+        "starting": {
+          "title": "Mới Bắt Đầu",
+          "description": "Chiến lược bootstrap cho doanh nghiệp giai đoạn đầu"
+        },
+        "scaling": {
+          "title": "Sẵn Sàng Mở Rộng",
+          "description": "Chiến lược tăng trưởng cho doanh nghiệp đang mở rộng"
+        },
+        "global": {
+          "title": "Tiến Ra Toàn Cầu",
+          "description": "Chiến lược khu vực cho mở rộng quốc tế"
+        }
+      },
+      "features": {
+        "budget": "Phù hợp với mọi ngân sách",
+        "aiInsights": "Phân tích AI",
+        "tactics": "Chiến thuật sẵn sàng thực thi",
+        "contextAware": "Suy luận theo bối cảnh",
+        "tradeoffs": "Giải thích đánh đổi",
+        "regional": "Chuyên môn khu vực",
+        "iterative": "Tinh chỉnh lặp lại",
+        "smartBudget": "Phân bổ ngân sách thông minh",
+        "freeTactics": "Chiến thuật marketing miễn phí",
+        "dataInsights": "Phân tích dựa trên dữ liệu"
+      },
+      "quickStrategy": {
+        "title": "Công Cụ Tạo Chiến Lược Nhanh",
+        "description": "Trả lời 2 câu hỏi để nhận chiến lược marketing",
+        "budgetQuestion": "Ngân sách marketing hàng tháng của bạn là bao nhiêu?",
+        "goalQuestion": "Mục tiêu marketing số 1 của bạn là gì?",
+        "generateButton": "Tạo Chiến Lược Của Tôi",
+        "cardTitle": "Chiến Lược Nhanh",
+        "cardDescription": "Nhận chiến lược hoàn chỉnh trong 2 phút",
+        "features": {
+          "smartBudget": "Phân bổ ngân sách thông minh",
+          "channelRecs": "Đề xuất kênh",
+          "messagingFramework": "Khung thông điệp",
+          "readyTactics": "Chiến thuật sẵn sàng sử dụng"
+        }
+      },
+      "guidedPlanning": {
+        "title": "Lập Kế Hoạch Chiến Lược Hướng Dẫn",
+        "description": "Hãy cùng xây dựng chiến lược marketing từng bước",
+        "explanation": "Tôi sẽ hướng dẫn bạn tạo chiến lược marketing toàn diện bằng cách hỏi về doanh nghiệp, đối tượng mục tiêu và mục tiêu của bạn. Cách tiếp cận trò chuyện này đảm bảo chúng ta bao quát mọi thứ quan trọng mà vẫn đơn giản.",
+        "startButton": "Bắt Đầu Lập Kế Hoạch Hướng Dẫn",
+        "cardTitle": "Lập Kế Hoạch Hướng Dẫn",
+        "cardDescription": "Trình tạo chiến lược từng bước",
+        "features": {
+          "conversational": "Tiếp cận trò chuyện",
+          "tailored": "Đề xuất phù hợp",
+          "bestPractice": "Hướng dẫn best practice",
+          "iterative": "Tinh chỉnh lặp lại"
+        }
+      },
+      "advancedConfig": {
+        "title": "Cấu Hình Nâng Cao",
+        "description": "Toàn quyền kiểm soát các tham số chiến lược marketing",
+        "explanation": "Cấu hình mọi khía cạnh của chiến lược marketing bao gồm nhắm mục tiêu đa persona, kênh mix tùy chỉnh, phân bổ ngân sách chi tiết và các tham số chiến dịch phức tạp. Khuyến nghị cho marketer có kinh nghiệm và agency.",
+        "openButton": "Mở Cấu Hình Nâng Cao",
+        "cardTitle": "Cấu Hình Nâng Cao",
+        "cardDescription": "Toàn quyền kiểm soát mọi tham số",
+        "features": {
+          "multiPersona": "Nhắm mục tiêu đa persona",
+          "customChannel": "Kênh mix tùy chỉnh",
+          "detailedBudget": "Ngân sách chi tiết",
+          "complexCampaigns": "Chiến dịch phức tạp"
+        }
+      },
+      "budgetOptions": {
+        "bootstrap": "$0 (Bootstrap)",
+        "under500": "Dưới $500",
+        "mid": "$500-$2000",
+        "high": "$2000+"
+      },
+      "goalOptions": {
+        "firstCustomers": "Có khách hàng đầu tiên",
+        "brandAwareness": "Tăng nhận diện thương hiệu",
+        "leadGeneration": "Tạo khách hàng tiềm năng",
+        "productLaunch": "Ra mắt sản phẩm mới"
+      },
+      "badges": {
+        "quick": "2 phút",
+        "guided": "10 phút",
+        "custom": "Tùy chỉnh"
+      },
+      "header": {
+        "title": "Lập Kế Hoạch Chiến Lược Marketing",
+        "description": "Kết nối việc hiểu khách hàng với việc tạo nội dung"
+      },
+      "changeApproach": "Đổi Cách Tiếp Cận",
+      "budget": "Ngân Sách",
+      "allOptionsNote": "Tất cả tùy chọn có sẵn bất cứ lúc nào qua menu. Chuyển đổi chế độ khi cần."
+    }
+  },
+  "content": {
+    "name": "Trợ Lý Nội Dung",
+    "description": "Chuyên gia sáng tạo nội dung của bạn",
+    "greeting": "Tôi giúp bạn tạo nội dung hấp dẫn chuyển đổi cao. Tôi có thể tạo ý tưởng nội dung, viết bài blog, tạo nội dung mạng xã hội và lên kế hoạch lịch nội dung.",
+    "placeholder": "Hỏi về ý tưởng nội dung, bài blog... (VD: 'tạo ý tưởng bài blog')",
+    "page": {
+      "title": "Trợ Lý Sáng Tạo Nội Dung",
+      "subtitle": "Công cụ tạo nội dung chuyên nghiệp với AI",
+      "defaultSessionTitle": "Sáng Tạo Nội Dung",
+      "tabs": {
+        "generate": "Tạo Nội Dung",
+        "myContent": "Nội Dung Của Tôi"
+      },
+      "actions": {
+        "changeTool": "Đổi Công Cụ",
+        "newSession": "Phiên Mới",
+        "startChat": "Bắt Đầu Chat Tương Tác"
+      },
+      "strategy": {
+        "title": "Chiến Lược Nội Dung",
+        "subtitle": "Tôi đã phân tích dữ liệu kinh doanh để tạo chiến lược nội dung phù hợp với bạn"
+      },
+      "stats": {
+        "strategy": "Chiến Lược",
+        "personas": "Chân Dung",
+        "contentCreated": "Nội Dung Đã Tạo",
+        "recommendations": "Đề Xuất"
+      },
+      "tools": {
+        "seoBlog": "🔍 Công Cụ Tạo Bài Blog SEO",
+        "thoughtLeadership": "📈 Công Cụ Tạo Thought Leadership",
+        "uspContent": "🎯 Công Cụ Tạo Nội Dung USP",
+        "emailDrip": "📧 Thiết Kế Chiến Dịch Email Drip",
+        "socialCalendar": "📅 Lịch Mạng Xã Hội",
+        "chat": "💬 Sáng Tạo Nội Dung Tương Tác"
+      },
+      "quickStart": {
+        "title": "Hoặc Bắt Đầu Với Chat",
+        "description": "Không chắc dùng công cụ nào? Bắt đầu cuộc trò chuyện và tôi sẽ giúp bạn tạo nội dung hoàn hảo cho nhu cầu của bạn."
+      },
+      "features": {
+        "multiFormat": {
+          "title": "Nội Dung Đa Định Dạng",
+          "description": "Bài blog, email, mạng xã hội và quảng cáo"
+        },
+        "platform": {
+          "title": "Tối Ưu Nền Tảng",
+          "description": "Tùy chỉnh theo phương pháp tốt nhất của từng mạng xã hội"
+        },
+        "brandVoice": {
+          "title": "Giọng Thương Hiệu",
+          "description": "Giọng điệu và thông điệp nhất quán trên tất cả nội dung"
+        },
+        "research": {
+          "title": "Dựa Trên Nghiên Cứu",
+          "description": "Nội dung dựa trên dữ liệu và phương pháp tốt nhất"
+        },
+        "audience": {
+          "title": "Tập Trung Đối Tượng",
+          "description": "Tùy chỉnh theo chân dung và mục tiêu của bạn"
+        },
+        "brand": {
+          "title": "Nhất Quán Thương Hiệu",
+          "description": "Duy trì giọng điệu và phong cách độc đáo của bạn"
+        }
+      },
+      "toolGrid": {
+        "header": {
+          "title": "Chọn Công Cụ Tạo Nội Dung",
+          "subtitle": "Chọn từ bộ công cụ AI để tạo tài liệu marketing chuyên nghiệp trong vài phút"
+        },
+        "stats": {
+          "activeTools": "Công Cụ",
+          "contentTypes": "Loại Nội Dung",
+          "avgGeneration": "Thời Gian TB",
+          "variations": "Biến Thể"
+        },
+        "tools": {
+          "seoBlog": {
+            "name": "Tạo Bài Blog SEO",
+            "description": "Tạo bài blog tối ưu SEO với từ khóa, mô tả meta và nội dung có cấu trúc"
+          },
+          "thoughtLeadership": {
+            "name": "Nội Dung Chuyên Gia",
+            "description": "Viết nội dung chuyên gia định vị bạn là người dẫn đầu ngành"
+          },
+          "uspContent": {
+            "name": "Nội Dung USP",
+            "description": "Tạo nội dung làm nổi bật lợi thế cạnh tranh độc đáo của bạn"
+          },
+          "emailDrip": {
+            "name": "Chiến Dịch Email Drip",
+            "description": "Thiết kế chuỗi email hoàn chỉnh để nuôi dưỡng và tương tác khách hàng"
+          },
+          "socialCalendar": {
+            "name": "Lịch Mạng Xã Hội",
+            "description": "Lên kế hoạch và tạo nội dung mạng xã hội cả tháng cho nhiều nền tảng"
+          },
+          "contentPlan": {
+            "name": "Tạo Kế Hoạch Nội Dung",
+            "description": "Tạo lịch nội dung 4 tuần phù hợp với chiến lược của bạn"
+          },
+          "contentIdeation": {
+            "name": "Ý Tưởng Nội Dung",
+            "description": "Tạo ý tưởng sáng tạo dựa trên xu hướng và sở thích khách hàng"
+          },
+          "blogTemplates": {
+            "name": "Mẫu Viết Blog",
+            "description": "Truy cập các mẫu bài blog đã được chứng minh cho nhiều loại nội dung"
+          },
+          "contentAnalysis": {
+            "name": "Phân Tích Nhu Cầu Nội Dung",
+            "description": "Xác định khoảng trống trong chiến lược nội dung và nhận đề xuất"
+          }
+        },
+        "badges": {
+          "popular": "Phổ Biến",
+          "highImpact": "Tác Động Cao",
+          "comingSoon": "Sắp Ra Mắt"
+        },
+        "buttons": {
+          "startCreating": "Bắt Đầu Tạo"
+        },
+        "cta": {
+          "title": "Chưa biết bắt đầu từ đâu?",
+          "description": "Thử Tạo Bài Blog SEO để có kết quả nhanh, hoặc Thiết Kế Email để nuôi dưỡng khách hàng",
+          "seoBlog": "Tạo Bài Blog SEO",
+          "emailCampaign": "Thiết Kế Email"
+        },
+        "recommendations": {
+          "loading": "Đang phân tích nhu cầu nội dung...",
+          "smartAnalysis": "Phân Tích Nội Dung Thông Minh",
+          "clarificationNeeded": "Cần Làm Rõ",
+          "clarificationMessage": "Tôi cần hiểu rõ hơn về doanh nghiệp của bạn để đưa ra đề xuất phù hợp",
+          "noRecommendations": {
+            "title": "Chưa Có Đề Xuất",
+            "description": "Hoàn thành chiến lược marketing để nhận đề xuất nội dung cá nhân hóa",
+            "cta": "Xác Định Chiến Lược Marketing"
+          },
+          "priorities": {
+            "title": "Ưu Tiên Nội Dung",
+            "count": "{{count}} đề xuất",
+            "count_one": "{{count}} đề xuất",
+            "confidence": "Độ tin cậy {{level}}"
+          },
+          "actions": {
+            "getStarted": "Bắt Đầu",
+            "expand": "Mở rộng",
+            "collapse": "Thu gọn",
+            "startWriting": "Bắt Đầu Viết",
+            "showLess": "Ẩn bớt",
+            "showMore": "+{{count}} đề xuất khác"
+          },
+          "status": {
+            "completed": "Hoàn thành",
+            "progress": "{{completed}} / {{total}} hoàn thành"
+          }
+        }
+      }
+    }
+  },
+  "campaign_planning": {
+    "name": "Trợ Lý Lập Kế Hoạch Chiến Dịch",
+    "description": "Chuyên gia lập kế hoạch triển khai của bạn",
+    "greeting": "Tôi giúp bạn lên kế hoạch triển khai chiến dịch với các khung chiến lược và chiến lược tối ưu. Tôi cung cấp kế hoạch triển khai, khung A/B testing và phối hợp đa kênh thông minh - không phải thực thi.",
+    "placeholder": "Hỏi về lập kế hoạch triển khai, A/B testing... (VD: 'tạo kế hoạch triển khai')",
+    "page": {
+      "title": "Trợ Lý Lập Kế Hoạch Chiến Dịch",
+      "subtitle": "Triển khai chiến dịch chiến lược và phối hợp đa kênh",
+      "defaultSessionTitle": "Lập Kế Hoạch Chiến Dịch",
+      "features": {
+        "deployment": {
+          "title": "Lập Kế Hoạch Triển Khai",
+          "description": "Khung chiến lược cho việc ra mắt chiến dịch"
+        },
+        "testing": {
+          "title": "A/B Testing",
+          "description": "Khung testing và tối ưu dựa trên dữ liệu"
+        },
+        "coordination": {
+          "title": "Đa Kênh",
+          "description": "Chiến dịch phối hợp trên tất cả các kênh"
+        }
+      },
+      "plansDisplay": {
+        "title": "Kế Hoạch Chiến Dịch",
+        "subtitle": "Chiến lược triển khai AI từ bối cảnh doanh nghiệp của bạn",
+        "chatForPlans": "Chat Để Tạo Kế Hoạch",
+        "badges": {
+          "iceScored": "Đánh Giá ICE",
+          "multiChannel": "Đa Kênh",
+          "deploymentReady": "Sẵn Sàng Triển Khai"
+        },
+        "loading": "Đang phân tích bối cảnh doanh nghiệp và tạo kế hoạch chiến dịch chiến lược...",
+        "setupNeeded": {
+          "title": "Hãy Bắt Đầu",
+          "button": "Hoàn Thành Thiết Lập"
+        },
+        "clarificationNeeded": {
+          "title": "Cần Thêm Thông Tin",
+          "button": "Trả Lời Qua Chat"
+        },
+        "recommended": {
+          "title": "Kế Hoạch Chiến Dịch Đề Xuất",
+          "sortInfo": "Sắp xếp theo điểm ICE (Tác Động × Độ Tin Cậy × Độ Dễ)",
+          "plansGenerated": "{{count}} kế hoạch đã tạo"
+        },
+        "scores": {
+          "impact": "Tác Động",
+          "confidence": "Tin Cậy",
+          "ease": "Độ Dễ",
+          "ice": "ICE"
+        },
+        "details": {
+          "channels": "Kênh",
+          "duration": "Thời Gian",
+          "expectedOutcomes": "Kết Quả Dự Kiến",
+          "prerequisites": "Điều Kiện Tiên Quyết",
+          "riskFactors": "Yếu Tố Rủi Ro"
+        },
+        "actions": {
+          "deployPlan": "Triển Khai Kế Hoạch",
+          "viewDetails": "Xem Chi Tiết",
+          "savePlan": "Lưu Kế Hoạch",
+          "saving": "Đang lưu..."
+        },
+        "emptyState": {
+          "title": "Chưa Có Kế Hoạch",
+          "description": "Chưa thể tạo kế hoạch chiến dịch. Chat với trợ lý để thảo luận mục tiêu cụ thể hoặc tải thêm dữ liệu.",
+          "button": "Chat Với Trợ Lý"
+        }
+      },
+      "session": {
+        "newSession": "Phiên Mới",
+        "backToPlans": "Quay Lại Kế Hoạch"
+      },
+      "chatMode": {
+        "title": "Chat Triển Khai Chiến Dịch",
+        "subtitle": "Thiết kế chiến lược triển khai tùy chỉnh"
+      },
+      "tabs": {
+        "deploymentFramework": "Khung Triển Khai",
+        "deploymentFrameworkShort": "Triển Khai",
+        "abTesting": "A/B Testing",
+        "abTestingShort": "Testing",
+        "executionContext": "Ngữ Cảnh Thực Thi",
+        "executionContextShort": "Ngữ Cảnh"
+      }
+    }
+  },
+  "competitive_intelligence": {
+    "name": "Trợ Lý Phân Tích Cạnh Tranh",
+    "description": "Chuyên gia phân tích thị trường của bạn",
+    "greeting": "Tôi giúp bạn hiểu bối cảnh cạnh tranh. Tôi có thể phân tích đối thủ, xác định khoảng trống thị trường và phát hiện cơ hội chiến lược.",
+    "placeholder": "Hỏi về đối thủ, phân tích thị trường... (VD: 'phân tích đối thủ')",
+    "page": {
+      "title": "Trợ Lý Phân Tích Cạnh Tranh",
+      "subtitle": "Phân tích thị trường và đối thủ cạnh tranh",
+      "defaultSessionTitle": "Phân Tích Cạnh Tranh",
+      "features": {
+        "competitors": {
+          "title": "Phân Tích Đối Thủ",
+          "description": "Đi sâu vào chiến lược và định vị của đối thủ"
+        },
+        "marketGaps": {
+          "title": "Khoảng Trống Thị Trường",
+          "description": "Xác định cơ hội chưa được khai thác trong thị trường của bạn"
+        },
+        "opportunities": {
+          "title": "Cơ Hội Chiến Lược",
+          "description": "Gợi ý hành động để có lợi thế cạnh tranh"
+        }
+      },
+      "analysisDisplay": {
+        "title": "Phân Tích Cạnh Tranh",
+        "subtitle": "Phân tích cạnh tranh chiến lược với nghiên cứu web thời gian thực",
+        "startResearch": "Bắt Đầu Nghiên Cứu",
+        "searchGrounding": {
+          "title": "Google Search Đã Được Kích Hoạt",
+          "description": "Nhấp vào khung bên dưới để nhận phân tích AI với dữ liệu thời gian thực: giá cả, tính năng, sản phẩm mới, định vị thị trường"
+        },
+        "frameworksTitle": "Chọn Khung Phân Tích Cạnh Tranh"
+      },
+      "session": {
+        "newSession": "Phiên Mới",
+        "backToAnalysis": "Quay Lại Phân Tích"
+      },
+      "frameworks": {
+        "badges": {
+          "popular": "Phổ Biến",
+          "competitorsOnly": "Chỉ Đối Thủ"
+        },
+        "youllGet": "Bạn sẽ nhận được:",
+        "difficulty": {
+          "beginner": "cơ bản",
+          "intermediate": "trung cấp",
+          "advanced": "nâng cao"
+        },
+        "setupRequired": {
+          "title": "Thiết Lập Hồ Sơ Doanh Nghiệp Để Phân Tích Cá Nhân Hóa",
+          "description": "Nhận phân tích AI phù hợp với doanh nghiệp, đối thủ và ngành của BẠN",
+          "setupButton": "Thiết Lập Hồ Sơ (2 phút)",
+          "continueGeneric": "Tiếp Tục Với Mẫu Chung"
+        },
+        "swotAnalysis": {
+          "title": "Phân Tích SWOT",
+          "description": "Phân tích điểm mạnh, điểm yếu, cơ hội và thách thức của đối thủ",
+          "expectedOutcome": "Ma trận SWOT toàn diện với gợi ý cạnh tranh"
+        },
+        "featureComparison": {
+          "title": "So Sánh Tính Năng",
+          "description": "So sánh tính năng sản phẩm, giá cả và khả năng song song",
+          "expectedOutcome": "Ma trận so sánh tính năng chi tiết với các khoảng cách cạnh tranh"
+        },
+        "marketPositioning": {
+          "title": "Định Vị Thị Trường",
+          "description": "Phân tích định vị cạnh tranh, thị trường mục tiêu và sự khác biệt",
+          "expectedOutcome": "Bản đồ định vị thị trường với cơ hội khác biệt hóa"
+        },
+        "companyIntelligence": {
+          "title": "Thông Tin Doanh Nghiệp",
+          "description": "Nghiên cứu quy mô, vốn đầu tư, quỹ đạo tăng trưởng và định hướng chiến lược (Tập trung đối thủ)",
+          "expectedOutcome": "Hồ sơ doanh nghiệp toàn diện với gợi ý chiến lược"
+        },
+        "pricingAnalysis": {
+          "title": "Phân Tích Giá",
+          "description": "So sánh mô hình định giá, chiến lược đóng gói và chỉ số giá trị",
+          "expectedOutcome": "So sánh giá với gợi ý kinh doanh"
+        },
+        "marketGapAnalysis": {
+          "title": "Phân Tích Khoảng Trống",
+          "description": "Xác định phân khúc chưa được phục vụ, nhu cầu chưa đáp ứng và cơ hội đại dương xanh (Tập trung thị trường)",
+          "expectedOutcome": "Bản đồ khoảng trống thị trường với cơ hội đại dương xanh"
+        }
+      }
+    }
+  },
+  "client_success": {
+    "name": "Trợ Lý Thành Công Khách Hàng",
+    "description": "Chuyên gia giữ chân khách hàng của bạn",
+    "greeting": "Tôi giúp bạn giữ khách hàng hài lòng và phát triển. Tôi có thể đánh giá sức khỏe khách hàng, tạo chiến lược giữ chân và xác định cơ hội mở rộng.",
+    "placeholder": "Hỏi về chiến lược giữ chân, sức khỏe khách hàng... (VD: 'chiến lược giữ chân')",
+    "page": {
+      "title": "Trợ Lý Thành Công Khách Hàng",
+      "subtitle": "Chiến lược giữ chân và mở rộng khách hàng",
+      "defaultSessionTitle": "Phân Tích Thành Công Khách Hàng",
+      "features": {
+        "health": {
+          "title": "Chấm Điểm Sức Khỏe",
+          "description": "Đánh giá mức độ hài lòng và tương tác của khách hàng"
+        },
+        "retention": {
+          "title": "Chiến Lược Giữ Chân",
+          "description": "Phương pháp chủ động để giảm tỷ lệ rời bỏ"
+        },
+        "expansion": {
+          "title": "Cơ Hội Mở Rộng",
+          "description": "Xác định tiềm năng upsell và cross-sell"
+        }
+      }
+    }
+  },
+  "performance_intelligence": {
+    "name": "Trợ Lý Phân Tích Hiệu Suất",
+    "description": "Chuyên gia theo dõi hiệu suất của bạn",
+    "greeting": "Tôi giúp bạn theo dõi và phân tích hiệu suất marketing trên các chiến dịch. Tôi có thể tổng hợp số liệu, xác định xu hướng và cung cấp gợi ý hành động.",
+    "placeholder": "Hỏi về phân tích dữ liệu, chỉ số... (VD: 'phân tích hiệu suất chiến dịch')",
+    "page": {
+      "title": "Trợ Lý Phân Tích Hiệu Suất",
+      "subtitle": "Theo dõi và phân tích hiệu suất marketing",
+      "defaultSessionTitle": "Phân Tích Hiệu Suất",
+      "features": {
+        "metrics": {
+          "title": "Bảng Điều Khiển Chỉ Số",
+          "description": "Tổng hợp dữ liệu hiệu suất trên tất cả các kênh"
+        },
+        "trends": {
+          "title": "Phân Tích Xu Hướng",
+          "description": "Xác định mô hình và dự đoán kết quả"
+        },
+        "actionable": {
+          "title": "Gợi Ý Hành Động",
+          "description": "Đề xuất dựa trên dữ liệu để tối ưu"
+        }
+      },
+      "dashboard": {
+        "loading": "Đang tải số liệu...",
+        "emptyState": {
+          "title": "Chưa Có Dữ Liệu Chiến Dịch",
+          "description": "Nhập số liệu chiến dịch để bắt đầu theo dõi Lợi Suất Đầu Tư (ROI), tìm cơ hội tối ưu và nhận phân tích AI",
+          "importCsv": "Nhập Dữ Liệu CSV",
+          "manualEntry": "Nhập Thủ Công"
+        },
+        "capabilities": {
+          "roiAnalysis": {
+            "title": "Phân Tích ROI",
+            "description": "Tính toán ROI, ROAS và lợi nhuận trên các chiến dịch"
+          },
+          "quickWins": {
+            "title": "Cơ Hội Nhanh",
+            "description": "Xác định cơ hội tối ưu có tác động cao ngay lập tức"
+          },
+          "performanceAnalytics": {
+            "title": "Phân Tích Hiệu Suất",
+            "description": "Phân tích chuyên sâu số liệu và xu hướng chiến dịch"
+          },
+          "budgetOptimization": {
+            "title": "Tối Ưu Ngân Sách",
+            "description": "Tối ưu phân bổ ngân sách dựa trên dữ liệu hiệu suất"
+          }
+        }
+      },
+      "tools": {
+        "title": "Công Cụ Hiệu Suất",
+        "subtitle": "Công cụ chuyên dụng cho quản lý dữ liệu, trực quan hóa và tối ưu",
+        "importData": {
+          "title": "Nhập Dữ Liệu",
+          "description": "Trình nhập CSV với khớp chiến dịch thông minh"
+        },
+        "manageMetrics": {
+          "title": "Quản Lý Số Liệu",
+          "description": "Xem, chỉnh sửa và quản lý dữ liệu hiệu suất chiến dịch"
+        },
+        "visualize": {
+          "title": "Trực Quan Hóa",
+          "description": "Biểu đồ tương tác và trực quan hóa dữ liệu hiệu suất"
+        },
+        "budgetCalculator": {
+          "title": "Tính Toán Ngân Sách",
+          "description": "Tính toán phân bổ ngân sách tối ưu cho các chiến dịch"
+        },
+        "settings": {
+          "title": "Cài Đặt ROI",
+          "description": "Cấu hình tính toán ROI và các giả định"
+        },
+        "historicalPerformance": {
+          "title": "Hiệu Suất Lịch Sử",
+          "description": "Trực quan hóa xu hướng chi tiêu, doanh thu và ROI theo thời gian"
+        },
+        "roiCalculator": {
+          "title": "Tính Toán ROI",
+          "description": "Tính lợi suất đầu tư với dữ liệu chiến dịch"
+        },
+        "manualDataEntry": {
+          "title": "Nhập Thủ Công",
+          "description": "Nhập nhanh số liệu cho một chiến dịch"
+        },
+        "budgetOptimizer": {
+          "title": "Tối Ưu Ngân Sách",
+          "description": "Tối ưu phân bổ ngân sách với 4 khung AI"
+        }
+      },
+      "aiAssistant": {
+        "title": "Trợ Lý AI Hiệu Suất",
+        "hasData": "Đặt câu hỏi về dữ liệu chiến dịch, nhận đề xuất hoặc phân tích các chỉ số cụ thể",
+        "noData": "Bắt đầu bằng cách hỏi về tính toán ROI, tối ưu ngân sách hoặc các phương pháp phân tích hiệu suất tốt nhất"
+      }
+    }
+  },
+  "quick_start": {
+    "name": "Trợ Lý Khởi Đầu Nhanh",
+    "description": "Chuyên gia onboarding toàn diện của bạn",
+    "greeting": "Chào mừng bạn! Tôi ở đây để giúp bạn bắt đầu nhanh chóng. Chỉ trong 5 phút, tôi sẽ tạo nền tảng toàn diện cho marketing của bạn: phân tích chiến lược, chân dung khách hàng và kế hoạch marketing hoàn chỉnh. Hãy biến câu trả lời của bạn thành thông tin hành động!",
+    "placeholder": "Kể cho tôi về doanh nghiệp của bạn để bắt đầu...",
+    "page": {
+      "title": "Trợ Lý Khởi Đầu Nhanh",
+      "subtitle": "Tạo nền tảng marketing hoàn chỉnh trong 5 phút",
+      "defaultSessionTitle": "Khởi Đầu Nhanh",
+      "features": {
+        "fast": {
+          "title": "Thiết Lập 5 Phút",
+          "description": "Trả lời vài câu hỏi, nhận chiến lược hoàn chỉnh"
+        },
+        "comprehensive": {
+          "title": "Nền Tảng Đầy Đủ",
+          "description": "Chiến lược, chân dung và kế hoạch marketing cùng lúc"
+        },
+        "actionable": {
+          "title": "Sẵn Sàng Thực Thi",
+          "description": "Thông tin hành động từ ngày đầu tiên"
+        }
+      }
+    }
+  },
+  "tools": {
+    "get_swot_analysis": "Phân tích SWOT",
+    "get_porters_five_forces": "Phân tích 5 Lực lượng Porter",
+    "get_jobs_to_be_done": "Khung JTBD (Việc Cần Giải Quyết)",
+    "get_business_model_canvas": "Mô Hình Kinh Doanh Canvas",
+    "get_ice_scoring": "Khung Đánh Giá ICE",
+    "get_bcg_matrix": "Ma trận Tăng trưởng-Thị phần BCG",
+    "get_vrio_analysis": "Phân tích Nguồn lực VRIO",
+    "get_three_horizons": "Ba Chân Trời Tăng Trưởng",
+    "get_blue_ocean_strategy": "Canvas Chiến lược Đại Dương Xanh",
+    "get_mckinsey_7s": "Khung McKinsey 7S",
+    "get_okr_framework": "OKR (Mục tiêu & Kết quả Then chốt)",
+    "get_persona_context": "Nghiên cứu Chân dung",
+    "analyze_buyer_journey": "Phân tích Hành trình Người mua",
+    "generate_content_brief": "Tạo Brief Nội dung",
+    "analyze_content_gaps": "Phân tích Khoảng trống Nội dung",
+    "generate_gtm_strategy": "Chiến lược Go-to-Market",
+    "analyze_channel_mix": "Phân tích Kênh Mix",
+    "analyze_metrics": "Phân tích Chỉ số Hiệu suất",
+    "calculate_roi": "Tính toán ROI",
+    "plan_campaign": "Lập Kế hoạch Chiến dịch",
+    "analyze_ab_tests": "Phân tích A/B Test",
+    "analyze_competitors": "Phân tích Đối thủ",
+    "identify_market_gaps": "Xác định Khoảng trống Thị trường",
+    "calculate_health_score": "Điểm Sức khỏe Khách hàng",
+    "identify_retention_risks": "Phân tích Rủi ro Giữ chân"
+  },
+  "categories": {
+    "foundation": {
+      "name": "Nền tảng",
+      "description": "Xây dựng nền tảng marketing của bạn"
+    },
+    "execution": {
+      "name": "Thực thi",
+      "description": "Hành động theo chiến lược của bạn"
+    },
+    "intelligence": {
+      "name": "Phân tích",
+      "description": "Tối ưu và phân tích hiệu suất"
+    }
+  },
+  "navigation": {
+    "quickStart": "Khởi Đầu Nhanh",
+    "strategy": "Chiến Lược",
+    "persona": "Chân Dung",
+    "marketingStrategy": "Chiến Lược Marketing",
+    "content": "Nội Dung",
+    "campaignPlanning": "Lập Kế Hoạch Chiến Dịch",
+    "performanceIntelligence": "Phân Tích Hiệu Suất",
+    "competitiveIntel": "Phân Tích Cạnh Tranh",
+    "clientSuccess": "Thành Công Khách Hàng",
+    "planningCreation": "Lập Kế Hoạch & Sáng Tạo",
+    "whiteLabel": "Nhãn Trắng"
+  },
+  "context": {
+    "companyProfile": {
+      "title": "Hồ Sơ Công Ty",
+      "dataCompleteness": "Mức Độ Hoàn Thiện Dữ Liệu: {{score}}%",
+      "complete": "{{score}}% hoàn thiện",
+      "basicInfoNeeded": "Cần thông tin công ty cơ bản",
+      "fields": {
+        "website": "Website:",
+        "founded": "Thành lập:",
+        "teamSize": "Quy mô nhóm:",
+        "hq": "Trụ sở:",
+        "revenue": "Doanh thu:",
+        "stage": "Giai đoạn:",
+        "funding": "Vốn:",
+        "industry": "Ngành nghề:",
+        "companySize": "Quy mô công ty:",
+        "businessModel": "Mô hình kinh doanh:",
+        "companyStage": "Giai đoạn công ty:",
+        "fundingStatus": "Tình trạng vốn:",
+        "annualRevenue": "Doanh thu hàng năm:",
+        "marketingBudget": "Ngân sách Marketing:"
+      },
+      "sections": {
+        "companyDetails": "Chi Tiết Công Ty",
+        "technologyStack": "Công Nghệ Sử Dụng",
+        "operatingRegions": "Khu Vực Hoạt Động",
+        "geographicPresence": "Hiện Diện Địa Lý",
+        "marketCompetition": "Thị Trường & Cạnh Tranh",
+        "targetMarketSegments": "Phân Khúc Thị Trường Mục Tiêu:",
+        "mainProductsServices": "Sản Phẩm/Dịch Vụ Chính:",
+        "keyCompetitors": "Đối Thủ Chính:",
+        "missionStatement": "Tuyên Bố Sứ Mệnh",
+        "coreValues": "Giá Trị Cốt Lõi"
+      }
+    },
+    "personas": {
+      "title": "Chân Dung Khách Hàng",
+      "clickToSeeMore": "Nhấn mũi tên để xem thêm {{count}} chân dung",
+      "clickToSeeMore_other": "Nhấn mũi tên để xem thêm {{count}} chân dung",
+      "emptyState": "Chân dung khách hàng sẽ nâng cao độ chính xác của chiến lược"
+    },
+    "cards": {
+      "activeCampaign": {
+        "title": "Chiến Dịch Đang Hoạt Động",
+        "campaignName": "Tên Chiến Dịch",
+        "campaignBudget": "Ngân Sách Chiến Dịch",
+        "percentSpent": "Đã chi {{percent}}%",
+        "targetAudience": "Đối Tượng Mục Tiêu",
+        "objectives": "Mục Tiêu",
+        "startDate": "Ngày Bắt Đầu",
+        "endDate": "Ngày Kết Thúc",
+        "totalBudget": "Tổng Ngân Sách",
+        "spentToDate": "Đã Chi Tiêu",
+        "percentUtilized": "Đã sử dụng {{percent}}%",
+        "channelStrategy": "Chiến Lược Kênh",
+        "ownedMedia": "Sở Hữu",
+        "earnedMedia": "Lan Truyền",
+        "paidMedia": "Trả Phí",
+        "activePlatforms": "Nền Tảng Hoạt Động",
+        "contentThemes": "Chủ Đề Nội Dung",
+        "performanceMetrics": "Chỉ Số Hiệu Suất",
+        "metrics": {
+          "impressions": "Lượt Hiển Thị",
+          "clicks": "Lượt Nhấp",
+          "ctr": "Tỷ Lệ Nhấp",
+          "conversions": "Chuyển Đổi"
+        },
+        "kpis": "Chỉ Số KPI",
+        "target": "Mục tiêu",
+        "campaignObjectives": "Mục Tiêu Chiến Dịch"
+      },
+      "aiLearning": {
+        "title": "Lịch Sử Học Hỏi AI",
+        "approved": "đã duyệt",
+        "autoApproved": "tự động duyệt",
+        "total": "tổng cộng",
+        "fromSource": "Từ {{source}}",
+        "confidence": "Độ tin cậy {{percent}}%",
+        "fields": "{{count}} trường",
+        "identifiedPainPoints": "Điểm Đau Đã Xác Định",
+        "opportunities": "Cơ Hội",
+        "autoExtractedNote": "Những thông tin này được tự động trích xuất từ cuộc hội thoại và nội dung đã duyệt"
+      },
+      "business": {
+        "title": "Bối Cảnh Kinh Doanh",
+        "marketingBudget": "Ngân Sách Marketing",
+        "revenue": "Doanh Thu",
+        "businessModel": "Mô Hình Kinh Doanh",
+        "cac": "CAC",
+        "ltv": "LTV",
+        "annualRevenue": "Doanh Thu Hàng Năm",
+        "customerAcquisitionCost": "Chi Phí Thu Hút Khách Hàng",
+        "customerLifetimeValue": "Giá Trị Vòng Đời Khách Hàng",
+        "uniqueValueProposition": "Giá Trị Độc Đáo",
+        "emptyState": "Bối cảnh kinh doanh giúp tạo chiến lược chính xác hơn"
+      },
+      "market": {
+        "title": "Tập Trung Thị Trường",
+        "targetMarket": "Thị Trường Mục Tiêu",
+        "geographicFocus": "Khu Vực Địa Lý",
+        "valueProposition": "Giá Trị Đề Xuất",
+        "competingWith": "Cạnh tranh với",
+        "marketSize": "Quy Mô Thị Trường",
+        "marketPosition": "Vị Trí Thị Trường",
+        "growthStage": "Giai Đoạn Phát Triển",
+        "seasonalTrends": "Xu Hướng Theo Mùa",
+        "distributionChannels": "Kênh Phân Phối",
+        "competitiveAdvantages": "Lợi Thế Cạnh Tranh",
+        "keyCompetitors": "Đối Thủ Chính",
+        "emptyState": "Dữ liệu thị trường giúp xác định cơ hội và thách thức"
+      }
+    },
+    "personaCard": {
+      "at": "tại",
+      "customerPersona": "Chân Dung Khách Hàng",
+      "global": "Toàn Cầu",
+      "insightsCount": "{{count}} thông tin chi tiết",
+      "satisfaction": "Hài lòng {{score}}%",
+      "location": "Địa điểm",
+      "industry": "Ngành nghề",
+      "companySize": "Quy mô công ty",
+      "revenue": "Doanh thu",
+      "goals": "Mục tiêu",
+      "painPoints": "Điểm đau",
+      "personality": "Đặc Điểm Tính Cách",
+      "risk": "Rủi ro",
+      "innovation": "Đổi mới",
+      "decision": "Quyết định",
+      "currentTools": "Công Cụ Hiện Tại",
+      "preferredChannels": "Kênh Ưa Thích",
+      "background": "Nền Tảng",
+      "aiInsights": "Phân Tích AI",
+      "insightsAvailable": "Thông tin từ cuộc hội thoại và phân tích đã sẵn sàng"
+    },
+    "intelligentContext": {
+      "title": "Bối Cảnh Thông Minh",
+      "subtitle": "Hiểu biết doanh nghiệp của bạn được hỗ trợ bởi AI",
+      "completeness": "Hoàn thiện {{percent}}%",
+      "readyForStrategy": "Sẵn Sàng Cho Chiến Lược",
+      "needsMoreContext": "Cần Thêm Bối Cảnh",
+      "customerPersonas": "Chân Dung Khách Hàng",
+      "morePersonas": "+{{count}} chân dung khác",
+      "personasEmptyState": "Chưa có chân dung nào. Tạo chân dung để cải thiện nhắm mục tiêu.",
+      "recentAIInsights": "Phân Tích AI Gần Đây",
+      "moreInsights": "+{{count}} thông tin khác",
+      "startStrategicConversation": "Bắt Đầu Hội Thoại Chiến Lược",
+      "refineContext": "Tinh Chỉnh Bối Cảnh",
+      "guidanceReady": "Bối cảnh doanh nghiệp của bạn đã sẵn sàng. Bắt đầu hội thoại chiến lược để tạo chiến lược marketing được cá nhân hóa.",
+      "guidanceNeedsContext": "Thêm bối cảnh doanh nghiệp để nhận đề xuất chiến lược tốt hơn."
+    },
+    "alert": {
+      "client": "Khách hàng:",
+      "campaign": "Chiến dịch:",
+      "budget": "Ngân sách:",
+      "objectives": "Mục tiêu:",
+      "switchClient": "Đổi Khách Hàng",
+      "switchCampaign": "Đổi Chiến Dịch"
+    },
+    "intelligentDisplay": {
+      "header": {
+        "title": "Chiến Lược Marketing",
+        "subtitle": "Tôi đã phân tích dữ liệu doanh nghiệp để tạo chiến lược marketing phù hợp với bạn"
+      },
+      "stats": {
+        "dataQuality": "Chất Lượng Dữ Liệu",
+        "personas": "Chân Dung",
+        "activeCampaign": "Chiến Dịch Đang Hoạt Động",
+        "aiInsights": "Phân Tích AI"
+      },
+      "recentLearnings": "Kiến Thức AI Gần Đây",
+      "continueWork": {
+        "title": "Tiếp Tục Công Việc Gần Đây",
+        "viewAll": "Xem Tất Cả",
+        "orStartFresh": "hoặc bắt đầu mới bên dưới"
+      },
+      "actions": {
+        "generateStrategy": "Tạo Chiến Lược Marketing",
+        "refineContext": "Tinh Chỉnh Bối Cảnh Doanh Nghiệp"
+      },
+      "helpText": "Để tạo chiến lược marketing hiệu quả, vui lòng cung cấp thêm thông tin về doanh nghiệp của bạn. Nhấn \"Tinh Chỉnh Bối Cảnh Doanh Nghiệp\" để thêm chi tiết còn thiếu.",
+      "promptTemplate": {
+        "intro": "Giúp tôi phát triển chiến lược marketing toàn diện dựa trên bối cảnh kinh doanh sau:",
+        "company": "Công ty",
+        "industry": "Ngành nghề",
+        "organizationType": "Loại hình tổ chức",
+        "targetMarket": "Thị trường mục tiêu",
+        "geographicFocus": "Khu vực địa lý",
+        "businessModel": "Mô hình kinh doanh",
+        "marketingBudget": "Ngân sách marketing",
+        "customerPersonas": "Chân dung khách hàng",
+        "activeCampaign": "Chiến dịch đang hoạt động",
+        "campaignBudget": "Ngân sách chiến dịch"
+      }
+    },
+    "strategyList": {
+      "loading": "Đang tải chiến lược...",
+      "empty": {
+        "title": "Chưa có chiến lược nào",
+        "description": "Tạo chiến lược marketing đầu tiên để bắt đầu lên kế hoạch chiến dịch",
+        "createFirst": "Tạo Chiến Lược Đầu Tiên"
+      },
+      "types": {
+        "productLaunch": "Ra Mắt Sản Phẩm",
+        "brandAwareness": "Nhận Diện Thương Hiệu",
+        "leadGeneration": "Tạo Khách Hàng Tiềm Năng",
+        "customerRetention": "Giữ Chân Khách Hàng",
+        "marketExpansion": "Mở Rộng Thị Trường"
+      },
+      "actions": {
+        "viewDetails": "Xem Chi Tiết",
+        "edit": "Chỉnh Sửa",
+        "duplicate": "Nhân Bản",
+        "archive": "Lưu Trữ",
+        "restore": "Khôi Phục"
+      },
+      "archived": "Đã Lưu Trữ"
+    },
+    "confirmation": {
+      "title": "Phát Hiện Thông Tin Mới",
+      "subtitle": "AI đã ghi nhận những thông tin sau từ cuộc trò chuyện. Bạn có muốn lưu lại?",
+      "confidence": "Độ Tin Cậy",
+      "from": "Từ cuộc trò chuyện {{agentType}}",
+      "noContext": "Không có bối cảnh doanh nghiệp nào được trích xuất từ cuộc trò chuyện này.",
+      "placeholder": "Phân tách nhiều mục bằng dấu phẩy",
+      "actions": {
+        "editBefore": "Chỉnh Sửa Trước Khi Lưu",
+        "cancelEdit": "Hủy Chỉnh Sửa",
+        "doneEditing": "Hoàn Tất Chỉnh Sửa",
+        "dontSave": "Không Lưu",
+        "saveAll": "Lưu Tất Cả",
+        "saving": "Đang Lưu..."
+      }
+    },
+    "saveStatus": {
+      "saving": "Đang lưu...",
+      "autoSaved": "Đã tự động lưu",
+      "draftSaved": "Đã lưu bản nháp",
+      "saveFailed": "Lưu thất bại",
+      "finalized": "Đã hoàn tất",
+      "markAsFinal": "Đánh Dấu Hoàn Tất",
+      "finalizing": "Đang hoàn tất...",
+      "toast": {
+        "saved": "Đã tự động lưu phản hồi",
+        "savedDescription": "Phản hồi của bạn đã được lưu dưới dạng bản nháp",
+        "finalized": "Đã hoàn tất output",
+        "finalizedDescription": "Output này đã được đánh dấu là hoàn tất",
+        "viewOutputs": "Xem Outputs",
+        "failedFinalize": "Không thể hoàn tất output"
+      }
+    },
+    "sidebar": {
+      "tabs": {
+        "history": "Lịch Sử",
+        "outputs": "{{name}}"
+      },
+      "newSession": "Phiên Mới",
+      "active": "Đang Hoạt Động",
+      "archived": "Đã Lưu Trữ",
+      "emptyStates": {
+        "noArchived": "Không có phiên lưu trữ",
+        "archivedHint": "Các phiên đã lưu trữ sẽ xuất hiện ở đây",
+        "viewActive": "Xem Phiên Đang Hoạt Động",
+        "noSessions": "Chưa có phiên {{agentType}} nào",
+        "createFirst": "Tạo phiên {{agentType}} đầu tiên của bạn",
+        "noOutputs": "Chưa có {{outputType}} nào được lưu",
+        "startSession": "Tạo phiên {{agentType}} để bắt đầu",
+        "startButton": "Bắt Đầu Phiên"
+      },
+      "loadingOutputs": "Đang tải {{outputType}}...",
+      "showMore": "Xem thêm {{count}}",
+      "showLess": "Thu gọn",
+      "tooltips": {
+        "newAgent": "{{agentName}} mới"
+      },
+      "collapseSidebar": "Thu gọn thanh bên",
+      "expandSidebar": "Mở rộng thanh bên",
+      "contextBadges": {
+        "client": "Khách hàng:",
+        "campaign": "Chiến dịch:"
+      },
+      "archivedBadge": "Đã Lưu Trữ",
+      "errors": {
+        "exportFailed": "Xuất thất bại. Vui lòng thử lại.",
+        "archiveFailed": "Lưu trữ thất bại. Vui lòng thử lại."
+      }
+    },
+    "sessionHistory": {
+      "title": "Lịch Sử Phiên",
+      "newSession": "Phiên Mới",
+      "emptyState": {
+        "title": "Chưa có phiên nào",
+        "description": "Bắt đầu cuộc trò chuyện để tạo phiên đầu tiên"
+      },
+      "untitledSession": "Phiên Chưa Đặt Tên",
+      "messageCount": {
+        "singular": "tin nhắn",
+        "plural": "tin nhắn"
+      }
+    },
+    "header": {
+      "sessionPrefix": "Phiên:",
+      "newSession": "Phiên Mới"
+    },
+    "quickStartSave": {
+      "title": "Lưu Thông Tin Marketing Quick Start?",
+      "description": "Lưu thông tin marketing toàn diện của bạn (chiến lược, personas và đề xuất) để tham khảo sau.",
+      "saveButton": "Lưu Kế Hoạch Này",
+      "hint": "Hoặc đơn giản gõ \"lưu kế hoạch này\""
+    },
+    "personaSave": {
+      "detected": "{{count}} Persona Được Phát Hiện",
+      "detected_other": "{{count}} Personas Được Phát Hiện",
+      "saveAll": "Lưu Tất Cả",
+      "saving": "Đang Lưu...",
+      "saved": "Đã Lưu",
+      "savePersona": "Lưu Persona",
+      "demographics": "Nhân Khẩu Học",
+      "goals": "Mục Tiêu",
+      "painPoints": "Điểm Đau",
+      "moreItems": "+{{count}} nữa..."
+    },
+    "strategySave": {
+      "title": "Phát Hiện Chiến Lược Marketing",
+      "sections": "{{count}} phần",
+      "campaign": "Chiến Dịch:",
+      "budget": "Ngân Sách:",
+      "duration": "Thời Gian:",
+      "mediaMix": "Phân Bổ Media:",
+      "objectives": "Mục Tiêu:",
+      "targetPersonas": "Personas Mục Tiêu:",
+      "targetVerticals": "Ngành Dọc Mục Tiêu:",
+      "summary": "Tóm Tắt:",
+      "strategyComponents": "Thành Phần Chiến Lược:",
+      "moreSections": "+{{count}} phần nữa",
+      "saveTo": "Lưu vào:",
+      "campaignFolder": "Thư Mục Chiến Dịch",
+      "companyOutputs": "Outputs Công Ty",
+      "saveStrategy": "Lưu Chiến Lược",
+      "saving": "Đang Lưu...",
+      "saved": "Đã Lưu",
+      "viewInOutputs": "Xem trong Outputs",
+      "nextHint": "Tiếp: Sử dụng Content Agent để tạo tài liệu"
+    },
+    "actionPlan": {
+      "workflowSuggestions": "Đề Xuất Workflow Thông Minh ({{count}})",
+      "startWorkflow": "Bắt Đầu Workflow",
+      "viewAllSuggestions": "Xem tất cả {{count}} đề xuất",
+      "individualActions": "Hành Động Riêng Lẻ",
+      "match": "{{percent}}% phù hợp",
+      "impact": "Tác động {{level}}",
+      "nextBestActions": "Hành Động Tốt Nhất Tiếp Theo:",
+      "priority": "Ưu tiên {{value}}/10",
+      "confirmTitle": "Tiếp tục với {{agentName}}?",
+      "confirmDescription": "Tôi sẽ giúp bạn thực hiện các hành động này từ phân tích chiến lược của bạn:",
+      "relatedTasks": "{{count}} nhiệm vụ liên quan",
+      "relatedTasks_other": "{{count}} nhiệm vụ liên quan",
+      "confidence": "Độ tin cậy: {{percent}}%",
+      "andMoreTasks": "...và {{count}} nhiệm vụ nữa",
+      "stayHere": "Ở Lại Đây",
+      "continueToAgent": "Tiếp Tục Đến Agent",
+      "noSuggestions": "Không có đề xuất workflow nào",
+      "noSuggestionsHint": "Thử cung cấp các hành động cụ thể hơn",
+      "analyzingPlan": "Đang phân tích kế hoạch hành động của bạn...",
+      "nextStepsAvailable": "Các Bước Tiếp Theo Có Sẵn",
+      "start": "Bắt Đầu"
+    },
+    "mobileHistory": {
+      "ariaLabel": "Xem lịch sử phiên"
+    }
+  },
+  "quickSelector": {
+    "title": "Chọn Trợ Lý AI",
+    "subtitle": "Công cụ AI hỗ trợ chiến lược marketing của bạn",
+    "descriptions": {
+      "quickStart": "Bắt đầu nhanh",
+      "strategy": "11 khung chiến lược",
+      "persona": "Phân tích khách hàng",
+      "marketingStrategy": "Chiến lược tiếp thị",
+      "content": "9 công cụ tạo nội dung",
+      "campaignPlanning": "Triển khai đa kênh",
+      "performanceIntelligence": "Phân tích & ROI",
+      "competitiveIntel": "Phân tích thị trường",
+      "clientSuccess": "Chiến lược giữ chân"
+    },
+    "locked": "Liên hệ quản trị viên"
+  },
+  "chat": {
+    "you": "Bạn",
+    "thinking": "Đang suy nghĩ...",
+    "retrying": "Đang thử lại ({{current}}/{{max}})",
+    "clearContext": "Xóa Ngữ Cảnh",
+    "contextAlert": {
+      "title": "Ngữ cảnh từ Trợ Lý Chiến Lược",
+      "actionItems": "Bạn có {{count}} hành động cần thực hiện:",
+      "andMore": "...và {{count}} hành động khác",
+      "prefillNote": "Ô nhập liệu bên dưới đã được điền sẵn với gợi ý dựa trên các ưu tiên chiến lược này."
+    }
+  },
+  "fileUpload": {
+    "attachFiles": "Đính kèm tệp",
+    "addToChat": "Thêm vào Chat",
+    "fileTypeHint": "PDF hoặc TXT, tối đa {{maxSize}}MB",
+    "errors": {
+      "unsupportedType": "Chỉ hỗ trợ tệp PDF và TXT",
+      "fileTooLarge": "Tệp quá lớn. Kích thước tối đa: {{maxSize}}MB"
+    },
+    "removeFile": "Xóa {{filename}}"
+  },
+  "toolLoading": {
+    "running": "{{agentName}} đang chạy {{toolName}}...",
+    "estimatedTime": "Thường mất {{time}}"
+  },
+  "personaChat": {
+    "detected": "Phát hiện chân dung: {{name}}",
+    "saveAsPersona": "Lưu Chân Dung"
+  },
+  "interview": {
+    "mode": "Chế Độ Phỏng Vấn",
+    "thinking": "Đang suy nghĩ...",
+    "placeholder": "Hỏi {{name}} về trải nghiệm, nhu cầu và thách thức của họ..."
+  },
+  "personas": {
+    "insightCapture": {
+      "savedTitle": "Đã Lưu Thông Tin",
+      "savedDescription": "Thông tin đã được lưu vào cơ sở kiến thức",
+      "warningTitle": "Cảnh báo",
+      "warningDescription": "Thông tin có thể chưa được lưu chính xác",
+      "errorTitle": "Lưu Thất Bại",
+      "errorDescription": "Không thể lưu thông tin: {{error}}",
+      "titleNew": "{{count}} Thông Tin Mới",
+      "titleCount": "{{count}} Thông Tin Đã Ghi Nhận",
+      "titleSaved": "{{count}} Thông Tin Đã Lưu",
+      "title": "Thông Tin Trực Tiếp",
+      "analyzing": "Đang phân tích...",
+      "listening": "Đang lắng nghe thông tin từ cuộc trò chuyện...",
+      "actions": "Hành động",
+      "saveInsight": "Lưu Thông Tin",
+      "saving": "Đang lưu...",
+      "savedSuccessfully": "Đã Lưu Thành Công",
+      "saveAll": "Lưu Tất Cả"
+    },
+    "detector": {
+      "detecting": "Đang phát hiện chân dung...",
+      "errorDetecting": "Không thể phát hiện chân dung. Vui lòng thử lại.",
+      "notSpecified": "Chưa xác định",
+      "detectedCount": "Phát hiện {{count}} Chân Dung",
+      "detectedCount_other": "Phát hiện {{count}} Chân Dung",
+      "aiDetected": "AI Phát Hiện",
+      "saved": "Đã Lưu",
+      "industry": "Ngành nghề",
+      "location": "Vị trí",
+      "goals": "Mục tiêu",
+      "painPoints": "Điểm đau",
+      "keyQuote": "Trích dẫn tiêu biểu",
+      "preferredChannels": "Kênh ưa thích",
+      "saveToLibrary": "Lưu vào Thư viện Chân dung"
+    },
+    "form": {
+      "editTitle": "Chỉnh Sửa Chân Dung",
+      "createTitle": "Tạo Chân Dung Mới",
+      "editDescription": "Cập nhật thông tin hồ sơ chân dung",
+      "createDescription": "Thêm chân dung khách hàng mới vào không gian làm việc",
+      "tabs": {
+        "basicInfo": "Thông Tin Cơ Bản",
+        "goalsPainPoints": "Mục Tiêu & Điểm Đau",
+        "toolsWorkflow": "Công Cụ & Quy Trình",
+        "personality": "Tính Cách",
+        "insights": "Thông Tin Chi Tiết"
+      },
+      "fields": {
+        "name": "Tên",
+        "title": "Chức danh",
+        "companyName": "Tên Công Ty",
+        "industry": "Ngành Nghề",
+        "vertical": "Lĩnh Vực",
+        "location": "Vị Trí",
+        "companySize": "Quy Mô Công Ty",
+        "customerStatus": "Trạng Thái Khách Hàng",
+        "satisfactionScore": "Điểm Hài Lòng",
+        "backgroundStory": "Câu Chuyện Nền Tảng",
+        "characteristicQuote": "Trích Dẫn Đặc Trưng",
+        "techSavviness": "Mức Độ Am Hiểu Công Nghệ",
+        "riskTolerance": "Mức Chấp Nhận Rủi Ro",
+        "innovationAppetite": "Mức Độ Đổi Mới",
+        "responseStyle": "Phong Cách Phản Hồi",
+        "tags": "Nhãn"
+      },
+      "placeholders": {
+        "name": "Nguyễn Văn A",
+        "title": "Quản lý Dự án",
+        "companyName": "Công ty ABC",
+        "selectIndustry": "Chọn ngành nghề",
+        "selectVertical": "Chọn lĩnh vực",
+        "location": "TP. Hồ Chí Minh",
+        "companySize": "51-200 nhân viên",
+        "backgroundStory": "Mô tả ngắn gọn về kinh nghiệm và bối cảnh của chân dung này...",
+        "characteristicQuote": "Một trích dẫn đại diện cho tư duy của chân dung này...",
+        "addTag": "Thêm nhãn..."
+      },
+      "customerStatuses": {
+        "prospect": "Khách hàng tiềm năng",
+        "active": "Khách hàng đang hoạt động",
+        "churned": "Đã rời bỏ",
+        "competitorUser": "Người dùng đối thủ"
+      },
+      "responseStyles": {
+        "casual": "Thông thường",
+        "professional": "Chuyên nghiệp",
+        "technical": "Kỹ thuật",
+        "executive": "Điều hành"
+      },
+      "insightsDescription": "Xem thông tin chi tiết thu thập từ các cuộc phỏng vấn với chân dung này",
+      "cancel": "Hủy",
+      "saving": "Đang lưu...",
+      "savePersona": "Lưu Chân Dung"
+    },
+    "insights": {
+      "title": "Thông Tin Chân Dung",
+      "loading": "Đang tải thông tin...",
+      "noInsights": "Chưa có thông tin nào được ghi nhận. Phỏng vấn chân dung để tạo thông tin về điểm đau, mục tiêu và sở thích của họ.",
+      "topPainPoints": "Điểm Đau Hàng Đầu",
+      "personasAffected": "{{count}} chân dung bị ảnh hưởng",
+      "personasAffected_other": "{{count}} chân dung bị ảnh hưởng",
+      "personaSpecific": "Thông Tin Chân Dung Cụ Thể",
+      "recentInsights": "Thông Tin Gần Đây",
+      "autoApproved": "Tự động phê duyệt",
+      "viewAll": "Xem Tất Cả",
+      "export": "Xuất",
+      "applyToCampaign": "Áp Dụng vào Chiến Dịch",
+      "confirmDelete": "Bạn có chắc muốn xóa thông tin này không?",
+      "deleteFailed": "Không thể xóa thông tin",
+      "deleteInsight": "Xóa Thông Tin",
+      "close": "Đóng",
+      "modal": {
+        "title": "Chi Tiết Thông Tin",
+        "description": "Xem và quản lý thông tin phỏng vấn chân dung",
+        "confidence": "Độ tin cậy",
+        "fullDetails": "Chi Tiết Đầy Đủ",
+        "categories": "Danh Mục",
+        "type": "Loại",
+        "created": "Ngày tạo"
+      }
+    },
+    "sidebar": {
+      "title": "Chân Dung",
+      "total": "{{count}} tổng cộng",
+      "loading": "Đang tải chân dung...",
+      "new": "Mới",
+      "filters": {
+        "all": "Tất cả",
+        "active": "Đang hoạt động",
+        "archived": "Đã lưu trữ"
+      },
+      "archived": "Đã lưu trữ",
+      "interview": "Phỏng vấn",
+      "duplicate": "Nhân bản",
+      "noPersonasFound": "Không tìm thấy chân dung cho bộ lọc \"{{filter}}\"",
+      "deleteTitle": "Xóa {{name}}?",
+      "deleteDescriptionArchived": "Hành động này sẽ xóa vĩnh viễn chân dung đã lưu trữ này.",
+      "deleteDescriptionActive": "Chân dung này sẽ được lưu trữ trước. Bạn có thể khôi phục sau.",
+      "deleteConfirm": "Xóa Chân Dung"
+    }
+  },
+  "toolRenderers": {
+    "common": {
+      "saveToWorkspace": "Lưu vào Workspace",
+      "copyText": "Sao chép",
+      "copied": "Đã sao chép!",
+      "copyAll": "Sao chép tất cả",
+      "noItems": "Không có mục nào trong danh mục này",
+      "noFactors": "Không có yếu tố nào",
+      "toolOutput": "Kết quả công cụ",
+      "clickToViewData": "Nhấn để xem dữ liệu"
+    },
+    "analysisReport": {
+      "title": "Báo Cáo Phân Tích",
+      "summary": "Tóm Tắt",
+      "keyFindings": "Phát Hiện Chính",
+      "recommendations": "Đề Xuất"
+    },
+    "bcgMatrix": {
+      "title": "Ma Trận BCG Tăng Trưởng-Thị Phần",
+      "questionMarks": "Dấu Hỏi",
+      "stars": "Ngôi Sao",
+      "dogs": "Con Chó",
+      "cashCows": "Bò Sữa",
+      "highGrowthHighShare": "Tăng Trưởng Cao, Thị Phần Cao",
+      "lowGrowthHighShare": "Tăng Trưởng Thấp, Thị Phần Cao",
+      "highGrowthLowShare": "Tăng Trưởng Cao, Thị Phần Thấp",
+      "lowGrowthLowShare": "Tăng Trưởng Thấp, Thị Phần Thấp",
+      "lowMarketShare": "Thị Phần Thấp",
+      "highMarketShare": "Thị Phần Cao",
+      "relativeMarketShare": "Thị Phần Tương Đối",
+      "portfolioBalance": "Cân Bằng Danh Mục",
+      "investmentPriorities": "Ưu Tiên Đầu Tư",
+      "growth": "Tăng trưởng",
+      "share": "Thị phần"
+    },
+    "blogPost": {
+      "title": "Bản Nháp Bài Blog",
+      "outline": "Dàn Ý",
+      "body": "Nội Dung",
+      "seoKeywords": "Từ Khóa SEO",
+      "exportToCms": "Xuất sang CMS"
+    },
+    "blueOcean": {
+      "title": "Canvas Chiến Lược Đại Dương Xanh",
+      "eliminate": "Loại Bỏ",
+      "reduce": "Giảm",
+      "raise": "Tăng",
+      "create": "Tạo Mới",
+      "removeCompletely": "Loại bỏ hoàn toàn",
+      "belowIndustry": "Dưới tiêu chuẩn ngành",
+      "aboveIndustry": "Trên tiêu chuẩn ngành",
+      "industryNeverOffered": "Ngành chưa từng cung cấp",
+      "currentRedOcean": "Đại Dương Đỏ Hiện Tại",
+      "blueOceanOpportunity": "Cơ Hội Đại Dương Xanh",
+      "valueInnovation": "Chiến Lược Đổi Mới Giá Trị"
+    },
+    "businessCanvas": {
+      "title": "Mô Hình Kinh Doanh Canvas",
+      "keyPartnerships": "Đối Tác Chính",
+      "keyActivities": "Hoạt Động Chính",
+      "keyResources": "Nguồn Lực Chính",
+      "valuePropositions": "Đề Xuất Giá Trị",
+      "customerRelationships": "Quan Hệ Khách Hàng",
+      "channels": "Kênh Phân Phối",
+      "customerSegments": "Phân Khúc Khách Hàng",
+      "costStructure": "Cơ Cấu Chi Phí",
+      "revenueStreams": "Dòng Doanh Thu",
+      "developBusinessPlan": "Phát Triển Kế Hoạch Kinh Doanh"
+    },
+    "buyerJourney": {
+      "title": "Bản Đồ Hành Trình Người Mua",
+      "forPersona": "Cho chân dung: {{name}}",
+      "keyQuestions": "Câu Hỏi Chính:",
+      "contentOpportunities": "Cơ Hội Nội Dung:",
+      "generateContentIdeas": "Tạo Ý Tưởng Nội Dung"
+    },
+    "contentCalendar": {
+      "title": "Lịch Nội Dung",
+      "dateRange": "Từ {{start}} đến {{end}}"
+    },
+    "contentIdea": {
+      "title": "Ý Tưởng Nội Dung",
+      "angle": "Góc Nhìn",
+      "targetPersona": "Chân Dung Mục Tiêu",
+      "saveIdea": "Lưu Ý Tưởng",
+      "draftThisPost": "Viết bài này"
+    },
+    "forecast": {
+      "title": "Dự Báo {{metric}}",
+      "forNextPeriod": "Cho {{period}} tiếp theo",
+      "confidence": "Độ tin cậy: {{level}}%",
+      "assumptions": "Giả Định:"
+    },
+    "ice": {
+      "title": "Phân Tích Ưu Tiên ICE",
+      "noData": "Không có dữ liệu ưu tiên",
+      "topPriority": "ƯU TIÊN CAO NHẤT",
+      "impact": "Tác Động",
+      "confidence": "Độ Tin Cậy",
+      "ease": "Độ Dễ",
+      "overallPriorityScore": "Điểm Ưu Tiên Tổng Thể",
+      "iceFormula": "Điểm ICE = (Tác Động x Độ Tin Cậy x Độ Dễ) / 100",
+      "recommendation": "Đề Xuất",
+      "resourceConsiderations": "Cân Nhắc Nguồn Lực",
+      "createActionPlan": "Tạo Kế Hoạch Hành Động",
+      "exportAnalysis": "Xuất Phân Tích"
+    },
+    "interviewQuestions": {
+      "title": "Câu Hỏi Phỏng Vấn",
+      "forValidating": "Để xác thực chân dung: {{name}}",
+      "addToGuide": "Thêm vào Hướng Dẫn Phỏng Vấn"
+    },
+    "jtbd": {
+      "title": "Phân Tích Việc Cần Làm (JTBD)",
+      "primaryJobs": "Công Việc Chính",
+      "job": "Công việc {{number}}",
+      "functional": "Chức Năng",
+      "emotional": "Cảm Xúc",
+      "social": "Xã Hội",
+      "currentSolutions": "Giải Pháp Hiện Tại",
+      "underservedJobs": "Công Việc Chưa Được Phục Vụ",
+      "innovationOpportunities": "Cơ Hội Đổi Mới",
+      "highOpportunity": "Cơ Hội Cao",
+      "goodOpportunity": "Cơ Hội Tốt",
+      "moderateOpportunity": "Cơ Hội Trung Bình",
+      "lowOpportunity": "Cơ Hội Thấp"
+    },
+    "mckinsey7s": {
+      "title": "Khung McKinsey 7S",
+      "organizationalAlignment": "Điểm Đồng Bộ Tổ Chức",
+      "hardElements": "Yếu Tố Cứng",
+      "softElements": "Yếu Tố Mềm",
+      "currentState": "Trạng Thái Hiện Tại",
+      "desiredState": "Trạng Thái Mong Muốn",
+      "gapAnalysis": "Phân Tích Khoảng Cách",
+      "actionRequired": "Hành Động Cần Thiết",
+      "current": "Hiện Tại",
+      "desired": "Mong Muốn",
+      "gap": "Khoảng Cách",
+      "action": "Hành Động",
+      "criticalMisalignments": "Sai Lệch Nghiêm Trọng",
+      "strategicRecommendations": "Đề Xuất Chiến Lược",
+      "strategy": "Chiến Lược",
+      "structure": "Cơ Cấu",
+      "systems": "Hệ Thống",
+      "sharedValues": "Giá Trị Chung",
+      "style": "Phong Cách",
+      "staff": "Nhân Sự",
+      "skills": "Kỹ Năng",
+      "strategyDesc": "Kế hoạch đạt lợi thế cạnh tranh",
+      "structureDesc": "Cách tổ chức được cấu trúc",
+      "systemsDesc": "Hoạt động và quy trình hàng ngày",
+      "sharedValuesDesc": "Giá trị cốt lõi và văn hóa",
+      "styleDesc": "Phong cách lãnh đạo và quản lý",
+      "staffDesc": "Nhân viên và năng lực",
+      "skillsDesc": "Năng lực và khả năng"
+    },
+    "okr": {
+      "title": "Khung OKRs",
+      "successMetrics": "Chỉ Số Thành Công",
+      "reviewCadence": "Chu Kỳ Đánh Giá",
+      "companyOkrs": "OKRs Công Ty",
+      "teamOkrs": "OKRs Nhóm",
+      "objective": "Mục tiêu {{number}}",
+      "teamObjective": "Mục tiêu Nhóm {{number}}",
+      "timeFrame": "Khung thời gian: {{value}}",
+      "owner": "Người phụ trách: {{value}}",
+      "keyResults": "Kết Quả Then Chốt",
+      "strategicAlignment": "Đồng Bộ Chiến Lược"
+    },
+    "optimization": {
+      "title": "Cơ Hội Tối Ưu",
+      "area": "Lĩnh vực: {{value}}",
+      "impact": "Tác động: {{value}}"
+    },
+    "persona": {
+      "title": "Chân Dung Khách Hàng",
+      "demographics": "Nhân Khẩu Học",
+      "psychographics": "Tâm Lý Học",
+      "goals": "Mục Tiêu",
+      "painPoints": "Điểm Đau",
+      "communicationChannels": "Kênh Giao Tiếp",
+      "mapBuyerJourney": "Lập Bản Đồ Hành Trình"
+    },
+    "porters": {
+      "title": "Phân Tích 5 Lực Lượng Porter",
+      "threatOfNewEntrants": "Mối Đe Dọa Từ Đối Thủ Mới",
+      "bargainingPowerOfSuppliers": "Quyền Lực Đàm Phán Của Nhà Cung Cấp",
+      "industryRivalry": "Cạnh Tranh Trong Ngành",
+      "bargainingPowerOfBuyers": "Quyền Lực Đàm Phán Của Người Mua",
+      "threatOfSubstitutes": "Mối Đe Dọa Từ Sản Phẩm Thay Thế",
+      "core": "CỐT LÕI",
+      "lowThreat": "Mối Đe Dọa Thấp",
+      "moderate": "Trung Bình",
+      "highThreat": "Mối Đe Dọa Cao",
+      "low": "thấp",
+      "high": "cao",
+      "viewDetails": "Xem Chi Tiết",
+      "generateStrategy": "Tạo Chiến Lược"
+    },
+    "swot": {
+      "title": "Phân Tích SWOT",
+      "strengths": "Điểm Mạnh",
+      "weaknesses": "Điểm Yếu",
+      "opportunities": "Cơ Hội",
+      "threats": "Thách Thức",
+      "createActionPlan": "Tạo Kế Hoạch Hành Động"
+    },
+    "threeHorizons": {
+      "title": "Ba Chân Trời Tăng Trưởng",
+      "horizon1Title": "Chân Trời 1: Kinh Doanh Cốt Lõi",
+      "horizon1Subtitle": "Bảo Vệ và Mở Rộng",
+      "horizon2Title": "Chân Trời 2: Cơ Hội Mới Nổi",
+      "horizon2Subtitle": "Xây Dựng Năng Lực Mới",
+      "horizon3Title": "Chân Trời 3: Đặt Cược Chuyển Đổi",
+      "horizon3Subtitle": "Tạo Lựa Chọn Tương Lai",
+      "resourceAllocation": "Chiến Lược Phân Bổ Nguồn Lực",
+      "expected": "Dự kiến: {{value}}"
+    },
+    "vrio": {
+      "title": "Phân Tích VRIO",
+      "resourceCapability": "Nguồn Lực/Năng Lực",
+      "valuable": "Giá Trị",
+      "rare": "Hiếm",
+      "inimitable": "Khó Bắt Chước",
+      "organized": "Có Tổ Chức",
+      "competitiveImplication": "Ý Nghĩa Cạnh Tranh",
+      "coreCompetencies": "Năng Lực Cốt Lõi",
+      "strategicImplications": "Ý Nghĩa Chiến Lược",
+      "frameworkKey": "Chú Giải Khung VRIO:",
+      "valuableDesc": "Tạo cơ hội hoặc vô hiệu hóa đe dọa",
+      "rareDesc": "Được kiểm soát bởi ít đối thủ",
+      "inimitableDesc": "Khó hoặc tốn kém để bắt chước",
+      "organizedDesc": "Doanh nghiệp có thể nắm bắt giá trị"
+    }
+  }
+}

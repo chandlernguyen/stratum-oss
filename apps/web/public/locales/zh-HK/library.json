@@ -1,0 +1,62 @@
+{
+  "title": "文件管理",
+  "subtitle": "上傳、搜尋並管理你組織嘅知識庫。",
+  "upload": {
+    "title": "上傳文件",
+    "description": "將新文件加入你嘅知識庫。",
+    "button": "上傳"
+  },
+  "documents": {
+    "title": "你嘅文件",
+    "description": "瀏覽並管理你上傳嘅文件。",
+    "emptyState": "文件列表或網格會顯示喺呢度。",
+    "noDocuments": "仲未有文件。上傳你嘅第一份文件開始使用。"
+  },
+  "documentTypes": {
+    "pdf": "PDF 文件",
+    "doc": "Word 文件",
+    "docx": "Word 文件",
+    "txt": "文字檔案",
+    "csv": "CSV 試算表",
+    "xls": "Excel 試算表",
+    "xlsx": "Excel 試算表",
+    "ppt": "PowerPoint 簡報",
+    "pptx": "PowerPoint 簡報",
+    "image": "圖片檔案",
+    "other": "其他"
+  },
+  "actions": {
+    "upload": "上傳",
+    "download": "下載",
+    "delete": "刪除",
+    "rename": "重新命名",
+    "share": "分享",
+    "view": "查看",
+    "edit": "編輯",
+    "cancel": "取消",
+    "confirm": "確認",
+    "search": "搜尋文件..."
+  },
+  "status": {
+    "uploading": "上傳中...",
+    "processing": "處理中...",
+    "ready": "就緒",
+    "error": "錯誤",
+    "uploaded": "上傳成功",
+    "deleted": "刪除成功"
+  },
+  "errors": {
+    "uploadFailed": "上傳失敗。請重試。",
+    "deleteFailed": "刪除失敗。請重試。",
+    "invalidFileType": "檔案類型無效。請上傳受支援嘅檔案。",
+    "fileTooLarge": "檔案過大。最大大小為 {{maxSize}}。",
+    "noFileSelected": "未揀選檔案。"
+  },
+  "metadata": {
+    "uploadedOn": "上傳於 {{date}}",
+    "uploadedBy": "上傳者：{{name}}",
+    "lastModified": "最後修改於 {{date}}",
+    "fileSize": "檔案大小：{{size}}",
+    "fileType": "檔案類型：{{type}}"
+  }
+}

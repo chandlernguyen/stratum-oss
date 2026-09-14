@@ -1,0 +1,62 @@
+{
+  "title": "문서 관리",
+  "subtitle": "조직의 지식 기반 문서를 업로드, 검색, 관리하세요.",
+  "upload": {
+    "title": "문서 업로드",
+    "description": "지식 기반에 새 문서를 추가하세요.",
+    "button": "업로드"
+  },
+  "documents": {
+    "title": "내 문서",
+    "description": "업로드한 문서를 둘러보고 관리하세요.",
+    "emptyState": "문서 목록 또는 그리드가 여기에 표시됩니다.",
+    "noDocuments": "아직 문서가 없습니다. 첫 문서를 업로드해 시작하세요."
+  },
+  "documentTypes": {
+    "pdf": "PDF 문서",
+    "doc": "Word 문서",
+    "docx": "Word 문서",
+    "txt": "텍스트 파일",
+    "csv": "CSV 스프레드시트",
+    "xls": "Excel 스프레드시트",
+    "xlsx": "Excel 스프레드시트",
+    "ppt": "PowerPoint 프레젠테이션",
+    "pptx": "PowerPoint 프레젠테이션",
+    "image": "이미지 파일",
+    "other": "기타"
+  },
+  "actions": {
+    "upload": "업로드",
+    "download": "다운로드",
+    "delete": "삭제",
+    "rename": "이름 변경",
+    "share": "공유",
+    "view": "보기",
+    "edit": "수정",
+    "cancel": "취소",
+    "confirm": "확인",
+    "search": "문서 검색..."
+  },
+  "status": {
+    "uploading": "업로드 중...",
+    "processing": "처리 중...",
+    "ready": "준비 완료",
+    "error": "오류",
+    "uploaded": "업로드 완료",
+    "deleted": "삭제 완료"
+  },
+  "errors": {
+    "uploadFailed": "업로드에 실패했습니다. 다시 시도해 주세요.",
+    "deleteFailed": "삭제에 실패했습니다. 다시 시도해 주세요.",
+    "invalidFileType": "지원되지 않는 파일 형식입니다. 지원되는 파일을 업로드해 주세요.",
+    "fileTooLarge": "파일이 너무 큽니다. 최대 크기는 {{maxSize}}입니다.",
+    "noFileSelected": "선택된 파일이 없습니다."
+  },
+  "metadata": {
+    "uploadedOn": "{{date}}에 업로드됨",
+    "uploadedBy": "{{name}}가 업로드",
+    "lastModified": "{{date}}에 마지막 수정",
+    "fileSize": "파일 크기: {{size}}",
+    "fileType": "파일 형식: {{type}}"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Liên Hệ",
+    "subtitle": "Kết nối trực tiếp với nhà sáng lập. Ý kiến của bạn định hình STRAŦUM."
+  },
+  "getInTouch": {
+    "title": "Liên Hệ Với Chúng Tôi",
+    "description": "Được xây dựng bởi một nhà sáng lập độc lập, tập trung mang đến phân tích marketing cấp doanh nghiệp mà không phức tạp như doanh nghiệp lớn. Đăng ký miễn phí ngay hôm nay.",
+    "wantAccess": "Sẵn sàng bắt đầu?",
+    "requestInvitation": "Đăng ký miễn phí",
+    "alphaUsers": "Người dùng sớm:",
+    "alphaUsersNote": "Sử dụng phản hồi trong ứng dụng khi đã đăng nhập.",
+    "everyoneElse": "Tất cả người khác:",
+    "everyoneElseNote": "Gửi email cho các câu hỏi chung."
+  },
+  "contactMethods": {
+    "title": "Phương Thức Liên Hệ",
+    "inAppFeedback": {
+      "title": "Phản Hồi Trong Ứng Dụng",
+      "badge": "Dành Cho Người Dùng Sớm",
+      "description": "Nếu bạn đã đăng nhập vào STRAŦUM:",
+      "note": "Phù hợp nhất để báo cáo lỗi và yêu cầu tính năng. Ngữ cảnh tài khoản giúp giải quyết nhanh hơn.",
+      "cta": "Gửi Phản Hồi"
+    },
+    "email": {
+      "title": "Email",
+      "badge": "Dành Cho Tất Cả",
+      "description": "Dành cho các câu hỏi chung, đề xuất tính năng, hợp tác hoặc bất kỳ thắc mắc nào.",
+      "wantAccess": "Bạn muốn truy cập?",
+      "requestInvitation": "Yêu cầu lời mời"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "Kết nối với nhà sáng lập và theo dõi hành trình phát triển của STRAŦUM",
+      "cta": "Kết nối trên LinkedIn"
+    }
+  },
+  "responseTime": {
+    "title": "Thời Gian Phản Hồi & Khả Dụng",
+    "commitment": "Cam kết từ nhà sáng lập độc lập:",
+    "responseNote": "Mỗi tin nhắn đều được đọc và trả lời cá nhân trong vòng 1-2 ngày làm việc (các giai đoạn phát triển có thể kéo dài đến 3-4 ngày).",
+    "timezone": "Múi giờ US Pacific. Giờ làm việc: 9 giờ sáng - 5 giờ chiều PST, Thứ Hai-Thứ Sáu."
+  },
+  "partnership": {
+    "title": "Hợp Tác & Truyền Thông",
+    "description": "Để hợp tác chiến lược hoặc yêu cầu truyền thông, vui lòng gửi email đến",
+    "subjectNote": "với tiêu đề \"Partnership\" hoặc \"Media\"."
+  }
+}
