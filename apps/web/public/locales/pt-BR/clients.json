@@ -1,0 +1,68 @@
+{
+  "title": "Clientes",
+  "subtitle": "Gerencie o portfólio de clientes da sua agência",
+  "badge": "Portfólio de Clientes",
+  "addClient": "Adicionar Cliente",
+  "addFirstClient": "Adicionar Seu Primeiro Cliente",
+  "search": {
+    "placeholder": "Pesquisar clientes por nome ou setor..."
+  },
+  "filters": {
+    "label": "Filtrar por Status",
+    "active": "Ativo",
+    "archived": "Arquivado",
+    "all": "Todos os Clientes"
+  },
+  "card": {
+    "noIndustry": "Nenhum setor especificado",
+    "archivedBadge": "Arquivado",
+    "archivedOn": "Arquivado",
+    "reason": "Motivo: {{reason}}",
+    "campaigns": "Campanhas",
+    "campaignsCount": "{{active}} / {{total}}",
+    "clientSince": "Cliente Desde",
+    "restoreClient": "Restaurar Cliente",
+    "dashboard": "Painel",
+    "viewCampaignsAriaLabel": "Ver campanhas de {{clientName}}"
+  },
+  "status": {
+    "active": "ativo",
+    "paused": "pausado",
+    "churned": "cancelado"
+  },
+  "emptyState": {
+    "noArchived": {
+      "title": "Nenhum cliente arquivado",
+      "description": "Clientes arquivados aparecerão aqui quando você arquivar clientes ativos",
+      "viewActive": "Ver Clientes Ativos"
+    },
+    "noClients": {
+      "title": "Nenhum cliente ainda",
+      "description": "Comece adicionando seu primeiro cliente para usar insights baseados em IA"
+    },
+    "noResults": {
+      "title": "Nenhum cliente encontrado",
+      "description": "Tente ajustar sua busca"
+    }
+  },
+  "actions": {
+    "edit": "Editar",
+    "archive": "Arquivar",
+    "restore": "Restaurar",
+    "delete": "Excluir"
+  },
+  "toast": {
+    "archiveSuccess": "Cliente arquivado com sucesso",
+    "archiveFailed": "Falha ao arquivar cliente",
+    "deleteSuccess": "Cliente excluído com sucesso",
+    "deleteFailed": "Falha ao excluir cliente",
+    "restoreSuccess": "Cliente restaurado com sucesso",
+    "restoreFailed": "Falha ao restaurar cliente"
+  },
+  "onboarding": {
+    "industry": "Setor",
+    "industryPlaceholder": "Selecione o setor do seu cliente",
+    "companySize": "Tamanho da Empresa",
+    "companySizePlaceholder": "Selecione o tamanho da empresa"
+  }
+}

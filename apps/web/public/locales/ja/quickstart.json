@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Quick Start - 5分で戦略基盤を構築",
+    "subtitle": "1回のまとまったセッションで、戦略・ペルソナ・マーケティングプランを生成します"
+  },
+  "featureCards": {
+    "strategyAnalysis": {
+      "title": "戦略分析",
+      "description": "SWOT、ビジネスモデルキャンバス、その他の戦略フレームワーク"
+    },
+    "customerPersonas": {
+      "title": "顧客ペルソナ",
+      "description": "詳細な購買者像とジャーニーマッピング"
+    },
+    "marketingStrategy": {
+      "title": "マーケティング戦略",
+      "description": "チャネル戦略、メッセージング、90日ロードマップ"
+    }
+  },
+  "initialMessage": {
+    "intro": "Quick Startの質問票が完了しました。以下が私の事業コンテキストです:",
+    "company": "会社 / 事業:",
+    "goal": "主要なマーケティング目標:",
+    "audience": "ターゲットオーディエンス:",
+    "budget": "月間マーケティング予算:",
+    "timeline": "成果を求める時期:",
+    "request": "この情報をもとに、次を含む包括的なマーケティングインテリジェンス基盤を作成してください:",
+    "item1": "1. 戦略分析（SWOT、競争ポジショニング）",
+    "item2": "2. 詳細な顧客ペルソナ",
+    "item3": "3. チャネル推奨とメッセージングフレームを含む完全なマーケティング戦略",
+    "closing": "私のマーケティング基盤を作りましょう。"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "pageTitle": "Agentur-Best-Practices-Leitfaden",
+  "pageSubtitle": "STRAŦUM meistern, um 5+ Kunden effizient zu verwalten",
+  "backButton": "Zurück",
+  "privateAlpha": {
+    "title": "Willkommen bei STRAŦUM",
+    "description": "Sie nutzen die <strong>kostenlose Version</strong> von STRAŦUM. Wir entwickeln und verbessern die Plattform aktiv — Ihr Feedback hilft bei der Gestaltung.",
+    "protectWork": "Best Practices",
+    "protectWorkItems": {
+      "databaseReset": "Exportieren Sie wichtige Arbeiten regelmäßig als Backup-Gewohnheit",
+      "downloadData": "<strong>Laden Sie wertvolle Daten regelmäßig herunter</strong> (Strategien, Inhalte, Einblicke)",
+      "useExport": "Nutzen Sie die Exportfunktionen im Content-Agent und im Outputs Hub",
+      "feedbackValue": "Ihr Feedback formt das Produkt — es ist unschätzbar wertvoll für uns!"
+    },
+    "questionsTitle": "Fragen oder Feedback?",
+    "questionsDescription": "Klicken Sie auf Ihr Profilbild oben rechts und wählen Sie <strong>Feedback senden</strong>. Wir lesen jede Nachricht und nutzen Ihre Eingaben, um STRAŦUM zu verbessern."
+  },
+  "introduction": {
+    "title": "Einführung",
+    "description": "Willkommen bei STRAŦUM! Dieser Leitfaden bietet Best Practices für Marketingagenturen, die die Plattform nutzen, um mehrere Kunden effizient zu verwalten und außergewöhnliche Ergebnisse durch KI-gestützte Intelligence zu erzielen."
+  },
+  "clientOnboarding": {
+    "title": "Kunden-Onboarding-Strategie",
+    "firstClientSetup": "Erster Kunden-Setup (15-20 Minuten)",
+    "steps": {
+      "addClient": "<strong>Kunde hinzufügen:</strong> Navigieren Sie zum Button \"Ersten Kunden hinzufügen\" auf dem Dashboard",
+      "strategicFoundation": "<strong>Strategisches Fundament:</strong> Führen Sie den Geschäftsstrategie-Agenten aus, um strategische Frameworks zu erstellen",
+      "customerInsights": "<strong>Kundeneinblicke:</strong> Generieren Sie 3-5 Personas mit dem Persona-Agenten",
+      "marketingDirection": "<strong>Marketingausrichtung:</strong> Erstellen Sie eine erste Marketingstrategie mit dem Marketingstrategie-Agenten"
+    },
+    "proTipLabel": "Profi-Tipp:",
+    "proTipContent": "Versuchen Sie nicht, alles auf einmal zu erfassen — lassen Sie KI-Agenten progressiv durch Gespräche lernen. Jede Interaktion baut automatisch Kontext auf."
+  },
+  "dataProtection": {
+    "title": "Ihre Kundendaten sind geschützt",
+    "description": "STRAŦUM hält die Daten jedes Kunden <strong>vollständig getrennt und sicher</strong>. Kunde A wird niemals die Informationen von Kunde B sehen und umgekehrt. Dieser Schutz ist auf Datenbankebene in die Plattform eingebaut.",
+    "doTitle": "TUN SIE FOLGENDES:",
+    "doItems": {
+      "useSelector": "Verwenden Sie die Kundenauswahl zum Wechseln zwischen Kunden",
+      "doubleCheck": "Überprüfen Sie, ob Sie im richtigen Kunden-Arbeitsbereich sind",
+      "downloadRegularly": "Laden Sie wichtige Strategien und Inhalte regelmäßig herunter",
+      "lookForBadge": "Achten Sie auf das \"Daten geschützt\"-Badge für Ihre Sicherheit"
+    },
+    "dontTitle": "VERMEIDEN SIE:",
+    "dontItems": {
+      "copySensitive": "Sensible Informationen zwischen Kunden-Arbeitsbereichen kopieren",
+      "shareLogin": "Ihre Anmeldedaten mit Teammitgliedern teilen (laden Sie sie stattdessen ein)",
+      "exportWithoutPermission": "Kundendaten ohne deren Erlaubnis exportieren"
+    },
+    "alphaTipTitle": "Tipp: Arbeit sichern",
+    "alphaTipContent": "Wir empfehlen, wertvolle Strategien und Inhalte bei der Erstellung herunterzuladen. Nutzen Sie die Exportfunktionen im Content-Agent (Word, PDF, Google Docs) und im Outputs Hub. Denken Sie daran wie an das Speichern eines Dokuments — immer eine gute Gewohnheit!"
+  },
+  "teamRoles": {
+    "title": "Teamzusammenarbeit & Rollen",
+    "description": "STRAŦUM bietet 10 verschiedene Teamrollen für Agenturen, damit jede Person nur das sieht, was sie für ihre Arbeit benötigt:",
+    "roles": {
+      "agencyOwner": {
+        "title": "Agenturinhaber",
+        "description": "Vollzugriff, Abrechnung, Teamverwaltung"
+      },
+      "agencyAdmin": {
+        "title": "Agentur-Admin",
+        "description": "Komplette Kundenverwaltung, kein Abrechnungszugriff"
+      },
+      "accountManager": {
+        "title": "Account Manager",
+        "description": "Kundenbeziehungen, alle Daten einsehen"
+      },
+      "strategist": {
+        "title": "Stratege",
+        "description": "Strategien, Personas, Business Intelligence erstellen"
+      },
+      "campaignManager": {
+        "title": "Kampagnenmanager",
+        "description": "Kampagnen ausführen, Inhaltskalender verwalten"
+      },
+      "analyst": {
+        "title": "Analyst",
+        "description": "Performance-Tracking, ROI-Analyse, Berichterstattung"
+      },
+      "creative": {
+        "title": "Kreativ",
+        "description": "Content-Erstellung und Design-Assets"
+      },
+      "freelancer": {
+        "title": "Freelancer",
+        "description": "Projektbasierter Zugriff auf bestimmte Kunden"
+      },
+      "clientViewer": {
+        "title": "Kundenbetrachter",
+        "description": "Nur-Lese-Zugriff auf zugewiesene Kundendaten"
+      },
+      "agencyViewer": {
+        "title": "Agentur-Betrachter",
+        "description": "Nur-Lese-Zugriff über alle Kunden hinweg"
+      }
+    },
+    "inviteInstructions": "<strong>So laden Sie Teammitglieder ein:</strong> Klicken Sie auf Ihr Profilbild → Einstellungen → Teamverwaltung. Weisen Sie Rollen basierend auf der tatsächlichen Tätigkeit zu, nicht nach Jobtitel oder Seniorität. Geben Sie Personen Zugriff auf das, was sie brauchen — nicht mehr, nicht weniger."
+  },
+  "aiWorkflow": {
+    "title": "KI-Agenten-Workflow",
+    "description": "Befolgen Sie für neue Kunden diese strategische Reihenfolge:",
+    "phases": {
+      "foundation": {
+        "title": "Phase 1: Fundament (Woche 1)",
+        "steps": {
+          "step1": "Geschäftsstrategie-Agent - Frameworks erstellen (SWOT, Porter's Five Forces)",
+          "step2": "Persona-Agent - 3-5 detaillierte Kunden-Personas erstellen",
+          "step3": "Marketingstrategie-Agent - Go-to-Market-Strategie entwickeln"
+        }
+      },
+      "execution": {
+        "title": "Phase 2: Umsetzungsplanung (Woche 2)",
+        "steps": {
+          "step1": "Content-Agent - Inhaltskalender und erste Assets erstellen",
+          "step2": "Kampagnenplanungs-Agent - Multi-Channel-Kampagnen planen",
+          "step3": "Competitive-Intelligence-Agent - Marktpositionierung analysieren"
+        }
+      },
+      "optimization": {
+        "title": "Phase 3: Optimierung (laufend)",
+        "steps": {
+          "step1": "Performance-Intelligence-Agent - ROI, KPIs verfolgen und Quick Wins identifizieren",
+          "step2": "Client-Success-Agent - Kundengesundheit und Kundenbindung überwachen"
+        }
+      }
+    },
+    "crossAgentTitle": "Agentenübergreifende Intelligence:",
+    "crossAgentContent": "STRAŦUM-Agenten teilen Kontext automatisch. Personas fließen in die Content-Erstellung ein, Strategien informieren Kampagnen und Leistungsdaten lösen Optimierungseinblicke aus. Vertrauen Sie dem Datenfluss des Systems."
+  },
+  "campaignManagement": {
+    "title": "Kampagnenmanagement",
+    "lifecycleTitle": "Kampagnen-Lebenszyklus",
+    "lifecycleSteps": {
+      "planning": "<strong>Planung:</strong> Verwenden Sie den Marketingstrategie-Agenten zur Definition von Zielen und Budget (70-20-10-Regel)",
+      "content": "<strong>Content-Erstellung:</strong> Der Content-Agent bietet 9 Tools (SEO-Blog, Social Media, E-Mail-Kampagnen usw.)",
+      "execution": "<strong>Umsetzungsverfolgung:</strong> Markieren Sie eine Strategie pro Kampagne als \"Aktiv\", laden Sie Leistungsdaten per CSV hoch",
+      "optimization": "<strong>Optimierung:</strong> Nutzen Sie den Performance-Intelligence-Agenten für Quick-Wins-Einblicke und den Budget-Optimierer für Zuweisungsempfehlungen"
+    },
+    "multiClientTitle": "Multi-Client-Verwaltung:",
+    "multiClientItems": {
+      "selector": "Kundenauswahl in der oberen Navigation zum schnellen Wechseln",
+      "outputsHub": "Outputs Hub zeigt alle KI-generierten Inhalte über alle Kunden",
+      "bulkOperations": "Massenoperationen zum Archivieren alter Kampagnen",
+      "comparison": "Nebeneinandervergleich für Strategie-Benchmarking"
+    }
+  },
+  "performanceTracking": {
+    "title": "Performance-Tracking",
+    "metricsTitle": "Kennzahlen-Dashboard",
+    "clientHealth": {
+      "title": "Kundengesundheits-Score:",
+      "items": {
+        "roi": "Kampagnen-ROI-Trends",
+        "content": "Content-Performance",
+        "alignment": "Strategieausrichtung",
+        "budget": "Budgeteffizienz"
+      }
+    },
+    "agencyEfficiency": {
+      "title": "Agentureffizienz:",
+      "items": {
+        "timeSaved": "Eingesparte Zeit pro Kunde",
+        "campaigns": "Gleichzeitig verwaltete Kampagnen",
+        "retention": "Kundenbindungsraten",
+        "upsell": "KI-identifizierte Upselling-Möglichkeiten"
+      }
+    }
+  },
+  "quickReference": {
+    "title": "Kurzreferenz: Häufige Aufgaben",
+    "tableHeaders": {
+      "task": "Aufgabe",
+      "navigation": "Navigationspfad"
+    },
+    "tasks": {
+      "addClient": {
+        "task": "Neuen Kunden hinzufügen",
+        "navigation": "Dashboard → \"Kunde hinzufügen\"-Button"
+      },
+      "createPersona": {
+        "task": "Kunden-Persona erstellen",
+        "navigation": "Kunden → [Kunde] → Agenten → Persona-Agent"
+      },
+      "generateCalendar": {
+        "task": "Inhaltskalender erstellen",
+        "navigation": "Kunden → [Kunde] → Agenten → Content-Agent"
+      },
+      "uploadPerformance": {
+        "task": "Leistungsdaten hochladen",
+        "navigation": "Kunden → [Kunde] → Agenten → Performance Intelligence"
+      },
+      "inviteTeam": {
+        "task": "Teammitglied einladen",
+        "navigation": "Einstellungen → Teamverwaltung"
+      },
+      "switchClients": {
+        "task": "Zwischen Kunden wechseln",
+        "navigation": "Obere Navigation → Kundenauswahl-Dropdown"
+      }
+    }
+  },
+  "nextSteps": {
+    "title": "Nächste Schritte",
+    "steps": {
+      "step1": "Fügen Sie Ihren ersten Kunden über das Dashboard hinzu",
+      "step2": "Erstellen Sie ein strategisches Fundament (Geschäftsstrategie + Personas + Marketingstrategie)",
+      "step3": "Erstellen Sie erste Content-Assets (Content-Agent)",
+      "step4": "Richten Sie Performance-Tracking ein (ersten CSV-Datensatz mit dem Performance-Intelligence-Agenten hochladen)",
+      "step5": "Laden Sie Teammitglieder ein (falls zutreffend)"
+    },
+    "remember": "<strong>Denken Sie daran:</strong> STRAŦUM bietet \"Intelligence statt Umsetzung\" — konzentrieren Sie sich auf strategische Einblicke, nicht auf taktische Automatisierung. Lassen Sie die KI-Agenten durch natürliche Gespräche progressiv Kontext aufbauen."
+  },
+  "footer": {
+    "feedbackTitle": "Wir freuen uns über Ihr Feedback!",
+    "feedbackDescription": "Ihre Einblicke sind unglaublich wertvoll. Etwas verwirrend gefunden? Eine Verbesserungsidee? Auf ein Problem gestoßen?",
+    "feedbackCta": "Klicken Sie auf Ihr Profilbild (oben rechts) → \"Feedback senden\"",
+    "feedbackNote": "Wir lesen jede Nachricht und nutzen Ihre Eingaben, um die Zukunft von STRAŦUM zu gestalten",
+    "lastUpdated": "Zuletzt aktualisiert: 20. Januar 2026 | Version 1.2"
+  }
+}

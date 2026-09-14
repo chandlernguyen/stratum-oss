@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "聯絡我哋",
+    "subtitle": "直接聯絡創辦人。你嘅意見會塑造 STRA\u0166UM。"
+  },
+  "getInTouch": {
+    "title": "保持聯繫",
+    "description": "由獨立創辦人打造，專注於提供企業級營銷智能，同時避免企業級複雜度。註冊現已開放，今日就可以免費開始。",
+    "wantAccess": "準備開始？",
+    "requestInvitation": "免費註冊",
+    "alphaUsers": "Alpha 用戶：",
+    "alphaUsersNote": "登入後請使用應用內意見回饋。",
+    "everyoneElse": "其他用戶：",
+    "everyoneElseNote": "一般查詢請發送電郵。"
+  },
+  "contactMethods": {
+    "title": "聯絡方式",
+    "inAppFeedback": {
+      "title": "應用內意見回饋",
+      "badge": "面向 Alpha 用戶",
+      "description": "如果你已登入 STRA\u0166UM：",
+      "note": "最適合提交 Bug 報告同功能請求。你嘅帳戶上下文能幫助我哋更快處理。",
+      "cta": "提交意見"
+    },
+    "email": {
+      "title": "電郵",
+      "badge": "面向所有人",
+      "description": "適用於一般問題、功能建議、合作洽談或其他查詢。",
+      "wantAccess": "想獲取存取資格？",
+      "requestInvitation": "申請邀請"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "與創辦人建立聯繫，並關注 STRA\u0166UM 嘅發展歷程",
+      "cta": "喺 LinkedIn 上聯繫"
+    }
+  },
+  "responseTime": {
+    "title": "回覆時間與可聯繫時段",
+    "commitment": "獨立創辦人承諾：",
+    "responseNote": "每條訊息都會由本人閱讀，並喺 1 至 2 個工作天內回覆（開發衝刺期間可能延長至 3 至 4 天）。",
+    "timezone": "位於美國太平洋時區。工作時間為星期一至星期五 PST 上午 9 點到下午 5 點。"
+  },
+  "partnership": {
+    "title": "合作與媒體",
+    "description": "如需洽談策略合作或媒體採訪，請發送電郵至",
+    "subjectNote": "並喺電郵主旨中註明\u201cPartnership\u201d或\u201cMedia\u201d。"
+  }
+}

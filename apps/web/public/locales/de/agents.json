@@ -1,0 +1,1600 @@
+{
+  "common": {
+    "analyzing": "Ich analysiere Ihre Anfrage mit {{tools}}...",
+    "complete": "abgeschlossen",
+    "recommendation": "Basierend auf dieser Analyse lautet meine Empfehlung:"
+  },
+  "strategy": {
+    "name": "Strategie-Agent",
+    "description": "Ihr strategischer Planungsspezialist",
+    "greeting": "Willkommen! Lassen Sie uns gemeinsam Ihre geschäftlichen Herausforderungen angehen. Ich kann Ihnen helfen, Klarheit zu finden und eine erfolgreiche Strategie mit bewährten Frameworks wie SWOT, Porter's Five Forces, Three Horizons of Growth oder Blue Ocean Strategy zu entwickeln. Was beschäftigt Sie heute? Wir können strategische Fragen erkunden, Wettbewerbslandschaften analysieren oder einfach mit dem beginnen, was Ihnen gerade am wichtigsten ist.",
+    "placeholder": "Fragen Sie zu Geschäftsstrategie, SWOT-Analyse... (z. B. 'SWOT-Analyse durchführen')",
+    "page": {
+      "title": "Geschäftsstrategie-Agent",
+      "subtitle": "KI-gestützte strategische Analyse mit 11 bewährten Business-Frameworks",
+      "defaultSessionTitle": "Strategieanalyse",
+      "features": {
+        "analysis": {
+          "title": "Umfassende Analyse",
+          "description": "SWOT, Porter's Five Forces, BCG Matrix & mehr"
+        },
+        "recommendations": {
+          "title": "Intelligente Empfehlungen",
+          "description": "Datengestützte Einblicke, zugeschnitten auf Ihr Unternehmen"
+        },
+        "frameworks": {
+          "title": "Visuelle Frameworks",
+          "description": "Interaktive Diagramme und strukturierte Outputs"
+        }
+      }
+    },
+    "hints": {
+      "beginner": {
+        "expandOrSpecialize": {
+          "trigger": "Soll ich expandieren oder spezialisieren?",
+          "smeLabel": "Soll ich expandieren oder spezialisieren?",
+          "agencyLabel": "Soll mein Kunde expandieren oder spezialisieren?",
+          "tooltip": "Porter's Five Forces + VRIO-Analyse für Wachstumsentscheidungen",
+          "description": "Strategische Wachstumsrichtungsanalyse"
+        },
+        "swotPricing": {
+          "trigger": "SWOT für meine Preisgestaltung durchführen",
+          "smeLabel": "SWOT für meine Preisgestaltung durchführen",
+          "agencyLabel": "SWOT für Kundenpreisgestaltung durchführen",
+          "tooltip": "Preisfokussierte SWOT mit umsetzbaren Empfehlungen",
+          "description": "Preisstrategieanalyse"
+        }
+      },
+      "intermediate": {
+        "bcgMatrix": {
+          "trigger": "BCG Matrix: 3 Produktlinien bewerten",
+          "tooltip": "Portfolioanalyse mit Investitionsempfehlungen",
+          "description": "Produktportfolio-Management"
+        },
+        "blueOcean": {
+          "trigger": "Blue Ocean: Unerschlossenen Markt finden",
+          "tooltip": "Strategische Differenzierung mit ERRC-Raster",
+          "description": "Marktdifferenzierungsstrategie"
+        },
+        "vrio": {
+          "trigger": "VRIO: Wettbewerbsvorteile analysieren",
+          "tooltip": "Ressourcenbasierte Wettbewerbsvorteilsbewertung",
+          "description": "Wettbewerbsvorteilsanalyse"
+        },
+        "threeHorizons": {
+          "trigger": "Three Horizons: Wachstum ausbalancieren",
+          "tooltip": "Ausgewogenes Wachstumsplanungs-Framework",
+          "description": "Wachstumshorizonte-Planung"
+        }
+      },
+      "expert": {
+        "completeSuite": {
+          "trigger": "Vollständige strategische Framework-Suite",
+          "tooltip": "4-Framework-Analyse mit zusammengefassten Erkenntnissen",
+          "description": "Umfassende Multi-Framework-Analyse"
+        },
+        "mckinsey7s": {
+          "trigger": "McKinsey 7S: Organisatorische Ausrichtung",
+          "tooltip": "Organisatorische Effektivitätsbewertung",
+          "description": "Organisatorisches Ausrichtungs-Framework"
+        },
+        "okrs": {
+          "trigger": "Strategische OKRs für nächstes Quartal",
+          "tooltip": "Zielsetzung mit messbaren Ergebnissen",
+          "description": "Strategisches OKR-Framework"
+        }
+      }
+    }
+  },
+  "persona": {
+    "name": "Persona-Agent",
+    "description": "Ihr Kundeneinblick-Spezialist",
+    "greeting": "Ich helfe Ihnen, Ihre idealen Kunden tiefgreifend zu verstehen. Ich kann detaillierte Personas erstellen, Buyer Journeys abbilden und Interview-Fragen generieren.",
+    "placeholder": "Fragen Sie zu Kundenprofilen, Buyer Journeys... (z. B. 'Kunden-Persona erstellen')",
+    "page": {
+      "title": "Kunden-Persona-Agent",
+      "subtitle": "KI-gestützte Kundenprofilierung und Buyer-Journey-Mapping",
+      "defaultSessionTitle": "Persona-Entwicklung",
+      "tabs": {
+        "newPersona": "Neue Persona",
+        "myPersonas": "Meine Personas"
+      },
+      "session": {
+        "newSession": "Neue Sitzung"
+      },
+      "features": {
+        "profiles": {
+          "title": "Detaillierte Profile",
+          "description": "Demografie, Psychografie und Verhaltensweisen"
+        },
+        "journey": {
+          "title": "Journey-Mapping",
+          "description": "Vollständige Customer Journey von Aufmerksamkeit bis Empfehlung"
+        },
+        "insights": {
+          "title": "Verhaltenseinblicke",
+          "description": "Pain Points, Motivationen und Entscheidungsfaktoren"
+        }
+      }
+    },
+    "interview": {
+      "pageTitle": "Persona-Interview",
+      "header": {
+        "interviewMode": "Interview-Modus",
+        "backToPersonaAgent": "Zurück zum Persona-Agenten",
+        "back": "Zurück"
+      },
+      "tabs": {
+        "interview": "Interview",
+        "liveInsights": "Live-Einblicke"
+      },
+      "loading": {
+        "title": "Interview-Sitzung wird geladen...",
+        "error": "Persona nicht gefunden",
+        "returnButton": "Zurück zum Persona-Agenten"
+      }
+    }
+  },
+  "marketing_strategy": {
+    "name": "Marketingstrategie-Agent",
+    "description": "Ihr Go-to-Market-Spezialist",
+    "greeting": "Ich bin Ihr Marketingstrategie-Agent und bereit, einen umfassenden Marketingplan zu erstellen, der auf Ihr Unternehmen zugeschnitten ist. Ich analysiere Ihren Geschäftskontext, Ihre Personas und Ziele, um umsetzbare Strategien mit Messaging-Frameworks, Kanalempfehlungen und Budgetoptimierung zu entwickeln.",
+    "placeholder": "Beschreiben Sie Ihr Unternehmen, Ihre Zielgruppe und Marketingziele...",
+    "page": {
+      "title": "Marketingstrategie-Agent",
+      "subtitle": "Überbrücken Sie die Lücke zwischen Kunden-Personas und Content-Erstellung",
+      "defaultSessionTitle": "Marketingstrategie",
+      "tabs": {
+        "newStrategy": "Neue Strategie",
+        "myStrategies": "Meine Strategien"
+      },
+      "modes": {
+        "quick": "🚀 Schnellstrategie-Modus",
+        "guided": "🎯 Geführter Planungsmodus",
+        "chat": "💬 Interaktiver Chat-Modus",
+        "advanced": "⚙️ Erweiterter Konfigurationsmodus"
+      },
+      "actions": {
+        "changeMode": "Modus ändern",
+        "viewAllStrategies": "Alle Strategien anzeigen",
+        "startConversation": "Strategiegespräch starten"
+      },
+      "activeStrategy": "Aktive Strategie:",
+      "created": "Erstellt",
+      "loading": "Marketingstrategie-Agent wird geladen...",
+      "loadingSubtitle": "Ihr personalisierter Marketingstrategie-Arbeitsbereich wird eingerichtet.",
+      "startPrompt": "Erzählen Sie mir von Ihrem Unternehmen und ich erstelle eine umfassende Marketingstrategie",
+      "orStartWith": "Oder starten Sie mit einem bestimmten Kontext:",
+      "contextCards": {
+        "starting": {
+          "title": "Gerade gestartet",
+          "description": "Bootstrap-Strategien für Unternehmen in der Frühphase"
+        },
+        "scaling": {
+          "title": "Bereit zu skalieren",
+          "description": "Wachstumsstrategien für expandierende Unternehmen"
+        },
+        "global": {
+          "title": "International expandieren",
+          "description": "Regionale Strategien für internationale Expansion"
+        }
+      },
+      "features": {
+        "budget": "Funktioniert mit jedem Budget",
+        "aiInsights": "KI-gestützte Einblicke",
+        "tactics": "Sofort umsetzbare Taktiken",
+        "contextAware": "Kontextbewusstes Reasoning",
+        "tradeoffs": "Erklärt Kompromisse",
+        "regional": "Regionale Expertise",
+        "iterative": "Iterative Verfeinerung",
+        "smartBudget": "Intelligente Budgetallokation",
+        "freeTactics": "Kostenlose Marketingtaktiken",
+        "dataInsights": "Datengestützte Einblicke"
+      },
+      "quickStrategy": {
+        "title": "Schnellstrategie-Generator",
+        "description": "Beantworten Sie 2 Fragen für Ihre Marketingstrategie",
+        "budgetQuestion": "Wie hoch ist Ihr monatliches Marketingbudget?",
+        "goalQuestion": "Was ist Ihr wichtigstes Marketingziel?",
+        "generateButton": "Meine Strategie generieren",
+        "cardTitle": "Schnellstrategie",
+        "cardDescription": "Vollständige Strategie in 2 Minuten",
+        "features": {
+          "smartBudget": "Intelligente Budgetallokation",
+          "channelRecs": "Kanalempfehlungen",
+          "messagingFramework": "Messaging-Framework",
+          "readyTactics": "Sofort einsetzbare Taktiken"
+        }
+      },
+      "guidedPlanning": {
+        "title": "Geführte Strategieplanung",
+        "description": "Lassen Sie uns gemeinsam Schritt für Schritt Ihre Marketingstrategie aufbauen",
+        "explanation": "Ich führe Sie durch die Erstellung einer umfassenden Marketingstrategie, indem ich nach Ihrem Unternehmen, Ihrer Zielgruppe und Ihren Zielen frage. Dieser dialogorientierte Ansatz stellt sicher, dass wir alles Wichtige abdecken und dabei einfach halten.",
+        "startButton": "Geführte Planung starten",
+        "cardTitle": "Geführte Planung",
+        "cardDescription": "Schritt-für-Schritt-Strategie-Builder",
+        "features": {
+          "conversational": "Dialogorientierter Ansatz",
+          "tailored": "Maßgeschneiderte Empfehlungen",
+          "bestPractice": "Best-Practice-Beratung",
+          "iterative": "Iterative Verfeinerung"
+        }
+      },
+      "advancedConfig": {
+        "title": "Erweiterte Konfiguration",
+        "description": "Volle Kontrolle über Ihre Marketingstrategie-Parameter",
+        "explanation": "Konfigurieren Sie jeden Aspekt Ihrer Marketingstrategie einschließlich Multi-Persona-Targeting, benutzerdefiniertem Kanal-Mix, detaillierter Budgetallokation und komplexer Kampagnenparameter. Empfohlen für erfahrene Marketer und Agenturen.",
+        "openButton": "Erweiterte Konfiguration öffnen",
+        "cardTitle": "Erweiterte Konfig.",
+        "cardDescription": "Volle Kontrolle über alle Parameter",
+        "features": {
+          "multiPersona": "Multi-Persona-Targeting",
+          "customChannel": "Benutzerdefinierter Kanal-Mix",
+          "detailedBudget": "Detaillierte Budgetierung",
+          "complexCampaigns": "Komplexe Kampagnen"
+        }
+      },
+      "budgetOptions": {
+        "bootstrap": "0 EUR (Bootstrap)",
+        "under500": "Unter 500 EUR",
+        "mid": "500-2.000 EUR",
+        "high": "2.000+ EUR"
+      },
+      "goalOptions": {
+        "firstCustomers": "Erste Kunden gewinnen",
+        "brandAwareness": "Markenbekanntheit steigern",
+        "leadGeneration": "Leads generieren",
+        "productLaunch": "Neues Produkt einführen"
+      },
+      "badges": {
+        "quick": "2 Min.",
+        "guided": "10 Min.",
+        "custom": "Individuell"
+      },
+      "header": {
+        "title": "Marketingstrategieplanung",
+        "description": "Überbrücken Sie die Lücke zwischen Kundenverständnis und Content-Erstellung"
+      },
+      "changeApproach": "Ansatz ändern",
+      "budget": "Budget",
+      "allOptionsNote": "Alle Optionen jederzeit über das Menü verfügbar. Wechseln Sie den Modus nach Bedarf."
+    }
+  },
+  "content": {
+    "name": "Content-Agent",
+    "description": "Ihr Content-Erstellungsspezialist",
+    "greeting": "Ich helfe Ihnen, ansprechende Inhalte zu erstellen, die konvertieren. Ich kann Content-Ideen generieren, Blogbeiträge entwerfen, Social-Media-Inhalte erstellen und Inhaltskalender planen.",
+    "placeholder": "Fragen Sie zu Content-Ideen, Blogbeiträgen... (z. B. 'Blogbeitrag-Ideen generieren')",
+    "page": {
+      "title": "Content-Erstellungs-Agent",
+      "subtitle": "Professionelle Content-Generierungstools mit KI-Intelligence",
+      "defaultSessionTitle": "Content-Erstellung",
+      "tabs": {
+        "generate": "Content generieren",
+        "myContent": "Mein Content"
+      },
+      "actions": {
+        "changeTool": "Tool wechseln",
+        "newSession": "Neue Sitzung",
+        "startChat": "Interaktiven Chat starten"
+      },
+      "strategy": {
+        "title": "KI-gestützte Content-Strategie",
+        "subtitle": "Ich habe Ihre Geschäftsdaten analysiert, um eine maßgeschneiderte Content-Strategie zu erstellen"
+      },
+      "stats": {
+        "strategy": "Strategie",
+        "personas": "Personas",
+        "contentCreated": "Erstellte Inhalte",
+        "recommendations": "Empfehlungen"
+      },
+      "tools": {
+        "seoBlog": "🔍 SEO-Blogbeitrag-Generator",
+        "thoughtLeadership": "📈 Thought-Leadership-Ersteller",
+        "uspContent": "🎯 USP-fokussierter Content-Generator",
+        "emailDrip": "📧 E-Mail-Drip-Kampagnen-Designer",
+        "socialCalendar": "📅 Social-Media-Kalender",
+        "chat": "💬 Interaktive Content-Erstellung"
+      },
+      "quickStart": {
+        "title": "Oder mit Chat starten",
+        "description": "Nicht sicher, welches Tool? Starten Sie ein Gespräch und ich helfe Ihnen, den perfekten Content für Ihre Bedürfnisse zu erstellen."
+      },
+      "features": {
+        "multiFormat": {
+          "title": "Multi-Format-Content",
+          "description": "Blogbeiträge, E-Mails, Social Media und Anzeigen"
+        },
+        "platform": {
+          "title": "Plattform-Optimierung",
+          "description": "Zugeschnitten auf die Best Practices jeder Social-Plattform"
+        },
+        "brandVoice": {
+          "title": "Markenstimme",
+          "description": "Konsistenter Ton und Messaging über alle Inhalte"
+        },
+        "research": {
+          "title": "Recherchefundiert",
+          "description": "Content basierend auf Daten und Best Practices"
+        },
+        "audience": {
+          "title": "Zielgruppenfokussiert",
+          "description": "Zugeschnitten auf Ihre Ziel-Personas und -Ziele"
+        },
+        "brand": {
+          "title": "Markenkonsistent",
+          "description": "Bewahrt Ihre einzigartige Stimme und Ihren Stil"
+        }
+      },
+      "toolGrid": {
+        "header": {
+          "title": "Wählen Sie Ihr Content-Erstellungstool",
+          "subtitle": "Wählen Sie aus unserer Suite KI-gestützter Content-Generatoren, um in Minuten professionelle Marketingmaterialien zu erstellen"
+        },
+        "stats": {
+          "activeTools": "Aktive Tools",
+          "contentTypes": "Content-Typen",
+          "avgGeneration": "Durchschn. Generierung",
+          "variations": "Variationen"
+        },
+        "tools": {
+          "seoBlog": {
+            "name": "SEO-Blog-Generator",
+            "description": "SEO-optimierte Blogbeiträge mit Keywords, Meta-Beschreibungen und strukturiertem Content erstellen"
+          },
+          "thoughtLeadership": {
+            "name": "Thought Leadership",
+            "description": "Experten-Content und mehrteilige Serien erstellen, die Sie als Branchenführer positionieren"
+          },
+          "uspContent": {
+            "name": "USP-fokussierter Content",
+            "description": "Content generieren, der Ihre Alleinstellungsmerkmale und Differenzierungsfaktoren hervorhebt"
+          },
+          "emailDrip": {
+            "name": "E-Mail-Drip-Kampagnen",
+            "description": "Vollständige E-Mail-Sequenzen für Nurturing, Onboarding und Engagement entwerfen"
+          },
+          "socialCalendar": {
+            "name": "Social-Media-Kalender",
+            "description": "Einen Monat Social-Media-Content über mehrere Plattformen planen und generieren"
+          },
+          "contentPlan": {
+            "name": "Inhaltsplan-Generator",
+            "description": "Umfassende 4-Wochen-Inhaltskalender erstellen, abgestimmt auf Ihre Strategie"
+          },
+          "contentIdeation": {
+            "name": "Content-Ideenfindung",
+            "description": "Kreative Content-Ideen basierend auf Trends und Zielgruppeninteressen generieren"
+          },
+          "blogTemplates": {
+            "name": "Blog-Schreibvorlagen",
+            "description": "Bewährte Blogbeitrag-Vorlagen für verschiedene Content-Typen nutzen"
+          },
+          "contentAnalysis": {
+            "name": "Content-Bedarfsanalyse",
+            "description": "Lücken in Ihrer Content-Strategie identifizieren und Empfehlungen erhalten"
+          }
+        },
+        "badges": {
+          "popular": "Beliebt",
+          "highImpact": "Hohe Wirkung",
+          "comingSoon": "Demnächst"
+        },
+        "buttons": {
+          "startCreating": "Erstellen starten"
+        },
+        "cta": {
+          "title": "Nicht sicher, wo Sie anfangen sollen?",
+          "description": "Probieren Sie unseren SEO-Blog-Generator für Quick Wins oder nutzen Sie den E-Mail-Kampagnen-Designer, um Ihre Leads zu pflegen",
+          "seoBlog": "SEO-Blog erstellen",
+          "emailCampaign": "E-Mail-Kampagne gestalten"
+        },
+        "recommendations": {
+          "loading": "Ihre Content-Bedürfnisse werden analysiert...",
+          "smartAnalysis": "Intelligente Content-Analyse",
+          "clarificationNeeded": "Klärung benötigt",
+          "clarificationMessage": "Ich muss Ihr Unternehmen besser verstehen, um relevante Empfehlungen zu geben",
+          "noRecommendations": {
+            "title": "Keine Empfehlungen verfügbar",
+            "description": "Vervollständigen Sie zuerst Ihre Marketingstrategie, um personalisierte Content-Empfehlungen zu erhalten",
+            "cta": "Marketingstrategie definieren"
+          },
+          "priorities": {
+            "title": "Ihre Content-Prioritäten",
+            "count": "{{count}} Empfehlungen",
+            "count_one": "{{count}} Empfehlung",
+            "confidence": "{{level}} Konfidenz"
+          },
+          "actions": {
+            "getStarted": "Loslegen",
+            "expand": "Erweitern",
+            "collapse": "Einklappen",
+            "startWriting": "Schreiben starten",
+            "showLess": "Weniger anzeigen",
+            "showMore": "+{{count}} weitere Empfehlungen"
+          },
+          "status": {
+            "completed": "Abgeschlossen",
+            "progress": "{{completed}} von {{total}} abgeschlossen"
+          }
+        }
+      }
+    }
+  },
+  "campaign_planning": {
+    "name": "Kampagnenplanungs-Agent",
+    "description": "Ihr Deployment-Intelligence-Spezialist",
+    "greeting": "Ich helfe Ihnen bei der Kampagnen-Deployment-Planung mit strategischen Frameworks und Optimierungsstrategien. Ich liefere Deployment-Pläne, A/B-Testing-Frameworks und Multi-Channel-Koordinations-Intelligence - keine Ausführung.",
+    "placeholder": "Fragen Sie zu Deployment-Planung, A/B-Testing... (z. B. 'Deployment-Plan erstellen')",
+    "page": {
+      "title": "Kampagnenplanungs-Agent",
+      "subtitle": "Strategisches Kampagnen-Deployment und Multi-Channel-Koordination",
+      "defaultSessionTitle": "Kampagnenplanung",
+      "features": {
+        "deployment": {
+          "title": "Deployment-Planung",
+          "description": "Strategische Frameworks für den Kampagnen-Rollout"
+        },
+        "testing": {
+          "title": "A/B-Testing",
+          "description": "Datengestützte Testing-Frameworks und Optimierung"
+        },
+        "coordination": {
+          "title": "Multi-Channel",
+          "description": "Koordinierte Kampagnen über alle Kanäle"
+        }
+      },
+      "plansDisplay": {
+        "title": "Kampagnenpläne",
+        "subtitle": "KI-gestützte Deployment-Strategien, identifiziert aus Ihrem Geschäftskontext",
+        "chatForPlans": "Chat für individuelle Pläne",
+        "badges": {
+          "iceScored": "ICE-bewertet",
+          "multiChannel": "Multi-Channel",
+          "deploymentReady": "Deployment-bereit"
+        },
+        "loading": "Ihr Geschäftskontext wird analysiert und strategische Kampagnenpläne werden generiert...",
+        "setupNeeded": {
+          "title": "Lassen Sie uns beginnen",
+          "button": "Einrichtung abschließen"
+        },
+        "clarificationNeeded": {
+          "title": "Ich benötige weitere Informationen",
+          "button": "Per Chat antworten"
+        },
+        "recommended": {
+          "title": "Empfohlene Kampagnenpläne",
+          "sortInfo": "Sortiert nach ICE-Score (Impact x Confidence x Ease)",
+          "plansGenerated": "{{count}} Pläne generiert"
+        },
+        "scores": {
+          "impact": "Impact",
+          "confidence": "Confidence",
+          "ease": "Ease",
+          "ice": "ICE"
+        },
+        "details": {
+          "channels": "Kanäle",
+          "duration": "Dauer",
+          "expectedOutcomes": "Erwartete Ergebnisse",
+          "prerequisites": "Voraussetzungen",
+          "riskFactors": "Risikofaktoren"
+        },
+        "actions": {
+          "deployPlan": "Diesen Plan deployen",
+          "viewDetails": "Details anzeigen",
+          "savePlan": "Plan speichern",
+          "saving": "Wird gespeichert..."
+        },
+        "emptyState": {
+          "title": "Noch keine Kampagnenpläne",
+          "description": "Wir konnten noch keine Kampagnenpläne generieren. Chatten Sie mit dem Agenten, um Ihre spezifischen Ziele zu besprechen oder laden Sie mehr Geschäftskontextdaten hoch.",
+          "button": "Mit Agent chatten"
+        }
+      },
+      "session": {
+        "newSession": "Neue Sitzung",
+        "backToPlans": "Zurück zu Kampagnenplänen"
+      },
+      "chatMode": {
+        "title": "Kampagnen-Umsetzungs-Chat",
+        "subtitle": "Individuelle Deployment-Strategien entwerfen"
+      },
+      "tabs": {
+        "deploymentFramework": "Deployment-Framework",
+        "deploymentFrameworkShort": "Framework",
+        "abTesting": "A/B-Testing",
+        "abTestingShort": "Testing",
+        "executionContext": "Umsetzungskontext",
+        "executionContextShort": "Kontext"
+      }
+    }
+  },
+  "competitive_intelligence": {
+    "name": "Competitive-Intelligence-Agent",
+    "description": "Ihr Marktanalyse-Spezialist",
+    "greeting": "Ich helfe Ihnen, Ihre Wettbewerbslandschaft zu verstehen. Ich kann Wettbewerber analysieren, Marktlücken identifizieren und strategische Chancen erkennen.",
+    "placeholder": "Fragen Sie zu Wettbewerbern, Marktanalyse... (z. B. 'Wettbewerber analysieren')",
+    "page": {
+      "title": "Competitive-Intelligence-Agent",
+      "subtitle": "Marktanalyse und Einblicke in die Wettbewerbslandschaft",
+      "defaultSessionTitle": "Wettbewerbsanalyse",
+      "features": {
+        "competitors": {
+          "title": "Wettbewerberanalyse",
+          "description": "Tiefgehende Analyse von Wettbewerberstrategien und Positionierung"
+        },
+        "marketGaps": {
+          "title": "Marktlücken",
+          "description": "Unerschlossene Chancen in Ihrem Markt identifizieren"
+        },
+        "opportunities": {
+          "title": "Strategische Chancen",
+          "description": "Umsetzbare Einblicke für Wettbewerbsvorteile"
+        }
+      },
+      "analysisDisplay": {
+        "title": "Competitive Intelligence",
+        "subtitle": "Strategische Wettbewerbsanalyse mit Echtzeit-Webrecherche",
+        "startResearch": "Individuelle Recherche starten",
+        "searchGrounding": {
+          "title": "Google Search Grounding aktiviert",
+          "description": "Klicken Sie auf ein Framework unten, um KI-gestützte Einblicke mit Echtzeitdaten zu erhalten: Preise, Features, aktuelle Launches, Marktpositionierung"
+        },
+        "frameworksTitle": "Wählen Sie ein Wettbewerbsanalyse-Framework"
+      },
+      "session": {
+        "newSession": "Neue Sitzung",
+        "backToAnalysis": "Zurück zur Analyse"
+      },
+      "frameworks": {
+        "badges": {
+          "popular": "Beliebt",
+          "competitorsOnly": "Nur Wettbewerber"
+        },
+        "youllGet": "Sie erhalten:",
+        "difficulty": {
+          "beginner": "Einsteiger",
+          "intermediate": "Fortgeschritten",
+          "advanced": "Experte"
+        },
+        "setupRequired": {
+          "title": "Richten Sie Ihr Unternehmensprofil für personalisierte Analysen ein",
+          "description": "Erhalten Sie KI-gestützte Wettbewerbseinblicke, zugeschnitten auf IHR Unternehmen, Ihre Wettbewerber und Ihre Branche",
+          "setupButton": "Unternehmensprofil einrichten (2 Min.)",
+          "continueGeneric": "Mit generischen Prompts fortfahren"
+        },
+        "swotAnalysis": {
+          "title": "SWOT-Analyse",
+          "description": "Wettbewerberstärken, -schwächen, Chancen und Risiken analysieren",
+          "expectedOutcome": "Umfassende SWOT-Matrix mit umsetzbaren Wettbewerbseinblicken"
+        },
+        "featureComparison": {
+          "title": "Feature-Vergleich",
+          "description": "Produktfeatures, Preise und Funktionen nebeneinander vergleichen",
+          "expectedOutcome": "Detaillierte Feature-Vergleichsmatrix mit Wettbewerbslücken"
+        },
+        "marketPositioning": {
+          "title": "Marktpositionierung",
+          "description": "Wettbewerbspositionierung, Zielmärkte und Differenzierung analysieren",
+          "expectedOutcome": "Marktpositionierungskarte mit Differenzierungsmöglichkeiten"
+        },
+        "companyIntelligence": {
+          "title": "Unternehmens-Intelligence",
+          "description": "Unternehmensgröße, Finanzierung, Wachstumskurs und strategische Richtung recherchieren (wettbewerberfokussiert)",
+          "expectedOutcome": "Umfassendes Unternehmensprofil mit strategischen Einblicken"
+        },
+        "pricingAnalysis": {
+          "title": "Preisanalyse",
+          "description": "Preismodelle, Paketstrategien und Wertmetriken vergleichen",
+          "expectedOutcome": "Preisvergleich mit Monetarisierungseinblicken"
+        },
+        "marketGapAnalysis": {
+          "title": "Marktlückenanalyse",
+          "description": "Unterversorgte Segmente, unerfüllte Bedürfnisse und Blue-Ocean-Chancen identifizieren (marktfokussiert)",
+          "expectedOutcome": "Marktlückenkarte mit Blue-Ocean-Chancen"
+        }
+      }
+    }
+  },
+  "client_success": {
+    "name": "Client-Success-Agent",
+    "description": "Ihr Retentionsspezialist",
+    "greeting": "Ich helfe Ihnen, Kunden zufrieden zu halten und zu wachsen. Ich kann die Client-Health bewerten, Retentionsstrategien erstellen und Expansionsmöglichkeiten identifizieren.",
+    "placeholder": "Fragen Sie zu Retentionsstrategien, Client-Health... (z. B. 'Retentionsstrategien')",
+    "page": {
+      "title": "Client-Success-Agent",
+      "subtitle": "Kundenretention und Expansionsstrategien",
+      "defaultSessionTitle": "Client-Success-Analyse",
+      "features": {
+        "health": {
+          "title": "Health-Scoring",
+          "description": "Kundenzufriedenheit und Engagement bewerten"
+        },
+        "retention": {
+          "title": "Retentionsstrategien",
+          "description": "Proaktive Ansätze zur Churn-Reduzierung"
+        },
+        "expansion": {
+          "title": "Expansionsmöglichkeiten",
+          "description": "Upselling- und Cross-Selling-Potenziale identifizieren"
+        }
+      }
+    }
+  },
+  "performance_intelligence": {
+    "name": "Performance-Intelligence-Agent",
+    "description": "Ihr Performance-Tracking-Spezialist",
+    "greeting": "Ich helfe Ihnen, die Marketing-Performance über Kampagnen hinweg zu verfolgen und zu analysieren. Ich kann Kennzahlen aggregieren, Trends identifizieren und umsetzbare Einblicke liefern.",
+    "placeholder": "Fragen Sie zu Datenanalyse, Kennzahlen... (z. B. 'Kampagnen-Performance analysieren')",
+    "page": {
+      "title": "Performance-Intelligence-Agent",
+      "subtitle": "Marketing-Performance-Tracking und Analytics",
+      "defaultSessionTitle": "Performance-Analyse",
+      "features": {
+        "metrics": {
+          "title": "Kennzahlen-Dashboard",
+          "description": "Performance-Daten über alle Kanäle aggregieren"
+        },
+        "trends": {
+          "title": "Trendanalyse",
+          "description": "Muster erkennen und Ergebnisse vorhersagen"
+        },
+        "actionable": {
+          "title": "Umsetzbare Einblicke",
+          "description": "Datengestützte Empfehlungen zur Optimierung"
+        }
+      },
+      "dashboard": {
+        "loading": "Dashboard-Kennzahlen werden geladen...",
+        "emptyState": {
+          "title": "Noch keine Kampagnendaten",
+          "description": "Importieren Sie Ihre Kampagnenkennzahlen, um ROI zu verfolgen, Quick Wins zu entdecken und KI-gestützte Performance-Einblicke zu erhalten",
+          "importCsv": "CSV-Daten importieren",
+          "manualEntry": "Manuelle Eingabe"
+        },
+        "capabilities": {
+          "roiAnalysis": {
+            "title": "ROI-Analyse",
+            "description": "ROI, ROAS und Rentabilität über Kampagnen berechnen"
+          },
+          "quickWins": {
+            "title": "Quick Wins",
+            "description": "Sofortige Optimierungschancen mit hoher Wirkung identifizieren"
+          },
+          "performanceAnalytics": {
+            "title": "Performance Analytics",
+            "description": "Tiefgehende Analyse von Kampagnenkennzahlen und Trends"
+          },
+          "budgetOptimization": {
+            "title": "Budgetoptimierung",
+            "description": "Budgetallokation basierend auf Performance-Daten optimieren"
+          }
+        }
+      },
+      "tools": {
+        "title": "Performance-Tools",
+        "subtitle": "Spezialisierte Tools für Datenmanagement, Visualisierung und Optimierung",
+        "importData": {
+          "title": "Daten importieren",
+          "description": "CSV-Import-Assistent mit Fuzzy-Kampagnenzuordnung"
+        },
+        "manageMetrics": {
+          "title": "Kampagnenkennzahlen verwalten",
+          "description": "Ihre Kampagnen-Performance-Daten anzeigen, bearbeiten und verwalten"
+        },
+        "visualize": {
+          "title": "Kennzahlen visualisieren",
+          "description": "Interaktive Diagramme und Visualisierungen von Performance-Daten"
+        },
+        "budgetCalculator": {
+          "title": "Budget-Rechner",
+          "description": "Optimale Budgetallokation über Kampagnen berechnen"
+        },
+        "settings": {
+          "title": "ROI-Einstellungen",
+          "description": "ROI-Berechnungen und Annahmen konfigurieren"
+        },
+        "historicalPerformance": {
+          "title": "Historische Performance",
+          "description": "Ausgaben-, Umsatz- und ROI-Trends im Zeitverlauf visualisieren"
+        },
+        "roiCalculator": {
+          "title": "ROI-Rechner",
+          "description": "Return on Investment mit Kampagnendaten berechnen"
+        },
+        "manualDataEntry": {
+          "title": "Manuelle Dateneingabe",
+          "description": "Schnelleingabe für einzelne Kampagnenkennzahlen"
+        },
+        "budgetOptimizer": {
+          "title": "Budget-Optimierer",
+          "description": "Budgetallokation mit 4 KI-gestützten Frameworks optimieren"
+        }
+      },
+      "aiAssistant": {
+        "title": "KI-Performance-Assistent",
+        "hasData": "Stellen Sie Fragen zu Ihren Kampagnendaten, erhalten Sie Empfehlungen oder analysieren Sie bestimmte Kennzahlen",
+        "noData": "Beginnen Sie mit Fragen zu ROI-Berechnungen, Budgetoptimierung oder Performance-Analyse-Best-Practices"
+      }
+    }
+  },
+  "quick_start": {
+    "name": "Quick-Start-Agent",
+    "description": "Ihr umfassender Onboarding-Spezialist",
+    "greeting": "Willkommen! Ich bin hier, um Ihnen einen schnellen Start zu ermöglichen. In nur 5 Minuten generiere ich eine umfassende Grundlage für Ihr Marketing: Strategieanalyse, Kunden-Personas und einen vollständigen Marketingplan. Lassen Sie uns Ihre Antworten in umsetzbare Intelligence verwandeln!",
+    "placeholder": "Erzählen Sie mir von Ihrem Unternehmen, um loszulegen...",
+    "page": {
+      "title": "Quick-Start-Agent",
+      "subtitle": "Erstellen Sie Ihre komplette Marketing-Grundlage in 5 Minuten",
+      "defaultSessionTitle": "Schnellstart",
+      "features": {
+        "fast": {
+          "title": "5-Minuten-Setup",
+          "description": "Beantworten Sie ein paar Fragen, erhalten Sie eine vollständige Strategie"
+        },
+        "comprehensive": {
+          "title": "Vollständige Grundlage",
+          "description": "Strategie, Personas und Marketingplan zusammen"
+        },
+        "actionable": {
+          "title": "Sofort umsetzbar",
+          "description": "Umsetzbare Intelligence vom ersten Tag"
+        }
+      }
+    }
+  },
+  "tools": {
+    "get_swot_analysis": "SWOT-Analyse",
+    "get_porters_five_forces": "Porter's Five Forces Analyse",
+    "get_jobs_to_be_done": "Jobs to Be Done Framework",
+    "get_business_model_canvas": "Business Model Canvas",
+    "get_ice_scoring": "ICE-Priorisierungs-Framework",
+    "get_bcg_matrix": "BCG Wachstums-Marktanteils-Matrix",
+    "get_vrio_analysis": "VRIO Ressourcenanalyse",
+    "get_three_horizons": "Three Horizons of Growth",
+    "get_blue_ocean_strategy": "Blue Ocean Strategy Canvas",
+    "get_mckinsey_7s": "McKinsey 7S Framework",
+    "get_okr_framework": "OKR (Objectives & Key Results)",
+    "get_persona_context": "Persona-Recherche",
+    "analyze_buyer_journey": "Buyer-Journey-Analyse",
+    "generate_content_brief": "Content-Brief-Erstellung",
+    "analyze_content_gaps": "Content-Lückenanalyse",
+    "generate_gtm_strategy": "Go-to-Market-Strategie",
+    "analyze_channel_mix": "Kanal-Mix-Analyse",
+    "analyze_metrics": "Performance-Kennzahlen-Analyse",
+    "calculate_roi": "ROI-Berechnung",
+    "plan_campaign": "Kampagnenplanung",
+    "analyze_ab_tests": "A/B-Test-Analyse",
+    "analyze_competitors": "Wettbewerbsanalyse",
+    "identify_market_gaps": "Marktlücken-Identifikation",
+    "calculate_health_score": "Client-Health-Score",
+    "identify_retention_risks": "Retentionsrisiko-Analyse"
+  },
+  "categories": {
+    "foundation": {
+      "name": "Grundlagen",
+      "description": "Ihre Marketing-Grundlage aufbauen"
+    },
+    "execution": {
+      "name": "Umsetzung",
+      "description": "Ihre Strategie in die Tat umsetzen"
+    },
+    "intelligence": {
+      "name": "Intelligence",
+      "description": "Optimieren und analysieren"
+    }
+  },
+  "navigation": {
+    "quickStart": "Schnellstart",
+    "strategy": "Strategie",
+    "persona": "Persona",
+    "marketingStrategy": "Marketingstrategie",
+    "content": "Content",
+    "campaignPlanning": "Kampagnenplanung",
+    "performanceIntelligence": "Performance Intelligence",
+    "competitiveIntel": "Competitive Intel",
+    "clientSuccess": "Client Success",
+    "planningCreation": "Planung & Erstellung",
+    "whiteLabel": "White Label"
+  },
+  "context": {
+    "companyProfile": {
+      "title": "Unternehmensprofil",
+      "dataCompleteness": "Datenvollständigkeit: {{score}}%",
+      "complete": "{{score}}% vollständig",
+      "basicInfoNeeded": "Grundlegende Unternehmensinformationen benötigt",
+      "fields": {
+        "website": "Website:",
+        "founded": "Gegründet:",
+        "teamSize": "Teamgröße:",
+        "hq": "Hauptsitz:",
+        "revenue": "Umsatz:",
+        "stage": "Phase:",
+        "funding": "Finanzierung:",
+        "industry": "Branche:",
+        "companySize": "Unternehmensgröße:",
+        "businessModel": "Geschäftsmodell:",
+        "companyStage": "Unternehmensphase:",
+        "fundingStatus": "Finanzierungsstatus:",
+        "annualRevenue": "Jahresumsatz:",
+        "marketingBudget": "Marketingbudget:"
+      },
+      "sections": {
+        "companyDetails": "Unternehmensdetails",
+        "technologyStack": "Technologie-Stack",
+        "operatingRegions": "Tätigkeitsregionen",
+        "geographicPresence": "Geografische Präsenz",
+        "marketCompetition": "Markt & Wettbewerb",
+        "targetMarketSegments": "Zielmarktsegmente:",
+        "mainProductsServices": "Hauptprodukte/-dienstleistungen:",
+        "keyCompetitors": "Hauptwettbewerber:",
+        "missionStatement": "Leitbild",
+        "coreValues": "Kernwerte"
+      }
+    },
+    "personas": {
+      "title": "Kunden-Personas",
+      "clickToSeeMore": "Klicken Sie auf den Pfeil, um {{count}} weitere Persona zu sehen",
+      "clickToSeeMore_other": "Klicken Sie auf den Pfeil, um {{count}} weitere Personas zu sehen",
+      "emptyState": "Kunden-Personas verbessern das Strategie-Targeting"
+    },
+    "cards": {
+      "activeCampaign": {
+        "title": "Aktive Kampagne",
+        "campaignName": "Kampagnenname",
+        "campaignBudget": "Kampagnenbudget",
+        "percentSpent": "{{percent}}% ausgegeben",
+        "targetAudience": "Zielgruppe",
+        "objectives": "Ziele",
+        "startDate": "Startdatum",
+        "endDate": "Enddatum",
+        "totalBudget": "Gesamtbudget",
+        "spentToDate": "Bisher ausgegeben",
+        "percentUtilized": "{{percent}}% genutzt",
+        "channelStrategy": "Kanalstrategie",
+        "ownedMedia": "Owned",
+        "earnedMedia": "Earned",
+        "paidMedia": "Paid",
+        "activePlatforms": "Aktive Plattformen",
+        "contentThemes": "Content-Themen",
+        "performanceMetrics": "Performance-Kennzahlen",
+        "metrics": {
+          "impressions": "Impressionen",
+          "clicks": "Klicks",
+          "ctr": "CTR",
+          "conversions": "Conversions"
+        },
+        "kpis": "Key Performance Indicators",
+        "target": "Ziel",
+        "campaignObjectives": "Kampagnenziele"
+      },
+      "aiLearning": {
+        "title": "KI-Lernverlauf",
+        "approved": "genehmigt",
+        "autoApproved": "automatisch genehmigt",
+        "total": "gesamt",
+        "fromSource": "Von {{source}}",
+        "confidence": "{{percent}}% Konfidenz",
+        "fields": "{{count}} Felder",
+        "identifiedPainPoints": "Identifizierte Pain Points",
+        "opportunities": "Chancen",
+        "autoExtractedNote": "Diese Einblicke wurden automatisch aus Ihren Gesprächen und genehmigten Inhalten extrahiert"
+      },
+      "business": {
+        "title": "Geschäftskontext",
+        "marketingBudget": "Marketingbudget",
+        "revenue": "Umsatz",
+        "businessModel": "Geschäftsmodell",
+        "cac": "CAC",
+        "ltv": "LTV",
+        "annualRevenue": "Jahresumsatz",
+        "customerAcquisitionCost": "Kundenakquisitionskosten",
+        "customerLifetimeValue": "Customer Lifetime Value",
+        "uniqueValueProposition": "Einzigartiges Wertversprechen",
+        "emptyState": "Geschäftskontext hilft, gezieltere Strategien zu erstellen"
+      },
+      "market": {
+        "title": "Marktfokus",
+        "targetMarket": "Zielmarkt",
+        "geographicFocus": "Geografischer Fokus",
+        "valueProposition": "Wertversprechen",
+        "competingWith": "Wettbewerb mit",
+        "marketSize": "Marktgröße",
+        "marketPosition": "Marktposition",
+        "growthStage": "Wachstumsphase",
+        "seasonalTrends": "Saisonale Trends",
+        "distributionChannels": "Vertriebskanäle",
+        "competitiveAdvantages": "Wettbewerbsvorteile",
+        "keyCompetitors": "Hauptwettbewerber",
+        "emptyState": "Marktdaten helfen, Chancen und Risiken zu identifizieren"
+      }
+    },
+    "personaCard": {
+      "at": "bei",
+      "customerPersona": "Kunden-Persona",
+      "global": "Global",
+      "insightsCount": "{{count}} Einblicke",
+      "satisfaction": "{{score}}% Zufriedenheit",
+      "location": "Standort",
+      "industry": "Branche",
+      "companySize": "Unternehmensgröße",
+      "revenue": "Umsatz",
+      "goals": "Ziele",
+      "painPoints": "Pain Points",
+      "personality": "Persönlichkeitsmerkmale",
+      "risk": "Risiko",
+      "innovation": "Innovation",
+      "decision": "Entscheidung",
+      "currentTools": "Aktuelle Tools",
+      "preferredChannels": "Bevorzugte Kanäle",
+      "background": "Hintergrund",
+      "aiInsights": "KI-Einblicke",
+      "insightsAvailable": "Einblicke aus Gesprächen und Analysen sind verfügbar"
+    },
+    "intelligentContext": {
+      "title": "Intelligenter Kontext",
+      "subtitle": "Ihr Geschäftsverständnis, unterstützt durch KI",
+      "completeness": "{{percent}}% vollständig",
+      "readyForStrategy": "Bereit für Strategie",
+      "needsMoreContext": "Mehr Kontext benötigt",
+      "customerPersonas": "Kunden-Personas",
+      "morePersonas": "+{{count}} weitere Personas",
+      "personasEmptyState": "Noch keine Personas. Erstellen Sie Personas, um das Targeting zu verbessern.",
+      "recentAIInsights": "Aktuelle KI-Einblicke",
+      "moreInsights": "+{{count}} weitere Einblicke",
+      "startStrategicConversation": "Strategiegespräch starten",
+      "refineContext": "Kontext verfeinern",
+      "guidanceReady": "Ihr Geschäftskontext ist bereit. Starten Sie ein Strategiegespräch, um eine personalisierte Marketingstrategie zu erstellen.",
+      "guidanceNeedsContext": "Fügen Sie mehr Geschäftskontext hinzu, um bessere Strategieempfehlungen zu erhalten."
+    },
+    "alert": {
+      "client": "Kunde:",
+      "campaign": "Kampagne:",
+      "budget": "Budget:",
+      "objectives": "Ziele:",
+      "switchClient": "Kunde wechseln",
+      "switchCampaign": "Kampagne wechseln"
+    },
+    "intelligentDisplay": {
+      "header": {
+        "title": "KI-gestützte Marketingstrategie",
+        "subtitle": "Ich habe Ihre Geschäftsdaten analysiert, um eine maßgeschneiderte Marketingstrategie zu erstellen"
+      },
+      "stats": {
+        "dataQuality": "Datenqualität",
+        "personas": "Personas",
+        "activeCampaign": "Aktive Kampagne",
+        "aiInsights": "KI-Einblicke"
+      },
+      "recentLearnings": "Aktuelle KI-Erkenntnisse",
+      "continueWork": {
+        "title": "Aktuelle Arbeit fortsetzen",
+        "viewAll": "Alle anzeigen",
+        "orStartFresh": "oder neu beginnen"
+      },
+      "actions": {
+        "generateStrategy": "Marketingstrategie generieren",
+        "refineContext": "Geschäftskontext verfeinern"
+      },
+      "helpText": "Um eine effektive Marketingstrategie zu generieren, geben Sie bitte mehr Informationen über Ihr Unternehmen an. Klicken Sie auf \"Geschäftskontext verfeinern\", um fehlende Details hinzuzufügen.",
+      "promptTemplate": {
+        "intro": "Helfen Sie mir, eine umfassende Marketingstrategie basierend auf folgendem Geschäftskontext zu entwickeln:",
+        "company": "Unternehmen",
+        "industry": "Branche",
+        "organizationType": "Organisationstyp",
+        "targetMarket": "Zielmarkt",
+        "geographicFocus": "Geografischer Fokus",
+        "businessModel": "Geschäftsmodell",
+        "marketingBudget": "Marketingbudget",
+        "customerPersonas": "Kunden-Personas",
+        "activeCampaign": "Aktive Kampagne",
+        "campaignBudget": "Kampagnenbudget"
+      }
+    },
+    "strategyList": {
+      "loading": "Strategien werden geladen...",
+      "empty": {
+        "title": "Noch keine Strategien",
+        "description": "Erstellen Sie Ihre erste Marketingstrategie, um mit der Kampagnenplanung zu beginnen",
+        "createFirst": "Erste Strategie erstellen"
+      },
+      "types": {
+        "productLaunch": "Produkteinführung",
+        "brandAwareness": "Markenbekanntheit",
+        "leadGeneration": "Lead-Generierung",
+        "customerRetention": "Kundenbindung",
+        "marketExpansion": "Marktexpansion"
+      },
+      "actions": {
+        "viewDetails": "Details anzeigen",
+        "edit": "Bearbeiten",
+        "duplicate": "Duplizieren",
+        "archive": "Archivieren",
+        "restore": "Wiederherstellen"
+      },
+      "archived": "Archiviert"
+    },
+    "confirmation": {
+      "title": "Neue Geschäftseinblicke erkannt",
+      "subtitle": "Wir haben Folgendes aus Ihrem Gespräch gelernt. Speichern, um zukünftige Empfehlungen zu verbessern?",
+      "confidence": "Konfidenz",
+      "from": "Aus {{agentType}}-Gespräch",
+      "noContext": "Aus diesem Gespräch wurde kein Geschäftskontext extrahiert.",
+      "placeholder": "Mehrere Einträge mit Kommas trennen",
+      "actions": {
+        "editBefore": "Vor dem Speichern bearbeiten",
+        "cancelEdit": "Bearbeitung abbrechen",
+        "doneEditing": "Bearbeitung fertig",
+        "dontSave": "Nicht speichern",
+        "saveAll": "Alles speichern",
+        "saving": "Wird gespeichert..."
+      }
+    },
+    "saveStatus": {
+      "saving": "Wird gespeichert...",
+      "autoSaved": "Automatisch gespeichert",
+      "draftSaved": "Entwurf gespeichert",
+      "saveFailed": "Speichern fehlgeschlagen",
+      "finalized": "Finalisiert",
+      "markAsFinal": "Als endgültig markieren",
+      "finalizing": "Wird finalisiert...",
+      "toast": {
+        "saved": "Antwort automatisch gespeichert",
+        "savedDescription": "Ihre Antwort wurde als Entwurf gespeichert",
+        "finalized": "Output finalisiert",
+        "finalizedDescription": "Dieser Output wurde als endgültig markiert",
+        "viewOutputs": "Outputs anzeigen",
+        "failedFinalize": "Output konnte nicht finalisiert werden"
+      }
+    },
+    "sidebar": {
+      "tabs": {
+        "history": "Verlauf",
+        "outputs": "{{name}}"
+      },
+      "newSession": "Neue Sitzung",
+      "active": "Aktiv",
+      "archived": "Archiviert",
+      "emptyStates": {
+        "noArchived": "Keine archivierten Sitzungen",
+        "archivedHint": "Archivierte Sitzungen erscheinen hier",
+        "viewActive": "Aktive Sitzungen anzeigen",
+        "noSessions": "Noch keine {{agentType}}-Sitzungen",
+        "createFirst": "Erstellen Sie Ihre erste {{agentType}}-Sitzung",
+        "noOutputs": "Noch keine {{outputType}} gespeichert",
+        "startSession": "Erstellen Sie eine {{agentType}}-Sitzung, um zu beginnen",
+        "startButton": "Sitzung starten"
+      },
+      "loadingOutputs": "{{outputType}} werden geladen...",
+      "showMore": "{{count}} mehr anzeigen",
+      "showLess": "Weniger anzeigen",
+      "tooltips": {
+        "newAgent": "Neuer {{agentName}}"
+      },
+      "collapseSidebar": "Seitenleiste einklappen",
+      "expandSidebar": "Seitenleiste ausklappen",
+      "contextBadges": {
+        "client": "Kunde:",
+        "campaign": "Kampagne:"
+      },
+      "archivedBadge": "Archiviert",
+      "errors": {
+        "exportFailed": "Export fehlgeschlagen. Bitte versuchen Sie es erneut.",
+        "archiveFailed": "Archivierung fehlgeschlagen. Bitte versuchen Sie es erneut."
+      }
+    },
+    "sessionHistory": {
+      "title": "Sitzungsverlauf",
+      "newSession": "Neue Sitzung",
+      "emptyState": {
+        "title": "Noch keine Sitzungen",
+        "description": "Starten Sie ein Gespräch, um Ihre erste Sitzung zu erstellen"
+      },
+      "untitledSession": "Unbenannte Sitzung",
+      "messageCount": {
+        "singular": "Nachr.",
+        "plural": "Nachr."
+      }
+    },
+    "header": {
+      "sessionPrefix": "Sitzung:",
+      "newSession": "Neue Sitzung"
+    },
+    "quickStartSave": {
+      "title": "Ihre Schnellstart-Intelligence speichern?",
+      "description": "Speichern Sie Ihre umfassende Marketing-Intelligence (Strategie, Personas und Empfehlungen) als Referenz.",
+      "saveButton": "Diesen Plan speichern",
+      "hint": "Oder tippen Sie einfach \"Plan speichern\""
+    },
+    "personaSave": {
+      "detected": "{{count}} Persona erkannt",
+      "detected_other": "{{count}} Personas erkannt",
+      "saveAll": "Alle speichern",
+      "saving": "Wird gespeichert...",
+      "saved": "Gespeichert",
+      "savePersona": "Persona speichern",
+      "demographics": "Demografie",
+      "goals": "Ziele",
+      "painPoints": "Pain Points",
+      "moreItems": "+{{count}} weitere..."
+    },
+    "strategySave": {
+      "title": "Marketingstrategie erkannt",
+      "sections": "{{count}} Abschnitte",
+      "campaign": "Kampagne:",
+      "budget": "Budget:",
+      "duration": "Dauer:",
+      "mediaMix": "Media Mix:",
+      "objectives": "Ziele:",
+      "targetPersonas": "Ziel-Personas:",
+      "targetVerticals": "Zielbranchen:",
+      "summary": "Zusammenfassung:",
+      "strategyComponents": "Strategie-Komponenten:",
+      "moreSections": "+{{count}} weitere Abschnitte",
+      "saveTo": "Speichern in:",
+      "campaignFolder": "Kampagnenordner",
+      "companyOutputs": "Unternehmens-Outputs",
+      "saveStrategy": "Strategie speichern",
+      "saving": "Wird gespeichert...",
+      "saved": "Gespeichert",
+      "viewInOutputs": "In Outputs anzeigen",
+      "nextHint": "Nächster Schritt: Content-Agent für Materialerstellung nutzen"
+    },
+    "actionPlan": {
+      "workflowSuggestions": "Intelligente Workflow-Vorschläge ({{count}})",
+      "startWorkflow": "Workflow starten",
+      "viewAllSuggestions": "Alle {{count}} Vorschläge anzeigen",
+      "individualActions": "Einzelaktionen",
+      "match": "{{percent}}% Übereinstimmung",
+      "impact": "{{level}} Wirkung",
+      "nextBestActions": "Nächste beste Aktionen:",
+      "priority": "Priorität {{value}}/10",
+      "confirmTitle": "Mit {{agentName}} fortfahren?",
+      "confirmDescription": "Ich helfe Ihnen, an diesen Aktionspunkten aus Ihrer strategischen Analyse zu arbeiten:",
+      "relatedTasks": "{{count}} verwandte Aufgabe",
+      "relatedTasks_other": "{{count}} verwandte Aufgaben",
+      "confidence": "Konfidenz: {{percent}}%",
+      "andMoreTasks": "...und {{count}} weitere Aufgaben",
+      "stayHere": "Hier bleiben",
+      "continueToAgent": "Zum Agenten weiter",
+      "noSuggestions": "Keine Workflow-Vorschläge verfügbar",
+      "noSuggestionsHint": "Versuchen Sie, spezifischere Aktionspunkte anzugeben",
+      "analyzingPlan": "Ihr Aktionsplan wird analysiert...",
+      "nextStepsAvailable": "Nächste Schritte verfügbar",
+      "start": "Starten"
+    },
+    "mobileHistory": {
+      "ariaLabel": "Sitzungsverlauf anzeigen"
+    }
+  },
+  "quickSelector": {
+    "title": "Agent auswählen",
+    "subtitle": "KI-gestützte Tools für Ihre Marketing-Intelligence",
+    "descriptions": {
+      "quickStart": "Schnell loslegen",
+      "strategy": "11 Frameworks",
+      "persona": "Kundenprofilierung",
+      "marketingStrategy": "Go-to-Market",
+      "content": "9 Generierungs-Tools",
+      "campaignPlanning": "Multi-Channel-Deployment",
+      "performanceIntelligence": "Analytics & ROI",
+      "competitiveIntel": "Marktanalyse",
+      "clientSuccess": "Retentionsstrategien"
+    },
+    "locked": "Admin kontaktieren"
+  },
+  "chat": {
+    "you": "Sie",
+    "thinking": "Denkt nach...",
+    "retrying": "Wiederholung ({{current}}/{{max}})",
+    "clearContext": "Kontext löschen",
+    "contextAlert": {
+      "title": "Kontext vom Strategie-Agenten",
+      "actionItems": "Sie haben {{count}} Aktionspunkte zu bearbeiten:",
+      "andMore": "...und {{count}} weitere",
+      "prefillNote": "Das Eingabefeld unten wurde mit einem vorgeschlagenen Prompt basierend auf diesen strategischen Prioritäten vorausgefüllt."
+    }
+  },
+  "fileUpload": {
+    "attachFiles": "Dateien anhängen",
+    "addToChat": "Zum Chat hinzufügen",
+    "fileTypeHint": "PDF oder TXT, max. {{maxSize}} MB",
+    "errors": {
+      "unsupportedType": "Nur PDF- und TXT-Dateien werden unterstützt",
+      "fileTooLarge": "Datei zu groß. Maximalgröße: {{maxSize}} MB"
+    },
+    "removeFile": "{{filename}} entfernen"
+  },
+  "toolLoading": {
+    "running": "{{agentName}} führt {{toolName}} aus...",
+    "estimatedTime": "Dies dauert in der Regel {{time}}"
+  },
+  "personaChat": {
+    "detected": "Persona erkannt: {{name}}",
+    "saveAsPersona": "Als Persona speichern"
+  },
+  "interview": {
+    "mode": "Interview-Modus",
+    "thinking": "Denkt nach...",
+    "placeholder": "Fragen Sie {{name}} nach Erfahrungen, Bedürfnissen und Herausforderungen..."
+  },
+  "personas": {
+    "insightCapture": {
+      "savedTitle": "Einblick gespeichert",
+      "savedDescription": "Der Einblick wurde in Ihrer Wissensbasis gespeichert",
+      "warningTitle": "Warnung",
+      "warningDescription": "Einblick wurde möglicherweise nicht korrekt gespeichert",
+      "errorTitle": "Speichern fehlgeschlagen",
+      "errorDescription": "Einblick konnte nicht gespeichert werden: {{error}}",
+      "titleNew": "{{count}} neue Einblicke",
+      "titleCount": "{{count}} Einblicke erfasst",
+      "titleSaved": "{{count}} Einblicke gespeichert",
+      "title": "Live-Einblicke",
+      "analyzing": "Wird analysiert...",
+      "listening": "Einblicke aus dem Gespräch werden erfasst...",
+      "actions": "Aktionen",
+      "saveInsight": "Einblick speichern",
+      "saving": "Wird gespeichert...",
+      "savedSuccessfully": "Erfolgreich gespeichert",
+      "saveAll": "Alle Einblicke speichern"
+    },
+    "detector": {
+      "detecting": "Personas werden erkannt...",
+      "errorDetecting": "Persona-Erkennung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "notSpecified": "Nicht angegeben",
+      "detectedCount": "{{count}} Persona erkannt",
+      "detectedCount_other": "{{count}} Personas erkannt",
+      "aiDetected": "KI-erkannt",
+      "saved": "Gespeichert",
+      "industry": "Branche",
+      "location": "Standort",
+      "goals": "Ziele",
+      "painPoints": "Pain Points",
+      "keyQuote": "Schlüsselzitat",
+      "preferredChannels": "Bevorzugte Kanäle",
+      "saveToLibrary": "In Persona-Bibliothek speichern"
+    },
+    "form": {
+      "editTitle": "Persona bearbeiten",
+      "createTitle": "Neue Persona erstellen",
+      "editDescription": "Persona-Profilinformationen aktualisieren",
+      "createDescription": "Eine neue Kunden-Persona zu Ihrem Arbeitsbereich hinzufügen",
+      "tabs": {
+        "basicInfo": "Grundinfos",
+        "goalsPainPoints": "Ziele & Pain Points",
+        "toolsWorkflow": "Tools & Workflow",
+        "personality": "Persönlichkeit",
+        "insights": "Einblicke"
+      },
+      "fields": {
+        "name": "Name",
+        "title": "Titel",
+        "companyName": "Firmenname",
+        "industry": "Branche",
+        "vertical": "Branchensegment",
+        "location": "Standort",
+        "companySize": "Unternehmensgröße",
+        "customerStatus": "Kundenstatus",
+        "satisfactionScore": "Zufriedenheitswert",
+        "backgroundStory": "Hintergrundgeschichte",
+        "characteristicQuote": "Charakteristisches Zitat",
+        "techSavviness": "Technisches Verständnis",
+        "riskTolerance": "Risikobereitschaft",
+        "innovationAppetite": "Innovationsbereitschaft",
+        "responseStyle": "Kommunikationsstil",
+        "tags": "Tags"
+      },
+      "placeholders": {
+        "name": "Max Mustermann",
+        "title": "Projektmanager",
+        "companyName": "Muster GmbH",
+        "selectIndustry": "Branche auswählen",
+        "selectVertical": "Branchensegment auswählen",
+        "location": "München, Deutschland",
+        "companySize": "51-200 Mitarbeiter",
+        "backgroundStory": "Kurzer Hintergrund zu Erfahrung und Kontext dieser Persona...",
+        "characteristicQuote": "Ein Zitat, das die Denkweise dieser Persona repräsentiert...",
+        "addTag": "Tag hinzufügen..."
+      },
+      "customerStatuses": {
+        "prospect": "Interessent",
+        "active": "Aktiver Kunde",
+        "churned": "Abgewandert",
+        "competitorUser": "Wettbewerber-Nutzer"
+      },
+      "responseStyles": {
+        "casual": "Locker",
+        "professional": "Professionell",
+        "technical": "Technisch",
+        "executive": "Executive"
+      },
+      "insightsDescription": "Einblicke aus Interviews mit dieser Persona anzeigen",
+      "cancel": "Abbrechen",
+      "saving": "Wird gespeichert...",
+      "savePersona": "Persona speichern"
+    },
+    "insights": {
+      "title": "Persona-Einblicke",
+      "loading": "Einblicke werden geladen...",
+      "noInsights": "Noch keine Einblicke erfasst. Führen Sie Interviews mit Personas durch, um Einblicke zu Pain Points, Zielen und Präferenzen zu generieren.",
+      "topPainPoints": "Top Pain Points",
+      "personasAffected": "{{count}} Persona betroffen",
+      "personasAffected_other": "{{count}} Personas betroffen",
+      "personaSpecific": "Persona-spezifische Einblicke",
+      "recentInsights": "Aktuelle Einblicke",
+      "autoApproved": "Automatisch genehmigt",
+      "viewAll": "Alle Einblicke anzeigen",
+      "export": "Exportieren",
+      "applyToCampaign": "Auf Kampagne anwenden",
+      "confirmDelete": "Sind Sie sicher, dass Sie diesen Einblick löschen möchten?",
+      "deleteFailed": "Einblick konnte nicht gelöscht werden",
+      "deleteInsight": "Einblick löschen",
+      "close": "Schließen",
+      "modal": {
+        "title": "Einblick-Details",
+        "description": "Persona-Interview-Einblicke anzeigen und verwalten",
+        "confidence": "Konfidenz",
+        "fullDetails": "Vollständige Details",
+        "categories": "Kategorien",
+        "type": "Typ",
+        "created": "Erstellt"
+      }
+    },
+    "sidebar": {
+      "title": "Personas",
+      "total": "{{count}} gesamt",
+      "loading": "Personas werden geladen...",
+      "new": "Neu",
+      "filters": {
+        "all": "Alle",
+        "active": "Aktiv",
+        "archived": "Archiviert"
+      },
+      "archived": "Archiviert",
+      "interview": "Interview",
+      "duplicate": "Duplizieren",
+      "noPersonasFound": "Keine Personas für Filter \"{{filter}}\" gefunden",
+      "deleteTitle": "{{name}} löschen?",
+      "deleteDescriptionArchived": "Diese archivierte Persona wird dauerhaft gelöscht.",
+      "deleteDescriptionActive": "Diese Persona wird zuerst archiviert. Sie können sie später wiederherstellen.",
+      "deleteConfirm": "Persona löschen"
+    }
+  },
+  "toolRenderers": {
+    "common": {
+      "saveToWorkspace": "Im Arbeitsbereich speichern",
+      "copyText": "Text kopieren",
+      "copied": "Kopiert!",
+      "copyAll": "Alles kopieren",
+      "noItems": "Keine Einträge in dieser Kategorie",
+      "noFactors": "Keine Faktoren",
+      "toolOutput": "Tool-Output",
+      "clickToViewData": "Klicken, um Daten anzuzeigen"
+    },
+    "analysisReport": {
+      "title": "Analysebericht",
+      "summary": "Zusammenfassung",
+      "keyFindings": "Kernerkenntnisse",
+      "recommendations": "Empfehlungen"
+    },
+    "bcgMatrix": {
+      "title": "BCG Wachstums-Marktanteils-Matrix",
+      "questionMarks": "Fragezeichen",
+      "stars": "Stars",
+      "dogs": "Arme Hunde",
+      "cashCows": "Cash Cows",
+      "highGrowthHighShare": "Hohes Wachstum, hoher Anteil",
+      "lowGrowthHighShare": "Niedriges Wachstum, hoher Anteil",
+      "highGrowthLowShare": "Hohes Wachstum, niedriger Anteil",
+      "lowGrowthLowShare": "Niedriges Wachstum, niedriger Anteil",
+      "lowMarketShare": "Niedriger Marktanteil",
+      "highMarketShare": "Hoher Marktanteil",
+      "relativeMarketShare": "Relativer Marktanteil",
+      "portfolioBalance": "Portfoliobalance",
+      "investmentPriorities": "Investitionsprioritäten",
+      "growth": "Wachstum",
+      "share": "Anteil"
+    },
+    "blogPost": {
+      "title": "Blogbeitrag-Entwurf",
+      "outline": "Gliederung",
+      "body": "Text",
+      "seoKeywords": "SEO-Keywords",
+      "exportToCms": "Ins CMS exportieren"
+    },
+    "blueOcean": {
+      "title": "Blue Ocean Strategy Canvas",
+      "eliminate": "Eliminieren",
+      "reduce": "Reduzieren",
+      "raise": "Steigern",
+      "create": "Erschaffen",
+      "removeCompletely": "Vollständig entfernen",
+      "belowIndustry": "Unter Branchenstandard",
+      "aboveIndustry": "Über Branchenstandard",
+      "industryNeverOffered": "Branche hat es nie angeboten",
+      "currentRedOcean": "Aktueller Red Ocean",
+      "blueOceanOpportunity": "Blue-Ocean-Chance",
+      "valueInnovation": "Wertinnovationsstrategie"
+    },
+    "businessCanvas": {
+      "title": "Business Model Canvas",
+      "keyPartnerships": "Schlüsselpartner",
+      "keyActivities": "Schlüsselaktivitäten",
+      "keyResources": "Schlüsselressourcen",
+      "valuePropositions": "Wertversprechen",
+      "customerRelationships": "Kundenbeziehungen",
+      "channels": "Kanäle",
+      "customerSegments": "Kundensegmente",
+      "costStructure": "Kostenstruktur",
+      "revenueStreams": "Einnahmequellen",
+      "developBusinessPlan": "Geschäftsplan entwickeln"
+    },
+    "buyerJourney": {
+      "title": "Buyer-Journey-Map",
+      "forPersona": "Für Persona: {{name}}",
+      "keyQuestions": "Schlüsselfragen:",
+      "contentOpportunities": "Content-Chancen:",
+      "generateContentIdeas": "Content-Ideen generieren"
+    },
+    "contentCalendar": {
+      "title": "Inhaltskalender",
+      "dateRange": "Von {{start}} bis {{end}}"
+    },
+    "contentIdea": {
+      "title": "Content-Idee",
+      "angle": "Blickwinkel",
+      "targetPersona": "Ziel-Persona",
+      "saveIdea": "Idee speichern",
+      "draftThisPost": "Diesen Beitrag entwerfen"
+    },
+    "forecast": {
+      "title": "{{metric}}-Prognose",
+      "forNextPeriod": "Für den nächsten {{period}}",
+      "confidence": "Konfidenz: {{level}}%",
+      "assumptions": "Annahmen:"
+    },
+    "ice": {
+      "title": "ICE-Priorisierungsanalyse",
+      "noData": "Keine Priorisierungsdaten verfügbar",
+      "topPriority": "HÖCHSTE PRIORITÄT",
+      "impact": "Impact",
+      "confidence": "Confidence",
+      "ease": "Ease",
+      "overallPriorityScore": "Gesamtprioritätswert",
+      "iceFormula": "ICE Score = (Impact x Confidence x Ease) / 100",
+      "recommendation": "Empfehlung",
+      "resourceConsiderations": "Ressourcenüberlegungen",
+      "createActionPlan": "Aktionsplan erstellen",
+      "exportAnalysis": "Analyse exportieren"
+    },
+    "interviewQuestions": {
+      "title": "Interview-Fragen",
+      "forValidating": "Zur Validierung der Persona: {{name}}",
+      "addToGuide": "Zum Interview-Leitfaden hinzufügen"
+    },
+    "jtbd": {
+      "title": "Jobs to Be Done Analyse",
+      "primaryJobs": "Primäre Jobs",
+      "job": "Job {{number}}",
+      "functional": "Funktional",
+      "emotional": "Emotional",
+      "social": "Sozial",
+      "currentSolutions": "Aktuelle Lösungen",
+      "underservedJobs": "Unterversorgte Jobs",
+      "innovationOpportunities": "Innovationschancen",
+      "highOpportunity": "Hohe Chance",
+      "goodOpportunity": "Gute Chance",
+      "moderateOpportunity": "Moderate Chance",
+      "lowOpportunity": "Geringe Chance"
+    },
+    "mckinsey7s": {
+      "title": "McKinsey 7S Framework",
+      "organizationalAlignment": "Organisatorischer Ausrichtungswert",
+      "hardElements": "Harte Elemente",
+      "softElements": "Weiche Elemente",
+      "currentState": "Ist-Zustand",
+      "desiredState": "Soll-Zustand",
+      "gapAnalysis": "Lückenanalyse",
+      "actionRequired": "Handlungsbedarf",
+      "current": "Ist",
+      "desired": "Soll",
+      "gap": "Lücke",
+      "action": "Aktion",
+      "criticalMisalignments": "Kritische Fehlausrichtungen",
+      "strategicRecommendations": "Strategische Empfehlungen",
+      "strategy": "Strategie",
+      "structure": "Struktur",
+      "systems": "Systeme",
+      "sharedValues": "Gemeinsame Werte",
+      "style": "Führungsstil",
+      "staff": "Personal",
+      "skills": "Fähigkeiten",
+      "strategyDesc": "Plan zur Erzielung von Wettbewerbsvorteilen",
+      "structureDesc": "Wie die Organisation strukturiert ist",
+      "systemsDesc": "Tägliche Aktivitäten und Prozesse",
+      "sharedValuesDesc": "Kernwerte und Kultur",
+      "styleDesc": "Führungs- und Managementstil",
+      "staffDesc": "Mitarbeiter und Fähigkeiten",
+      "skillsDesc": "Kompetenzen und Fähigkeiten"
+    },
+    "okr": {
+      "title": "OKRs Framework",
+      "successMetrics": "Erfolgskennzahlen",
+      "reviewCadence": "Überprüfungsrhythmus",
+      "companyOkrs": "Unternehmens-OKRs",
+      "teamOkrs": "Team-OKRs",
+      "objective": "Ziel {{number}}",
+      "teamObjective": "Team-Ziel {{number}}",
+      "timeFrame": "Zeitrahmen: {{value}}",
+      "owner": "Verantwortlich: {{value}}",
+      "keyResults": "Schlüsselergebnisse",
+      "strategicAlignment": "Strategische Ausrichtung"
+    },
+    "optimization": {
+      "title": "Optimierungschancen",
+      "area": "Bereich: {{value}}",
+      "impact": "Wirkung: {{value}}"
+    },
+    "persona": {
+      "title": "Kunden-Persona",
+      "demographics": "Demografie",
+      "psychographics": "Psychografie",
+      "goals": "Ziele",
+      "painPoints": "Pain Points",
+      "communicationChannels": "Kommunikationskanäle",
+      "mapBuyerJourney": "Buyer Journey abbilden"
+    },
+    "porters": {
+      "title": "Porter's Five Forces Analyse",
+      "threatOfNewEntrants": "Bedrohung durch neue Anbieter",
+      "bargainingPowerOfSuppliers": "Verhandlungsmacht der Lieferanten",
+      "industryRivalry": "Branchenrivalität",
+      "bargainingPowerOfBuyers": "Verhandlungsmacht der Käufer",
+      "threatOfSubstitutes": "Bedrohung durch Substitute",
+      "core": "KERN",
+      "lowThreat": "Geringe Bedrohung",
+      "moderate": "Moderat",
+      "highThreat": "Hohe Bedrohung",
+      "low": "niedrig",
+      "high": "hoch",
+      "viewDetails": "Details anzeigen",
+      "generateStrategy": "Strategie generieren"
+    },
+    "swot": {
+      "title": "SWOT-Analyse",
+      "strengths": "Stärken",
+      "weaknesses": "Schwächen",
+      "opportunities": "Chancen",
+      "threats": "Risiken",
+      "createActionPlan": "Aktionsplan erstellen"
+    },
+    "threeHorizons": {
+      "title": "Three Horizons of Growth",
+      "horizon1Title": "Horizont 1: Kerngeschäft",
+      "horizon1Subtitle": "Verteidigen und Erweitern",
+      "horizon2Title": "Horizont 2: Aufkommende Chancen",
+      "horizon2Subtitle": "Neue Fähigkeiten aufbauen",
+      "horizon3Title": "Horizont 3: Transformative Wetten",
+      "horizon3Subtitle": "Zukunftsoptionen schaffen",
+      "resourceAllocation": "Ressourcenallokationsstrategie",
+      "expected": "Erwartet: {{value}}"
+    },
+    "vrio": {
+      "title": "VRIO-Analyse",
+      "resourceCapability": "Ressource/Fähigkeit",
+      "valuable": "Wertvoll",
+      "rare": "Selten",
+      "inimitable": "Unnachahmlich",
+      "organized": "Organisiert",
+      "competitiveImplication": "Wettbewerbsimplikation",
+      "coreCompetencies": "Kernkompetenzen",
+      "strategicImplications": "Strategische Implikationen",
+      "frameworkKey": "VRIO Framework Schlüssel:",
+      "valuableDesc": "Ermöglicht Chancen oder neutralisiert Bedrohungen",
+      "rareDesc": "Von wenigen Wettbewerbern kontrolliert",
+      "inimitableDesc": "Schwierig oder kostspielig zu imitieren",
+      "organizedDesc": "Unternehmen kann Wert erfassen"
+    }
+  }
+}

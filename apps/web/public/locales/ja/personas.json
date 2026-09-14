@@ -1,0 +1,140 @@
+{
+  "title": "顧客ペルソナ",
+  "subtitle": "ターゲット顧客を理解し、定義する",
+  "list": {
+    "title": "すべてのペルソナ",
+    "empty": "まだペルソナがありません",
+    "emptyDescription": "最初のペルソナを作成して、ターゲット顧客の理解を始めましょう",
+    "createFirst": "最初のペルソナを作成",
+    "loading": "ペルソナを読み込み中...",
+    "primary": "主要",
+    "archived": "アーカイブ済み",
+    "restore": "復元",
+    "interview": "インタビュー"
+  },
+  "form": {
+    "create": "ペルソナを作成",
+    "edit": "ペルソナを編集",
+    "sections": {
+      "basic": "基本情報",
+      "demographics": "属性情報",
+      "psychographics": "価値観・心理傾向",
+      "behaviors": "行動傾向",
+      "journey": "バイヤージャーニー"
+    },
+    "fields": {
+      "name": "ペルソナ名",
+      "namePlaceholder": "例: マーケティングマネージャーのMaria",
+      "avatar": "アバター",
+      "description": "説明",
+      "descriptionPlaceholder": "このペルソナの概要を入力",
+      "age": "年齢層",
+      "gender": "性別",
+      "location": "地域",
+      "income": "収入水準",
+      "education": "学歴",
+      "jobTitle": "役職",
+      "industry": "業界",
+      "companySize": "企業規模",
+      "goals": "目標と動機",
+      "goalsPlaceholder": "このペルソナは何を達成したいですか？",
+      "painPoints": "課題と悩み",
+      "painPointsPlaceholder": "どのような問題に直面していますか？",
+      "values": "価値観と優先事項",
+      "interests": "関心事と趣味",
+      "mediaConsumption": "メディア接触",
+      "preferredChannels": "好むチャネル",
+      "buyingBehavior": "購買行動",
+      "decisionFactors": "意思決定要因",
+      "objections": "よくある懸念"
+    },
+    "validation": {
+      "nameRequired": "ペルソナ名は必須です"
+    }
+  },
+  "detail": {
+    "overview": "概要",
+    "journey": "バイヤージャーニー",
+    "messaging": "メッセージングガイド",
+    "campaigns": "関連キャンペーン"
+  },
+  "journey": {
+    "stages": {
+      "awareness": "認知",
+      "consideration": "比較検討",
+      "decision": "意思決定",
+      "retention": "継続",
+      "advocacy": "推奨"
+    },
+    "fields": {
+      "touchpoints": "接点",
+      "content": "必要なコンテンツ",
+      "questions": "主な疑問",
+      "actions": "望ましい行動"
+    }
+  },
+  "actions": {
+    "create": "ペルソナを作成",
+    "edit": "編集",
+    "duplicate": "複製",
+    "archive": "アーカイブ",
+    "delete": "削除",
+    "export": "エクスポート",
+    "viewDetails": "詳細を見る",
+    "generateWithAI": "AIで生成",
+    "moreOptions": "その他の操作"
+  },
+  "filters": {
+    "all": "すべてのペルソナ",
+    "active": "アクティブ",
+    "archived": "アーカイブ済み",
+    "search": "ペルソナを検索..."
+  },
+  "confirmDelete": {
+    "title": "ペルソナを削除",
+    "message": "このペルソナを削除してもよろしいですか？ このペルソナを使ったキャンペーンには影響しません。",
+    "confirm": "削除",
+    "cancel": "キャンセル"
+  },
+  "aiGeneration": {
+    "title": "AIでペルソナを生成",
+    "description": "ターゲット顧客について説明すると、AIが詳細なペルソナを作成します",
+    "placeholder": "理想顧客について説明してください: 役割、業界、課題、求めているものなど...",
+    "generate": "ペルソナを生成",
+    "generating": "生成中..."
+  },
+  "sidebar": {
+    "expandTooltip": "サイドバーを広げる",
+    "collapseTooltip": "サイドバーをたたむ",
+    "createTooltip": "新しいペルソナを作成",
+    "header": "ペルソナエージェント",
+    "tabs": {
+      "history": "履歴",
+      "outputs": "ペルソナ"
+    },
+    "newPersona": "新しいペルソナ",
+    "newChat": "新しいチャット",
+    "viewActive": "アクティブを見る",
+    "viewArchived": "アーカイブを見る",
+    "loading": "ペルソナを読み込み中...",
+    "emptyPersonas": "まだペルソナが作成されていません",
+    "emptyPersonasDescription": "最初のペルソナを作成して、顧客理解を始めましょう",
+    "createFirstPersona": "最初のペルソナを作成",
+    "emptyHistory": "まだチャット履歴がありません",
+    "emptyHistoryDescription": "ペルソナとのインタビューを始めると、ここに履歴が表示されます",
+    "untitledSession": "無題のセッション",
+    "messages": "{{count}}件のメッセージ",
+    "archived": "アーカイブ済み",
+    "primary": "主要",
+    "sessionActions": {
+      "rename": "セッション名を変更",
+      "export": "セッションをエクスポート",
+      "duplicate": "セッションを複製"
+    }
+  },
+  "relativeTime": {
+    "justNow": "たった今",
+    "hoursAgo": "{{count}}時間前",
+    "daysAgo": "{{count}}日前"
+  }
+}

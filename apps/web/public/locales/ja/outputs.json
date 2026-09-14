@@ -1,0 +1,336 @@
+{
+  "title": "ライブラリ",
+  "subtitle": "あなたのマーケティングインテリジェンス出力",
+  "savedOutputs": {
+    "title": "保存済みアウトプット",
+    "description": "保存済みのエージェント出力を閲覧・管理します。異なるエージェント間で使い回し、シームレスなワークフローを実現できます。"
+  },
+  "header": {
+    "badge": "インテリジェンスライブラリ",
+    "title": "あなたのアウトプット",
+    "subtitle": "AI生成のインサイトとコンテンツを一か所に集約",
+    "groupShort": "グループ",
+    "select": "選択",
+    "cancel": "キャンセル",
+    "exportAll": "すべてエクスポート",
+    "exportFiltered": "絞り込み結果をエクスポート",
+    "exportShort": "エクスポート"
+  },
+  "bulk": {
+    "itemsSelected": "{{count}}件を選択中",
+    "itemsSelected_other": "{{count}}件を選択中",
+    "exportSelected": "選択項目をエクスポート",
+    "archiveSelected": "選択項目をアーカイブ"
+  },
+  "approved": {
+    "title": "承認済みアウトプット",
+    "subtitle": "利用または公開の準備が整った、承認済みコンテンツの信頼できる保管場所です。",
+    "subtitleWithClient": "{{clientName}}向けの承認済みコンテンツ。利用または公開の準備が整っています。",
+    "searchPlaceholder": "承認済みアウトプットを検索...",
+    "filterByType": "タイプで絞り込む",
+    "allTypes": "すべてのタイプ",
+    "round": "ラウンド{{round}}",
+    "stats": {
+      "totalApproved": "承認済み総数",
+      "thisMonth": "今月",
+      "contentTypes": "コンテンツタイプ",
+      "avgRounds": "平均ラウンド数"
+    },
+    "empty": {
+      "title": "承認済みアウトプットはまだありません",
+      "description": "承認ワークフローでレビュー・承認されると、ここに表示されます。",
+      "noMatch": "フィルターに一致するアウトプットがありません。検索条件やフィルターを調整してください。"
+    },
+    "agentTypes": {
+      "businessStrategy": "ビジネス戦略",
+      "customerPersona": "顧客ペルソナ",
+      "marketingStrategy": "マーケティング戦略",
+      "content": "コンテンツ",
+      "campaign": "キャンペーン",
+      "performance": "パフォーマンス",
+      "competitiveIntel": "競合インテリジェンス",
+      "clientSuccess": "クライアントサクセス"
+    }
+  },
+  "dialog": {
+    "description": "保存したAI生成コンテンツを表示して操作します",
+    "tabs": {
+      "content": "コンテンツ",
+      "comments": "コメント",
+      "history": "履歴"
+    },
+    "fields": {
+      "title": "タイトル"
+    },
+    "generatedBy": "{{agent}}エージェントが生成",
+    "actions": {
+      "edit": "編集",
+      "cancel": "キャンセル",
+      "save": "変更を保存",
+      "close": "閉じる",
+      "copy": "コピー",
+      "copied": "コピーしました！",
+      "export": "エクスポート",
+      "exportPDF": "PDFとしてエクスポート",
+      "exportText": "テキストとしてエクスポート",
+      "exportJSON": "JSONとしてエクスポート"
+    },
+    "toast": {
+      "pdfStarted": "PDFのエクスポートを開始しました。ダウンロードをご確認ください",
+      "pdfError": "PDFのエクスポートに失敗しました",
+      "textSuccess": "テキストファイルを正常にエクスポートしました",
+      "textError": "テキストファイルのエクスポートに失敗しました",
+      "jsonSuccess": "JSONを正常にエクスポートしました",
+      "jsonError": "JSONのエクスポートに失敗しました",
+      "saveSuccess": "アウトプットを更新しました",
+      "saveError": "変更の保存に失敗しました"
+    }
+  },
+  "filters": {
+    "byCategory": "カテゴリで絞り込む",
+    "all": "すべてのアウトプット",
+    "strategic": "戦略",
+    "customer": "顧客",
+    "content": "コンテンツ",
+    "performance": "パフォーマンス",
+    "archived": "アーカイブ済み"
+  },
+  "list": {
+    "loading": "アウトプットを読み込み中...",
+    "empty": "アウトプットはまだありません",
+    "emptyTitle": "保存済みアウトプットはまだありません",
+    "emptyTitleFiltered": "{{filterType}}のアウトプットはまだありません",
+    "emptyDescription": "エージェントと会話してアウトプットを生成・保存してください。AI生成のインサイトがここに表示されます。",
+    "emptyDescriptionFiltered": "該当するエージェントを使って{{filterType}}アウトプットを生成してください。",
+    "emptyHint": "まずは戦略エージェントかコンテンツエージェントから始めてみてください",
+    "noResults": "検索条件に一致するアウトプットが見つかりません",
+    "error": "アウトプットの読み込みに失敗しました",
+    "errorTitle": "アウトプットの読み込みエラー",
+    "errorDescription": "アウトプットを読み込めませんでした。もう一度お試しください。",
+    "retry": "再試行",
+    "similarItems": "類似項目{{count}}件",
+    "similarStrategies": "類似戦略{{count}}件"
+  },
+  "actions": {
+    "export": "エクスポート",
+    "exportAll": "すべてエクスポート",
+    "archive": "アーカイブ",
+    "restore": "復元",
+    "delete": "削除",
+    "edit": "編集",
+    "view": "表示",
+    "duplicate": "複製",
+    "bulkSelect": "複数選択",
+    "selectAll": "すべて選択",
+    "deselectAll": "選択を解除"
+  },
+  "grouping": {
+    "enable": "類似項目をまとめる",
+    "disable": "グループ解除",
+    "similarItems": "類似項目{{count}}件",
+    "showAll": "すべて表示"
+  },
+  "sort": {
+    "label": "並び替え",
+    "date": "日付",
+    "title": "タイトル",
+    "newest": "新しい順",
+    "oldest": "古い順",
+    "aToZ": "タイトル（A-Z）",
+    "zToA": "タイトル（Z-A）"
+  },
+  "search": {
+    "placeholder": "アウトプットを検索..."
+  },
+  "card": {
+    "generatedBy": "{{agent}}が生成",
+    "createdOn": "{{date}}に作成",
+    "viewDetails": "詳細を見る",
+    "markActive": "アクティブに設定",
+    "setActive": "アクティブにする",
+    "active": "アクティブ",
+    "archived": "アーカイブ済み",
+    "copy": "コピー",
+    "export": "エクスポート",
+    "archive": "アーカイブ",
+    "delete": "削除",
+    "restore": "復元"
+  },
+  "time": {
+    "justNow": "たった今",
+    "hoursAgo": "{{count}}時間前",
+    "yesterday": "昨日"
+  },
+  "activity": {
+    "title": "アクティビティ履歴",
+    "loading": "アクティビティを読み込み中...",
+    "error": "アクティビティ履歴の読み込みに失敗しました",
+    "empty": "まだ記録されたアクティビティはありません",
+    "unknownActor": "不明",
+    "labels": {
+      "created": "これを作成しました",
+      "updated": "これを更新しました",
+      "archived": "これをアーカイブしました",
+      "restored": "これを復元しました",
+      "deleted": "これを削除しました",
+      "approval_requested": "承認を依頼しました",
+      "approved": "これを承認しました",
+      "rejected": "これを却下しました",
+      "changes_requested": "変更を依頼しました",
+      "published": "これを公開しました",
+      "unpublished": "これを非公開にしました",
+      "viewed": "これを閲覧しました",
+      "exported": "これをエクスポートしました",
+      "shared": "これを共有しました"
+    }
+  },
+  "editors": {
+    "common": {
+      "advancedSettings": "詳細設定",
+      "completeJson": "完全なJSON（上級者向け）"
+    },
+    "analytics": {
+      "reportInfo": "分析レポート情報",
+      "reportTitle": "レポートタイトル",
+      "reportTitlePlaceholder": "レポートタイトルを入力",
+      "analyticsSummary": "分析サマリー",
+      "analyticsSummaryPlaceholder": "分析インサイトの概要",
+      "reportPeriod": "レポート期間",
+      "reportPeriodPlaceholder": "2025年第4四半期、過去30日間 など",
+      "targetAudience": "ターゲットオーディエンス",
+      "targetAudiencePlaceholder": "中小企業、代理店 など",
+      "tabs": {
+        "keyMetrics": "主要指標",
+        "performance": "パフォーマンス",
+        "traffic": "トラフィック",
+        "insights": "インサイト"
+      },
+      "pageViews": "ページビュー",
+      "conversionRate": "コンバージョン率（%）",
+      "bounceRate": "直帰率（%）",
+      "avgSession": "平均セッション時間",
+      "performanceOverview": "パフォーマンス概要",
+      "performanceOverviewPlaceholder": "パフォーマンス分析の詳細",
+      "kpis": "主要KPI",
+      "kpisPlaceholder": "KPIの詳細と測定値",
+      "growthTrends": "成長トレンド",
+      "growthTrendsPlaceholder": "成長トレンド分析",
+      "trafficAnalysis": "トラフィック分析",
+      "trafficAnalysisPlaceholder": "流入元とトラフィック分析",
+      "channelPerformance": "チャネルパフォーマンス",
+      "channelPerformancePlaceholder": "チャネル別パフォーマンスデータ",
+      "userBehavior": "ユーザー行動",
+      "userBehaviorPlaceholder": "ユーザー行動インサイト",
+      "keyInsights": "主要インサイト（カンマ区切り）",
+      "keyInsightsPlaceholder": "トラフィックが前月比25%増加、モバイルのコンバージョンが大幅改善",
+      "recommendations": "推奨事項（カンマ区切り）",
+      "recommendationsPlaceholder": "モバイル決済フローを最適化、SNS広告費を増やす",
+      "actionItems": "アクション項目（カンマ区切り）",
+      "actionItemsPlaceholder": "新しいランディングページデザインをA/Bテスト、モバイル向けコンバージョントラッキングを設定"
+    },
+    "content": {
+      "portfolioInfo": "コンテンツポートフォリオ情報",
+      "contentInfo": "コンテンツ情報",
+      "campaignName": "キャンペーン名",
+      "campaignNamePlaceholder": "2025年ホリデーマーケティングキャンペーン",
+      "contentSummary": "コンテンツ概要",
+      "contentSummaryPlaceholder": "コンテンツ戦略と主要メッセージの概要",
+      "targetAudience": "ターゲットオーディエンス",
+      "targetAudiencePlaceholder": "中小企業、B2B意思決定者",
+      "contentTheme": "コンテンツテーマ",
+      "contentThemePlaceholder": "プロフェッショナル成長、イノベーション",
+      "theme": "テーマ/トピック",
+      "themePlaceholder": "製品ローンチ、季節施策 など",
+      "tabs": {
+        "socialMedia": "ソーシャルメディア",
+        "email": "メール",
+        "advertising": "広告",
+        "longForm": "長文コンテンツ"
+      },
+      "socialPosts": "ソーシャル投稿（JSON配列）",
+      "hashtagStrategy": "ハッシュタグ戦略",
+      "hashtagStrategyPlaceholder": "ハッシュタグ戦略と推奨事項",
+      "contentCalendar": "コンテンツカレンダー",
+      "contentCalendarPlaceholder": "コンテンツのスケジュールと計画",
+      "totalPosts": "総投稿数",
+      "contentPieces": "コンテンツ数",
+      "emailTemplates": "メールテンプレート（JSON配列）",
+      "subjectLines": "件名",
+      "subjectLinesPlaceholder": "5つの戦略でROIを高める\n期間限定オファーをお見逃しなく\nあなたのマーケティング戦略に必要な更新",
+      "emailSequences": "メールシーケンス",
+      "emailSequencesPlaceholder": "メールシーケンス戦略と自動化フロー",
+      "totalEmailTemplates": "総メールテンプレート数",
+      "adCopy": "広告コピー（JSON配列）",
+      "headlines": "見出し（改行区切り）",
+      "headlinesPlaceholder": "今すぐマーケティングROIを改善\nB2B成功への完全ガイド\n隠れた成長機会を解放する",
+      "creativeAssets": "クリエイティブ素材",
+      "creativeAssetsPlaceholder": "クリエイティブ資産の説明、画像要件、デザイン仕様",
+      "totalAdVariants": "広告バリエーション総数",
+      "blogPosts": "ブログ記事",
+      "blogPostsPlaceholder": "ブログ記事のトピック、構成、コンテンツ戦略",
+      "articles": "記事",
+      "articlesPlaceholder": "長文記事とソートリーダーシップコンテンツ",
+      "videoScripts": "動画スクリプト",
+      "videoScriptsPlaceholder": "動画コンテンツのスクリプトと絵コンテ",
+      "caseStudies": "ケーススタディ",
+      "caseStudiesPlaceholder": "顧客成功事例とケーススタディテンプレート"
+    },
+    "generic": {
+      "editContent": "{{agentType}}コンテンツを編集",
+      "tabs": {
+        "structured": "構造化",
+        "json": "JSON"
+      },
+      "noEditableFields": "編集可能な項目が見つかりません",
+      "switchToJson": "JSONモードに切り替え",
+      "rawJsonContent": "生のJSONコンテンツ",
+      "enterValidJson": "有効なJSONを入力してください...",
+      "jsonError": "JSONエラー"
+    },
+    "strategy": {
+      "campaignInfo": "キャンペーン情報",
+      "campaignName": "キャンペーン名",
+      "tabs": {
+        "messaging": "メッセージング",
+        "channels": "チャネル",
+        "budget": "予算",
+        "execution": "実行"
+      }
+    },
+    "roiBudget": {
+      "financialReportInfo": "財務レポート情報",
+      "tabs": {
+        "budget": "予算",
+        "roiAnalysis": "ROI分析",
+        "performance": "パフォーマンス",
+        "projections": "予測"
+      }
+    }
+  },
+  "strategyCard": {
+    "active": "アクティブ",
+    "archived": "アーカイブ済み",
+    "archivedOn": "アーカイブ日",
+    "reason": "理由",
+    "alreadyActive": "すでにアクティブです",
+    "markAsActive": "アクティブとして設定",
+    "copyContent": "コンテンツをコピー",
+    "viewDetails": "詳細を見る",
+    "archive": "アーカイブ",
+    "deletePermanently": "完全に削除",
+    "reach": "リーチ",
+    "budget": "予算",
+    "priority": "優先度",
+    "created": "作成日",
+    "activate": "有効化"
+  },
+  "comparison": {
+    "title": "戦略比較",
+    "tabs": {
+      "overview": "概要",
+      "messaging": "メッセージング",
+      "channels": "チャネル",
+      "budget": "予算"
+    }
+  }
+}

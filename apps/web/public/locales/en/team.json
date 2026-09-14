@@ -1,0 +1,183 @@
+{
+  "title": "Team",
+  "subtitle": "Manage your team members and permissions",
+  "management": {
+    "title": "Team Management",
+    "subtitle": "Manage your team members and invitations",
+    "inviteButton": "Invite Team Member"
+  },
+  "list": {
+    "title": "Team Members",
+    "empty": "No team members yet",
+    "emptyDescription": "Invite team members to collaborate on your marketing strategy",
+    "inviteFirst": "Invite Your First Team Member"
+  },
+  "members": {
+    "title": "Team Members",
+    "count": "Team Members ({{count}})",
+    "subtitle": "Active members in your organization",
+    "empty": "No team members found",
+    "joined": "Joined {{date}}"
+  },
+  "invitations": {
+    "title": "Pending Invitations",
+    "count": "Pending Invitations ({{count}})",
+    "subtitle": "Invitations that have not been accepted yet",
+    "empty": "No pending invitations",
+    "invitedBy": "Invited by {{name}}",
+    "expires": "Expires {{date}}",
+    "revoke": "Revoke invitation"
+  },
+  "table": {
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "clientAccess": "Client Access",
+    "joined": "Joined",
+    "expires": "Expires",
+    "invitedBy": "Invited By",
+    "actions": "Actions"
+  },
+  "clientAccess": {
+    "allClients": "All Clients",
+    "clientCount_one": "{{count}} Client",
+    "clientCount_other": "{{count}} Clients",
+    "allClientsTooltip": "Has access to all current and future clients",
+    "assignedClients": "Assigned clients:",
+    "andMore": "...and {{count}} more",
+    "noClientsAssigned": "No clients assigned"
+  },
+  "dialogs": {
+    "changeRole": {
+      "title": "Change Member Role",
+      "description": "Update the role for {{name}} ({{email}})",
+      "newRole": "New Role",
+      "selectRole": "Select a new role",
+      "cancel": "Cancel",
+      "submit": "Update Role",
+      "submitting": "Updating..."
+    },
+    "clientAccess": {
+      "title": "Manage Client Access",
+      "description": "Update client access for {{name}} ({{email}})",
+      "allClients": "All Clients",
+      "allClientsDescription": "User will have access to all current and future clients",
+      "selectClients": "Select specific clients:",
+      "loadingClients": "Loading clients...",
+      "noClients": "No clients available",
+      "selectAtLeastOne": "Select at least one client or choose \"All Clients\"",
+      "cancel": "Cancel",
+      "submit": "Update Access",
+      "submitting": "Updating..."
+    },
+    "revoke": {
+      "title": "Revoke Invitation",
+      "description": "Are you sure you want to revoke the invitation for {{email}}?",
+      "confirm": "Revoke"
+    },
+    "remove": {
+      "title": "Remove Team Member",
+      "description": "Are you sure you want to remove {{name}} ({{email}}) from your organization? This action cannot be undone.",
+      "confirm": "Remove Member"
+    }
+  },
+  "actions": {
+    "changeRole": "Change Role",
+    "manageClientAccess": "Manage Client Access",
+    "removeMember": "Remove Member",
+    "moreOptions": "More options"
+  },
+  "validation": {
+    "selectRole": "Please select a role",
+    "rolesNotLoaded": "Roles not loaded yet",
+    "invalidRole": "Invalid role selected",
+    "noMemberSelected": "No member selected",
+    "selectClientOrAll": "Please select at least one client or choose \"All Clients\""
+  },
+  "roles": {
+    "owner": "Owner",
+    "admin": "Admin",
+    "editor": "Editor",
+    "viewer": "Viewer",
+    "descriptions": {
+      "owner": "Full access to all features including billing and team management",
+      "admin": "Can manage team members and access all features except billing",
+      "editor": "Can create and edit content, campaigns, and personas",
+      "viewer": "Read-only access to view dashboards and reports"
+    }
+  },
+  "invite": {
+    "title": "Invite Team Member",
+    "subtitle": "Send an invitation to join your team",
+    "fields": {
+      "email": "Email Address",
+      "emailPlaceholder": "colleague@company.com",
+      "role": "Role",
+      "message": "Personal Message (Optional)",
+      "messagePlaceholder": "Add a personal note to your invitation..."
+    },
+    "actions": {
+      "send": "Send Invitation",
+      "sending": "Sending...",
+      "cancel": "Cancel"
+    },
+    "success": "Invitation sent successfully",
+    "error": "Failed to send invitation"
+  },
+  "member": {
+    "joined": "Joined",
+    "lastActive": "Last Active",
+    "pendingInvite": "Pending Invitation",
+    "inviteSent": "Invite sent",
+    "actions": {
+      "changeRole": "Change Role",
+      "resendInvite": "Resend Invitation",
+      "cancelInvite": "Cancel Invitation",
+      "remove": "Remove from Team"
+    }
+  },
+  "permissions": {
+    "title": "Permissions",
+    "categories": {
+      "campaigns": "Campaigns",
+      "personas": "Personas",
+      "agents": "AI Agents",
+      "analytics": "Analytics",
+      "settings": "Settings",
+      "team": "Team Management"
+    },
+    "levels": {
+      "none": "No Access",
+      "view": "View Only",
+      "edit": "Edit",
+      "full": "Full Access"
+    }
+  },
+  "confirmRemove": {
+    "title": "Remove Team Member",
+    "message": "Are you sure you want to remove {{name}} from the team? They will lose access to all team resources.",
+    "confirm": "Remove",
+    "cancel": "Cancel"
+  },
+  "confirmCancelInvite": {
+    "title": "Cancel Invitation",
+    "message": "Are you sure you want to cancel the invitation to {{email}}?",
+    "confirm": "Cancel Invitation",
+    "cancel": "Keep Invitation"
+  },
+  "limits": {
+    "title": "Team Limits",
+    "membersUsed": "{{used}} of {{total}} members",
+    "upgradePrompt": "Upgrade to add more team members"
+  },
+  "activity": {
+    "title": "Recent Activity",
+    "empty": "No recent activity",
+    "actions": {
+      "invited": "invited",
+      "joined": "joined the team",
+      "removed": "was removed from the team",
+      "roleChanged": "role changed to"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "page": {
+    "title": "AI Workflow Builder",
+    "subtitle": "Connect agents to create powerful marketing workflows"
+  },
+  "sections": {
+    "workflowBuilder": "Workflow Builder - Main Area",
+    "aiRecommendations": "AI Recommendations - Sidebar"
+  }
+}

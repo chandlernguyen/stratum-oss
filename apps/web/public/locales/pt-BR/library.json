@@ -1,0 +1,62 @@
+{
+  "title": "Gerenciamento de Documentos",
+  "subtitle": "Faça upload, pesquise e gerencie a base de conhecimento da sua organização.",
+  "upload": {
+    "title": "Enviar Documentos",
+    "description": "Adicione novos documentos à sua base de conhecimento.",
+    "button": "Enviar"
+  },
+  "documents": {
+    "title": "Seus Documentos",
+    "description": "Navegue e gerencie seus documentos enviados.",
+    "emptyState": "Uma lista ou grade de documentos será exibida aqui.",
+    "noDocuments": "Nenhum documento ainda. Envie seu primeiro documento para começar."
+  },
+  "documentTypes": {
+    "pdf": "Documento PDF",
+    "doc": "Documento Word",
+    "docx": "Documento Word",
+    "txt": "Arquivo de Texto",
+    "csv": "Planilha CSV",
+    "xls": "Planilha Excel",
+    "xlsx": "Planilha Excel",
+    "ppt": "Apresentação PowerPoint",
+    "pptx": "Apresentação PowerPoint",
+    "image": "Arquivo de Imagem",
+    "other": "Outro"
+  },
+  "actions": {
+    "upload": "Enviar",
+    "download": "Baixar",
+    "delete": "Excluir",
+    "rename": "Renomear",
+    "share": "Compartilhar",
+    "view": "Visualizar",
+    "edit": "Editar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "search": "Pesquisar documentos..."
+  },
+  "status": {
+    "uploading": "Enviando...",
+    "processing": "Processando...",
+    "ready": "Pronto",
+    "error": "Erro",
+    "uploaded": "Enviado com sucesso",
+    "deleted": "Excluído com sucesso"
+  },
+  "errors": {
+    "uploadFailed": "Falha no envio. Por favor, tente novamente.",
+    "deleteFailed": "Falha ao excluir. Por favor, tente novamente.",
+    "invalidFileType": "Tipo de arquivo inválido. Por favor, envie um arquivo compatível.",
+    "fileTooLarge": "O arquivo é muito grande. O tamanho máximo é {{maxSize}}.",
+    "noFileSelected": "Nenhum arquivo selecionado."
+  },
+  "metadata": {
+    "uploadedOn": "Enviado em {{date}}",
+    "uploadedBy": "Enviado por {{name}}",
+    "lastModified": "Última modificação em {{date}}",
+    "fileSize": "Tamanho do arquivo: {{size}}",
+    "fileType": "Tipo de arquivo: {{type}}"
+  }
+}

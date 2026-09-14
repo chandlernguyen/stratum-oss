@@ -1,0 +1,167 @@
+name: CI
+
+# Deliberately small. Three fast checks that must pass.
+#
+# This is not a full test pipeline. The integration and E2E suites need Docker,
+# Supabase and several minutes, which is a poor fit for every push on a v1 repo:
+# they are documented in TESTING.md and run before a release instead.
+#
+# The job of this workflow is narrow and useful: make sure nothing confidential is
+# committed, that the application still imports without provider credentials, and
+# that the unit layers stay green — so the suites cannot silently rot the way they
+# did before.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: "22"
+  PYTHON_VERSION: "3.13"
+
+jobs:
+  # Runs first and cheapest. This repository is public: a leaked credential or a
+  # production identifier is in history the moment it is pushed, and deleting it
+  # afterwards does not undo that.
+  leak-gate:
+    name: Confidentiality gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Scan tracked files for leaks
+        run: bash scripts/oss/leak-gate.sh --tracked
+
+  backend:
+    name: Backend unit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install Poetry
+        run: pipx install poetry
+
+      - name: Cache the virtualenv
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/pypoetry/virtualenvs
+          key: poetry-${{ runner.os }}-${{ hashFiles('poetry.lock') }}
+
+      - name: Install dependencies
+        run: poetry install --no-interaction
+
+      # The modules listed here all pass with no Supabase, no API, no Postgres
+      # and no network, so the job stays fast and cannot be broken by
+      # environment flakiness. Each was verified with every service port pointed
+      # at something closed; adding a module that quietly needs a live service
+      # will fail here, which is the point.
+      #
+      # Deliberately excluded because they open a direct psycopg2 connection to
+      # the database and so need a running Supabase:
+      #   test_rls_coverage, test_permissions_trigger_regression,
+      #   test_agency_outputs_hub_schema_routing, test_schema_aware_router_functions
+      - name: Run backend tests
+        env:
+          # Closed ports on purpose: if one of these tests starts depending on a
+          # live service it must fail here rather than pass silently.
+          SUPABASE_URL: http://127.0.0.1:9
+          API_BASE_URL: http://127.0.0.1:9
+          DB_HOST: 127.0.0.1
+          DB_PORT: "9"
+          # Redirect the gcloud config so Application Default Credentials are
+          # invisible, the way they are on a contributor's fresh machine. This
+          # is what caught rag_service.py building a Cloud Storage client at
+          # import time; without it the test passes on a machine that happens to
+          # have gcloud configured.
+          CLOUDSDK_CONFIG: /tmp/no-gcloud-credentials
+        run: |
+          poetry run pytest -q \
+            tests/automated/test_app_import_without_keys.py \
+            tests/automated/test_supabase_auth_config.py \
+            tests/automated/test_locale_middleware_unit.py \
+            tests/automated/test_push_notifications_unit.py \
+            tests/automated/test_export_service_unit.py \
+            tests/automated/test_error_sanitization.py \
+            tests/automated/test_demo_mode.py \
+            tests/automated/test_prompt_injection_defense_simplified.py \
+            tests/automated/test_gemini_function_response.py \
+            tests/automated/test_agent_deepcopy_safety.py \
+            tests/automated/test_agent_init_contract.py \
+            tests/automated/test_ai_rate_limit_unit.py \
+            tests/automated/test_mfa_fail_closed.py \
+            tests/automated/test_push_dispatch_secret_unit.py
+
+  web:
+    name: Web unit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run web unit tests
+        working-directory: apps/web
+        run: npx vitest run
+
+  # The tenant-isolation tests assert the invariants SECURITY.md promises, and
+  # they talk to Postgres directly, so this is the one job that needs the local
+  # stack. It is the reason those invariants cannot silently rot: a migration
+  # that forgets RLS, re-grants a column, or exposes a SECURITY DEFINER helper
+  # fails here.
+  db:
+    name: DB isolation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: supabase/setup-cli@v3
+        with:
+          version: latest
+
+      - name: Start the local database
+        env:
+          DO_NOT_TRACK: "1"
+        run: supabase start
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install Poetry
+        run: pipx install poetry
+
+      - name: Cache the virtualenv
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/pypoetry/virtualenvs
+          key: poetry-${{ runner.os }}-${{ hashFiles('poetry.lock') }}
+
+      - name: Install dependencies
+        run: poetry install --no-interaction
+
+      - name: Apply migrations and seed
+        env:
+          DO_NOT_TRACK: "1"
+        run: supabase db reset
+
+      - name: Tenant-isolation tests
+        run: |
+          poetry run pytest -q \
+            tests/automated/test_rls_coverage.py \
+            tests/automated/test_tenant_privilege_contract.py \
+            tests/automated/test_team_rpc_authorization.py

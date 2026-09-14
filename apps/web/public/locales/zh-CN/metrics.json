@@ -1,0 +1,55 @@
+{
+  "title": "实时指标仪表盘",
+  "subtitle": "实时监控营销活动表现与洞察",
+  "loading": "正在加载指标...",
+  "live": "实时",
+  "widget": {
+    "show": "显示 ROI 小组件",
+    "hide": "隐藏 ROI 小组件"
+  },
+  "cards": {
+    "totalROI": "总 ROI",
+    "conversions": "转化次数",
+    "conversionRate": "转化率",
+    "clickThroughRate": "点击率",
+    "impressions": "展示次数",
+    "budgetRemaining": "剩余预算"
+  },
+  "charts": {
+    "roiTrend": {
+      "title": "ROI 趋势",
+      "description": "随时间变化的实时 ROI 表现"
+    },
+    "conversionsSpend": {
+      "title": "转化与花费",
+      "description": "花费与转化之间的相关性"
+    },
+    "legends": {
+      "conversions": "转化",
+      "spend": "花费（$）"
+    }
+  },
+  "agents": {
+    "title": "活跃 AI 智能体",
+    "description": "当前正在优化你的营销活动",
+    "status": "活跃",
+    "tip": "你的智能体会持续实时监控并优化营销活动表现。"
+  },
+  "timePeriods": {
+    "minutes": "{{value}}分",
+    "hours": "{{value}}小时",
+    "days": "{{value}}天",
+    "weeks": "{{value}}周"
+  },
+  "statistics": {
+    "thousand": "{{value}}K",
+    "million": "{{value}}M",
+    "percent": "{{value}}%",
+    "currency": "${{value}}"
+  },
+  "trends": {
+    "up": "趋势上升",
+    "down": "趋势下降",
+    "stable": "稳定"
+  }
+}

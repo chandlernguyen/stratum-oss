@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "badge": "콘텐츠 검토 포털",
+    "defaultClientName": "내 콘텐츠",
+    "subtitle": "에이전시 팀이 만든 콘텐츠를 검토하고 승인하세요"
+  },
+  "loading": {
+    "message": "검토할 콘텐츠를 불러오는 중..."
+  },
+  "error": {
+    "title": "콘텐츠 로드 오류",
+    "defaultMessage": "콘텐츠를 불러올 수 없습니다. 다시 시도해 주세요."
+  },
+  "tabs": {
+    "pending": "대기 중",
+    "approved": "승인됨",
+    "changes": "변경 요청"
+  },
+  "stats": {
+    "pending": "대기 중",
+    "approved": "승인됨",
+    "changes": "변경 요청"
+  },
+  "status": {
+    "draft": "초안",
+    "awaitingReview": "검토 대기",
+    "approved": "승인됨",
+    "changesRequested": "변경 요청됨",
+    "rejected": "거절됨"
+  },
+  "outputCard": {
+    "untitledOutput": "제목 없는 아웃풋",
+    "defaultAgentType": "콘텐츠",
+    "viewDetails": "상세 보기",
+    "approve": "승인",
+    "requestChanges": "변경 요청",
+    "approvedByClient": "클라이언트 승인 완료",
+    "changesRequestedByClient": "클라이언트가 변경을 요청함"
+  },
+  "emptyState": {
+    "pending": {
+      "title": "모두 확인했습니다",
+      "description": "검토를 기다리는 콘텐츠가 없습니다. 새 콘텐츠가 준비되면 에이전시가 알려드립니다.",
+      "hint": "새 제출물은 여기에 표시됩니다"
+    },
+    "approved": {
+      "title": "아직 승인된 콘텐츠가 없습니다",
+      "description": "승인한 콘텐츠는 향후 참고와 재사용을 위해 여기에 모입니다.",
+      "hint": "승인된 콘텐츠 라이브러리"
+    },
+    "changes": {
+      "title": "변경 요청이 없습니다",
+      "description": "콘텐츠에 변경을 요청하면 추적을 위해 이곳에 표시됩니다.",
+      "hint": "진행 중인 피드백"
+    }
+  }
+}

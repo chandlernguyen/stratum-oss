@@ -1,0 +1,68 @@
+{
+  "title": "Khách Hàng",
+  "subtitle": "Quản lý danh mục khách hàng của công ty bạn",
+  "badge": "Danh Mục Khách Hàng",
+  "addClient": "Thêm Khách Hàng",
+  "addFirstClient": "Thêm Khách Hàng Đầu Tiên",
+  "search": {
+    "placeholder": "Tìm kiếm khách hàng theo tên hoặc ngành nghề..."
+  },
+  "filters": {
+    "label": "Lọc Theo Trạng Thái",
+    "active": "Đang Hoạt Động",
+    "archived": "Đã Lưu Trữ",
+    "all": "Tất Cả Khách Hàng"
+  },
+  "card": {
+    "noIndustry": "Chưa xác định ngành nghề",
+    "archivedBadge": "Đã Lưu Trữ",
+    "archivedOn": "Ngày lưu trữ",
+    "reason": "Lý do: {{reason}}",
+    "campaigns": "Chiến Dịch",
+    "campaignsCount": "{{active}} / {{total}}",
+    "clientSince": "Khách Hàng Từ",
+    "restoreClient": "Khôi Phục Khách Hàng",
+    "dashboard": "Tổng Quan",
+    "viewCampaignsAriaLabel": "Xem chiến dịch của {{clientName}}"
+  },
+  "status": {
+    "active": "đang hoạt động",
+    "paused": "tạm dừng",
+    "churned": "đã rời bỏ"
+  },
+  "emptyState": {
+    "noArchived": {
+      "title": "Chưa có khách hàng lưu trữ",
+      "description": "Khách hàng đã lưu trữ sẽ xuất hiện ở đây khi bạn lưu trữ khách hàng đang hoạt động",
+      "viewActive": "Xem Khách Hàng Đang Hoạt Động"
+    },
+    "noClients": {
+      "title": "Chưa có khách hàng nào",
+      "description": "Bắt đầu bằng cách thêm khách hàng đầu tiên để sử dụng các phân tích được hỗ trợ bởi AI"
+    },
+    "noResults": {
+      "title": "Không tìm thấy khách hàng",
+      "description": "Hãy thử điều chỉnh từ khóa tìm kiếm của bạn"
+    }
+  },
+  "actions": {
+    "edit": "Chỉnh Sửa",
+    "archive": "Lưu Trữ",
+    "restore": "Khôi Phục",
+    "delete": "Xóa"
+  },
+  "toast": {
+    "archiveSuccess": "Đã lưu trữ khách hàng thành công",
+    "archiveFailed": "Không thể lưu trữ khách hàng",
+    "deleteSuccess": "Đã xóa khách hàng thành công",
+    "deleteFailed": "Không thể xóa khách hàng",
+    "restoreSuccess": "Đã khôi phục khách hàng thành công",
+    "restoreFailed": "Không thể khôi phục khách hàng"
+  },
+  "onboarding": {
+    "industry": "Ngành nghề",
+    "industryPlaceholder": "Chọn ngành nghề của khách hàng",
+    "companySize": "Quy mô công ty",
+    "companySizePlaceholder": "Chọn quy mô công ty"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Quản Lý Tài Liệu",
+  "subtitle": "Tải lên, tìm kiếm và quản lý kho kiến thức của tổ chức.",
+  "upload": {
+    "title": "Tải Lên Tài Liệu",
+    "description": "Thêm tài liệu mới vào kho kiến thức của bạn.",
+    "button": "Tải Lên"
+  },
+  "documents": {
+    "title": "Tài Liệu Của Bạn",
+    "description": "Duyệt và quản lý các tài liệu đã tải lên.",
+    "emptyState": "Danh sách hoặc lưới tài liệu sẽ được hiển thị ở đây.",
+    "noDocuments": "Chưa có tài liệu. Hãy tải lên tài liệu đầu tiên để bắt đầu."
+  },
+  "documentTypes": {
+    "pdf": "Tài liệu PDF",
+    "doc": "Tài liệu Word",
+    "docx": "Tài liệu Word",
+    "txt": "Tệp Văn bản",
+    "csv": "Bảng tính CSV",
+    "xls": "Bảng tính Excel",
+    "xlsx": "Bảng tính Excel",
+    "ppt": "Bản trình bày PowerPoint",
+    "pptx": "Bản trình bày PowerPoint",
+    "image": "Tệp Hình ảnh",
+    "other": "Khác"
+  },
+  "actions": {
+    "upload": "Tải Lên",
+    "download": "Tải Xuống",
+    "delete": "Xóa",
+    "rename": "Đổi Tên",
+    "share": "Chia Sẻ",
+    "view": "Xem",
+    "edit": "Chỉnh Sửa",
+    "cancel": "Hủy",
+    "confirm": "Xác Nhận",
+    "search": "Tìm kiếm tài liệu..."
+  },
+  "status": {
+    "uploading": "Đang tải lên...",
+    "processing": "Đang xử lý...",
+    "ready": "Sẵn sàng",
+    "error": "Lỗi",
+    "uploaded": "Tải lên thành công",
+    "deleted": "Xóa thành công"
+  },
+  "errors": {
+    "uploadFailed": "Tải lên thất bại. Vui lòng thử lại.",
+    "deleteFailed": "Xóa thất bại. Vui lòng thử lại.",
+    "invalidFileType": "Loại tệp không hợp lệ. Vui lòng tải lên tệp được hỗ trợ.",
+    "fileTooLarge": "Tệp quá lớn. Kích thước tối đa là {{maxSize}}.",
+    "noFileSelected": "Chưa chọn tệp."
+  },
+  "metadata": {
+    "uploadedOn": "Tải lên vào {{date}}",
+    "uploadedBy": "Tải lên bởi {{name}}",
+    "lastModified": "Sửa đổi lần cuối {{date}}",
+    "fileSize": "Kích thước tệp: {{size}}",
+    "fileType": "Loại tệp: {{type}}"
+  }
+}

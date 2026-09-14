@@ -1,0 +1,505 @@
+{
+  "title": "Campanhas",
+  "subtitle": "Gerencie e acompanhe suas campanhas de marketing",
+  "newCampaign": {
+    "pageTitle": "Nova Campanha",
+    "permissionTitle": "Criação de Campanha",
+    "title": "Criar Nova Campanha",
+    "subtitle": "Configure sua campanha de marketing e deixe nossos agentes de IA ajudá-lo a ter sucesso",
+    "templatesTitle": "Templates de Início Rápido",
+    "formTitle": "Detalhes da Campanha",
+    "formDescription": "Defina os parâmetros da sua campanha e nossa IA ajudará a otimizar para o sucesso",
+    "createButton": "Criar Campanha",
+    "creating": "Criando...",
+    "fields": {
+      "name": "Nome da Campanha",
+      "namePlaceholder": "ex.: Lançamento de Produto Q1 2026",
+      "description": "Descrição",
+      "descriptionPlaceholder": "Descreva brevemente os objetivos e abordagem da sua campanha...",
+      "objectives": "Objetivos da Campanha",
+      "objectivesPlaceholder": "O que você deseja alcançar? Seja específico sobre métricas e KPIs...",
+      "budget": "Orçamento ($)",
+      "budgetPlaceholder": "10000",
+      "targetAudience": "Público-Alvo",
+      "targetAudiencePlaceholder": "Descreva a demografia, interesses e comportamentos do seu cliente ideal...",
+      "startDate": "Data de Início",
+      "endDate": "Data de Término",
+      "selectStartDate": "Selecione a data de início",
+      "selectEndDate": "Selecione a data de término"
+    },
+    "templates": {
+      "quickWin": {
+        "title": "Campanha de Ganho Rápido",
+        "description": "Obtenha resultados imediatos com oportunidades fáceis",
+        "presetName": "Campanha de Ganho Rápido",
+        "presetObjectives": "Alcançar melhorias imediatas de ROI por meio de otimizações táticas"
+      },
+      "brandAwareness": {
+        "title": "Reconhecimento de Marca",
+        "description": "Aumente a visibilidade e alcance no mercado",
+        "presetName": "Campanha de Reconhecimento de Marca",
+        "presetObjectives": "Aumentar o reconhecimento de marca em 30% no público-alvo"
+      },
+      "leadGeneration": {
+        "title": "Geração de Leads",
+        "description": "Capture e nutra potenciais clientes",
+        "presetName": "Campanha de Geração de Leads",
+        "presetObjectives": "Gerar 500 leads qualificados por mês"
+      }
+    }
+  },
+  "emptyState": {
+    "title": "Pronto para organizar sua inteligência?",
+    "description": "Campanhas ajudam a organizar saídas de inteligência por iniciativa de negócio. Complete a coleta de inteligência-chave primeiro para um melhor planejamento de campanha.",
+    "readinessLabel": "Prontidão de Inteligência",
+    "readinessCount": "{{completed}} de {{total}} completo",
+    "readyMessage": "Você tem inteligência suficiente para criar uma campanha",
+    "notReadyMessage": "Complete pelo menos 2 saídas de inteligência para começar",
+    "completeBadge": "Completo",
+    "createFirst": "Criar Sua Primeira Campanha",
+    "continueGathering": "Continuar Coletando Inteligência",
+    "startGathering": "Começar a Coletar Inteligência",
+    "createAnyway": "Criar Campanha Mesmo Assim",
+    "whyGatherTitle": "Por que coletar inteligência primeiro?",
+    "whyGatherDescription": "Campanhas organizam seus insights estratégicos. Ter estratégia de negócio, personas e planos de marketing prontos garante que suas campanhas sejam orientadas por dados desde o primeiro dia.",
+    "totalOutputsReady": "Total de saídas de inteligência prontas para organizar",
+    "viewAllIntelligence": "Ver Toda a Inteligência",
+    "prerequisites": {
+      "strategy": {
+        "title": "Estratégia de Negócio",
+        "description": "Defina sua posição de mercado e vantagem competitiva"
+      },
+      "persona": {
+        "title": "Personas de Clientes",
+        "description": "Entenda quem você está direcionando e suas dores"
+      },
+      "marketing": {
+        "title": "Estratégia de Marketing",
+        "description": "Determine seu mix de canais e framework de mensagens"
+      },
+      "content": {
+        "title": "Protótipos de Conteúdo",
+        "description": "Crie materiais iniciais de campanha e mensagens"
+      }
+    }
+  },
+  "analytics": {
+    "error": {
+      "title": "Falha ao carregar análises",
+      "message": "{{message}}"
+    },
+    "empty": {
+      "title": "Sem Dados de Análise",
+      "description": "As análises estarão disponíveis quando a campanha tiver atividade"
+    },
+    "cards": {
+      "budgetUtilized": "Orçamento Utilizado",
+      "budgetOf": "{{spent}} de {{total}}",
+      "conversionRate": "Taxa de Conversão",
+      "conversionsFromReach": "{{conversions}} conversões de {{reach}} alcance",
+      "engagement": "Engajamento",
+      "ctr": "{{rate}}% CTR",
+      "performance": "Desempenho",
+      "impressions": "{{count}} impressões"
+    },
+    "budget": {
+      "title": "Análise de Orçamento",
+      "subtitle": "Padrões de gastos e projeções",
+      "dailySpendRate": "Taxa de Gasto Diário",
+      "perDay": "{{amount}}/dia",
+      "projectedTotalSpend": "Gasto Total Projetado",
+      "budgetBurnRate": "Taxa de Consumo do Orçamento",
+      "daysToEnd": "Dias até Fim do Orçamento",
+      "daysCount": "{{days}} dias",
+      "costPerConversion": "Custo por Conversão"
+    },
+    "progress": {
+      "title": "Progresso da Campanha",
+      "subtitle": "Linha do tempo e visão geral do conteúdo",
+      "campaignProgress": "Progresso da Campanha",
+      "daysActive": "{{days}} dias ativa",
+      "daysLeft": "{{days}} dias restantes",
+      "strategies": "Estratégias",
+      "personas": "Personas",
+      "activeOutputs": "Saídas Ativas",
+      "topChannel": "Principal Canal",
+      "channelsConfigured": "{{count}} canal(is) configurado(s)"
+    },
+    "alerts": {
+      "title": "Atenção Necessária",
+      "overBudget": "A campanha excedeu o orçamento ({{percentage}}%)",
+      "underperforming": "O desempenho da campanha está {{trend}}"
+    },
+    "generated": "Análises geradas em: {{date}}",
+    "performanceLevels": {
+      "excellent": "excelente",
+      "good": "bom",
+      "average": "médio",
+      "below_average": "abaixo da média"
+    },
+    "burnRates": {
+      "low": "baixo",
+      "moderate": "moderado",
+      "high": "alto",
+      "very_high": "muito alto"
+    }
+  },
+  "list": {
+    "title": "Todas as Campanhas",
+    "empty": "Nenhuma campanha ainda",
+    "emptyDescription": "Crie sua primeira campanha para começar a acompanhar seus esforços de marketing",
+    "createFirst": "Criar Sua Primeira Campanha",
+    "pageTitle": "Campanhas de Marketing",
+    "pageSubtitle": "Gerencie e monitore suas campanhas de marketing",
+    "managementBadge": "Gerenciamento de Campanhas",
+    "newCampaign": "Nova Campanha",
+    "filterByStatus": "Filtrar por Status",
+    "createdOn": "Criada em {{date}}",
+    "noData": "Sem dados",
+    "metricsCount_one": "{{count}} métrica",
+    "metricsCount_other": "{{count}} métricas",
+    "fields": {
+      "budget": "Orçamento",
+      "type": "Tipo",
+      "duration": "Duração",
+      "notSet": "Não definido",
+      "notScheduled": "Não agendado"
+    },
+    "emptyStates": {
+      "noActive": {
+        "title": "Nenhuma campanha ativa",
+        "description": "Você tem {{count}} campanha(s) em rascunho pronta(s) para lançar",
+        "viewDrafts": "Ver Rascunhos"
+      },
+      "noCampaigns": {
+        "title": "Nenhuma campanha ainda",
+        "description": "Construa inteligência estratégica primeiro, depois organize em campanhas",
+        "startStrategy": "Começar com Estratégia",
+        "createCampaign": "Criar Campanha"
+      },
+      "noPlanned": {
+        "title": "Nenhuma campanha planejada ainda",
+        "description": "Gere planos de campanha a partir do agente de Planejamento de Campanha e salve-os para vê-los aqui",
+        "generatePlans": "Gerar Planos de Campanha"
+      },
+      "noPaused": {
+        "title": "Nenhuma campanha pausada",
+        "descriptionWithActive": "Você tem {{count}} campanha(s) ativa(s) em execução",
+        "descriptionEmpty": "Campanhas pausadas aparecerão aqui quando você pausar uma campanha ativa",
+        "viewActive": "Ver Campanhas Ativas"
+      },
+      "noDraft": {
+        "title": "Nenhuma campanha em rascunho",
+        "description": "Você tem {{count}} campanha(s) ativa(s) em execução"
+      },
+      "noCompleted": {
+        "title": "Nenhuma campanha concluída",
+        "description": "Você tem {{count}} campanha(s) ativa(s) em progresso"
+      },
+      "generic": {
+        "title": "Nenhuma campanha {{status}}",
+        "description": "Construa saídas de inteligência primeiro, depois crie campanhas para organizá-las",
+        "buildIntelligence": "Construir Inteligência"
+      }
+    }
+  },
+  "status": {
+    "draft": "Rascunho",
+    "active": "Ativa",
+    "planned": "Planejada",
+    "paused": "Pausada",
+    "completed": "Concluída",
+    "archived": "Arquivada"
+  },
+  "form": {
+    "create": "Criar Campanha",
+    "edit": "Editar Campanha",
+    "fields": {
+      "name": "Nome da Campanha",
+      "namePlaceholder": "Digite o nome da campanha",
+      "description": "Descrição",
+      "descriptionPlaceholder": "Descreva os objetivos e estratégia da campanha",
+      "startDate": "Data de Início",
+      "endDate": "Data de Término",
+      "budget": "Orçamento",
+      "budgetPlaceholder": "Digite o valor do orçamento",
+      "status": "Status",
+      "channels": "Canais",
+      "objectives": "Objetivos da Campanha",
+      "targetAudience": "Público-Alvo"
+    },
+    "validation": {
+      "nameRequired": "O nome da campanha é obrigatório",
+      "startDateRequired": "A data de início é obrigatória",
+      "endDateAfterStart": "A data de término deve ser posterior à data de início"
+    }
+  },
+  "detail": {
+    "pageTitle": "Detalhes da Campanha",
+    "overview": "Visão Geral",
+    "performance": "Desempenho",
+    "assets": "Ativos",
+    "timeline": "Linha do Tempo",
+    "settings": "Configurações",
+    "notFound": "Campanha não encontrada",
+    "backToCampaigns": "Voltar para Campanhas",
+    "aiAgents": {
+      "title": "Agentes de IA",
+      "description": "Acesse agentes de IA especializados para esta campanha",
+      "agents": {
+        "strategy": {
+          "name": "Agente de Estratégia",
+          "description": "Planejamento estratégico e análise SWOT"
+        },
+        "persona": {
+          "name": "Agente de Persona",
+          "description": "Perfilamento de clientes e mapeamento de jornada"
+        },
+        "content": {
+          "name": "Agente de Conteúdo",
+          "description": "Criação e otimização de conteúdo"
+        },
+        "analytics": {
+          "name": "Agente de Análise",
+          "description": "Acompanhamento de desempenho e insights"
+        }
+      }
+    },
+    "collaboration": {
+      "discussion": {
+        "title": "Discussão",
+        "description": "Colabore com sua equipe nesta campanha"
+      },
+      "tasks": {
+        "title": "Tarefas",
+        "description": "Atribua e acompanhe o trabalho desta campanha"
+      }
+    }
+  },
+  "metrics": {
+    "impressions": "Impressões",
+    "clicks": "Cliques",
+    "conversions": "Conversões",
+    "spend": "Gastos",
+    "ctr": "CTR",
+    "cpc": "CPC",
+    "cpa": "CPA",
+    "roas": "ROAS",
+    "roi": "ROI"
+  },
+  "actions": {
+    "create": "Criar Campanha",
+    "edit": "Editar",
+    "editDetails": "Editar Detalhes",
+    "duplicate": "Duplicar",
+    "archive": "Arquivar",
+    "delete": "Excluir",
+    "pause": "Pausar",
+    "resume": "Retomar",
+    "export": "Exportar",
+    "viewDetails": "Ver Detalhes",
+    "save": "Salvar",
+    "saveChanges": "Salvar Alterações",
+    "cancel": "Cancelar"
+  },
+  "filters": {
+    "all": "Todas as Campanhas",
+    "active": "Ativas",
+    "draft": "Rascunhos",
+    "completed": "Concluídas",
+    "search": "Pesquisar campanhas...",
+    "dateRange": "Período",
+    "channel": "Canal"
+  },
+  "channels": {
+    "social": "Mídias Sociais",
+    "email": "E-mail",
+    "paid": "Anúncios Pagos",
+    "seo": "SEO",
+    "content": "Marketing de Conteúdo",
+    "events": "Eventos",
+    "pr": "RP",
+    "other": "Outro"
+  },
+  "confirmDelete": {
+    "title": "Excluir Campanha",
+    "message": "Tem certeza de que deseja excluir esta campanha? Esta ação não pode ser desfeita.",
+    "confirm": "Excluir",
+    "cancel": "Cancelar"
+  },
+  "campaignTypes": {
+    "brand_awareness": "Reconhecimento de Marca",
+    "lead_generation": "Geração de Leads",
+    "product_launch": "Lançamento de Produto",
+    "seasonal_promotion": "Promoção Sazonal",
+    "content_marketing": "Marketing de Conteúdo",
+    "email_nurture": "Nutrição por E-mail",
+    "social_media": "Mídias Sociais",
+    "event_promotion": "Promoção de Evento",
+    "customer_retention": "Retenção de Clientes",
+    "referral_program": "Programa de Indicação",
+    "other": "Outro"
+  },
+  "marketingChannels": {
+    "email": "E-mail Marketing",
+    "social": "Mídias Sociais",
+    "content": "Marketing de Conteúdo",
+    "paid_ads": "Publicidade Paga",
+    "seo": "SEO",
+    "events": "Eventos",
+    "webinars": "Webinars",
+    "influencer": "Marketing de Influenciadores",
+    "affiliate": "Marketing de Afiliados",
+    "direct_mail": "Mala Direta"
+  },
+  "priorityLevels": {
+    "low": "Baixa",
+    "medium": "Média",
+    "high": "Alta",
+    "critical": "Crítica"
+  },
+  "statusActions": {
+    "activate": "Ativar",
+    "activateCampaign": "Ativar Campanha",
+    "pause": "Pausar",
+    "complete": "Concluir",
+    "resume": "Retomar",
+    "archive": "Arquivar"
+  },
+  "performance": {
+    "mapping": {
+      "title": "Mapear Campanhas",
+      "metricsFound": "{{count}} métricas encontradas no CSV",
+      "exactMatches": "{{count}} correspondências exatas",
+      "fuzzyMatches": "{{count}} correspondências aproximadas",
+      "unmapped": "{{count}} não mapeadas",
+      "description": "Revise e confirme o mapeamento de campanhas antes de importar métricas",
+      "table": {
+        "csvCampaign": "Nome da Campanha no CSV",
+        "matchStatus": "Status da Correspondência",
+        "targetCampaign": "Campanha de Destino"
+      },
+      "importSelected": "Importar Métricas Selecionadas",
+      "importing": "Importando...",
+      "successToast": "{{count}} métricas importadas com sucesso",
+      "errorToast": "Falha ao importar métricas"
+    },
+    "selector": {
+      "placeholder": "Pesquisar campanhas...",
+      "selectCampaign": "Selecione uma campanha",
+      "noCampaignsFound": "Nenhuma campanha encontrada",
+      "createNew": "Criar nova campanha",
+      "exactMatch": "Correspondência Exata",
+      "fuzzyMatch": "{{percent}}% de Correspondência",
+      "suggested": "Sugerida",
+      "clear": "Limpar seleção"
+    },
+    "upload": {
+      "title": "Enviar CSV de Desempenho",
+      "description": "Envie um arquivo CSV com métricas de desempenho de campanhas",
+      "steps": {
+        "uploadCSV": "Enviar CSV",
+        "mapCampaigns": "Mapear Campanhas",
+        "complete": "Concluir"
+      },
+      "dropHere": "Solte o arquivo CSV aqui",
+      "dragDrop": "Arraste e solte um arquivo CSV aqui, ou clique para selecionar",
+      "requiredColumns": "Colunas obrigatórias: campaign_name, metric_date, spend",
+      "selectedFile": "Arquivo selecionado",
+      "removeFile": "Remover arquivo",
+      "fileRemoved": "Arquivo removido",
+      "loadedMetrics": "{{count}} métricas carregadas de {{filename}}",
+      "parseError": "Falha ao analisar arquivo CSV",
+      "csvExtensionError": "O arquivo deve ter extensão .csv",
+      "validationIssues": "Problemas de Validação Encontrados",
+      "fixIssues": "Por favor, corrija os seguintes problemas antes de importar",
+      "fileFormatErrors": "{{count}} erro(s) de formato de arquivo",
+      "dataValidationErrors": "{{count}} erro(s) de validação de dados",
+      "howToFix": {
+        "title": "Como Corrigir",
+        "requiredColumns": "Certifique-se de que essas colunas existem",
+        "dateFormat": "Use o formato AAAA-MM-DD para datas",
+        "numericFields": "Certifique-se de que spend, impressions, clicks e conversions são números",
+        "downloadTemplate": "Baixe o template para o formato correto"
+      },
+      "clearFile": "Limpar Arquivo",
+      "downloadTemplate": "Baixar Template",
+      "downloadCSVTemplate": "Baixar Template CSV",
+      "importSuccess": "Importação Bem-sucedida!",
+      "importSuccessDescription": "Suas métricas foram importadas e vinculadas às campanhas",
+      "importMore": "Importar Mais",
+      "viewMetrics": "Ver Métricas"
+    },
+    "matchStatus": {
+      "noMatch": "Nenhuma Correspondência Encontrada",
+      "exactMatch": "Correspondência Exata",
+      "fuzzyMatch": "{{percent}}% de Correspondência"
+    }
+  },
+  "editForm": {
+    "details": {
+      "title": "Detalhes da Campanha",
+      "description": "Informações básicas sobre esta campanha"
+    },
+    "noDescription": "Sem descrição",
+    "campaignType": "Tipo de Campanha",
+    "selectType": "Selecione o tipo",
+    "notSet": "Não definido",
+    "priority": "Prioridade",
+    "selectPriority": "Selecione a prioridade",
+    "targetAudiencePlaceholder": "Quem é o público-alvo desta campanha? Seja específico para melhores recomendações de IA...",
+    "noTargetAudience": "Nenhum público-alvo definido",
+    "objectivesGoals": "Objetivos e Metas",
+    "objectivesPlaceholder": "Quais são os principais objetivos e critérios de sucesso? Ex.: 'Gerar 100 leads qualificados até o Q4' ou 'Aumentar reconhecimento de marca em 30% no público-alvo'",
+    "noObjectives": "Nenhum objetivo definido",
+    "primary": "Primário",
+    "secondary": "Secundário",
+    "cantChangeStartDate": "Não é possível alterar a data de início - a campanha já começou",
+    "historicalData": "Dados históricos - não podem ser alterados",
+    "budgetLabel": "Orçamento ($)",
+    "channels": {
+      "title": "Canais de Marketing",
+      "description": "Selecione canais para esta campanha",
+      "activeChannels": "Canais Ativos",
+      "noChannels": "Nenhum canal selecionado"
+    },
+    "advanced": {
+      "addMoreDetails": "Adicione mais detalhes para melhorar o desempenho dos agentes de IA",
+      "showAdvanced": "Mostrar Campos Avançados",
+      "hideAdvanced": "Ocultar Campos Avançados"
+    },
+    "contentStrategy": {
+      "title": "Estratégia de Conteúdo",
+      "description": "Defina pilares e temas de conteúdo",
+      "contentPillars": "Pilares de Conteúdo",
+      "pillarsPlaceholder": "Insira temas-chave de conteúdo separados por vírgulas (ex.: liderança de pensamento, educação sobre produto, histórias de sucesso de clientes, insights do setor)",
+      "noPillars": "Nenhum pilar de conteúdo definido"
+    },
+    "successMetrics": {
+      "title": "Métricas de Sucesso e KPIs",
+      "description": "Defina como o sucesso será medido",
+      "primaryKPI": "KPI Primário",
+      "kpiPlaceholder": "ex.: Leads Qualificados",
+      "targetPlaceholder": "Valor alvo (ex.: 100)",
+      "noTarget": "Sem meta",
+      "notDefined": "Não definido"
+    },
+    "competitive": {
+      "title": "Contexto Competitivo",
+      "description": "Posicionamento de mercado e concorrência",
+      "competitorContext": "Contexto Competitivo",
+      "contextPlaceholder": "Principais concorrentes e como nos diferenciamos...",
+      "noContext": "Nenhum contexto competitivo fornecido",
+      "geographicTarget": "Alvo Geográfico",
+      "geoPlaceholder": "ex.: América do Sul, Global, Brasil, São Paulo, Grande São Paulo",
+      "notSpecified": "Não especificado"
+    },
+    "organization": {
+      "title": "Organização",
+      "description": "Tags e categorização",
+      "tags": "Tags",
+      "tagsPlaceholder": "Insira tags separadas por vírgulas",
+      "noTags": "Sem tags"
+    }
+  }
+}

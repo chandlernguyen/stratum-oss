@@ -1,0 +1,62 @@
+{
+  "title": "ドキュメント管理",
+  "subtitle": "組織のナレッジベースをアップロード、検索、管理します。",
+  "upload": {
+    "title": "ドキュメントをアップロード",
+    "description": "ナレッジベースに新しいドキュメントを追加します。",
+    "button": "アップロード"
+  },
+  "documents": {
+    "title": "ドキュメント一覧",
+    "description": "アップロード済みドキュメントを閲覧・管理します。",
+    "emptyState": "ここにドキュメント一覧またはグリッドが表示されます。",
+    "noDocuments": "まだドキュメントがありません。最初のドキュメントをアップロードして始めましょう。"
+  },
+  "documentTypes": {
+    "pdf": "PDFドキュメント",
+    "doc": "Wordドキュメント",
+    "docx": "Wordドキュメント",
+    "txt": "テキストファイル",
+    "csv": "CSVスプレッドシート",
+    "xls": "Excelスプレッドシート",
+    "xlsx": "Excelスプレッドシート",
+    "ppt": "PowerPointプレゼンテーション",
+    "pptx": "PowerPointプレゼンテーション",
+    "image": "画像ファイル",
+    "other": "その他"
+  },
+  "actions": {
+    "upload": "アップロード",
+    "download": "ダウンロード",
+    "delete": "削除",
+    "rename": "名前を変更",
+    "share": "共有",
+    "view": "表示",
+    "edit": "編集",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "search": "ドキュメントを検索..."
+  },
+  "status": {
+    "uploading": "アップロード中...",
+    "processing": "処理中...",
+    "ready": "準備完了",
+    "error": "エラー",
+    "uploaded": "アップロード完了",
+    "deleted": "削除完了"
+  },
+  "errors": {
+    "uploadFailed": "アップロードに失敗しました。もう一度お試しください。",
+    "deleteFailed": "削除に失敗しました。もう一度お試しください。",
+    "invalidFileType": "無効なファイル形式です。対応しているファイルをアップロードしてください。",
+    "fileTooLarge": "ファイルサイズが大きすぎます。最大サイズは{{maxSize}}です。",
+    "noFileSelected": "ファイルが選択されていません。"
+  },
+  "metadata": {
+    "uploadedOn": "{{date}}にアップロード",
+    "uploadedBy": "{{name}}がアップロード",
+    "lastModified": "{{date}}に更新",
+    "fileSize": "ファイルサイズ: {{size}}",
+    "fileType": "ファイル形式: {{type}}"
+  }
+}

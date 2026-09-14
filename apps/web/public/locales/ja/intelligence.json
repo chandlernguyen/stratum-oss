@@ -1,0 +1,130 @@
+{
+  "pageTitle": {
+    "clientProfile": "クライアントプロフィール",
+    "businessProfile": "ビジネスプロフィール"
+  },
+  "pageDescription": {
+    "client": "{{clientSlug}}のビジネスプロフィール、ブランドガイドライン、インテリジェンスを管理",
+    "organization": "組織のビジネスプロフィール、ブランドガイドライン、インテリジェンスを管理"
+  },
+  "header": {
+    "title": "ビジネスインテリジェンス",
+    "description": "手入力データとAIが学習した示唆を統合したビジネスプロフィール"
+  },
+  "loading": "ビジネスインテリジェンスを読み込み中...",
+  "tabs": {
+    "businessProfile": "ビジネスプロフィール",
+    "businessProfileShort": "プロフィール",
+    "brandGuidelines": "ブランドガイドライン",
+    "brandGuidelinesShort": "ブランド",
+    "learningHistory": "学習履歴",
+    "learningHistoryShort": "学習"
+  },
+  "alerts": {
+    "newSuggestions": "レビュー待ちの新しいAI提案が{{count}}件あります",
+    "newSuggestions_other": "レビュー待ちの新しいAI提案が{{count}}件あります",
+    "authoritative": "これはすべてのAIエージェントが参照する正式なビジネスコンテキストです。情報を変更するには編集をクリックしてください。"
+  },
+  "metrics": {
+    "title": "AIが学習したビジネス指標"
+  },
+  "conflicts": {
+    "title": "データの不一致を検出",
+    "description": "AIが手動入力と異なる情報を見つけました",
+    "current": "現在値",
+    "aiSuggestion": "AI提案",
+    "notSet": "未設定",
+    "acceptAI": "AIの値を採用",
+    "keepCurrent": "現在値を保持"
+  },
+  "learningHistory": {
+    "title": "AI学習履歴",
+    "description": "AIが時間とともにあなたのビジネスをどう理解してきたかを追跡します",
+    "totalInsights": "総インサイト数:",
+    "noInsights": {
+      "title": "AIインサイトはまだありません",
+      "description": "マーケティングエージェントとやり取りするにつれて、AIがビジネスを学習し、確認用インサイトをここに表示します。"
+    },
+    "status": {
+      "approved": "承認済み",
+      "autoApproved": "自動承認",
+      "pending": "保留中",
+      "rejected": "却下"
+    },
+    "filter": {
+      "allAgents": "すべてのエージェント",
+      "persona": "ペルソナのインサイト",
+      "strategy": "戦略のインサイト",
+      "marketing": "マーケティングのインサイト",
+      "content": "コンテンツのインサイト"
+    },
+    "similar": "類似",
+    "fieldsExtracted": "{{count}}項目を抽出",
+    "confidence": "信頼度",
+    "from": "抽出元"
+  },
+  "patterns": {
+    "title": "ペルソナ横断パターン",
+    "mentions": "{{count}}件の言及",
+    "personas": "{{count}}ペルソナ"
+  },
+  "fields": {
+    "companyName": "会社名",
+    "organizationType": "組織タイプ",
+    "industry": "業界",
+    "companySize": "企業規模",
+    "description": "説明",
+    "targetMarket": "ターゲット市場",
+    "geography": "地域",
+    "businessModel": "ビジネスモデル",
+    "priceRange": "価格帯",
+    "competitors": "競合",
+    "uniqueValueProposition": "独自の価値提案",
+    "technologyStack": "技術スタック",
+    "annualRevenue": "年間売上",
+    "growthRate": "成長率",
+    "marketingBudget": "マーケティング予算"
+  },
+  "content": {
+    "notSpecified": "未指定",
+    "none": "なし",
+    "noFieldsAvailable": "利用可能な項目がありません",
+    "errorDisplayingFields": "項目の表示エラー",
+    "noContentAvailable": "表示できる内容がありません",
+    "noDisplayableContent": "表示可能な内容がありません",
+    "errorDisplayingContent": "内容の表示中にエラーが発生しました。再読み込みしてもう一度お試しください。",
+    "noInsightSelected": "インサイトが選択されていません"
+  },
+  "dialog": {
+    "extractedFrom": "{{agent}}との会話から抽出",
+    "confidence": "信頼度:",
+    "extractedContext": "抽出されたビジネスコンテキスト:",
+    "edit": "編集",
+    "saveChanges": "変更を保存",
+    "cancel": "キャンセル"
+  },
+  "actions": {
+    "approveApply": "承認して適用",
+    "reject": "却下",
+    "approveAll": "類似項目をすべて承認",
+    "rejectAll": "類似項目をすべて却下",
+    "approveThisOnly": "この項目のみ承認",
+    "rejectThisOnly": "この項目のみ却下",
+    "bulkNote": "注意: この操作はこのグループ内の{{count}}件の類似する保留中インサイトに影響します。",
+    "orActOnThis": "または、このインサイトだけに対して操作:"
+  },
+  "aiLearning": {
+    "businessContext": "ビジネスコンテキスト",
+    "aiInsight": "AIインサイト",
+    "aiAgent": "AIエージェント",
+    "similar": "{{count}}件の類似",
+    "confidence": "信頼度 {{value}}%",
+    "fieldsExtracted": "{{count}}項目を抽出",
+    "dialogTitle": "AI学習インサイト",
+    "extractedFrom": "{{source}}との会話から抽出",
+    "confidenceLabel": "信頼度",
+    "extractedBusinessContext": "抽出されたビジネスコンテキスト",
+    "noContent": "詳細な内容はありません",
+    "capturedOn": "{{date}}に取得"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "title": "설정",
+  "subtitle": "계정과 환경설정을 관리하세요",
+  "tabs": {
+    "profile": "프로필",
+    "preferences": "환경설정",
+    "notifications": "알림",
+    "security": "보안",
+    "billing": "결제"
+  },
+  "profile": {
+    "title": "프로필 정보",
+    "subtitle": "개인 정보와 아바타를 업데이트하세요",
+    "fields": {
+      "avatar": "프로필 사진",
+      "fullName": "이름",
+      "email": "이메일 주소",
+      "phone": "전화번호",
+      "timezone": "시간대",
+      "language": "언어"
+    },
+    "actions": {
+      "save": "변경 사항 저장",
+      "cancel": "취소",
+      "uploadPhoto": "사진 업로드",
+      "removePhoto": "사진 제거"
+    }
+  },
+  "preferences": {
+    "title": "환경설정",
+    "subtitle": "사용 경험을 맞춤 설정하세요",
+    "language": {
+      "title": "언어",
+      "description": "인터페이스에 사용할 기본 언어를 선택하세요"
+    },
+    "theme": {
+      "title": "테마",
+      "description": "라이트, 다크 또는 시스템 테마 중에서 선택하세요",
+      "options": {
+        "light": "라이트",
+        "dark": "다크",
+        "system": "시스템"
+      }
+    },
+    "dateFormat": {
+      "title": "날짜 형식",
+      "description": "날짜 표시 방식을 선택하세요"
+    },
+    "currency": {
+      "title": "기본 통화",
+      "description": "예산과 보고서에 사용할 기본 통화를 설정하세요"
+    }
+  },
+  "notifications": {
+    "title": "알림 환경설정",
+    "subtitle": "알림 수신 방식을 관리하세요",
+    "email": {
+      "title": "이메일 알림",
+      "weeklyDigest": "주간 요약",
+      "weeklyDigestDesc": "마케팅 성과를 주간 요약으로 받아보세요",
+      "campaignAlerts": "캠페인 알림",
+      "campaignAlertsDesc": "캠페인에 주의가 필요할 때 알림을 받습니다",
+      "teamUpdates": "팀 업데이트",
+      "teamUpdatesDesc": "팀원 활동과 관련된 알림"
+    },
+    "push": {
+      "title": "푸시 알림",
+      "browser": "브라우저 알림",
+      "browserDesc": "브라우저에서 알림을 받습니다"
+    }
+  },
+  "security": {
+    "title": "보안",
+    "subtitle": "계정 보안 설정을 관리하세요",
+    "password": {
+      "title": "비밀번호 변경",
+      "description": "계정을 안전하게 유지하려면 비밀번호를 정기적으로 업데이트하세요",
+      "currentPassword": "현재 비밀번호",
+      "newPassword": "새 비밀번호",
+      "confirmPassword": "새 비밀번호 확인",
+      "updateButton": "비밀번호 업데이트"
+    },
+    "twoFactor": {
+      "title": "2단계 인증",
+      "description": "계정에 추가 보안 계층을 적용하세요",
+      "enable": "2단계 인증 활성화",
+      "disable": "2단계 인증 비활성화",
+      "enabled": "활성화됨",
+      "disabled": "비활성화됨"
+    },
+    "sessions": {
+      "title": "활성 세션",
+      "description": "여러 기기에서 활성화된 세션을 관리하세요",
+      "currentSession": "현재 세션",
+      "signOutAll": "다른 모든 세션 로그아웃"
+    }
+  },
+  "billing": {
+    "title": "결제 및 구독",
+    "subtitle": "구독과 결제 수단을 관리하세요",
+    "currentPlan": {
+      "title": "현재 요금제",
+      "freeTier": "무료 플랜",
+      "pro": "프로",
+      "enterprise": "엔터프라이즈"
+    },
+    "usage": {
+      "title": "이번 달 사용량",
+      "aiCredits": "사용한 AI 크레딧",
+      "storage": "사용한 저장 용량"
+    },
+    "paymentMethod": {
+      "title": "결제 수단",
+      "addNew": "결제 수단 추가",
+      "noMethod": "등록된 결제 수단이 없습니다"
+    }
+  },
+  "whiteLabel": {
+    "pageTitle": "화이트라벨 설정",
+    "pageSubtitle": "에이전시의 브랜딩과 도메인으로 플랫폼을 맞춤 설정하세요",
+    "agencyOnly": {
+      "title": "에이전시 전용 기능",
+      "description": "화이트라벨 맞춤 설정은 에이전시 계정에서만 사용할 수 있습니다.",
+      "learnMore": "에이전시 요금제 알아보기"
+    },
+    "status": {
+      "title": "화이트라벨 상태",
+      "brandKit": {
+        "label": "브랜드 키트",
+        "active": "활성",
+        "notConfigured": "구성되지 않음"
+      },
+      "customDomain": {
+        "label": "커스텀 도메인",
+        "usingDefault": "기본 도메인 사용 중"
+      },
+      "sslCertificate": {
+        "label": "SSL 인증서",
+        "autoProvisioned": "자동 발급됨"
+      }
+    },
+    "domain": {
+      "title": "커스텀 도메인 설정",
+      "description": "자체 도메인으로 플랫폼에 접속하세요",
+      "inputLabel": "커스텀 도메인",
+      "inputPlaceholder": "marketing.youragency.com",
+      "configureButton": "구성",
+      "dnsRequired": "DNS 설정 필요",
+      "copyButton": "복사",
+      "copiedButton": "복사됨",
+      "domainActive": {
+        "title": "커스텀 도메인 활성화됨",
+        "description": "플랫폼 접속 주소:",
+        "visitSite": "사이트 방문",
+        "changeDomain": "도메인 변경"
+      }
+    },
+    "benefits": {
+      "title": "커스텀 도메인의 장점",
+      "professional": {
+        "title": "전문적인 인상",
+        "description": "자체 도메인으로 브랜드 신뢰도를 높이세요"
+      },
+      "clientTrust": {
+        "title": "클라이언트 신뢰",
+        "description": "브랜드 URL로 신뢰를 구축하세요"
+      },
+      "seo": {
+        "title": "SEO 이점",
+        "description": "검색 엔진 가시성을 높이세요"
+      },
+      "ssl": {
+        "title": "SSL 포함",
+        "description": "HTTPS 암호화가 자동으로 적용됩니다"
+      }
+    }
+  },
+  "expertMode": {
+    "expert": "전문가 모드",
+    "guided": "가이드 모드",
+    "expertAriaLabel": "전문가 모드 정보",
+    "guidedAriaLabel": "가이드 모드 정보",
+    "expertDescription": "전문가 모드는 모든 도구와 옵션을 즉시 표시하며, 여러 클라이언트를 관리하는 에이전시에 적합한 고밀도 정보 표시를 제공합니다.",
+    "guidedDescription": "가이드 모드는 점진적으로 정보를 보여 주는 단순한 인터페이스를 제공해 빠르게 시작하기에 적합합니다.",
+    "toggleAriaLabel": "전문가 모드 전환"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "title": "Profil",
+  "tabs": {
+    "profile": "Profil",
+    "intelligence": "Intelligence business",
+    "intelligenceShort": "Intel.",
+    "permissions": "Permissions",
+    "settings": "Parametres"
+  },
+  "orgType": {
+    "agency": "Agence",
+    "sme": "PME"
+  },
+  "roles": {
+    "sme_owner": "Responsable PME",
+    "agency_owner": "Responsable d'agence",
+    "agency_admin": "Administrateur d'agence",
+    "agency_account_manager": "Responsable de compte",
+    "agency_strategist": "Strategiste senior",
+    "agency_creative": "Equipe creative",
+    "agency_analyst": "Analyste",
+    "agency_campaign_manager": "Responsable de campagne",
+    "agency_client_viewer": "Lecteur client",
+    "agency_freelancer": "Freelance",
+    "agency_viewer": "Lecteur",
+    "account_manager": "Responsable de compte",
+    "client_stakeholder": "Interlocuteur client",
+    "client_collaborator": "Collaborateur client",
+    "default": "Utilisateur"
+  },
+  "deletion": {
+    "title": "Compte programme pour suppression",
+    "deletionDate": "Votre compte sera supprime definitivement le {{date}}",
+    "reason": "Motif : {{reason}}",
+    "restoreTitle": "Pour restaurer votre compte :",
+    "restoreDescription": "Contactez le support a l'adresse {{email}} avant la date de suppression. Indiquez votre adresse e-mail et l'ID du compte dans votre demande."
+  },
+  "profileInfo": {
+    "title": "Informations du profil",
+    "subtitle": "Gerez vos informations personnelles et celles de votre organisation"
+  },
+  "personal": {
+    "title": "Informations personnelles",
+    "displayName": "Nom affiche",
+    "displayNamePlaceholder": "Saisissez votre nom complet",
+    "email": "Adresse e-mail",
+    "phone": "Numero de telephone",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "bio": "Bio",
+    "bioPlaceholder": "Parlez-nous de vous..."
+  },
+  "organization": {
+    "title": "Informations sur l'organisation",
+    "name": "Nom de l'organisation",
+    "nameNote": "(Nom du compte)",
+    "type": "Type d'organisation",
+    "typeAgency": "Agence marketing",
+    "typeSME": "Petite et moyenne entreprise",
+    "memberSince": "Membre depuis",
+    "activeCampaigns": "Campagnes actives",
+    "campaignCount_one": "{{count}} campagne",
+    "campaignCount_other": "{{count}} campagnes",
+    "website": "Site web de l'entreprise"
+  },
+  "permissions": {
+    "title": "Permissions d'acces",
+    "subtitle": "Vos permissions et capacites selon votre role",
+    "fullAdmin": {
+      "title": "Acces administrateur complet",
+      "enabled": "Active",
+      "permissions": [
+        "Gerer tous les comptes clients",
+        "Creer et supprimer des campagnes",
+        "Acceder a toutes les fonctionnalites des agents",
+        "Configurer le white-label",
+        "Voir toutes les analytics et tous les rapports",
+        "Gerer les membres de l'equipe",
+        "Exporter et importer des donnees"
+      ]
+    },
+    "businessOwner": {
+      "title": "Acces responsable d'entreprise",
+      "enabled": "Active",
+      "permissions": [
+        "Acces complet a tous les agents IA",
+        "Creer et gerer des campagnes",
+        "Consulter les analytics et les insights",
+        "Exporter des rapports et des donnees",
+        "Gerer la collaboration d'equipe",
+        "Configurer les parametres business"
+      ]
+    },
+    "accountManager": {
+      "title": "Acces responsable de compte",
+      "enabled": "Active",
+      "permissions": [
+        "Gerer les comptes clients assignes",
+        "Creer des campagnes pour les clients",
+        "Acceder aux analytics specifiques aux clients",
+        "Utiliser tous les agents IA",
+        "Exporter les rapports clients",
+        "Collaborer avec les membres de l'equipe"
+      ]
+    },
+    "guest": {
+      "title": "Acces invite",
+      "limited": "Limite",
+      "permissions": [
+        "Consulter les resultats de campagne",
+        "Acceder aux rapports approuves",
+        "Voir les tableaux de bord analytiques",
+        "Telecharger les donnees exportees"
+      ]
+    },
+    "security": {
+      "title": "Mesures de securite",
+      "description": "Nous appliquons les bonnes pratiques de securite, mais en tant que service alpha nous ne pouvons pas garantir une protection totale. Consultez notre Politique de confidentialite pour plus de details.",
+      "measures": [
+        "Securite au niveau des lignes (RLS) dans la base de donnees",
+        "Isolement des donnees multi-tenant",
+        "Authentification securisee (Supabase Auth)"
+      ]
+    }
+  },
+  "settings": {
+    "title": "Parametres du compte",
+    "subtitle": "Gerez les preferences et la securite de votre compte",
+    "security": {
+      "title": "Securite",
+      "changePassword": "Changer le mot de passe",
+      "manageMFA": "Gerer l'authentification a deux facteurs",
+      "viewLoginActivity": "Voir l'activite de connexion",
+      "comingSoon": "Bientot disponible"
+    },
+    "dataPrivacy": {
+      "title": "Donnees et confidentialite",
+      "downloadData": "Telecharger mes donnees",
+      "downloading": "Telechargement...",
+      "deleteAccount": "Supprimer le compte"
+    }
+  },
+  "validation": {
+    "fieldEmpty": "Ce champ ne peut pas etre vide"
+  },
+  "toast": {
+    "notAuthenticated": "Vous n'etes pas connecte",
+    "notAuthenticatedDesc": "Connectez-vous pour telecharger vos donnees.",
+    "exportSuccess": "Donnees exportees avec succes",
+    "exportSuccessDesc": "Vos donnees ont ete telechargees au format JSON.",
+    "exportError": "Impossible d'exporter les donnees",
+    "exportErrorDesc": "Veuillez reessayer plus tard."
+  },
+  "insights": {
+    "status": {
+      "approved": "Approuve",
+      "rejected": "Rejete",
+      "pendingReview": "En attente de revision"
+    },
+    "time": {
+      "justNow": "a l'instant",
+      "minutesAgo": "il y a {{count}} min",
+      "hoursAgo": "il y a {{count}} h",
+      "daysAgo": "il y a {{count}} j"
+    }
+  }
+}

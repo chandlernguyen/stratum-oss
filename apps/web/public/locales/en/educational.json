@@ -1,0 +1,149 @@
+{
+  "intelligenceBriefing": {
+    "title": "Your Intelligence Briefing",
+    "subtitle": "AI-recommended actions based on your business context",
+    "tooltip": "Your AI-powered next steps tailored to your business goals",
+    "emptyState": "We're analyzing your business to suggest high-impact next steps.",
+    "emptyAction": "Start with Business Strategy",
+    "aiBadge": "AI-Powered",
+    "loadingState": "Analyzing your business context..."
+  },
+  "intelligenceVault": {
+    "title": "Recent Intelligence",
+    "subtitle": "Strategic insights and outputs from your AI agents",
+    "emptyState": "No intelligence yet. Start building your strategic foundation.",
+    "emptyAction": "Generate First Strategy",
+    "viewAll": "View all intelligence →",
+    "totalBadge": "{{count}} total"
+  },
+  "campaigns": {
+    "title": "Your Campaigns",
+    "subtitle": "Organize your intelligence by business initiative",
+    "createButton": "Organize Intelligence into Campaign",
+    "createButtonShort": "Create Campaign",
+    "emptyStateNoIntelligence": "No campaigns yet. Complete key intelligence outputs first (Strategy, Personas, Marketing).",
+    "emptyStateHasIntelligence": "Ready to organize your intelligence by business initiative?",
+    "emptyActionPrimary": "Start with Strategy",
+    "emptyActionSecondary": "Build Intelligence",
+    "emptyActionReady": "Create First Campaign",
+    "sectionDescription": "Organize your intelligence by business initiative"
+  },
+  "intelligenceReadiness": {
+    "bannerIncompleteTitle": "Building Your Strategic Foundation",
+    "bannerIncompleteSubtitle": "({{percentage}}% Complete)",
+    "bannerCompleteTitle": "Ready to Create Your First Campaign",
+    "bannerCompleteSubtitle": "You've built a strong strategic foundation",
+    "checklistLabel": "Complete these key intelligence outputs:",
+    "checklistItems": {
+      "strategy": "Business Strategy",
+      "persona": "Customer Personas",
+      "marketingStrategy": "Marketing Strategy"
+    },
+    "actions": {
+      "createCampaign": "Create Campaign",
+      "maybeLater": "Maybe Later"
+    },
+    "descriptionComplete": "Create a campaign to organize your intelligence by business initiative and track performance.",
+    "descriptionIncomplete": "Complete these key intelligence outputs before creating campaigns:"
+  },
+  "outputs": {
+    "pageTitle": "Outputs Hub",
+    "pageSubtitle": "All AI-generated insights and content in one place",
+    "organizeButtonNotReady": "Organize Intelligence",
+    "organizeButtonReady": "Create Campaign",
+    "emptyState": "No intelligence outputs yet",
+    "emptyAction": "Start generating strategic insights"
+  },
+  "onboarding": {
+    "welcomeTitle": "Welcome to STRAŦUM Marketing Suite",
+    "welcomeSubtitle": "Build intelligence first, execute with confidence",
+    "welcomeDescription": "Start by understanding your business and customers - campaigns come after",
+    "ctaStrategy": {
+      "title": "Start with Strategy",
+      "subtitle": "Recommended first step",
+      "description": "Analyze your business with 11 strategic frameworks and build a solid foundation",
+      "timeEstimate": "3 minutes to first insight"
+    },
+    "ctaPersona": {
+      "title": "Know Your Customers",
+      "subtitle": "Build detailed buyer personas",
+      "description": "Understand who you're marketing to with AI-powered customer insights",
+      "timeEstimate": "5 minutes to create persona"
+    },
+    "ctaQuickStart": {
+      "title": "Quick Start Templates",
+      "subtitle": "Get results in minutes",
+      "description": "Choose from pre-configured intelligence workflows for immediate insights",
+      "timeEstimate": "2-10 minutes to complete"
+    },
+    "agentExplorerTitle": "OR EXPLORE AI AGENTS",
+    "agentCount": "{{count}} specialized agents to power your marketing success"
+  },
+  "agentCategories": {
+    "foundation": {
+      "name": "Foundation",
+      "description": "Build your marketing foundation"
+    },
+    "execution": {
+      "name": "Execution",
+      "description": "Take action on your strategy"
+    },
+    "intelligence": {
+      "name": "Intelligence",
+      "description": "Optimize and analyze"
+    }
+  },
+  "emptyStates": {
+    "noIntelligence": {
+      "title": "No intelligence yet",
+      "description": "Start building your strategic foundation with AI-powered insights",
+      "action": "Start with Strategy"
+    },
+    "noCampaigns": {
+      "title": "No campaigns yet",
+      "description": "Campaigns organize intelligence by business initiative",
+      "action": "Build Intelligence First"
+    },
+    "intelligenceVaultEmpty": {
+      "title": "Your Intelligence Vault",
+      "description": "No intelligence outputs yet. Start building your strategic foundation.",
+      "action": "Generate First Strategy"
+    },
+    "campaignsNotReady": {
+      "title": "Build Intelligence First",
+      "description": "Create strategy, personas, and marketing plans before organizing into campaigns.",
+      "action": "Start with Strategy"
+    }
+  },
+  "tooltips": {
+    "intelligenceBriefing": {
+      "title": "Your AI-Powered Next Steps",
+      "description": "We analyze your business context to recommend high-impact actions",
+      "dismissLabel": "Got it"
+    }
+  },
+  "buttons": {
+    "organizeIntelligence": "Organize Intelligence into Campaign",
+    "createCampaign": "Create Campaign",
+    "startWithStrategy": "Start with Strategy",
+    "buildIntelligence": "Build Intelligence",
+    "viewAllIntelligence": "View All Intelligence",
+    "generateStrategy": "Generate Strategy",
+    "exploreAgents": "Explore AI Agents",
+    "quickStart": "Quick Start (5 min)"
+  },
+  "progress": {
+    "readinessPercentage": "{{percentage}}% to campaign readiness",
+    "intelligenceOutputs": "{{count}} intelligence output",
+    "intelligenceOutputs_other": "{{count}} intelligence outputs",
+    "agentInteractions": "{{count}} AI interaction this week",
+    "agentInteractions_other": "{{count}} AI interactions this week",
+    "strategicFoundation": "Strategic foundation: {{status}}"
+  },
+  "concepts": {
+    "intelligenceFirst": "Build strategic intelligence before execution for better results",
+    "campaignsOrganize": "Campaigns organize your intelligence, they don't drive execution",
+    "aiAgents": "9 specialized AI agents help you build strategic foundations",
+    "quickWins": "Immediate actionable insights while building long-term strategy"
+  }
+}

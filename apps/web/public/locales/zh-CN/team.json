@@ -1,0 +1,183 @@
+{
+  "title": "团队",
+  "subtitle": "管理你的团队成员和权限",
+  "management": {
+    "title": "团队管理",
+    "subtitle": "管理你的团队成员和邀请",
+    "inviteButton": "邀请团队成员"
+  },
+  "list": {
+    "title": "团队成员",
+    "empty": "还没有团队成员",
+    "emptyDescription": "邀请团队成员一起协作你的营销战略",
+    "inviteFirst": "邀请你的第一位团队成员"
+  },
+  "members": {
+    "title": "团队成员",
+    "count": "团队成员（{{count}}）",
+    "subtitle": "你组织中的活跃成员",
+    "empty": "未找到团队成员",
+    "joined": "加入于 {{date}}"
+  },
+  "invitations": {
+    "title": "待处理邀请",
+    "count": "待处理邀请（{{count}}）",
+    "subtitle": "尚未被接受的邀请",
+    "empty": "没有待处理邀请",
+    "invitedBy": "邀请人：{{name}}",
+    "expires": "到期于 {{date}}",
+    "revoke": "撤销邀请"
+  },
+  "table": {
+    "name": "姓名",
+    "email": "电子邮件",
+    "role": "角色",
+    "clientAccess": "客户访问权限",
+    "joined": "加入时间",
+    "expires": "到期时间",
+    "invitedBy": "邀请人",
+    "actions": "操作"
+  },
+  "clientAccess": {
+    "allClients": "所有客户",
+    "clientCount_one": "{{count}} 位客户",
+    "clientCount_other": "{{count}} 位客户",
+    "allClientsTooltip": "可访问所有当前和未来客户",
+    "assignedClients": "已分配客户：",
+    "andMore": "……以及另外 {{count}} 位",
+    "noClientsAssigned": "未分配客户"
+  },
+  "dialogs": {
+    "changeRole": {
+      "title": "更改成员角色",
+      "description": "更新 {{name}}（{{email}}）的角色",
+      "newRole": "新角色",
+      "selectRole": "选择一个新角色",
+      "cancel": "取消",
+      "submit": "更新角色",
+      "submitting": "更新中..."
+    },
+    "clientAccess": {
+      "title": "管理客户访问权限",
+      "description": "更新 {{name}}（{{email}}）的客户访问权限",
+      "allClients": "所有客户",
+      "allClientsDescription": "该用户将可访问所有当前和未来客户",
+      "selectClients": "选择特定客户：",
+      "loadingClients": "正在加载客户...",
+      "noClients": "没有可用客户",
+      "selectAtLeastOne": "请至少选择一个客户，或选择“所有客户”",
+      "cancel": "取消",
+      "submit": "更新访问权限",
+      "submitting": "更新中..."
+    },
+    "revoke": {
+      "title": "撤销邀请",
+      "description": "确定要撤销发送给 {{email}} 的邀请吗？",
+      "confirm": "撤销"
+    },
+    "remove": {
+      "title": "移除团队成员",
+      "description": "确定要将 {{name}}（{{email}}）从你的组织中移除吗？此操作无法撤销。",
+      "confirm": "移除成员"
+    }
+  },
+  "actions": {
+    "changeRole": "更改角色",
+    "manageClientAccess": "管理客户访问权限",
+    "removeMember": "移除成员",
+    "moreOptions": "更多选项"
+  },
+  "validation": {
+    "selectRole": "请选择一个角色",
+    "rolesNotLoaded": "角色尚未加载",
+    "invalidRole": "所选角色无效",
+    "noMemberSelected": "未选择成员",
+    "selectClientOrAll": "请至少选择一个客户，或选择“所有客户”"
+  },
+  "roles": {
+    "owner": "所有者",
+    "admin": "管理员",
+    "editor": "编辑者",
+    "viewer": "查看者",
+    "descriptions": {
+      "owner": "完整访问所有功能，包括账单和团队管理",
+      "admin": "可管理团队成员并访问除账单外的所有功能",
+      "editor": "可创建和编辑内容、营销活动与画像",
+      "viewer": "只读访问，可查看仪表盘和报告"
+    }
+  },
+  "invite": {
+    "title": "邀请团队成员",
+    "subtitle": "发送邀请加入你的团队",
+    "fields": {
+      "email": "电子邮件地址",
+      "emailPlaceholder": "colleague@company.com",
+      "role": "角色",
+      "message": "个人消息（可选）",
+      "messagePlaceholder": "在邀请中添加一条个人备注..."
+    },
+    "actions": {
+      "send": "发送邀请",
+      "sending": "发送中...",
+      "cancel": "取消"
+    },
+    "success": "邀请发送成功",
+    "error": "发送邀请失败"
+  },
+  "member": {
+    "joined": "加入时间",
+    "lastActive": "最近活跃",
+    "pendingInvite": "待处理邀请",
+    "inviteSent": "邀请已发送",
+    "actions": {
+      "changeRole": "更改角色",
+      "resendInvite": "重新发送邀请",
+      "cancelInvite": "取消邀请",
+      "remove": "从团队中移除"
+    }
+  },
+  "permissions": {
+    "title": "权限",
+    "categories": {
+      "campaigns": "营销活动",
+      "personas": "画像",
+      "agents": "AI 智能体",
+      "analytics": "分析",
+      "settings": "设置",
+      "team": "团队管理"
+    },
+    "levels": {
+      "none": "无权限",
+      "view": "仅查看",
+      "edit": "编辑",
+      "full": "完全访问"
+    }
+  },
+  "confirmRemove": {
+    "title": "移除团队成员",
+    "message": "确定要将 {{name}} 从团队中移除吗？他们将失去对所有团队资源的访问权限。",
+    "confirm": "移除",
+    "cancel": "取消"
+  },
+  "confirmCancelInvite": {
+    "title": "取消邀请",
+    "message": "确定要取消发送给 {{email}} 的邀请吗？",
+    "confirm": "取消邀请",
+    "cancel": "保留邀请"
+  },
+  "limits": {
+    "title": "团队限制",
+    "membersUsed": "已使用 {{used}} / {{total}} 个成员名额",
+    "upgradePrompt": "升级以添加更多团队成员"
+  },
+  "activity": {
+    "title": "最近活动",
+    "empty": "暂无最近活动",
+    "actions": {
+      "invited": "已邀请",
+      "joined": "加入了团队",
+      "removed": "已从团队中移除",
+      "roleChanged": "角色已更改为"
+    }
+  }
+}

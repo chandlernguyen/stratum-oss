@@ -1,0 +1,490 @@
+{
+  "aria": {
+    "bottomNavigation": "Thanh điều hướng dưới",
+    "breadcrumb": "Đường dẫn",
+    "openMenu": "Mở menu"
+  },
+  "buttons": {
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "create": "Tạo mới",
+    "add": "Thêm",
+    "remove": "Xóa bỏ",
+    "close": "Đóng",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "previous": "Trước đó",
+    "submit": "Gửi",
+    "loading": "Đang tải...",
+    "retry": "Thử lại",
+    "continue": "Tiếp tục",
+    "skip": "Bỏ qua",
+    "done": "Hoàn tất",
+    "view": "Xem",
+    "viewAll": "Xem tất cả",
+    "learnMore": "Tìm hiểu thêm",
+    "getStarted": "Bắt đầu",
+    "signUp": "Đăng ký",
+    "signIn": "Đăng nhập",
+    "signOut": "Đăng xuất",
+    "upgrade": "Nâng cấp",
+    "download": "Tải xuống",
+    "export": "Xuất",
+    "import": "Nhập",
+    "refresh": "Làm mới",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "sort": "Sắp xếp",
+    "copy": "Sao chép",
+    "copied": "Đã sao chép!",
+    "share": "Chia sẻ",
+    "archive": "Lưu trữ",
+    "restore": "Khôi phục",
+    "newSession": "Phiên Mới"
+  },
+  "labels": {
+    "name": "Tên",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "phone": "Điện thoại",
+    "description": "Mô tả",
+    "title": "Tiêu đề",
+    "status": "Trạng thái",
+    "date": "Ngày",
+    "time": "Giờ",
+    "type": "Loại",
+    "category": "Danh mục",
+    "tags": "Thẻ",
+    "notes": "Ghi chú",
+    "actions": "Thao tác",
+    "settings": "Cài đặt",
+    "profile": "Hồ sơ",
+    "account": "Tài khoản",
+    "preferences": "Tùy chọn",
+    "language": "Ngôn ngữ",
+    "notifications": "Thông báo",
+    "privacy": "Quyền riêng tư",
+    "security": "Bảo mật",
+    "help": "Trợ giúp",
+    "support": "Hỗ trợ",
+    "feedback": "Góp ý",
+    "optional": "Không bắt buộc",
+    "required": "Bắt buộc"
+  },
+  "status": {
+    "active": "Đang hoạt động",
+    "inactive": "Không hoạt động",
+    "pending": "Đang chờ",
+    "completed": "Hoàn thành",
+    "failed": "Thất bại",
+    "processing": "Đang xử lý",
+    "draft": "Bản nháp",
+    "published": "Đã xuất bản",
+    "archived": "Đã lưu trữ",
+    "deleted": "Đã xóa"
+  },
+  "errors": {
+    "generic": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "networkError": "Lỗi kết nối mạng. Vui lòng kiểm tra kết nối của bạn.",
+    "serverError": "Lỗi máy chủ. Vui lòng thử lại sau.",
+    "notFound": "Không tìm thấy tài nguyên.",
+    "unauthorized": "Bạn không có quyền thực hiện thao tác này.",
+    "forbidden": "Truy cập bị từ chối.",
+    "validationError": "Vui lòng kiểm tra thông tin đã nhập và thử lại.",
+    "timeout": "Yêu cầu đã hết thời gian. Vui lòng thử lại.",
+    "sessionExpired": "Phiên làm việc đã hết hạn. Vui lòng đăng nhập lại."
+  },
+  "success": {
+    "saved": "Đã lưu thay đổi thành công.",
+    "created": "Đã tạo thành công.",
+    "updated": "Đã cập nhật thành công.",
+    "deleted": "Đã xóa thành công.",
+    "copied": "Đã sao chép vào clipboard.",
+    "exported": "Đã xuất thành công.",
+    "imported": "Đã nhập thành công."
+  },
+  "confirm": {
+    "delete": {
+      "title": "Xóa mục",
+      "description": "Bạn có chắc chắn muốn xóa mục này không? Thao tác này không thể hoàn tác.",
+      "confirmButton": "Xóa vĩnh viễn",
+      "cancelButton": "Hủy"
+    },
+    "unsavedChanges": {
+      "title": "Thay đổi chưa lưu",
+      "description": "Bạn có thay đổi chưa được lưu. Bạn có chắc chắn muốn rời đi?",
+      "confirmButton": "Rời đi",
+      "cancelButton": "Ở lại"
+    },
+    "archive": {
+      "title": "Lưu trữ mục",
+      "description": "Bạn có chắc chắn muốn lưu trữ mục này không?",
+      "confirmButton": "Lưu trữ",
+      "cancelButton": "Hủy",
+      "reasonLabel": "Lý do lưu trữ (không bắt buộc)",
+      "reasonPlaceholder": "VD: Chiến lược đã cũ, dự án hoàn thành, không còn cần thiết...",
+      "reasonHelp": "Thông tin này sẽ được lưu để kiểm tra và hữu ích khi xem lại các mục đã lưu trữ.",
+      "reversibleTitle": "Lưu trữ có thể khôi phục",
+      "reversibleMessage": "Bạn có thể khôi phục {{itemName}} bất kỳ lúc nào từ phần mục đã lưu trữ."
+    },
+    "warning": {
+      "confirmButton": "Tiếp tục"
+    },
+    "info": {
+      "confirmButton": "Xác nhận"
+    },
+    "deleteTip": "Mẹo: Hãy cân nhắc lưu trữ thay vì xóa nếu bạn có thể cần nó sau này. Các mục đã lưu trữ có thể được khôi phục bất cứ lúc nào.",
+    "processing": "Đang xử lý..."
+  },
+  "empty": {
+    "noResults": "Không tìm thấy kết quả.",
+    "noData": "Không có dữ liệu.",
+    "noItems": "Chưa có mục nào.",
+    "noMatches": "Không tìm thấy kết quả phù hợp với tìm kiếm của bạn."
+  },
+  "loading": {
+    "default": "Đang tải...",
+    "pleaseWait": "Vui lòng đợi...",
+    "processing": "Đang xử lý...",
+    "saving": "Đang lưu...",
+    "fetching": "Đang tải dữ liệu..."
+  },
+  "time": {
+    "justNow": "Vừa xong",
+    "minutesAgo": "{{count}} phút trước",
+    "minutesAgo_other": "{{count}} phút trước",
+    "hoursAgo": "{{count}} giờ trước",
+    "hoursAgo_other": "{{count}} giờ trước",
+    "daysAgo": "{{count}} ngày trước",
+    "daysAgo_other": "{{count}} ngày trước",
+    "today": "Hôm nay",
+    "yesterday": "Hôm qua",
+    "tomorrow": "Ngày mai"
+  },
+  "navigation": {
+    "home": "Trang chủ",
+    "dashboard": "Bảng điều khiển",
+    "overview": "Tổng quan",
+    "campaigns": "Chiến dịch",
+    "agents": "Trợ lý AI",
+    "library": "Thư viện",
+    "approved": "Đã duyệt",
+    "team": "Nhóm",
+    "tasks": "Công việc",
+    "search": "Tìm kiếm",
+    "more": "Thêm",
+    "settings": "Cài đặt",
+    "profile": "Hồ sơ",
+    "myProfile": "Hồ sơ của tôi",
+    "billing": "Thanh toán & Gói dịch vụ",
+    "feedback": "Góp ý",
+    "contactUs": "Liên hệ",
+    "privacyPolicy": "Chính sách bảo mật",
+    "termsConditions": "Điều khoản & Điều kiện",
+    "signOut": "Đăng xuất",
+    "help": "Trợ giúp",
+    "lightMode": "Chế độ sáng",
+    "darkMode": "Chế độ tối",
+    "intelligence": "Thông tin",
+    "clients": "Khách hàng",
+    "agencyOverview": "Tổng quan Agency",
+    "requestAccess": "Đăng Ký",
+    "account": "Tài Khoản",
+    "accountOptions": "Tùy chọn tài khoản",
+    "request": "Yêu Cầu",
+    "pricing": "Bảng Giá",
+    "blog": "Blog",
+    "whiteLabel": "White Label",
+    "accountTypes": {
+      "agency": "Tài Khoản Agency",
+      "sme": "Tài Khoản SME"
+    }
+  },
+  "auth": {
+    "signIn": "Đăng Nhập",
+    "signUp": "Đăng Ký",
+    "alreadyHaveAccount": "Đã có tài khoản",
+    "haveInvitation": "Có lời mời? Tham gia ngay"
+  },
+  "breadcrumbs": {
+    "campaign": "Chiến dịch",
+    "businessStrategy": "Chiến lược Kinh doanh",
+    "personas": "Chân dung Khách hàng",
+    "marketingStrategy": "Chiến lược Marketing",
+    "content": "Nội dung",
+    "analytics": "Phân tích",
+    "roiBudget": "ROI & Ngân sách",
+    "campaignExecution": "Triển khai Chiến dịch",
+    "competitiveIntelligence": "Thông tin Cạnh tranh",
+    "clientSuccess": "Thành công Khách hàng",
+    "quickWins": "Giải pháp Nhanh",
+    "switchClient": "Chuyển khách hàng",
+    "contentCreation": "Tạo Nội dung",
+    "strategy": "Chiến lược",
+    "strategyAgent": "Trợ lý Chiến lược",
+    "personaAgent": "Trợ lý Chân dung",
+    "contentAgent": "Trợ lý Nội dung",
+    "analyticsAgent": "Trợ lý Phân tích",
+    "campaignPlanning": "Lập kế hoạch Chiến dịch",
+    "performanceIntelligence": "Phân tích Hiệu suất",
+    "client": "Khách hàng"
+  },
+  "clientLayout": {
+    "clientNotFound": "Không tìm thấy khách hàng hoặc không có quyền truy cập",
+    "loadingClientData": "Đang tải dữ liệu khách hàng...",
+    "clientFeatureName": "Không gian Khách hàng",
+    "noAccessMessage": "Bạn không có quyền truy cập vào không gian khách hàng này. Vui lòng liên hệ quản trị viên agency của bạn."
+  },
+  "clientPortal": {
+    "title": "Cổng Khách hàng",
+    "review": "Xem xét",
+    "loading": "Đang tải không gian làm việc...",
+    "noAccess": "Không có Quyền Truy cập",
+    "noAccessDescription": "Bạn không có quyền truy cập vào bất kỳ không gian khách hàng nào. Vui lòng liên hệ agency của bạn để được hỗ trợ."
+  },
+  "footer": {
+    "copyright": "© 2026 STRAŦUM. Bảo lưu mọi quyền.",
+    "privacy": "Bảo Mật",
+    "terms": "Điều Khoản",
+    "contact": "Liên Hệ",
+    "pricing": "Bảng Giá",
+    "blog": "Blog",
+    "tagline": "Hiểu Rõ Trước Khi Hành Động"
+  },
+  "theme": {
+    "light": "Sáng",
+    "dark": "Tối",
+    "switchToLight": "Chuyển sang chế độ sáng",
+    "switchToDark": "Chuyển sang chế độ tối"
+  },
+  "language": {
+    "switchToVietnamese": "Chuyển sang Tiếng Việt",
+    "switchToEnglish": "Chuyển sang Tiếng Anh"
+  },
+  "session": {
+    "untitled": "Phiên Chưa Đặt Tên",
+    "archived": "Đã Lưu Trữ",
+    "message": "{{count}} tin nhắn",
+    "message_other": "{{count}} tin nhắn",
+    "actions": {
+      "rename": "Đổi Tên Phiên",
+      "export": "Xuất Phiên",
+      "duplicate": "Nhân Bản Phiên",
+      "restore": "Khôi Phục",
+      "archive": "Lưu Trữ",
+      "delete": "Xóa"
+    }
+  },
+  "approvals": {
+    "title": "Phê Duyệt Đang Chờ",
+    "from": "Từ {{name}}",
+    "reviewContent": "Xem Xét Nội Dung",
+    "contentNotAvailable": "Nội dung không có sẵn để xem xét",
+    "viewToApprove": "Xem nội dung để phê duyệt hoặc yêu cầu thay đổi",
+    "noPending": "Không có phê duyệt đang chờ",
+    "allCaughtUp": "Bạn đã hoàn thành tất cả!",
+    "viewAll": "Xem tất cả",
+    "priority": {
+      "low": "Thấp",
+      "normal": "Bình thường",
+      "high": "Cao",
+      "urgent": "Khẩn cấp"
+    }
+  },
+  "feedback": {
+    "pageTitle": "Góp Ý",
+    "title": "Chia Sẻ Ý Kiến Của Bạn",
+    "subtitle": "Giúp chúng tôi cải thiện STRAŦUM bằng cách chia sẻ suy nghĩ, đề xuất hoặc báo cáo vấn đề của bạn.",
+    "categoryLabel": "Danh mục",
+    "categoryPlaceholder": "Chọn danh mục",
+    "feedbackLabel": "Ý kiến của bạn",
+    "feedbackPlaceholder": "Hãy cho chúng tôi biết suy nghĩ của bạn...",
+    "submitButton": "Gửi Góp Ý",
+    "submitting": "Đang gửi...",
+    "privacyNote": "Góp ý của bạn được bảo mật và chỉ nhóm STRAŦUM mới có thể xem.",
+    "successTitle": "Đã Gửi Góp Ý!",
+    "successMessage": "Cảm ơn bạn đã giúp chúng tôi cải thiện STRAŦUM. Ý kiến của bạn rất có giá trị với chúng tôi.",
+    "submitAnother": "Gửi Thêm Góp Ý",
+    "categories": {
+      "generalFeedback": {
+        "label": "Góp Ý Chung",
+        "description": "Suy nghĩ tổng quan về STRAŦUM"
+      },
+      "agentPerformance": {
+        "label": "Hiệu Suất Trợ Lý AI",
+        "description": "Góp ý về các Trợ lý: Chiến lược, Chân dung, Nội dung..."
+      },
+      "featureRequest": {
+        "label": "Yêu Cầu Tính Năng",
+        "description": "Đề xuất tính năng mới hoặc cải tiến"
+      },
+      "bugReport": {
+        "label": "Báo Lỗi",
+        "description": "Báo cáo vấn đề kỹ thuật hoặc lỗi"
+      },
+      "userExperience": {
+        "label": "Trải Nghiệm Người Dùng",
+        "description": "Góp ý về thiết kế UI/UX"
+      },
+      "dataAccuracy": {
+        "label": "Độ Chính Xác Dữ Liệu",
+        "description": "Báo cáo kết quả AI không chính xác hoặc gây nhầm lẫn"
+      }
+    },
+    "validation": {
+      "feedbackRequired": "Vui lòng nhập góp ý",
+      "feedbackMinLength": "Góp ý phải có ít nhất {{min}} ký tự",
+      "feedbackMaxLength": "Góp ý không được vượt quá {{max}} ký tự",
+      "categoryRequired": "Vui lòng chọn danh mục"
+    },
+    "messages": {
+      "authError": "Lỗi xác thực. Vui lòng làm mới trang.",
+      "submitError": "Không thể gửi góp ý. Vui lòng thử lại.",
+      "unexpectedError": "Đã xảy ra lỗi không mong muốn. Vui lòng thử lại.",
+      "thankYou": "Cảm ơn ý kiến đóng góp của bạn!"
+    }
+  },
+  "chat": {
+    "showSuggestions": "Hiện gợi ý",
+    "hideSuggestions": "Ẩn gợi ý",
+    "sendMessage": "Gửi tin nhắn",
+    "analyzing": "Đang phân tích để đề xuất hành động...",
+    "analyzingStrategy": "Đang phân tích chiến lược marketing..."
+  },
+  "search": {
+    "placeholder": "Tìm kiếm..."
+  },
+  "notifications": {
+    "count": "{{count}} thông báo",
+    "count_one": "{{count}} thông báo",
+    "noNotifications": "Chưa có thông báo",
+    "viewAll": "Xem tất cả {{count}} thông báo"
+  },
+  "protectedRoute": {
+    "initializingAuth": "Đang khởi tạo xác thực...",
+    "loadingWorkspace": "Đang tải không gian làm việc..."
+  },
+  "security": {
+    "secureWorkspace": "Không gian Bảo mật",
+    "workingInWorkspace": "Đang làm việc trong không gian của {{clientName}}",
+    "dataProtected": "Dữ liệu Được Bảo vệ",
+    "enterpriseGradeSecurity": "Bảo mật Cấp Doanh nghiệp",
+    "dataIsolation": "Cách ly dữ liệu hoàn toàn",
+    "endToEndEncryption": "Mã hóa đầu cuối",
+    "soc2Compliant": "Tuân thủ SOC 2",
+    "aiPrivate": "Dữ liệu AI được bảo mật",
+    "currentlyWorkingIn": "Hiện đang làm việc tại"
+  },
+  "archiveReasonDialog": {
+    "description": "Thao tác này sẽ ẩn \"{{resourceName}}\" khỏi chế độ xem đang hoạt động nhưng vẫn giữ nguyên dữ liệu. Bạn có thể khôi phục bất cứ lúc nào từ mục đã lưu trữ.",
+    "archiving": "Đang lưu trữ...",
+    "archiveButton": "Lưu trữ {{resourceDisplayName}}"
+  },
+  "deleteConfirmDialog": {
+    "title": "Bạn có chắc chắn không?",
+    "archivedDescription": "{{itemName}} này đã được lưu trữ. Xóa sẽ loại bỏ vĩnh viễn khỏi hệ thống. Thao tác này không thể hoàn tác.",
+    "activeDescription": "Thao tác này sẽ xóa vĩnh viễn {{itemName}} và tất cả dữ liệu liên quan. Không thể hoàn tác.",
+    "item": "mục",
+    "thisItem": "mục này"
+  },
+  "languageSwitcher": {
+    "ariaLabel": "Ngôn ngữ hiện tại: {{language}}. Nhấp để thay đổi ngôn ngữ."
+  },
+  "outputBrowser": {
+    "loading": "Đang tải kết quả đã lưu...",
+    "savedOutputs": "Kết quả Đã lưu",
+    "searchPlaceholder": "Tìm kiếm kết quả...",
+    "allAgents": "Tất cả Trợ lý",
+    "agents": {
+      "strategy": "Chiến lược",
+      "persona": "Chân dung",
+      "content": "Nội dung",
+      "analytics": "Phân tích"
+    },
+    "sortBy": {
+      "recent": "Gần đây",
+      "popular": "Phổ biến",
+      "topRated": "Đánh giá cao"
+    },
+    "suggestedFor": "Gợi ý cho {{agent}}",
+    "noSavedOutputs": "Chưa có kết quả đã lưu.",
+    "saveHint": "Lưu phản hồi của trợ lý để sử dụng lại sau!",
+    "noMatchingOutputs": "Không có kết quả phù hợp với tiêu chí tìm kiếm.",
+    "views": "{{count}} lượt xem",
+    "views_one": "{{count}} lượt xem",
+    "reuses": "{{count}} lần sử dụng lại",
+    "reuses_one": "{{count}} lần sử dụng lại",
+    "selected": "{{count}} đã chọn",
+    "useSelected": "Sử dụng đã chọn ({{count}})",
+    "weeksAgo": "{{count}} tuần trước",
+    "weeksAgo_one": "{{count}} tuần trước"
+  },
+  "quickSave": {
+    "quickSave": "Lưu nhanh",
+    "saved": "Đã lưu",
+    "saving": "Đang lưu...",
+    "saveWithDetails": "Lưu với chi tiết",
+    "copyToClipboard": "Sao chép vào clipboard"
+  },
+  "relatedOutputs": {
+    "title": "Công việc Liên quan",
+    "description": "Kết quả trước đó có thể hữu ích cho công việc {{agent}} của bạn",
+    "hide": "Ẩn kết quả liên quan",
+    "show": "Hiện kết quả liên quan",
+    "smartSuggestions": "Gợi ý Thông minh",
+    "fromRelatedAgents": "Từ các Trợ lý Liên quan",
+    "useAsContext": "Sử dụng làm ngữ cảnh",
+    "usedTimes": "Đã sử dụng {{count}} lần",
+    "usedTimes_one": "Đã sử dụng {{count}} lần",
+    "emptyState": "Chưa có kết quả liên quan. Hãy bắt đầu sử dụng các trợ lý khác để xây dựng ngữ cảnh cho công việc {{agent}} của bạn.",
+    "loading": "Đang tải kết quả liên quan...",
+    "copyError": "Không thể sao chép vào clipboard"
+  },
+  "resourceActions": {
+    "actionsFor": "Thao tác cho {{name}}",
+    "view": "Xem {{name}}",
+    "edit": "Chỉnh sửa {{name}}",
+    "copyContent": "Sao chép Nội dung",
+    "restore": "Khôi phục {{name}}",
+    "restoring": "Đang khôi phục...",
+    "archive": "Lưu trữ {{name}}",
+    "archiving": "Đang lưu trữ...",
+    "deleting": "Đang xóa..."
+  },
+  "saveOutputDialog": {
+    "title": "Lưu Kết quả {{agentType}}",
+    "description": "Thêm tiêu đề và thẻ để lưu kết quả này để tham khảo sau",
+    "saveWithDetails": "Lưu với chi tiết (Cmd+S)",
+    "titleLabel": "Tiêu đề",
+    "titlePlaceholder": "Phân tích {{agentType}} từ {{date}}",
+    "tagsPlaceholder": "Thêm thẻ tùy chỉnh...",
+    "suggestedTags": "Thẻ gợi ý:",
+    "contentPreview": "Xem trước Nội dung",
+    "words": "{{count}} từ",
+    "words_one": "{{count}} từ",
+    "minRead": "{{count}} phút đọc",
+    "outputType": "Kết quả {{agentType}}",
+    "structuredData": "Dữ liệu Có cấu trúc",
+    "structuredDataHint": "Chứa dữ liệu phân tích có cấu trúc có thể tái sử dụng giữa các trợ lý",
+    "keyboardHint": "Nhấn Cmd+Enter để lưu nhanh",
+    "saveOutput": "Lưu Kết quả"
+  },
+  "smartStart": {
+    "preparingSuggestions": "Đang chuẩn bị gợi ý thông minh...",
+    "readyToWork": "Sẵn sàng làm việc với Trợ lý {{agent}} của bạn",
+    "smartSuggestions": "Gợi ý Thông minh",
+    "continuePreviousWork": "Tiếp tục công việc trước",
+    "fromAgent": "Từ {{agent}}",
+    "uses": "{{count}} lần sử dụng",
+    "uses_one": "{{count}} lần sử dụng",
+    "workflowTip": "Mẹo Quy trình",
+    "workflowTipSuffix": "Nhấp vào bất kỳ gợi ý nào ở trên để tiếp tục với ngữ cảnh đó, hoặc bắt đầu mới bên dưới.",
+    "startFresh": "Bắt đầu Mới",
+    "useBestMatch": "Dùng Kết quả Phù hợp nhất",
+    "readyForFreshIdeas": "Sẵn sàng cho Ý tưởng Mới",
+    "noPreviousWork": "Không tìm thấy công việc trước đó. Đây là nơi tuyệt vời để bắt đầu xây dựng nền tảng {{agent}} của bạn."
+  }
+}

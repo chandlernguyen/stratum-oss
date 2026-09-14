@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "badge": "Portal de Revisão de Conteúdo",
+    "defaultClientName": "Seu Conteúdo",
+    "subtitle": "Revise e aprove conteúdos criados pela equipe da sua agência"
+  },
+  "loading": {
+    "message": "Carregando conteúdo para revisão..."
+  },
+  "error": {
+    "title": "Erro ao Carregar Conteúdo",
+    "defaultMessage": "Não foi possível carregar o conteúdo. Por favor, tente novamente."
+  },
+  "tabs": {
+    "pending": "Pendente",
+    "approved": "Aprovado",
+    "changes": "Alterações"
+  },
+  "stats": {
+    "pending": "Pendente",
+    "approved": "Aprovado",
+    "changes": "Alterações"
+  },
+  "status": {
+    "draft": "Rascunho",
+    "awaitingReview": "Aguardando Revisão",
+    "approved": "Aprovado",
+    "changesRequested": "Alterações Solicitadas",
+    "rejected": "Rejeitado"
+  },
+  "outputCard": {
+    "untitledOutput": "Saída Sem Título",
+    "defaultAgentType": "Conteúdo",
+    "viewDetails": "Ver Detalhes",
+    "approve": "Aprovar",
+    "requestChanges": "Solicitar Alterações",
+    "approvedByClient": "Aprovado pelo cliente",
+    "changesRequestedByClient": "Alterações solicitadas pelo cliente"
+  },
+  "emptyState": {
+    "pending": {
+      "title": "Tudo em Dia",
+      "description": "Não há conteúdo aguardando sua revisão. Sua agência notificará você quando novo conteúdo estiver pronto.",
+      "hint": "Novas submissões aparecerão aqui"
+    },
+    "approved": {
+      "title": "Nenhum Conteúdo Aprovado Ainda",
+      "description": "O conteúdo que você aprovar será reunido aqui para fácil referência e uso futuro.",
+      "hint": "Sua biblioteca de conteúdo aprovado"
+    },
+    "changes": {
+      "title": "Nenhuma Solicitação de Alteração",
+      "description": "Quando você solicitar alterações em conteúdos, esses itens aparecerão aqui para acompanhamento.",
+      "hint": "Feedback em andamento"
+    }
+  }
+}

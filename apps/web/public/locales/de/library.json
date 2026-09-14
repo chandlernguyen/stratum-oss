@@ -1,0 +1,62 @@
+{
+  "title": "Dokumentenverwaltung",
+  "subtitle": "Dokumente Ihrer Organisation hochladen, suchen und verwalten.",
+  "upload": {
+    "title": "Dokumente hochladen",
+    "description": "Neue Dokumente zu Ihrer Wissensbasis hinzufügen.",
+    "button": "Hochladen"
+  },
+  "documents": {
+    "title": "Ihre Dokumente",
+    "description": "Ihre hochgeladenen Dokumente durchsuchen und verwalten.",
+    "emptyState": "Eine Liste oder Übersicht der Dokumente wird hier angezeigt.",
+    "noDocuments": "Noch keine Dokumente. Laden Sie Ihr erstes Dokument hoch, um zu beginnen."
+  },
+  "documentTypes": {
+    "pdf": "PDF-Dokument",
+    "doc": "Word-Dokument",
+    "docx": "Word-Dokument",
+    "txt": "Textdatei",
+    "csv": "CSV-Tabelle",
+    "xls": "Excel-Tabelle",
+    "xlsx": "Excel-Tabelle",
+    "ppt": "PowerPoint-Präsentation",
+    "pptx": "PowerPoint-Präsentation",
+    "image": "Bilddatei",
+    "other": "Sonstige"
+  },
+  "actions": {
+    "upload": "Hochladen",
+    "download": "Herunterladen",
+    "delete": "Löschen",
+    "rename": "Umbenennen",
+    "share": "Teilen",
+    "view": "Anzeigen",
+    "edit": "Bearbeiten",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "search": "Dokumente suchen..."
+  },
+  "status": {
+    "uploading": "Wird hochgeladen...",
+    "processing": "Wird verarbeitet...",
+    "ready": "Bereit",
+    "error": "Fehler",
+    "uploaded": "Erfolgreich hochgeladen",
+    "deleted": "Erfolgreich gelöscht"
+  },
+  "errors": {
+    "uploadFailed": "Hochladen fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "deleteFailed": "Löschen fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "invalidFileType": "Ungültiger Dateityp. Bitte laden Sie eine unterstützte Datei hoch.",
+    "fileTooLarge": "Datei ist zu groß. Maximale Größe beträgt {{maxSize}}.",
+    "noFileSelected": "Keine Datei ausgewählt."
+  },
+  "metadata": {
+    "uploadedOn": "Hochgeladen am {{date}}",
+    "uploadedBy": "Hochgeladen von {{name}}",
+    "lastModified": "Zuletzt geändert am {{date}}",
+    "fileSize": "Dateigröße: {{size}}",
+    "fileType": "Dateityp: {{type}}"
+  }
+}

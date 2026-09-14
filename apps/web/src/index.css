@@ -1,0 +1,1704 @@
+@import "tailwindcss";
+@import "./styles/theme-variables.css";
+/* Import Inter for better readability and modern design */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+/* Phase 4: 2025 Design Trends - Expressive Serif Typography for Authority */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Enable class-based dark mode for Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Animations */
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
+  --animation-accordion-down: accordion-down 0.2s ease-out;
+  --animation-accordion-up: accordion-up 0.2s ease-out;
+  
+  /* Modern, readable font stack */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+  /* Phase 4: 2025 Design Trends - Serif font for authority and elegance */
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+
+  /* STRAŦUM Brand Colors - Design System Tokens */
+  --color-brand-slate: 215 16% 47%;        /* #64748B - Primary neutral, professional */
+  --color-brand-charcoal: 222 47% 11%;     /* #1E293B - Authority, depth */
+  --color-brand-gold: 38 92% 50%;          /* #F59E0B - Premium, insight, CTAs */
+
+  /* Semantic Brand Colors */
+  --color-brand-success: 142 76% 36%;      /* #10B981 - Success states */
+  --color-brand-warning: 38 92% 50%;       /* #F59E0B - Warning states (same as gold) */
+  --color-brand-error: 4 77% 58%;          /* #EF4444 - Error states */
+  --color-brand-info: 38 92% 50%;          /* #F59E0B - Info states (amber/gold, NOT blue) */
+
+  /* shadcn/ui Colors (keep for compatibility) */
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+
+  /* 2025-2026 Design Trends: Earthy & Organic Palette (Pantone 2025) */
+  --color-mocha-mousse: 25 20% 45%;     /* Pantone 17-1230: Color of the Year 2025 */
+  --color-terracotta: 14 80% 61%;       /* Warm clay accent */
+  --color-clay: 25 35% 60%;             /* Muted brown */
+  --color-olive: 60 20% 40%;            /* Earthy green */
+  --color-warm-brown: 25 60% 32%;       /* Deep brown */
+  --color-cream: 48 100% 93%;           /* Soft neutral base */
+
+  /* 2025-2026 Design Trends: Digital & Vibrant Accents (2026 forecast) */
+  --color-acid-green: 75 100% 50%;      /* Electric lime #CCFF00 */
+  --color-hyper-pink: 330 100% 60%;     /* Neon pink #FF006E */
+  --color-cobalt-blue: 210 100% 50%;    /* Deep electric blue #0047AB */
+  --color-electric-purple: 270 100% 60%; /* Vivid purple #BF00FF */
+}
+
+@layer base {
+  :root {
+    /* 2025 Design: Warm, earthy palette inspired by Mocha Mousse (Pantone 2025) */
+    --background: 25 20% 98%;           /* Creamy off-white with warm undertone */
+    --foreground: 25 60% 15%;           /* Deep warm brown for text */
+    --card: 48 100% 99%;                /* Pure cream for elevated surfaces */
+    --card-foreground: 25 60% 15%;
+    --popover: 48 100% 99%;
+    --popover-foreground: 25 60% 15%;
+    --primary: 217 91% 50%;             /* Professional blue (unchanged for brand consistency) */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 25 15% 94%;            /* Warm neutral gray */
+    --secondary-foreground: 25 60% 15%;
+    --muted: 25 15% 94%;                /* Warm muted background */
+    --muted-foreground: 25 30% 40%;     /* Darker Mocha Mousse for WCAG AA (≥4.5:1) */
+    --accent: 217 91% 60%;              /* Bright accent (unchanged) */
+    --accent-foreground: 25 60% 15%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 25 30% 55%;               /* Darker warm border for WCAG AA UI (≥3:1) */
+    --input: 25 30% 55%;
+    --ring: 217 91% 50%;
+    --radius: 0.5rem;
+    
+    /* Apple-inspired system colors */
+    --apple-blue: #0066CC;
+    --apple-hover: #0071E3;
+    --apple-text: #1D1D1F;
+    --apple-secondary: #86868B;
+    --apple-border: #D2D2D7;
+
+    /* White-label brand colors (set dynamically by useWhiteLabel hook) */
+    --brand-primary: #3B82F6;      /* Default blue */
+    --brand-secondary: #1E40AF;    /* Default dark blue */
+    --brand-accent: #F59E0B;       /* Default amber */
+    --brand-font: 'Inter', sans-serif; /* Default font family */
+  }
+
+  .dark {
+    /* 2025 Design: Warm dark mode inspired by Mocha Mousse */
+    --background: 25 20% 8%;        /* Deep warm dark with brown undertone */
+    --foreground: 48 100% 93%;      /* Cream text for contrast */
+    --card: 25 15% 15%;             /* Elevated surface with warmth */
+    --card-foreground: 48 100% 93%;
+    --popover: 25 15% 15%;
+    --popover-foreground: 48 100% 93%;
+    --primary: 217 91% 60%;         /* Bright blue for dark mode */
+    --primary-foreground: 25 20% 8%;
+    --secondary: 25 10% 22%;        /* Warm muted surface */
+    --secondary-foreground: 48 100% 93%;
+    --muted: 25 10% 22%;
+    --muted-foreground: 25 20% 65%; /* Warm readable gray */
+    --accent: 217 91% 65%;          /* Bright accent */
+    --accent-foreground: 25 20% 8%;
+    --destructive: 0 72% 51%;       /* Bright red for visibility */
+    --destructive-foreground: 48 100% 93%;
+    --border: 25 20% 40%;           /* Lighter warm borders for WCAG AA UI (≥3:1) */
+    --input: 25 20% 40%;
+    --ring: 217 91% 65%;
+    
+    /* Dark mode specific colors */
+    --dark-success: 142 71% 45%;
+    --dark-warning: 38 92% 50%;
+    --dark-info: 217 91% 60%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  
+  html,
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.011em;
+    margin: 0;
+    /* Removed hardcoded color - now uses text-foreground for dark mode support */
+    /* Prevent horizontal scrolling on mobile (best practice) */
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  /* Phase 1: Global Mobile Overflow Prevention (Nov 12, 2025) */
+  * {
+    /* Allow flex/grid items to shrink below content size */
+    min-width: 0;
+  }
+
+  /* Mobile-specific overflow prevention */
+  @media (max-width: 767px) {
+    /* Prevent media overflow */
+    img, video, iframe, embed, object {
+      max-width: 100% !important;
+      height: auto;
+    }
+
+    /* Constrain all containers to viewport */
+    div, section, article, aside, main {
+      max-width: 100%;
+    }
+
+    /* Prevent text overflow */
+    p, h1, h2, h3, h4, h5, h6, span {
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: hsl(var(--foreground));
+  }
+  
+  h1 {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0;
+  }
+  
+  h2 {
+    font-size: 28px;
+    line-height: 1.2381;
+    letter-spacing: 0.007em;
+  }
+  
+  h3 {
+    font-size: 22px;
+    line-height: 1.2727;
+    letter-spacing: 0.012em;
+  }
+
+  /* Mobile-First: Ensure touch targets meet 44px minimum (iOS) */
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Exception for inline text links */
+  p a, span a, li a {
+    min-height: auto;
+    min-width: auto;
+    display: inline;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8;
+    max-width: 1400px;
+  }
+  
+  /* Custom prose styles for chat messages */
+  .prose-chat {
+    line-height: 1.6;
+  }
+  
+  .prose-chat p {
+    margin-bottom: 0.75rem;
+  }
+  
+  .prose-chat p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .prose-chat ul, .prose-chat ol {
+    margin: 0.75rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  .prose-chat li {
+    margin-bottom: 0.25rem;
+  }
+  
+  .prose-chat strong {
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .prose-chat em {
+    font-style: italic;
+    color: #4b5563;
+  }
+  
+  /* Dark mode prose styles */
+  .dark .prose-chat strong {
+    color: #f9fafb;
+  }
+
+  .dark .prose-chat em {
+    color: #d1d5db;
+  }
+
+  /* =========================================================================
+     Mobile-Responsive Agent Content (Tables, Visualizations, Wide Content)
+     Universal CSS solution for any agent-generated HTML
+     Created: 2025-11-07
+     ========================================================================= */
+
+  /* Wrapper for horizontal scroll on mobile - Applied via ReactMarkdown components prop */
+  .prose-mobile-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 1rem 0;
+  }
+
+  /* Mobile-First Table Styles - Works with any <table> in prose content */
+
+  /* Table wrapper approach: Create scrollable container */
+  .prose table,
+  .prose-stone table {
+    display: table;
+    border-collapse: collapse;
+    font-size: 0.875rem; /* 14px on mobile */
+    line-height: 1.5;
+    width: 100%;
+    min-width: 600px; /* Force horizontal scroll on narrow screens */
+  }
+
+  /* On mobile: Allow horizontal scrolling */
+  @media (max-width: 767px) {
+    /* The prose container itself needs to be scrollable */
+    .prose,
+    .prose-stone {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .prose table,
+    .prose-stone table {
+      margin: 1rem -2.25rem; /* Negative margin to escape both message (12px) + prose (24px) = 36px per side */
+      width: calc(100% + 4.5rem);
+      min-width: 600px;
+    }
+  }
+
+  /* Tablet and Desktop: Normal table layout */
+  @media (min-width: 768px) {
+    .prose table,
+    .prose-stone table {
+      font-size: 0.9375rem; /* 15px on tablet */
+      margin: 1.5rem 0;
+      min-width: auto;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .prose table,
+    .prose-stone table {
+      font-size: 1rem; /* 16px on desktop */
+    }
+  }
+
+  /* Table structure */
+  .prose thead,
+  .prose-stone thead {
+    background-color: hsl(var(--muted));
+    border-bottom: 2px solid hsl(var(--border));
+  }
+
+  .dark .prose thead,
+  .dark .prose-stone thead {
+    background-color: hsl(var(--card));
+    border-bottom-color: hsl(var(--border));
+  }
+
+  .prose th,
+  .prose-stone th {
+    padding: 0.75rem 0.5rem;
+    text-align: left;
+    font-weight: 600;
+    color: hsl(var(--foreground));
+    white-space: nowrap;
+    min-width: 100px; /* Prevent overly narrow columns on mobile */
+  }
+
+  @media (min-width: 768px) {
+    .prose th,
+    .prose-stone th {
+      padding: 1rem 1rem;
+      min-width: 120px;
+    }
+  }
+
+  .prose td,
+  .prose-stone td {
+    padding: 0.75rem 0.5rem;
+    border-bottom: 1px solid hsl(var(--border));
+    color: hsl(var(--foreground));
+    vertical-align: top;
+  }
+
+  @media (min-width: 768px) {
+    .prose td,
+    .prose-stone td {
+      padding: 0.875rem 1rem;
+    }
+  }
+
+  .prose tbody tr:last-child td,
+  .prose-stone tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  /* Zebra striping for better readability */
+  .prose tbody tr:nth-child(even),
+  .prose-stone tbody tr:nth-child(even) {
+    background-color: hsl(var(--muted) / 0.3);
+  }
+
+  .dark .prose tbody tr:nth-child(even),
+  .dark .prose-stone tbody tr:nth-child(even) {
+    background-color: hsl(var(--muted) / 0.2);
+  }
+
+  /* Hover state for interactivity */
+  .prose tbody tr:hover,
+  .prose-stone tbody tr:hover {
+    background-color: hsl(var(--muted) / 0.5);
+  }
+
+  .dark .prose tbody tr:hover,
+  .dark .prose-stone tbody tr:hover {
+    background-color: hsl(var(--muted) / 0.3);
+  }
+
+  /* Mobile scroll indicator - Subtle gradient to show more content */
+  .prose table::after,
+  .prose-stone table::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    background: linear-gradient(to right, transparent, hsl(var(--background)));
+    pointer-events: none;
+  }
+
+  @media (min-width: 768px) {
+    .prose table::after,
+    .prose-stone table::after {
+      display: none;
+    }
+  }
+
+  /* Wide content (pre, code blocks, embeds) */
+  .prose pre,
+  .prose-stone pre {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+  }
+
+  /* Images - Responsive by default */
+  .prose img,
+  .prose-stone img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Iframe embeds - Responsive wrapper */
+  .prose iframe,
+  .prose-stone iframe {
+    max-width: 100%;
+  }
+
+  /* Apple-style buttons */
+  .btn-apple {
+    @apply inline-flex items-center justify-center px-4 py-2 text-white rounded-full transition-all duration-300;
+    background-color: var(--apple-blue);
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+  }
+  
+  .btn-apple:hover {
+    background-color: var(--apple-hover);
+    @apply shadow-md;
+  }
+  
+  .btn-apple-secondary {
+    @apply inline-flex items-center justify-center px-4 py-2 rounded-full transition-all duration-300;
+    background-color: transparent;
+    border: 1px solid var(--apple-border);
+    color: var(--apple-blue);
+    font-size: 17px;
+  }
+  
+  .btn-apple-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Clean card styles */
+  .card-apple {
+    @apply bg-white rounded-lg overflow-hidden;
+    border-radius: 18px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-apple:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Input styles */
+  .input-apple {
+    @apply px-3 py-2 rounded-md border transition-all duration-200;
+    border-color: var(--apple-border);
+  }
+  
+  .input-apple:focus {
+    @apply outline-none;
+    border-color: var(--apple-blue);
+    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.2);
+  }
+  
+  /* Primary button style for compatibility */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white transition-all duration-200;
+    background: linear-gradient(135deg, #64748B 0%, #1E293B 100%);
+  }
+  
+  .btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Gradient backgrounds */
+  .gradient-primary {
+    background: linear-gradient(135deg, #64748B 0%, #1E293B 100%);
+  }
+  
+  .gradient-success {
+    background: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
+  }
+  
+  .gradient-info {
+    background: linear-gradient(135deg, #2196F3 0%, #21CBF3 100%);
+  }
+  
+  /* Custom animations for enhanced message display */
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  @keyframes pulse-subtle {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.95; }
+  }
+
+  /* STRAŦUM Layered Icon Animation */
+  @keyframes slide {
+    0%, 100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateX(4px);
+      opacity: 0.7;
+    }
+  }
+
+  .animate-blink {
+    animation: blink 1s infinite;
+  }
+
+  .animate-pulse-subtle {
+    animation: pulse-subtle 2s ease-in-out infinite;
+  }
+
+  /* =========================================================================
+     Dropdown Menu Component Styles
+     Uses CSS variables for consistent dark mode support
+     ========================================================================= */
+
+  /* Dropdown container with glass effect */
+  .dropdown-menu {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid hsl(var(--border) / 0.8);
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+  }
+
+  .dark .dropdown-menu {
+    background: rgba(15, 23, 42, 0.95);
+    border-color: hsl(var(--border) / 0.8);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  }
+
+  /* Dropdown menu item */
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 0.625rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    color: hsl(var(--foreground));
+    transition: all 0.15s ease;
+  }
+
+  .dropdown-item:hover {
+    background: hsl(var(--muted));
+    color: hsl(var(--color-brand-gold));
+  }
+
+  .dark .dropdown-item {
+    color: hsl(var(--foreground));
+  }
+
+  .dark .dropdown-item:hover {
+    background: hsl(var(--muted));
+    color: hsl(var(--color-brand-gold));
+  }
+
+  /* Dropdown item icon */
+  .dropdown-item-icon {
+    color: hsl(var(--muted-foreground));
+    margin-right: 0.75rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .dropdown-item:hover .dropdown-item-icon {
+    color: hsl(var(--color-brand-gold));
+  }
+
+  /* Dropdown item - destructive variant (for sign out, delete, etc.) */
+  .dropdown-item-destructive:hover {
+    color: hsl(var(--destructive));
+  }
+
+  .dropdown-item-destructive:hover .dropdown-item-icon {
+    color: hsl(var(--destructive));
+  }
+
+  /* Dropdown divider */
+  .dropdown-divider {
+    height: 1px;
+    background: hsl(var(--border));
+    margin: 0.5rem;
+  }
+
+  /* Dropdown section header */
+  .dropdown-section-header {
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: hsl(var(--muted-foreground));
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* Agent dropdown item - larger padding for touch targets */
+  .dropdown-item-agent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    color: hsl(var(--foreground));
+    transition: all 0.2s ease;
+  }
+
+  .dropdown-item-agent:hover {
+    background: hsl(var(--color-brand-gold) / 0.1);
+    color: hsl(var(--color-brand-gold));
+  }
+
+  .dropdown-item-agent .agent-icon {
+    margin-right: 0.75rem;
+    font-size: 1.125rem;
+  }
+
+  /* Agent dropdown item - disabled/locked state */
+  .dropdown-item-agent-locked {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    color: hsl(var(--muted-foreground));
+    cursor: not-allowed;
+  }
+
+  .dropdown-item-agent-locked .agent-icon {
+    opacity: 0.5;
+  }
+
+  /* Smooth scrollbar styling */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(156, 163, 175, 0.5);
+    border-radius: 3px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: rgba(156, 163, 175, 0.7);
+  }
+
+  /* =========================================================================
+     Agent Page Component Styles
+     Premium styling for agent interfaces
+     ========================================================================= */
+
+  /* Agent page header - glass effect with refined styling */
+  .agent-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid hsl(var(--border) / 0.8);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  }
+
+  .dark .agent-header {
+    background: rgba(15, 23, 42, 0.8);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Agent session card - premium card for session history */
+  .agent-session-card {
+    padding: 0.875rem;
+    border-radius: 0.75rem;
+    border: 1px solid hsl(var(--border) / 0.8);
+    background: hsl(var(--card));
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .agent-session-card:hover {
+    background: hsl(var(--muted) / 0.5);
+    border-color: hsl(var(--border));
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .agent-session-card.selected {
+    background: hsl(var(--color-brand-gold) / 0.05);
+    border-color: hsl(var(--color-brand-gold) / 0.5);
+    box-shadow: 0 2px 8px hsl(var(--color-brand-gold) / 0.1);
+  }
+
+  .dark .agent-session-card.selected {
+    background: hsl(var(--color-brand-gold) / 0.1);
+    border-color: hsl(var(--color-brand-gold) / 0.4);
+  }
+
+  /* Agent feature card - for landing page feature highlights */
+  .agent-feature-card {
+    position: relative;
+    padding: 1.25rem 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid hsl(var(--border) / 0.8);
+    background: hsl(var(--card));
+    transition: all 0.3s ease;
+  }
+
+  .agent-feature-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.02'/%3E%3C/svg%3E");
+    pointer-events: none;
+    border-radius: inherit;
+    z-index: 0;
+    mix-blend-mode: overlay;
+  }
+
+  .agent-feature-card:hover {
+    border-color: hsl(var(--color-brand-gold) / 0.4);
+    box-shadow: 0 4px 16px hsl(var(--color-brand-gold) / 0.05);
+    transform: translateY(-2px);
+  }
+
+  /* Agent CTA button - premium gradient button */
+  .agent-cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(135deg, hsl(222 47% 20%) 0%, hsl(222 47% 11%) 100%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease;
+  }
+
+  .agent-cta-button:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+  }
+
+  .agent-cta-button.gold {
+    background: linear-gradient(135deg, hsl(38 92% 55%) 0%, hsl(38 92% 45%) 100%);
+    box-shadow: 0 4px 12px hsl(var(--color-brand-gold) / 0.25);
+  }
+
+  .agent-cta-button.gold:hover {
+    box-shadow: 0 6px 20px hsl(var(--color-brand-gold) / 0.35);
+  }
+
+  /* Agent icon container - premium gradient icon */
+  .agent-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.625rem;
+    border-radius: 0.75rem;
+    background: linear-gradient(135deg, hsl(215 25% 27%) 0%, hsl(222 47% 11%) 100%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .agent-icon.gold {
+    background: linear-gradient(135deg, hsl(38 92% 55%) 0%, hsl(38 92% 45%) 100%);
+    box-shadow: 0 4px 12px hsl(var(--color-brand-gold) / 0.25);
+  }
+
+  .dark .agent-icon {
+    background: linear-gradient(135deg, hsl(215 25% 35%) 0%, hsl(222 47% 20%) 100%);
+  }
+}
+
+/* Modern Design System Enhancements */
+@layer utilities {
+  /* Typography improvements */
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Better readability for body text */
+  .text-readable {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: -0.011em;
+    color: hsl(220 9% 46%);
+  }
+  
+  /* Headings with proper hierarchy */
+  .heading-xl {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: hsl(222 47% 11%);
+  }
+  
+  .heading-lg {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: hsl(222 47% 11%);
+  }
+  
+  .heading-md {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.019em;
+    color: hsl(222 47% 11%);
+  }
+  
+  .heading-sm {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: -0.017em;
+    color: hsl(222 47% 11%);
+  }
+
+  /* =========================================================================
+     Phase 4: 2025 Design Trends - Expressive Serif Typography
+     ========================================================================= */
+
+  /* Serif font utility - Apply to headlines for authority and elegance */
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  /* Display heading - Largest headlines with serif (page titles, hero sections) */
+  .heading-display {
+    font-family: var(--font-serif);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: hsl(var(--foreground));
+  }
+
+  /* Display heading variants */
+  .heading-display-lg {
+    font-family: var(--font-serif);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: hsl(var(--foreground));
+  }
+
+  .heading-display-md {
+    font-family: var(--font-serif);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.019em;
+    color: hsl(var(--foreground));
+  }
+
+  /* Serif H1 - Main page headings */
+  .heading-serif-xl {
+    font-family: var(--font-serif);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.019em;
+    color: hsl(var(--foreground));
+  }
+
+  /* Serif H2 - Section headings */
+  .heading-serif-lg {
+    font-family: var(--font-serif);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.018em;
+    color: hsl(var(--foreground));
+  }
+
+  /* Serif H3 - Subsection headings */
+  .heading-serif-md {
+    font-family: var(--font-serif);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.017em;
+    color: hsl(var(--foreground));
+  }
+
+  /* Dark mode support for serif headings */
+  .dark .heading-display,
+  .dark .heading-display-lg,
+  .dark .heading-display-md,
+  .dark .heading-serif-xl,
+  .dark .heading-serif-lg,
+  .dark .heading-serif-md {
+    color: hsl(var(--foreground));
+  }
+
+  /* Responsive typography - Mobile adjustments */
+  @media (max-width: 767px) {
+    .heading-display {
+      font-size: 40px;
+    }
+
+    .heading-display-lg {
+      font-size: 36px;
+    }
+
+    .heading-display-md {
+      font-size: 32px;
+    }
+
+    .heading-serif-xl {
+      font-size: 30px;
+    }
+
+    .heading-serif-lg {
+      font-size: 26px;
+    }
+
+    .heading-serif-md {
+      font-size: 22px;
+    }
+  }
+
+  /* Tablet adjustments */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .heading-display {
+      font-size: 48px;
+    }
+
+    .heading-display-lg {
+      font-size: 42px;
+    }
+
+    .heading-display-md {
+      font-size: 36px;
+    }
+  }
+
+  /* Improved button styles */
+  .btn-modern {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    letter-spacing: -0.01em;
+  }
+  
+  .btn-modern:active {
+    transform: scale(0.98);
+  }
+  
+  /* Card improvements */
+  .card-modern {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid hsl(220 13% 91%);
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    transition: all 0.2s ease;
+  }
+  
+  .card-modern:hover {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    transform: translateY(-2px);
+  }
+  
+  /* Focus visible improvements */
+  *:focus-visible {
+    outline: 2px solid hsl(217 91% 50%);
+    outline-offset: 2px;
+  }
+  
+  /* Reduce motion for accessibility */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* =========================================================================
+     2025 Design Trends: Bento Grid Layout System
+     ========================================================================= */
+
+  /* Bento Grid Container - Mobile-First 12-column responsive grid */
+  /* Default: Mobile (single column) */
+  .grid-bento {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  /* Bento Box Sizes - Default: Full width on mobile */
+  .bento-box-full,
+  .bento-box-lg,
+  .bento-box-md,
+  .bento-box-sm,
+  .bento-box-xs {
+    grid-column: span 1;
+  }
+
+  /* Tablet (768px+) - 6-column grid */
+  @media (min-width: 768px) {
+    .grid-bento {
+      grid-template-columns: repeat(6, 1fr);
+      gap: 1rem;
+    }
+
+    .bento-box-full {
+      grid-column: span 6;
+    }
+
+    .bento-box-lg {
+      grid-column: span 6;
+    }
+
+    .bento-box-md {
+      grid-column: span 3;
+    }
+
+    .bento-box-sm {
+      grid-column: span 2;
+    }
+
+    .bento-box-xs {
+      grid-column: span 2;
+    }
+  }
+
+  /* Desktop (1024px+) - 12-column grid */
+  @media (min-width: 1024px) {
+    .grid-bento {
+      grid-template-columns: repeat(12, 1fr);
+    }
+
+    .bento-box-full {
+      grid-column: span 12;
+    }
+
+    .bento-box-lg {
+      grid-column: span 8;
+    }
+
+    .bento-box-md {
+      grid-column: span 6;
+    }
+
+    .bento-box-sm {
+      grid-column: span 4;
+    }
+
+    .bento-box-xs {
+      grid-column: span 3;
+    }
+  }
+
+  /* Height variants for visual hierarchy */
+  .bento-box-tall {
+    min-height: 300px;
+  }
+
+  .bento-box-medium {
+    min-height: 200px;
+  }
+
+  .bento-box-short {
+    min-height: 150px;
+  }
+
+  /* Bento Box Card Styling */
+  .bento-card {
+    position: relative;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid hsl(var(--border));
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    transition: all 0.2s ease;
+    overflow: hidden;
+  }
+
+  /* Add subtle grain texture to all Bento cards */
+  .bento-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    border-radius: inherit;
+    z-index: 0;
+    mix-blend-mode: overlay;
+  }
+
+  .dark .bento-card {
+    background: hsl(var(--card));
+  }
+
+  .dark .bento-card::before {
+    opacity: 0.05;
+  }
+
+  .bento-card:hover {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    transform: translateY(-2px);
+  }
+
+  /* Bento Card clickable variant */
+  .bento-card-clickable {
+    cursor: pointer;
+  }
+
+  .bento-card-clickable:active {
+    transform: scale(0.98);
+  }
+
+  /* =========================================================================
+     2025 Design Trends: Texture & Depth (Phase 3)
+     ========================================================================= */
+
+  /* Subtle Grain Texture - Adds tactile, premium feel to surfaces */
+  .texture-grain {
+    position: relative;
+  }
+
+  .texture-grain::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1;
+    mix-blend-mode: overlay;
+  }
+
+  .dark .texture-grain::before {
+    opacity: 0.08; /* More visible in dark mode */
+  }
+
+  /* Grain texture for cards specifically */
+  .card-textured {
+    position: relative;
+  }
+
+  .card-textured::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    border-radius: inherit;
+    z-index: 0;
+    mix-blend-mode: overlay;
+  }
+
+  .dark .card-textured::before {
+    opacity: 0.06;
+  }
+
+  /* Glassmorphism - Frosted glass effect for elevated surfaces */
+  .glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  }
+
+  .dark .glass {
+    background: rgba(25, 25, 25, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  /* Glassmorphism for sidebar - more subtle */
+  .glass-sidebar {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 2px 0 24px rgba(0, 0, 0, 0.05);
+  }
+
+  .dark .glass-sidebar {
+    background: rgba(25, 25, 25, 0.8);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 2px 0 24px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Modern Skeuomorphism - Subtle depth for interactive elements */
+  .neumorphic {
+    background: hsl(var(--background));
+    box-shadow:
+      6px 6px 12px rgba(0, 0, 0, 0.08),
+      -6px -6px 12px rgba(255, 255, 255, 0.8);
+    transition: all 0.2s ease;
+  }
+
+  .dark .neumorphic {
+    background: hsl(var(--card));
+    box-shadow:
+      6px 6px 12px rgba(0, 0, 0, 0.4),
+      -6px -6px 12px rgba(255, 255, 255, 0.02);
+  }
+
+  .neumorphic:hover {
+    box-shadow:
+      8px 8px 16px rgba(0, 0, 0, 0.12),
+      -8px -8px 16px rgba(255, 255, 255, 0.9);
+  }
+
+  .dark .neumorphic:hover {
+    box-shadow:
+      8px 8px 16px rgba(0, 0, 0, 0.5),
+      -8px -8px 16px rgba(255, 255, 255, 0.03);
+  }
+
+  /* Neumorphic inset (for inputs, pressed buttons) */
+  .neumorphic-inset {
+    background: hsl(var(--background));
+    box-shadow:
+      inset 4px 4px 8px rgba(0, 0, 0, 0.08),
+      inset -4px -4px 8px rgba(255, 255, 255, 0.8);
+  }
+
+  .dark .neumorphic-inset {
+    background: hsl(var(--card));
+    box-shadow:
+      inset 4px 4px 8px rgba(0, 0, 0, 0.4),
+      inset -4px -4px 8px rgba(255, 255, 255, 0.02);
+  }
+
+  /* Soft shadow elevations - Modern, subtle depth */
+  .shadow-soft {
+    box-shadow:
+      0 1px 3px rgba(0, 0, 0, 0.08),
+      0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .shadow-soft-md {
+    box-shadow:
+      0 4px 12px rgba(0, 0, 0, 0.08),
+      0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .shadow-soft-lg {
+    box-shadow:
+      0 8px 24px rgba(0, 0, 0, 0.1),
+      0 4px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  /* Tactile button styles */
+  .btn-tactile {
+    background: hsl(var(--card));
+    box-shadow:
+      0 2px 4px rgba(0, 0, 0, 0.1),
+      0 1px 2px rgba(0, 0, 0, 0.08),
+      inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    transition: all 0.15s ease;
+  }
+
+  .btn-tactile:hover {
+    box-shadow:
+      0 4px 8px rgba(0, 0, 0, 0.12),
+      0 2px 4px rgba(0, 0, 0, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    transform: translateY(-1px);
+  }
+
+  .btn-tactile:active {
+    box-shadow:
+      inset 0 2px 4px rgba(0, 0, 0, 0.15),
+      inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+  }
+
+  .dark .btn-tactile {
+    background: hsl(var(--card));
+    box-shadow:
+      0 2px 4px rgba(0, 0, 0, 0.3),
+      0 1px 2px rgba(0, 0, 0, 0.2),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  .dark .btn-tactile:hover {
+    box-shadow:
+      0 4px 8px rgba(0, 0, 0, 0.4),
+      0 2px 4px rgba(0, 0, 0, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+
+  /* Elevated card with depth */
+  .card-elevated {
+    background: hsl(var(--card));
+    box-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.06),
+      0 4px 12px rgba(0, 0, 0, 0.08),
+      inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+  }
+
+  .dark .card-elevated {
+    box-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.3),
+      0 4px 12px rgba(0, 0, 0, 0.4),
+      inset 0 1px 0 rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .card-elevated:hover {
+    box-shadow:
+      0 2px 4px rgba(0, 0, 0, 0.08),
+      0 8px 24px rgba(0, 0, 0, 0.12),
+      inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+  }
+
+  .dark .card-elevated:hover {
+    box-shadow:
+      0 2px 4px rgba(0, 0, 0, 0.4),
+      0 8px 24px rgba(0, 0, 0, 0.5),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  /* =========================================================================
+     White-Label Brand Utilities
+     ========================================================================= */
+
+  /* Brand button - Uses client's primary color */
+  .brand-button {
+    background-color: var(--brand-primary);
+    color: white;
+    transition: all 0.2s ease;
+  }
+
+  .brand-button:hover {
+    background-color: var(--brand-secondary);
+  }
+
+  /* Brand card - Applies brand accent as border */
+  .brand-card {
+    border-left: 4px solid var(--brand-accent);
+  }
+
+  /* Brand text colors */
+  .text-brand-primary {
+    color: var(--brand-primary);
+  }
+
+  .text-brand-secondary {
+    color: var(--brand-secondary);
+  }
+
+  .text-brand-accent {
+    color: var(--brand-accent);
+  }
+
+  /* Brand background colors */
+  .bg-brand-primary {
+    background-color: var(--brand-primary);
+  }
+
+  .bg-brand-secondary {
+    background-color: var(--brand-secondary);
+  }
+
+  .bg-brand-accent {
+    background-color: var(--brand-accent);
+  }
+
+  /* Brand border colors */
+  .border-brand-primary {
+    border-color: var(--brand-primary);
+  }
+
+  .border-brand-accent {
+    border-color: var(--brand-accent);
+  }
+
+  /* =========================================================================
+     STRAŦUM Brand Color Utilities
+     ========================================================================= */
+
+  /* Brand Gold - Primary accent color */
+  .bg-brand-gold {
+    background-color: hsl(var(--color-brand-gold));
+  }
+
+  .text-brand-gold {
+    color: hsl(var(--color-brand-gold));
+  }
+
+  .border-brand-gold {
+    border-color: hsl(var(--color-brand-gold));
+  }
+
+  /* Brand Slate - Primary neutral */
+  .bg-brand-slate {
+    background-color: hsl(var(--color-brand-slate));
+  }
+
+  .text-brand-slate {
+    color: hsl(var(--color-brand-slate));
+  }
+
+  .border-brand-slate {
+    border-color: hsl(var(--color-brand-slate));
+  }
+
+  /* Brand Charcoal - Authority color */
+  .bg-brand-charcoal {
+    background-color: hsl(var(--color-brand-charcoal));
+  }
+
+  .text-brand-charcoal {
+    color: hsl(var(--color-brand-charcoal));
+  }
+
+  .border-brand-charcoal {
+    border-color: hsl(var(--color-brand-charcoal));
+  }
+
+  /* Semantic Brand Colors */
+  .bg-brand-success {
+    background-color: hsl(var(--color-brand-success));
+  }
+
+  .text-brand-success {
+    color: hsl(var(--color-brand-success));
+  }
+
+  .border-brand-success {
+    border-color: hsl(var(--color-brand-success));
+  }
+
+  .bg-brand-warning {
+    background-color: hsl(var(--color-brand-warning));
+  }
+
+  .text-brand-warning {
+    color: hsl(var(--color-brand-warning));
+  }
+
+  .border-brand-warning {
+    border-color: hsl(var(--color-brand-warning));
+  }
+
+  .bg-brand-error {
+    background-color: hsl(var(--color-brand-error));
+  }
+
+  .text-brand-error {
+    color: hsl(var(--color-brand-error));
+  }
+
+  .border-brand-error {
+    border-color: hsl(var(--color-brand-error));
+  }
+
+  .bg-brand-info {
+    background-color: hsl(var(--color-brand-info));
+  }
+
+  .text-brand-info {
+    color: hsl(var(--color-brand-info));
+  }
+
+  .border-brand-info {
+    border-color: hsl(var(--color-brand-info));
+  }
+
+  /* =========================================================================
+   * Safe Area Insets for iOS Devices
+   * Handles iPhone notch, Dynamic Island, and home indicator
+   * Updated: 2025-10-30
+   * ========================================================================= */
+
+  /* Safe area utilities - individual sides */
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  .safe-right {
+    padding-right: env(safe-area-inset-right);
+  }
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .safe-left {
+    padding-left: env(safe-area-inset-left);
+  }
+
+  /* Safe area - all sides */
+  .safe-area {
+    padding-top: env(safe-area-inset-top);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+  }
+
+  /* Safe area with minimum fallback values */
+  .safe-top-min {
+    padding-top: max(env(safe-area-inset-top), 16px);
+  }
+
+  .safe-bottom-min {
+    padding-bottom: max(env(safe-area-inset-bottom), 16px);
+  }
+
+  /* Bottom navigation padding (64px + safe area for iOS) - mobile only */
+  .pb-safe {
+    padding-bottom: calc(4rem + env(safe-area-inset-bottom));
+  }
+
+  /* Remove pb-safe padding on desktop (md: breakpoint 768px+) */
+  @media (min-width: 768px) {
+    .pb-safe-mobile-only {
+      padding-bottom: 0;
+    }
+  }
+
+  /* Full viewport height with safe areas */
+  .min-h-screen-safe {
+    min-height: 100vh;
+    min-height: -webkit-fill-available; /* iOS Safari */
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* Fixed header with safe area */
+  .fixed-header-safe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: env(safe-area-inset-top);
+    z-index: 50;
+  }
+
+  /* Fixed footer with safe area */
+  .fixed-footer-safe {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: env(safe-area-inset-bottom);
+    z-index: 50;
+  }
+
+  /* Touch Target Standards (Android: 48x48px, iOS: 44x44px) */
+  .tap-target {
+    min-width: 48px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tap-target-ios {
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Respect user's reduced motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    .glass,
+    .glass-sidebar,
+    .neumorphic,
+    .btn-tactile,
+    .card-elevated,
+    .brand-button {
+      transition: none;
+    }
+  }
+
+  /* =========================================================================
+   * Mobile Responsive Tables → Cards
+   * Converts tables to stacked cards on mobile viewports
+   * ========================================================================= */
+  @media (max-width: 767px) {
+    .mobile-responsive-table table {
+      display: block;
+    }
+
+    .mobile-responsive-table thead {
+      display: none;
+    }
+
+    .mobile-responsive-table tbody {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .mobile-responsive-table tr {
+      display: flex;
+      flex-direction: column;
+      background: rgb(248 250 252); /* bg-slate-50 */
+      border-radius: 0.5rem;
+      padding: 0.75rem;
+      border: 1px solid rgb(226 232 240); /* border-slate-200 */
+    }
+
+    .dark .mobile-responsive-table tr {
+      background: rgb(30 41 59); /* dark:bg-slate-800 */
+      border-color: rgb(51 65 85); /* dark:border-slate-700 */
+    }
+
+    .mobile-responsive-table td {
+      display: flex;
+      flex-direction: column;
+      padding: 0.5rem 0;
+      border: none !important;
+    }
+
+    .mobile-responsive-table td::before {
+      content: attr(data-label);
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: rgb(100 116 139); /* text-slate-500 */
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.25rem;
+    }
+
+    .dark .mobile-responsive-table td::before {
+      color: rgb(148 163 184); /* dark:text-slate-400 */
+    }
+  }
+}

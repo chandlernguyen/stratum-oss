@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Tasks",
+  "pageSubtitle": "Manage and track your team's work",
+  "newTask": "New Task",
+  "myTasks": "My Tasks",
+  "allTasks": "All Tasks",
+  "noTasks": "No tasks",
+  "status": {
+    "todo": "To Do",
+    "in_progress": "In Progress",
+    "review": "In Review",
+    "done": "Done",
+    "cancelled": "Cancelled"
+  },
+  "taskType": {
+    "content_creation": "Content Creation",
+    "review": "Review",
+    "analysis": "Analysis",
+    "campaign_setup": "Campaign Setup",
+    "strategy": "Strategy",
+    "other": "Other"
+  },
+  "priority": {
+    "low": "Low",
+    "normal": "Normal",
+    "high": "High",
+    "urgent": "Urgent"
+  },
+  "dueDate": {
+    "overdue": "Overdue",
+    "today": "Today",
+    "tomorrow": "Tomorrow"
+  },
+  "assignee": {
+    "unassigned": "Unassigned"
+  },
+  "actions": {
+    "moveTo": "Move to {{status}}",
+    "cancel": "Cancel"
+  },
+  "createDialog": {
+    "title": "Create Task",
+    "description": "Assign a new task to a team member.",
+    "titleLabel": "Title",
+    "titlePlaceholder": "What needs to be done?",
+    "descriptionLabel": "Description (optional)",
+    "descriptionPlaceholder": "Add more details...",
+    "typeLabel": "Type",
+    "priorityLabel": "Priority",
+    "assigneeLabel": "Assign to",
+    "assigneePlaceholder": "Select team member",
+    "dueDateLabel": "Due date",
+    "cancelButton": "Cancel",
+    "createButton": "Create Task",
+    "creatingButton": "Creating..."
+  }
+}

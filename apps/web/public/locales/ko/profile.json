@@ -1,0 +1,166 @@
+{
+  "title": "프로필",
+  "tabs": {
+    "profile": "프로필",
+    "intelligence": "비즈니스 인텔리전스",
+    "intelligenceShort": "인텔",
+    "permissions": "권한",
+    "settings": "설정"
+  },
+  "orgType": {
+    "agency": "에이전시",
+    "sme": "중소기업"
+  },
+  "roles": {
+    "sme_owner": "중소기업 소유자",
+    "agency_owner": "에이전시 소유자",
+    "agency_admin": "에이전시 관리자",
+    "agency_account_manager": "어카운트 매니저",
+    "agency_strategist": "시니어 전략가",
+    "agency_creative": "크리에이티브 팀",
+    "agency_analyst": "애널리스트",
+    "agency_campaign_manager": "캠페인 매니저",
+    "agency_client_viewer": "클라이언트 뷰어",
+    "agency_freelancer": "프리랜서",
+    "agency_viewer": "뷰어",
+    "account_manager": "어카운트 매니저",
+    "client_stakeholder": "클라이언트 이해관계자",
+    "client_collaborator": "클라이언트 협업자",
+    "default": "사용자"
+  },
+  "deletion": {
+    "title": "계정 삭제 예정",
+    "deletionDate": "계정은 {{date}}에 영구적으로 삭제됩니다",
+    "reason": "사유: {{reason}}",
+    "restoreTitle": "계정을 복구하려면:",
+    "restoreDescription": "삭제 예정일 전에 {{email}}로 지원팀에 문의하세요. 요청 시 이메일 주소와 계정 ID를 함께 보내 주세요."
+  },
+  "profileInfo": {
+    "title": "프로필 정보",
+    "subtitle": "개인 정보와 조직 정보를 관리하세요"
+  },
+  "personal": {
+    "title": "개인 정보",
+    "displayName": "표시 이름",
+    "displayNamePlaceholder": "성명을 입력하세요",
+    "email": "이메일 주소",
+    "phone": "전화번호",
+    "phonePlaceholder": "+82 10-0000-0000",
+    "bio": "자기소개",
+    "bioPlaceholder": "자신에 대해 알려 주세요..."
+  },
+  "organization": {
+    "title": "조직 정보",
+    "name": "조직 이름",
+    "nameNote": "(계정 이름)",
+    "type": "조직 유형",
+    "typeAgency": "마케팅 에이전시",
+    "typeSME": "중소기업",
+    "memberSince": "가입일",
+    "activeCampaigns": "활성 캠페인",
+    "campaignCount_one": "캠페인 {{count}}개",
+    "campaignCount_other": "캠페인 {{count}}개",
+    "website": "회사 웹사이트"
+  },
+  "permissions": {
+    "title": "접근 권한",
+    "subtitle": "역할 기반 권한과 사용 가능한 기능",
+    "fullAdmin": {
+      "title": "전체 관리자 권한",
+      "enabled": "활성화됨",
+      "permissions": [
+        "모든 클라이언트 계정 관리",
+        "캠페인 생성 및 삭제",
+        "모든 에이전트 기능 접근",
+        "화이트라벨 설정 구성",
+        "모든 분석 및 보고서 보기",
+        "팀원 관리",
+        "데이터 내보내기 및 가져오기"
+      ]
+    },
+    "businessOwner": {
+      "title": "비즈니스 소유자 권한",
+      "enabled": "활성화됨",
+      "permissions": [
+        "모든 AI 에이전트 전체 접근",
+        "캠페인 생성 및 관리",
+        "분석과 인사이트 보기",
+        "보고서와 데이터 내보내기",
+        "팀 협업 관리",
+        "비즈니스 설정 구성"
+      ]
+    },
+    "accountManager": {
+      "title": "어카운트 매니저 권한",
+      "enabled": "활성화됨",
+      "permissions": [
+        "할당된 클라이언트 계정 관리",
+        "클라이언트용 캠페인 생성",
+        "클라이언트별 분석 접근",
+        "모든 AI 에이전트 사용",
+        "클라이언트 보고서 내보내기",
+        "팀원과 협업"
+      ]
+    },
+    "guest": {
+      "title": "게스트 권한",
+      "limited": "제한됨",
+      "permissions": [
+        "캠페인 결과 보기",
+        "승인된 보고서 접근",
+        "분석 대시보드 보기",
+        "내보낸 데이터 다운로드"
+      ]
+    },
+    "security": {
+      "title": "보안 조치",
+      "description": "보안 모범 사례를 적용하고 있지만, 알파 서비스 특성상 완전한 보호를 보장할 수는 없습니다. 자세한 내용은 개인정보처리방침을 확인하세요.",
+      "measures": [
+        "데이터베이스 행 수준 보안(RLS)",
+        "멀티테넌트 데이터 격리",
+        "안전한 인증(Supabase Auth)"
+      ]
+    }
+  },
+  "settings": {
+    "title": "계정 설정",
+    "subtitle": "계정 환경설정과 보안을 관리하세요",
+    "security": {
+      "title": "보안",
+      "changePassword": "비밀번호 변경",
+      "manageMFA": "2단계 인증 관리",
+      "viewLoginActivity": "로그인 활동 보기",
+      "comingSoon": "곧 제공 예정"
+    },
+    "dataPrivacy": {
+      "title": "데이터 및 개인정보",
+      "downloadData": "내 데이터 다운로드",
+      "downloading": "다운로드 중...",
+      "deleteAccount": "계정 삭제"
+    }
+  },
+  "validation": {
+    "fieldEmpty": "필드를 비워 둘 수 없습니다"
+  },
+  "toast": {
+    "notAuthenticated": "인증되지 않았습니다",
+    "notAuthenticatedDesc": "데이터를 다운로드하려면 로그인해 주세요.",
+    "exportSuccess": "데이터를 성공적으로 내보냈습니다",
+    "exportSuccessDesc": "데이터가 JSON 파일로 다운로드되었습니다.",
+    "exportError": "데이터 내보내기에 실패했습니다",
+    "exportErrorDesc": "나중에 다시 시도해 주세요."
+  },
+  "insights": {
+    "status": {
+      "approved": "승인됨",
+      "rejected": "거부됨",
+      "pendingReview": "검토 대기 중"
+    },
+    "time": {
+      "justNow": "방금 전",
+      "minutesAgo": "{{count}}분 전",
+      "hoursAgo": "{{count}}시간 전",
+      "daysAgo": "{{count}}일 전"
+    }
+  }
+}

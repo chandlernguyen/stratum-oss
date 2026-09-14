@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "Tarifs"
+  },
+  "hero": {
+    "title": "Des tarifs simples et transparents",
+    "subtitle": "30 jours d'essai gratuit sur chaque plan. Aucune carte bancaire requise. Resiliez a tout moment."
+  },
+  "tiers": {
+    "solo": {
+      "name": "Solo",
+      "description": "Pour les marketers et consultants independants",
+      "features": {
+        "agents": "Les 9 agents IA",
+        "seats": "1 membre de l'equipe",
+        "sessions": "Sessions illimitees"
+      }
+    },
+    "team": {
+      "name": "Team",
+      "description": "Pour les petites equipes marketing",
+      "features": {
+        "agents": "Les 9 agents IA",
+        "seats": "Jusqu'a 3 membres de l'equipe",
+        "sessions": "Sessions illimitees",
+        "collaboration": "Collaboration d'equipe"
+      }
+    },
+    "agency": {
+      "name": "Agency",
+      "description": "Pour les agences qui gerent plusieurs clients",
+      "features": {
+        "agents": "Les 9 agents IA",
+        "seats": "Jusqu'a 10 membres de l'equipe",
+        "clients": "Jusqu'a 5 clients",
+        "clientSuccess": "Agent de succes client"
+      }
+    }
+  },
+  "perMonth": "/mois",
+  "perSeat": "par utilisateur",
+  "recommended": "Recommande",
+  "startTrial": "Demarrer l'essai gratuit",
+  "getStarted": "Commencer",
+  "comparison": {
+    "title": "Comment STRATUM se compare",
+    "subtitle": "Voyez comment nous nous positionnons face aux alternatives.",
+    "stratum": "STRATUM",
+    "competitor1": "Suite CRM entreprise",
+    "competitor2": "Plateforme de contenu IA",
+    "competitor3": "Outil d'automatisation publicitaire",
+    "capabilities": {
+      "strategicIntelligence": "Intelligence strategique",
+      "creativeGeneration": "Generation creative",
+      "performanceAnalysis": "Analyse de performance",
+      "learningAdaptation": "Apprentissage et adaptation",
+      "executionRisk": "Risque d'execution",
+      "multiClient": "Nativement multi-clients",
+      "startingPrice": "Prix de depart"
+    },
+    "values": {
+      "stratum": {
+        "strategicIntelligence": "11+ cadres",
+        "creativeGeneration": "9 outils de contenu",
+        "performanceAnalysis": "Multi-canal",
+        "learningAdaptation": "Continue",
+        "executionRisk": "Aucun (lecture seule)",
+        "multiClient": "Integre",
+        "startingPrice": "29 $/mois"
+      },
+      "competitor1": {
+        "strategicIntelligence": "Basique",
+        "creativeGeneration": "Limitee",
+        "performanceAnalysis": "Centree CRM",
+        "learningAdaptation": "Limite",
+        "executionRisk": "Moyen",
+        "multiClient": "--",
+        "startingPrice": "800 $+/mois"
+      },
+      "competitor2": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "Contenu uniquement",
+        "performanceAnalysis": "--",
+        "learningAdaptation": "--",
+        "executionRisk": "Aucun",
+        "multiClient": "--",
+        "startingPrice": "39 $+/mois"
+      },
+      "competitor3": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "--",
+        "performanceAnalysis": "Payant uniquement",
+        "learningAdaptation": "Limite",
+        "executionRisk": "Eleve",
+        "multiClient": "Limite",
+        "startingPrice": "2 000 $+/mois"
+      }
+    }
+  },
+  "faq": {
+    "title": "Questions frequentes",
+    "items": [
+      {
+        "question": "Comment fonctionne l'essai gratuit de 30 jours ?",
+        "answer": "Chaque plan inclut 30 jours d'essai gratuit. Aucune carte bancaire n'est necessaire pour commencer. Vous beneficiez d'un acces complet a toutes les fonctionnalites pendant la periode d'essai."
+      },
+      {
+        "question": "Puis-je changer de plan plus tard ?",
+        "answer": "Bien sur. Vous pouvez monter ou descendre de plan a tout moment depuis vos parametres de facturation. Les changements prennent effet immediatement."
+      },
+      {
+        "question": "Que se passe-t-il si j'ajoute plus de membres a mon equipe ?",
+        "answer": "Chaque plan inclut un nombre defini de places. Si vous avez besoin de plus de places, passez a un plan superieur. Tous les membres de l'equipe ont un acces complet a chaque agent IA."
+      },
+      {
+        "question": "Comment gerez-vous mes donnees ?",
+        "answer": "Nous appliquons des pratiques de securite standard du secteur, notamment le chiffrement HTTPS, l'isolation des donnees au niveau base de donnees entre organisations et des controles d'acces au niveau des lignes. STRATUM est actuellement en phase alpha ; consultez notre Politique de confidentialite pour connaitre le detail de nos pratiques et de leurs limites."
+      },
+      {
+        "question": "Que signifie 'Intelligence Over Execution' ?",
+        "answer": "STRATUM est une plateforme d'intelligence en lecture seule. Nous vous aidons a reflechir, planifier et definir votre strategie, mais nous n'executons jamais de campagnes a votre place. Cela signifie zero risque d'execution et un controle total sur votre marketing."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pret a penser plus intelligemment ?",
+    "subtitle": "Rejoignez les marketers qui ont remplace les approximations par de l'intelligence strategique.",
+    "button": "Demarrer votre essai gratuit",
+    "benefits": {
+      "trial": "30 jours d'essai gratuit",
+      "noCreditCard": "Aucune carte bancaire requise",
+      "cancelAnytime": "Resiliez a tout moment"
+    }
+  }
+}

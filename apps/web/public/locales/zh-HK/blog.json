@@ -1,0 +1,30 @@
+{
+  "masthead": {
+    "eyebrow": "洞察與指南",
+    "title": "STRA\u0166UM 網誌",
+    "description": "策略營銷智能、框架深度解析，以及打造 AI 驅動平台過程中嘅經驗總結。"
+  },
+  "hubs": {
+    "all": "全部文章",
+    "marketingIntelligence": "營銷智能",
+    "marketingFrameworks": "框架",
+    "aiAgents": "AI 智能助手",
+    "agencyOperations": "代理機構運營"
+  },
+  "post": {
+    "notFoundTitle": "搵唔到文章",
+    "backToBlog": "返回網誌",
+    "allPosts": "全部文章",
+    "completeGuide": "完整指南",
+    "minRead": "分鐘閱讀",
+    "min": "分鐘",
+    "moreFrom": "來自 {{hub}} 嘅更多內容",
+    "read": "閱讀",
+    "readArticle": "閱讀文章",
+    "emptyHub": "呢個主題下暫時仲未有更多文章，請稍後再嚟查看。"
+  },
+  "languages": {
+    "english": "英文",
+    "vietnamese": "Ti\u1ebfng Vi\u1ec7t"
+  }
+}

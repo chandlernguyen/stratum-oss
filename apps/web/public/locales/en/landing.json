@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "STRAŦUM - Strategic Marketing Intelligence",
+    "description": "11 strategic frameworks. 9 AI agents. Progressive learning. Stop Guessing. Start Knowing."
+  },
+  "hero": {
+    "badge": "Now Open",
+    "headlinePart1": "Marketing Execution",
+    "headlinePart2": "Without Strategy",
+    "headlinePart3": "Is Just Expensive Noise.",
+    "tagline": "Intelligence Over Execution.",
+    "description": "11 strategic frameworks. 9 AI agents. Progressive learning.",
+    "cta": "Stop Guessing. Start Knowing.",
+    "primaryButton": "Start Your Free Trial",
+    "secondaryText": "Already have an account?",
+    "secondaryLink": "Sign in",
+    "trialNote": "Free trial included on all plans",
+    "scrollDiscover": "Discover"
+  },
+  "valueProps": {
+    "clarity": {
+      "title": "Strategic Clarity, Instantly",
+      "description": "SWOT, Porter's Five Forces, Blue Ocean Strategy, BCG Matrix, VRIO, McKinsey 7S — proven frameworks at your fingertips."
+    },
+    "intelligence": {
+      "title": "Intelligence That Learns",
+      "description": "Gets smarter with every conversation about YOUR business. Tell one agent, inform all nine.",
+      "badge": "Progressive Learning"
+    },
+    "quickWins": {
+      "title": "15-Minute Quick Wins",
+      "description": "Actionable insights in your first session, not your fifth week. Built for busy marketers."
+    }
+  },
+  "audience": {
+    "title": "Built for Two Distinct Audiences",
+    "subtitle": "Different needs, same intelligence platform",
+    "sme": {
+      "label": "For SMEs",
+      "title": "For SMEs",
+      "subtitle": "The Strategic Co-Founder You Can Afford",
+      "features": {
+        "clarity": {
+          "title": "Clarity in 15 Minutes",
+          "description": "Get your first complete, data-backed strategy before your coffee gets cold."
+        },
+        "budget": {
+          "title": "Mistake-Proof Your Budget",
+          "description": "Strategies built for your $0 budget that automatically adapt as you grow."
+        },
+        "confidence": {
+          "title": "Confidence, Not Confusion",
+          "description": "Understand the why behind your plan with frameworks explained in plain English."
+        }
+      }
+    },
+    "agency": {
+      "label": "For Agencies",
+      "title": "For Agencies",
+      "subtitle": "Scale Your Strategic Capacity, Not Your Headcount",
+      "features": {
+        "clientReady": {
+          "title": "Client-Ready Strategies",
+          "description": "Generate a full strategic blueprint for a new client in the time it takes to write an email."
+        },
+        "premiumFees": {
+          "title": "Justify Premium Fees",
+          "description": "Deliver strategies based on 9 interconnected AI agents, not just your gut feeling."
+        },
+        "systematic": {
+          "title": "Systematic Excellence",
+          "description": "Manage strategy for multiple clients with built-in data isolation and team collaboration."
+        }
+      }
+    }
+  },
+  "progressiveLearning": {
+    "badge": "Adaptive Intelligence System",
+    "title": "Intelligence That Grows With Your Business",
+    "subtitle": "Unlike static tools, STRAŦUM's AI agents continuously learn about your business with every conversation.",
+    "timeline": {
+      "day1": {
+        "label": "Day 1",
+        "title": "First Interaction",
+        "description": "Share your business context once. Agents begin automatically capturing key insights about your market, competitors, and customers."
+      },
+      "week1": {
+        "label": "Week 1",
+        "title": "Deepening Intelligence",
+        "description": "Every conversation adds to your Learning History. Agents reference past insights to provide increasingly personalized recommendations."
+      },
+      "ongoing": {
+        "label": "Ongoing",
+        "title": "Predictive Intelligence",
+        "description": "With a rich knowledge base, agents anticipate your needs and pre-fill contexts. You stay in control — review and delete any insight."
+      }
+    }
+  },
+  "frameworks": {
+    "title": "11 Strategic Frameworks at Your Fingertips",
+    "subtitle": "The same frameworks used by Fortune 500 consultants, now accessible to everyone.",
+    "list": [
+      "SWOT Analysis",
+      "Porter's Five Forces",
+      "Blue Ocean Strategy",
+      "BCG Matrix",
+      "VRIO Framework",
+      "McKinsey 7S",
+      "OKRs",
+      "Three Horizons",
+      "ICE Prioritization",
+      "Business Model Canvas",
+      "Jobs to Be Done"
+    ]
+  },
+  "demo": {
+    "title": "See STRAŦUM in Action",
+    "subtitle": "A 15-minute walkthrough showing how SMEs build complete marketing strategies"
+  },
+  "cta": {
+    "badge": "Strategic Intelligence for Everyone",
+    "title": "Start Building Smarter Strategies Today",
+    "description": "Join businesses and agencies using AI-powered strategic intelligence to make better marketing decisions. All 9 agents. All 11 frameworks. One platform.",
+    "primaryButton": "Get Started Free",
+    "secondaryText": "Already have an account?",
+    "secondaryLink": "Sign in",
+    "benefits": {
+      "noCreditCard": "No credit card required",
+      "foundingMember": "Cancel anytime"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "pageTitle": "任務",
+  "pageSubtitle": "管理並追蹤團隊工作",
+  "newTask": "新增任務",
+  "myTasks": "我嘅任務",
+  "allTasks": "全部任務",
+  "noTasks": "冇任務",
+  "status": {
+    "todo": "待辦",
+    "in_progress": "進行中",
+    "review": "審核中",
+    "done": "已完成",
+    "cancelled": "已取消"
+  },
+  "taskType": {
+    "content_creation": "內容創作",
+    "review": "審核",
+    "analysis": "分析",
+    "campaign_setup": "活動設定",
+    "strategy": "策略",
+    "other": "其他"
+  },
+  "priority": {
+    "low": "低",
+    "normal": "普通",
+    "high": "高",
+    "urgent": "緊急"
+  },
+  "dueDate": {
+    "overdue": "已逾期",
+    "today": "今日",
+    "tomorrow": "聽日"
+  },
+  "assignee": {
+    "unassigned": "未分配"
+  },
+  "actions": {
+    "moveTo": "移動到 {{status}}",
+    "cancel": "取消"
+  },
+  "createDialog": {
+    "title": "建立任務",
+    "description": "為團隊成員分配一個新任務。",
+    "titleLabel": "標題",
+    "titlePlaceholder": "需要完成咩？",
+    "descriptionLabel": "描述（選填）",
+    "descriptionPlaceholder": "補充更多細節...",
+    "typeLabel": "類型",
+    "priorityLabel": "優先級",
+    "assigneeLabel": "分配畀",
+    "assigneePlaceholder": "揀選團隊成員",
+    "dueDateLabel": "截止日期",
+    "cancelButton": "取消",
+    "createButton": "建立任務",
+    "creatingButton": "建立中..."
+  }
+}

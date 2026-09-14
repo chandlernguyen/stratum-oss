@@ -1,0 +1,490 @@
+{
+  "aria": {
+    "bottomNavigation": "底部導覽",
+    "breadcrumb": "麵包屑導覽",
+    "openMenu": "開啟選單"
+  },
+  "buttons": {
+    "save": "儲存",
+    "cancel": "取消",
+    "confirm": "確認",
+    "delete": "刪除",
+    "edit": "編輯",
+    "create": "建立",
+    "add": "新增",
+    "remove": "移除",
+    "close": "關閉",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "submit": "提交",
+    "loading": "載入中...",
+    "retry": "重試",
+    "continue": "繼續",
+    "skip": "略過",
+    "done": "完成",
+    "view": "查看",
+    "viewAll": "查看全部",
+    "learnMore": "了解更多",
+    "getStarted": "立即開始",
+    "signUp": "註冊",
+    "signIn": "登入",
+    "signOut": "登出",
+    "upgrade": "升級",
+    "download": "下載",
+    "export": "匯出",
+    "import": "匯入",
+    "refresh": "重新整理",
+    "search": "搜尋",
+    "filter": "篩選",
+    "sort": "排序",
+    "copy": "複製",
+    "copied": "已複製！",
+    "share": "分享",
+    "archive": "封存",
+    "restore": "還原",
+    "newSession": "新對話"
+  },
+  "labels": {
+    "name": "名稱",
+    "email": "電郵",
+    "password": "密碼",
+    "phone": "電話",
+    "description": "描述",
+    "title": "標題",
+    "status": "狀態",
+    "date": "日期",
+    "time": "時間",
+    "type": "類型",
+    "category": "分類",
+    "tags": "標籤",
+    "notes": "備註",
+    "actions": "操作",
+    "settings": "設定",
+    "profile": "個人資料",
+    "account": "帳戶",
+    "preferences": "偏好設定",
+    "language": "語言",
+    "notifications": "通知",
+    "privacy": "私隱",
+    "security": "安全",
+    "help": "幫助",
+    "support": "支援",
+    "feedback": "意見回饋",
+    "optional": "選填",
+    "required": "必填"
+  },
+  "status": {
+    "active": "啟用",
+    "inactive": "停用",
+    "pending": "待處理",
+    "completed": "已完成",
+    "failed": "失敗",
+    "processing": "處理中",
+    "draft": "草稿",
+    "published": "已發佈",
+    "archived": "已封存",
+    "deleted": "已刪除"
+  },
+  "errors": {
+    "generic": "出現問題。請重試。",
+    "networkError": "網絡錯誤。請檢查你嘅連線。",
+    "serverError": "伺服器錯誤。請稍後再試。",
+    "notFound": "找唔到資源。",
+    "unauthorized": "你無權執行此操作。",
+    "forbidden": "存取被拒絕。",
+    "validationError": "請檢查你嘅輸入後重試。",
+    "timeout": "請求逾時。請重試。",
+    "sessionExpired": "你嘅工作階段已過期。請重新登入。"
+  },
+  "success": {
+    "saved": "變更已成功儲存。",
+    "created": "建立成功。",
+    "updated": "更新成功。",
+    "deleted": "刪除成功。",
+    "copied": "已複製到剪貼簿。",
+    "exported": "匯出成功。",
+    "imported": "匯入成功。"
+  },
+  "confirm": {
+    "delete": {
+      "title": "刪除項目",
+      "description": "確定要刪除此項目嗎？此操作無法還原。",
+      "confirmButton": "永久刪除",
+      "cancelButton": "取消"
+    },
+    "unsavedChanges": {
+      "title": "存在未儲存嘅變更",
+      "description": "你有未儲存嘅變更。確定要離開嗎？",
+      "confirmButton": "離開",
+      "cancelButton": "留低"
+    },
+    "archive": {
+      "title": "封存項目",
+      "description": "確定要封存此項目嗎？",
+      "confirmButton": "封存",
+      "cancelButton": "取消",
+      "reasonLabel": "封存原因（選填）",
+      "reasonPlaceholder": "例如：策略已過時、專案已完成、不再需要...",
+      "reasonHelp": "此原因將被儲存用於審計，並有助於日後回顧已封存項目。",
+      "reversibleTitle": "封存可還原",
+      "reversibleMessage": "你可以隨時喺已封存項目中還原此 {{itemName}}。"
+    },
+    "warning": {
+      "confirmButton": "繼續"
+    },
+    "info": {
+      "confirmButton": "確認"
+    },
+    "deleteTip": "提示：如果你之後可能仲需要呢個項目，可以考慮先封存而唔係刪除。已封存項目可隨時還原。",
+    "processing": "處理中..."
+  },
+  "empty": {
+    "noResults": "搵唔到結果。",
+    "noData": "暫無可用數據。",
+    "noItems": "仲未有項目。",
+    "noMatches": "冇符合搜尋條件嘅結果。"
+  },
+  "loading": {
+    "default": "載入中...",
+    "pleaseWait": "請稍候...",
+    "processing": "處理中...",
+    "saving": "儲存中...",
+    "fetching": "正在擷取數據..."
+  },
+  "time": {
+    "justNow": "啱啱",
+    "minutesAgo": "{{count}} 分鐘前",
+    "minutesAgo_other": "{{count}} 分鐘前",
+    "hoursAgo": "{{count}} 小時前",
+    "hoursAgo_other": "{{count}} 小時前",
+    "daysAgo": "{{count}} 日前",
+    "daysAgo_other": "{{count}} 日前",
+    "today": "今日",
+    "yesterday": "尋日",
+    "tomorrow": "聽日"
+  },
+  "navigation": {
+    "home": "主頁",
+    "dashboard": "儀表板",
+    "overview": "概覽",
+    "campaigns": "營銷活動",
+    "agents": "智能助手",
+    "library": "資料庫",
+    "approved": "已批准",
+    "team": "團隊",
+    "tasks": "任務",
+    "search": "搜尋",
+    "more": "更多",
+    "settings": "設定",
+    "profile": "個人資料",
+    "myProfile": "我嘅資料",
+    "billing": "帳單與訂閱",
+    "feedback": "意見回饋",
+    "contactUs": "聯絡我哋",
+    "privacyPolicy": "私隱政策",
+    "termsConditions": "條款及細則",
+    "signOut": "登出",
+    "help": "幫助",
+    "lightMode": "淺色模式",
+    "darkMode": "深色模式",
+    "intelligence": "智能分析",
+    "clients": "客戶",
+    "agencyOverview": "代理機構概覽",
+    "requestAccess": "註冊",
+    "account": "帳戶",
+    "accountOptions": "帳戶選項",
+    "request": "申請",
+    "pricing": "定價",
+    "blog": "網誌",
+    "whiteLabel": "白標",
+    "accountTypes": {
+      "agency": "代理機構帳戶",
+      "sme": "中小企業帳戶"
+    }
+  },
+  "auth": {
+    "signIn": "登入",
+    "signUp": "註冊",
+    "alreadyHaveAccount": "已有帳戶",
+    "haveInvitation": "有邀請？立即加入"
+  },
+  "breadcrumbs": {
+    "campaign": "營銷活動",
+    "businessStrategy": "商業策略",
+    "personas": "用戶畫像",
+    "marketingStrategy": "營銷策略",
+    "content": "內容",
+    "analytics": "分析",
+    "roiBudget": "ROI 與預算",
+    "campaignExecution": "活動執行",
+    "competitiveIntelligence": "競爭情報",
+    "clientSuccess": "客戶成功",
+    "quickWins": "快速見效",
+    "switchClient": "切換客戶",
+    "contentCreation": "內容創作",
+    "strategy": "策略",
+    "strategyAgent": "策略智能助手",
+    "personaAgent": "畫像智能助手",
+    "contentAgent": "內容智能助手",
+    "analyticsAgent": "分析智能助手",
+    "campaignPlanning": "活動策劃",
+    "performanceIntelligence": "績效智能",
+    "client": "客戶"
+  },
+  "clientLayout": {
+    "clientNotFound": "搵唔到客戶或存取被拒絕",
+    "loadingClientData": "正在載入客戶數據...",
+    "clientFeatureName": "客戶工作區",
+    "noAccessMessage": "你無權存取此客戶工作區。請聯絡你嘅代理機構管理員。"
+  },
+  "clientPortal": {
+    "title": "客戶入口",
+    "review": "審閱",
+    "loading": "正在載入你嘅工作區...",
+    "noAccess": "冇客戶存取權限",
+    "noAccessDescription": "你無權存取任何客戶工作區。請聯絡你嘅代理機構獲取幫助。"
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 STRA\u0166UM. All rights reserved.",
+    "privacy": "私隱",
+    "terms": "條款",
+    "contact": "聯絡",
+    "pricing": "定價",
+    "blog": "網誌",
+    "tagline": "智能優先於執行"
+  },
+  "theme": {
+    "light": "淺色",
+    "dark": "深色",
+    "switchToLight": "切換至淺色模式",
+    "switchToDark": "切換至深色模式"
+  },
+  "language": {
+    "switchToVietnamese": "切換至越南文",
+    "switchToEnglish": "切換至英文"
+  },
+  "session": {
+    "untitled": "未命名對話",
+    "archived": "已封存",
+    "message": "{{count}} 則訊息",
+    "message_other": "{{count}} 則訊息",
+    "actions": {
+      "rename": "重新命名對話",
+      "export": "匯出對話",
+      "duplicate": "複製對話",
+      "restore": "還原",
+      "archive": "封存",
+      "delete": "刪除"
+    }
+  },
+  "approvals": {
+    "title": "待審批",
+    "from": "來自 {{name}}",
+    "reviewContent": "審閱內容",
+    "contentNotAvailable": "冇可供審閱嘅內容",
+    "viewToApprove": "查看內容以批准或要求修改",
+    "noPending": "冇待審批項目",
+    "allCaughtUp": "你已經處理晒所有事項！",
+    "viewAll": "查看全部",
+    "priority": {
+      "low": "低",
+      "normal": "普通",
+      "high": "高",
+      "urgent": "緊急"
+    }
+  },
+  "feedback": {
+    "pageTitle": "意見回饋",
+    "title": "分享你嘅意見",
+    "subtitle": "透過分享你嘅想法、建議或問題報告，幫助我哋改進 STRA\u0166UM。",
+    "categoryLabel": "分類",
+    "categoryPlaceholder": "選擇一個分類",
+    "feedbackLabel": "你嘅意見",
+    "feedbackPlaceholder": "話畀我哋知你嘅想法...",
+    "submitButton": "提交意見",
+    "submitting": "提交中...",
+    "privacyNote": "你嘅意見係私密嘅，只有 STRA\u0166UM 團隊可以查看。",
+    "successTitle": "意見已提交！",
+    "successMessage": "多謝你幫助我哋改進 STRA\u0166UM。你嘅意見對我哋非常重要。",
+    "submitAnother": "繼續提交意見",
+    "categories": {
+      "generalFeedback": {
+        "label": "一般意見",
+        "description": "關於 STRA\u0166UM 嘅整體想法"
+      },
+      "agentPerformance": {
+        "label": "智能助手表現",
+        "description": "關於策略、畫像、內容等方面嘅意見"
+      },
+      "featureRequest": {
+        "label": "功能請求",
+        "description": "建議新功能或改進"
+      },
+      "bugReport": {
+        "label": "Bug 報告",
+        "description": "報告技術問題或錯誤"
+      },
+      "userExperience": {
+        "label": "用戶體驗",
+        "description": "關於 UI/UX 設計嘅意見"
+      },
+      "dataAccuracy": {
+        "label": "數據準確性",
+        "description": "報告錯誤或誤導性嘅 AI 輸出"
+      }
+    },
+    "validation": {
+      "feedbackRequired": "必須填寫意見內容",
+      "feedbackMinLength": "意見內容至少需要 {{min}} 個字元",
+      "feedbackMaxLength": "意見內容唔可以超過 {{max}} 個字元",
+      "categoryRequired": "請選擇一個分類"
+    },
+    "messages": {
+      "authError": "身份驗證錯誤。請重新整理頁面。",
+      "submitError": "提交意見失敗。請重試。",
+      "unexpectedError": "發生意外錯誤。請重試。",
+      "thankYou": "多謝你嘅意見！"
+    }
+  },
+  "chat": {
+    "showSuggestions": "顯示建議",
+    "hideSuggestions": "隱藏建議",
+    "sendMessage": "發送訊息",
+    "analyzing": "正在分析可執行嘅下一步...",
+    "analyzingStrategy": "正在分析營銷策略組件..."
+  },
+  "search": {
+    "placeholder": "搜尋..."
+  },
+  "notifications": {
+    "count": "{{count}} 個通知",
+    "count_one": "{{count}} 個通知",
+    "noNotifications": "仲未有通知",
+    "viewAll": "查看全部 {{count}} 個通知"
+  },
+  "protectedRoute": {
+    "initializingAuth": "正在初始化身份驗證...",
+    "loadingWorkspace": "正在載入你嘅工作區..."
+  },
+  "security": {
+    "secureWorkspace": "安全工作區",
+    "workingInWorkspace": "正在 {{clientName}} 嘅工作區中工作",
+    "dataProtected": "數據受保護",
+    "enterpriseGradeSecurity": "企業級安全",
+    "dataIsolation": "完整嘅數據隔離",
+    "endToEndEncryption": "端到端加密",
+    "soc2Compliant": "符合 SOC 2 標準",
+    "aiPrivate": "AI 數據保持私密",
+    "currentlyWorkingIn": "目前工作於"
+  },
+  "archiveReasonDialog": {
+    "description": "呢個操作會將\u201c{{resourceName}}\u201d從活動視圖中移除，但會保留所有數據。你可以隨時從已封存項目中還原佢。",
+    "archiving": "封存中...",
+    "archiveButton": "封存 {{resourceDisplayName}}"
+  },
+  "deleteConfirmDialog": {
+    "title": "你確定嗎？",
+    "archivedDescription": "呢個 {{itemName}} 已經封存。刪除後將從系統中永久移除，且無法還原。",
+    "activeDescription": "呢個操作將永久刪除 {{itemName}} 及其所有相關數據。此操作無法還原。",
+    "item": "項目",
+    "thisItem": "此項目"
+  },
+  "languageSwitcher": {
+    "ariaLabel": "目前語言：{{language}}。點擊切換語言。"
+  },
+  "outputBrowser": {
+    "loading": "正在載入已儲存輸出...",
+    "savedOutputs": "已儲存輸出",
+    "searchPlaceholder": "搜尋輸出...",
+    "allAgents": "全部智能助手",
+    "agents": {
+      "strategy": "策略",
+      "persona": "畫像",
+      "content": "內容",
+      "analytics": "分析"
+    },
+    "sortBy": {
+      "recent": "最近",
+      "popular": "熱門",
+      "topRated": "評分最高"
+    },
+    "suggestedFor": "為 {{agent}} 推薦",
+    "noSavedOutputs": "仲未有已儲存輸出。",
+    "saveHint": "儲存智能助手回覆，方便日後重用！",
+    "noMatchingOutputs": "冇輸出符合你嘅搜尋條件。",
+    "views": "{{count}} 次查看",
+    "views_one": "{{count}} 次查看",
+    "reuses": "{{count}} 次重用",
+    "reuses_one": "{{count}} 次重用",
+    "selected": "已選擇 {{count}} 項",
+    "useSelected": "使用所選內容（{{count}}）",
+    "weeksAgo": "{{count}} 星期前",
+    "weeksAgo_one": "{{count}} 星期前"
+  },
+  "quickSave": {
+    "quickSave": "快速儲存",
+    "saved": "已儲存",
+    "saving": "儲存中...",
+    "saveWithDetails": "儲存並加入詳情",
+    "copyToClipboard": "複製到剪貼簿"
+  },
+  "relatedOutputs": {
+    "title": "相關成果",
+    "description": "可能有助於你完成 {{agent}} 工作嘅歷史輸出",
+    "hide": "隱藏相關輸出",
+    "show": "顯示相關輸出",
+    "smartSuggestions": "智能建議",
+    "fromRelatedAgents": "來自相關智能助手",
+    "useAsContext": "用作上下文",
+    "usedTimes": "已使用 {{count}} 次",
+    "usedTimes_one": "已使用 {{count}} 次",
+    "emptyState": "仲未有相關輸出。先使用其他智能助手，為你嘅 {{agent}} 工作建立上下文。",
+    "loading": "正在載入相關輸出...",
+    "copyError": "複製到剪貼簿失敗"
+  },
+  "resourceActions": {
+    "actionsFor": "{{name}} 嘅操作",
+    "view": "查看 {{name}}",
+    "edit": "編輯 {{name}}",
+    "copyContent": "複製內容",
+    "restore": "還原 {{name}}",
+    "restoring": "還原中...",
+    "archive": "封存 {{name}}",
+    "archiving": "封存中...",
+    "deleting": "刪除中..."
+  },
+  "saveOutputDialog": {
+    "title": "儲存 {{agentType}} 輸出",
+    "description": "加入標題和標籤，以便儲存此輸出供日後參考",
+    "saveWithDetails": "儲存並加入詳情（Cmd+S）",
+    "titleLabel": "標題",
+    "titlePlaceholder": "{{date}} 嘅 {{agentType}} 分析",
+    "tagsPlaceholder": "加入自訂標籤...",
+    "suggestedTags": "建議標籤：",
+    "contentPreview": "內容預覽",
+    "words": "{{count}} 個字",
+    "words_one": "{{count}} 個字",
+    "minRead": "{{count}} 分鐘閱讀",
+    "outputType": "{{agentType}} 輸出",
+    "structuredData": "結構化數據",
+    "structuredDataHint": "包含可喺多個智能助手之間重用嘅結構化分析數據",
+    "keyboardHint": "按 Cmd+Enter 可快速儲存",
+    "saveOutput": "儲存輸出"
+  },
+  "smartStart": {
+    "preparingSuggestions": "正在準備智能建議...",
+    "readyToWork": "已準備好與你嘅 {{agent}} 智能助手協作",
+    "smartSuggestions": "智能建議",
+    "continuePreviousWork": "繼續之前嘅工作",
+    "fromAgent": "來自 {{agent}}",
+    "uses": "{{count}} 次使用",
+    "uses_one": "{{count}} 次使用",
+    "workflowTip": "工作流程提示",
+    "workflowTipSuffix": "點擊上方任一建議即可延續該上下文，或喺下方重新開始。",
+    "startFresh": "重新開始",
+    "useBestMatch": "使用最佳配對",
+    "readyForFreshIdeas": "準備迎接新思路",
+    "noPreviousWork": "搵唔到歷史工作。呢度正係為你嘅 {{agent}} 建立基礎嘅好時機。"
+  }
+}

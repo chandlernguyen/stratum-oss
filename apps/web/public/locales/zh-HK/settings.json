@@ -1,0 +1,187 @@
+{
+  "title": "設定",
+  "subtitle": "管理你嘅帳戶同偏好",
+  "tabs": {
+    "profile": "個人資料",
+    "preferences": "偏好設定",
+    "notifications": "通知",
+    "security": "安全",
+    "billing": "帳單"
+  },
+  "profile": {
+    "title": "資料信息",
+    "subtitle": "更新你嘅個人信息同頭像",
+    "fields": {
+      "avatar": "頭像",
+      "fullName": "全名",
+      "email": "電郵地址",
+      "phone": "電話號碼",
+      "timezone": "時區",
+      "language": "語言"
+    },
+    "actions": {
+      "save": "儲存變更",
+      "cancel": "取消",
+      "uploadPhoto": "上傳相片",
+      "removePhoto": "移除相片"
+    }
+  },
+  "preferences": {
+    "title": "偏好設定",
+    "subtitle": "自訂你嘅使用體驗",
+    "language": {
+      "title": "語言",
+      "description": "揀選你偏好嘅介面語言"
+    },
+    "theme": {
+      "title": "主題",
+      "description": "喺淺色、深色或系統主題之間揀選",
+      "options": {
+        "light": "淺色",
+        "dark": "深色",
+        "system": "系統"
+      }
+    },
+    "dateFormat": {
+      "title": "日期格式",
+      "description": "揀選日期顯示方式"
+    },
+    "currency": {
+      "title": "預設貨幣",
+      "description": "設定預算同報告嘅預設貨幣"
+    }
+  },
+  "notifications": {
+    "title": "通知偏好",
+    "subtitle": "管理你接收通知嘅方式",
+    "email": {
+      "title": "電郵通知",
+      "weeklyDigest": "每週摘要",
+      "weeklyDigestDesc": "每週接收一次營銷表現摘要",
+      "campaignAlerts": "營銷活動提醒",
+      "campaignAlertsDesc": "當營銷活動需要關注時收到通知",
+      "teamUpdates": "團隊更新",
+      "teamUpdatesDesc": "關於團隊成員活動嘅通知"
+    },
+    "push": {
+      "title": "推送通知",
+      "browser": "瀏覽器通知",
+      "browserDesc": "喺瀏覽器中接收通知"
+    }
+  },
+  "security": {
+    "title": "安全",
+    "subtitle": "管理你嘅帳戶安全設定",
+    "password": {
+      "title": "更改密碼",
+      "description": "定期更新密碼以確保帳戶安全",
+      "currentPassword": "目前密碼",
+      "newPassword": "新密碼",
+      "confirmPassword": "確認新密碼",
+      "updateButton": "更新密碼"
+    },
+    "twoFactor": {
+      "title": "雙重身份驗證",
+      "description": "為你嘅帳戶增加多一層保護",
+      "enable": "啟用 2FA",
+      "disable": "停用 2FA",
+      "enabled": "已啟用",
+      "disabled": "已停用"
+    },
+    "sessions": {
+      "title": "活躍會話",
+      "description": "管理你喺各裝置上嘅活躍會話",
+      "currentSession": "目前會話",
+      "signOutAll": "登出其他所有會話"
+    }
+  },
+  "billing": {
+    "title": "帳單同訂閱",
+    "subtitle": "管理你嘅訂閱同付款方式",
+    "currentPlan": {
+      "title": "目前方案",
+      "freeTier": "免費方案",
+      "pro": "專業版",
+      "enterprise": "企業版"
+    },
+    "usage": {
+      "title": "本月用量",
+      "aiCredits": "已使用 AI 積分",
+      "storage": "已用儲存空間"
+    },
+    "paymentMethod": {
+      "title": "付款方式",
+      "addNew": "新增付款方式",
+      "noMethod": "仲未新增付款方式"
+    }
+  },
+  "whiteLabel": {
+    "pageTitle": "白標設定",
+    "pageSubtitle": "使用你代理機構嘅品牌同域名自訂平台",
+    "agencyOnly": {
+      "title": "僅限代理機構功能",
+      "description": "白標自訂僅適用於代理機構帳戶。",
+      "learnMore": "了解代理機構方案"
+    },
+    "status": {
+      "title": "白標狀態",
+      "brandKit": {
+        "label": "品牌套件",
+        "active": "已啟用",
+        "notConfigured": "未配置"
+      },
+      "customDomain": {
+        "label": "自訂域名",
+        "usingDefault": "使用預設域名"
+      },
+      "sslCertificate": {
+        "label": "SSL 證書",
+        "autoProvisioned": "自動配置"
+      }
+    },
+    "domain": {
+      "title": "自訂域名設定",
+      "description": "使用你自己嘅域名存取平台",
+      "inputLabel": "你嘅自訂域名",
+      "inputPlaceholder": "marketing.youragency.com",
+      "configureButton": "配置",
+      "dnsRequired": "需要進行 DNS 配置",
+      "copyButton": "複製",
+      "copiedButton": "已複製",
+      "domainActive": {
+        "title": "自訂域名已啟用",
+        "description": "你嘅平台可透過以下地址存取：",
+        "visitSite": "造訪網站",
+        "changeDomain": "更換域名"
+      }
+    },
+    "benefits": {
+      "title": "自訂域名嘅優勢",
+      "professional": {
+        "title": "更專業嘅形象",
+        "description": "使用你自己嘅域名強化品牌形象"
+      },
+      "clientTrust": {
+        "title": "增強客戶信任",
+        "description": "透過品牌化連結建立信心"
+      },
+      "seo": {
+        "title": "SEO 優勢",
+        "description": "提升搜尋引擎可見性"
+      },
+      "ssl": {
+        "title": "包含 SSL",
+        "description": "自動啟用 HTTPS 加密"
+      }
+    }
+  },
+  "expertMode": {
+    "expert": "專家模式",
+    "guided": "導覽模式",
+    "expertAriaLabel": "關於專家模式嘅資訊",
+    "guidedAriaLabel": "關於導覽模式嘅資訊",
+    "expertDescription": "專家模式會即時顯示所有工具同選項，並提供適合管理多客戶代理機構嘅高密度資訊展示。",
+    "guidedDescription": "導覽模式提供簡化介面同漸進式展示，適合快速上手。",
+    "toggleAriaLabel": "切換專家模式"
+  }
+}

@@ -1,0 +1,12 @@
+# Vercel
+.vercel
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+.env.*.local
+.env.vercel.*
+.env*.local

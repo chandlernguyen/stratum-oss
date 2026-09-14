@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "STRA\u0166UM - 策略營銷智能",
+    "description": "11 大策略框架。9 個 AI 智能助手。漸進式學習。唔再靠估，開始洞察。"
+  },
+  "hero": {
+    "badge": "現已開放",
+    "headlinePart1": "冇策略嘅",
+    "headlinePart2": "營銷執行",
+    "headlinePart3": "只會變成昂貴嘅噪音。",
+    "tagline": "智能優先於執行。",
+    "description": "11 大策略框架。9 個 AI 智能助手。漸進式學習。",
+    "cta": "唔再靠估，開始洞察。",
+    "primaryButton": "開始免費試用",
+    "secondaryText": "已有帳戶？",
+    "secondaryLink": "登入",
+    "trialNote": "所有方案均包含免費試用",
+    "scrollDiscover": "了解更多"
+  },
+  "valueProps": {
+    "clarity": {
+      "title": "即刻獲得策略清晰度",
+      "description": "SWOT、Porter's Five Forces、Blue Ocean Strategy、BCG Matrix、VRIO、McKinsey 7S，成熟框架觸手可及。"
+    },
+    "intelligence": {
+      "title": "識得學習嘅智能系統",
+      "description": "每一次圍繞你業務嘅對話，都會令系統更了解你。告訴一個智能助手，九個都會同步受益。",
+      "badge": "漸進式學習"
+    },
+    "quickWins": {
+      "title": "15 分鐘快速見效",
+      "description": "第一次對話就攞到可執行洞察，而唔係等到第五個星期。專為忙碌嘅營銷人員打造。"
+    }
+  },
+  "audience": {
+    "title": "為兩類截然不同嘅用戶而打造",
+    "subtitle": "需求不同，智能平台相同",
+    "sme": {
+      "label": "面向中小企業",
+      "title": "面向中小企業",
+      "subtitle": "你負擔得起嘅策略聯合創辦人",
+      "features": {
+        "clarity": {
+          "title": "15 分鐘睇清方向",
+          "description": "喺咖啡凍之前，就攞到你嘅第一份完整且有數據支撐嘅策略。"
+        },
+        "budget": {
+          "title": "令預算少行冤枉路",
+          "description": "即使預算由零開始，都能獲得可隨業務增長自動調整嘅策略。"
+        },
+        "confidence": {
+          "title": "要信心，唔要困惑",
+          "description": "用淺顯易懂嘅框架說明，幫你理解方案背後嘅原因。"
+        }
+      }
+    },
+    "agency": {
+      "label": "面向代理機構",
+      "title": "面向代理機構",
+      "subtitle": "擴大策略產能，而唔係單純擴編團隊",
+      "features": {
+        "clientReady": {
+          "title": "可直接交付畀客戶嘅策略",
+          "description": "寫一封電郵嘅時間，就能為新客戶生成完整嘅策略藍圖。"
+        },
+        "premiumFees": {
+          "title": "為高端服務費提供依據",
+          "description": "交付基於 9 個互聯 AI 智能助手嘅策略，而唔係只靠直覺。"
+        },
+        "systematic": {
+          "title": "系統化嘅高標準交付",
+          "description": "藉助內建嘅數據隔離同團隊協作能力，同時管理多個客戶嘅策略。"
+        }
+      }
+    }
+  },
+  "progressiveLearning": {
+    "badge": "自適應智能系統",
+    "title": "會隨業務一齊成長嘅智能系統",
+    "subtitle": "唔同於靜態工具，STRA\u0166UM 嘅 AI 智能助手會喺每一次對話中持續學習你嘅業務。",
+    "timeline": {
+      "day1": {
+        "label": "第 1 日",
+        "title": "首次互動",
+        "description": "只需分享一次業務背景，智能助手就會開始自動捕捉關於市場、競爭對手同客戶嘅關鍵資訊。"
+      },
+      "week1": {
+        "label": "第 1 週",
+        "title": "智能持續深化",
+        "description": "每一次對話都會沉澱入你嘅學習歷史。智能助手會參考過去嘅洞察，畀到越嚟越個人化嘅建議。"
+      },
+      "ongoing": {
+        "label": "持續進行",
+        "title": "預測式智能",
+        "description": "隨住知識庫不斷豐富，智能助手會預判你嘅需求並預填上下文。你始終掌握控制權，可查看並刪除任何洞察。"
+      }
+    }
+  },
+  "frameworks": {
+    "title": "11 大策略框架盡在掌握",
+    "subtitle": "財富 500 強顧問使用嘅同款框架，如今人人都能用。",
+    "list": [
+      "SWOT 分析",
+      "Porter's Five Forces",
+      "Blue Ocean Strategy",
+      "BCG Matrix",
+      "VRIO Framework",
+      "McKinsey 7S",
+      "OKRs",
+      "三層增長地平線",
+      "ICE 優先級排序",
+      "商業模式畫布",
+      "Jobs to Be Done"
+    ]
+  },
+  "demo": {
+    "title": "睇吓 STRA\u0166UM 點樣實際運作",
+    "subtitle": "15 分鐘帶你了解中小企業點樣構建完整營銷策略"
+  },
+  "cta": {
+    "badge": "人人可用嘅策略智能",
+    "title": "由今日開始制定更聰明嘅策略",
+    "description": "加入已經喺使用 AI 驅動策略智能做出更好營銷決策嘅企業同代理機構。9 個智能助手，11 個框架，一個平台。",
+    "primaryButton": "免費開始",
+    "secondaryText": "已有帳戶？",
+    "secondaryLink": "登入",
+    "benefits": {
+      "noCreditCard": "無需信用卡",
+      "foundingMember": "隨時取消"
+    }
+  }
+}

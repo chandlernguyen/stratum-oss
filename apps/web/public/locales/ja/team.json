@@ -1,0 +1,183 @@
+{
+  "title": "チーム",
+  "subtitle": "チームメンバーと権限を管理します",
+  "management": {
+    "title": "チーム管理",
+    "subtitle": "チームメンバーと招待を管理します",
+    "inviteButton": "チームメンバーを招待"
+  },
+  "list": {
+    "title": "チームメンバー",
+    "empty": "チームメンバーはまだいません",
+    "emptyDescription": "チームメンバーを招待してマーケティング戦略を共同で進めましょう",
+    "inviteFirst": "最初のチームメンバーを招待"
+  },
+  "members": {
+    "title": "チームメンバー",
+    "count": "チームメンバー（{{count}}）",
+    "subtitle": "組織内のアクティブなメンバー",
+    "empty": "チームメンバーが見つかりません",
+    "joined": "{{date}}に参加"
+  },
+  "invitations": {
+    "title": "保留中の招待",
+    "count": "保留中の招待（{{count}}）",
+    "subtitle": "まだ承諾されていない招待です",
+    "empty": "保留中の招待はありません",
+    "invitedBy": "{{name}}が招待",
+    "expires": "{{date}}に期限切れ",
+    "revoke": "招待を取り消す"
+  },
+  "table": {
+    "name": "名前",
+    "email": "メール",
+    "role": "役割",
+    "clientAccess": "クライアントアクセス",
+    "joined": "参加日",
+    "expires": "有効期限",
+    "invitedBy": "招待者",
+    "actions": "操作"
+  },
+  "clientAccess": {
+    "allClients": "すべてのクライアント",
+    "clientCount_one": "{{count}}社のクライアント",
+    "clientCount_other": "{{count}}社のクライアント",
+    "allClientsTooltip": "現在および今後のすべてのクライアントにアクセスできます",
+    "assignedClients": "割り当て済みクライアント:",
+    "andMore": "…他{{count}}件",
+    "noClientsAssigned": "クライアントは割り当てられていません"
+  },
+  "dialogs": {
+    "changeRole": {
+      "title": "メンバーの役割を変更",
+      "description": "{{name}}（{{email}}）の役割を更新します",
+      "newRole": "新しい役割",
+      "selectRole": "新しい役割を選択",
+      "cancel": "キャンセル",
+      "submit": "役割を更新",
+      "submitting": "更新中..."
+    },
+    "clientAccess": {
+      "title": "クライアントアクセスを管理",
+      "description": "{{name}}（{{email}}）のクライアントアクセスを更新します",
+      "allClients": "すべてのクライアント",
+      "allClientsDescription": "このユーザーは現在および今後のすべてのクライアントにアクセスできます",
+      "selectClients": "特定のクライアントを選択:",
+      "loadingClients": "クライアントを読み込み中...",
+      "noClients": "利用可能なクライアントがありません",
+      "selectAtLeastOne": "少なくとも1つのクライアントを選択するか、「すべてのクライアント」を選んでください",
+      "cancel": "キャンセル",
+      "submit": "アクセスを更新",
+      "submitting": "更新中..."
+    },
+    "revoke": {
+      "title": "招待を取り消す",
+      "description": "{{email}}への招待を本当に取り消しますか？",
+      "confirm": "取り消す"
+    },
+    "remove": {
+      "title": "チームメンバーを削除",
+      "description": "{{name}}（{{email}}）を組織から削除してもよろしいですか？この操作は元に戻せません。",
+      "confirm": "メンバーを削除"
+    }
+  },
+  "actions": {
+    "changeRole": "役割を変更",
+    "manageClientAccess": "クライアントアクセスを管理",
+    "removeMember": "メンバーを削除",
+    "moreOptions": "その他のオプション"
+  },
+  "validation": {
+    "selectRole": "役割を選択してください",
+    "rolesNotLoaded": "役割がまだ読み込まれていません",
+    "invalidRole": "無効な役割が選択されました",
+    "noMemberSelected": "メンバーが選択されていません",
+    "selectClientOrAll": "少なくとも1つのクライアントを選択するか、「すべてのクライアント」を選んでください"
+  },
+  "roles": {
+    "owner": "オーナー",
+    "admin": "管理者",
+    "editor": "編集者",
+    "viewer": "閲覧者",
+    "descriptions": {
+      "owner": "請求とチーム管理を含むすべての機能にフルアクセスできます",
+      "admin": "請求以外のすべての機能にアクセスし、チームメンバーを管理できます",
+      "editor": "コンテンツ、キャンペーン、ペルソナを作成・編集できます",
+      "viewer": "ダッシュボードとレポートを閲覧する読み取り専用アクセス"
+    }
+  },
+  "invite": {
+    "title": "チームメンバーを招待",
+    "subtitle": "チーム参加の招待を送信します",
+    "fields": {
+      "email": "メールアドレス",
+      "emailPlaceholder": "colleague@company.com",
+      "role": "役割",
+      "message": "個人的なメッセージ（任意）",
+      "messagePlaceholder": "招待に個人的な一言を添えましょう..."
+    },
+    "actions": {
+      "send": "招待を送信",
+      "sending": "送信中...",
+      "cancel": "キャンセル"
+    },
+    "success": "招待を送信しました",
+    "error": "招待の送信に失敗しました"
+  },
+  "member": {
+    "joined": "参加日",
+    "lastActive": "最終アクティブ",
+    "pendingInvite": "保留中の招待",
+    "inviteSent": "招待を送信済み",
+    "actions": {
+      "changeRole": "役割を変更",
+      "resendInvite": "招待を再送",
+      "cancelInvite": "招待をキャンセル",
+      "remove": "チームから削除"
+    }
+  },
+  "permissions": {
+    "title": "権限",
+    "categories": {
+      "campaigns": "キャンペーン",
+      "personas": "ペルソナ",
+      "agents": "AIエージェント",
+      "analytics": "分析",
+      "settings": "設定",
+      "team": "チーム管理"
+    },
+    "levels": {
+      "none": "アクセスなし",
+      "view": "閲覧のみ",
+      "edit": "編集",
+      "full": "フルアクセス"
+    }
+  },
+  "confirmRemove": {
+    "title": "チームメンバーを削除",
+    "message": "{{name}}をチームから削除してもよろしいですか？チームリソースへのアクセスはすべて失われます。",
+    "confirm": "削除",
+    "cancel": "キャンセル"
+  },
+  "confirmCancelInvite": {
+    "title": "招待をキャンセル",
+    "message": "{{email}}への招待をキャンセルしてもよろしいですか？",
+    "confirm": "招待をキャンセル",
+    "cancel": "招待を維持"
+  },
+  "limits": {
+    "title": "チーム上限",
+    "membersUsed": "{{total}}人中{{used}}人を使用中",
+    "upgradePrompt": "さらにチームメンバーを追加するにはアップグレードしてください"
+  },
+  "activity": {
+    "title": "最近のアクティビティ",
+    "empty": "最近のアクティビティはありません",
+    "actions": {
+      "invited": "招待しました",
+      "joined": "チームに参加しました",
+      "removed": "チームから削除されました",
+      "roleChanged": "役割が次に変更されました"
+    }
+  }
+}

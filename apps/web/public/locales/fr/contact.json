@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Contact",
+    "subtitle": "Un acces direct au fondateur. Vos retours font evoluer STRAŦUM."
+  },
+  "getInTouch": {
+    "title": "Parlons-en",
+    "description": "Construit par un fondateur solo qui veut offrir une intelligence marketing de niveau enterprise sans la complexite enterprise. L'inscription est ouverte : commencez gratuitement aujourd'hui.",
+    "wantAccess": "Pret a commencer ?",
+    "requestInvitation": "Creer un compte gratuitement",
+    "alphaUsers": "Utilisateurs alpha :",
+    "alphaUsersNote": "Utilisez le feedback integre une fois connecte.",
+    "everyoneElse": "Tout le monde :",
+    "everyoneElseNote": "E-mail pour les demandes generales."
+  },
+  "contactMethods": {
+    "title": "Moyens de contact",
+    "inAppFeedback": {
+      "title": "Feedback dans l'application",
+      "badge": "Pour les utilisateurs alpha",
+      "description": "Si vous etes connecte a STRAŦUM :",
+      "note": "Le meilleur canal pour les bugs et les demandes de fonctionnalites. Le contexte de votre compte permet une resolution plus rapide.",
+      "cta": "Envoyer un feedback"
+    },
+    "email": {
+      "title": "E-mail",
+      "badge": "Pour tous",
+      "description": "Pour les questions generales, idees de fonctionnalites, partenariats ou toute autre demande.",
+      "wantAccess": "Vous voulez acceder au produit ?",
+      "requestInvitation": "Demander une invitation"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "Echangez avec le fondateur et suivez l'evolution de STRAŦUM",
+      "cta": "Se connecter sur LinkedIn"
+    }
+  },
+  "responseTime": {
+    "title": "Temps de reponse et disponibilite",
+    "commitment": "Engagement du fondateur solo :",
+    "responseNote": "Chaque message est lu et traite personnellement sous 1 a 2 jours ouvrables (les sprints de developpement peuvent allonger ce delai a 3 ou 4 jours).",
+    "timezone": "Base sur le fuseau Pacific US. Horaires de travail : 9h - 17h PST, du lundi au vendredi."
+  },
+  "partnership": {
+    "title": "Partenariats et medias",
+    "description": "Pour les partenariats strategiques ou les demandes media, ecrivez a",
+    "subjectNote": "avec \"Partnership\" ou \"Media\" dans l'objet."
+  }
+}

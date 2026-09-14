@@ -1,0 +1,187 @@
+{
+  "title": "Settings",
+  "subtitle": "Manage your account and preferences",
+  "tabs": {
+    "profile": "Profile",
+    "preferences": "Preferences",
+    "notifications": "Notifications",
+    "security": "Security",
+    "billing": "Billing"
+  },
+  "profile": {
+    "title": "Profile Information",
+    "subtitle": "Update your personal information and avatar",
+    "fields": {
+      "avatar": "Profile Photo",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "timezone": "Timezone",
+      "language": "Language"
+    },
+    "actions": {
+      "save": "Save Changes",
+      "cancel": "Cancel",
+      "uploadPhoto": "Upload Photo",
+      "removePhoto": "Remove Photo"
+    }
+  },
+  "preferences": {
+    "title": "Preferences",
+    "subtitle": "Customize your experience",
+    "language": {
+      "title": "Language",
+      "description": "Select your preferred language for the interface"
+    },
+    "theme": {
+      "title": "Theme",
+      "description": "Choose between light, dark, or system theme",
+      "options": {
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+      }
+    },
+    "dateFormat": {
+      "title": "Date Format",
+      "description": "Choose how dates are displayed"
+    },
+    "currency": {
+      "title": "Default Currency",
+      "description": "Set your default currency for budgets and reports"
+    }
+  },
+  "notifications": {
+    "title": "Notification Preferences",
+    "subtitle": "Manage how you receive notifications",
+    "email": {
+      "title": "Email Notifications",
+      "weeklyDigest": "Weekly Digest",
+      "weeklyDigestDesc": "Receive a weekly summary of your marketing performance",
+      "campaignAlerts": "Campaign Alerts",
+      "campaignAlertsDesc": "Get notified when campaigns need attention",
+      "teamUpdates": "Team Updates",
+      "teamUpdatesDesc": "Notifications about team member activity"
+    },
+    "push": {
+      "title": "Push Notifications",
+      "browser": "Browser Notifications",
+      "browserDesc": "Receive notifications in your browser"
+    }
+  },
+  "security": {
+    "title": "Security",
+    "subtitle": "Manage your account security settings",
+    "password": {
+      "title": "Change Password",
+      "description": "Update your password regularly to keep your account secure",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm New Password",
+      "updateButton": "Update Password"
+    },
+    "twoFactor": {
+      "title": "Two-Factor Authentication",
+      "description": "Add an extra layer of security to your account",
+      "enable": "Enable 2FA",
+      "disable": "Disable 2FA",
+      "enabled": "Enabled",
+      "disabled": "Disabled"
+    },
+    "sessions": {
+      "title": "Active Sessions",
+      "description": "Manage your active sessions across devices",
+      "currentSession": "Current Session",
+      "signOutAll": "Sign Out All Other Sessions"
+    }
+  },
+  "billing": {
+    "title": "Billing & Subscription",
+    "subtitle": "Manage your subscription and payment methods",
+    "currentPlan": {
+      "title": "Current Plan",
+      "freeTier": "Free Tier",
+      "pro": "Pro",
+      "enterprise": "Enterprise"
+    },
+    "usage": {
+      "title": "Usage This Month",
+      "aiCredits": "AI Credits Used",
+      "storage": "Storage Used"
+    },
+    "paymentMethod": {
+      "title": "Payment Method",
+      "addNew": "Add Payment Method",
+      "noMethod": "No payment method on file"
+    }
+  },
+  "whiteLabel": {
+    "pageTitle": "White Label Settings",
+    "pageSubtitle": "Customize the platform with your agency's branding and domain",
+    "agencyOnly": {
+      "title": "Agency Feature Only",
+      "description": "White-label customization is available for agency accounts only.",
+      "learnMore": "Learn About Agency Plans"
+    },
+    "status": {
+      "title": "White Label Status",
+      "brandKit": {
+        "label": "Brand Kit",
+        "active": "Active",
+        "notConfigured": "Not configured"
+      },
+      "customDomain": {
+        "label": "Custom Domain",
+        "usingDefault": "Using default"
+      },
+      "sslCertificate": {
+        "label": "SSL Certificate",
+        "autoProvisioned": "Auto-provisioned"
+      }
+    },
+    "domain": {
+      "title": "Custom Domain Setup",
+      "description": "Use your own domain to access the platform",
+      "inputLabel": "Your Custom Domain",
+      "inputPlaceholder": "marketing.youragency.com",
+      "configureButton": "Configure",
+      "dnsRequired": "DNS Configuration Required",
+      "copyButton": "Copy",
+      "copiedButton": "Copied",
+      "domainActive": {
+        "title": "Custom Domain Active",
+        "description": "Your platform is accessible at:",
+        "visitSite": "Visit Site",
+        "changeDomain": "Change Domain"
+      }
+    },
+    "benefits": {
+      "title": "Benefits of Custom Domain",
+      "professional": {
+        "title": "Professional Appearance",
+        "description": "Strengthen your brand with your own domain"
+      },
+      "clientTrust": {
+        "title": "Client Trust",
+        "description": "Build confidence with branded URLs"
+      },
+      "seo": {
+        "title": "SEO Benefits",
+        "description": "Improve search engine visibility"
+      },
+      "ssl": {
+        "title": "SSL Included",
+        "description": "Automatic HTTPS encryption"
+      }
+    }
+  },
+  "expertMode": {
+    "expert": "Expert Mode",
+    "guided": "Guided Mode",
+    "expertAriaLabel": "Information about expert mode",
+    "guidedAriaLabel": "Information about guided mode",
+    "expertDescription": "Expert Mode shows all tools and options immediately, with dense information displays optimized for agencies managing multiple clients.",
+    "guidedDescription": "Guided Mode provides a simplified interface with progressive disclosure, perfect for getting started quickly.",
+    "toggleAriaLabel": "Toggle expert mode"
+  }
+}

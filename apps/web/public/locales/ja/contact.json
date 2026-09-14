@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "お問い合わせ",
+    "subtitle": "創業者に直接つながる窓口です。あなたの声がSTRAŦUMを形づくります。"
+  },
+  "getInTouch": {
+    "title": "ご連絡ください",
+    "description": "複雑な企業向けツールではなく、企業水準のマーケティングインテリジェンスを届けることに集中するソロファウンダーが開発しています。登録はすでに可能です。今日から無料で始められます。",
+    "wantAccess": "今すぐ始めますか？",
+    "requestInvitation": "無料で登録する",
+    "alphaUsers": "アルファユーザー：",
+    "alphaUsersNote": "ログイン後、アプリ内フィードバックをご利用ください。",
+    "everyoneElse": "それ以外の方：",
+    "everyoneElseNote": "一般的なお問い合わせはメールでご連絡ください。"
+  },
+  "contactMethods": {
+    "title": "お問い合わせ方法",
+    "inAppFeedback": {
+      "title": "アプリ内フィードバック",
+      "badge": "アルファユーザー向け",
+      "description": "STRAŦUMにログインしている場合：",
+      "note": "不具合報告や機能要望に最適です。アカウント情報を参照できるため、より早く確認できます。",
+      "cta": "フィードバックを送信"
+    },
+    "email": {
+      "title": "メール",
+      "badge": "すべての方へ",
+      "description": "一般的な質問、機能提案、提携のご相談などはこちらからご連絡ください。",
+      "wantAccess": "利用したいですか？",
+      "requestInvitation": "招待をリクエスト"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "創業者とつながり、STRAŦUMの開発の歩みを追う",
+      "cta": "LinkedInでつながる"
+    }
+  },
+  "responseTime": {
+    "title": "返信時間と対応状況",
+    "commitment": "ソロファウンダーとしての対応方針：",
+    "responseNote": "すべてのメッセージを本人が確認し、通常は1〜2営業日以内に返信します（開発スプリント中は3〜4日かかる場合があります）。",
+    "timezone": "米国太平洋時間を基準に運営しています。対応時間は月曜〜金曜の午前9時〜午後5時（PST）です。"
+  },
+  "partnership": {
+    "title": "提携・メディア関連",
+    "description": "戦略的提携やメディアに関するお問い合わせは",
+    "subjectNote": "件名に「Partnership」または「Media」と記載してご連絡ください。"
+  }
+}

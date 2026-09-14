@@ -1,0 +1,140 @@
+{
+  "title": "客户画像",
+  "subtitle": "了解并定义你的目标客户",
+  "list": {
+    "title": "全部画像",
+    "empty": "还没有画像",
+    "emptyDescription": "创建你的第一个画像，开始了解目标客户",
+    "createFirst": "创建第一个画像",
+    "loading": "正在加载画像...",
+    "primary": "主要",
+    "archived": "已归档",
+    "restore": "恢复",
+    "interview": "访谈"
+  },
+  "form": {
+    "create": "创建画像",
+    "edit": "编辑画像",
+    "sections": {
+      "basic": "基础信息",
+      "demographics": "人口统计",
+      "psychographics": "心理特征",
+      "behaviors": "行为特征",
+      "journey": "买家旅程"
+    },
+    "fields": {
+      "name": "画像名称",
+      "namePlaceholder": "例如：市场经理 Maria",
+      "avatar": "头像",
+      "description": "描述",
+      "descriptionPlaceholder": "对该画像的简要描述",
+      "age": "年龄范围",
+      "gender": "性别",
+      "location": "所在地",
+      "income": "收入水平",
+      "education": "教育背景",
+      "jobTitle": "职位名称",
+      "industry": "行业",
+      "companySize": "公司规模",
+      "goals": "目标与动机",
+      "goalsPlaceholder": "这个画像想实现什么？",
+      "painPoints": "痛点与挑战",
+      "painPointsPlaceholder": "他们面临哪些问题？",
+      "values": "价值观与优先事项",
+      "interests": "兴趣与爱好",
+      "mediaConsumption": "媒体消费习惯",
+      "preferredChannels": "偏好渠道",
+      "buyingBehavior": "购买行为",
+      "decisionFactors": "决策因素",
+      "objections": "常见异议"
+    },
+    "validation": {
+      "nameRequired": "必须填写画像名称"
+    }
+  },
+  "detail": {
+    "overview": "概览",
+    "journey": "买家旅程",
+    "messaging": "信息指南",
+    "campaigns": "相关营销活动"
+  },
+  "journey": {
+    "stages": {
+      "awareness": "认知",
+      "consideration": "考虑",
+      "decision": "决策",
+      "retention": "留存",
+      "advocacy": "倡导"
+    },
+    "fields": {
+      "touchpoints": "接触点",
+      "content": "内容需求",
+      "questions": "关键问题",
+      "actions": "期望行动"
+    }
+  },
+  "actions": {
+    "create": "创建画像",
+    "edit": "编辑",
+    "duplicate": "复制",
+    "archive": "归档",
+    "delete": "删除",
+    "export": "导出",
+    "viewDetails": "查看详情",
+    "generateWithAI": "使用 AI 生成",
+    "moreOptions": "更多选项"
+  },
+  "filters": {
+    "all": "全部画像",
+    "active": "活跃",
+    "archived": "已归档",
+    "search": "搜索画像..."
+  },
+  "confirmDelete": {
+    "title": "删除画像",
+    "message": "确定要删除这个画像吗？这不会影响使用过该画像的营销活动。",
+    "confirm": "删除",
+    "cancel": "取消"
+  },
+  "aiGeneration": {
+    "title": "使用 AI 生成画像",
+    "description": "描述你的目标客户，我们的 AI 将创建一个详细画像",
+    "placeholder": "描述你的理想客户：他们的角色、行业、挑战，以及他们正在寻找什么...",
+    "generate": "生成画像",
+    "generating": "生成中..."
+  },
+  "sidebar": {
+    "expandTooltip": "展开侧边栏",
+    "collapseTooltip": "收起侧边栏",
+    "createTooltip": "创建新画像",
+    "header": "画像智能体",
+    "tabs": {
+      "history": "历史记录",
+      "outputs": "画像"
+    },
+    "newPersona": "新画像",
+    "newChat": "新聊天",
+    "viewActive": "查看活跃项",
+    "viewArchived": "查看归档项",
+    "loading": "正在加载画像...",
+    "emptyPersonas": "还没有创建画像",
+    "emptyPersonasDescription": "创建你的第一个画像，开始了解客户",
+    "createFirstPersona": "创建第一个画像",
+    "emptyHistory": "还没有聊天记录",
+    "emptyHistoryDescription": "开始与画像进行访谈后，这里会显示历史记录",
+    "untitledSession": "未命名会话",
+    "messages": "{{count}} 条消息",
+    "archived": "已归档",
+    "primary": "主要",
+    "sessionActions": {
+      "rename": "重命名会话",
+      "export": "导出会话",
+      "duplicate": "复制会话"
+    }
+  },
+  "relativeTime": {
+    "justNow": "刚刚",
+    "hoursAgo": "{{count}} 小时前",
+    "daysAgo": "{{count}} 天前"
+  }
+}

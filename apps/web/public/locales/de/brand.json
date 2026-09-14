@@ -1,0 +1,389 @@
+{
+  "comparison": {
+    "pageTitle": "Markenvergleich",
+    "fourWayTitle": "4 STRATUM-Varianten vergleichen",
+    "fourWayDescription": "Wählen Sie die STRATUM-Variante, die Ihre Markenidentität am besten repräsentiert",
+    "cortexVsStratum": "CORTEX vs STRATUM",
+    "backToSingleView": "Zurück zur Einzelansicht",
+    "singleView": "Einzelansicht",
+    "compareFourOptions": "4 STRATUM-Optionen vergleichen"
+  },
+  "brands": {
+    "cortex": {
+      "subtitle": "NEURONALE INTELLIGENZ"
+    },
+    "stratum": {
+      "subtitle": "STRATEGISCHE SCHICHTEN"
+    }
+  },
+  "hero": {
+    "subtitle": "Intelligence statt Umsetzung"
+  },
+  "cta": {
+    "startFreeTrial": "Kostenlos testen",
+    "watchDemo": "Demo ansehen",
+    "selectThisOption": "Diese Option wählen",
+    "learnMore": "Mehr erfahren"
+  },
+  "valuePropositions": {
+    "strategicIntelligence": {
+      "title": "Strategische Intelligence",
+      "description": "SWOT, Porter's 5 Forces, Business Model Canvas und 8 weitere bewährte Frameworks"
+    },
+    "customerInsights": {
+      "title": "Kundeneinblicke",
+      "description": "Tiefgreifende Persona-Analyse, Buyer-Journey-Mapping und Verhaltensintelligenz"
+    },
+    "roiTracking": {
+      "title": "ROI-Tracking",
+      "description": "Echtzeit-Performance-Analysen und KI-gestützte Optimierungsempfehlungen"
+    }
+  },
+  "features": {
+    "sectionTitle": {
+      "cortex": "Ihr Marketing-Gehirn, angetrieben durch KI",
+      "stratum": "Bauen Sie Ihr strategisches Fundament auf"
+    },
+    "sectionSubtitle": {
+      "cortex": "Neuronale Intelligenz für jede Marketingentscheidung",
+      "stratum": "Schicht für Schicht umfassende Marketing-Intelligence aufbauen"
+    },
+    "aiAgents": {
+      "title": "10 spezialisierte KI-Agenten",
+      "description": "Strategie, Persona, Content, Analytics, Kampagnenplanung, ROI-Tracking und mehr"
+    },
+    "continuousLearning": {
+      "title": "Kontinuierliches Lernsystem",
+      "description": "KI, die mit jeder Interaktion mehr über IHR Unternehmen lernt"
+    },
+    "zeroExecutionRisk": {
+      "title": "Null Umsetzungsrisiko",
+      "description": "Intelligence und Einblicke ohne automatisierte Umsetzung — Sie behalten die Kontrolle"
+    }
+  },
+  "footer": {
+    "copyright": "2026 {{brandName}}.",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsConditions": "Allgemeine Geschäftsbedingungen",
+    "contact": "Kontakt"
+  },
+  "detailedComparison": {
+    "title": "Detaillierter Vergleich",
+    "criteria": {
+      "visualDistinction": "Visuelle Unterscheidung",
+      "matchesDialogueDna": "Entspricht DIALOGUE DNA",
+      "easyToType": "Einfach einzugeben",
+      "conceptualFit": "Konzeptuelle Passung",
+      "professionalFeel": "Professionelle Anmutung",
+      "recommendation": "Empfehlung"
+    },
+    "conceptualFitValues": {
+      "greekAlpha": "Griechisches Alpha",
+      "cuttingLayers": "Schneidende Schichten",
+      "topLayer": "Oberste Schicht",
+      "multiLayer": "Mehrschichtig"
+    },
+    "recommendations": {
+      "good": "Gut",
+      "best": "Am besten",
+      "great": "Sehr gut",
+      "bold": "Kühn"
+    },
+    "recommendedBrand": {
+      "title": "Empfohlen: STRATUM",
+      "description": "Das T mit horizontalem Strich repräsentiert perfekt das Durchschneiden von Schichten und entspricht DIALOGUEs O-Marken-DNA (beide verwenden das Linie-durch-Buchstabe-Design). Es ist visuell auffällig, konzeptuell ausgerichtet auf Schichten der Intelligenz und prominent in der Wortmitte platziert."
+    }
+  },
+  "variationCard": {
+    "specialCharacter": "Sonderzeichen",
+    "colorPalette": "Farbpalette",
+    "gradientPreview": "Farbverlauf-Vorschau",
+    "inContext": "Im Kontext",
+    "url": "URL",
+    "tagline": "Tagline",
+    "positioning": "Positionierung",
+    "colors": {
+      "primary": "Primär",
+      "dark": "Dunkel",
+      "gold": "Gold"
+    }
+  },
+  "splitView": {
+    "typography": "Typografie",
+    "headingStyle": "Überschriftenstil",
+    "bodyText": "Fließtext und Beschreibungen verwenden Inter in regulärer Stärke für optimale Lesbarkeit.",
+    "iconSymbol": "Ikonsymbol"
+  },
+  "guidelines": {
+    "similar": "ähnlich",
+    "untitled": "Unbenannte Richtlinien",
+    "status": {
+      "archived": "Archiviert",
+      "default": "Standard",
+      "active": "Aktiv"
+    },
+    "activeCount": "{{count}} aktiv",
+    "clickToView": "Zum Anzeigen klicken",
+    "actions": {
+      "restore": "Wiederherstellen"
+    },
+    "emptyStates": {
+      "noGuidelines": {
+        "title": "Noch keine Markenrichtlinien",
+        "description": "Erstellen Sie Ihre ersten Markenrichtlinien, um Ihre Markenidentität zu etablieren"
+      },
+      "noArchivedGuidelines": {
+        "title": "Keine archivierten Richtlinien",
+        "description": "Archivierte Richtlinien werden hier angezeigt"
+      }
+    },
+    "alerts": {
+      "multipleActive": {
+        "title": "Mehrere aktive Richtlinien",
+        "description": "Sie haben {{count}} aktive Richtlinien. Erwägen Sie, ältere Versionen zu archivieren, um Klarheit zu bewahren."
+      }
+    },
+    "stats": {
+      "totalGuidelines": "Richtlinien gesamt",
+      "activeGuidelines": "Aktive Richtlinien",
+      "archivedGuidelines": "Archivierte Richtlinien"
+    },
+    "tabs": {
+      "active": "Aktiv",
+      "archived": "Archiviert",
+      "all": "Alle"
+    },
+    "view": {
+      "title": "Markenrichtlinien",
+      "tabs": {
+        "overview": "Übersicht",
+        "voice": "Stimme & Tonalität",
+        "visual": "Visuelle Identität",
+        "messaging": "Messaging"
+      },
+      "sections": {
+        "toneOfVoice": "Tonalität",
+        "personality": "Persönlichkeit",
+        "writingStyle": "Schreibstil",
+        "doAndDont": "Dos & Don'ts",
+        "brandVoice": "Markenstimme",
+        "colorPalette": "Farbpalette",
+        "typography": "Typografie",
+        "imagery": "Bildrichtlinien",
+        "tagline": "Tagline",
+        "valueProposition": "Wertversprechen",
+        "keyMessages": "Kernbotschaften",
+        "targetAudience": "Zielgruppe"
+      }
+    },
+    "forms": {
+      "strategy": {
+        "title": "Markenstrategie",
+        "badge": "Strategie",
+        "fields": {
+          "mission": {
+            "label": "Leitbild",
+            "placeholder": "Was ist die Mission Ihrer Marke?"
+          },
+          "vision": {
+            "label": "Vision",
+            "placeholder": "Was ist die langfristige Vision Ihrer Marke?"
+          },
+          "values": {
+            "label": "Kernwerte",
+            "placeholder": "Kernwert hinzufügen"
+          },
+          "positioning": {
+            "label": "Markenpositionierung",
+            "placeholder": "Wie positioniert sich Ihre Marke im Markt?"
+          },
+          "targetAudience": {
+            "label": "Zielgruppe",
+            "placeholder": "Wer ist Ihre Zielgruppe?"
+          },
+          "competitors": {
+            "label": "Wichtigste Wettbewerber",
+            "placeholder": "Wettbewerber hinzufügen"
+          },
+          "differentiators": {
+            "label": "Wesentliche Unterscheidungsmerkmale",
+            "placeholder": "Unterscheidungsmerkmal hinzufügen"
+          }
+        }
+      },
+      "voice": {
+        "title": "Markenstimme",
+        "badge": "Stimme",
+        "sections": {
+          "toneOfVoice": "Tonalität",
+          "personality": "Persönlichkeitsmerkmale",
+          "writingStyle": "Schreibstil",
+          "doAndDont": "Dos und Don'ts"
+        },
+        "fields": {
+          "toneAttributes": {
+            "label": "Tonalitätsattribute",
+            "placeholder": "Tonalitätsattribut hinzufügen (z.B. freundlich, professionell)"
+          },
+          "toneDescription": {
+            "label": "Tonalitätsbeschreibung",
+            "placeholder": "Beschreiben Sie die allgemeine Tonalität Ihrer Marke"
+          },
+          "personalityTraits": {
+            "label": "Persönlichkeitsmerkmale",
+            "placeholder": "Persönlichkeitsmerkmal hinzufügen"
+          },
+          "brandPersona": {
+            "label": "Markenpersona",
+            "placeholder": "Wenn Ihre Marke eine Person wäre, wie würden Sie sie beschreiben?"
+          },
+          "writingPrinciples": {
+            "label": "Schreibprinzipien",
+            "placeholder": "Schreibprinzip hinzufügen"
+          },
+          "grammarPreferences": {
+            "label": "Grammatikpräferenzen",
+            "placeholder": "Besondere Grammatikpräferenzen (z.B. Oxford-Komma, Abkürzungen)"
+          },
+          "vocabularyGuidelines": {
+            "label": "Vokabular-Richtlinien",
+            "placeholder": "Richtlinien zur Wortschatzverwendung"
+          },
+          "dos": {
+            "label": "Dos",
+            "placeholder": "Etwas hinzufügen, das Ihre Marke tun sollte"
+          },
+          "donts": {
+            "label": "Don'ts",
+            "placeholder": "Etwas hinzufügen, das Ihre Marke vermeiden sollte"
+          }
+        }
+      },
+      "messaging": {
+        "title": "Messaging",
+        "badge": "Messaging",
+        "fields": {
+          "tagline": {
+            "label": "Tagline",
+            "placeholder": "Die Tagline oder der Slogan Ihrer Marke"
+          },
+          "valueProposition": {
+            "label": "Wertversprechen",
+            "placeholder": "Welchen einzigartigen Wert bietet Ihre Marke?"
+          },
+          "elevatorPitch": {
+            "label": "Elevator Pitch",
+            "placeholder": "Eine kurze, überzeugende Beschreibung Ihrer Marke"
+          },
+          "keyMessages": {
+            "label": "Kernbotschaften",
+            "placeholder": "Kernbotschaft hinzufügen"
+          },
+          "proofPoints": {
+            "label": "Belege",
+            "placeholder": "Beleg hinzufügen, der Ihre Aussagen unterstützt"
+          },
+          "callToAction": {
+            "label": "Primärer Call to Action",
+            "placeholder": "Ihr primärer Call to Action"
+          }
+        }
+      },
+      "visual": {
+        "title": "Visuelle Identität",
+        "badge": "Visuell",
+        "fields": {
+          "primaryColors": {
+            "label": "Primärfarben",
+            "placeholder": "Primärfarbe hinzufügen (z.B. #FF5733)"
+          },
+          "secondaryColors": {
+            "label": "Sekundärfarben",
+            "placeholder": "Sekundärfarbe hinzufügen"
+          },
+          "accentColors": {
+            "label": "Akzentfarben",
+            "placeholder": "Akzentfarbe hinzufügen"
+          },
+          "primaryFont": {
+            "label": "Primäre Schriftart",
+            "placeholder": "Primäre Schriftart (z.B. Inter, Roboto)"
+          },
+          "secondaryFont": {
+            "label": "Sekundäre Schriftart",
+            "placeholder": "Sekundäre Schriftart"
+          },
+          "fontSizeScale": {
+            "label": "Schriftgrößenskala",
+            "placeholder": "Schriftgrößenskala oder -system"
+          },
+          "logoUsage": {
+            "label": "Logo-Nutzungsrichtlinien",
+            "placeholder": "Richtlinien zur Logo-Verwendung"
+          },
+          "imageryStyle": {
+            "label": "Bildstil",
+            "placeholder": "Beschreiben Sie den Bildstil Ihrer Marke"
+          },
+          "iconStyle": {
+            "label": "Icon-Stil",
+            "placeholder": "Beschreiben Sie den Stil der Icons"
+          },
+          "photographyGuidelines": {
+            "label": "Fotografie-Richtlinien",
+            "placeholder": "Richtlinien für Markenfotografie"
+          }
+        }
+      }
+    }
+  },
+  "editor": {
+    "title": "White-Label-Brand-Kit-Editor",
+    "description": "Passen Sie die Plattform an Ihre Markenidentität an",
+    "previewMode": "Vorschaumodus",
+    "export": "Exportieren",
+    "import": "Importieren",
+    "sections": {
+      "companyIdentity": "Unternehmensidentität",
+      "colorPalette": "Farbpalette",
+      "typography": "Typografie",
+      "uiPreferences": "UI-Einstellungen",
+      "customCss": "Benutzerdefiniertes CSS (Erweitert)"
+    },
+    "fields": {
+      "companyName": "Firmenname",
+      "logoUrl": "Logo-URL",
+      "primaryColor": "Primärfarbe",
+      "secondaryColor": "Sekundärfarbe",
+      "accentColor": "Akzentfarbe",
+      "headingFont": "Überschriften-Schriftart",
+      "bodyFont": "Text-Schriftart",
+      "borderRadius": "Rahmenradius",
+      "contentDensity": "Inhaltsdichte"
+    },
+    "placeholders": {
+      "companyName": "Ihr Firmenname",
+      "logoUrl": "https://beispiel.de/logo.png",
+      "customCss": "/* Benutzerdefiniertes CSS hier einfügen */\n.ihre-klasse {\n  eigenschaft: wert;\n}"
+    },
+    "options": {
+      "borderRadius": {
+        "none": "Keine (Eckig)",
+        "small": "Klein",
+        "medium": "Mittel",
+        "large": "Groß",
+        "extraLarge": "Sehr groß"
+      },
+      "density": {
+        "comfortable": "Komfortabel",
+        "compact": "Kompakt",
+        "spacious": "Geräumig"
+      }
+    },
+    "buttons": {
+      "resetToDefault": "Auf Standard zurücksetzen",
+      "preview": "Vorschau",
+      "saveAndApply": "Speichern & Anwenden"
+    }
+  }
+}

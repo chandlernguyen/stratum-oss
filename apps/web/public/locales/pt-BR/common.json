@@ -1,0 +1,490 @@
+{
+  "aria": {
+    "bottomNavigation": "Navegação inferior",
+    "breadcrumb": "Breadcrumb",
+    "openMenu": "Abrir menu"
+  },
+  "buttons": {
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "create": "Criar",
+    "add": "Adicionar",
+    "remove": "Remover",
+    "close": "Fechar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "previous": "Anterior",
+    "submit": "Enviar",
+    "loading": "Carregando...",
+    "retry": "Tentar novamente",
+    "continue": "Continuar",
+    "skip": "Pular",
+    "done": "Concluído",
+    "view": "Visualizar",
+    "viewAll": "Ver tudo",
+    "learnMore": "Saiba mais",
+    "getStarted": "Começar",
+    "signUp": "Criar conta",
+    "signIn": "Entrar",
+    "signOut": "Sair",
+    "upgrade": "Fazer upgrade",
+    "download": "Baixar",
+    "export": "Exportar",
+    "import": "Importar",
+    "refresh": "Atualizar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "copy": "Copiar",
+    "copied": "Copiado!",
+    "share": "Compartilhar",
+    "archive": "Arquivar",
+    "restore": "Restaurar",
+    "newSession": "Nova sessão"
+  },
+  "labels": {
+    "name": "Nome",
+    "email": "E-mail",
+    "password": "Senha",
+    "phone": "Telefone",
+    "description": "Descrição",
+    "title": "Título",
+    "status": "Status",
+    "date": "Data",
+    "time": "Hora",
+    "type": "Tipo",
+    "category": "Categoria",
+    "tags": "Tags",
+    "notes": "Notas",
+    "actions": "Ações",
+    "settings": "Configurações",
+    "profile": "Perfil",
+    "account": "Conta",
+    "preferences": "Preferências",
+    "language": "Idioma",
+    "notifications": "Notificações",
+    "privacy": "Privacidade",
+    "security": "Segurança",
+    "help": "Ajuda",
+    "support": "Suporte",
+    "feedback": "Feedback",
+    "optional": "Opcional",
+    "required": "Obrigatório"
+  },
+  "status": {
+    "active": "Ativo",
+    "inactive": "Inativo",
+    "pending": "Pendente",
+    "completed": "Concluído",
+    "failed": "Falhou",
+    "processing": "Processando",
+    "draft": "Rascunho",
+    "published": "Publicado",
+    "archived": "Arquivado",
+    "deleted": "Excluído"
+  },
+  "errors": {
+    "generic": "Algo deu errado. Por favor, tente novamente.",
+    "networkError": "Erro de rede. Verifique sua conexão.",
+    "serverError": "Erro no servidor. Por favor, tente novamente mais tarde.",
+    "notFound": "Recurso não encontrado.",
+    "unauthorized": "Você não tem autorização para realizar esta ação.",
+    "forbidden": "Acesso negado.",
+    "validationError": "Verifique suas informações e tente novamente.",
+    "timeout": "A solicitação expirou. Por favor, tente novamente.",
+    "sessionExpired": "Sua sessão expirou. Por favor, entre novamente."
+  },
+  "success": {
+    "saved": "Alterações salvas com sucesso.",
+    "created": "Criado com sucesso.",
+    "updated": "Atualizado com sucesso.",
+    "deleted": "Excluído com sucesso.",
+    "copied": "Copiado para a área de transferência.",
+    "exported": "Exportado com sucesso.",
+    "imported": "Importado com sucesso."
+  },
+  "confirm": {
+    "delete": {
+      "title": "Excluir item",
+      "description": "Tem certeza de que deseja excluir este item? Esta ação não pode ser desfeita.",
+      "confirmButton": "Excluir permanentemente",
+      "cancelButton": "Cancelar"
+    },
+    "unsavedChanges": {
+      "title": "Alterações não salvas",
+      "description": "Você tem alterações não salvas. Tem certeza de que deseja sair?",
+      "confirmButton": "Sair",
+      "cancelButton": "Ficar"
+    },
+    "archive": {
+      "title": "Arquivar item",
+      "description": "Tem certeza de que deseja arquivar este item?",
+      "confirmButton": "Arquivar",
+      "cancelButton": "Cancelar",
+      "reasonLabel": "Motivo do arquivamento (opcional)",
+      "reasonPlaceholder": "Ex.: estratégia desatualizada, projeto concluído, não é mais necessário...",
+      "reasonHelp": "Isso será salvo para fins de auditoria e pode ajudar na revisão de itens arquivados.",
+      "reversibleTitle": "O arquivamento é reversível",
+      "reversibleMessage": "Você pode restaurar este(a) {{itemName}} a qualquer momento na seção de itens arquivados."
+    },
+    "warning": {
+      "confirmButton": "Continuar"
+    },
+    "info": {
+      "confirmButton": "Confirmar"
+    },
+    "deleteTip": "Dica: considere arquivar se você pode precisar disso mais tarde. Itens arquivados podem ser restaurados a qualquer momento.",
+    "processing": "Processando..."
+  },
+  "empty": {
+    "noResults": "Nenhum resultado encontrado.",
+    "noData": "Nenhum dado disponível.",
+    "noItems": "Nenhum item ainda.",
+    "noMatches": "Nenhuma correspondência para sua busca."
+  },
+  "loading": {
+    "default": "Carregando...",
+    "pleaseWait": "Por favor, aguarde...",
+    "processing": "Processando...",
+    "saving": "Salvando...",
+    "fetching": "Buscando dados..."
+  },
+  "time": {
+    "justNow": "Agora mesmo",
+    "minutesAgo": "{{count}} minuto atrás",
+    "minutesAgo_other": "{{count}} minutos atrás",
+    "hoursAgo": "{{count}} hora atrás",
+    "hoursAgo_other": "{{count}} horas atrás",
+    "daysAgo": "{{count}} dia atrás",
+    "daysAgo_other": "{{count}} dias atrás",
+    "today": "Hoje",
+    "yesterday": "Ontem",
+    "tomorrow": "Amanhã"
+  },
+  "navigation": {
+    "home": "Início",
+    "dashboard": "Painel",
+    "overview": "Visão geral",
+    "campaigns": "Campanhas",
+    "agents": "Agentes",
+    "library": "Biblioteca",
+    "approved": "Aprovados",
+    "team": "Equipe",
+    "tasks": "Tarefas",
+    "search": "Buscar",
+    "more": "Mais",
+    "settings": "Configurações",
+    "profile": "Perfil",
+    "myProfile": "Meu perfil",
+    "billing": "Assinatura e pagamentos",
+    "feedback": "Feedback",
+    "contactUs": "Fale conosco",
+    "privacyPolicy": "Política de Privacidade",
+    "termsConditions": "Termos e Condições",
+    "signOut": "Sair",
+    "help": "Ajuda",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo escuro",
+    "intelligence": "Inteligência",
+    "clients": "Clientes",
+    "agencyOverview": "Visão geral da agência",
+    "requestAccess": "Criar conta",
+    "account": "Conta",
+    "accountOptions": "Opções da conta",
+    "request": "Solicitar",
+    "pricing": "Preços",
+    "blog": "Blog",
+    "whiteLabel": "White Label",
+    "accountTypes": {
+      "agency": "Conta de agência",
+      "sme": "Conta PME"
+    }
+  },
+  "auth": {
+    "signIn": "Entrar",
+    "signUp": "Criar conta",
+    "alreadyHaveAccount": "Já tem uma conta",
+    "haveInvitation": "Tem um convite? Entre agora"
+  },
+  "breadcrumbs": {
+    "campaign": "Campanha",
+    "businessStrategy": "Estratégia de negócio",
+    "personas": "Personas",
+    "marketingStrategy": "Estratégia de marketing",
+    "content": "Conteúdo",
+    "analytics": "Análises",
+    "roiBudget": "ROI e orçamento",
+    "campaignExecution": "Execução de campanha",
+    "competitiveIntelligence": "Inteligência competitiva",
+    "clientSuccess": "Sucesso do cliente",
+    "quickWins": "Ganhos rápidos",
+    "switchClient": "Trocar cliente",
+    "contentCreation": "Criação de conteúdo",
+    "strategy": "Estratégia",
+    "strategyAgent": "Agente de estratégia",
+    "personaAgent": "Agente de persona",
+    "contentAgent": "Agente de conteúdo",
+    "analyticsAgent": "Agente de análises",
+    "campaignPlanning": "Planejamento de campanha",
+    "performanceIntelligence": "Inteligência de desempenho",
+    "client": "Cliente"
+  },
+  "clientLayout": {
+    "clientNotFound": "Cliente não encontrado ou acesso negado",
+    "loadingClientData": "Carregando dados do cliente...",
+    "clientFeatureName": "Workspace do cliente",
+    "noAccessMessage": "Você não tem acesso a este workspace. Entre em contato com o administrador da sua agência."
+  },
+  "clientPortal": {
+    "title": "Portal do cliente",
+    "review": "Revisão",
+    "loading": "Carregando seu workspace...",
+    "noAccess": "Sem acesso ao cliente",
+    "noAccessDescription": "Você não tem acesso a nenhum workspace de cliente. Entre em contato com sua agência para assistência."
+  },
+  "footer": {
+    "copyright": "© 2026 STRAŦUM. Todos os direitos reservados.",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "contact": "Contato",
+    "pricing": "Preços",
+    "blog": "Blog",
+    "tagline": "Intelligence Over Execution"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Escuro",
+    "switchToLight": "Mudar para modo claro",
+    "switchToDark": "Mudar para modo escuro"
+  },
+  "language": {
+    "switchToVietnamese": "Mudar para vietnamita",
+    "switchToEnglish": "Mudar para inglês"
+  },
+  "session": {
+    "untitled": "Sessão sem título",
+    "archived": "Arquivada",
+    "message": "{{count}} mensagem",
+    "message_other": "{{count}} mensagens",
+    "actions": {
+      "rename": "Renomear sessão",
+      "export": "Exportar sessão",
+      "duplicate": "Duplicar sessão",
+      "restore": "Restaurar",
+      "archive": "Arquivar",
+      "delete": "Excluir"
+    }
+  },
+  "approvals": {
+    "title": "Aprovações pendentes",
+    "from": "De {{name}}",
+    "reviewContent": "Revisar conteúdo",
+    "contentNotAvailable": "Conteúdo indisponível para revisão",
+    "viewToApprove": "Visualize o conteúdo para aprovar ou solicitar alterações",
+    "noPending": "Nenhuma aprovação pendente",
+    "allCaughtUp": "Você está em dia!",
+    "viewAll": "Ver tudo",
+    "priority": {
+      "low": "Baixa",
+      "normal": "Normal",
+      "high": "Alta",
+      "urgent": "Urgente"
+    }
+  },
+  "feedback": {
+    "pageTitle": "Feedback",
+    "title": "Compartilhe seu feedback",
+    "subtitle": "Ajude-nos a melhorar o STRAŦUM compartilhando seus pensamentos, sugestões ou reportando problemas.",
+    "categoryLabel": "Categoria",
+    "categoryPlaceholder": "Selecione uma categoria",
+    "feedbackLabel": "Seu feedback",
+    "feedbackPlaceholder": "Conte-nos o que está pensando...",
+    "submitButton": "Enviar feedback",
+    "submitting": "Enviando...",
+    "privacyNote": "Seu feedback é privado e será visível apenas para a equipe do STRAŦUM.",
+    "successTitle": "Feedback enviado!",
+    "successMessage": "Obrigado por ajudar a melhorar o STRAŦUM. Seu feedback é valioso para nós.",
+    "submitAnother": "Enviar mais feedback",
+    "categories": {
+      "generalFeedback": {
+        "label": "Feedback geral",
+        "description": "Impressões gerais sobre o STRAŦUM"
+      },
+      "agentPerformance": {
+        "label": "Desempenho dos agentes",
+        "description": "Feedback sobre Estratégia, Persona, Conteúdo etc."
+      },
+      "featureRequest": {
+        "label": "Solicitação de recurso",
+        "description": "Sugerir novos recursos ou melhorias"
+      },
+      "bugReport": {
+        "label": "Relatório de bug",
+        "description": "Reportar problemas técnicos ou erros"
+      },
+      "userExperience": {
+        "label": "Experiência do usuário",
+        "description": "Feedback sobre design de UI/UX"
+      },
+      "dataAccuracy": {
+        "label": "Precisão dos dados",
+        "description": "Reportar resultados de IA incorretos ou enganosos"
+      }
+    },
+    "validation": {
+      "feedbackRequired": "O feedback é obrigatório",
+      "feedbackMinLength": "O feedback deve ter pelo menos {{min}} caracteres",
+      "feedbackMaxLength": "O feedback não deve exceder {{max}} caracteres",
+      "categoryRequired": "Por favor, selecione uma categoria"
+    },
+    "messages": {
+      "authError": "Erro de autenticação. Por favor, atualize a página.",
+      "submitError": "Falha ao enviar o feedback. Por favor, tente novamente.",
+      "unexpectedError": "Ocorreu um erro inesperado. Por favor, tente novamente.",
+      "thankYou": "Obrigado pelo seu feedback!"
+    }
+  },
+  "chat": {
+    "showSuggestions": "Mostrar sugestões",
+    "hideSuggestions": "Ocultar sugestões",
+    "sendMessage": "Enviar mensagem",
+    "analyzing": "Analisando para próximos passos acionáveis...",
+    "analyzingStrategy": "Analisando componentes da estratégia de marketing..."
+  },
+  "search": {
+    "placeholder": "Buscar..."
+  },
+  "notifications": {
+    "count": "{{count}} notificações",
+    "count_one": "{{count}} notificação",
+    "noNotifications": "Nenhuma notificação ainda",
+    "viewAll": "Ver todas as {{count}} notificações"
+  },
+  "protectedRoute": {
+    "initializingAuth": "Inicializando autenticação...",
+    "loadingWorkspace": "Carregando seu workspace..."
+  },
+  "security": {
+    "secureWorkspace": "Workspace seguro",
+    "workingInWorkspace": "Trabalhando no workspace de {{clientName}}",
+    "dataProtected": "Dados protegidos",
+    "enterpriseGradeSecurity": "Segurança de nível empresarial",
+    "dataIsolation": "Isolamento completo de dados",
+    "endToEndEncryption": "Criptografia ponta a ponta",
+    "soc2Compliant": "Conformidade SOC 2",
+    "aiPrivate": "Dados de IA permanecem privados",
+    "currentlyWorkingIn": "Trabalhando atualmente em"
+  },
+  "archiveReasonDialog": {
+    "description": "Isso removerá {{resourceName}} das visualizações ativas, mas preservará todos os dados. Você pode restaurá-lo a qualquer momento na visualização de itens arquivados.",
+    "archiving": "Arquivando...",
+    "archiveButton": "Arquivar {{resourceDisplayName}}"
+  },
+  "deleteConfirmDialog": {
+    "title": "Tem certeza absoluta?",
+    "archivedDescription": "Este(a) {{itemName}} já está arquivado(a). Excluí-lo(a) removerá permanentemente do sistema. Esta ação não pode ser desfeita.",
+    "activeDescription": "Isso excluirá permanentemente {{itemName}} e removerá todos os dados associados. Esta ação não pode ser desfeita.",
+    "item": "item",
+    "thisItem": "este item"
+  },
+  "languageSwitcher": {
+    "ariaLabel": "Idioma atual: {{language}}. Clique para alterar o idioma."
+  },
+  "outputBrowser": {
+    "loading": "Carregando resultados salvos...",
+    "savedOutputs": "Resultados salvos",
+    "searchPlaceholder": "Buscar resultados...",
+    "allAgents": "Todos os agentes",
+    "agents": {
+      "strategy": "Estratégia",
+      "persona": "Persona",
+      "content": "Conteúdo",
+      "analytics": "Análises"
+    },
+    "sortBy": {
+      "recent": "Recentes",
+      "popular": "Populares",
+      "topRated": "Mais bem avaliados"
+    },
+    "suggestedFor": "Sugerido para {{agent}}",
+    "noSavedOutputs": "Nenhum resultado salvo ainda.",
+    "saveHint": "Salve respostas dos agentes para reutilizá-las depois!",
+    "noMatchingOutputs": "Nenhum resultado corresponde aos seus critérios de busca.",
+    "views": "{{count}} visualizações",
+    "views_one": "{{count}} visualização",
+    "reuses": "{{count}} reutilizações",
+    "reuses_one": "{{count}} reutilização",
+    "selected": "{{count}} selecionados",
+    "useSelected": "Usar selecionados ({{count}})",
+    "weeksAgo": "{{count}} semanas atrás",
+    "weeksAgo_one": "{{count}} semana atrás"
+  },
+  "quickSave": {
+    "quickSave": "Salvar rápido",
+    "saved": "Salvo",
+    "saving": "Salvando...",
+    "saveWithDetails": "Salvar com detalhes",
+    "copyToClipboard": "Copiar para a área de transferência"
+  },
+  "relatedOutputs": {
+    "title": "Trabalhos relacionados",
+    "description": "Resultados anteriores que podem ajudar no seu trabalho com {{agent}}",
+    "hide": "Ocultar resultados relacionados",
+    "show": "Mostrar resultados relacionados",
+    "smartSuggestions": "Sugestões inteligentes",
+    "fromRelatedAgents": "De agentes relacionados",
+    "useAsContext": "Usar como contexto",
+    "usedTimes": "Usado {{count}} vezes",
+    "usedTimes_one": "Usado {{count}} vez",
+    "emptyState": "Nenhum resultado relacionado ainda. Comece usando outros agentes para construir contexto para seu trabalho com {{agent}}.",
+    "loading": "Carregando resultados relacionados...",
+    "copyError": "Falha ao copiar para a área de transferência"
+  },
+  "resourceActions": {
+    "actionsFor": "Ações para {{name}}",
+    "view": "Visualizar {{name}}",
+    "edit": "Editar {{name}}",
+    "copyContent": "Copiar conteúdo",
+    "restore": "Restaurar {{name}}",
+    "restoring": "Restaurando...",
+    "archive": "Arquivar {{name}}",
+    "archiving": "Arquivando...",
+    "deleting": "Excluindo..."
+  },
+  "saveOutputDialog": {
+    "title": "Salvar resultado de {{agentType}}",
+    "description": "Adicione um título e tags para salvar este resultado para referência futura",
+    "saveWithDetails": "Salvar com detalhes (Cmd+S)",
+    "titleLabel": "Título",
+    "titlePlaceholder": "Análise de {{agentType}} de {{date}}",
+    "tagsPlaceholder": "Adicionar tags personalizadas...",
+    "suggestedTags": "Tags sugeridas:",
+    "contentPreview": "Pré-visualização do conteúdo",
+    "words": "{{count}} palavras",
+    "words_one": "{{count}} palavra",
+    "minRead": "{{count}} min de leitura",
+    "outputType": "Resultado de {{agentType}}",
+    "structuredData": "Dados estruturados",
+    "structuredDataHint": "Contém dados de análise estruturados que podem ser reutilizados entre agentes",
+    "keyboardHint": "Pressione Cmd+Enter para salvar rapidamente",
+    "saveOutput": "Salvar resultado"
+  },
+  "smartStart": {
+    "preparingSuggestions": "Preparando sugestões inteligentes...",
+    "readyToWork": "Pronto para trabalhar com seu Agente {{agent}}",
+    "smartSuggestions": "Sugestões inteligentes",
+    "continuePreviousWork": "Continuar trabalho anterior",
+    "fromAgent": "De {{agent}}",
+    "uses": "{{count}} usos",
+    "uses_one": "{{count}} uso",
+    "workflowTip": "Dica de workflow",
+    "workflowTipSuffix": "Clique em qualquer sugestão acima para continuar com aquele contexto, ou comece do zero abaixo.",
+    "startFresh": "Começar do zero",
+    "useBestMatch": "Usar melhor correspondência",
+    "readyForFreshIdeas": "Pronto para novas ideias",
+    "noPreviousWork": "Nenhum trabalho anterior encontrado. Este é um ótimo lugar para começar a construir sua base de {{agent}}."
+  }
+}

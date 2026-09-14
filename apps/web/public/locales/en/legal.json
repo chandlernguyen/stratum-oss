@@ -1,0 +1,342 @@
+{
+  "privacy": {
+    "pageTitle": "Privacy Policy",
+    "lastUpdated": "Last Updated: February 13, 2026",
+    "alphaNotice": {
+      "title": "Alpha Stage Notice",
+      "description": "STRAŦUM is in alpha testing. This privacy policy may change significantly. Use at your own risk. We make no guarantees about data security or service reliability."
+    },
+    "sections": {
+      "acceptance": {
+        "number": "1",
+        "title": "Acceptance and Scope",
+        "intro": "By using STRAŦUM during the alpha phase, you acknowledge that:",
+        "items": {
+          "experimental": "This service is experimental and provided \"AS IS\"",
+          "dataChange": "Data collection and handling practices may change without notice",
+          "smallTeam": "We are a small team with limited resources",
+          "ownRisk": "You use this service entirely at your own risk"
+        },
+        "seeTerms": "For complete terms, see our",
+        "termsLink": "Terms and Conditions"
+      },
+      "informationCollect": {
+        "number": "2",
+        "title": "Information We May Collect",
+        "intro": "During alpha testing, we may collect:",
+        "accountInfo": {
+          "title": "Account Information",
+          "description": "Email, name, organization details"
+        },
+        "businessContext": {
+          "title": "Business Context",
+          "description": "Company info, marketing goals, strategies"
+        },
+        "contentCreated": {
+          "title": "Content You Create",
+          "description": "Campaigns, personas, marketing plans"
+        },
+        "technicalData": {
+          "title": "Technical Data",
+          "description": "Errors, usage patterns, performance"
+        },
+        "note": "Note: Data collection practices are subject to change as we develop the service."
+      },
+      "howWeUse": {
+        "number": "3",
+        "title": "How We Use Information",
+        "intro": "We use information primarily to:",
+        "items": {
+          "provideServices": "Provide the Services (authentication, AI agent interactions, intelligence generation)",
+          "generateIntelligence": "Generate marketing intelligence and strategic recommendations",
+          "fixBugs": "Fix bugs and improve the alpha service",
+          "understandUsage": "Understand usage patterns to enhance user experience",
+          "communicate": "Communicate with you about the service"
+        },
+        "note": "We're too small to do anything fancy with your data. We just want to build a working product that helps you with marketing intelligence."
+      },
+      "thirdParty": {
+        "number": "4",
+        "title": "Third-Party Services",
+        "intro": "We rely on these services (and their privacy policies apply):",
+        "services": {
+          "supabase": {
+            "name": "Supabase",
+            "description": "Authentication and data storage"
+          },
+          "googleCloud": {
+            "name": "Google Cloud",
+            "description": "Backend service hosting"
+          },
+          "vercel": {
+            "name": "Vercel",
+            "description": "Frontend application hosting"
+          },
+          "googleAi": {
+            "name": "Google AI (Gemini)",
+            "description": "Content generation and intelligence"
+          },
+          "stripe": {
+            "name": "Stripe",
+            "description": "Payment processing and subscription management"
+          },
+          "cloudflare": {
+            "name": "Cloudflare",
+            "description": "Bot protection (Turnstile CAPTCHA)"
+          },
+          "resend": {
+            "name": "Resend",
+            "description": "Transactional email delivery"
+          }
+        },
+        "disclaimer": "We are not responsible for third-party services' practices or security."
+      },
+      "aiUsage": {
+        "number": "5",
+        "title": "AI and Data Usage",
+        "subtitle": "Important Information About AI Processing:",
+        "items": {
+          "sentToGoogle": "Your business data is sent to Google AI (Gemini) for processing and intelligence generation",
+          "noTraining": "We do not use your data to train our own AI models",
+          "googlePolicies": "Google's AI usage policies apply to data processed through their services",
+          "stored": "Your marketing intelligence and strategies are stored in our database for your access"
+        }
+      },
+      "dataIsolation": {
+        "number": "6",
+        "title": "Data Isolation",
+        "intro": "We implement database-level data isolation:",
+        "items": {
+          "isolated": "Your business data is isolated from other organizations",
+          "agencySeparation": "Agency clients have complete data separation",
+          "rls": "Database Row Level Security (RLS) policies enforce access control"
+        },
+        "note": "However, as an alpha service, we cannot guarantee complete protection against all security vulnerabilities."
+      },
+      "limitedSecurity": {
+        "number": "7",
+        "title": "Limited Security Guarantees",
+        "disclaimerTitle": "IMPORTANT DISCLAIMER",
+        "intro": "As an alpha service with limited resources, we cannot guarantee:",
+        "items": {
+          "completeSecurity": "Complete data security",
+          "breachProtection": "Protection against all security breaches",
+          "dataBackup": "Data backup or recovery in all scenarios",
+          "availability": "Service availability or uptime",
+          "migrationProtection": "Prevention of data loss during database migrations"
+        },
+        "warning": "Use this service at your own risk. Do not upload highly sensitive or confidential business information."
+      },
+      "yourRights": {
+        "number": "8",
+        "title": "Your Rights (Limited During Alpha)",
+        "tryToHelp": "While we'll try to help with:",
+        "helpItems": {
+          "deleteAccount": "Deleting your account upon request",
+          "updateInfo": "Updating basic information",
+          "accessData": "Providing access to your data"
+        },
+        "cannotGuarantee": "However, during alpha we cannot guarantee:",
+        "limitedItems": {
+          "export": "Complete data export functionality",
+          "deletion": "Complete data deletion from all systems and backups",
+          "timeliness": "Timely responses to data requests"
+        }
+      },
+      "dataRetention": {
+        "number": "9",
+        "title": "Data Retention",
+        "intro": "During the alpha phase:",
+        "items": {
+          "active": "We retain data as long as your account is active",
+          "migrations": "We may delete data during database migrations or resets",
+          "backups": "Deleted data may persist in backups for a reasonable period",
+          "noGuarantee": "We make no guarantees about data persistence during alpha"
+        }
+      },
+      "noWarranty": {
+        "number": "10",
+        "title": "No Warranty or Liability",
+        "intro": "As stated in our",
+        "termsLink": "Terms and Conditions",
+        "items": {
+          "asIs": "Service provided \"AS IS\" without warranties",
+          "notLiable": "We are not liable for data loss or security breaches",
+          "noAvailability": "No guarantee of service availability",
+          "assumeRisk": "You assume all risks of using an alpha service"
+        }
+      },
+      "changes": {
+        "number": "11",
+        "title": "Changes Without Notice",
+        "description": "This privacy policy may change at any time without notice. Continued use of the service constitutes acceptance of any changes. Check this page periodically."
+      },
+      "contact": {
+        "number": "12",
+        "title": "Contact",
+        "description": "Questions? Email us at",
+        "note": "(but remember, we're a small team and responses may be delayed)."
+      }
+    },
+    "tldr": {
+      "label": "TL;DR:",
+      "text": "This is an alpha service. We're a tiny team. We'll try our best but make no promises. Don't put highly sensitive information here. Use at your own risk."
+    },
+    "navigation": {
+      "returnHome": "Return to Home",
+      "termsConditions": "Terms & Conditions"
+    }
+  },
+  "terms": {
+    "pageTitle": "Terms and Conditions",
+    "lastUpdated": "Last Updated: February 13, 2026",
+    "alphaNotice": {
+      "title": "Alpha Program Notice",
+      "description": "STRAŦUM is currently in an Alpha Program phase. This means the service is still evolving and may undergo significant changes, including features, functionality, and database structure."
+    },
+    "sections": {
+      "introduction": {
+        "number": "1",
+        "title": "Introduction",
+        "welcome": "Welcome to STRAŦUM (\"we,\" \"our,\" or \"us\"). These Terms and Conditions govern your use of our website, products, and services (collectively, the \"Services\").",
+        "agreement": "By accessing or using the Services, you agree to be bound by these Terms. If you disagree with any part of these terms, you may not access the Services.",
+        "alphaStatus": "Alpha Status: STRAŦUM is currently in an Alpha Program. By participating, you acknowledge that the Services are still under development and not yet a finished product."
+      },
+      "alphaProgram": {
+        "number": "2",
+        "title": "Alpha Program",
+        "intro": "As an Alpha Program participant, you understand and agree to the following:",
+        "items": {
+          "bugs": "The Services may contain bugs, errors, or other issues that could affect functionality",
+          "changes": "We may make significant changes to the Services without prior notice",
+          "downtime": "The Services may experience downtime or performance issues",
+          "database": "Database structures may change, potentially affecting stored data",
+          "resets": "We may reset databases during development, resulting in data loss",
+          "pricing": "Pricing, plans, and features are subject to change before official release"
+        }
+      },
+      "accountRegistration": {
+        "number": "3",
+        "title": "Account Registration",
+        "responsibilitiesTitle": "Your Responsibilities:",
+        "responsibilities": {
+          "accurate": "Provide accurate, current, and complete registration information",
+          "updated": "Keep your information updated",
+          "safeguard": "Safeguard your password",
+          "strongPasswords": "Use strong passwords (upper/lowercase, numbers, symbols)"
+        }
+      },
+      "aiDisclaimer": {
+        "number": "4",
+        "title": "AI-Generated Content Disclaimer",
+        "responsibilityTitle": "No Responsibility for Output",
+        "intro": "STRAŦUM uses AI to generate marketing intelligence. We explicitly disclaim responsibility for:",
+        "items": {
+          "accuracy": "Accuracy, completeness, or reliability of generated content",
+          "errors": "Factual errors or misrepresentations",
+          "appropriateness": "Appropriateness for your specific business purposes",
+          "actions": "Actions you take based on generated content",
+          "decisions": "Business decisions made using our frameworks",
+          "claims": "Claims arising from your use of generated content"
+        },
+        "responsibility": "You are solely responsible for reviewing and validating all content before use."
+      },
+      "userResponsibilities": {
+        "number": "5",
+        "title": "User Responsibilities",
+        "intro": "When using our Services, you agree not to:",
+        "items": {
+          "laws": "Violate any applicable laws or regulations",
+          "ip": "Infringe upon intellectual property rights of others",
+          "unauthorized": "Attempt unauthorized access to any portion of the Services",
+          "illegal": "Generate illegal, harmful, or objectionable content",
+          "impersonate": "Impersonate any person or entity",
+          "interfere": "Interfere with or disrupt the Services"
+        }
+      },
+      "intellectualProperty": {
+        "number": "6",
+        "title": "Intellectual Property",
+        "yourContent": {
+          "title": "Your Content",
+          "description": "You retain all rights to content you submit. You grant us a non-exclusive, worldwide, royalty-free license to use your content solely for providing and improving the Services."
+        },
+        "generatedContent": {
+          "title": "Generated Content",
+          "description": "You receive a non-exclusive, worldwide, royalty-free license to use, modify, and distribute content generated by our Services for any purpose."
+        },
+        "ourIp": {
+          "title": "Our Intellectual Property",
+          "description": "The Services and their original content are our property, protected by copyright, trademark, and other laws."
+        }
+      },
+      "noRefund": {
+        "number": "7",
+        "title": "No Refund Policy",
+        "headline": "ALL SALES ARE FINAL",
+        "intro": "All purchases are final and non-refundable:",
+        "items": {
+          "noRefund": "No refund, credit, or reimbursement under any circumstances",
+          "regardless": "Applies regardless of service usage",
+          "evenTechnical": "Applies even for technical issues or dissatisfaction"
+        },
+        "alphaNote": "All plans include a 30-day free trial. After the trial period, your subscription will be billed according to your selected plan."
+      },
+      "dataPrivacy": {
+        "number": "8",
+        "title": "Data Collection and Privacy",
+        "description": "We collect and process personal data as described in our",
+        "privacyLink": "Privacy Policy",
+        "consent": "By using our Services, you consent to such processing.",
+        "feedbackNote": "Feedback and Improvement: As an Alpha Program participant, you acknowledge that we may collect usage data, error reports, and your feedback to improve the Services."
+      },
+      "limitationLiability": {
+        "number": "9",
+        "title": "Limitation of Liability",
+        "intro": "To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including:",
+        "items": {
+          "losses": "Loss of profits, data, use, goodwill, or other intangible losses",
+          "inability": "Inability to access or use the Services",
+          "generatedContent": "Any content generated by the Services",
+          "unauthorized": "Unauthorized access or alteration of your data"
+        },
+        "alphaNote": "Alpha Program Specific: We shall not be liable for any damages arising from the alpha nature of the Services, including changes, database resets, or discontinuation of features."
+      },
+      "disclaimerWarranties": {
+        "number": "10",
+        "title": "Disclaimer of Warranties",
+        "asIs": "The Services are provided on an \"AS IS\" and \"AS AVAILABLE\" basis.",
+        "disclaim": "We explicitly disclaim all warranties, express or implied, including merchantability, fitness for a particular purpose, and non-infringement.",
+        "noWarranty": "We make no warranty that the Services will meet your requirements, be available uninterrupted, secure, or error-free, or that defects will be corrected."
+      },
+      "termination": {
+        "number": "11",
+        "title": "Termination",
+        "weTerminate": "We may terminate or suspend your account and access to the Services immediately, without prior notice or liability, for any reason whatsoever, including breach of Terms.",
+        "uponTermination": "Upon termination, your right to use the Services will immediately cease. To terminate your account, discontinue using the Services or contact us for account deletion."
+      },
+      "changesToTerms": {
+        "number": "12",
+        "title": "Changes to Terms",
+        "description": "We reserve the right to modify these Terms at any time. For material revisions, we will provide at least 30 days' notice.",
+        "alphaNote": "During Alpha: We may update Terms more frequently as the Services evolve. Continued use constitutes acceptance of modifications."
+      },
+      "governingLaw": {
+        "number": "13",
+        "title": "Governing Law",
+        "description": "These Terms shall be governed by the laws of the United States, without regard to conflict of law provisions.",
+        "disputeTitle": "Dispute Resolution:",
+        "dispute": "Any dispute shall be settled by binding arbitration in accordance with American Arbitration Association rules. Arbitration shall be conducted online via video conference."
+      },
+      "contactUs": {
+        "number": "14",
+        "title": "Contact Us",
+        "description": "If you have any questions about these Terms, please contact us at"
+      }
+    },
+    "navigation": {
+      "returnHome": "Return to Home",
+      "privacyPolicy": "Privacy Policy"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Document Management",
+  "subtitle": "Upload, search, and manage your organization's knowledge base.",
+  "upload": {
+    "title": "Upload Documents",
+    "description": "Add new documents to your knowledge base.",
+    "button": "Upload"
+  },
+  "documents": {
+    "title": "Your Documents",
+    "description": "Browse and manage your uploaded documents.",
+    "emptyState": "A list or grid of documents will be displayed here.",
+    "noDocuments": "No documents yet. Upload your first document to get started."
+  },
+  "documentTypes": {
+    "pdf": "PDF Document",
+    "doc": "Word Document",
+    "docx": "Word Document",
+    "txt": "Text File",
+    "csv": "CSV Spreadsheet",
+    "xls": "Excel Spreadsheet",
+    "xlsx": "Excel Spreadsheet",
+    "ppt": "PowerPoint Presentation",
+    "pptx": "PowerPoint Presentation",
+    "image": "Image File",
+    "other": "Other"
+  },
+  "actions": {
+    "upload": "Upload",
+    "download": "Download",
+    "delete": "Delete",
+    "rename": "Rename",
+    "share": "Share",
+    "view": "View",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "search": "Search documents..."
+  },
+  "status": {
+    "uploading": "Uploading...",
+    "processing": "Processing...",
+    "ready": "Ready",
+    "error": "Error",
+    "uploaded": "Uploaded successfully",
+    "deleted": "Deleted successfully"
+  },
+  "errors": {
+    "uploadFailed": "Upload failed. Please try again.",
+    "deleteFailed": "Delete failed. Please try again.",
+    "invalidFileType": "Invalid file type. Please upload a supported file.",
+    "fileTooLarge": "File is too large. Maximum size is {{maxSize}}.",
+    "noFileSelected": "No file selected."
+  },
+  "metadata": {
+    "uploadedOn": "Uploaded on {{date}}",
+    "uploadedBy": "Uploaded by {{name}}",
+    "lastModified": "Last modified {{date}}",
+    "fileSize": "File size: {{size}}",
+    "fileType": "File type: {{type}}"
+  }
+}

@@ -1,0 +1,505 @@
+{
+  "title": "Campanas",
+  "subtitle": "Gestiona y haz seguimiento de tus campanas de marketing",
+  "newCampaign": {
+    "pageTitle": "Nueva campana",
+    "permissionTitle": "Creacion de campanas",
+    "title": "Crear nueva campana",
+    "subtitle": "Configura tu campana de marketing y deja que nuestros agentes de IA te ayuden a lograr resultados",
+    "templatesTitle": "Plantillas de inicio rapido",
+    "formTitle": "Detalles de la campana",
+    "formDescription": "Define los parametros de tu campana y nuestra IA te ayudara a optimizarla para el exito",
+    "createButton": "Crear campana",
+    "creating": "Creando...",
+    "fields": {
+      "name": "Nombre de la campana",
+      "namePlaceholder": "Ej.: Lanzamiento de producto Q1 2026",
+      "description": "Descripcion",
+      "descriptionPlaceholder": "Describe brevemente los objetivos y el enfoque de la campana...",
+      "objectives": "Objetivos de la campana",
+      "objectivesPlaceholder": "¿Que quieres conseguir? Se especifico con metricas y KPIs...",
+      "budget": "Presupuesto ($)",
+      "budgetPlaceholder": "10000",
+      "targetAudience": "Publico objetivo",
+      "targetAudiencePlaceholder": "Describe los datos demograficos, intereses y comportamientos de tu cliente ideal...",
+      "startDate": "Fecha de inicio",
+      "endDate": "Fecha de fin",
+      "selectStartDate": "Selecciona la fecha de inicio",
+      "selectEndDate": "Selecciona la fecha de fin"
+    },
+    "templates": {
+      "quickWin": {
+        "title": "Campana de quick wins",
+        "description": "Consigue resultados inmediatos con oportunidades faciles de capturar",
+        "presetName": "Campana de quick wins",
+        "presetObjectives": "Lograr mejoras inmediatas en el ROI mediante optimizaciones tacticas"
+      },
+      "brandAwareness": {
+        "title": "Reconocimiento de marca",
+        "description": "Aumenta la visibilidad y el alcance en el mercado",
+        "presetName": "Campana de reconocimiento de marca",
+        "presetObjectives": "Aumentar en un 30% el reconocimiento de marca en el publico objetivo"
+      },
+      "leadGeneration": {
+        "title": "Generacion de leads",
+        "description": "Captura y nutre clientes potenciales",
+        "presetName": "Campana de generacion de leads",
+        "presetObjectives": "Generar 500 leads cualificados al mes"
+      }
+    }
+  },
+  "emptyState": {
+    "title": "¿Listo para organizar tu inteligencia?",
+    "description": "Las campanas te ayudan a organizar los resultados de inteligencia por iniciativa de negocio. Completa primero la inteligencia clave para planificar mejor.",
+    "readinessLabel": "Nivel de preparacion de inteligencia",
+    "readinessCount": "{{completed}} de {{total}} completados",
+    "readyMessage": "Ya tienes suficiente inteligencia para crear una campana",
+    "notReadyMessage": "Completa al menos 2 resultados de inteligencia para empezar",
+    "completeBadge": "Completo",
+    "createFirst": "Crear tu primera campana",
+    "continueGathering": "Seguir generando inteligencia",
+    "startGathering": "Empezar a generar inteligencia",
+    "createAnyway": "Crear campana igualmente",
+    "whyGatherTitle": "¿Por que reunir inteligencia primero?",
+    "whyGatherDescription": "Las campanas organizan tus insights estrategicos. Tener listas la estrategia de negocio, las personas y los planes de marketing hace que tus campanas nazcan guiadas por datos.",
+    "totalOutputsReady": "Resultados de inteligencia listos para organizar",
+    "viewAllIntelligence": "Ver toda la inteligencia",
+    "prerequisites": {
+      "strategy": {
+        "title": "Estrategia de negocio",
+        "description": "Define tu posicionamiento y ventaja competitiva"
+      },
+      "persona": {
+        "title": "Personas de cliente",
+        "description": "Entiende a quien te diriges y cuales son sus retos"
+      },
+      "marketing": {
+        "title": "Estrategia de marketing",
+        "description": "Define tu mezcla de canales y tu marco de mensajes"
+      },
+      "content": {
+        "title": "Prototipos de contenido",
+        "description": "Crea materiales y mensajes iniciales para la campana"
+      }
+    }
+  },
+  "analytics": {
+    "error": {
+      "title": "No se pudieron cargar los analisis",
+      "message": "{{message}}"
+    },
+    "empty": {
+      "title": "No hay datos de analitica",
+      "description": "La analitica estara disponible cuando la campana tenga actividad"
+    },
+    "cards": {
+      "budgetUtilized": "Presupuesto utilizado",
+      "budgetOf": "{{spent}} de {{total}}",
+      "conversionRate": "Tasa de conversion",
+      "conversionsFromReach": "{{conversions}} conversiones a partir de {{reach}} de alcance",
+      "engagement": "Interaccion",
+      "ctr": "{{rate}}% de CTR",
+      "performance": "Rendimiento",
+      "impressions": "{{count}} impresiones"
+    },
+    "budget": {
+      "title": "Analisis del presupuesto",
+      "subtitle": "Patrones de gasto y proyecciones",
+      "dailySpendRate": "Ritmo de gasto diario",
+      "perDay": "{{amount}}/dia",
+      "projectedTotalSpend": "Gasto total proyectado",
+      "budgetBurnRate": "Ritmo de consumo del presupuesto",
+      "daysToEnd": "Dias hasta agotar el presupuesto",
+      "daysCount": "{{days}} dias",
+      "costPerConversion": "Coste por conversion"
+    },
+    "progress": {
+      "title": "Progreso de la campana",
+      "subtitle": "Resumen del calendario y del contenido",
+      "campaignProgress": "Progreso de la campana",
+      "daysActive": "{{days}} dias activa",
+      "daysLeft": "{{days}} dias restantes",
+      "strategies": "Estrategias",
+      "personas": "Personas",
+      "activeOutputs": "Resultados activos",
+      "topChannel": "Canal principal",
+      "channelsConfigured": "{{count}} canal(es) configurado(s)"
+    },
+    "alerts": {
+      "title": "Se requiere atencion",
+      "overBudget": "La campana ha superado el presupuesto ({{percentage}}%)",
+      "underperforming": "El rendimiento de la campana es {{trend}}"
+    },
+    "generated": "Analitica generada: {{date}}",
+    "performanceLevels": {
+      "excellent": "excelente",
+      "good": "bueno",
+      "average": "medio",
+      "below_average": "por debajo de la media"
+    },
+    "burnRates": {
+      "low": "bajo",
+      "moderate": "moderado",
+      "high": "alto",
+      "very_high": "muy alto"
+    }
+  },
+  "list": {
+    "title": "Todas las campanas",
+    "empty": "Todavia no hay campanas",
+    "emptyDescription": "Crea tu primera campana para empezar a hacer seguimiento de tus esfuerzos de marketing",
+    "createFirst": "Crear tu primera campana",
+    "pageTitle": "Campanas de marketing",
+    "pageSubtitle": "Gestiona y supervisa tus campanas de marketing",
+    "managementBadge": "Gestion de campanas",
+    "newCampaign": "Nueva campana",
+    "filterByStatus": "Filtrar por estado",
+    "createdOn": "Creada el {{date}}",
+    "noData": "Sin datos",
+    "metricsCount_one": "{{count}} metrica",
+    "metricsCount_other": "{{count}} metricas",
+    "fields": {
+      "budget": "Presupuesto",
+      "type": "Tipo",
+      "duration": "Duracion",
+      "notSet": "Sin definir",
+      "notScheduled": "Sin programar"
+    },
+    "emptyStates": {
+      "noActive": {
+        "title": "No hay campanas activas",
+        "description": "Tienes {{count}} campana(s) en borrador listas para lanzarse",
+        "viewDrafts": "Ver borradores"
+      },
+      "noCampaigns": {
+        "title": "Todavia no hay campanas",
+        "description": "Construye primero inteligencia estrategica y despues organizala en campanas",
+        "startStrategy": "Empezar con estrategia",
+        "createCampaign": "Crear campana"
+      },
+      "noPlanned": {
+        "title": "Todavia no hay campanas planificadas",
+        "description": "Genera planes de campana desde el Agente de Planificacion de Campanas y guardalos para verlos aqui",
+        "generatePlans": "Generar planes de campana"
+      },
+      "noPaused": {
+        "title": "No hay campanas pausadas",
+        "descriptionWithActive": "Tienes {{count}} campana(s) activas en marcha",
+        "descriptionEmpty": "Las campanas pausadas apareceran aqui cuando pauses una campana activa",
+        "viewActive": "Ver campanas activas"
+      },
+      "noDraft": {
+        "title": "No hay campanas en borrador",
+        "description": "Tienes {{count}} campana(s) activas en marcha"
+      },
+      "noCompleted": {
+        "title": "No hay campanas completadas",
+        "description": "Tienes {{count}} campana(s) activas en curso"
+      },
+      "generic": {
+        "title": "No hay campanas {{status}}",
+        "description": "Genera primero resultados de inteligencia y despues crea campanas para organizarlos",
+        "buildIntelligence": "Construir inteligencia"
+      }
+    }
+  },
+  "status": {
+    "draft": "Borrador",
+    "active": "Activa",
+    "planned": "Planificada",
+    "paused": "Pausada",
+    "completed": "Completada",
+    "archived": "Archivada"
+  },
+  "form": {
+    "create": "Crear campana",
+    "edit": "Editar campana",
+    "fields": {
+      "name": "Nombre de la campana",
+      "namePlaceholder": "Escribe el nombre de la campana",
+      "description": "Descripcion",
+      "descriptionPlaceholder": "Describe los objetivos y la estrategia de la campana",
+      "startDate": "Fecha de inicio",
+      "endDate": "Fecha de fin",
+      "budget": "Presupuesto",
+      "budgetPlaceholder": "Escribe el importe del presupuesto",
+      "status": "Estado",
+      "channels": "Canales",
+      "objectives": "Objetivos de la campana",
+      "targetAudience": "Publico objetivo"
+    },
+    "validation": {
+      "nameRequired": "El nombre de la campana es obligatorio",
+      "startDateRequired": "La fecha de inicio es obligatoria",
+      "endDateAfterStart": "La fecha de fin debe ser posterior a la fecha de inicio"
+    }
+  },
+  "detail": {
+    "pageTitle": "Detalles de la campana",
+    "overview": "Resumen",
+    "performance": "Rendimiento",
+    "assets": "Activos",
+    "timeline": "Cronograma",
+    "settings": "Configuracion",
+    "notFound": "No se encontro la campana",
+    "backToCampaigns": "Volver a campanas",
+    "aiAgents": {
+      "title": "Agentes de IA",
+      "description": "Accede a agentes de IA especializados para esta campana",
+      "agents": {
+        "strategy": {
+          "name": "Agente de Estrategia",
+          "description": "Planificacion estrategica y analisis SWOT"
+        },
+        "persona": {
+          "name": "Agente de Personas",
+          "description": "Perfilado de clientes y mapeo del recorrido"
+        },
+        "content": {
+          "name": "Agente de Contenido",
+          "description": "Creacion y optimizacion de contenido"
+        },
+        "analytics": {
+          "name": "Agente de Analitica",
+          "description": "Seguimiento del rendimiento e insights"
+        }
+      }
+    },
+    "collaboration": {
+      "discussion": {
+        "title": "Debate",
+        "description": "Colabora con tu equipo en esta campana"
+      },
+      "tasks": {
+        "title": "Tareas",
+        "description": "Asigna y sigue el trabajo de esta campana"
+      }
+    }
+  },
+  "metrics": {
+    "impressions": "Impresiones",
+    "clicks": "Clics",
+    "conversions": "Conversiones",
+    "spend": "Gasto",
+    "ctr": "CTR",
+    "cpc": "CPC",
+    "cpa": "CPA",
+    "roas": "ROAS",
+    "roi": "ROI"
+  },
+  "actions": {
+    "create": "Crear campana",
+    "edit": "Editar",
+    "editDetails": "Editar detalles",
+    "duplicate": "Duplicar",
+    "archive": "Archivar",
+    "delete": "Eliminar",
+    "pause": "Pausar",
+    "resume": "Reanudar",
+    "export": "Exportar",
+    "viewDetails": "Ver detalles",
+    "save": "Guardar",
+    "saveChanges": "Guardar cambios",
+    "cancel": "Cancelar"
+  },
+  "filters": {
+    "all": "Todas las campanas",
+    "active": "Activas",
+    "draft": "Borradores",
+    "completed": "Completadas",
+    "search": "Buscar campanas...",
+    "dateRange": "Rango de fechas",
+    "channel": "Canal"
+  },
+  "channels": {
+    "social": "Redes sociales",
+    "email": "Email",
+    "paid": "Anuncios de pago",
+    "seo": "SEO",
+    "content": "Marketing de contenidos",
+    "events": "Eventos",
+    "pr": "PR",
+    "other": "Otro"
+  },
+  "confirmDelete": {
+    "title": "Eliminar campana",
+    "message": "¿Seguro que quieres eliminar esta campana? Esta accion no se puede deshacer.",
+    "confirm": "Eliminar",
+    "cancel": "Cancelar"
+  },
+  "campaignTypes": {
+    "brand_awareness": "Reconocimiento de marca",
+    "lead_generation": "Generacion de leads",
+    "product_launch": "Lanzamiento de producto",
+    "seasonal_promotion": "Promocion estacional",
+    "content_marketing": "Marketing de contenidos",
+    "email_nurture": "Nutricion por email",
+    "social_media": "Redes sociales",
+    "event_promotion": "Promocion de eventos",
+    "customer_retention": "Retencion de clientes",
+    "referral_program": "Programa de referidos",
+    "other": "Otro"
+  },
+  "marketingChannels": {
+    "email": "Email marketing",
+    "social": "Redes sociales",
+    "content": "Marketing de contenidos",
+    "paid_ads": "Publicidad de pago",
+    "seo": "SEO",
+    "events": "Eventos",
+    "webinars": "Webinars",
+    "influencer": "Marketing de influencers",
+    "affiliate": "Marketing de afiliacion",
+    "direct_mail": "Correo directo"
+  },
+  "priorityLevels": {
+    "low": "Baja",
+    "medium": "Media",
+    "high": "Alta",
+    "critical": "Critica"
+  },
+  "statusActions": {
+    "activate": "Activar",
+    "activateCampaign": "Activar campana",
+    "pause": "Pausar",
+    "complete": "Completar",
+    "resume": "Reanudar",
+    "archive": "Archivar"
+  },
+  "performance": {
+    "mapping": {
+      "title": "Mapear campanas",
+      "metricsFound": "{{count}} metricas encontradas en el CSV",
+      "exactMatches": "{{count}} coincidencias exactas",
+      "fuzzyMatches": "{{count}} coincidencias aproximadas",
+      "unmapped": "{{count}} sin asignar",
+      "description": "Revisa y confirma la asignacion de campanas antes de importar metricas",
+      "table": {
+        "csvCampaign": "Nombre de campana en CSV",
+        "matchStatus": "Estado de coincidencia",
+        "targetCampaign": "Campana destino"
+      },
+      "importSelected": "Importar metricas seleccionadas",
+      "importing": "Importando...",
+      "successToast": "Se importaron {{count}} metricas correctamente",
+      "errorToast": "No se pudieron importar las metricas"
+    },
+    "selector": {
+      "placeholder": "Buscar campanas...",
+      "selectCampaign": "Selecciona una campana",
+      "noCampaignsFound": "No se encontraron campanas",
+      "createNew": "Crear nueva campana",
+      "exactMatch": "Coincidencia exacta",
+      "fuzzyMatch": "{{percent}}% de coincidencia",
+      "suggested": "Sugerida",
+      "clear": "Borrar seleccion"
+    },
+    "upload": {
+      "title": "Subir CSV de rendimiento",
+      "description": "Sube un archivo CSV con metricas de rendimiento de campanas",
+      "steps": {
+        "uploadCSV": "Subir CSV",
+        "mapCampaigns": "Mapear campanas",
+        "complete": "Completar"
+      },
+      "dropHere": "Suelta aqui el archivo CSV",
+      "dragDrop": "Arrastra y suelta aqui un archivo CSV, o haz clic para seleccionarlo",
+      "requiredColumns": "Columnas obligatorias: campaign_name, metric_date, spend",
+      "selectedFile": "Archivo seleccionado",
+      "removeFile": "Eliminar archivo",
+      "fileRemoved": "Archivo eliminado",
+      "loadedMetrics": "Se cargaron {{count}} metricas de {{filename}}",
+      "parseError": "No se pudo analizar el archivo CSV",
+      "csvExtensionError": "El archivo debe tener extension .csv",
+      "validationIssues": "Se encontraron problemas de validacion",
+      "fixIssues": "Corrige los siguientes problemas antes de importar",
+      "fileFormatErrors": "{{count}} error(es) de formato de archivo",
+      "dataValidationErrors": "{{count}} error(es) de validacion de datos",
+      "howToFix": {
+        "title": "Como corregirlo",
+        "requiredColumns": "Asegurate de que existan estas columnas",
+        "dateFormat": "Usa el formato YYYY-MM-DD para las fechas",
+        "numericFields": "Asegurate de que spend, impressions, clicks y conversions sean numeros",
+        "downloadTemplate": "Descarga la plantilla para usar el formato correcto"
+      },
+      "clearFile": "Borrar archivo",
+      "downloadTemplate": "Descargar plantilla",
+      "downloadCSVTemplate": "Descargar plantilla CSV",
+      "importSuccess": "Importacion completada",
+      "importSuccessDescription": "Tus metricas se han importado y vinculado a las campanas",
+      "importMore": "Importar mas",
+      "viewMetrics": "Ver metricas"
+    },
+    "matchStatus": {
+      "noMatch": "No se encontro coincidencia",
+      "exactMatch": "Coincidencia exacta",
+      "fuzzyMatch": "{{percent}}% de coincidencia"
+    }
+  },
+  "editForm": {
+    "details": {
+      "title": "Detalles de la campana",
+      "description": "Informacion principal sobre esta campana"
+    },
+    "noDescription": "Sin descripcion",
+    "campaignType": "Tipo de campana",
+    "selectType": "Selecciona un tipo",
+    "notSet": "Sin definir",
+    "priority": "Prioridad",
+    "selectPriority": "Selecciona una prioridad",
+    "targetAudiencePlaceholder": "¿A quien se dirige esta campana? Se especifico para obtener mejores recomendaciones de IA...",
+    "noTargetAudience": "No hay publico objetivo definido",
+    "objectivesGoals": "Objetivos y metas",
+    "objectivesPlaceholder": "¿Cuales son los objetivos y criterios de exito? Ej.: 'Generar 100 leads cualificados antes de Q4' o 'Aumentar el reconocimiento de marca un 30% en el publico objetivo'",
+    "noObjectives": "No hay objetivos definidos",
+    "primary": "Principal",
+    "secondary": "Secundario",
+    "cantChangeStartDate": "No se puede cambiar la fecha de inicio: la campana ya ha comenzado",
+    "historicalData": "Datos historicos: no se pueden modificar",
+    "budgetLabel": "Presupuesto ($)",
+    "channels": {
+      "title": "Canales de marketing",
+      "description": "Selecciona los canales de esta campana",
+      "activeChannels": "Canales activos",
+      "noChannels": "No hay canales seleccionados"
+    },
+    "advanced": {
+      "addMoreDetails": "Anade mas detalles para mejorar el rendimiento de los agentes de IA",
+      "showAdvanced": "Mostrar campos avanzados",
+      "hideAdvanced": "Ocultar campos avanzados"
+    },
+    "contentStrategy": {
+      "title": "Estrategia de contenido",
+      "description": "Define pilares y temas de contenido",
+      "contentPillars": "Pilares de contenido",
+      "pillarsPlaceholder": "Introduce los temas clave separados por comas (ej.: liderazgo de pensamiento, educacion de producto, casos de exito, insights del sector)",
+      "noPillars": "No hay pilares de contenido definidos"
+    },
+    "successMetrics": {
+      "title": "Metricas de exito y KPIs",
+      "description": "Define como se medira el exito",
+      "primaryKPI": "KPI principal",
+      "kpiPlaceholder": "Ej.: Leads cualificados",
+      "targetPlaceholder": "Valor objetivo (ej.: 100)",
+      "noTarget": "Sin objetivo",
+      "notDefined": "Sin definir"
+    },
+    "competitive": {
+      "title": "Contexto competitivo",
+      "description": "Posicionamiento de mercado y competencia",
+      "competitorContext": "Contexto competitivo",
+      "contextPlaceholder": "Competidores clave y como nos diferenciamos...",
+      "noContext": "No hay contexto competitivo disponible",
+      "geographicTarget": "Objetivo geografico",
+      "geoPlaceholder": "Ej.: Norteamerica, Global, Estados Unidos, California, Area de la Bahia de San Francisco",
+      "notSpecified": "Sin especificar"
+    },
+    "organization": {
+      "title": "Organizacion",
+      "description": "Etiquetas y categorizacion",
+      "tags": "Etiquetas",
+      "tagsPlaceholder": "Introduce etiquetas separadas por comas",
+      "noTags": "Sin etiquetas"
+    }
+  }
+}

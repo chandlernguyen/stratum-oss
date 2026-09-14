@@ -1,0 +1,389 @@
+{
+  "comparison": {
+    "pageTitle": "品牌對比",
+    "fourWayTitle": "對比 4 種 STRATUM 變體",
+    "fourWayDescription": "揀選最能代表你品牌形象嘅 STRATUM 變體",
+    "cortexVsStratum": "CORTEX 與 STRATUM",
+    "backToSingleView": "返回單一視圖",
+    "singleView": "單一視圖",
+    "compareFourOptions": "對比 4 種 STRATUM 方案"
+  },
+  "brands": {
+    "cortex": {
+      "subtitle": "神經智能"
+    },
+    "stratum": {
+      "subtitle": "策略層級"
+    }
+  },
+  "hero": {
+    "subtitle": "智能優先於執行"
+  },
+  "cta": {
+    "startFreeTrial": "開始免費試用",
+    "watchDemo": "觀看示範",
+    "selectThisOption": "揀選此方案",
+    "learnMore": "了解更多"
+  },
+  "valuePropositions": {
+    "strategicIntelligence": {
+      "title": "策略智能",
+      "description": "SWOT、Porter's Five Forces、商業模式畫布，以及另外 8 個經過驗證嘅分析框架"
+    },
+    "customerInsights": {
+      "title": "客戶洞察",
+      "description": "深度客戶畫像分析、購買旅程映射同行為智能分析"
+    },
+    "roiTracking": {
+      "title": "ROI 追蹤",
+      "description": "實時績效分析同 AI 驅動嘅優化建議"
+    }
+  },
+  "features": {
+    "sectionTitle": {
+      "cortex": "AI 驅動嘅營銷大腦",
+      "stratum": "建立你嘅策略基礎"
+    },
+    "sectionSubtitle": {
+      "cortex": "為每一個營銷決策提供神經智能支援",
+      "stratum": "層層遞進，構建全面嘅營銷智能體系"
+    },
+    "aiAgents": {
+      "title": "10 個專業 AI 智能助手",
+      "description": "涵蓋策略、客戶畫像、內容、分析、活動規劃、ROI 追蹤等範疇"
+    },
+    "continuousLearning": {
+      "title": "持續學習系統",
+      "description": "隨住每次互動，AI 對你業務嘅理解會更加深入"
+    },
+    "zeroExecutionRisk": {
+      "title": "零執行風險",
+      "description": "只提供智能同洞察，唔會進行自動執行——控制權始終掌握喺你手中"
+    }
+  },
+  "footer": {
+    "copyright": "2026 {{brandName}}.",
+    "privacyPolicy": "私隱政策",
+    "termsConditions": "條款及細則",
+    "contact": "聯絡我哋"
+  },
+  "detailedComparison": {
+    "title": "詳細對比",
+    "criteria": {
+      "visualDistinction": "視覺辨識度",
+      "matchesDialogueDna": "與 DIALOGUE DNA 嘅匹配度",
+      "easyToType": "輸入便利性",
+      "conceptualFit": "概念契合度",
+      "professionalFeel": "專業感",
+      "recommendation": "推薦"
+    },
+    "conceptualFitValues": {
+      "greekAlpha": "希臘字母 Alpha",
+      "cuttingLayers": "切割層級",
+      "topLayer": "頂層",
+      "multiLayer": "多層結構"
+    },
+    "recommendations": {
+      "good": "良好",
+      "best": "最佳",
+      "great": "優秀",
+      "bold": "大膽"
+    },
+    "recommendedBrand": {
+      "title": "推薦：STRATUM",
+      "description": "帶有橫線嘅 T 完美地傳達咗\u201c穿透層級\u201d嘅含義，並與 DIALOGUE 嘅 O 品牌 DNA 相呼應（兩者都採用咗字母貫穿線條嘅設計手法）。佢視覺上極具衝擊力，喺概念上與\u201c智能層級\u201d相契合，而且位於單詞中部，位置醒目突出。"
+    }
+  },
+  "variationCard": {
+    "specialCharacter": "特殊字元",
+    "colorPalette": "色彩方案",
+    "gradientPreview": "漸變預覽",
+    "inContext": "應用場景",
+    "url": "URL",
+    "tagline": "標語",
+    "positioning": "定位",
+    "colors": {
+      "primary": "主色",
+      "dark": "深色",
+      "gold": "金色"
+    }
+  },
+  "splitView": {
+    "typography": "字體排版",
+    "headingStyle": "標題樣式",
+    "bodyText": "正文同描述文字使用 Inter 常規字重，以獲得最佳可讀性。",
+    "iconSymbol": "圖示符號"
+  },
+  "guidelines": {
+    "similar": "相似",
+    "untitled": "未命名指南",
+    "status": {
+      "archived": "已封存",
+      "default": "預設",
+      "active": "生效中"
+    },
+    "activeCount": "{{count}} 個生效中",
+    "clickToView": "點擊查看",
+    "actions": {
+      "restore": "還原"
+    },
+    "emptyStates": {
+      "noGuidelines": {
+        "title": "暫時未有品牌指南",
+        "description": "建立你嘅第一份品牌指南，確立品牌形象"
+      },
+      "noArchivedGuidelines": {
+        "title": "暫時未有已封存指南",
+        "description": "封存嘅指南會顯示喺呢度"
+      }
+    },
+    "alerts": {
+      "multipleActive": {
+        "title": "存在多個生效中嘅指南",
+        "description": "目前有 {{count}} 個生效中嘅指南。建議封存舊版本以保持清晰。"
+      }
+    },
+    "stats": {
+      "totalGuidelines": "指南總數",
+      "activeGuidelines": "生效中嘅指南",
+      "archivedGuidelines": "已封存嘅指南"
+    },
+    "tabs": {
+      "active": "生效中",
+      "archived": "已封存",
+      "all": "全部"
+    },
+    "view": {
+      "title": "品牌指南",
+      "tabs": {
+        "overview": "概覽",
+        "voice": "語調與風格",
+        "visual": "視覺識別",
+        "messaging": "訊息傳達"
+      },
+      "sections": {
+        "toneOfVoice": "語調風格",
+        "personality": "品牌個性",
+        "writingStyle": "寫作風格",
+        "doAndDont": "應做與不應做",
+        "brandVoice": "品牌聲音",
+        "colorPalette": "色彩方案",
+        "typography": "字體排版",
+        "imagery": "圖像指南",
+        "tagline": "標語",
+        "valueProposition": "價值主張",
+        "keyMessages": "核心訊息",
+        "targetAudience": "目標受眾"
+      }
+    },
+    "forms": {
+      "strategy": {
+        "title": "品牌策略",
+        "badge": "策略",
+        "fields": {
+          "mission": {
+            "label": "使命宣言",
+            "placeholder": "你嘅品牌使命係咩？"
+          },
+          "vision": {
+            "label": "願景宣言",
+            "placeholder": "你嘅品牌長遠願景係咩？"
+          },
+          "values": {
+            "label": "核心價值觀",
+            "placeholder": "新增一項核心價值觀"
+          },
+          "positioning": {
+            "label": "品牌定位",
+            "placeholder": "你嘅品牌喺市場中點樣定位？"
+          },
+          "targetAudience": {
+            "label": "目標受眾",
+            "placeholder": "你嘅目標受眾係邊個？"
+          },
+          "competitors": {
+            "label": "主要競爭對手",
+            "placeholder": "新增一個競爭對手"
+          },
+          "differentiators": {
+            "label": "核心差異化優勢",
+            "placeholder": "新增一項差異化優勢"
+          }
+        }
+      },
+      "voice": {
+        "title": "品牌聲音",
+        "badge": "聲音",
+        "sections": {
+          "toneOfVoice": "語調風格",
+          "personality": "個性特徵",
+          "writingStyle": "寫作風格",
+          "doAndDont": "應做與不應做"
+        },
+        "fields": {
+          "toneAttributes": {
+            "label": "語調屬性",
+            "placeholder": "新增語調屬性（例如：友善、專業）"
+          },
+          "toneDescription": {
+            "label": "語調描述",
+            "placeholder": "描述你品牌嘅整體語調"
+          },
+          "personalityTraits": {
+            "label": "個性特徵",
+            "placeholder": "新增一項個性特徵"
+          },
+          "brandPersona": {
+            "label": "品牌人設",
+            "placeholder": "如果你嘅品牌係一個人，你會點樣描述佢？"
+          },
+          "writingPrinciples": {
+            "label": "寫作原則",
+            "placeholder": "新增一條寫作原則"
+          },
+          "grammarPreferences": {
+            "label": "語法偏好",
+            "placeholder": "有冇特定嘅語法偏好（例如：牛津逗號、縮寫形式）"
+          },
+          "vocabularyGuidelines": {
+            "label": "詞彙規範",
+            "placeholder": "詞彙使用規範"
+          },
+          "dos": {
+            "label": "應做",
+            "placeholder": "新增品牌應該做嘅事項"
+          },
+          "donts": {
+            "label": "不應做",
+            "placeholder": "新增品牌應該避免嘅事項"
+          }
+        }
+      },
+      "messaging": {
+        "title": "訊息傳達",
+        "badge": "訊息傳達",
+        "fields": {
+          "tagline": {
+            "label": "標語",
+            "placeholder": "你嘅品牌標語或口號"
+          },
+          "valueProposition": {
+            "label": "價值主張",
+            "placeholder": "你嘅品牌提供咩獨特價值？"
+          },
+          "elevatorPitch": {
+            "label": "電梯簡報",
+            "placeholder": "用簡短有力嘅話描述你嘅品牌"
+          },
+          "keyMessages": {
+            "label": "核心訊息",
+            "placeholder": "新增一條核心訊息"
+          },
+          "proofPoints": {
+            "label": "支撐論據",
+            "placeholder": "新增支持你主張嘅證據"
+          },
+          "callToAction": {
+            "label": "主要行動呼籲",
+            "placeholder": "你最重要嘅行動呼籲語"
+          }
+        }
+      },
+      "visual": {
+        "title": "視覺識別",
+        "badge": "視覺",
+        "fields": {
+          "primaryColors": {
+            "label": "主色",
+            "placeholder": "新增一個主色（例如：#FF5733）"
+          },
+          "secondaryColors": {
+            "label": "輔色",
+            "placeholder": "新增一個輔色"
+          },
+          "accentColors": {
+            "label": "強調色",
+            "placeholder": "新增一個強調色"
+          },
+          "primaryFont": {
+            "label": "主字體",
+            "placeholder": "主要字體（例如：Inter、Roboto）"
+          },
+          "secondaryFont": {
+            "label": "輔助字體",
+            "placeholder": "輔助字體"
+          },
+          "fontSizeScale": {
+            "label": "字號體系",
+            "placeholder": "字號體系或規範"
+          },
+          "logoUsage": {
+            "label": "Logo 使用規範",
+            "placeholder": "Logo 使用規則說明"
+          },
+          "imageryStyle": {
+            "label": "圖像風格",
+            "placeholder": "描述你品牌使用嘅圖像風格"
+          },
+          "iconStyle": {
+            "label": "圖示風格",
+            "placeholder": "描述圖示風格"
+          },
+          "photographyGuidelines": {
+            "label": "攝影規範",
+            "placeholder": "品牌攝影使用規範"
+          }
+        }
+      }
+    }
+  },
+  "editor": {
+    "title": "白標品牌套件編輯器",
+    "description": "使用你嘅品牌形象自訂平台",
+    "previewMode": "預覽模式",
+    "export": "匯出",
+    "import": "匯入",
+    "sections": {
+      "companyIdentity": "企業標識",
+      "colorPalette": "色彩方案",
+      "typography": "字體排版",
+      "uiPreferences": "UI 偏好設定",
+      "customCss": "自訂 CSS（進階）"
+    },
+    "fields": {
+      "companyName": "公司名稱",
+      "logoUrl": "Logo URL",
+      "primaryColor": "主色",
+      "secondaryColor": "輔色",
+      "accentColor": "強調色",
+      "headingFont": "標題字體",
+      "bodyFont": "正文字體",
+      "borderRadius": "圓角大小",
+      "contentDensity": "內容密度"
+    },
+    "placeholders": {
+      "companyName": "你嘅公司名稱",
+      "logoUrl": "https://example.com/logo.png",
+      "customCss": "/* 喺呢度新增自訂 CSS */\n.your-class {\n  property: value;\n}"
+    },
+    "options": {
+      "borderRadius": {
+        "none": "無（直角）",
+        "small": "小",
+        "medium": "中",
+        "large": "大",
+        "extraLarge": "特大"
+      },
+      "density": {
+        "comfortable": "舒適",
+        "compact": "緊湊",
+        "spacious": "寬鬆"
+      }
+    },
+    "buttons": {
+      "resetToDefault": "還原預設",
+      "preview": "預覽",
+      "saveAndApply": "儲存並套用"
+    }
+  }
+}

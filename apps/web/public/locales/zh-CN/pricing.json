@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "定价"
+  },
+  "hero": {
+    "title": "简单透明的定价",
+    "subtitle": "所有套餐均提供30天免费试用。无需信用卡。随时取消。"
+  },
+  "tiers": {
+    "solo": {
+      "name": "Solo",
+      "description": "适合个人营销人员和顾问",
+      "features": {
+        "agents": "全部9个AI智能体",
+        "seats": "1名团队成员",
+        "sessions": "不限会话次数"
+      }
+    },
+    "team": {
+      "name": "Team",
+      "description": "适合小型营销团队",
+      "features": {
+        "agents": "全部9个AI智能体",
+        "seats": "最多3名团队成员",
+        "sessions": "不限会话次数",
+        "collaboration": "团队协作"
+      }
+    },
+    "agency": {
+      "name": "Agency",
+      "description": "适合管理多个客户的代理机构",
+      "features": {
+        "agents": "全部9个AI智能体",
+        "seats": "最多10名团队成员",
+        "clients": "最多5个客户",
+        "clientSuccess": "客户成功智能体"
+      }
+    }
+  },
+  "perMonth": "/月",
+  "perSeat": "每个席位",
+  "recommended": "推荐",
+  "startTrial": "开始免费试用",
+  "getStarted": "立即开始",
+  "comparison": {
+    "title": "STRAŦUM 对比如何",
+    "subtitle": "看看我们与其他方案相比表现如何。",
+    "stratum": "STRATUM",
+    "competitor1": "企业级CRM套件",
+    "competitor2": "AI内容平台",
+    "competitor3": "广告自动化工具",
+    "capabilities": {
+      "strategicIntelligence": "战略智能",
+      "creativeGeneration": "创意生成",
+      "performanceAnalysis": "绩效分析",
+      "learningAdaptation": "学习与适应",
+      "executionRisk": "执行风险",
+      "multiClient": "原生多客户支持",
+      "startingPrice": "起始价格"
+    },
+    "values": {
+      "stratum": {
+        "strategicIntelligence": "11+ 个框架",
+        "creativeGeneration": "9个内容工具",
+        "performanceAnalysis": "跨渠道",
+        "learningAdaptation": "持续进行",
+        "executionRisk": "无（只读）",
+        "multiClient": "内置支持",
+        "startingPrice": "$29/mo"
+      },
+      "competitor1": {
+        "strategicIntelligence": "基础",
+        "creativeGeneration": "有限",
+        "performanceAnalysis": "以CRM为中心",
+        "learningAdaptation": "有限",
+        "executionRisk": "中等",
+        "multiClient": "--",
+        "startingPrice": "$800+/mo"
+      },
+      "competitor2": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "仅内容",
+        "performanceAnalysis": "--",
+        "learningAdaptation": "--",
+        "executionRisk": "无",
+        "multiClient": "--",
+        "startingPrice": "$39+/mo"
+      },
+      "competitor3": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "--",
+        "performanceAnalysis": "仅付费广告",
+        "learningAdaptation": "有限",
+        "executionRisk": "高",
+        "multiClient": "有限",
+        "startingPrice": "$2,000+/mo"
+      }
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "question": "30天免费试用如何运作？",
+        "answer": "每个套餐都包含30天免费试用。开始时无需信用卡。试用期间你可以完整使用所有功能。"
+      },
+      {
+        "question": "之后可以更换套餐吗？",
+        "answer": "当然可以。你可以随时在账单设置中升级或降级套餐，变更会立即生效。"
+      },
+      {
+        "question": "增加团队成员后会怎样？",
+        "answer": "每个套餐都包含固定数量的席位。如果你需要更多席位，可以升级到更高的套餐。所有团队成员都能完整访问每个AI智能体。"
+      },
+      {
+        "question": "你们如何处理我的数据？",
+        "answer": "我们采用行业标准的安全实践，包括HTTPS加密、组织之间的数据库级数据隔离以及行级访问控制。STRAŦUM 当前仍处于 Alpha 阶段，请查阅我们的隐私政策，了解完整的安全措施与限制说明。"
+      },
+      {
+        "question": "“智能优先于执行”是什么意思？",
+        "answer": "STRAŦUM 是一个只读型智能平台。我们帮助你思考、规划和制定战略，但不会代你执行营销活动。这意味着零执行风险，以及你对营销工作的完全掌控。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "准备开始更聪明地思考了吗？",
+    "subtitle": "加入那些已经用战略智能取代拍脑袋决策的营销人员。",
+    "button": "开始免费试用",
+    "benefits": {
+      "trial": "30天免费试用",
+      "noCreditCard": "无需信用卡",
+      "cancelAnytime": "随时取消"
+    }
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "comparison": {
+    "pageTitle": "Comparacion de marca",
+    "fourWayTitle": "Compara 4 variaciones de STRATUM",
+    "fourWayDescription": "Elige la variacion de STRATUM que mejor represente tu identidad de marca",
+    "cortexVsStratum": "CORTEX vs STRATUM",
+    "backToSingleView": "Volver a vista individual",
+    "singleView": "Vista individual",
+    "compareFourOptions": "Comparar 4 opciones de STRATUM"
+  },
+  "brands": {
+    "cortex": {
+      "subtitle": "INTELIGENCIA NEURONAL"
+    },
+    "stratum": {
+      "subtitle": "CAPAS ESTRATEGICAS"
+    }
+  },
+  "hero": {
+    "subtitle": "Inteligencia antes de ejecutar"
+  },
+  "cta": {
+    "startFreeTrial": "Empieza tu prueba gratis",
+    "watchDemo": "Ver demo",
+    "selectThisOption": "Elegir esta opcion",
+    "learnMore": "Mas informacion"
+  },
+  "valuePropositions": {
+    "strategicIntelligence": {
+      "title": "Inteligencia estrategica",
+      "description": "SWOT, las 5 Fuerzas de Porter, Business Model Canvas y 8 marcos probados mas"
+    },
+    "customerInsights": {
+      "title": "Insights de cliente",
+      "description": "Analisis profundo de personas, recorrido de compra e inteligencia de comportamiento"
+    },
+    "roiTracking": {
+      "title": "Seguimiento del ROI",
+      "description": "Analitica de rendimiento en tiempo real y recomendaciones de optimizacion impulsadas por IA"
+    }
+  },
+  "features": {
+    "sectionTitle": {
+      "cortex": "Tu cerebro de marketing, impulsado por IA",
+      "stratum": "Construye tu base estrategica"
+    },
+    "sectionSubtitle": {
+      "cortex": "Inteligencia neuronal para cada decision de marketing",
+      "stratum": "Capa a capa, construye una inteligencia de marketing completa"
+    },
+    "aiAgents": {
+      "title": "10 agentes de IA especializados",
+      "description": "Estrategia, Personas, Contenido, Analitica, Planificacion de campanas, seguimiento del ROI y mas"
+    },
+    "continuousLearning": {
+      "title": "Sistema de aprendizaje continuo",
+      "description": "Una IA que entiende mejor TU negocio con cada interaccion"
+    },
+    "zeroExecutionRisk": {
+      "title": "Cero riesgo de ejecucion",
+      "description": "Inteligencia e insights sin automatizar la ejecucion: tu sigues al mando"
+    }
+  },
+  "footer": {
+    "copyright": "2026 {{brandName}}.",
+    "privacyPolicy": "Politica de privacidad",
+    "termsConditions": "Terminos y condiciones",
+    "contact": "Contacto"
+  },
+  "detailedComparison": {
+    "title": "Comparacion detallada",
+    "criteria": {
+      "visualDistinction": "Distincion visual",
+      "matchesDialogueDna": "Encaja con el ADN de DIALOGUE",
+      "easyToType": "Facil de escribir",
+      "conceptualFit": "Ajuste conceptual",
+      "professionalFeel": "Sensacion profesional",
+      "recommendation": "Recomendacion"
+    },
+    "conceptualFitValues": {
+      "greekAlpha": "Alfa griega",
+      "cuttingLayers": "Cortando capas",
+      "topLayer": "Capa superior",
+      "multiLayer": "Multicapa"
+    },
+    "recommendations": {
+      "good": "Bien",
+      "best": "La mejor",
+      "great": "Muy buena",
+      "bold": "Atrevida"
+    },
+    "recommendedBrand": {
+      "title": "Recomendada: STRATUM",
+      "description": "La T con trazo horizontal representa a la perfeccion la idea de \"atravesar capas\" y encaja con el ADN visual de DIALOGUE (ambas usan una letra cruzada por una linea). Es impactante, coherente con el concepto de \"capas de inteligencia\" y destaca en el centro de la palabra."
+    }
+  },
+  "variationCard": {
+    "specialCharacter": "Caracter especial",
+    "colorPalette": "Paleta de color",
+    "gradientPreview": "Vista previa del degradado",
+    "inContext": "En contexto",
+    "url": "URL",
+    "tagline": "Tagline",
+    "positioning": "Posicionamiento",
+    "colors": {
+      "primary": "Principal",
+      "dark": "Oscuro",
+      "gold": "Dorado"
+    }
+  },
+  "splitView": {
+    "typography": "Tipografia",
+    "headingStyle": "Estilo de los titulos",
+    "bodyText": "El texto y las descripciones usan Inter con grosor regular para facilitar la lectura.",
+    "iconSymbol": "Simbolo del icono"
+  },
+  "guidelines": {
+    "similar": "similares",
+    "untitled": "Guia sin titulo",
+    "status": {
+      "archived": "Archivada",
+      "default": "Predeterminada",
+      "active": "Activa"
+    },
+    "activeCount": "{{count}} activas",
+    "clickToView": "Haz clic para ver",
+    "actions": {
+      "restore": "Restaurar"
+    },
+    "emptyStates": {
+      "noGuidelines": {
+        "title": "Todavia no hay guias de marca",
+        "description": "Crea tu primera guia de marca para definir la identidad de tu marca"
+      },
+      "noArchivedGuidelines": {
+        "title": "No hay guias archivadas",
+        "description": "Las guias archivadas apareceran aqui"
+      }
+    },
+    "alerts": {
+      "multipleActive": {
+        "title": "Varias guias activas",
+        "description": "Tienes {{count}} guias activas. Considera archivar las versiones antiguas para mantener la claridad."
+      }
+    },
+    "stats": {
+      "totalGuidelines": "Guias totales",
+      "activeGuidelines": "Guias activas",
+      "archivedGuidelines": "Guias archivadas"
+    },
+    "tabs": {
+      "active": "Activas",
+      "archived": "Archivadas",
+      "all": "Todas"
+    },
+    "view": {
+      "title": "Guias de marca",
+      "tabs": {
+        "overview": "Resumen",
+        "voice": "Voz y tono",
+        "visual": "Identidad visual",
+        "messaging": "Mensajes"
+      },
+      "sections": {
+        "toneOfVoice": "Tono de voz",
+        "personality": "Personalidad",
+        "writingStyle": "Estilo de escritura",
+        "doAndDont": "Que hacer y que evitar",
+        "brandVoice": "Voz de marca",
+        "colorPalette": "Paleta de color",
+        "typography": "Tipografia",
+        "imagery": "Guia de imagenes",
+        "tagline": "Tagline",
+        "valueProposition": "Propuesta de valor",
+        "keyMessages": "Mensajes clave",
+        "targetAudience": "Publico objetivo"
+      }
+    },
+    "forms": {
+      "strategy": {
+        "title": "Estrategia de marca",
+        "badge": "Estrategia",
+        "fields": {
+          "mission": {
+            "label": "Declaracion de mision",
+            "placeholder": "¿Cual es la mision de tu marca?"
+          },
+          "vision": {
+            "label": "Declaracion de vision",
+            "placeholder": "¿Cual es la vision a largo plazo de tu marca?"
+          },
+          "values": {
+            "label": "Valores principales",
+            "placeholder": "Anade un valor principal"
+          },
+          "positioning": {
+            "label": "Posicionamiento de marca",
+            "placeholder": "¿Como se posiciona tu marca en el mercado?"
+          },
+          "targetAudience": {
+            "label": "Publico objetivo",
+            "placeholder": "¿Quien es tu publico objetivo?"
+          },
+          "competitors": {
+            "label": "Competidores principales",
+            "placeholder": "Anade un competidor"
+          },
+          "differentiators": {
+            "label": "Diferenciadores clave",
+            "placeholder": "Anade un diferenciador"
+          }
+        }
+      },
+      "voice": {
+        "title": "Voz de marca",
+        "badge": "Voz",
+        "sections": {
+          "toneOfVoice": "Tono de voz",
+          "personality": "Rasgos de personalidad",
+          "writingStyle": "Estilo de escritura",
+          "doAndDont": "Que hacer y que evitar"
+        },
+        "fields": {
+          "toneAttributes": {
+            "label": "Atributos del tono",
+            "placeholder": "Anade un atributo del tono (por ejemplo: cercano, profesional)"
+          },
+          "toneDescription": {
+            "label": "Descripcion del tono",
+            "placeholder": "Describe el tono general de tu marca"
+          },
+          "personalityTraits": {
+            "label": "Rasgos de personalidad",
+            "placeholder": "Anade un rasgo de personalidad"
+          },
+          "brandPersona": {
+            "label": "Persona de la marca",
+            "placeholder": "Si tu marca fuera una persona, ¿como la describirias?"
+          },
+          "writingPrinciples": {
+            "label": "Principios de escritura",
+            "placeholder": "Anade un principio de escritura"
+          },
+          "grammarPreferences": {
+            "label": "Preferencias gramaticales",
+            "placeholder": "Cualquier preferencia gramatical especifica (por ejemplo, contracciones, coma Oxford)"
+          },
+          "vocabularyGuidelines": {
+            "label": "Guia de vocabulario",
+            "placeholder": "Criterios para el uso del vocabulario"
+          },
+          "dos": {
+            "label": "Que hacer",
+            "placeholder": "Anade algo que tu marca deberia hacer"
+          },
+          "donts": {
+            "label": "Que evitar",
+            "placeholder": "Anade algo que tu marca deberia evitar"
+          }
+        }
+      },
+      "messaging": {
+        "title": "Mensajes",
+        "badge": "Mensajes",
+        "fields": {
+          "tagline": {
+            "label": "Tagline",
+            "placeholder": "El tagline o eslogan de tu marca"
+          },
+          "valueProposition": {
+            "label": "Propuesta de valor",
+            "placeholder": "¿Que valor unico ofrece tu marca?"
+          },
+          "elevatorPitch": {
+            "label": "Elevator pitch",
+            "placeholder": "Una descripcion breve y convincente de tu marca"
+          },
+          "keyMessages": {
+            "label": "Mensajes clave",
+            "placeholder": "Anade un mensaje clave"
+          },
+          "proofPoints": {
+            "label": "Pruebas de respaldo",
+            "placeholder": "Anade evidencias que respalden tus mensajes"
+          },
+          "callToAction": {
+            "label": "Llamada principal a la accion",
+            "placeholder": "Tu llamada principal a la accion"
+          }
+        }
+      },
+      "visual": {
+        "title": "Identidad visual",
+        "badge": "Visual",
+        "fields": {
+          "primaryColors": {
+            "label": "Colores principales",
+            "placeholder": "Anade un color principal (por ejemplo: #FF5733)"
+          },
+          "secondaryColors": {
+            "label": "Colores secundarios",
+            "placeholder": "Anade un color secundario"
+          },
+          "accentColors": {
+            "label": "Colores de acento",
+            "placeholder": "Anade un color de acento"
+          },
+          "primaryFont": {
+            "label": "Tipografia principal",
+            "placeholder": "Fuente principal (por ejemplo: Inter, Roboto)"
+          },
+          "secondaryFont": {
+            "label": "Tipografia secundaria",
+            "placeholder": "Fuente secundaria"
+          },
+          "fontSizeScale": {
+            "label": "Escala tipografica",
+            "placeholder": "Escala o sistema de tamanos de fuente"
+          },
+          "logoUsage": {
+            "label": "Guia de uso del logotipo",
+            "placeholder": "Instrucciones para usar el logotipo"
+          },
+          "imageryStyle": {
+            "label": "Estilo de imagenes",
+            "placeholder": "Describe el estilo visual que usa tu marca"
+          },
+          "iconStyle": {
+            "label": "Estilo de iconos",
+            "placeholder": "Describe el estilo de los iconos"
+          },
+          "photographyGuidelines": {
+            "label": "Guia de fotografia",
+            "placeholder": "Instrucciones para la fotografia de marca"
+          }
+        }
+      }
+    }
+  },
+  "editor": {
+    "title": "Editor del kit de marca white label",
+    "description": "Personaliza la plataforma con la identidad de tu marca",
+    "previewMode": "Modo de vista previa",
+    "export": "Exportar",
+    "import": "Importar",
+    "sections": {
+      "companyIdentity": "Identidad de la empresa",
+      "colorPalette": "Paleta de color",
+      "typography": "Tipografia",
+      "uiPreferences": "Preferencias de interfaz",
+      "customCss": "CSS personalizado (avanzado)"
+    },
+    "fields": {
+      "companyName": "Nombre de la empresa",
+      "logoUrl": "URL del logotipo",
+      "primaryColor": "Color principal",
+      "secondaryColor": "Color secundario",
+      "accentColor": "Color de acento",
+      "headingFont": "Fuente de encabezados",
+      "bodyFont": "Fuente de cuerpo",
+      "borderRadius": "Radio del borde",
+      "contentDensity": "Densidad de contenido"
+    },
+    "placeholders": {
+      "companyName": "Nombre de tu empresa",
+      "logoUrl": "https://example.com/logo.png",
+      "customCss": "/* Anade aqui CSS personalizado */\n.your-class {\n  property: value;\n}"
+    },
+    "options": {
+      "borderRadius": {
+        "none": "Ninguno (cuadrado)",
+        "small": "Pequeno",
+        "medium": "Mediano",
+        "large": "Grande",
+        "extraLarge": "Muy grande"
+      },
+      "density": {
+        "comfortable": "Comoda",
+        "compact": "Compacta",
+        "spacious": "Amplia"
+      }
+    },
+    "buttons": {
+      "resetToDefault": "Restablecer valores",
+      "preview": "Vista previa",
+      "saveAndApply": "Guardar y aplicar"
+    }
+  }
+}

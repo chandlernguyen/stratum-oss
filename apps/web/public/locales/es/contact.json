@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Contacto",
+    "subtitle": "Línea directa con el fundador. Tu feedback da forma a STRAŦUM."
+  },
+  "getInTouch": {
+    "title": "Hablemos",
+    "description": "Creado por un fundador independiente centrado en ofrecer inteligencia de marketing de nivel enterprise sin la complejidad enterprise. El registro esta abierto: empieza gratis hoy.",
+    "wantAccess": "¿Listo para empezar?",
+    "requestInvitation": "Crear cuenta gratis",
+    "alphaUsers": "Usuarios alpha:",
+    "alphaUsersNote": "Usa el feedback dentro de la app cuando hayas iniciado sesión.",
+    "everyoneElse": "Todos los demás:",
+    "everyoneElseNote": "Correo para consultas generales."
+  },
+  "contactMethods": {
+    "title": "Canales de contacto",
+    "inAppFeedback": {
+      "title": "Feedback dentro de la app",
+      "badge": "Para usuarios alpha",
+      "description": "Si has iniciado sesión en STRAŦUM:",
+      "note": "Es la mejor opción para reportar errores y solicitar funciones. El contexto de tu cuenta permite resolverlo más rápido.",
+      "cta": "Enviar feedback"
+    },
+    "email": {
+      "title": "Correo electrónico",
+      "badge": "Para todos",
+      "description": "Para preguntas generales, sugerencias de funciones, colaboraciones o cualquier consulta.",
+      "wantAccess": "¿Quieres acceder?",
+      "requestInvitation": "Solicitar una invitación"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "Conecta con el fundador y sigue el desarrollo de STRAŦUM",
+      "cta": "Conectar en LinkedIn"
+    }
+  },
+  "responseTime": {
+    "title": "Tiempo de respuesta y disponibilidad",
+    "commitment": "Compromiso del fundador:",
+    "responseNote": "Cada mensaje se lee y responde personalmente en 1-2 días laborables (los sprints de desarrollo pueden ampliar ese plazo a 3-4 días).",
+    "timezone": "Ubicado en la zona horaria del Pacífico de EE. UU. Horario laboral: de 9:00 a 17:00 PST, de lunes a viernes."
+  },
+  "partnership": {
+    "title": "Colaboraciones y medios",
+    "description": "Para colaboraciones estratégicas o consultas de prensa, escribe a",
+    "subjectNote": "con \"Partnership\" o \"Media\" en el asunto."
+  }
+}

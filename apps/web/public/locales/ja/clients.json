@@ -1,0 +1,68 @@
+{
+  "title": "クライアント",
+  "subtitle": "代理店のクライアントポートフォリオを管理",
+  "badge": "クライアントポートフォリオ",
+  "addClient": "クライアントを追加",
+  "addFirstClient": "最初のクライアントを追加",
+  "search": {
+    "placeholder": "クライアント名や業界で検索..."
+  },
+  "filters": {
+    "label": "ステータスで絞り込む",
+    "active": "稼働中",
+    "archived": "アーカイブ済み",
+    "all": "すべてのクライアント"
+  },
+  "card": {
+    "noIndustry": "業界未設定",
+    "archivedBadge": "アーカイブ済み",
+    "archivedOn": "アーカイブ",
+    "reason": "理由: {{reason}}",
+    "campaigns": "キャンペーン",
+    "campaignsCount": "{{active}} / {{total}}",
+    "clientSince": "取引開始",
+    "restoreClient": "クライアントを復元",
+    "dashboard": "ダッシュボード",
+    "viewCampaignsAriaLabel": "{{clientName}}のキャンペーンを見る"
+  },
+  "status": {
+    "active": "稼働中",
+    "paused": "一時停止",
+    "churned": "解約済み"
+  },
+  "emptyState": {
+    "noArchived": {
+      "title": "アーカイブ済みクライアントはありません",
+      "description": "アクティブなクライアントをアーカイブすると、ここに表示されます",
+      "viewActive": "アクティブなクライアントを見る"
+    },
+    "noClients": {
+      "title": "まだクライアントがいません",
+      "description": "最初のクライアントを追加して、AIインサイトの活用を始めましょう"
+    },
+    "noResults": {
+      "title": "クライアントが見つかりません",
+      "description": "検索条件を調整してみてください"
+    }
+  },
+  "actions": {
+    "edit": "編集",
+    "archive": "アーカイブ",
+    "restore": "復元",
+    "delete": "削除"
+  },
+  "toast": {
+    "archiveSuccess": "クライアントをアーカイブしました",
+    "archiveFailed": "クライアントをアーカイブできませんでした",
+    "deleteSuccess": "クライアントを削除しました",
+    "deleteFailed": "クライアントを削除できませんでした",
+    "restoreSuccess": "クライアントを復元しました",
+    "restoreFailed": "クライアントを復元できませんでした"
+  },
+  "onboarding": {
+    "industry": "業界",
+    "industryPlaceholder": "クライアントの業界を選択",
+    "companySize": "企業規模",
+    "companySizePlaceholder": "企業規模を選択"
+  }
+}

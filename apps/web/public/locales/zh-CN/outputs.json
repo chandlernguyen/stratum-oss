@@ -1,0 +1,336 @@
+{
+  "title": "资料库",
+  "subtitle": "您的营销智能成果",
+  "savedOutputs": {
+    "title": "已保存的成果",
+    "description": "浏览和管理您已保存的智能体成果。可在不同智能体之间跨工作流使用。"
+  },
+  "header": {
+    "badge": "智能资料库",
+    "title": "我的成果",
+    "subtitle": "所有 AI 生成的洞察和内容集中在一处",
+    "groupShort": "分组",
+    "select": "选择",
+    "cancel": "取消",
+    "exportAll": "全部导出",
+    "exportFiltered": "导出筛选结果",
+    "exportShort": "导出"
+  },
+  "bulk": {
+    "itemsSelected": "已选择 {{count}} 个项目",
+    "itemsSelected_other": "已选择 {{count}} 个项目",
+    "exportSelected": "导出所选项",
+    "archiveSelected": "归档所选项"
+  },
+  "approved": {
+    "title": "已审批的成果",
+    "subtitle": "所有已审批内容的权威来源，随时可用或发布。",
+    "subtitleWithClient": "{{clientName}} 的已审批内容，可直接使用或发布。",
+    "searchPlaceholder": "搜索已审批的成果...",
+    "filterByType": "按类型筛选",
+    "allTypes": "所有类型",
+    "round": "第 {{round}} 轮",
+    "stats": {
+      "totalApproved": "审批总数",
+      "thisMonth": "本月",
+      "contentTypes": "内容类型",
+      "avgRounds": "平均轮次"
+    },
+    "empty": {
+      "title": "暂无已审批的成果",
+      "description": "成果经过审批工作流的审核和批准后将显示在此处。",
+      "noMatch": "没有符合筛选条件的成果。请尝试调整搜索词或筛选条件。"
+    },
+    "agentTypes": {
+      "businessStrategy": "商业战略",
+      "customerPersona": "客户画像",
+      "marketingStrategy": "营销战略",
+      "content": "内容",
+      "campaign": "营销活动",
+      "performance": "绩效",
+      "competitiveIntel": "竞争情报",
+      "clientSuccess": "客户成功"
+    }
+  },
+  "dialog": {
+    "description": "查看和操作您已保存的 AI 生成内容",
+    "tabs": {
+      "content": "内容",
+      "comments": "评论",
+      "history": "历史"
+    },
+    "fields": {
+      "title": "标题"
+    },
+    "generatedBy": "由 {{agent}} 智能体生成",
+    "actions": {
+      "edit": "编辑",
+      "cancel": "取消",
+      "save": "保存更改",
+      "close": "关闭",
+      "copy": "复制",
+      "copied": "已复制！",
+      "export": "导出",
+      "exportPDF": "导出为 PDF",
+      "exportText": "导出为文本",
+      "exportJSON": "导出为 JSON"
+    },
+    "toast": {
+      "pdfStarted": "PDF 导出已开始，请查看您的下载内容",
+      "pdfError": "PDF 导出失败",
+      "textSuccess": "文本文件导出成功",
+      "textError": "文本文件导出失败",
+      "jsonSuccess": "JSON 导出成功",
+      "jsonError": "JSON 导出失败",
+      "saveSuccess": "成果更新成功",
+      "saveError": "保存更改失败"
+    }
+  },
+  "filters": {
+    "byCategory": "按类别筛选",
+    "all": "所有成果",
+    "strategic": "战略",
+    "customer": "客户",
+    "content": "内容",
+    "performance": "绩效",
+    "archived": "已归档"
+  },
+  "list": {
+    "loading": "正在加载成果...",
+    "empty": "暂无成果",
+    "emptyTitle": "暂无已保存的成果",
+    "emptyTitleFiltered": "暂无{{filterType}}类成果",
+    "emptyDescription": "开始与智能体对话来生成和保存成果。AI 生成的洞察将显示在此处。",
+    "emptyDescriptionFiltered": "使用相关智能体生成{{filterType}}类成果。",
+    "emptyHint": "试试战略或内容智能体，快速上手",
+    "noResults": "未找到与搜索匹配的成果",
+    "error": "加载成果失败",
+    "errorTitle": "成果加载出错",
+    "errorDescription": "无法加载您的成果，请重试。",
+    "retry": "重试",
+    "similarItems": "{{count}} 个相似项目",
+    "similarStrategies": "{{count}} 个相似战略"
+  },
+  "actions": {
+    "export": "导出",
+    "exportAll": "全部导出",
+    "archive": "归档",
+    "restore": "恢复",
+    "delete": "删除",
+    "edit": "编辑",
+    "view": "查看",
+    "duplicate": "复制",
+    "bulkSelect": "批量选择",
+    "selectAll": "全选",
+    "deselectAll": "取消全选"
+  },
+  "grouping": {
+    "enable": "按相似分组",
+    "disable": "取消分组",
+    "similarItems": "{{count}} 个相似项目",
+    "showAll": "查看全部"
+  },
+  "sort": {
+    "label": "排序方式",
+    "date": "日期",
+    "title": "标题",
+    "newest": "最新优先",
+    "oldest": "最早优先",
+    "aToZ": "标题 (A-Z)",
+    "zToA": "标题 (Z-A)"
+  },
+  "search": {
+    "placeholder": "搜索成果..."
+  },
+  "card": {
+    "generatedBy": "由 {{agent}} 生成",
+    "createdOn": "创建于 {{date}}",
+    "viewDetails": "查看详情",
+    "markActive": "标记为活跃",
+    "setActive": "设为活跃",
+    "active": "活跃",
+    "archived": "已归档",
+    "copy": "复制",
+    "export": "导出",
+    "archive": "归档",
+    "delete": "删除",
+    "restore": "恢复"
+  },
+  "time": {
+    "justNow": "刚刚",
+    "hoursAgo": "{{count}}小时前",
+    "yesterday": "昨天"
+  },
+  "activity": {
+    "title": "活动历史",
+    "loading": "正在加载活动记录...",
+    "error": "加载活动历史失败",
+    "empty": "暂无活动记录",
+    "unknownActor": "未知",
+    "labels": {
+      "created": "创建了此项",
+      "updated": "更新了此项",
+      "archived": "归档了此项",
+      "restored": "恢复了此项",
+      "deleted": "删除了此项",
+      "approval_requested": "请求了审批",
+      "approved": "审批了此项",
+      "rejected": "驳回了此项",
+      "changes_requested": "请求了修改",
+      "published": "发布了此项",
+      "unpublished": "取消发布了此项",
+      "viewed": "查看了此项",
+      "exported": "导出了此项",
+      "shared": "分享了此项"
+    }
+  },
+  "editors": {
+    "common": {
+      "advancedSettings": "高级设置",
+      "completeJson": "完整 JSON（高级）"
+    },
+    "analytics": {
+      "reportInfo": "分析报告信息",
+      "reportTitle": "报告标题",
+      "reportTitlePlaceholder": "输入报告标题",
+      "analyticsSummary": "分析摘要",
+      "analyticsSummaryPlaceholder": "分析洞察的简要概述",
+      "reportPeriod": "报告周期",
+      "reportPeriodPlaceholder": "2025年第四季度、最近30天等",
+      "targetAudience": "目标受众",
+      "targetAudiencePlaceholder": "中小企业、代理机构等",
+      "tabs": {
+        "keyMetrics": "关键指标",
+        "performance": "绩效",
+        "traffic": "流量",
+        "insights": "洞察"
+      },
+      "pageViews": "页面浏览量",
+      "conversionRate": "转化率 (%)",
+      "bounceRate": "跳出率 (%)",
+      "avgSession": "平均会话时长",
+      "performanceOverview": "绩效概览",
+      "performanceOverviewPlaceholder": "绩效分析详情",
+      "kpis": "关键绩效指标",
+      "kpisPlaceholder": "KPI 详情与度量",
+      "growthTrends": "增长趋势",
+      "growthTrendsPlaceholder": "增长趋势分析",
+      "trafficAnalysis": "流量分析",
+      "trafficAnalysisPlaceholder": "流量来源与分析",
+      "channelPerformance": "渠道绩效",
+      "channelPerformancePlaceholder": "渠道绩效数据",
+      "userBehavior": "用户行为",
+      "userBehaviorPlaceholder": "用户行为洞察",
+      "keyInsights": "关键洞察（逗号分隔）",
+      "keyInsightsPlaceholder": "流量环比增长25%，移动端转化率显著提升",
+      "recommendations": "建议（逗号分隔）",
+      "recommendationsPlaceholder": "优化移动端结账流程，增加社交媒体广告投放",
+      "actionItems": "行动项（逗号分隔）",
+      "actionItemsPlaceholder": "对新落地页设计进行 A/B 测试，为移动端设置转化追踪"
+    },
+    "content": {
+      "portfolioInfo": "内容组合信息",
+      "contentInfo": "内容信息",
+      "campaignName": "活动名称",
+      "campaignNamePlaceholder": "2025年节日营销活动",
+      "contentSummary": "内容摘要",
+      "contentSummaryPlaceholder": "内容策略与核心信息概览",
+      "targetAudience": "目标受众",
+      "targetAudiencePlaceholder": "中小企业、B2B 决策者",
+      "contentTheme": "内容主题",
+      "contentThemePlaceholder": "职业成长、创新",
+      "theme": "主题/话题",
+      "themePlaceholder": "产品发布、季节性等",
+      "tabs": {
+        "socialMedia": "社交媒体",
+        "email": "邮件",
+        "advertising": "广告",
+        "longForm": "长文"
+      },
+      "socialPosts": "社交媒体帖子（JSON 数组）",
+      "hashtagStrategy": "标签策略",
+      "hashtagStrategyPlaceholder": "标签策略与建议",
+      "contentCalendar": "内容日历",
+      "contentCalendarPlaceholder": "内容排期与日历规划",
+      "totalPosts": "帖子总数",
+      "contentPieces": "内容条数",
+      "emailTemplates": "邮件模板（JSON 数组）",
+      "subjectLines": "邮件主题",
+      "subjectLinesPlaceholder": "用这5个策略提升您的 ROI\n别错过：限时优惠\n您的营销策略需要这个更新",
+      "emailSequences": "邮件序列",
+      "emailSequencesPlaceholder": "邮件序列策略与自动化流程",
+      "totalEmailTemplates": "邮件模板总数",
+      "adCopy": "广告文案（JSON 数组）",
+      "headlines": "标题（每行一个）",
+      "headlinesPlaceholder": "立即提升您的营销 ROI\nB2B 成功的终极指南\n发掘隐藏的增长机会",
+      "creativeAssets": "创意素材",
+      "creativeAssetsPlaceholder": "创意素材描述、图片需求、设计规范",
+      "totalAdVariants": "广告变体总数",
+      "blogPosts": "博客文章",
+      "blogPostsPlaceholder": "博客主题、大纲与内容策略",
+      "articles": "文章",
+      "articlesPlaceholder": "长篇文章与思想领导力内容",
+      "videoScripts": "视频脚本",
+      "videoScriptsPlaceholder": "视频内容脚本与分镜",
+      "caseStudies": "案例研究",
+      "caseStudiesPlaceholder": "客户成功案例与案例研究模板"
+    },
+    "generic": {
+      "editContent": "编辑{{agentType}}内容",
+      "tabs": {
+        "structured": "结构化",
+        "json": "JSON"
+      },
+      "noEditableFields": "未找到可编辑的字段",
+      "switchToJson": "切换到 JSON 模式",
+      "rawJsonContent": "原始 JSON 内容",
+      "enterValidJson": "请输入有效的 JSON...",
+      "jsonError": "JSON 错误"
+    },
+    "strategy": {
+      "campaignInfo": "活动信息",
+      "campaignName": "活动名称",
+      "tabs": {
+        "messaging": "信息传递",
+        "channels": "渠道",
+        "budget": "预算",
+        "execution": "执行"
+      }
+    },
+    "roiBudget": {
+      "financialReportInfo": "财务报告信息",
+      "tabs": {
+        "budget": "预算",
+        "roiAnalysis": "ROI 分析",
+        "performance": "绩效",
+        "projections": "预测"
+      }
+    }
+  },
+  "strategyCard": {
+    "active": "活跃",
+    "archived": "已归档",
+    "archivedOn": "归档于",
+    "reason": "原因",
+    "alreadyActive": "已处于活跃状态",
+    "markAsActive": "标记为活跃",
+    "copyContent": "复制内容",
+    "viewDetails": "查看详情",
+    "archive": "归档",
+    "deletePermanently": "永久删除",
+    "reach": "触达",
+    "budget": "预算",
+    "priority": "优先级",
+    "created": "创建时间",
+    "activate": "激活"
+  },
+  "comparison": {
+    "title": "战略对比",
+    "tabs": {
+      "overview": "概览",
+      "messaging": "信息传递",
+      "channels": "渠道",
+      "budget": "预算"
+    }
+  }
+}

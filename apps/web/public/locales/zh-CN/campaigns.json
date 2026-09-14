@@ -1,0 +1,505 @@
+{
+  "title": "营销活动",
+  "subtitle": "管理和追踪您的营销活动",
+  "newCampaign": {
+    "pageTitle": "新建活动",
+    "permissionTitle": "活动创建",
+    "title": "创建新活动",
+    "subtitle": "设置您的营销活动，让 AI 智能助手助您取得成功",
+    "templatesTitle": "快速启动模板",
+    "formTitle": "活动详情",
+    "formDescription": "定义您的活动参数，AI 将帮助优化以实现最佳效果",
+    "createButton": "创建活动",
+    "creating": "创建中...",
+    "fields": {
+      "name": "活动名称",
+      "namePlaceholder": "例如：2026年第一季度产品发布",
+      "description": "描述",
+      "descriptionPlaceholder": "简要描述您的活动目标和方法...",
+      "objectives": "活动目标",
+      "objectivesPlaceholder": "您想达成什么目标？请具体说明指标和 KPI...",
+      "budget": "预算 ($)",
+      "budgetPlaceholder": "10000",
+      "targetAudience": "目标受众",
+      "targetAudiencePlaceholder": "描述您理想客户的人口统计特征、兴趣和行为...",
+      "startDate": "开始日期",
+      "endDate": "结束日期",
+      "selectStartDate": "选择开始日期",
+      "selectEndDate": "选择结束日期"
+    },
+    "templates": {
+      "quickWin": {
+        "title": "速赢活动",
+        "description": "抓住唾手可得的机会，快速获得成效",
+        "presetName": "速赢活动",
+        "presetObjectives": "通过策略性优化实现即时 ROI 提升"
+      },
+      "brandAwareness": {
+        "title": "品牌知名度",
+        "description": "提升市场曝光度和触达范围",
+        "presetName": "品牌知名度活动",
+        "presetObjectives": "在目标人群中将品牌认知度提升 30%"
+      },
+      "leadGeneration": {
+        "title": "线索获取",
+        "description": "获取并培育潜在客户",
+        "presetName": "线索获取活动",
+        "presetObjectives": "每月生成 500 条合格线索"
+      }
+    }
+  },
+  "emptyState": {
+    "title": "准备好整理您的情报了吗？",
+    "description": "营销活动帮助您按业务计划整理情报产出。先完成关键情报收集，才能更好地规划活动。",
+    "readinessLabel": "情报就绪度",
+    "readinessCount": "{{total}} 项中已完成 {{completed}} 项",
+    "readyMessage": "您已拥有足够的情报来创建活动",
+    "notReadyMessage": "请先完成至少 2 项情报产出以开始使用",
+    "completeBadge": "已完成",
+    "createFirst": "创建您的第一个活动",
+    "continueGathering": "继续收集情报",
+    "startGathering": "开始收集情报",
+    "createAnyway": "仍然创建活动",
+    "whyGatherTitle": "为什么要先收集情报？",
+    "whyGatherDescription": "营销活动用于整理您的战略洞察。准备好商业战略、用户画像和营销计划，确保您的活动从第一天起就以数据为驱动。",
+    "totalOutputsReady": "可用于整理的情报产出总数",
+    "viewAllIntelligence": "查看全部情报",
+    "prerequisites": {
+      "strategy": {
+        "title": "商业战略",
+        "description": "明确您的市场定位和竞争优势"
+      },
+      "persona": {
+        "title": "客户画像",
+        "description": "了解您的目标客户及其痛点"
+      },
+      "marketing": {
+        "title": "营销策略",
+        "description": "确定渠道组合和信息传达框架"
+      },
+      "content": {
+        "title": "内容原型",
+        "description": "创建初步的活动素材和信息"
+      }
+    }
+  },
+  "analytics": {
+    "error": {
+      "title": "加载分析数据失败",
+      "message": "{{message}}"
+    },
+    "empty": {
+      "title": "暂无分析数据",
+      "description": "活动开始运行后将提供分析数据"
+    },
+    "cards": {
+      "budgetUtilized": "已用预算",
+      "budgetOf": "{{total}} 中已用 {{spent}}",
+      "conversionRate": "转化率",
+      "conversionsFromReach": "{{reach}} 次触达中产生 {{conversions}} 次转化",
+      "engagement": "互动率",
+      "ctr": "CTR {{rate}}%",
+      "performance": "表现",
+      "impressions": "{{count}} 次曝光"
+    },
+    "budget": {
+      "title": "预算分析",
+      "subtitle": "支出模式与预测",
+      "dailySpendRate": "日均支出速率",
+      "perDay": "{{amount}}/天",
+      "projectedTotalSpend": "预计总支出",
+      "budgetBurnRate": "预算消耗速率",
+      "daysToEnd": "预算耗尽剩余天数",
+      "daysCount": "{{days}} 天",
+      "costPerConversion": "单次转化成本"
+    },
+    "progress": {
+      "title": "活动进度",
+      "subtitle": "时间线与内容概览",
+      "campaignProgress": "活动进度",
+      "daysActive": "已运行 {{days}} 天",
+      "daysLeft": "剩余 {{days}} 天",
+      "strategies": "策略",
+      "personas": "用户画像",
+      "activeOutputs": "活跃产出",
+      "topChannel": "最佳渠道",
+      "channelsConfigured": "已配置 {{count}} 个渠道"
+    },
+    "alerts": {
+      "title": "需要关注",
+      "overBudget": "活动已超出预算 ({{percentage}}%)",
+      "underperforming": "活动表现为{{trend}}"
+    },
+    "generated": "分析生成时间：{{date}}",
+    "performanceLevels": {
+      "excellent": "优秀",
+      "good": "良好",
+      "average": "一般",
+      "below_average": "低于平均"
+    },
+    "burnRates": {
+      "low": "低",
+      "moderate": "适中",
+      "high": "高",
+      "very_high": "非常高"
+    }
+  },
+  "list": {
+    "title": "全部活动",
+    "empty": "暂无活动",
+    "emptyDescription": "创建您的第一个活动，开始追踪营销效果",
+    "createFirst": "创建您的第一个活动",
+    "pageTitle": "营销活动",
+    "pageSubtitle": "管理和监控您的营销活动",
+    "managementBadge": "活动管理",
+    "newCampaign": "新建活动",
+    "filterByStatus": "按状态筛选",
+    "createdOn": "创建于 {{date}}",
+    "noData": "暂无数据",
+    "metricsCount_one": "{{count}} 项指标",
+    "metricsCount_other": "{{count}} 项指标",
+    "fields": {
+      "budget": "预算",
+      "type": "类型",
+      "duration": "时长",
+      "notSet": "未设置",
+      "notScheduled": "未安排"
+    },
+    "emptyStates": {
+      "noActive": {
+        "title": "暂无进行中的活动",
+        "description": "您有 {{count}} 个草稿活动可以启动",
+        "viewDrafts": "查看草稿"
+      },
+      "noCampaigns": {
+        "title": "暂无活动",
+        "description": "先构建战略情报，然后整理为营销活动",
+        "startStrategy": "从战略开始",
+        "createCampaign": "创建活动"
+      },
+      "noPlanned": {
+        "title": "暂无计划中的活动",
+        "description": "使用活动规划智能助手生成活动计划并保存，即可在此处查看",
+        "generatePlans": "生成活动计划"
+      },
+      "noPaused": {
+        "title": "暂无已暂停的活动",
+        "descriptionWithActive": "您有 {{count}} 个进行中的活动",
+        "descriptionEmpty": "暂停进行中的活动后，将在此处显示",
+        "viewActive": "查看进行中的活动"
+      },
+      "noDraft": {
+        "title": "暂无草稿活动",
+        "description": "您有 {{count}} 个进行中的活动"
+      },
+      "noCompleted": {
+        "title": "暂无已完成的活动",
+        "description": "您有 {{count}} 个进行中的活动"
+      },
+      "generic": {
+        "title": "暂无{{status}}活动",
+        "description": "先构建情报产出，然后创建活动进行整理",
+        "buildIntelligence": "构建情报"
+      }
+    }
+  },
+  "status": {
+    "draft": "草稿",
+    "active": "进行中",
+    "planned": "计划中",
+    "paused": "已暂停",
+    "completed": "已完成",
+    "archived": "已归档"
+  },
+  "form": {
+    "create": "创建活动",
+    "edit": "编辑活动",
+    "fields": {
+      "name": "活动名称",
+      "namePlaceholder": "输入活动名称",
+      "description": "描述",
+      "descriptionPlaceholder": "描述活动目标和策略",
+      "startDate": "开始日期",
+      "endDate": "结束日期",
+      "budget": "预算",
+      "budgetPlaceholder": "输入预算金额",
+      "status": "状态",
+      "channels": "渠道",
+      "objectives": "活动目标",
+      "targetAudience": "目标受众"
+    },
+    "validation": {
+      "nameRequired": "活动名称为必填项",
+      "startDateRequired": "开始日期为必填项",
+      "endDateAfterStart": "结束日期必须晚于开始日期"
+    }
+  },
+  "detail": {
+    "pageTitle": "活动详情",
+    "overview": "概览",
+    "performance": "表现",
+    "assets": "资产",
+    "timeline": "时间线",
+    "settings": "设置",
+    "notFound": "未找到该活动",
+    "backToCampaigns": "返回活动列表",
+    "aiAgents": {
+      "title": "AI 智能助手",
+      "description": "访问此活动的专属 AI 智能助手",
+      "agents": {
+        "strategy": {
+          "name": "策略助手",
+          "description": "战略规划与 SWOT 分析"
+        },
+        "persona": {
+          "name": "画像助手",
+          "description": "客户画像与旅程映射"
+        },
+        "content": {
+          "name": "内容助手",
+          "description": "内容创作与优化"
+        },
+        "analytics": {
+          "name": "分析助手",
+          "description": "效果追踪与洞察分析"
+        }
+      }
+    },
+    "collaboration": {
+      "discussion": {
+        "title": "讨论",
+        "description": "与团队就此活动进行协作"
+      },
+      "tasks": {
+        "title": "任务",
+        "description": "分配和追踪此活动的工作"
+      }
+    }
+  },
+  "metrics": {
+    "impressions": "曝光量",
+    "clicks": "点击量",
+    "conversions": "转化量",
+    "spend": "支出",
+    "ctr": "CTR",
+    "cpc": "CPC",
+    "cpa": "CPA",
+    "roas": "ROAS",
+    "roi": "ROI"
+  },
+  "actions": {
+    "create": "创建活动",
+    "edit": "编辑",
+    "editDetails": "编辑详情",
+    "duplicate": "复制",
+    "archive": "归档",
+    "delete": "删除",
+    "pause": "暂停",
+    "resume": "恢复",
+    "export": "导出",
+    "viewDetails": "查看详情",
+    "save": "保存",
+    "saveChanges": "保存更改",
+    "cancel": "取消"
+  },
+  "filters": {
+    "all": "全部活动",
+    "active": "进行中",
+    "draft": "草稿",
+    "completed": "已完成",
+    "search": "搜索活动...",
+    "dateRange": "日期范围",
+    "channel": "渠道"
+  },
+  "channels": {
+    "social": "社交媒体",
+    "email": "电子邮件",
+    "paid": "付费广告",
+    "seo": "SEO",
+    "content": "内容营销",
+    "events": "活动",
+    "pr": "PR",
+    "other": "其他"
+  },
+  "confirmDelete": {
+    "title": "删除活动",
+    "message": "确定要删除此活动吗？此操作无法撤消。",
+    "confirm": "删除",
+    "cancel": "取消"
+  },
+  "campaignTypes": {
+    "brand_awareness": "品牌知名度",
+    "lead_generation": "线索获取",
+    "product_launch": "产品发布",
+    "seasonal_promotion": "季节性促销",
+    "content_marketing": "内容营销",
+    "email_nurture": "邮件培育",
+    "social_media": "社交媒体",
+    "event_promotion": "活动推广",
+    "customer_retention": "客户留存",
+    "referral_program": "推荐计划",
+    "other": "其他"
+  },
+  "marketingChannels": {
+    "email": "邮件营销",
+    "social": "社交媒体",
+    "content": "内容营销",
+    "paid_ads": "付费广告",
+    "seo": "SEO",
+    "events": "活动",
+    "webinars": "线上研讨会",
+    "influencer": "KOL 营销",
+    "affiliate": "联盟营销",
+    "direct_mail": "直邮"
+  },
+  "priorityLevels": {
+    "low": "低",
+    "medium": "中",
+    "high": "高",
+    "critical": "紧急"
+  },
+  "statusActions": {
+    "activate": "激活",
+    "activateCampaign": "激活活动",
+    "pause": "暂停",
+    "complete": "完成",
+    "resume": "恢复",
+    "archive": "归档"
+  },
+  "performance": {
+    "mapping": {
+      "title": "映射活动",
+      "metricsFound": "在 CSV 中找到 {{count}} 项指标",
+      "exactMatches": "{{count}} 项精确匹配",
+      "fuzzyMatches": "{{count}} 项模糊匹配",
+      "unmapped": "{{count}} 项未映射",
+      "description": "在导入指标前，请检查并确认活动映射",
+      "table": {
+        "csvCampaign": "CSV 活动名称",
+        "matchStatus": "匹配状态",
+        "targetCampaign": "目标活动"
+      },
+      "importSelected": "导入选中的指标",
+      "importing": "导入中...",
+      "successToast": "成功导入 {{count}} 项指标",
+      "errorToast": "指标导入失败"
+    },
+    "selector": {
+      "placeholder": "搜索活动...",
+      "selectCampaign": "选择活动",
+      "noCampaignsFound": "未找到活动",
+      "createNew": "创建新活动",
+      "exactMatch": "精确匹配",
+      "fuzzyMatch": "{{percent}}% 匹配",
+      "suggested": "推荐",
+      "clear": "清除选择"
+    },
+    "upload": {
+      "title": "上传效果 CSV",
+      "description": "上传包含活动效果指标的 CSV 文件",
+      "steps": {
+        "uploadCSV": "上传 CSV",
+        "mapCampaigns": "映射活动",
+        "complete": "完成"
+      },
+      "dropHere": "将 CSV 文件拖放到此处",
+      "dragDrop": "将 CSV 文件拖放到此处，或点击选择文件",
+      "requiredColumns": "必需列：campaign_name、metric_date、spend",
+      "selectedFile": "已选文件",
+      "removeFile": "移除文件",
+      "fileRemoved": "文件已移除",
+      "loadedMetrics": "从 {{filename}} 中加载了 {{count}} 项指标",
+      "parseError": "CSV 文件解析失败",
+      "csvExtensionError": "文件必须为 .csv 格式",
+      "validationIssues": "发现验证问题",
+      "fixIssues": "请在导入前修复以下问题",
+      "fileFormatErrors": "{{count}} 个文件格式错误",
+      "dataValidationErrors": "{{count}} 个数据验证错误",
+      "howToFix": {
+        "title": "修复方法",
+        "requiredColumns": "确保以下列存在",
+        "dateFormat": "日期请使用 YYYY-MM-DD 格式",
+        "numericFields": "确保 spend、impressions、clicks 和 conversions 为数字类型",
+        "downloadTemplate": "下载模板获取正确格式"
+      },
+      "clearFile": "清除文件",
+      "downloadTemplate": "下载模板",
+      "downloadCSVTemplate": "下载 CSV 模板",
+      "importSuccess": "导入成功！",
+      "importSuccessDescription": "指标已导入并关联到相应活动",
+      "importMore": "继续导入",
+      "viewMetrics": "查看指标"
+    },
+    "matchStatus": {
+      "noMatch": "未找到匹配",
+      "exactMatch": "精确匹配",
+      "fuzzyMatch": "{{percent}}% 匹配"
+    }
+  },
+  "editForm": {
+    "details": {
+      "title": "活动详情",
+      "description": "此活动的核心信息"
+    },
+    "noDescription": "暂无描述",
+    "campaignType": "活动类型",
+    "selectType": "选择类型",
+    "notSet": "未设置",
+    "priority": "优先级",
+    "selectPriority": "选择优先级",
+    "targetAudiencePlaceholder": "此活动的目标受众是谁？请具体描述以获得更好的 AI 推荐...",
+    "noTargetAudience": "未定义目标受众",
+    "objectivesGoals": "目标与成果",
+    "objectivesPlaceholder": "关键目标和成功标准是什么？例如：“第四季度前生成 100 条合格线索”或“在目标人群中提升 30% 品牌知名度”",
+    "noObjectives": "未定义目标",
+    "primary": "主要",
+    "secondary": "次要",
+    "cantChangeStartDate": "无法更改开始日期——活动已启动",
+    "historicalData": "历史数据——无法更改",
+    "budgetLabel": "预算 ($)",
+    "channels": {
+      "title": "营销渠道",
+      "description": "为此活动选择渠道",
+      "activeChannels": "已启用渠道",
+      "noChannels": "未选择渠道"
+    },
+    "advanced": {
+      "addMoreDetails": "添加更多详情以提升 AI 智能助手的表现",
+      "showAdvanced": "显示高级字段",
+      "hideAdvanced": "隐藏高级字段"
+    },
+    "contentStrategy": {
+      "title": "内容策略",
+      "description": "定义内容支柱和主题",
+      "contentPillars": "内容支柱",
+      "pillarsPlaceholder": "输入核心内容主题，以逗号分隔（例如：思想领导力、产品教育、客户成功案例、行业洞察）",
+      "noPillars": "未定义内容支柱"
+    },
+    "successMetrics": {
+      "title": "成功指标与 KPI",
+      "description": "定义衡量成功的方式",
+      "primaryKPI": "主要 KPI",
+      "kpiPlaceholder": "例如：合格线索数",
+      "targetPlaceholder": "目标值（例如：100）",
+      "noTarget": "未设定目标",
+      "notDefined": "未定义"
+    },
+    "competitive": {
+      "title": "竞争背景",
+      "description": "市场定位与竞争环境",
+      "competitorContext": "竞争对手背景",
+      "contextPlaceholder": "主要竞争对手及差异化策略...",
+      "noContext": "未提供竞争背景",
+      "geographicTarget": "目标地域",
+      "geoPlaceholder": "例如：北美、全球、美国、加利福尼亚、旧金山湾区",
+      "notSpecified": "未指定"
+    },
+    "organization": {
+      "title": "组织分类",
+      "description": "标签与分类",
+      "tags": "标签",
+      "tagsPlaceholder": "输入标签，以逗号分隔",
+      "noTags": "暂无标签"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "STRAŦUM - Inteligência Estratégica de Marketing",
+    "description": "11 frameworks estratégicos. 9 agentes de IA. Aprendizado progressivo. Pare de adivinhar. Comece a saber."
+  },
+  "hero": {
+    "badge": "Agora aberto",
+    "headlinePart1": "Execução de marketing",
+    "headlinePart2": "sem estratégia",
+    "headlinePart3": "é apenas barulho caro.",
+    "tagline": "Intelligence Over Execution.",
+    "description": "11 frameworks estratégicos. 9 agentes de IA. Aprendizado progressivo.",
+    "cta": "Pare de adivinhar. Comece a saber.",
+    "primaryButton": "Comece seu teste gratuito",
+    "secondaryText": "Já tem uma conta?",
+    "secondaryLink": "Entrar",
+    "trialNote": "Teste gratuito incluso em todos os planos",
+    "scrollDiscover": "Descobrir"
+  },
+  "valueProps": {
+    "clarity": {
+      "title": "Clareza estratégica, instantaneamente",
+      "description": "SWOT, Cinco Forças de Porter, Estratégia Blue Ocean, Matriz BCG, VRIO, McKinsey 7S - frameworks comprovados ao seu alcance."
+    },
+    "intelligence": {
+      "title": "Inteligência que aprende",
+      "description": "Fica mais inteligente a cada conversa sobre SEU negócio. Informe um agente, informe todos os nove.",
+      "badge": "Aprendizado progressivo"
+    },
+    "quickWins": {
+      "title": "Ganhos rápidos em 15 minutos",
+      "description": "Insights acionáveis na primeira sessão, não na quinta semana. Feito para profissionais de marketing ocupados."
+    }
+  },
+  "audience": {
+    "title": "Feito para dois públicos distintos",
+    "subtitle": "Necessidades diferentes, mesma plataforma de inteligência",
+    "sme": {
+      "label": "Para PMEs",
+      "title": "Para PMEs",
+      "subtitle": "O cofundador estratégico que você pode pagar",
+      "features": {
+        "clarity": {
+          "title": "Clareza em 15 minutos",
+          "description": "Obtenha sua primeira estratégia completa e baseada em dados antes do seu café esfriar."
+        },
+        "budget": {
+          "title": "Proteja seu orçamento de erros",
+          "description": "Estratégias feitas para seu orçamento de R$0 que se adaptam automaticamente conforme você cresce."
+        },
+        "confidence": {
+          "title": "Confiança, não confusão",
+          "description": "Entenda o porquê por trás do seu plano com frameworks explicados em linguagem simples."
+        }
+      }
+    },
+    "agency": {
+      "label": "Para agências",
+      "title": "Para agências",
+      "subtitle": "Escale sua capacidade estratégica, não sua equipe",
+      "features": {
+        "clientReady": {
+          "title": "Estratégias prontas para o cliente",
+          "description": "Gere um blueprint estratégico completo para um novo cliente no tempo que leva para escrever um e-mail."
+        },
+        "premiumFees": {
+          "title": "Justifique tarifas premium",
+          "description": "Entregue estratégias baseadas em 9 agentes de IA interconectados, não apenas na sua intuição."
+        },
+        "systematic": {
+          "title": "Excelência sistemática",
+          "description": "Gerencie estratégias para múltiplos clientes com isolamento de dados e colaboração em equipe integrados."
+        }
+      }
+    }
+  },
+  "progressiveLearning": {
+    "badge": "Sistema de inteligência adaptativa",
+    "title": "Inteligência que cresce com seu negócio",
+    "subtitle": "Diferente de ferramentas estáticas, os agentes de IA do STRAŦUM aprendem continuamente sobre seu negócio a cada conversa.",
+    "timeline": {
+      "day1": {
+        "label": "Dia 1",
+        "title": "Primeira interação",
+        "description": "Compartilhe seu contexto de negócio uma vez. Os agentes começam automaticamente a capturar insights sobre seu mercado, concorrentes e clientes."
+      },
+      "week1": {
+        "label": "Semana 1",
+        "title": "Inteligência aprofundada",
+        "description": "Cada conversa adiciona ao seu Histórico de Aprendizado. Os agentes referenciam insights passados para fornecer recomendações cada vez mais personalizadas."
+      },
+      "ongoing": {
+        "label": "Contínuo",
+        "title": "Inteligência preditiva",
+        "description": "Com uma base de conhecimento rica, os agentes antecipam suas necessidades e pré-preenchem contextos. Você mantém o controle - revise e exclua qualquer insight."
+      }
+    }
+  },
+  "frameworks": {
+    "title": "11 frameworks estratégicos ao seu alcance",
+    "subtitle": "Os mesmos frameworks usados por consultores da Fortune 500, agora acessíveis para todos.",
+    "list": [
+      "Análise SWOT",
+      "Cinco Forças de Porter",
+      "Estratégia Blue Ocean",
+      "Matriz BCG",
+      "Framework VRIO",
+      "McKinsey 7S",
+      "OKRs",
+      "Três Horizontes",
+      "Priorização ICE",
+      "Business Model Canvas",
+      "Jobs to Be Done"
+    ]
+  },
+  "demo": {
+    "title": "Veja o STRAŦUM em ação",
+    "subtitle": "Um tour de 15 minutos mostrando como PMEs constroem estratégias de marketing completas"
+  },
+  "cta": {
+    "badge": "Inteligência estratégica para todos",
+    "title": "Comece a construir estratégias mais inteligentes hoje",
+    "description": "Junte-se a empresas e agências usando inteligência estratégica com IA para tomar melhores decisões de marketing. Todos os 9 agentes. Todos os 11 frameworks. Uma plataforma.",
+    "primaryButton": "Comece grátis",
+    "secondaryText": "Já tem uma conta?",
+    "secondaryLink": "Entrar",
+    "benefits": {
+      "noCreditCard": "Sem necessidade de cartão de crédito",
+      "foundingMember": "Cancele a qualquer momento"
+    }
+  }
+}

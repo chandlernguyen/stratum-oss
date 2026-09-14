@@ -1,0 +1,166 @@
+{
+  "title": "Profile",
+  "tabs": {
+    "profile": "Profile",
+    "intelligence": "Business Intelligence",
+    "intelligenceShort": "Intel",
+    "permissions": "Permissions",
+    "settings": "Settings"
+  },
+  "orgType": {
+    "agency": "Agency",
+    "sme": "SME"
+  },
+  "roles": {
+    "sme_owner": "SME Owner",
+    "agency_owner": "Agency Owner",
+    "agency_admin": "Agency Administrator",
+    "agency_account_manager": "Account Manager",
+    "agency_strategist": "Senior Strategist",
+    "agency_creative": "Creative Team",
+    "agency_analyst": "Analyst",
+    "agency_campaign_manager": "Campaign Manager",
+    "agency_client_viewer": "Client Viewer",
+    "agency_freelancer": "Freelancer",
+    "agency_viewer": "Viewer",
+    "account_manager": "Account Manager",
+    "client_stakeholder": "Client Stakeholder",
+    "client_collaborator": "Client Collaborator",
+    "default": "User"
+  },
+  "deletion": {
+    "title": "Account Scheduled for Deletion",
+    "deletionDate": "Your account will be permanently deleted on {{date}}",
+    "reason": "Reason: {{reason}}",
+    "restoreTitle": "To restore your account:",
+    "restoreDescription": "Contact support at {{email}} before the deletion date. Include your email address and account ID in your request."
+  },
+  "profileInfo": {
+    "title": "Profile Information",
+    "subtitle": "Manage your personal and organization details"
+  },
+  "personal": {
+    "title": "Personal Details",
+    "displayName": "Display Name",
+    "displayNamePlaceholder": "Enter your full name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "bio": "Bio",
+    "bioPlaceholder": "Tell us about yourself..."
+  },
+  "organization": {
+    "title": "Organization Information",
+    "name": "Organization Name",
+    "nameNote": "(Account name)",
+    "type": "Organization Type",
+    "typeAgency": "Marketing Agency",
+    "typeSME": "Small-Medium Enterprise",
+    "memberSince": "Member Since",
+    "activeCampaigns": "Active Campaigns",
+    "campaignCount_one": "{{count}} campaign",
+    "campaignCount_other": "{{count}} campaigns",
+    "website": "Company Website"
+  },
+  "permissions": {
+    "title": "Access Permissions",
+    "subtitle": "Your role-based permissions and capabilities",
+    "fullAdmin": {
+      "title": "Full Administrative Access",
+      "enabled": "Enabled",
+      "permissions": [
+        "Manage all client accounts",
+        "Create and delete campaigns",
+        "Access all agent features",
+        "Configure white-label settings",
+        "View all analytics and reports",
+        "Manage team members",
+        "Export and import data"
+      ]
+    },
+    "businessOwner": {
+      "title": "Business Owner Access",
+      "enabled": "Enabled",
+      "permissions": [
+        "Full access to all AI agents",
+        "Create and manage campaigns",
+        "View analytics and insights",
+        "Export reports and data",
+        "Manage team collaboration",
+        "Configure business settings"
+      ]
+    },
+    "accountManager": {
+      "title": "Account Manager Access",
+      "enabled": "Enabled",
+      "permissions": [
+        "Manage assigned client accounts",
+        "Create campaigns for clients",
+        "Access client-specific analytics",
+        "Use all AI agents",
+        "Export client reports",
+        "Collaborate with team members"
+      ]
+    },
+    "guest": {
+      "title": "Guest Access",
+      "limited": "Limited",
+      "permissions": [
+        "View campaign results",
+        "Access approved reports",
+        "View analytics dashboards",
+        "Download exported data"
+      ]
+    },
+    "security": {
+      "title": "Security Measures",
+      "description": "We implement security best practices, but as an alpha service, we cannot guarantee complete protection. See our Privacy Policy for details.",
+      "measures": [
+        "Database Row-Level Security (RLS)",
+        "Multi-Tenant Data Isolation",
+        "Secure Authentication (Supabase Auth)"
+      ]
+    }
+  },
+  "settings": {
+    "title": "Account Settings",
+    "subtitle": "Manage your account preferences and security",
+    "security": {
+      "title": "Security",
+      "changePassword": "Change Password",
+      "manageMFA": "Manage Two-Factor Authentication",
+      "viewLoginActivity": "View Login Activity",
+      "comingSoon": "Coming Soon"
+    },
+    "dataPrivacy": {
+      "title": "Data & Privacy",
+      "downloadData": "Download My Data",
+      "downloading": "Downloading...",
+      "deleteAccount": "Delete Account"
+    }
+  },
+  "validation": {
+    "fieldEmpty": "Field cannot be empty"
+  },
+  "toast": {
+    "notAuthenticated": "Not authenticated",
+    "notAuthenticatedDesc": "Please log in to download your data.",
+    "exportSuccess": "Data exported successfully",
+    "exportSuccessDesc": "Your data has been downloaded as a JSON file.",
+    "exportError": "Failed to export data",
+    "exportErrorDesc": "Please try again later."
+  },
+  "insights": {
+    "status": {
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "pendingReview": "Pending Review"
+    },
+    "time": {
+      "justNow": "just now",
+      "minutesAgo": "{{count}}m ago",
+      "hoursAgo": "{{count}}h ago",
+      "daysAgo": "{{count}}d ago"
+    }
+  }
+}

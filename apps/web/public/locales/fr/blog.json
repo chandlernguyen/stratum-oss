@@ -1,0 +1,30 @@
+{
+  "masthead": {
+    "eyebrow": "Insights et guides",
+    "title": "Le blog STRATUM",
+    "description": "Intelligence marketing strategique, analyses approfondies de frameworks et enseignements tires de la construction d'une plateforme alimentee par l'IA."
+  },
+  "hubs": {
+    "all": "Tous les articles",
+    "marketingIntelligence": "Intelligence marketing",
+    "marketingFrameworks": "Frameworks",
+    "aiAgents": "Agents IA",
+    "agencyOperations": "Operations d'agence"
+  },
+  "post": {
+    "notFoundTitle": "Article introuvable",
+    "backToBlog": "Retour au blog",
+    "allPosts": "Tous les articles",
+    "completeGuide": "Guide complet",
+    "minRead": "min de lecture",
+    "min": "min",
+    "moreFrom": "Plus d'articles dans {{hub}}",
+    "read": "Lire",
+    "readArticle": "Lire l'article",
+    "emptyHub": "Aucun autre article n'est encore disponible dans cette rubrique. Revenez bientot."
+  },
+  "languages": {
+    "english": "English",
+    "vietnamese": "Vietnamien"
+  }
+}

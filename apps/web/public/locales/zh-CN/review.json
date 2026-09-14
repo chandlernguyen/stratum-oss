@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "badge": "内容审核门户",
+    "defaultClientName": "你的内容",
+    "subtitle": "审核并批准由你的代理机构团队制作的内容"
+  },
+  "loading": {
+    "message": "正在加载待审核内容..."
+  },
+  "error": {
+    "title": "加载内容时出错",
+    "defaultMessage": "无法加载内容。请重试。"
+  },
+  "tabs": {
+    "pending": "待处理",
+    "approved": "已批准",
+    "changes": "需修改"
+  },
+  "stats": {
+    "pending": "待处理",
+    "approved": "已批准",
+    "changes": "需修改"
+  },
+  "status": {
+    "draft": "草稿",
+    "awaitingReview": "等待审核",
+    "approved": "已批准",
+    "changesRequested": "已请求修改",
+    "rejected": "已拒绝"
+  },
+  "outputCard": {
+    "untitledOutput": "未命名输出",
+    "defaultAgentType": "内容",
+    "viewDetails": "查看详情",
+    "approve": "批准",
+    "requestChanges": "请求修改",
+    "approvedByClient": "已由客户批准",
+    "changesRequestedByClient": "客户已请求修改"
+  },
+  "emptyState": {
+    "pending": {
+      "title": "全部处理完成",
+      "description": "当前没有内容等待你审核。代理机构在有新内容可用时会通知你。",
+      "hint": "新的提交会显示在这里"
+    },
+    "approved": {
+      "title": "还没有已批准内容",
+      "description": "你批准的内容会汇总到这里，便于查阅和后续使用。",
+      "hint": "你的已批准内容库"
+    },
+    "changes": {
+      "title": "没有修改请求",
+      "description": "当你对内容提出修改请求时，这些项目会显示在这里供你跟踪。",
+      "hint": "反馈处理中"
+    }
+  }
+}

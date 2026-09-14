@@ -1,0 +1,166 @@
+{
+  "title": "個人資料",
+  "tabs": {
+    "profile": "個人資料",
+    "intelligence": "業務智能",
+    "intelligenceShort": "智能",
+    "permissions": "權限",
+    "settings": "設定"
+  },
+  "orgType": {
+    "agency": "代理機構",
+    "sme": "中小企業"
+  },
+  "roles": {
+    "sme_owner": "中小企業擁有者",
+    "agency_owner": "代理機構擁有者",
+    "agency_admin": "代理機構管理員",
+    "agency_account_manager": "客戶經理",
+    "agency_strategist": "高級策略師",
+    "agency_creative": "創意團隊",
+    "agency_analyst": "分析師",
+    "agency_campaign_manager": "活動經理",
+    "agency_client_viewer": "客戶查看者",
+    "agency_freelancer": "自由工作者",
+    "agency_viewer": "查看者",
+    "account_manager": "客戶經理",
+    "client_stakeholder": "客戶利益相關者",
+    "client_collaborator": "客戶協作者",
+    "default": "用戶"
+  },
+  "deletion": {
+    "title": "帳戶已安排刪除",
+    "deletionDate": "你嘅帳戶將於 {{date}} 被永久刪除",
+    "reason": "原因：{{reason}}",
+    "restoreTitle": "如需還原你嘅帳戶：",
+    "restoreDescription": "請喺刪除日期前透過 {{email}} 聯絡支援團隊。喺請求中附上你嘅電郵地址同帳戶 ID。"
+  },
+  "profileInfo": {
+    "title": "資料信息",
+    "subtitle": "管理你嘅個人同組織詳情"
+  },
+  "personal": {
+    "title": "個人詳情",
+    "displayName": "顯示名稱",
+    "displayNamePlaceholder": "輸入你嘅全名",
+    "email": "電郵地址",
+    "phone": "電話號碼",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "bio": "簡介",
+    "bioPlaceholder": "介紹一下你自己..."
+  },
+  "organization": {
+    "title": "組織資訊",
+    "name": "組織名稱",
+    "nameNote": "（帳戶名稱）",
+    "type": "組織類型",
+    "typeAgency": "營銷代理機構",
+    "typeSME": "中小企業",
+    "memberSince": "加入時間",
+    "activeCampaigns": "活躍營銷活動",
+    "campaignCount_one": "{{count}} 個營銷活動",
+    "campaignCount_other": "{{count}} 個營銷活動",
+    "website": "公司網站"
+  },
+  "permissions": {
+    "title": "存取權限",
+    "subtitle": "你基於角色嘅權限同能力",
+    "fullAdmin": {
+      "title": "完整管理權限",
+      "enabled": "已啟用",
+      "permissions": [
+        "管理所有客戶帳戶",
+        "建立同刪除營銷活動",
+        "存取所有智能助手功能",
+        "配置白標設定",
+        "查看所有分析同報告",
+        "管理團隊成員",
+        "匯出同匯入數據"
+      ]
+    },
+    "businessOwner": {
+      "title": "業務擁有者權限",
+      "enabled": "已啟用",
+      "permissions": [
+        "完整存取所有 AI 智能助手",
+        "建立同管理營銷活動",
+        "查看分析同洞察",
+        "匯出報告同數據",
+        "管理團隊協作",
+        "配置業務設定"
+      ]
+    },
+    "accountManager": {
+      "title": "客戶經理權限",
+      "enabled": "已啟用",
+      "permissions": [
+        "管理已分配嘅客戶帳戶",
+        "為客戶建立營銷活動",
+        "存取客戶專屬分析",
+        "使用所有 AI 智能助手",
+        "匯出客戶報告",
+        "同團隊成員協作"
+      ]
+    },
+    "guest": {
+      "title": "訪客權限",
+      "limited": "有限",
+      "permissions": [
+        "查看營銷活動結果",
+        "存取已批准報告",
+        "查看分析儀表板",
+        "下載匯出數據"
+      ]
+    },
+    "security": {
+      "title": "安全措施",
+      "description": "我哋採用安全最佳實踐，但作為 Alpha 服務，無法保證完全防護。詳情請查看私隱政策。",
+      "measures": [
+        "資料庫行級安全（RLS）",
+        "多租戶數據隔離",
+        "安全身份驗證（Supabase Auth）"
+      ]
+    }
+  },
+  "settings": {
+    "title": "帳戶設定",
+    "subtitle": "管理你嘅帳戶偏好同安全",
+    "security": {
+      "title": "安全",
+      "changePassword": "更改密碼",
+      "manageMFA": "管理雙重身份驗證",
+      "viewLoginActivity": "查看登入活動",
+      "comingSoon": "即將推出"
+    },
+    "dataPrivacy": {
+      "title": "數據同私隱",
+      "downloadData": "下載我嘅數據",
+      "downloading": "下載中...",
+      "deleteAccount": "刪除帳戶"
+    }
+  },
+  "validation": {
+    "fieldEmpty": "欄位唔可以留空"
+  },
+  "toast": {
+    "notAuthenticated": "未通過身份驗證",
+    "notAuthenticatedDesc": "請先登入後再下載你嘅數據。",
+    "exportSuccess": "數據匯出成功",
+    "exportSuccessDesc": "你嘅數據已下載為 JSON 檔案。",
+    "exportError": "匯出數據失敗",
+    "exportErrorDesc": "請稍後重試。"
+  },
+  "insights": {
+    "status": {
+      "approved": "已批准",
+      "rejected": "已拒絕",
+      "pendingReview": "待審核"
+    },
+    "time": {
+      "justNow": "剛剛",
+      "minutesAgo": "{{count}} 分鐘前",
+      "hoursAgo": "{{count}} 小時前",
+      "daysAgo": "{{count}} 日前"
+    }
+  }
+}

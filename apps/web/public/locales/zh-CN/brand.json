@@ -1,0 +1,389 @@
+{
+  "comparison": {
+    "pageTitle": "品牌对比",
+    "fourWayTitle": "对比 4 种 STRATUM 变体",
+    "fourWayDescription": "选择最能代表您品牌形象的 STRATUM 变体",
+    "cortexVsStratum": "CORTEX 与 STRATUM",
+    "backToSingleView": "返回单视图",
+    "singleView": "单视图",
+    "compareFourOptions": "对比 4 种 STRATUM 方案"
+  },
+  "brands": {
+    "cortex": {
+      "subtitle": "神经智能"
+    },
+    "stratum": {
+      "subtitle": "战略层级"
+    }
+  },
+  "hero": {
+    "subtitle": "以洞察驱动，而非盲目执行"
+  },
+  "cta": {
+    "startFreeTrial": "开始免费试用",
+    "watchDemo": "观看演示",
+    "selectThisOption": "选择此方案",
+    "learnMore": "了解更多"
+  },
+  "valuePropositions": {
+    "strategicIntelligence": {
+      "title": "战略情报",
+      "description": "SWOT、波特五力模型、商业模式画布，以及另外 8 个经过验证的分析框架"
+    },
+    "customerInsights": {
+      "title": "客户洞察",
+      "description": "深度用户画像分析、购买旅程映射和行为智能分析"
+    },
+    "roiTracking": {
+      "title": "ROI 追踪",
+      "description": "实时绩效分析和 AI 驱动的优化建议"
+    }
+  },
+  "features": {
+    "sectionTitle": {
+      "cortex": "AI 驱动的营销大脑",
+      "stratum": "构建您的战略基础"
+    },
+    "sectionSubtitle": {
+      "cortex": "为每一个营销决策提供神经智能支持",
+      "stratum": "层层递进，构建全面的营销情报体系"
+    },
+    "aiAgents": {
+      "title": "10 个专业 AI 智能体",
+      "description": "涵盖战略、用户画像、内容、分析、活动策划、ROI 追踪等领域"
+    },
+    "continuousLearning": {
+      "title": "持续学习系统",
+      "description": "随着每次交互，AI 对您的业务理解会更加深入"
+    },
+    "zeroExecutionRisk": {
+      "title": "零执行风险",
+      "description": "只提供情报和洞察，不进行自动执行——控制权始终掌握在您手中"
+    }
+  },
+  "footer": {
+    "copyright": "2026 {{brandName}}.",
+    "privacyPolicy": "隐私政策",
+    "termsConditions": "服务条款",
+    "contact": "联系我们"
+  },
+  "detailedComparison": {
+    "title": "详细对比",
+    "criteria": {
+      "visualDistinction": "视觉辨识度",
+      "matchesDialogueDna": "与 DIALOGUE DNA 的匹配度",
+      "easyToType": "输入便利性",
+      "conceptualFit": "概念契合度",
+      "professionalFeel": "专业感",
+      "recommendation": "推荐"
+    },
+    "conceptualFitValues": {
+      "greekAlpha": "希腊字母 Alpha",
+      "cuttingLayers": "切割层级",
+      "topLayer": "顶层",
+      "multiLayer": "多层结构"
+    },
+    "recommendations": {
+      "good": "良好",
+      "best": "最佳",
+      "great": "优秀",
+      "bold": "大胆"
+    },
+    "recommendedBrand": {
+      "title": "推荐：STRATUM",
+      "description": "带有横线的 T 完美地传达了“穿透层级”的含义，并与 DIALOGUE 的 O 品牌 DNA 相呼应（两者都采用了字母贯穿线条的设计手法）。它视觉上极具冲击力，在概念上与“智能层级”相契合，而且位于单词中部，位置醒目突出。"
+    }
+  },
+  "variationCard": {
+    "specialCharacter": "特殊字符",
+    "colorPalette": "色彩方案",
+    "gradientPreview": "渐变预览",
+    "inContext": "应用场景",
+    "url": "URL",
+    "tagline": "标语",
+    "positioning": "定位",
+    "colors": {
+      "primary": "主色",
+      "dark": "深色",
+      "gold": "金色"
+    }
+  },
+  "splitView": {
+    "typography": "字体排版",
+    "headingStyle": "标题样式",
+    "bodyText": "正文和描述文字使用 Inter 常规字重，以获得最佳可读性。",
+    "iconSymbol": "图标符号"
+  },
+  "guidelines": {
+    "similar": "相似",
+    "untitled": "未命名指南",
+    "status": {
+      "archived": "已归档",
+      "default": "默认",
+      "active": "生效中"
+    },
+    "activeCount": "{{count}} 个生效中",
+    "clickToView": "点击查看",
+    "actions": {
+      "restore": "恢复"
+    },
+    "emptyStates": {
+      "noGuidelines": {
+        "title": "暂无品牌指南",
+        "description": "创建您的第一份品牌指南，建立品牌形象"
+      },
+      "noArchivedGuidelines": {
+        "title": "暂无已归档指南",
+        "description": "归档的指南将显示在此处"
+      }
+    },
+    "alerts": {
+      "multipleActive": {
+        "title": "存在多个生效中的指南",
+        "description": "当前有 {{count}} 个生效中的指南。建议归档旧版本以保持清晰。"
+      }
+    },
+    "stats": {
+      "totalGuidelines": "指南总数",
+      "activeGuidelines": "生效中的指南",
+      "archivedGuidelines": "已归档的指南"
+    },
+    "tabs": {
+      "active": "生效中",
+      "archived": "已归档",
+      "all": "全部"
+    },
+    "view": {
+      "title": "品牌指南",
+      "tabs": {
+        "overview": "概览",
+        "voice": "语调与风格",
+        "visual": "视觉识别",
+        "messaging": "信息传达"
+      },
+      "sections": {
+        "toneOfVoice": "语调风格",
+        "personality": "品牌个性",
+        "writingStyle": "写作风格",
+        "doAndDont": "应做与不应做",
+        "brandVoice": "品牌声音",
+        "colorPalette": "色彩方案",
+        "typography": "字体排版",
+        "imagery": "图像指南",
+        "tagline": "标语",
+        "valueProposition": "价值主张",
+        "keyMessages": "核心信息",
+        "targetAudience": "目标受众"
+      }
+    },
+    "forms": {
+      "strategy": {
+        "title": "品牌战略",
+        "badge": "战略",
+        "fields": {
+          "mission": {
+            "label": "使命宣言",
+            "placeholder": "您的品牌使命是什么？"
+          },
+          "vision": {
+            "label": "愿景宣言",
+            "placeholder": "您的品牌长期愿景是什么？"
+          },
+          "values": {
+            "label": "核心价值观",
+            "placeholder": "添加一项核心价值观"
+          },
+          "positioning": {
+            "label": "品牌定位",
+            "placeholder": "您的品牌在市场中如何定位？"
+          },
+          "targetAudience": {
+            "label": "目标受众",
+            "placeholder": "您的目标受众是谁？"
+          },
+          "competitors": {
+            "label": "主要竞争对手",
+            "placeholder": "添加一个竞争对手"
+          },
+          "differentiators": {
+            "label": "核心差异化优势",
+            "placeholder": "添加一项差异化优势"
+          }
+        }
+      },
+      "voice": {
+        "title": "品牌声音",
+        "badge": "声音",
+        "sections": {
+          "toneOfVoice": "语调风格",
+          "personality": "个性特征",
+          "writingStyle": "写作风格",
+          "doAndDont": "应做与不应做"
+        },
+        "fields": {
+          "toneAttributes": {
+            "label": "语调属性",
+            "placeholder": "添加语调属性（例如：友好、专业）"
+          },
+          "toneDescription": {
+            "label": "语调描述",
+            "placeholder": "描述您品牌的整体语调"
+          },
+          "personalityTraits": {
+            "label": "个性特征",
+            "placeholder": "添加一项个性特征"
+          },
+          "brandPersona": {
+            "label": "品牌人设",
+            "placeholder": "如果您的品牌是一个人，您会如何描述他？"
+          },
+          "writingPrinciples": {
+            "label": "写作原则",
+            "placeholder": "添加一条写作原则"
+          },
+          "grammarPreferences": {
+            "label": "语法偏好",
+            "placeholder": "是否有特定的语法偏好（例如：牛津逗号、缩写形式）"
+          },
+          "vocabularyGuidelines": {
+            "label": "词汇规范",
+            "placeholder": "词汇使用规范"
+          },
+          "dos": {
+            "label": "应做",
+            "placeholder": "添加品牌应该做的事项"
+          },
+          "donts": {
+            "label": "不应做",
+            "placeholder": "添加品牌应该避免的事项"
+          }
+        }
+      },
+      "messaging": {
+        "title": "信息传达",
+        "badge": "信息传达",
+        "fields": {
+          "tagline": {
+            "label": "标语",
+            "placeholder": "您的品牌标语或口号"
+          },
+          "valueProposition": {
+            "label": "价值主张",
+            "placeholder": "您的品牌提供什么独特价值？"
+          },
+          "elevatorPitch": {
+            "label": "电梯演讲",
+            "placeholder": "用简短有力的话描述您的品牌"
+          },
+          "keyMessages": {
+            "label": "核心信息",
+            "placeholder": "添加一条核心信息"
+          },
+          "proofPoints": {
+            "label": "支撑论据",
+            "placeholder": "添加支持您主张的证据"
+          },
+          "callToAction": {
+            "label": "主要行动号召",
+            "placeholder": "您最重要的行动号召语"
+          }
+        }
+      },
+      "visual": {
+        "title": "视觉识别",
+        "badge": "视觉",
+        "fields": {
+          "primaryColors": {
+            "label": "主色",
+            "placeholder": "添加一个主色（例如：#FF5733）"
+          },
+          "secondaryColors": {
+            "label": "辅色",
+            "placeholder": "添加一个辅色"
+          },
+          "accentColors": {
+            "label": "强调色",
+            "placeholder": "添加一个强调色"
+          },
+          "primaryFont": {
+            "label": "主字体",
+            "placeholder": "主要字体（例如：Inter、Roboto）"
+          },
+          "secondaryFont": {
+            "label": "辅助字体",
+            "placeholder": "辅助字体"
+          },
+          "fontSizeScale": {
+            "label": "字号体系",
+            "placeholder": "字号体系或规范"
+          },
+          "logoUsage": {
+            "label": "Logo 使用规范",
+            "placeholder": "Logo 使用规则说明"
+          },
+          "imageryStyle": {
+            "label": "图像风格",
+            "placeholder": "描述您品牌使用的图像风格"
+          },
+          "iconStyle": {
+            "label": "图标风格",
+            "placeholder": "描述图标风格"
+          },
+          "photographyGuidelines": {
+            "label": "摄影规范",
+            "placeholder": "品牌摄影使用规范"
+          }
+        }
+      }
+    }
+  },
+  "editor": {
+    "title": "白标品牌套件编辑器",
+    "description": "使用您的品牌形象自定义平台",
+    "previewMode": "预览模式",
+    "export": "导出",
+    "import": "导入",
+    "sections": {
+      "companyIdentity": "企业标识",
+      "colorPalette": "色彩方案",
+      "typography": "字体排版",
+      "uiPreferences": "UI 偏好设置",
+      "customCss": "自定义 CSS（高级）"
+    },
+    "fields": {
+      "companyName": "公司名称",
+      "logoUrl": "Logo URL",
+      "primaryColor": "主色",
+      "secondaryColor": "辅色",
+      "accentColor": "强调色",
+      "headingFont": "标题字体",
+      "bodyFont": "正文字体",
+      "borderRadius": "圆角大小",
+      "contentDensity": "内容密度"
+    },
+    "placeholders": {
+      "companyName": "您的公司名称",
+      "logoUrl": "https://example.com/logo.png",
+      "customCss": "/* 在此添加自定义 CSS */\n.your-class {\n  property: value;\n}"
+    },
+    "options": {
+      "borderRadius": {
+        "none": "无（直角）",
+        "small": "小",
+        "medium": "中",
+        "large": "大",
+        "extraLarge": "特大"
+      },
+      "density": {
+        "comfortable": "舒适",
+        "compact": "紧凑",
+        "spacious": "宽松"
+      }
+    },
+    "buttons": {
+      "resetToDefault": "恢复默认",
+      "preview": "预览",
+      "saveAndApply": "保存并应用"
+    }
+  }
+}

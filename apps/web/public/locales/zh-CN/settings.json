@@ -1,0 +1,187 @@
+{
+  "title": "设置",
+  "subtitle": "管理你的账号和偏好",
+  "tabs": {
+    "profile": "个人资料",
+    "preferences": "偏好设置",
+    "notifications": "通知",
+    "security": "安全",
+    "billing": "账单"
+  },
+  "profile": {
+    "title": "资料信息",
+    "subtitle": "更新你的个人信息和头像",
+    "fields": {
+      "avatar": "头像",
+      "fullName": "全名",
+      "email": "电子邮件地址",
+      "phone": "电话号码",
+      "timezone": "时区",
+      "language": "语言"
+    },
+    "actions": {
+      "save": "保存更改",
+      "cancel": "取消",
+      "uploadPhoto": "上传照片",
+      "removePhoto": "移除照片"
+    }
+  },
+  "preferences": {
+    "title": "偏好设置",
+    "subtitle": "自定义你的使用体验",
+    "language": {
+      "title": "语言",
+      "description": "选择你偏好的界面语言"
+    },
+    "theme": {
+      "title": "主题",
+      "description": "在浅色、深色或系统主题之间选择",
+      "options": {
+        "light": "浅色",
+        "dark": "深色",
+        "system": "系统"
+      }
+    },
+    "dateFormat": {
+      "title": "日期格式",
+      "description": "选择日期显示方式"
+    },
+    "currency": {
+      "title": "默认货币",
+      "description": "设置预算和报告的默认货币"
+    }
+  },
+  "notifications": {
+    "title": "通知偏好",
+    "subtitle": "管理你接收通知的方式",
+    "email": {
+      "title": "电子邮件通知",
+      "weeklyDigest": "每周摘要",
+      "weeklyDigestDesc": "每周接收一次营销表现摘要",
+      "campaignAlerts": "营销活动提醒",
+      "campaignAlertsDesc": "当营销活动需要关注时收到通知",
+      "teamUpdates": "团队更新",
+      "teamUpdatesDesc": "关于团队成员活动的通知"
+    },
+    "push": {
+      "title": "推送通知",
+      "browser": "浏览器通知",
+      "browserDesc": "在浏览器中接收通知"
+    }
+  },
+  "security": {
+    "title": "安全",
+    "subtitle": "管理你的账号安全设置",
+    "password": {
+      "title": "修改密码",
+      "description": "定期更新密码以确保账号安全",
+      "currentPassword": "当前密码",
+      "newPassword": "新密码",
+      "confirmPassword": "确认新密码",
+      "updateButton": "更新密码"
+    },
+    "twoFactor": {
+      "title": "双重身份验证",
+      "description": "为你的账号增加一层额外保护",
+      "enable": "启用 2FA",
+      "disable": "禁用 2FA",
+      "enabled": "已启用",
+      "disabled": "已禁用"
+    },
+    "sessions": {
+      "title": "活跃会话",
+      "description": "管理你在各设备上的活跃会话",
+      "currentSession": "当前会话",
+      "signOutAll": "退出其他所有会话"
+    }
+  },
+  "billing": {
+    "title": "账单与订阅",
+    "subtitle": "管理你的订阅和付款方式",
+    "currentPlan": {
+      "title": "当前套餐",
+      "freeTier": "免费层",
+      "pro": "专业版",
+      "enterprise": "企业版"
+    },
+    "usage": {
+      "title": "本月用量",
+      "aiCredits": "已使用 AI 积分",
+      "storage": "已用存储空间"
+    },
+    "paymentMethod": {
+      "title": "付款方式",
+      "addNew": "添加付款方式",
+      "noMethod": "尚未添加付款方式"
+    }
+  },
+  "whiteLabel": {
+    "pageTitle": "白标设置",
+    "pageSubtitle": "使用你代理机构的品牌和域名自定义平台",
+    "agencyOnly": {
+      "title": "仅限代理机构功能",
+      "description": "白标自定义仅适用于代理机构账号。",
+      "learnMore": "了解代理机构套餐"
+    },
+    "status": {
+      "title": "白标状态",
+      "brandKit": {
+        "label": "品牌套件",
+        "active": "已启用",
+        "notConfigured": "未配置"
+      },
+      "customDomain": {
+        "label": "自定义域名",
+        "usingDefault": "使用默认域名"
+      },
+      "sslCertificate": {
+        "label": "SSL 证书",
+        "autoProvisioned": "自动配置"
+      }
+    },
+    "domain": {
+      "title": "自定义域名设置",
+      "description": "使用你自己的域名访问平台",
+      "inputLabel": "你的自定义域名",
+      "inputPlaceholder": "marketing.youragency.com",
+      "configureButton": "配置",
+      "dnsRequired": "需要进行 DNS 配置",
+      "copyButton": "复制",
+      "copiedButton": "已复制",
+      "domainActive": {
+        "title": "自定义域名已启用",
+        "description": "你的平台可通过以下地址访问：",
+        "visitSite": "访问站点",
+        "changeDomain": "更换域名"
+      }
+    },
+    "benefits": {
+      "title": "自定义域名的优势",
+      "professional": {
+        "title": "更专业的形象",
+        "description": "使用你自己的域名强化品牌形象"
+      },
+      "clientTrust": {
+        "title": "增强客户信任",
+        "description": "通过品牌化链接建立信心"
+      },
+      "seo": {
+        "title": "SEO 优势",
+        "description": "提升搜索引擎可见性"
+      },
+      "ssl": {
+        "title": "包含 SSL",
+        "description": "自动启用 HTTPS 加密"
+      }
+    }
+  },
+  "expertMode": {
+    "expert": "专家模式",
+    "guided": "引导模式",
+    "expertAriaLabel": "关于专家模式的信息",
+    "guidedAriaLabel": "关于引导模式的信息",
+    "expertDescription": "专家模式会立即显示所有工具和选项，并提供适合管理多客户代理机构的高密度信息展示。",
+    "guidedDescription": "引导模式提供简化界面和渐进式展示，适合快速上手。",
+    "toggleAriaLabel": "切换专家模式"
+  }
+}

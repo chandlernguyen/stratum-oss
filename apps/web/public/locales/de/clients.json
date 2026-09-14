@@ -1,0 +1,68 @@
+{
+  "title": "Kunden",
+  "subtitle": "Das Kundenportfolio Ihrer Agentur verwalten",
+  "badge": "Kundenportfolio",
+  "addClient": "Kunde hinzufügen",
+  "addFirstClient": "Ersten Kunden hinzufügen",
+  "search": {
+    "placeholder": "Kunden nach Name oder Branche suchen..."
+  },
+  "filters": {
+    "label": "Nach Status filtern",
+    "active": "Aktiv",
+    "archived": "Archiviert",
+    "all": "Alle Kunden"
+  },
+  "card": {
+    "noIndustry": "Keine Branche angegeben",
+    "archivedBadge": "Archiviert",
+    "archivedOn": "Archiviert",
+    "reason": "Grund: {{reason}}",
+    "campaigns": "Kampagnen",
+    "campaignsCount": "{{active}} / {{total}}",
+    "clientSince": "Kunde seit",
+    "restoreClient": "Kunden wiederherstellen",
+    "dashboard": "Dashboard",
+    "viewCampaignsAriaLabel": "Kampagnen für {{clientName}} anzeigen"
+  },
+  "status": {
+    "active": "aktiv",
+    "paused": "pausiert",
+    "churned": "abgewandert"
+  },
+  "emptyState": {
+    "noArchived": {
+      "title": "Keine archivierten Kunden",
+      "description": "Archivierte Kunden erscheinen hier, wenn Sie aktive Kunden archivieren",
+      "viewActive": "Aktive Kunden anzeigen"
+    },
+    "noClients": {
+      "title": "Noch keine Kunden",
+      "description": "Beginnen Sie, indem Sie Ihren ersten Kunden hinzufügen, um KI-gestützte Einblicke zu nutzen"
+    },
+    "noResults": {
+      "title": "Keine Kunden gefunden",
+      "description": "Versuchen Sie, Ihre Suchanfrage anzupassen"
+    }
+  },
+  "actions": {
+    "edit": "Bearbeiten",
+    "archive": "Archivieren",
+    "restore": "Wiederherstellen",
+    "delete": "Löschen"
+  },
+  "toast": {
+    "archiveSuccess": "Kunde erfolgreich archiviert",
+    "archiveFailed": "Kunde konnte nicht archiviert werden",
+    "deleteSuccess": "Kunde erfolgreich gelöscht",
+    "deleteFailed": "Kunde konnte nicht gelöscht werden",
+    "restoreSuccess": "Kunde erfolgreich wiederhergestellt",
+    "restoreFailed": "Kunde konnte nicht wiederhergestellt werden"
+  },
+  "onboarding": {
+    "industry": "Branche",
+    "industryPlaceholder": "Wählen Sie die Branche Ihres Kunden",
+    "companySize": "Unternehmensgröße",
+    "companySizePlaceholder": "Unternehmensgröße auswählen"
+  }
+}

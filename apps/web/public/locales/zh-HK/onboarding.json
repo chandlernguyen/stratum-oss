@@ -1,0 +1,138 @@
+{
+  "businessContext": {
+    "title": "歡迎嚟到 {{orgName}}！",
+    "titleDefault": "歡迎嚟到 STRA\u0166UM！",
+    "subtitle": "透過一啲業務資訊，令你嘅 AI 體驗更貼合實際需求",
+    "form": {
+      "industry": {
+        "label": "行業",
+        "placeholder": "揀選你嘅行業",
+        "required": "*"
+      },
+      "companySize": {
+        "label": "公司規模",
+        "placeholder": "揀選公司規模",
+        "required": "*"
+      },
+      "description": {
+        "label": "業務描述",
+        "optional": "（可選）",
+        "placeholder": "話畀我哋知你嘅業務、產品或服務..."
+      }
+    },
+    "validation": {
+      "requiredFields": "請同時揀選行業同公司規模後繼續"
+    },
+    "buttons": {
+      "submit": "開始使用",
+      "submitting": "儲存中...",
+      "skip": "暫時跳過"
+    },
+    "errors": {
+      "organizationNotFound": "搵唔到組織",
+      "saveFailed": "儲存業務背景失敗"
+    }
+  },
+  "industries": {
+    "advertisingMarketing": "廣告與營銷",
+    "agricultureFarming": "農業與農場",
+    "automotive": "汽車",
+    "construction": "建築",
+    "consulting": "顧問",
+    "ecommerce": "電子商務",
+    "education": "教育",
+    "energyUtilities": "能源與公用事業",
+    "entertainmentMedia": "娛樂與媒體",
+    "financeBanking": "金融與銀行",
+    "foodBeverage": "食品與飲品",
+    "healthcare": "醫療健康",
+    "hospitalityTourism": "酒店與旅遊",
+    "insurance": "保險",
+    "legalServices": "法律服務",
+    "manufacturing": "製造業",
+    "nonprofit": "非牟利組織",
+    "professionalServices": "專業服務",
+    "realEstate": "地產",
+    "retail": "零售",
+    "saasSoftware": "SaaS/軟件",
+    "technology": "科技",
+    "telecommunications": "電訊",
+    "transportationLogistics": "運輸與物流",
+    "other": "其他"
+  },
+  "companySizes": {
+    "1-10": "1-10 名員工",
+    "11-50": "11-50 名員工",
+    "51-200": "51-200 名員工",
+    "201-500": "201-500 名員工",
+    "500+": "500+ 名員工"
+  },
+  "progress": {
+    "step": "第 {{current}} 步，共 {{total}} 步",
+    "businessDetails": "業務詳情",
+    "complete": "完成"
+  },
+  "flow": {
+    "stepOf": "第 {{current}} 步，共 {{total}} 步",
+    "estimatedTime": "預計時間：{{time}}",
+    "rewardPreview": "你將會獲得：{{reward}}",
+    "steps": {
+      "welcome": {
+        "title": "歡迎嚟到你嘅 AI 營銷團隊！",
+        "description": "你而家擁有 9 個專業 AI 智能助手，隨時準備改變你嘅營銷方式。等我哋喺 5 分鐘內先攞到一個快速成果。",
+        "estimatedTime": "10 秒",
+        "reward": "認識你嘅 AI 團隊"
+      },
+      "chooseGoal": {
+        "title": "你今日嘅主要目標係咩？",
+        "description": "我哋會根據你嘅需求幫你快速取得成果。",
+        "estimatedTime": "30 秒",
+        "reward": "獲得個人化推薦"
+      },
+      "quickWin": {
+        "title": "攞到你嘅第一個快速成果",
+        "description": "揀選一個模板，體驗 AI 驅動營銷嘅力量。",
+        "estimatedTime": "2-5 分鐘",
+        "reward": "創造真實營銷價值"
+      }
+    },
+    "features": {
+      "aiAgents": {
+        "title": "9 個 AI 智能助手",
+        "description": "每個都專注於營銷嘅唔同範疇"
+      },
+      "builtForTeams": {
+        "title": "為團隊而設",
+        "description": "同樣適合中小企業同代理機構"
+      },
+      "quickResults": {
+        "title": "快速見效",
+        "description": "幾分鐘內獲得有價值嘅洞察，而唔係幾個鐘"
+      }
+    },
+    "buttons": {
+      "skipTour": "跳過導覽",
+      "skipsLeft": "仲可以跳過 {{count}} 次",
+      "back": "返回",
+      "continue": "繼續",
+      "chooseTemplate": "揀選模板",
+      "exploreOnOwn": "我想自己探索"
+    }
+  },
+  "quickWin": {
+    "categories": {
+      "all": "全部",
+      "analysis": "分析",
+      "content": "內容",
+      "strategy": "策略",
+      "growth": "增長"
+    },
+    "youllGet": "你將會獲得",
+    "difficulty": {
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "高級"
+    },
+    "noTemplates": "呢個分類下搵唔到模板"
+  }
+}

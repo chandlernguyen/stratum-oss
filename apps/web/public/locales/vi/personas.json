@@ -1,0 +1,140 @@
+{
+  "title": "Chân Dung Khách Hàng",
+  "subtitle": "Hiểu và xác định khách hàng mục tiêu",
+  "list": {
+    "title": "Tất Cả Chân Dung",
+    "empty": "Chưa có chân dung nào",
+    "emptyDescription": "Tạo chân dung đầu tiên để bắt đầu hiểu khách hàng mục tiêu",
+    "createFirst": "Tạo Chân Dung Đầu Tiên",
+    "loading": "Đang tải chân dung...",
+    "primary": "Chính",
+    "archived": "Đã Lưu Trữ",
+    "restore": "Khôi Phục",
+    "interview": "Phỏng Vấn"
+  },
+  "form": {
+    "create": "Tạo Chân Dung",
+    "edit": "Chỉnh Sửa Chân Dung",
+    "sections": {
+      "basic": "Thông Tin Cơ Bản",
+      "demographics": "Nhân Khẩu Học",
+      "psychographics": "Tâm Lý Học",
+      "behaviors": "Hành Vi",
+      "journey": "Hành Trình Mua Hàng"
+    },
+    "fields": {
+      "name": "Tên Chân Dung",
+      "namePlaceholder": "VD: Giám đốc Marketing Minh",
+      "avatar": "Ảnh Đại Diện",
+      "description": "Mô Tả",
+      "descriptionPlaceholder": "Mô tả ngắn về chân dung này",
+      "age": "Độ Tuổi",
+      "gender": "Giới Tính",
+      "location": "Vị Trí",
+      "income": "Mức Thu Nhập",
+      "education": "Học Vấn",
+      "jobTitle": "Chức Danh",
+      "industry": "Ngành Nghề",
+      "companySize": "Quy Mô Công Ty",
+      "goals": "Mục Tiêu & Động Lực",
+      "goalsPlaceholder": "Chân dung này muốn đạt được gì?",
+      "painPoints": "Điểm Đau & Thách Thức",
+      "painPointsPlaceholder": "Họ gặp những vấn đề gì?",
+      "values": "Giá Trị & Ưu Tiên",
+      "interests": "Sở Thích",
+      "mediaConsumption": "Tiêu Thụ Truyền Thông",
+      "preferredChannels": "Kênh Ưa Thích",
+      "buyingBehavior": "Hành Vi Mua Hàng",
+      "decisionFactors": "Yếu Tố Quyết Định",
+      "objections": "Phản Đối Thường Gặp"
+    },
+    "validation": {
+      "nameRequired": "Tên chân dung là bắt buộc"
+    }
+  },
+  "detail": {
+    "overview": "Tổng Quan",
+    "journey": "Hành Trình Mua Hàng",
+    "messaging": "Hướng Dẫn Thông Điệp",
+    "campaigns": "Chiến Dịch Liên Quan"
+  },
+  "journey": {
+    "stages": {
+      "awareness": "Nhận Thức",
+      "consideration": "Cân Nhắc",
+      "decision": "Quyết Định",
+      "retention": "Duy Trì",
+      "advocacy": "Ủng Hộ"
+    },
+    "fields": {
+      "touchpoints": "Điểm Tiếp Xúc",
+      "content": "Nhu Cầu Nội Dung",
+      "questions": "Câu Hỏi Chính",
+      "actions": "Hành Động Mong Muốn"
+    }
+  },
+  "actions": {
+    "create": "Tạo Chân Dung",
+    "edit": "Chỉnh Sửa",
+    "duplicate": "Nhân Bản",
+    "archive": "Lưu Trữ",
+    "delete": "Xóa",
+    "export": "Xuất",
+    "viewDetails": "Xem Chi Tiết",
+    "generateWithAI": "Tạo Với AI",
+    "moreOptions": "Thêm tùy chọn"
+  },
+  "filters": {
+    "all": "Tất Cả Chân Dung",
+    "active": "Đang Hoạt Động",
+    "archived": "Lưu Trữ",
+    "search": "Tìm kiếm chân dung..."
+  },
+  "confirmDelete": {
+    "title": "Xóa Chân Dung",
+    "message": "Bạn có chắc chắn muốn xóa chân dung này? Điều này sẽ không ảnh hưởng đến các chiến dịch đã sử dụng chân dung này.",
+    "confirm": "Xóa",
+    "cancel": "Hủy"
+  },
+  "aiGeneration": {
+    "title": "Tạo Chân Dung Với AI",
+    "description": "Mô tả khách hàng mục tiêu và AI sẽ tạo chân dung chi tiết",
+    "placeholder": "Mô tả khách hàng lý tưởng: vai trò, ngành nghề, thách thức và những gì họ đang tìm kiếm...",
+    "generate": "Tạo Chân Dung",
+    "generating": "Đang tạo..."
+  },
+  "sidebar": {
+    "expandTooltip": "Mở rộng thanh bên",
+    "collapseTooltip": "Thu gọn thanh bên",
+    "createTooltip": "Tạo chân dung mới",
+    "header": "Trợ Lý Chân Dung",
+    "tabs": {
+      "history": "Lịch Sử",
+      "outputs": "Chân Dung"
+    },
+    "newPersona": "Chân Dung Mới",
+    "newChat": "Cuộc Trò Chuyện Mới",
+    "viewActive": "Xem Đang Dùng",
+    "viewArchived": "Xem Đã Lưu Trữ",
+    "loading": "Đang tải chân dung...",
+    "emptyPersonas": "Chưa có chân dung nào",
+    "emptyPersonasDescription": "Tạo chân dung đầu tiên để bắt đầu hiểu khách hàng",
+    "createFirstPersona": "Tạo Chân Dung Đầu Tiên",
+    "emptyHistory": "Chưa có lịch sử trò chuyện",
+    "emptyHistoryDescription": "Bắt đầu phỏng vấn với chân dung để xem lịch sử ở đây",
+    "untitledSession": "Phiên Chưa Đặt Tên",
+    "messages": "{{count}} tin nhắn",
+    "archived": "Đã Lưu Trữ",
+    "primary": "Chính",
+    "sessionActions": {
+      "rename": "Đổi Tên Phiên",
+      "export": "Xuất Phiên",
+      "duplicate": "Nhân Bản Phiên"
+    }
+  },
+  "relativeTime": {
+    "justNow": "Vừa xong",
+    "hoursAgo": "{{count}} giờ trước",
+    "daysAgo": "{{count}} ngày trước"
+  }
+}

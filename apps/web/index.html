@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/logo-square-180.png" />
+
+    <!-- Preconnect to Google Fonts for faster font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Preload Google Fonts CSS to eliminate render-blocking chain -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" as="style" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" as="style" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content" />
+    <title>STRAŦUM - Intelligence Over Execution</title>
+    <meta name="description" content="STRAŦUM: AI-powered marketing intelligence platform. Cut through complexity with 11 strategic frameworks and 7 specialized AI agents." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="STRAŦUM - Intelligence Over Execution" />
+    <meta property="og:description" content="Your Marketing Intelligence Platform. Cut through complexity with 11 strategic frameworks and 7 specialized AI agents for SMEs and agencies." />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="STRAŦUM - Intelligence Over Execution" />
+    <meta property="twitter:description" content="Your Marketing Intelligence Platform. Cut through complexity with 11 strategic frameworks and 7 specialized AI agents for SMEs and agencies." />
+    <meta property="twitter:image" content="/og-image.png" />
+
+    <!-- Google reCAPTCHA Enterprise -->
+    <!-- Note: render parameter will be set dynamically by useRecaptcha hook -->
+
+    <!-- JSON-LD Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "STRATUM",
+      "description": "AI-powered marketing intelligence platform with 9 specialized agents and 11+ strategic frameworks.",
+      "url": "https://example.com",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "29",
+        "highPrice": "199",
+        "priceCurrency": "USD",
+        "offerCount": "3"
+      }
+    }
+    </script>
+    <!--
+      Deploy-time metadata: replace "https://example.com" above with your own
+      origin. This static shell is not driven by VITE_ env vars because Vite's
+      HTML substitution behaviour for undefined variables varies by version.
+      Runtime brand/site values (brand name, contact address, canonical URLs)
+      are configured via VITE_* env vars — see src/config/brand.ts.
+    -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

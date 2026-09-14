@@ -1,0 +1,490 @@
+{
+  "aria": {
+    "bottomNavigation": "Navegación inferior",
+    "breadcrumb": "Ruta de navegación",
+    "openMenu": "Abrir menú"
+  },
+  "buttons": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "add": "Añadir",
+    "remove": "Quitar",
+    "close": "Cerrar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "submit": "Enviar",
+    "loading": "Cargando...",
+    "retry": "Reintentar",
+    "continue": "Continuar",
+    "skip": "Omitir",
+    "done": "Listo",
+    "view": "Ver",
+    "viewAll": "Ver todo",
+    "learnMore": "Más información",
+    "getStarted": "Empezar",
+    "signUp": "Crear cuenta",
+    "signIn": "Iniciar sesión",
+    "signOut": "Cerrar sesión",
+    "upgrade": "Mejorar plan",
+    "download": "Descargar",
+    "export": "Exportar",
+    "import": "Importar",
+    "refresh": "Actualizar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "share": "Compartir",
+    "archive": "Archivar",
+    "restore": "Restaurar",
+    "newSession": "Nueva sesión"
+  },
+  "labels": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "phone": "Teléfono",
+    "description": "Descripción",
+    "title": "Título",
+    "status": "Estado",
+    "date": "Fecha",
+    "time": "Hora",
+    "type": "Tipo",
+    "category": "Categoría",
+    "tags": "Etiquetas",
+    "notes": "Notas",
+    "actions": "Acciones",
+    "settings": "Configuración",
+    "profile": "Perfil",
+    "account": "Cuenta",
+    "preferences": "Preferencias",
+    "language": "Idioma",
+    "notifications": "Notificaciones",
+    "privacy": "Privacidad",
+    "security": "Seguridad",
+    "help": "Ayuda",
+    "support": "Soporte",
+    "feedback": "Comentarios",
+    "optional": "Opcional",
+    "required": "Obligatorio"
+  },
+  "status": {
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "pending": "Pendiente",
+    "completed": "Completado",
+    "failed": "Fallido",
+    "processing": "En proceso",
+    "draft": "Borrador",
+    "published": "Publicado",
+    "archived": "Archivado",
+    "deleted": "Eliminado"
+  },
+  "errors": {
+    "generic": "Algo salió mal. Inténtalo de nuevo.",
+    "networkError": "Error de red. Revisa tu conexión.",
+    "serverError": "Error del servidor. Inténtalo más tarde.",
+    "notFound": "No se encontró el recurso.",
+    "unauthorized": "No tienes permiso para realizar esta acción.",
+    "forbidden": "Acceso denegado.",
+    "validationError": "Revisa la información e inténtalo de nuevo.",
+    "timeout": "La solicitud tardó demasiado. Inténtalo de nuevo.",
+    "sessionExpired": "Tu sesión ha expirado. Vuelve a iniciar sesión."
+  },
+  "success": {
+    "saved": "Cambios guardados correctamente.",
+    "created": "Creado correctamente.",
+    "updated": "Actualizado correctamente.",
+    "deleted": "Eliminado correctamente.",
+    "copied": "Copiado al portapapeles.",
+    "exported": "Exportado correctamente.",
+    "imported": "Importado correctamente."
+  },
+  "confirm": {
+    "delete": {
+      "title": "Eliminar elemento",
+      "description": "¿Seguro que quieres eliminar este elemento? Esta acción no se puede deshacer.",
+      "confirmButton": "Eliminar de forma permanente",
+      "cancelButton": "Cancelar"
+    },
+    "unsavedChanges": {
+      "title": "Cambios sin guardar",
+      "description": "Tienes cambios sin guardar. ¿Seguro que quieres salir?",
+      "confirmButton": "Salir",
+      "cancelButton": "Quedarme"
+    },
+    "archive": {
+      "title": "Archivar elemento",
+      "description": "¿Seguro que quieres archivar este elemento?",
+      "confirmButton": "Archivar",
+      "cancelButton": "Cancelar",
+      "reasonLabel": "Motivo para archivar (opcional)",
+      "reasonPlaceholder": "p. ej., estrategia obsoleta, proyecto completado o ya no es necesario...",
+      "reasonHelp": "Se guardará para fines de auditoría y puede ayudar al revisar elementos archivados.",
+      "reversibleTitle": "Archivar es reversible",
+      "reversibleMessage": "Puedes restaurar este {{itemName}} en cualquier momento desde la sección de elementos archivados."
+    },
+    "warning": {
+      "confirmButton": "Continuar"
+    },
+    "info": {
+      "confirmButton": "Confirmar"
+    },
+    "deleteTip": "Consejo: considera archivarlo si podrías necesitarlo más adelante. Los elementos archivados se pueden restaurar en cualquier momento.",
+    "processing": "Procesando..."
+  },
+  "empty": {
+    "noResults": "No se encontraron resultados.",
+    "noData": "No hay datos disponibles.",
+    "noItems": "Todavía no hay elementos.",
+    "noMatches": "No hay coincidencias para tu búsqueda."
+  },
+  "loading": {
+    "default": "Cargando...",
+    "pleaseWait": "Espera, por favor...",
+    "processing": "Procesando...",
+    "saving": "Guardando...",
+    "fetching": "Cargando datos..."
+  },
+  "time": {
+    "justNow": "Ahora mismo",
+    "minutesAgo": "Hace {{count}} minuto",
+    "minutesAgo_other": "Hace {{count}} minutos",
+    "hoursAgo": "Hace {{count}} hora",
+    "hoursAgo_other": "Hace {{count}} horas",
+    "daysAgo": "Hace {{count}} día",
+    "daysAgo_other": "Hace {{count}} días",
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "tomorrow": "Mañana"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "dashboard": "Panel",
+    "overview": "Resumen",
+    "campaigns": "Campañas",
+    "agents": "Agentes",
+    "library": "Biblioteca",
+    "approved": "Aprobado",
+    "team": "Equipo",
+    "tasks": "Tareas",
+    "search": "Buscar",
+    "more": "Más",
+    "settings": "Configuración",
+    "profile": "Perfil",
+    "myProfile": "Mi perfil",
+    "billing": "Facturación y suscripción",
+    "feedback": "Comentarios",
+    "contactUs": "Contáctanos",
+    "privacyPolicy": "Política de privacidad",
+    "termsConditions": "Términos y condiciones",
+    "signOut": "Cerrar sesión",
+    "help": "Ayuda",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "intelligence": "Inteligencia",
+    "clients": "Clientes",
+    "agencyOverview": "Resumen de la agencia",
+    "requestAccess": "Crear cuenta",
+    "account": "Cuenta",
+    "accountOptions": "Opciones de la cuenta",
+    "request": "Solicitud",
+    "pricing": "Precios",
+    "blog": "Blog",
+    "whiteLabel": "Marca blanca",
+    "accountTypes": {
+      "agency": "Cuenta de agencia",
+      "sme": "Cuenta pyme"
+    }
+  },
+  "auth": {
+    "signIn": "Iniciar sesión",
+    "signUp": "Crear cuenta",
+    "alreadyHaveAccount": "Ya tienes una cuenta",
+    "haveInvitation": "¿Tienes una invitación? Únete ahora"
+  },
+  "breadcrumbs": {
+    "campaign": "Campaña",
+    "businessStrategy": "Estrategia de negocio",
+    "personas": "Personas",
+    "marketingStrategy": "Estrategia de marketing",
+    "content": "Contenido",
+    "analytics": "Analítica",
+    "roiBudget": "ROI y presupuesto",
+    "campaignExecution": "Ejecución de campañas",
+    "competitiveIntelligence": "Inteligencia competitiva",
+    "clientSuccess": "Éxito del cliente",
+    "quickWins": "Quick wins",
+    "switchClient": "Cambiar cliente",
+    "contentCreation": "Creación de contenido",
+    "strategy": "Estrategia",
+    "strategyAgent": "Agente de estrategia",
+    "personaAgent": "Agente de persona",
+    "contentAgent": "Agente de contenido",
+    "analyticsAgent": "Agente de analítica",
+    "campaignPlanning": "Planificación de campañas",
+    "performanceIntelligence": "Inteligencia de rendimiento",
+    "client": "Cliente"
+  },
+  "clientLayout": {
+    "clientNotFound": "Cliente no encontrado o acceso denegado",
+    "loadingClientData": "Cargando datos del cliente...",
+    "clientFeatureName": "Espacio de trabajo del cliente",
+    "noAccessMessage": "No tienes acceso a este espacio de trabajo de cliente. Ponte en contacto con el administrador de tu agencia."
+  },
+  "clientPortal": {
+    "title": "Portal del cliente",
+    "review": "Revisión",
+    "loading": "Cargando tu espacio de trabajo...",
+    "noAccess": "Sin acceso de cliente",
+    "noAccessDescription": "No tienes acceso a ningún espacio de trabajo de cliente. Ponte en contacto con tu agencia para recibir ayuda."
+  },
+  "footer": {
+    "copyright": "© 2026 STRAŦUM. Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "contact": "Contacto",
+    "pricing": "Precios",
+    "blog": "Blog",
+    "tagline": "Inteligencia antes de ejecutar"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "switchToLight": "Cambiar a modo claro",
+    "switchToDark": "Cambiar a modo oscuro"
+  },
+  "language": {
+    "switchToVietnamese": "Cambiar a vietnamita",
+    "switchToEnglish": "Cambiar a inglés"
+  },
+  "session": {
+    "untitled": "Sesión sin título",
+    "archived": "Archivada",
+    "message": "{{count}} mensaje",
+    "message_other": "{{count}} mensajes",
+    "actions": {
+      "rename": "Cambiar nombre de la sesión",
+      "export": "Exportar sesión",
+      "duplicate": "Duplicar sesión",
+      "restore": "Restaurar",
+      "archive": "Archivar",
+      "delete": "Eliminar"
+    }
+  },
+  "approvals": {
+    "title": "Aprobaciones pendientes",
+    "from": "De {{name}}",
+    "reviewContent": "Revisar contenido",
+    "contentNotAvailable": "Contenido no disponible para revisar",
+    "viewToApprove": "Ver contenido para aprobarlo o solicitar cambios",
+    "noPending": "No hay aprobaciones pendientes",
+    "allCaughtUp": "Estás al día",
+    "viewAll": "Ver todo",
+    "priority": {
+      "low": "Baja",
+      "normal": "Normal",
+      "high": "Alta",
+      "urgent": "Urgente"
+    }
+  },
+  "feedback": {
+    "pageTitle": "Comentarios",
+    "title": "Comparte tus comentarios",
+    "subtitle": "Ayudanos a mejorar STRAŦUM compartiendo tus ideas, sugerencias o incidencias.",
+    "categoryLabel": "Categoría",
+    "categoryPlaceholder": "Selecciona una categoría",
+    "feedbackLabel": "Tus comentarios",
+    "feedbackPlaceholder": "Cuéntanos qué tienes en mente...",
+    "submitButton": "Enviar comentarios",
+    "submitting": "Enviando...",
+    "privacyNote": "Tus comentarios son privados y solo serán visibles para el equipo de STRAŦUM.",
+    "successTitle": "Comentarios enviados",
+    "successMessage": "Gracias por ayudarnos a mejorar STRAŦUM. Tus comentarios son muy valiosos para nosotros.",
+    "submitAnother": "Enviar más comentarios",
+    "categories": {
+      "generalFeedback": {
+        "label": "Comentarios generales",
+        "description": "Opinión general sobre STRAŦUM"
+      },
+      "agentPerformance": {
+        "label": "Rendimiento de los agentes",
+        "description": "Comentarios sobre Strategy, Persona, Content, etc."
+      },
+      "featureRequest": {
+        "label": "Solicitud de función",
+        "description": "Sugerir nuevas funciones o mejoras"
+      },
+      "bugReport": {
+        "label": "Informe de error",
+        "description": "Informar de incidencias técnicas o errores"
+      },
+      "userExperience": {
+        "label": "Experiencia de usuario",
+        "description": "Comentarios sobre el diseno UI/UX"
+      },
+      "dataAccuracy": {
+        "label": "Precisión de datos",
+        "description": "Informar de respuestas de IA incorrectas o confusas"
+      }
+    },
+    "validation": {
+      "feedbackRequired": "Los comentarios son obligatorios",
+      "feedbackMinLength": "Los comentarios deben tener al menos {{min}} caracteres",
+      "feedbackMaxLength": "Los comentarios no deben superar {{max}} caracteres",
+      "categoryRequired": "Selecciona una categoria"
+    },
+    "messages": {
+      "authError": "Error de autenticación. Recarga la página.",
+      "submitError": "No se pudieron enviar los comentarios. Intentalo de nuevo.",
+      "unexpectedError": "Se produjo un error inesperado. Intentalo de nuevo.",
+      "thankYou": "Gracias por tus comentarios"
+    }
+  },
+  "chat": {
+    "showSuggestions": "Mostrar sugerencias",
+    "hideSuggestions": "Ocultar sugerencias",
+    "sendMessage": "Enviar mensaje",
+    "analyzing": "Analizando para proponer los siguientes pasos más útiles...",
+    "analyzingStrategy": "Analizando los componentes de la estrategia de marketing..."
+  },
+  "search": {
+    "placeholder": "Buscar..."
+  },
+  "notifications": {
+    "count": "{{count}} notificaciones",
+    "count_one": "{{count}} notificacion",
+    "noNotifications": "Todavia no hay notificaciones",
+    "viewAll": "Ver las {{count}} notificaciones"
+  },
+  "protectedRoute": {
+    "initializingAuth": "Iniciando la autenticacion...",
+    "loadingWorkspace": "Cargando tu espacio de trabajo..."
+  },
+  "security": {
+    "secureWorkspace": "Espacio de trabajo seguro",
+    "workingInWorkspace": "Trabajando en el espacio de trabajo de {{clientName}}",
+    "dataProtected": "Datos protegidos",
+    "enterpriseGradeSecurity": "Seguridad de nivel empresarial",
+    "dataIsolation": "Aislamiento completo de datos",
+    "endToEndEncryption": "Cifrado de extremo a extremo",
+    "soc2Compliant": "Conforme con SOC 2",
+    "aiPrivate": "Los datos de IA se mantienen privados",
+    "currentlyWorkingIn": "Trabajando ahora en"
+  },
+  "archiveReasonDialog": {
+    "description": "Esto quitara \"{{resourceName}}\" de las vistas activas, pero conservara todos los datos. Puedes restaurarlo en cualquier momento desde la vista de elementos archivados.",
+    "archiving": "Archivando...",
+    "archiveButton": "Archivar {{resourceDisplayName}}"
+  },
+  "deleteConfirmDialog": {
+    "title": "Estas completamente seguro?",
+    "archivedDescription": "Este {{itemName}} ya está archivado. Si lo eliminas, desaparecerá del sistema de forma permanente. Esta acción no se puede deshacer.",
+    "activeDescription": "Esto eliminará {{itemName}} de forma permanente y borrará todos los datos asociados. Esta acción no se puede deshacer.",
+    "item": "elemento",
+    "thisItem": "este elemento"
+  },
+  "languageSwitcher": {
+    "ariaLabel": "Idioma actual: {{language}}. Haz clic para cambiarlo."
+  },
+  "outputBrowser": {
+    "loading": "Cargando resultados guardados...",
+    "savedOutputs": "Resultados guardados",
+    "searchPlaceholder": "Buscar resultados...",
+    "allAgents": "Todos los agentes",
+    "agents": {
+      "strategy": "Estrategia",
+      "persona": "Persona",
+      "content": "Contenido",
+      "analytics": "Analitica"
+    },
+    "sortBy": {
+      "recent": "Recientes",
+      "popular": "Populares",
+      "topRated": "Mejor valorados"
+    },
+    "suggestedFor": "Sugerido para {{agent}}",
+    "noSavedOutputs": "Todavia no hay resultados guardados.",
+    "saveHint": "Guarda respuestas de los agentes para reutilizarlas más adelante.",
+    "noMatchingOutputs": "Ningun resultado coincide con tu busqueda.",
+    "views": "{{count}} vistas",
+    "views_one": "{{count}} vista",
+    "reuses": "{{count}} reutilizaciones",
+    "reuses_one": "{{count}} reutilizacion",
+    "selected": "{{count}} seleccionados",
+    "useSelected": "Usar seleccionados ({{count}})",
+    "weeksAgo": "Hace {{count}} semanas",
+    "weeksAgo_one": "Hace {{count}} semana"
+  },
+  "quickSave": {
+    "quickSave": "Guardado rapido",
+    "saved": "Guardado",
+    "saving": "Guardando...",
+    "saveWithDetails": "Guardar con detalles",
+    "copyToClipboard": "Copiar al portapapeles"
+  },
+  "relatedOutputs": {
+    "title": "Trabajo relacionado",
+    "description": "Resultados anteriores que pueden ayudarte con tu trabajo en {{agent}}",
+    "hide": "Ocultar resultados relacionados",
+    "show": "Mostrar resultados relacionados",
+    "smartSuggestions": "Sugerencias inteligentes",
+    "fromRelatedAgents": "De agentes relacionados",
+    "useAsContext": "Usar como contexto",
+    "usedTimes": "Usado {{count}} veces",
+    "usedTimes_one": "Usado {{count}} vez",
+    "emptyState": "Todavia no hay resultados relacionados. Empieza usando otros agentes para crear contexto para tu trabajo en {{agent}}.",
+    "loading": "Cargando resultados relacionados...",
+    "copyError": "No se pudo copiar al portapapeles"
+  },
+  "resourceActions": {
+    "actionsFor": "Acciones para {{name}}",
+    "view": "Ver {{name}}",
+    "edit": "Editar {{name}}",
+    "copyContent": "Copiar contenido",
+    "restore": "Restaurar {{name}}",
+    "restoring": "Restaurando...",
+    "archive": "Archivar {{name}}",
+    "archiving": "Archivando...",
+    "deleting": "Eliminando..."
+  },
+  "saveOutputDialog": {
+    "title": "Guardar resultado de {{agentType}}",
+    "description": "Añade un título y etiquetas para guardar este resultado y reutilizarlo más adelante",
+    "saveWithDetails": "Guardar con detalles (Cmd+S)",
+    "titleLabel": "Titulo",
+    "titlePlaceholder": "Analisis de {{agentType}} del {{date}}",
+    "tagsPlaceholder": "Anadir etiquetas personalizadas...",
+    "suggestedTags": "Etiquetas sugeridas:",
+    "contentPreview": "Vista previa del contenido",
+    "words": "{{count}} palabras",
+    "words_one": "{{count}} palabra",
+    "minRead": "{{count}} min de lectura",
+    "outputType": "Resultado de {{agentType}}",
+    "structuredData": "Datos estructurados",
+    "structuredDataHint": "Contiene datos de análisis estructurados que se pueden reutilizar entre agentes",
+    "keyboardHint": "Pulsa Cmd+Enter para guardar rapidamente",
+    "saveOutput": "Guardar resultado"
+  },
+  "smartStart": {
+    "preparingSuggestions": "Preparando sugerencias inteligentes...",
+    "readyToWork": "Todo listo para trabajar con tu agente de {{agent}}",
+    "smartSuggestions": "Sugerencias inteligentes",
+    "continuePreviousWork": "Continuar trabajo anterior",
+    "fromAgent": "De {{agent}}",
+    "uses": "{{count}} usos",
+    "uses_one": "{{count}} uso",
+    "workflowTip": "Consejo de flujo de trabajo",
+    "workflowTipSuffix": "Haz clic en cualquiera de las sugerencias para continuar con ese contexto o empieza desde cero abajo.",
+    "startFresh": "Empezar desde cero",
+    "useBestMatch": "Usar la mejor coincidencia",
+    "readyForFreshIdeas": "Listo para ideas nuevas",
+    "noPreviousWork": "No se encontro trabajo anterior. Este es un buen punto para empezar a construir la base de tu agente de {{agent}}."
+  }
+}

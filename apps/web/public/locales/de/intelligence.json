@@ -1,0 +1,130 @@
+{
+  "pageTitle": {
+    "clientProfile": "Kundenprofil",
+    "businessProfile": "Geschäftsprofil"
+  },
+  "pageDescription": {
+    "client": "Geschäftsprofil, Markenrichtlinien und Intelligence für {{clientSlug}} verwalten",
+    "organization": "Geschäftsprofil, Markenrichtlinien und Intelligence Ihrer Organisation verwalten"
+  },
+  "header": {
+    "title": "Business Intelligence",
+    "description": "Ihr Geschäftsprofil, das manuelle Daten und KI-gelernte Einblicke kombiniert"
+  },
+  "loading": "Business Intelligence wird geladen...",
+  "tabs": {
+    "businessProfile": "Geschäftsprofil",
+    "businessProfileShort": "Profil",
+    "brandGuidelines": "Markenrichtlinien",
+    "brandGuidelinesShort": "Marke",
+    "learningHistory": "Lernverlauf",
+    "learningHistoryShort": "Lernen"
+  },
+  "alerts": {
+    "newSuggestions": "Sie haben {{count}} neuen KI-Vorschlag zur Überprüfung",
+    "newSuggestions_other": "Sie haben {{count}} neue KI-Vorschläge zur Überprüfung",
+    "authoritative": "Dies ist der maßgebliche Geschäftskontext, der von allen KI-Agenten genutzt wird. Klicken Sie auf Bearbeiten, um Informationen zu ändern."
+  },
+  "metrics": {
+    "title": "KI-gelernte Geschäftskennzahlen"
+  },
+  "conflicts": {
+    "title": "Datenkonflikte erkannt",
+    "description": "Die KI hat Informationen gefunden, die von Ihren manuellen Einträgen abweichen",
+    "current": "Aktuell",
+    "aiSuggestion": "KI-Vorschlag",
+    "notSet": "Nicht festgelegt",
+    "acceptAI": "KI-Wert übernehmen",
+    "keepCurrent": "Aktuellen Wert behalten"
+  },
+  "learningHistory": {
+    "title": "KI-Lernverlauf",
+    "description": "Verfolgen Sie, wie die KI im Laufe der Zeit über Ihr Unternehmen gelernt hat",
+    "totalInsights": "Einblicke gesamt:",
+    "noInsights": {
+      "title": "Noch keine KI-Einblicke",
+      "description": "Während Sie mit Marketing-Agenten interagieren, lernt die KI über Ihr Unternehmen und zeigt hier Einblicke zur Überprüfung an."
+    },
+    "status": {
+      "approved": "Genehmigt",
+      "autoApproved": "Automatisch genehmigt",
+      "pending": "Ausstehend",
+      "rejected": "Abgelehnt"
+    },
+    "filter": {
+      "allAgents": "Alle Agenten",
+      "persona": "Persona-Einblicke",
+      "strategy": "Strategie-Einblicke",
+      "marketing": "Marketing-Einblicke",
+      "content": "Content-Einblicke"
+    },
+    "similar": "ähnlich",
+    "fieldsExtracted": "{{count}} Felder extrahiert",
+    "confidence": "Konfidenz",
+    "from": "Von"
+  },
+  "patterns": {
+    "title": "Personaübergreifende Muster",
+    "mentions": "{{count}} Erwähnung(en)",
+    "personas": "{{count}} Persona(s)"
+  },
+  "fields": {
+    "companyName": "Firmenname",
+    "organizationType": "Organisationstyp",
+    "industry": "Branche",
+    "companySize": "Unternehmensgröße",
+    "description": "Beschreibung",
+    "targetMarket": "Zielmarkt",
+    "geography": "Geografie",
+    "businessModel": "Geschäftsmodell",
+    "priceRange": "Preisklasse",
+    "competitors": "Wettbewerber",
+    "uniqueValueProposition": "Alleinstellungsmerkmal",
+    "technologyStack": "Technologie-Stack",
+    "annualRevenue": "Jahresumsatz",
+    "growthRate": "Wachstumsrate",
+    "marketingBudget": "Marketingbudget"
+  },
+  "content": {
+    "notSpecified": "Nicht angegeben",
+    "none": "Keine",
+    "noFieldsAvailable": "Keine Felder verfügbar",
+    "errorDisplayingFields": "Fehler beim Anzeigen der Felder",
+    "noContentAvailable": "Kein Inhalt verfügbar",
+    "noDisplayableContent": "Kein anzeigbarer Inhalt",
+    "errorDisplayingContent": "Fehler beim Anzeigen des Inhalts. Bitte laden Sie die Seite neu und versuchen Sie es erneut.",
+    "noInsightSelected": "Kein Einblick ausgewählt"
+  },
+  "dialog": {
+    "extractedFrom": "Extrahiert aus {{agent}}-Konversation",
+    "confidence": "Konfidenz:",
+    "extractedContext": "Extrahierter Geschäftskontext:",
+    "edit": "Bearbeiten",
+    "saveChanges": "Änderungen speichern",
+    "cancel": "Abbrechen"
+  },
+  "actions": {
+    "approveApply": "Genehmigen & Anwenden",
+    "reject": "Ablehnen",
+    "approveAll": "Alle ähnlichen genehmigen",
+    "rejectAll": "Alle ähnlichen ablehnen",
+    "approveThisOnly": "Nur diesen genehmigen",
+    "rejectThisOnly": "Nur diesen ablehnen",
+    "bulkNote": "Hinweis: Diese Aktion betrifft {{count}} ähnliche ausstehende Einblicke in dieser Gruppe.",
+    "orActOnThis": "Oder nur diesen Einblick bearbeiten:"
+  },
+  "aiLearning": {
+    "businessContext": "Geschäftskontext",
+    "aiInsight": "KI-Einblick",
+    "aiAgent": "KI-Agent",
+    "similar": "{{count}} ähnlich",
+    "confidence": "{{value}}% Konfidenz",
+    "fieldsExtracted": "{{count}} Felder extrahiert",
+    "dialogTitle": "KI-Lerneinblick",
+    "extractedFrom": "Extrahiert aus {{source}}-Konversation",
+    "confidenceLabel": "Konfidenz",
+    "extractedBusinessContext": "Extrahierter Geschäftskontext",
+    "noContent": "Kein detaillierter Inhalt verfügbar",
+    "capturedOn": "Erfasst am {{date}}"
+  }
+}

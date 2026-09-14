@@ -1,0 +1,473 @@
+{
+  "title": "Dashboard",
+  "subtitle": "Ihre Marketing-Intelligence-Übersicht",
+  "clients": {
+    "backToClients": "Zurück zu Kunden",
+    "addClient": {
+      "badge": "Kunden-Onboarding",
+      "title": "Neuen Kunden hinzufügen",
+      "description": "Neuen Kunden mit Geschäftskontext für KI-gestützte Einblicke onboarden"
+    },
+    "editClient": {
+      "title": "Kunden bearbeiten",
+      "description": "Kundeninformationen und Geschäftskontext aktualisieren"
+    },
+    "features": {
+      "aiPowered": "KI-gestützte Intelligence",
+      "personalizedStrategies": "Personalisierte Strategien"
+    }
+  },
+  "welcome": {
+    "morning": "Guten Morgen",
+    "afternoon": "Guten Tag",
+    "evening": "Guten Abend",
+    "withName": "{{greeting}}, {{name}}"
+  },
+  "hero": {
+    "badge": "KI-gestützte Intelligence",
+    "title": "Ihr Intelligence-Briefing",
+    "subtitle": "Wirkungsstarke Maßnahmen, zugeschnitten auf Ihren Geschäftskontext. Jede Empfehlung baut auf Ihrem strategischen Fundament auf.",
+    "cta": "Neue Strategie-Sitzung starten"
+  },
+  "loading": {
+    "intelligence": "Intelligence wird geladen...",
+    "data": "Ihre Daten werden vorbereitet...",
+    "dashboard": "Ihr Dashboard wird geladen...",
+    "clientDashboard": "{{clientSlug}}-Dashboard wird geladen...",
+    "fallback": "Dashboard wird geladen..."
+  },
+  "clientDashboard": {
+    "title": "{{clientName}} Dashboard",
+    "subtitle": "Alle Aktivitäten für diesen Kunden anzeigen und verwalten"
+  },
+  "noOrganization": {
+    "title": "Keine Organisation gefunden",
+    "description": "Sie haben noch keinen Zugang zu einer Organisation. Bitte kontaktieren Sie Ihren Administrator.",
+    "viewProfile": "Profil anzeigen"
+  },
+  "error": {
+    "message": "Fehler: {{message}}"
+  },
+  "stats": {
+    "totalOutputs": "Gesamte Outputs",
+    "intelligenceOutputs": "Intelligence-Outputs",
+    "activeCampaigns": "Aktive Kampagnen",
+    "aiInteractions": "KI-Interaktionen",
+    "strategySessions": "Strategie-Sitzungen",
+    "lastWeek": "Letzte 7 Tage",
+    "subtitles": {
+      "strategicDocuments": "Strategische Dokumente",
+      "agentSessions": "Agenten-Sitzungen",
+      "inProgress": "In Bearbeitung",
+      "completed": "Abgeschlossen"
+    }
+  },
+  "quickActions": {
+    "title": "Schnellaktionen",
+    "newStrategy": "Neue Strategie",
+    "createPersona": "Persona erstellen",
+    "startCampaign": "Kampagne starten"
+  },
+  "recommendations": {
+    "title": "Empfohlene Maßnahmen",
+    "available": "{{count}} verfügbar",
+    "highImpact": "Hohe Wirkung",
+    "estimatedTime": "{{time}} Min.",
+    "items": {
+      "personaAnalysis": {
+        "title": "Kunden-Persona-Analyse abschließen",
+        "description": "Erstellen Sie detaillierte Buyer Personas, um Ihre Kampagnen besser auszurichten"
+      },
+      "marketingStrategy": {
+        "title": "Marketingstrategie überprüfen",
+        "description": "KI-generierter Kanalmix und Messaging-Framework für Ihren Markt"
+      },
+      "contentGeneration": {
+        "title": "Inhalte für Top-Kanal erstellen",
+        "description": "Kampagnenmaterialien erstellen, optimiert für Ihren leistungsstärksten Kanal"
+      }
+    }
+  },
+  "recentIntelligence": {
+    "title": "Aktuelle Intelligence",
+    "vaultTitle": "Ihr Intelligence-Tresor",
+    "viewAll": "Alle anzeigen",
+    "viewAllIntelligence": "Alle Intelligence anzeigen",
+    "emptyState": "Noch keine Outputs vorhanden. Starten Sie mit einer Strategie-Sitzung.",
+    "emptyStateVault": "Noch keine Intelligence-Outputs vorhanden. Beginnen Sie mit dem Aufbau Ihres strategischen Fundaments.",
+    "generateFirst": "Erste Strategie erstellen",
+    "total": "{{count}} gesamt",
+    "agentLabels": {
+      "strategy": "Strategie",
+      "persona": "Persona",
+      "marketingStrategy": "Marketing",
+      "content": "Inhalt"
+    }
+  },
+  "recentActivity": {
+    "title": "Letzte Aktivitäten",
+    "noActivity": "Keine aktuellen Aktivitäten",
+    "viewAll": "Alle Aktivitäten anzeigen"
+  },
+  "intelligenceBriefing": {
+    "title": "Ihr Intelligence-Briefing",
+    "subtitle": "Wirkungsstarke Maßnahmen basierend auf Ihrem Geschäftskontext",
+    "empty": "Vervollständigen Sie Ihr Geschäftsprofil, um personalisierte Empfehlungen zu erhalten",
+    "badge": "KI-gestützt",
+    "toggleBriefing": "Briefing umschalten",
+    "analyzing": "Wir analysieren Ihren Geschäftskontext, um wirkungsstarke nächste Schritte vorzuschlagen.",
+    "startStrategy": "Mit Geschäftsstrategie starten",
+    "highImpact": "Hohe Wirkung",
+    "recommended": "Empfohlen",
+    "minutes": "{{time}} Min.",
+    "viewAll": "Alle {{count}} Empfehlungen anzeigen"
+  },
+  "campaignReadiness": {
+    "ready": {
+      "title": "Bereit für Ihre erste Kampagne",
+      "description": "Sie haben ein starkes strategisches Fundament aufgebaut. Erstellen Sie eine Kampagne, um Ihre Intelligence nach Geschäftsinitiativen zu organisieren und die Leistung zu verfolgen.",
+      "createCampaign": "Kampagne erstellen",
+      "maybeLater": "Vielleicht später"
+    },
+    "building": {
+      "title": "Aufbau Ihres strategischen Fundaments ({{percentage}}% abgeschlossen)",
+      "description": "Schließen Sie diese wichtigen Intelligence-Outputs ab, bevor Sie Kampagnen erstellen:",
+      "businessStrategy": "Geschäftsstrategie",
+      "customerPersonas": "Kunden-Personas",
+      "marketingStrategy": "Marketingstrategie"
+    }
+  },
+  "agency": {
+    "loading": {
+      "agencyData": "Agenturdaten werden geladen...",
+      "clientPortfolio": "Kundenportfolio wird geladen..."
+    },
+    "onboarding": {
+      "badge": "Agentur-Kommandozentrale",
+      "title": "Willkommen in Ihrer Agentur",
+      "description": "Verwalten Sie mehrere Kunden mit KI-gestützter Marketing-Intelligence",
+      "addFirstClient": "Ersten Kunden hinzufügen",
+      "ctaHint": "Beginnen Sie in unter 5 Minuten mit der Verwaltung Ihres ersten Kunden",
+      "learnPlatform": "PLATTFORM KENNENLERNEN",
+      "videoTitle": "Verwaltung mehrerer Kunden",
+      "videoHint": "Video-Anleitung kommt bald",
+      "soon": "Bald",
+      "guideTitle": "Agentur-Best-Practices-Leitfaden",
+      "guideDescription": "Lernen Sie Workflows zur Skalierung der Kundenarbeit",
+      "unlimitedClients": "Unbegrenzte Kunden",
+      "fullAiAccess": "Voller KI-Zugang"
+    },
+    "header": {
+      "badge": "Agentur-Kommandozentrale",
+      "title": "{{name}} Dashboard",
+      "subtitle": "Verwaltung von <strong>{{clientCount}}</strong> Kunden über <strong>{{campaignCount}}</strong> Kampagnen",
+      "subtitleText": "Verwaltung von {{clientCount}} Kunden über {{campaignCount}} Kampagnen"
+    },
+    "actions": {
+      "manageClients": "Kunden verwalten",
+      "addClient": "Kunde hinzufügen",
+      "addNewClient": "Neuen Kunden hinzufügen",
+      "viewAllClients": "Alle Kunden anzeigen",
+      "manageTeam": "Team verwalten",
+      "addFirstClient": "Ersten Kunden hinzufügen",
+      "viewAllClientsCount": "Alle {{count}} Kunden anzeigen"
+    },
+    "metrics": {
+      "totalClients": "Kunden gesamt",
+      "activeCount": "{{count}} aktiv",
+      "monthlyRevenue": "Monatlicher Umsatz",
+      "avgPerClient": "Durchschn. {{amount}}/Kunde",
+      "activeCampaigns": "Aktive Kampagnen",
+      "ofTotal": "von {{total}} gesamt",
+      "avgCampaignsPerClient": "Durchschn. Kampagnen/Kunde",
+      "perClient": "Pro Kunde"
+    },
+    "portfolio": {
+      "title": "Kundenportfolio",
+      "subtitle": "Übersicht aller Ihrer Agenturkunden",
+      "clientCount": "{{count}} Kunden",
+      "noClients": "Noch keine Kunden",
+      "campaigns": "{{count}} Kampagnen",
+      "active": "{{count}} aktiv"
+    },
+    "quickActions": {
+      "title": "Schnellaktionen"
+    }
+  },
+  "clientOverview": {
+    "notFound": {
+      "title": "Kunde nicht gefunden",
+      "description": "Der gesuchte Kunde existiert nicht oder Sie haben keinen Zugriff.",
+      "backToClients": "Zurück zu Kunden"
+    },
+    "quickStats": {
+      "title": "Kurzstatistiken"
+    },
+    "recommendations": {
+      "personaAnalysis": {
+        "title": "Kunden-Persona-Analyse abschließen",
+        "description": "Erstellen Sie detaillierte Buyer Personas für {{clientName}}, um deren Kampagnen besser auszurichten"
+      },
+      "marketingStrategy": {
+        "title": "Marketingstrategie-Empfehlungen prüfen",
+        "description": "KI-generierter Kanalmix und Messaging-Framework, zugeschnitten auf diesen Kunden"
+      },
+      "contentGeneration": {
+        "title": "Inhalte für Top-Kanal erstellen",
+        "description": "Kampagnenmaterialien erstellen, optimiert für deren leistungsstärksten Kanal"
+      }
+    }
+  },
+  "clientOnboarding": {
+    "title": "Intelligence für diesen Kunden aufbauen",
+    "subtitle": "Beginnen Sie damit, deren Geschäft und Kunden zu verstehen",
+    "hint": "Kampagnen und Inhalte kommen danach — Intelligence zuerst",
+    "divider": "ODER ANDERE KI-AGENTEN ERKUNDEN",
+    "moreAgentsTitle": "Weitere KI-Marketing-Agenten",
+    "moreAgentsSubtitle": "Spezialisierte Agenten für den Marketingerfolg dieses Kunden",
+    "cards": {
+      "strategy": {
+        "title": "Mit Strategie beginnen",
+        "subtitle": "Empfohlener erster Schritt",
+        "description": "Analysieren Sie deren Geschäft mit 11 strategischen Frameworks und bauen Sie ein solides Fundament auf",
+        "cta": "3 Minuten bis zum ersten Einblick"
+      },
+      "persona": {
+        "title": "Deren Kunden kennenlernen",
+        "subtitle": "Detaillierte Buyer Personas erstellen",
+        "description": "Verstehen Sie, an wen sie vermarkten, mit KI-gestützten Kundeneinblicken",
+        "cta": "5 Minuten zur Persona-Erstellung"
+      },
+      "marketingStrategy": {
+        "title": "Marketingstrategie",
+        "subtitle": "Go-to-Market-Planung",
+        "description": "Umfassende Marketingstrategie mit Kanalmix und Messaging-Frameworks erstellen",
+        "cta": "7 Minuten bis zur Fertigstellung"
+      }
+    },
+    "agents": {
+      "content": {
+        "name": "Content-Agent",
+        "description": "9 Tools zur Content-Erstellung für Kampagnen"
+      },
+      "performance": {
+        "name": "Performance Intelligence",
+        "description": "Einheitliche Analysen, ROI & Einblicke"
+      },
+      "competitive": {
+        "name": "Competitive Intelligence",
+        "description": "Marktanalyse & Wettbewerbstrends"
+      },
+      "campaignPlanning": {
+        "name": "Kampagnenplanung",
+        "description": "Multi-Channel-Kampagnen-Deployment"
+      }
+    }
+  },
+  "quickStartModal": {
+    "title": "Schnellstart - Intelligence in 5 Minuten generieren",
+    "description": "Beantworten Sie 5 kurze Fragen und wir erstellen Ihre Strategie, Personas und Ihren Marketingplan",
+    "step": "Schritt {{current}} von {{total}}",
+    "complete": "{{percent}}% abgeschlossen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "start": "Schnellstart beginnen",
+    "steps": {
+      "company": {
+        "label": "Erzählen Sie uns von Ihrem Unternehmen",
+        "placeholder": "Z.B. Wir sind ein B2B-SaaS-Unternehmen, das Projektmanagement-Tools für Remote-Teams anbietet...",
+        "hint": "Kurze Beschreibung dessen, was Sie tun, wen Sie bedienen und was Sie einzigartig macht"
+      },
+      "goal": {
+        "label": "Was ist Ihr primäres Marketingziel?",
+        "placeholder": "Z.B. 100 qualifizierte Leads pro Monat für unser Enterprise-Produkt generieren...",
+        "hint": "Seien Sie konkret: Leads, Umsatz, Markenbekanntheit, Produkteinführung usw."
+      },
+      "audience": {
+        "label": "Wer ist Ihre Zielgruppe?",
+        "placeholder": "Z.B. Marketing-Manager in mittelständischen Technologieunternehmen (50-500 Mitarbeiter), die mit Teamzusammenarbeit zu kämpfen haben...",
+        "hint": "Beschreiben Sie deren Rolle, Unternehmensgröße, Herausforderungen und Verhaltensweisen"
+      },
+      "budget": {
+        "label": "Wie hoch ist Ihr monatliches Marketingbudget?",
+        "placeholder": "Budgetrahmen auswählen",
+        "hint": "Dies hilft uns, passende Taktiken und Kanäle zu empfehlen",
+        "options": {
+          "bootstrap": "0 - 1.000 € (Bootstrap)",
+          "growing": "1.000 - 5.000 € (Wachstum)",
+          "scaling": "5.000 - 20.000 € (Skalierung)",
+          "enterprise": "20.000 €+ (Enterprise)"
+        }
+      },
+      "timeline": {
+        "label": "Wann möchten Sie Ergebnisse sehen?",
+        "placeholder": "Zeitrahmen auswählen",
+        "hint": "Wir priorisieren Taktiken basierend auf Ihrem Zeitrahmen",
+        "options": {
+          "immediate": "Sofort (Quick Wins)",
+          "shortTerm": "1-3 Monate (Kurzfrist-Kampagne)",
+          "mediumTerm": "3-6 Monate (Mittelfrist-Strategie)",
+          "longTerm": "6-12 Monate (Langfrist-Wachstum)"
+        }
+      }
+    }
+  },
+  "sme": {
+    "onboarding": {
+      "badge": "Legen wir los",
+      "title": "Willkommen bei STRAŦUM",
+      "subtitle": "Erst Intelligence aufbauen, dann mit Zuversicht umsetzen",
+      "hint": "Beginnen Sie damit, Ihr Geschäft und Ihre Kunden zu verstehen — Kampagnen kommen danach",
+      "divider": "ODER KI-AGENTEN ERKUNDEN",
+      "agentsTitle": "KI-Marketing-Agenten",
+      "agentsSubtitle": "7 spezialisierte Agenten für Ihren Marketingerfolg",
+      "agentCount": "({{count}} Agenten)",
+      "cards": {
+        "strategy": {
+          "badge": "Empfohlen",
+          "title": "Mit Strategie beginnen",
+          "subtitle": "Ihr Fundament für den Erfolg",
+          "description": "Analysieren Sie Ihr Geschäft mit 11 strategischen Frameworks und bauen Sie ein solides Fundament auf",
+          "cta": "3 Min. bis zum ersten Einblick"
+        },
+        "persona": {
+          "title": "Ihre Kunden kennenlernen",
+          "subtitle": "Detaillierte Buyer Personas erstellen",
+          "description": "Verstehen Sie, an wen Sie vermarkten, mit KI-gestützten Kundeneinblicken",
+          "cta": "5 Min. zur Persona-Erstellung"
+        },
+        "quickStart": {
+          "title": "Schnellstart",
+          "subtitle": "5 Fragen beantworten, volle Strategie erhalten",
+          "description": "Strategie, Personas und Marketingplan aus 5 kurzen Fragen generieren",
+          "cta": "5 Min. bis zur Fertigstellung"
+        }
+      },
+      "categories": {
+        "foundation": {
+          "name": "Fundament",
+          "description": "Ihre Marketing-Intelligence aufbauen"
+        },
+        "execution": {
+          "name": "Umsetzung",
+          "description": "Kampagnen erstellen und einsetzen"
+        },
+        "intelligence": {
+          "name": "Intelligence",
+          "description": "Leistung analysieren und optimieren"
+        }
+      },
+      "agents": {
+        "strategy": {
+          "name": "Geschäftsstrategie",
+          "description": "11 strategische Frameworks & Analysen"
+        },
+        "persona": {
+          "name": "Persona-Agent",
+          "description": "Kundenprofilierung & Interview-Modus"
+        },
+        "marketingStrategy": {
+          "name": "Marketingstrategie",
+          "description": "Go-to-Market- & Kanalstrategien"
+        },
+        "content": {
+          "name": "Content-Agent",
+          "description": "9 Tools zur Content-Erstellung"
+        },
+        "campaignPlanning": {
+          "name": "Kampagnenplanung",
+          "description": "Multi-Channel-Deployment"
+        },
+        "performance": {
+          "name": "Performance Intelligence",
+          "description": "Einheitliche Analysen, ROI & Einblicke"
+        },
+        "competitive": {
+          "name": "Competitive Intelligence",
+          "description": "Marktanalyse & Trends"
+        }
+      },
+      "trust": {
+        "noCreditCard": "Keine Kreditkarte erforderlich",
+        "dataSecure": "Ihre Daten sind sicher",
+        "cancelAnytime": "Jederzeit kündbar"
+      }
+    }
+  },
+  "buildingMomentum": {
+    "greeting": "Willkommen zurück, {{name}}!",
+    "progress": {
+      "label": "Ihr Fortschritt:",
+      "status": "Dynamik aufbauen"
+    },
+    "stats": {
+      "activeCampaigns": "Aktive Kampagnen",
+      "savedStrategies": "Gespeicherte Strategien",
+      "aiInteractions": "KI-Interaktionen"
+    },
+    "continueSection": {
+      "title": "Dort weitermachen, wo Sie aufgehört haben",
+      "resumeEditing": "Bearbeitung fortsetzen",
+      "budget": "Budget: {{amount}} €",
+      "emptyState": "Noch keine Kampagnen. Starten Sie unten Ihre erste Kampagne!",
+      "createCampaign": "Kampagne erstellen"
+    },
+    "campaignStatus": {
+      "active": "Aktiv",
+      "paused": "Pausiert",
+      "draft": "Entwurf",
+      "completed": "Abgeschlossen"
+    }
+  },
+  "scalingUp": {
+    "title": "Dashboard",
+    "activeCampaigns": {
+      "title": "Aktive Kampagnen ({{active}}/{{total}})",
+      "metrics": {
+        "ctrUp": "↑ {{value}}% CTR",
+        "convUp": "↑ {{value}}% Conv",
+        "starting": "Wird gestartet..."
+      }
+    },
+    "quickActions": {
+      "title": "Schnellaktionen",
+      "viewAnalytics": "Analysen anzeigen",
+      "createContent": "Inhalt erstellen",
+      "strategyReview": "Strategie-Review"
+    },
+    "aiInsights": {
+      "title": "KI-Einblicke",
+      "agents": {
+        "content": "Content-Agent",
+        "strategy": "Strategie-Agent"
+      },
+      "insights": {
+        "holidayPerformance": "Feiertagskampagne übertrifft Benchmark",
+        "competitorGap": "Neue Chance in Wettbewerbslücke identifiziert"
+      }
+    }
+  },
+  "agencyScaling": {
+    "title": "Agentur-Dashboard - {{count}} aktive Kunden",
+    "campaigns": "{{count}} Kampagnen",
+    "status": {
+      "active": "Aktiv",
+      "paused": "Pausiert"
+    },
+    "quickFilters": {
+      "title": "Schnellfilter",
+      "all": "Alle",
+      "active": "Aktiv",
+      "needsAttention": "Aufmerksamkeit nötig",
+      "reportsDue": "Berichte fällig"
+    },
+    "priorities": {
+      "title": "Prioritäten dieser Woche",
+      "items": {
+        "strategyReview": "{{client}}: Strategie-Review-Meeting Donnerstag",
+        "contentApproval": "{{client}}: Inhaltsfreigabe erforderlich",
+        "monthlyReport": "{{client}}: Monatsbericht fällig"
+      }
+    }
+  }
+}

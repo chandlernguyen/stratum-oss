@@ -1,0 +1,57 @@
+{
+  "pageTitle": "작업",
+  "pageSubtitle": "팀의 업무를 관리하고 추적하세요",
+  "newTask": "새 작업",
+  "myTasks": "내 작업",
+  "allTasks": "전체 작업",
+  "noTasks": "작업이 없습니다",
+  "status": {
+    "todo": "할 일",
+    "in_progress": "진행 중",
+    "review": "검토 중",
+    "done": "완료",
+    "cancelled": "취소됨"
+  },
+  "taskType": {
+    "content_creation": "콘텐츠 제작",
+    "review": "검토",
+    "analysis": "분석",
+    "campaign_setup": "캠페인 설정",
+    "strategy": "전략",
+    "other": "기타"
+  },
+  "priority": {
+    "low": "낮음",
+    "normal": "보통",
+    "high": "높음",
+    "urgent": "긴급"
+  },
+  "dueDate": {
+    "overdue": "기한 초과",
+    "today": "오늘",
+    "tomorrow": "내일"
+  },
+  "assignee": {
+    "unassigned": "미할당"
+  },
+  "actions": {
+    "moveTo": "{{status}}(으)로 이동",
+    "cancel": "취소"
+  },
+  "createDialog": {
+    "title": "작업 생성",
+    "description": "팀원에게 새 작업을 할당하세요.",
+    "titleLabel": "제목",
+    "titlePlaceholder": "무엇을 해야 하나요?",
+    "descriptionLabel": "설명 (선택)",
+    "descriptionPlaceholder": "추가 세부 사항을 적어 주세요...",
+    "typeLabel": "유형",
+    "priorityLabel": "우선순위",
+    "assigneeLabel": "담당자 지정",
+    "assigneePlaceholder": "팀원을 선택하세요",
+    "dueDateLabel": "마감일",
+    "cancelButton": "취소",
+    "createButton": "작업 생성",
+    "creatingButton": "생성 중..."
+  }
+}

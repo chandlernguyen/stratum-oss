@@ -1,0 +1,10 @@
+{
+  "page": {
+    "title": "AI 工作流构建器",
+    "subtitle": "连接多个智能体，创建强大的营销工作流"
+  },
+  "sections": {
+    "workflowBuilder": "工作流构建器 - 主区域",
+    "aiRecommendations": "AI 推荐 - 侧边栏"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "masthead": {
+    "eyebrow": "洞察与指南",
+    "title": "STRAŦUM 博客",
+    "description": "战略营销智能、框架深度解析，以及打造 AI 驱动平台过程中的经验总结。"
+  },
+  "hubs": {
+    "all": "全部文章",
+    "marketingIntelligence": "营销智能",
+    "marketingFrameworks": "框架",
+    "aiAgents": "AI 智能体",
+    "agencyOperations": "代理机构运营"
+  },
+  "post": {
+    "notFoundTitle": "未找到文章",
+    "backToBlog": "返回博客",
+    "allPosts": "全部文章",
+    "completeGuide": "完整指南",
+    "minRead": "分钟阅读",
+    "min": "分钟",
+    "moreFrom": "来自 {{hub}} 的更多内容",
+    "read": "阅读",
+    "readArticle": "阅读文章",
+    "emptyHub": "该主题下暂时还没有更多文章，请稍后再来查看。"
+  },
+  "languages": {
+    "english": "英语",
+    "vietnamese": "Tiếng Việt"
+  }
+}

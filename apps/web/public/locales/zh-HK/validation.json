@@ -1,0 +1,33 @@
+{
+  "required": "必須填寫{{field}}",
+  "minLength": "{{field}}至少需要 {{min}} 個字元",
+  "maxLength": "{{field}}最多只可以有 {{max}} 個字元",
+  "email": "請輸入有效嘅電郵地址",
+  "password": {
+    "minLength": "密碼至少需要 8 個字元",
+    "uppercase": "密碼必須包含至少一個大寫字母",
+    "lowercase": "密碼必須包含至少一個小寫字母",
+    "number": "密碼必須包含至少一個數字",
+    "special": "密碼必須包含至少一個特殊字元",
+    "match": "兩次輸入嘅密碼必須一致"
+  },
+  "phone": "請輸入有效嘅電話號碼",
+  "url": "請輸入有效嘅 URL",
+  "date": "請輸入有效嘅日期",
+  "number": {
+    "min": "{{field}}唔可以小於 {{min}}",
+    "max": "{{field}}唔可以大於 {{max}}",
+    "integer": "{{field}}必須係整數",
+    "positive": "{{field}}必須係正數"
+  },
+  "file": {
+    "required": "請選擇檔案",
+    "tooLarge": "檔案大小必須小於 {{max}}",
+    "invalidType": "檔案類型無效。允許嘅類型：{{types}}"
+  },
+  "custom": {
+    "invitationCode": "邀請碼無效",
+    "slugFormat": "Slug 只可以包含小寫字母、數字同連字號",
+    "uniqueEmail": "此電郵地址已被註冊"
+  }
+}

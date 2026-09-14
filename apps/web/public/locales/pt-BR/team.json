@@ -1,0 +1,183 @@
+{
+  "title": "Equipe",
+  "subtitle": "Gerencie os membros da sua equipe e permissões",
+  "management": {
+    "title": "Gerenciamento de Equipe",
+    "subtitle": "Gerencie os membros da sua equipe e convites",
+    "inviteButton": "Convidar Membro da Equipe"
+  },
+  "list": {
+    "title": "Membros da Equipe",
+    "empty": "Nenhum membro da equipe ainda",
+    "emptyDescription": "Convide membros para colaborar na sua estratégia de marketing",
+    "inviteFirst": "Convide Seu Primeiro Membro da Equipe"
+  },
+  "members": {
+    "title": "Membros da Equipe",
+    "count": "Membros da Equipe ({{count}})",
+    "subtitle": "Membros ativos na sua organização",
+    "empty": "Nenhum membro da equipe encontrado",
+    "joined": "Entrou em {{date}}"
+  },
+  "invitations": {
+    "title": "Convites Pendentes",
+    "count": "Convites Pendentes ({{count}})",
+    "subtitle": "Convites que ainda não foram aceitos",
+    "empty": "Nenhum convite pendente",
+    "invitedBy": "Convidado por {{name}}",
+    "expires": "Expira em {{date}}",
+    "revoke": "Revogar convite"
+  },
+  "table": {
+    "name": "Nome",
+    "email": "E-mail",
+    "role": "Função",
+    "clientAccess": "Acesso a Clientes",
+    "joined": "Entrou",
+    "expires": "Expira",
+    "invitedBy": "Convidado Por",
+    "actions": "Ações"
+  },
+  "clientAccess": {
+    "allClients": "Todos os Clientes",
+    "clientCount_one": "{{count}} Cliente",
+    "clientCount_other": "{{count}} Clientes",
+    "allClientsTooltip": "Tem acesso a todos os clientes atuais e futuros",
+    "assignedClients": "Clientes atribuídos:",
+    "andMore": "...e mais {{count}}",
+    "noClientsAssigned": "Nenhum cliente atribuído"
+  },
+  "dialogs": {
+    "changeRole": {
+      "title": "Alterar Função do Membro",
+      "description": "Atualizar a função de {{name}} ({{email}})",
+      "newRole": "Nova Função",
+      "selectRole": "Selecione uma nova função",
+      "cancel": "Cancelar",
+      "submit": "Atualizar Função",
+      "submitting": "Atualizando..."
+    },
+    "clientAccess": {
+      "title": "Gerenciar Acesso a Clientes",
+      "description": "Atualizar acesso a clientes para {{name}} ({{email}})",
+      "allClients": "Todos os Clientes",
+      "allClientsDescription": "O usuário terá acesso a todos os clientes atuais e futuros",
+      "selectClients": "Selecione clientes específicos:",
+      "loadingClients": "Carregando clientes...",
+      "noClients": "Nenhum cliente disponível",
+      "selectAtLeastOne": "Selecione pelo menos um cliente ou escolha \"Todos os Clientes\"",
+      "cancel": "Cancelar",
+      "submit": "Atualizar Acesso",
+      "submitting": "Atualizando..."
+    },
+    "revoke": {
+      "title": "Revogar Convite",
+      "description": "Tem certeza de que deseja revogar o convite para {{email}}?",
+      "confirm": "Revogar"
+    },
+    "remove": {
+      "title": "Remover Membro da Equipe",
+      "description": "Tem certeza de que deseja remover {{name}} ({{email}}) da sua organização? Esta ação não pode ser desfeita.",
+      "confirm": "Remover Membro"
+    }
+  },
+  "actions": {
+    "changeRole": "Alterar Função",
+    "manageClientAccess": "Gerenciar Acesso a Clientes",
+    "removeMember": "Remover Membro",
+    "moreOptions": "Mais opções"
+  },
+  "validation": {
+    "selectRole": "Por favor, selecione uma função",
+    "rolesNotLoaded": "Funções ainda não carregadas",
+    "invalidRole": "Função selecionada inválida",
+    "noMemberSelected": "Nenhum membro selecionado",
+    "selectClientOrAll": "Por favor, selecione pelo menos um cliente ou escolha \"Todos os Clientes\""
+  },
+  "roles": {
+    "owner": "Proprietário",
+    "admin": "Administrador",
+    "editor": "Editor",
+    "viewer": "Visualizador",
+    "descriptions": {
+      "owner": "Acesso total a todos os recursos, incluindo cobrança e gerenciamento de equipe",
+      "admin": "Pode gerenciar membros da equipe e acessar todos os recursos, exceto cobrança",
+      "editor": "Pode criar e editar conteúdo, campanhas e personas",
+      "viewer": "Acesso somente leitura para visualizar painéis e relatórios"
+    }
+  },
+  "invite": {
+    "title": "Convidar Membro da Equipe",
+    "subtitle": "Envie um convite para ingressar na sua equipe",
+    "fields": {
+      "email": "Endereço de E-mail",
+      "emailPlaceholder": "colega@empresa.com",
+      "role": "Função",
+      "message": "Mensagem Pessoal (Opcional)",
+      "messagePlaceholder": "Adicione uma nota pessoal ao seu convite..."
+    },
+    "actions": {
+      "send": "Enviar Convite",
+      "sending": "Enviando...",
+      "cancel": "Cancelar"
+    },
+    "success": "Convite enviado com sucesso",
+    "error": "Falha ao enviar convite"
+  },
+  "member": {
+    "joined": "Entrou",
+    "lastActive": "Última Atividade",
+    "pendingInvite": "Convite Pendente",
+    "inviteSent": "Convite enviado",
+    "actions": {
+      "changeRole": "Alterar Função",
+      "resendInvite": "Reenviar Convite",
+      "cancelInvite": "Cancelar Convite",
+      "remove": "Remover da Equipe"
+    }
+  },
+  "permissions": {
+    "title": "Permissões",
+    "categories": {
+      "campaigns": "Campanhas",
+      "personas": "Personas",
+      "agents": "Agentes de IA",
+      "analytics": "Análises",
+      "settings": "Configurações",
+      "team": "Gerenciamento de Equipe"
+    },
+    "levels": {
+      "none": "Sem Acesso",
+      "view": "Somente Leitura",
+      "edit": "Editar",
+      "full": "Acesso Total"
+    }
+  },
+  "confirmRemove": {
+    "title": "Remover Membro da Equipe",
+    "message": "Tem certeza de que deseja remover {{name}} da equipe? Ele perderá acesso a todos os recursos da equipe.",
+    "confirm": "Remover",
+    "cancel": "Cancelar"
+  },
+  "confirmCancelInvite": {
+    "title": "Cancelar Convite",
+    "message": "Tem certeza de que deseja cancelar o convite para {{email}}?",
+    "confirm": "Cancelar Convite",
+    "cancel": "Manter Convite"
+  },
+  "limits": {
+    "title": "Limites da Equipe",
+    "membersUsed": "{{used}} de {{total}} membros",
+    "upgradePrompt": "Faça upgrade para adicionar mais membros à equipe"
+  },
+  "activity": {
+    "title": "Atividade Recente",
+    "empty": "Nenhuma atividade recente",
+    "actions": {
+      "invited": "convidou",
+      "joined": "entrou na equipe",
+      "removed": "foi removido da equipe",
+      "roleChanged": "função alterada para"
+    }
+  }
+}

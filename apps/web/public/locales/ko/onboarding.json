@@ -1,0 +1,138 @@
+{
+  "businessContext": {
+    "title": "{{orgName}}님, 환영합니다!",
+    "titleDefault": "STRAŦUM에 오신 것을 환영합니다!",
+    "subtitle": "비즈니스에 대한 몇 가지 정보를 입력해 AI 경험을 맞춤 설정해 봅시다",
+    "form": {
+      "industry": {
+        "label": "업종",
+        "placeholder": "업종을 선택하세요",
+        "required": "*"
+      },
+      "companySize": {
+        "label": "회사 규모",
+        "placeholder": "회사 규모를 선택하세요",
+        "required": "*"
+      },
+      "description": {
+        "label": "비즈니스 설명",
+        "optional": "(선택)",
+        "placeholder": "비즈니스, 제품 또는 서비스에 대해 알려 주세요..."
+      }
+    },
+    "validation": {
+      "requiredFields": "계속하려면 업종과 회사 규모를 모두 선택해 주세요"
+    },
+    "buttons": {
+      "submit": "시작하기",
+      "submitting": "저장 중...",
+      "skip": "지금은 건너뛰기"
+    },
+    "errors": {
+      "organizationNotFound": "조직을 찾을 수 없습니다",
+      "saveFailed": "비즈니스 컨텍스트 저장에 실패했습니다"
+    }
+  },
+  "industries": {
+    "advertisingMarketing": "광고 및 마케팅",
+    "agricultureFarming": "농업",
+    "automotive": "자동차",
+    "construction": "건설",
+    "consulting": "컨설팅",
+    "ecommerce": "이커머스",
+    "education": "교육",
+    "energyUtilities": "에너지 및 유틸리티",
+    "entertainmentMedia": "엔터테인먼트 및 미디어",
+    "financeBanking": "금융 및 은행",
+    "foodBeverage": "식음료",
+    "healthcare": "헬스케어",
+    "hospitalityTourism": "숙박 및 관광",
+    "insurance": "보험",
+    "legalServices": "법률 서비스",
+    "manufacturing": "제조",
+    "nonprofit": "비영리",
+    "professionalServices": "전문 서비스",
+    "realEstate": "부동산",
+    "retail": "소매",
+    "saasSoftware": "SaaS/소프트웨어",
+    "technology": "기술",
+    "telecommunications": "통신",
+    "transportationLogistics": "운송 및 물류",
+    "other": "기타"
+  },
+  "companySizes": {
+    "1-10": "직원 1-10명",
+    "11-50": "직원 11-50명",
+    "51-200": "직원 51-200명",
+    "201-500": "직원 201-500명",
+    "500+": "직원 500명 이상"
+  },
+  "progress": {
+    "step": "{{total}}단계 중 {{current}}단계",
+    "businessDetails": "비즈니스 정보",
+    "complete": "완료"
+  },
+  "flow": {
+    "stepOf": "{{total}}단계 중 {{current}}단계",
+    "estimatedTime": "예상 시간: {{time}}",
+    "rewardPreview": "얻게 될 결과: {{reward}}",
+    "steps": {
+      "welcome": {
+        "title": "AI 마케팅 팀에 오신 것을 환영합니다!",
+        "description": "9개의 전문 AI 에이전트가 마케팅을 혁신할 준비를 마쳤습니다. 5분 안에 첫 성과를 만들어 봅시다.",
+        "estimatedTime": "10초",
+        "reward": "AI 팀 만나기"
+      },
+      "chooseGoal": {
+        "title": "오늘의 가장 중요한 목표는 무엇인가요?",
+        "description": "현재 필요에 맞춰 바로 효과를 낼 수 있도록 도와드리겠습니다.",
+        "estimatedTime": "30초",
+        "reward": "개인화된 추천 받기"
+      },
+      "quickWin": {
+        "title": "첫 빠른 성과 얻기",
+        "description": "템플릿을 선택해 AI 기반 마케팅의 힘을 확인해 보세요.",
+        "estimatedTime": "2-5분",
+        "reward": "실질적인 마케팅 가치 생성"
+      }
+    },
+    "features": {
+      "aiAgents": {
+        "title": "9개의 AI 에이전트",
+        "description": "각기 다른 마케팅 영역에 특화되어 있습니다"
+      },
+      "builtForTeams": {
+        "title": "팀을 위해 설계됨",
+        "description": "중소기업과 에이전시 모두에 적합합니다"
+      },
+      "quickResults": {
+        "title": "빠른 결과",
+        "description": "몇 시간이 아니라 몇 분 안에 유용한 인사이트를 얻으세요"
+      }
+    },
+    "buttons": {
+      "skipTour": "투어 건너뛰기",
+      "skipsLeft": "{{count}}회 남음",
+      "back": "뒤로",
+      "continue": "계속",
+      "chooseTemplate": "템플릿 선택",
+      "exploreOnOwn": "직접 둘러볼게요"
+    }
+  },
+  "quickWin": {
+    "categories": {
+      "all": "전체",
+      "analysis": "분석",
+      "content": "콘텐츠",
+      "strategy": "전략",
+      "growth": "성장"
+    },
+    "youllGet": "얻게 될 내용",
+    "difficulty": {
+      "beginner": "초급",
+      "intermediate": "중급",
+      "advanced": "고급"
+    },
+    "noTemplates": "이 카테고리에는 템플릿이 없습니다"
+  }
+}

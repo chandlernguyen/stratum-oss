@@ -1,0 +1,173 @@
+{
+  "pageTitle": "代理機構最佳實踐指南",
+  "pageSubtitle": "掌握 STRA\u0166UM，高效管理 5 個以上客戶",
+  "backButton": "返回",
+  "privateAlpha": {
+    "title": "歡迎嚟到 STRA\u0166UM",
+    "description": "你正在使用 STRA\u0166UM 嘅<strong>免費方案</strong>。我哋正在積極構建同改進平台，你嘅意見將幫助決定下一步發展方向。",
+    "protectWork": "最佳實踐",
+    "protectWorkItems": {
+      "databaseReset": "養成定期匯出重要工作嘅備份習慣",
+      "downloadData": "<strong>定期下載有價值嘅數據</strong>（策略、內容、洞察）",
+      "useExport": "使用 Content Agent 同 Outputs Hub 中嘅匯出按鈕",
+      "feedbackValue": "你嘅意見會塑造產品，對我哋非常寶貴！"
+    },
+    "questionsTitle": "有問題或意見？",
+    "questionsDescription": "點擊右上角頭像，然後揀選 <strong>\u201c發送意見回饋\u201d</strong>。我哋會閱讀每一條訊息，並用你嘅意見令 STRA\u0166UM 變得更好。"
+  },
+  "introduction": {
+    "title": "簡介",
+    "description": "歡迎嚟到 STRA\u0166UM！本指南為營銷代理機構提供使用平台管理多個客戶嘅最佳實踐，同時藉助 AI 驅動智能交付卓越成果。"
+  },
+  "clientOnboarding": {
+    "title": "客戶入駐策略",
+    "firstClientSetup": "首個客戶設定（15-20 分鐘）",
+    "steps": {
+      "addClient": "<strong>新增客戶：</strong>喺儀表板中點擊\u201c新增你嘅第一個客戶\u201d按鈕",
+      "strategicFoundation": "<strong>策略基礎：</strong>運行商業策略智能助手，建立策略框架",
+      "customerInsights": "<strong>客戶洞察：</strong>使用畫像智能助手生成 3-5 個畫像",
+      "marketingDirection": "<strong>營銷方向：</strong>使用營銷策略智能助手建立初始營銷策略"
+    },
+    "proTipLabel": "專業提示：",
+    "proTipContent": "唔好一開始就嘗試收集所有資訊，畀 AI 智能助手透過對話逐步學習。每一次互動都會自動建立上下文。"
+  },
+  "dataProtection": {
+    "title": "你嘅客戶數據受到保護",
+    "description": "STRA\u0166UM 會將每個客戶嘅數據<strong>完全分離並安全保護</strong>。客戶 A 永遠唔會睇到客戶 B 嘅資訊，反之亦然。呢種保護喺資料庫層面內建於平台中。",
+    "doTitle": "建議做：",
+    "doItems": {
+      "useSelector": "使用客戶選擇器喺唔同客戶之間切換",
+      "doubleCheck": "再次確認你處於正確嘅客戶工作區",
+      "downloadRegularly": "定期下載重要策略同內容",
+      "lookForBadge": "留意\u201c數據受保護\u201d徽章以安心操作"
+    },
+    "dontTitle": "唔好做：",
+    "dontItems": {
+      "copySensitive": "喺唔同客戶工作區之間複製敏感資訊",
+      "shareLogin": "與團隊成員共享登入資訊（應改為邀請佢哋）",
+      "exportWithoutPermission": "喺未經客戶允許嘅情況下匯出客戶數據"
+    },
+    "alphaTipTitle": "提示：儲存你嘅工作",
+    "alphaTipContent": "我哋建議你喺建立有價值嘅策略同內容嗰陣就及時下載儲存。使用 Content Agent（Word、PDF、Google Docs）同 Outputs Hub 中嘅匯出按鈕。當佢係喺文件中隨手儲存工作咁，呢係個好習慣！"
+  },
+  "teamRoles": {
+    "title": "團隊協作與角色",
+    "description": "STRA\u0166UM 為代理機構提供 10 種唔同嘅團隊角色，令每個人只睇到完成工作所需嘅內容：",
+    "roles": {
+      "agencyOwner": { "title": "代理機構擁有者", "description": "完整存取、帳單、團隊管理" },
+      "agencyAdmin": { "title": "代理機構管理員", "description": "管理所有客戶，無帳單存取權限" },
+      "accountManager": { "title": "客戶經理", "description": "客戶關係管理，可查看所有數據" },
+      "strategist": { "title": "策略師", "description": "建立策略、畫像同商業智能" },
+      "campaignManager": { "title": "活動經理", "description": "執行營銷活動，管理內容日曆" },
+      "analyst": { "title": "分析師", "description": "績效追蹤、ROI 分析、報告" },
+      "creative": { "title": "創意人員", "description": "內容創作與設計素材" },
+      "freelancer": { "title": "自由工作者", "description": "按項目存取特定客戶" },
+      "clientViewer": { "title": "客戶查看者", "description": "唯讀存取已分配嘅客戶數據" },
+      "agencyViewer": { "title": "代理機構查看者", "description": "對所有客戶擁有唯讀存取權限" }
+    },
+    "inviteInstructions": "<strong>點樣邀請團隊成員：</strong>點擊頭像 \u2192 設定 \u2192 團隊管理。根據每個人實際做嘅工作分配角色，而唔係根據職銜或資歷。只畀佢哋需要嘅存取權限，唔多唔少。"
+  },
+  "aiWorkflow": {
+    "title": "AI 智能助手工作流程",
+    "description": "對於新客戶，請遵循以下策略順序：",
+    "phases": {
+      "foundation": {
+        "title": "階段 1：基礎（第 1 週）",
+        "steps": {
+          "step1": "商業策略智能助手 - 建立框架（SWOT、Porter's Five Forces）",
+          "step2": "畫像智能助手 - 建立 3-5 個詳細客戶畫像",
+          "step3": "營銷策略智能助手 - 制定市場進入策略"
+        }
+      },
+      "execution": {
+        "title": "階段 2：執行規劃（第 2 週）",
+        "steps": {
+          "step1": "內容智能助手 - 生成內容日曆同初始素材",
+          "step2": "營銷活動規劃智能助手 - 規劃多渠道營銷活動",
+          "step3": "競爭智能助手 - 分析市場定位"
+        }
+      },
+      "optimization": {
+        "title": "階段 3：優化（持續進行）",
+        "steps": {
+          "step1": "績效智能助手 - 追蹤 ROI、KPI 並識別快速收益",
+          "step2": "客戶成功智能助手 - 監控客戶健康度同留存"
+        }
+      }
+    },
+    "crossAgentTitle": "跨智能助手智能：",
+    "crossAgentContent": "STRA\u0166UM 智能助手會自動共享上下文。畫像會反饋內容生成，策略會指導營銷活動，績效數據會觸發優化洞察。信任系統中嘅數據流。"
+  },
+  "campaignManagement": {
+    "title": "營銷活動管理",
+    "lifecycleTitle": "營銷活動生命週期",
+    "lifecycleSteps": {
+      "planning": "<strong>規劃：</strong>使用營銷策略智能助手定義目標同預算（70-20-10 規則）",
+      "content": "<strong>內容創作：</strong>內容智能助手提供 9 種工具（SEO 網誌、社交媒體、電郵營銷等）",
+      "execution": "<strong>執行追蹤：</strong>每個營銷活動只標記一個\u201c活躍\u201d策略，並透過 CSV 上傳績效數據",
+      "optimization": "<strong>優化：</strong>使用績效智能助手獲取快速收益洞察，並用預算優化器獲得分配建議"
+    },
+    "multiClientTitle": "多客戶管理：",
+    "multiClientItems": {
+      "selector": "頂部導覽中嘅客戶選擇器方便快速切換",
+      "outputsHub": "Outputs Hub 展示跨客戶嘅所有 AI 生成內容",
+      "bulkOperations": "可批量封存舊營銷活動",
+      "comparison": "支援並排比較以進行策略基準評估"
+    }
+  },
+  "performanceTracking": {
+    "title": "績效追蹤",
+    "metricsTitle": "關鍵指標儀表板",
+    "clientHealth": {
+      "title": "客戶健康評分：",
+      "items": {
+        "roi": "營銷活動 ROI 趨勢",
+        "content": "內容表現",
+        "alignment": "策略一致性",
+        "budget": "預算效率"
+      }
+    },
+    "agencyEfficiency": {
+      "title": "代理機構效率：",
+      "items": {
+        "timeSaved": "每位客戶節省嘅時間",
+        "campaigns": "同時管理嘅營銷活動數量",
+        "retention": "客戶留存率",
+        "upsell": "AI 識別嘅追加銷售機會"
+      }
+    }
+  },
+  "quickReference": {
+    "title": "快速參考：常見任務",
+    "tableHeaders": {
+      "task": "任務",
+      "navigation": "導覽路徑"
+    },
+    "tasks": {
+      "addClient": { "task": "新增客戶", "navigation": "儀表板 \u2192 \u201c新增客戶\u201d按鈕" },
+      "createPersona": { "task": "建立客戶畫像", "navigation": "客戶 \u2192 [客戶] \u2192 智能助手 \u2192 畫像智能助手" },
+      "generateCalendar": { "task": "生成內容日曆", "navigation": "客戶 \u2192 [客戶] \u2192 智能助手 \u2192 內容智能助手" },
+      "uploadPerformance": { "task": "上傳績效數據", "navigation": "客戶 \u2192 [客戶] \u2192 智能助手 \u2192 績效智能助手" },
+      "inviteTeam": { "task": "邀請團隊成員", "navigation": "設定 \u2192 團隊管理" },
+      "switchClients": { "task": "喺客戶間切換", "navigation": "頂部導覽 \u2192 客戶選擇下拉選單" }
+    }
+  },
+  "nextSteps": {
+    "title": "下一步",
+    "steps": {
+      "step1": "透過儀表板新增你嘅第一個客戶",
+      "step2": "生成策略基礎（商業策略 + 畫像 + 營銷策略）",
+      "step3": "建立初始內容資產（內容智能助手）",
+      "step4": "設定績效追蹤（使用績效智能助手上傳第一份 CSV 數據集）",
+      "step5": "邀請團隊成員（如適用）"
+    },
+    "remember": "<strong>請記住：</strong>STRA\u0166UM 提供嘅係\u201c智能優先於執行\u201d- 專注於策略洞察，而唔係戰術自動化。畀 AI 智能助手透過自然對話逐步建立上下文。"
+  },
+  "footer": {
+    "feedbackTitle": "我哋好想聽到你嘅意見！",
+    "feedbackDescription": "你嘅洞察對我哋極其寶貴。搵到令你困惑嘅地方？有改進想法？遇到問題？",
+    "feedbackCta": "點擊頭像（右上角）\u2192 \u201c發送意見回饋\u201d",
+    "feedbackNote": "我哋會閱讀每一條訊息，並用你嘅意見塑造 STRA\u0166UM 嘅未來",
+    "lastUpdated": "最後更新：2026年1月20日 | 版本 1.2"
+  }
+}

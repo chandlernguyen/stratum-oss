@@ -1,0 +1,342 @@
+{
+  "privacy": {
+    "pageTitle": "私隱政策",
+    "lastUpdated": "最後更新：2026年2月13日",
+    "alphaNotice": {
+      "title": "Alpha 階段說明",
+      "description": "STRA\u0166UM 目前處於 Alpha 測試階段。本私隱政策可能會有重大變更。請自行承擔使用風險。我哋唔會對數據安全或服務可靠性作出保證。"
+    },
+    "sections": {
+      "acceptance": {
+        "number": "1",
+        "title": "接受與適用範圍",
+        "intro": "喺 Alpha 階段使用 STRA\u0166UM，即表示你確認：",
+        "items": {
+          "experimental": "本服務為實驗性服務，並按\u201c現狀\u201d提供",
+          "dataChange": "數據收集同處理方式可能會喺唔另行通知嘅情況下變更",
+          "smallTeam": "我哋係一個資源有限嘅小團隊",
+          "ownRisk": "你使用本服務嘅全部風險由你自行承擔"
+        },
+        "seeTerms": "完整條款請參閱我哋嘅",
+        "termsLink": "條款及細則"
+      },
+      "informationCollect": {
+        "number": "2",
+        "title": "我哋可能收集嘅資訊",
+        "intro": "喺 Alpha 測試期間，我哋可能會收集：",
+        "accountInfo": {
+          "title": "帳戶資訊",
+          "description": "電郵、姓名、組織詳情"
+        },
+        "businessContext": {
+          "title": "業務背景",
+          "description": "公司資訊、營銷目標、策略"
+        },
+        "contentCreated": {
+          "title": "你建立嘅內容",
+          "description": "營銷活動、畫像、營銷計劃"
+        },
+        "technicalData": {
+          "title": "技術數據",
+          "description": "錯誤、使用模式、效能"
+        },
+        "note": "注意：隨住服務發展，數據收集方式可能會有變更。"
+      },
+      "howWeUse": {
+        "number": "3",
+        "title": "我哋點樣使用資訊",
+        "intro": "我哋主要將資訊用於：",
+        "items": {
+          "provideServices": "提供服務（身份驗證、AI 智能助手互動、智能內容生成）",
+          "generateIntelligence": "生成營銷智能同策略建議",
+          "fixBugs": "修正問題並改進 Alpha 服務",
+          "understandUsage": "了解使用模式以提升用戶體驗",
+          "communicate": "就服務相關事項同你溝通"
+        },
+        "note": "我哋嘅團隊規模好細，唔會對你嘅數據做複雜操作。我哋只係想打造一個真正能幫你獲得營銷智能嘅產品。"
+      },
+      "thirdParty": {
+        "number": "4",
+        "title": "第三方服務",
+        "intro": "我哋依賴以下服務（並適用佢哋各自嘅私隱政策）：",
+        "services": {
+          "supabase": {
+            "name": "Supabase",
+            "description": "身份驗證同數據儲存"
+          },
+          "googleCloud": {
+            "name": "Google Cloud",
+            "description": "後端服務託管"
+          },
+          "vercel": {
+            "name": "Vercel",
+            "description": "前端應用託管"
+          },
+          "googleAi": {
+            "name": "Google AI (Gemini)",
+            "description": "內容生成同智能分析"
+          },
+          "stripe": {
+            "name": "Stripe",
+            "description": "支付處理同訂閱管理"
+          },
+          "cloudflare": {
+            "name": "Cloudflare",
+            "description": "機械人防護（Turnstile CAPTCHA）"
+          },
+          "resend": {
+            "name": "Resend",
+            "description": "事務性電郵投遞"
+          }
+        },
+        "disclaimer": "我哋唔會對第三方服務嘅做法或安全性負責。"
+      },
+      "aiUsage": {
+        "number": "5",
+        "title": "AI 同數據使用",
+        "subtitle": "關於 AI 處理嘅重要資訊：",
+        "items": {
+          "sentToGoogle": "你嘅業務數據會傳送至 Google AI（Gemini）進行處理同智能生成",
+          "noTraining": "我哋唔會使用你嘅數據嚟訓練我哋自己嘅 AI 模型",
+          "googlePolicies": "透過 Google 服務處理嘅數據適用 Google 嘅 AI 使用政策",
+          "stored": "你嘅營銷智能同策略會儲存喺我哋嘅資料庫中，畀你存取"
+        }
+      },
+      "dataIsolation": {
+        "number": "6",
+        "title": "數據隔離",
+        "intro": "我哋實施資料庫級嘅數據隔離：",
+        "items": {
+          "isolated": "你嘅業務數據同其他組織隔離",
+          "agencySeparation": "代理機構客戶之間完全數據分離",
+          "rls": "資料庫行級安全（RLS）策略用於強制存取控制"
+        },
+        "note": "但作為 Alpha 服務，我哋無法保證完全防護所有安全漏洞。"
+      },
+      "limitedSecurity": {
+        "number": "7",
+        "title": "有限嘅安全保證",
+        "disclaimerTitle": "重要免責聲明",
+        "intro": "作為資源有限嘅 Alpha 服務，我哋無法保證：",
+        "items": {
+          "completeSecurity": "完整嘅數據安全",
+          "breachProtection": "防範所有安全事件",
+          "dataBackup": "所有場景下嘅數據備份或復原",
+          "availability": "服務可用性或正常運行時間",
+          "migrationProtection": "資料庫遷移期間防止數據遺失"
+        },
+        "warning": "請自行承擔使用本服務嘅風險。唔好上傳高度敏感或機密嘅業務資訊。"
+      },
+      "yourRights": {
+        "number": "8",
+        "title": "你嘅權利（Alpha 期間有限）",
+        "tryToHelp": "我哋會盡力幫你：",
+        "helpItems": {
+          "deleteAccount": "按要求刪除你嘅帳戶",
+          "updateInfo": "更新基本資訊",
+          "accessData": "提供你嘅數據存取權限"
+        },
+        "cannotGuarantee": "但喺 Alpha 期間，我哋無法保證：",
+        "limitedItems": {
+          "export": "完整嘅數據匯出功能",
+          "deletion": "從所有系統同備份中徹底刪除數據",
+          "timeliness": "及時回應數據請求"
+        }
+      },
+      "dataRetention": {
+        "number": "9",
+        "title": "數據保留",
+        "intro": "喺 Alpha 階段：",
+        "items": {
+          "active": "只要你嘅帳戶處於活躍狀態，我哋就會保留數據",
+          "migrations": "我哋可能會喺資料庫遷移或重設期間刪除數據",
+          "backups": "被刪除嘅數據可能會喺備份中保留一段合理時間",
+          "noGuarantee": "我哋唔會對 Alpha 期間嘅數據持久性作出保證"
+        }
+      },
+      "noWarranty": {
+        "number": "10",
+        "title": "無保證與責任限制",
+        "intro": "正如我哋嘅",
+        "termsLink": "條款及細則",
+        "items": {
+          "asIs": "服務按\u201c現狀\u201d提供，唔附帶任何保證",
+          "notLiable": "我哋唔會對數據遺失或安全事件承擔責任",
+          "noAvailability": "唔保證服務持續可用",
+          "assumeRisk": "你需自行承擔使用 Alpha 服務嘅所有風險"
+        }
+      },
+      "changes": {
+        "number": "11",
+        "title": "變更無需另行通知",
+        "description": "本私隱政策可能隨時喺唔通知嘅情況下變更。繼續使用本服務即表示你接受任何變更。請定期查看呢個頁面。"
+      },
+      "contact": {
+        "number": "12",
+        "title": "聯絡我哋",
+        "description": "如有問題，請發送電郵至",
+        "note": "（但請記住，我哋係一個小團隊，回覆可能會延遲）。"
+      }
+    },
+    "tldr": {
+      "label": "TL;DR:",
+      "text": "呢個係一個 Alpha 服務。我哋係一個好細嘅團隊。我哋會盡力，但唔會作任何承諾。唔好喺呢度放入高度敏感嘅資訊。請自行承擔使用風險。"
+    },
+    "navigation": {
+      "returnHome": "返回首頁",
+      "termsConditions": "條款及細則"
+    }
+  },
+  "terms": {
+    "pageTitle": "條款及細則",
+    "lastUpdated": "最後更新：2026年2月13日",
+    "alphaNotice": {
+      "title": "Alpha 計劃說明",
+      "description": "STRA\u0166UM 目前處於 Alpha 計劃階段。呢個代表服務仍然喺演進中，可能會有重大變更，包括功能、特性同資料庫結構。"
+    },
+    "sections": {
+      "introduction": {
+        "number": "1",
+        "title": "簡介",
+        "welcome": "歡迎使用 STRA\u0166UM（\u201c我哋\u201d）。本條款及細則適用於你對我哋網站、產品同服務（統稱\u201c服務\u201d）嘅使用。",
+        "agreement": "存取或使用本服務即表示你同意受呢啲條款約束。如果你唔同意其中任何內容，則不得存取本服務。",
+        "alphaStatus": "Alpha 狀態：STRA\u0166UM 目前處於 Alpha 計劃階段。參與即表示你確認本服務仍喺開發中，仲唔係最終成品。"
+      },
+      "alphaProgram": {
+        "number": "2",
+        "title": "Alpha 計劃",
+        "intro": "作為 Alpha 計劃參與者，你理解並同意以下內容：",
+        "items": {
+          "bugs": "服務可能包含影響功能嘅缺陷、錯誤或其他問題",
+          "changes": "我哋可能喺唔事先通知嘅情況下對服務進行重大調整",
+          "downtime": "服務可能會出現中斷或效能問題",
+          "database": "資料庫結構可能會變更，從而影響已儲存嘅數據",
+          "resets": "我哋可能喺開發期間重設資料庫，導致數據遺失",
+          "pricing": "定價、方案同功能喺正式發佈前均可能變更"
+        }
+      },
+      "accountRegistration": {
+        "number": "3",
+        "title": "帳戶註冊",
+        "responsibilitiesTitle": "你嘅責任：",
+        "responsibilities": {
+          "accurate": "提供準確、最新且完整嘅註冊資訊",
+          "updated": "保持你嘅資訊為最新狀態",
+          "safeguard": "妥善保管你嘅密碼",
+          "strongPasswords": "使用強密碼（大小楷字母、數字、符號）"
+        }
+      },
+      "aiDisclaimer": {
+        "number": "4",
+        "title": "AI 生成內容免責聲明",
+        "responsibilityTitle": "唔會對產出內容負責",
+        "intro": "STRA\u0166UM 使用 AI 生成營銷智能。我哋明確唔會對以下事項承擔責任：",
+        "items": {
+          "accuracy": "生成內容嘅準確性、完整性或可靠性",
+          "errors": "事實錯誤或錯誤表述",
+          "appropriateness": "是否適合你嘅具體業務用途",
+          "actions": "你基於生成內容所採取嘅行動",
+          "decisions": "你使用我哋嘅框架作出嘅商業決策",
+          "claims": "因你使用生成內容而產生嘅任何主張"
+        },
+        "responsibility": "喺使用任何內容之前，你有責任自行審查並驗證其準確性。"
+      },
+      "userResponsibilities": {
+        "number": "5",
+        "title": "用戶責任",
+        "intro": "使用本服務時，你同意唔會：",
+        "items": {
+          "laws": "違反任何適用法律或法規",
+          "ip": "侵犯他人嘅知識產權",
+          "unauthorized": "嘗試未經授權存取服務嘅任何部分",
+          "illegal": "生成非法、有害或令人反感嘅內容",
+          "impersonate": "冒充任何個人或實體",
+          "interfere": "干擾或破壞服務運行"
+        }
+      },
+      "intellectualProperty": {
+        "number": "6",
+        "title": "知識產權",
+        "yourContent": {
+          "title": "你嘅內容",
+          "description": "你保留對所提交內容嘅全部權利。你授予我哋一項非獨佔、全球範圍、免版稅嘅許可，僅用於提供同改進本服務。"
+        },
+        "generatedContent": {
+          "title": "生成內容",
+          "description": "你獲得一項非獨佔、全球範圍、免版稅嘅許可，可出於任何目的使用、修改同分發本服務生成嘅內容。"
+        },
+        "ourIp": {
+          "title": "我哋嘅知識產權",
+          "description": "本服務及其原創內容歸我哋所有，並受版權、商標及其他法律保護。"
+        }
+      },
+      "noRefund": {
+        "number": "7",
+        "title": "不退款政策",
+        "headline": "所有銷售均為最終結果",
+        "intro": "所有購買均為最終成交，且不予退款：",
+        "items": {
+          "noRefund": "喺任何情況下均唔提供退款、積分或補償",
+          "regardless": "無論服務使用情況點樣均適用",
+          "evenTechnical": "即使出現技術問題或對服務不滿意都同樣適用"
+        },
+        "alphaNote": "所有方案均包含 30 日免費試用。試用期結束後，會按你所選方案進行收費。"
+      },
+      "dataPrivacy": {
+        "number": "8",
+        "title": "數據收集同私隱",
+        "description": "我哋會按照我哋嘅",
+        "privacyLink": "私隱政策",
+        "consent": "中所述方式收集同處理個人數據。使用本服務即表示你同意該處理方式。",
+        "feedbackNote": "意見回饋同改進：作為 Alpha 計劃參與者，你確認我哋可能會收集使用數據、錯誤報告同你嘅意見回饋，以改進本服務。"
+      },
+      "limitationLiability": {
+        "number": "9",
+        "title": "責任限制",
+        "intro": "喺法律允許嘅最大範圍內，我哋唔會對任何間接、附帶、特殊、後果性或懲罰性損害承擔責任，包括：",
+        "items": {
+          "losses": "利潤、數據、使用權、商譽或其他無形損失",
+          "inability": "無法存取或使用本服務",
+          "generatedContent": "本服務生成嘅任何內容",
+          "unauthorized": "未經授權存取或篡改你嘅數據"
+        },
+        "alphaNote": "Alpha 計劃特別說明：對於因服務嘅 Alpha 屬性而產生嘅任何損害，包括服務變更、資料庫重設或功能下線，我哋均唔承擔責任。"
+      },
+      "disclaimerWarranties": {
+        "number": "10",
+        "title": "免責聲明同保證排除",
+        "asIs": "本服務按\u201c現狀\u201d同\u201c可用時\u201d提供。",
+        "disclaim": "我哋明確排除所有明示或默示保證，包括適銷性、特定用途適用性同不侵權保證。",
+        "noWarranty": "我哋唔保證本服務會滿足你嘅要求、持續唔中斷、足夠安全或無錯誤，亦唔保證缺陷會被修正。"
+      },
+      "termination": {
+        "number": "11",
+        "title": "終止",
+        "weTerminate": "我哋可因任何原因即時終止或暫停你嘅帳戶及服務存取權限，無需事先通知，亦唔承擔責任，包括但唔限於違反條款。",
+        "uponTermination": "一旦終止，你使用本服務嘅權利會即時停止。如需終止你嘅帳戶，請停止使用本服務或聯絡我哋刪除帳戶。"
+      },
+      "changesToTerms": {
+        "number": "12",
+        "title": "條款變更",
+        "description": "我哋保留隨時修改呢啲條款嘅權利。對於重大修訂，我哋會至少提前 30 日通知。",
+        "alphaNote": "Alpha 期間：隨住服務演進，我哋可能會更頻繁咁更新條款。繼續使用即表示你接受呢啲修改。"
+      },
+      "governingLaw": {
+        "number": "13",
+        "title": "適用法律",
+        "description": "本條款受美國法律管轄，唔考慮法律衝突原則。",
+        "disputeTitle": "爭議解決：",
+        "dispute": "任何爭議均應依照美國仲裁協會規則透過具約束力嘅仲裁解決。仲裁將透過線上視像會議進行。"
+      },
+      "contactUs": {
+        "number": "14",
+        "title": "聯絡我哋",
+        "description": "如果你對呢啲條款有任何疑問，請透過以下方式聯絡我哋："
+      }
+    },
+    "navigation": {
+      "returnHome": "返回首頁",
+      "privacyPolicy": "私隱政策"
+    }
+  }
+}

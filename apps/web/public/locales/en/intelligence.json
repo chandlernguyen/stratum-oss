@@ -1,0 +1,130 @@
+{
+  "pageTitle": {
+    "clientProfile": "Client Profile",
+    "businessProfile": "Business Profile"
+  },
+  "pageDescription": {
+    "client": "Manage business profile, brand guidelines, and intelligence for {{clientSlug}}",
+    "organization": "Manage your organization's business profile, brand guidelines, and intelligence"
+  },
+  "header": {
+    "title": "Business Intelligence",
+    "description": "Your business profile combining manual data and AI-learned insights"
+  },
+  "loading": "Loading business intelligence...",
+  "tabs": {
+    "businessProfile": "Business Profile",
+    "businessProfileShort": "Profile",
+    "brandGuidelines": "Brand Guidelines",
+    "brandGuidelinesShort": "Brand",
+    "learningHistory": "Learning History",
+    "learningHistoryShort": "Learning"
+  },
+  "alerts": {
+    "newSuggestions": "You have {{count}} new AI suggestion to review",
+    "newSuggestions_other": "You have {{count}} new AI suggestions to review",
+    "authoritative": "This is the authoritative business context used by all AI agents. Click Edit to modify any information."
+  },
+  "metrics": {
+    "title": "AI-Learned Business Metrics"
+  },
+  "conflicts": {
+    "title": "Data Conflicts Detected",
+    "description": "AI has found information that differs from your manual entries",
+    "current": "Current",
+    "aiSuggestion": "AI Suggestion",
+    "notSet": "Not set",
+    "acceptAI": "Accept AI Value",
+    "keepCurrent": "Keep Current"
+  },
+  "learningHistory": {
+    "title": "AI Learning History",
+    "description": "Track how AI has learned about your business over time",
+    "totalInsights": "Total insights:",
+    "noInsights": {
+      "title": "No AI insights yet",
+      "description": "As you interact with marketing agents, AI will learn about your business and surface insights here for your review."
+    },
+    "status": {
+      "approved": "Approved",
+      "autoApproved": "Auto-Approved",
+      "pending": "Pending",
+      "rejected": "Rejected"
+    },
+    "filter": {
+      "allAgents": "All agents",
+      "persona": "Persona insights",
+      "strategy": "Strategy insights",
+      "marketing": "Marketing insights",
+      "content": "Content insights"
+    },
+    "similar": "similar",
+    "fieldsExtracted": "{{count}} fields extracted",
+    "confidence": "confidence",
+    "from": "From"
+  },
+  "patterns": {
+    "title": "Cross-Persona Patterns",
+    "mentions": "{{count}} mention(s)",
+    "personas": "{{count}} persona(s)"
+  },
+  "fields": {
+    "companyName": "Company Name",
+    "organizationType": "Organization Type",
+    "industry": "Industry",
+    "companySize": "Company Size",
+    "description": "Description",
+    "targetMarket": "Target Market",
+    "geography": "Geography",
+    "businessModel": "Business Model",
+    "priceRange": "Price Range",
+    "competitors": "Competitors",
+    "uniqueValueProposition": "Unique Value Proposition",
+    "technologyStack": "Technology Stack",
+    "annualRevenue": "Annual Revenue",
+    "growthRate": "Growth Rate",
+    "marketingBudget": "Marketing Budget"
+  },
+  "content": {
+    "notSpecified": "Not specified",
+    "none": "None",
+    "noFieldsAvailable": "No fields available",
+    "errorDisplayingFields": "Error displaying fields",
+    "noContentAvailable": "No content available",
+    "noDisplayableContent": "No displayable content",
+    "errorDisplayingContent": "Error displaying content. Please refresh and try again.",
+    "noInsightSelected": "No insight selected"
+  },
+  "dialog": {
+    "extractedFrom": "Extracted from {{agent}} conversation",
+    "confidence": "Confidence:",
+    "extractedContext": "Extracted Business Context:",
+    "edit": "Edit",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel"
+  },
+  "actions": {
+    "approveApply": "Approve & Apply",
+    "reject": "Reject",
+    "approveAll": "Approve All Similar",
+    "rejectAll": "Reject All Similar",
+    "approveThisOnly": "Approve This Only",
+    "rejectThisOnly": "Reject This Only",
+    "bulkNote": "Note: This action will affect {{count}} similar pending insights in this group.",
+    "orActOnThis": "Or act on just this insight:"
+  },
+  "aiLearning": {
+    "businessContext": "Business context",
+    "aiInsight": "AI Insight",
+    "aiAgent": "AI Agent",
+    "similar": "{{count}} similar",
+    "confidence": "{{value}}% confidence",
+    "fieldsExtracted": "{{count}} fields extracted",
+    "dialogTitle": "AI Learning Insight",
+    "extractedFrom": "Extracted from {{source}} conversation",
+    "confidenceLabel": "Confidence",
+    "extractedBusinessContext": "Extracted Business Context",
+    "noContent": "No detailed content available",
+    "capturedOn": "Captured on {{date}}"
+  }
+}

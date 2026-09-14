@@ -1,0 +1,505 @@
+{
+  "title": "營銷活動",
+  "subtitle": "管理同追蹤你嘅營銷活動",
+  "newCampaign": {
+    "pageTitle": "新建活動",
+    "permissionTitle": "活動建立",
+    "title": "建立新活動",
+    "subtitle": "設定你嘅營銷活動，畀 AI 智能助手幫你取得成功",
+    "templatesTitle": "快速啟動模板",
+    "formTitle": "活動詳情",
+    "formDescription": "定義你嘅活動參數，AI 會幫你優化以達至最佳效果",
+    "createButton": "建立活動",
+    "creating": "建立中...",
+    "fields": {
+      "name": "活動名稱",
+      "namePlaceholder": "例如：2026年第一季度產品發佈",
+      "description": "描述",
+      "descriptionPlaceholder": "簡要描述你嘅活動目標同方法...",
+      "objectives": "活動目標",
+      "objectivesPlaceholder": "你想達成咩目標？請具體說明指標同 KPI...",
+      "budget": "預算 ($)",
+      "budgetPlaceholder": "10000",
+      "targetAudience": "目標受眾",
+      "targetAudiencePlaceholder": "描述你理想客戶嘅人口統計特徵、興趣同行為...",
+      "startDate": "開始日期",
+      "endDate": "結束日期",
+      "selectStartDate": "揀選開始日期",
+      "selectEndDate": "揀選結束日期"
+    },
+    "templates": {
+      "quickWin": {
+        "title": "速贏活動",
+        "description": "捉住觸手可及嘅機會，快速見到成效",
+        "presetName": "速贏活動",
+        "presetObjectives": "透過策略性優化實現即時 ROI 提升"
+      },
+      "brandAwareness": {
+        "title": "品牌知名度",
+        "description": "提升市場曝光度同觸達範圍",
+        "presetName": "品牌知名度活動",
+        "presetObjectives": "喺目標人群中將品牌認知度提升 30%"
+      },
+      "leadGeneration": {
+        "title": "潛在客戶獲取",
+        "description": "獲取並培育潛在客戶",
+        "presetName": "潛在客戶獲取活動",
+        "presetObjectives": "每月獲取 500 個合格潛在客戶"
+      }
+    }
+  },
+  "emptyState": {
+    "title": "準備好整理你嘅情報了嗎？",
+    "description": "營銷活動幫你按業務計劃整理情報產出。先完成關鍵情報收集，先可以更好咁規劃活動。",
+    "readinessLabel": "情報就緒度",
+    "readinessCount": "{{total}} 項中已完成 {{completed}} 項",
+    "readyMessage": "你已擁有足夠嘅情報嚟建立活動",
+    "notReadyMessage": "請先完成至少 2 項情報產出以開始使用",
+    "completeBadge": "已完成",
+    "createFirst": "建立你嘅第一個活動",
+    "continueGathering": "繼續收集情報",
+    "startGathering": "開始收集情報",
+    "createAnyway": "仍然建立活動",
+    "whyGatherTitle": "點解要先收集情報？",
+    "whyGatherDescription": "營銷活動用嚟整理你嘅策略洞察。準備好商業策略、客戶畫像同營銷計劃，確保你嘅活動從第一日起就以數據驅動。",
+    "totalOutputsReady": "可用於整理嘅情報產出總數",
+    "viewAllIntelligence": "查看全部情報",
+    "prerequisites": {
+      "strategy": {
+        "title": "商業策略",
+        "description": "明確你嘅市場定位同競爭優勢"
+      },
+      "persona": {
+        "title": "客戶畫像",
+        "description": "了解你嘅目標客戶及佢哋嘅痛點"
+      },
+      "marketing": {
+        "title": "營銷策略",
+        "description": "確定渠道組合同訊息傳達框架"
+      },
+      "content": {
+        "title": "內容原型",
+        "description": "建立初步嘅活動素材同訊息"
+      }
+    }
+  },
+  "analytics": {
+    "error": {
+      "title": "載入分析數據失敗",
+      "message": "{{message}}"
+    },
+    "empty": {
+      "title": "暫時冇分析數據",
+      "description": "活動開始運行後會提供分析數據"
+    },
+    "cards": {
+      "budgetUtilized": "已用預算",
+      "budgetOf": "{{total}} 中已用 {{spent}}",
+      "conversionRate": "轉化率",
+      "conversionsFromReach": "{{reach}} 次觸達中產生 {{conversions}} 次轉化",
+      "engagement": "互動率",
+      "ctr": "CTR {{rate}}%",
+      "performance": "表現",
+      "impressions": "{{count}} 次曝光"
+    },
+    "budget": {
+      "title": "預算分析",
+      "subtitle": "支出模式與預測",
+      "dailySpendRate": "日均支出速率",
+      "perDay": "{{amount}}/日",
+      "projectedTotalSpend": "預計總支出",
+      "budgetBurnRate": "預算消耗速率",
+      "daysToEnd": "預算耗盡剩餘天數",
+      "daysCount": "{{days}} 日",
+      "costPerConversion": "單次轉化成本"
+    },
+    "progress": {
+      "title": "活動進度",
+      "subtitle": "時間線與內容概覽",
+      "campaignProgress": "活動進度",
+      "daysActive": "已運行 {{days}} 日",
+      "daysLeft": "剩餘 {{days}} 日",
+      "strategies": "策略",
+      "personas": "客戶畫像",
+      "activeOutputs": "活躍產出",
+      "topChannel": "最佳渠道",
+      "channelsConfigured": "已配置 {{count}} 個渠道"
+    },
+    "alerts": {
+      "title": "需要關注",
+      "overBudget": "活動已超出預算 ({{percentage}}%)",
+      "underperforming": "活動表現為{{trend}}"
+    },
+    "generated": "分析生成時間：{{date}}",
+    "performanceLevels": {
+      "excellent": "優秀",
+      "good": "良好",
+      "average": "一般",
+      "below_average": "低於平均"
+    },
+    "burnRates": {
+      "low": "低",
+      "moderate": "適中",
+      "high": "高",
+      "very_high": "非常高"
+    }
+  },
+  "list": {
+    "title": "全部活動",
+    "empty": "暫時冇活動",
+    "emptyDescription": "建立你嘅第一個活動，開始追蹤營銷效果",
+    "createFirst": "建立你嘅第一個活動",
+    "pageTitle": "營銷活動",
+    "pageSubtitle": "管理同監控你嘅營銷活動",
+    "managementBadge": "活動管理",
+    "newCampaign": "新建活動",
+    "filterByStatus": "按狀態篩選",
+    "createdOn": "建立於 {{date}}",
+    "noData": "暫時冇數據",
+    "metricsCount_one": "{{count}} 項指標",
+    "metricsCount_other": "{{count}} 項指標",
+    "fields": {
+      "budget": "預算",
+      "type": "類型",
+      "duration": "時長",
+      "notSet": "未設定",
+      "notScheduled": "未安排"
+    },
+    "emptyStates": {
+      "noActive": {
+        "title": "暫時冇進行中嘅活動",
+        "description": "你有 {{count}} 個草稿活動可以啟動",
+        "viewDrafts": "查看草稿"
+      },
+      "noCampaigns": {
+        "title": "暫時冇活動",
+        "description": "先構建策略情報，然後整理為營銷活動",
+        "startStrategy": "從策略開始",
+        "createCampaign": "建立活動"
+      },
+      "noPlanned": {
+        "title": "暫時冇計劃中嘅活動",
+        "description": "使用活動規劃智能助手生成活動計劃並儲存，就可以喺呢度查看",
+        "generatePlans": "生成活動計劃"
+      },
+      "noPaused": {
+        "title": "暫時冇已暫停嘅活動",
+        "descriptionWithActive": "你有 {{count}} 個進行中嘅活動",
+        "descriptionEmpty": "暫停進行中嘅活動後，會顯示喺呢度",
+        "viewActive": "查看進行中嘅活動"
+      },
+      "noDraft": {
+        "title": "暫時冇草稿活動",
+        "description": "你有 {{count}} 個進行中嘅活動"
+      },
+      "noCompleted": {
+        "title": "暫時冇已完成嘅活動",
+        "description": "你有 {{count}} 個進行中嘅活動"
+      },
+      "generic": {
+        "title": "暫時冇{{status}}活動",
+        "description": "先構建情報產出，然後建立活動進行整理",
+        "buildIntelligence": "構建情報"
+      }
+    }
+  },
+  "status": {
+    "draft": "草稿",
+    "active": "進行中",
+    "planned": "計劃中",
+    "paused": "已暫停",
+    "completed": "已完成",
+    "archived": "已封存"
+  },
+  "form": {
+    "create": "建立活動",
+    "edit": "編輯活動",
+    "fields": {
+      "name": "活動名稱",
+      "namePlaceholder": "輸入活動名稱",
+      "description": "描述",
+      "descriptionPlaceholder": "描述活動目標同策略",
+      "startDate": "開始日期",
+      "endDate": "結束日期",
+      "budget": "預算",
+      "budgetPlaceholder": "輸入預算金額",
+      "status": "狀態",
+      "channels": "渠道",
+      "objectives": "活動目標",
+      "targetAudience": "目標受眾"
+    },
+    "validation": {
+      "nameRequired": "活動名稱為必填項",
+      "startDateRequired": "開始日期為必填項",
+      "endDateAfterStart": "結束日期必須遲於開始日期"
+    }
+  },
+  "detail": {
+    "pageTitle": "活動詳情",
+    "overview": "概覽",
+    "performance": "表現",
+    "assets": "資產",
+    "timeline": "時間線",
+    "settings": "設定",
+    "notFound": "搵唔到呢個活動",
+    "backToCampaigns": "返回活動列表",
+    "aiAgents": {
+      "title": "AI 智能助手",
+      "description": "使用呢個活動嘅專屬 AI 智能助手",
+      "agents": {
+        "strategy": {
+          "name": "策略助手",
+          "description": "策略規劃同 SWOT 分析"
+        },
+        "persona": {
+          "name": "畫像助手",
+          "description": "客戶畫像同旅程映射"
+        },
+        "content": {
+          "name": "內容助手",
+          "description": "內容創作同優化"
+        },
+        "analytics": {
+          "name": "分析助手",
+          "description": "效果追蹤同洞察分析"
+        }
+      }
+    },
+    "collaboration": {
+      "discussion": {
+        "title": "討論",
+        "description": "與團隊就呢個活動進行協作"
+      },
+      "tasks": {
+        "title": "任務",
+        "description": "分配同追蹤呢個活動嘅工作"
+      }
+    }
+  },
+  "metrics": {
+    "impressions": "曝光量",
+    "clicks": "點擊量",
+    "conversions": "轉化量",
+    "spend": "支出",
+    "ctr": "CTR",
+    "cpc": "CPC",
+    "cpa": "CPA",
+    "roas": "ROAS",
+    "roi": "ROI"
+  },
+  "actions": {
+    "create": "建立活動",
+    "edit": "編輯",
+    "editDetails": "編輯詳情",
+    "duplicate": "複製",
+    "archive": "封存",
+    "delete": "刪除",
+    "pause": "暫停",
+    "resume": "恢復",
+    "export": "匯出",
+    "viewDetails": "查看詳情",
+    "save": "儲存",
+    "saveChanges": "儲存變更",
+    "cancel": "取消"
+  },
+  "filters": {
+    "all": "全部活動",
+    "active": "進行中",
+    "draft": "草稿",
+    "completed": "已完成",
+    "search": "搜尋活動...",
+    "dateRange": "日期範圍",
+    "channel": "渠道"
+  },
+  "channels": {
+    "social": "社交媒體",
+    "email": "電郵",
+    "paid": "付費廣告",
+    "seo": "SEO",
+    "content": "內容營銷",
+    "events": "活動",
+    "pr": "PR",
+    "other": "其他"
+  },
+  "confirmDelete": {
+    "title": "刪除活動",
+    "message": "確定要刪除呢個活動嗎？呢個操作無法撤銷。",
+    "confirm": "刪除",
+    "cancel": "取消"
+  },
+  "campaignTypes": {
+    "brand_awareness": "品牌知名度",
+    "lead_generation": "潛在客戶獲取",
+    "product_launch": "產品發佈",
+    "seasonal_promotion": "季節性推廣",
+    "content_marketing": "內容營銷",
+    "email_nurture": "電郵培育",
+    "social_media": "社交媒體",
+    "event_promotion": "活動推廣",
+    "customer_retention": "客戶留存",
+    "referral_program": "推薦計劃",
+    "other": "其他"
+  },
+  "marketingChannels": {
+    "email": "電郵營銷",
+    "social": "社交媒體",
+    "content": "內容營銷",
+    "paid_ads": "付費廣告",
+    "seo": "SEO",
+    "events": "活動",
+    "webinars": "線上研討會",
+    "influencer": "KOL 營銷",
+    "affiliate": "聯盟營銷",
+    "direct_mail": "直郵"
+  },
+  "priorityLevels": {
+    "low": "低",
+    "medium": "中",
+    "high": "高",
+    "critical": "緊急"
+  },
+  "statusActions": {
+    "activate": "啟動",
+    "activateCampaign": "啟動活動",
+    "pause": "暫停",
+    "complete": "完成",
+    "resume": "恢復",
+    "archive": "封存"
+  },
+  "performance": {
+    "mapping": {
+      "title": "映射活動",
+      "metricsFound": "喺 CSV 中搵到 {{count}} 項指標",
+      "exactMatches": "{{count}} 項精確匹配",
+      "fuzzyMatches": "{{count}} 項模糊匹配",
+      "unmapped": "{{count}} 項未映射",
+      "description": "喺匯入指標前，請檢查並確認活動映射",
+      "table": {
+        "csvCampaign": "CSV 活動名稱",
+        "matchStatus": "匹配狀態",
+        "targetCampaign": "目標活動"
+      },
+      "importSelected": "匯入選中嘅指標",
+      "importing": "匯入中...",
+      "successToast": "成功匯入 {{count}} 項指標",
+      "errorToast": "指標匯入失敗"
+    },
+    "selector": {
+      "placeholder": "搜尋活動...",
+      "selectCampaign": "揀選活動",
+      "noCampaignsFound": "搵唔到活動",
+      "createNew": "建立新活動",
+      "exactMatch": "精確匹配",
+      "fuzzyMatch": "{{percent}}% 匹配",
+      "suggested": "推薦",
+      "clear": "清除選擇"
+    },
+    "upload": {
+      "title": "上傳績效 CSV",
+      "description": "上傳包含活動績效指標嘅 CSV 檔案",
+      "steps": {
+        "uploadCSV": "上傳 CSV",
+        "mapCampaigns": "映射活動",
+        "complete": "完成"
+      },
+      "dropHere": "將 CSV 檔案拖放到呢度",
+      "dragDrop": "將 CSV 檔案拖放到呢度，或點擊揀選檔案",
+      "requiredColumns": "必需欄位：campaign_name、metric_date、spend",
+      "selectedFile": "已選檔案",
+      "removeFile": "移除檔案",
+      "fileRemoved": "檔案已移除",
+      "loadedMetrics": "從 {{filename}} 中載入咗 {{count}} 項指標",
+      "parseError": "CSV 檔案解析失敗",
+      "csvExtensionError": "檔案必須為 .csv 格式",
+      "validationIssues": "發現驗證問題",
+      "fixIssues": "請喺匯入前修正以下問題",
+      "fileFormatErrors": "{{count}} 個檔案格式錯誤",
+      "dataValidationErrors": "{{count}} 個數據驗證錯誤",
+      "howToFix": {
+        "title": "修正方法",
+        "requiredColumns": "確保以下欄位存在",
+        "dateFormat": "日期請使用 YYYY-MM-DD 格式",
+        "numericFields": "確保 spend、impressions、clicks 同 conversions 為數字類型",
+        "downloadTemplate": "下載模板以獲取正確格式"
+      },
+      "clearFile": "清除檔案",
+      "downloadTemplate": "下載模板",
+      "downloadCSVTemplate": "下載 CSV 模板",
+      "importSuccess": "匯入成功！",
+      "importSuccessDescription": "指標已匯入並關聯到相應活動",
+      "importMore": "繼續匯入",
+      "viewMetrics": "查看指標"
+    },
+    "matchStatus": {
+      "noMatch": "搵唔到匹配",
+      "exactMatch": "精確匹配",
+      "fuzzyMatch": "{{percent}}% 匹配"
+    }
+  },
+  "editForm": {
+    "details": {
+      "title": "活動詳情",
+      "description": "呢個活動嘅核心資訊"
+    },
+    "noDescription": "暫時冇描述",
+    "campaignType": "活動類型",
+    "selectType": "揀選類型",
+    "notSet": "未設定",
+    "priority": "優先級",
+    "selectPriority": "揀選優先級",
+    "targetAudiencePlaceholder": "呢個活動嘅目標受眾係邊個？請具體描述以獲得更好嘅 AI 推薦...",
+    "noTargetAudience": "未定義目標受眾",
+    "objectivesGoals": "目標與成果",
+    "objectivesPlaceholder": "關鍵目標同成功標準係咩？例如：\u201c第四季度前獲取 100 個合格潛在客戶\u201d或\u201c喺目標人群中提升 30% 品牌知名度\u201d",
+    "noObjectives": "未定義目標",
+    "primary": "主要",
+    "secondary": "次要",
+    "cantChangeStartDate": "無法更改開始日期——活動已啟動",
+    "historicalData": "歷史數據——無法更改",
+    "budgetLabel": "預算 ($)",
+    "channels": {
+      "title": "營銷渠道",
+      "description": "為呢個活動揀選渠道",
+      "activeChannels": "已啟用渠道",
+      "noChannels": "未揀選渠道"
+    },
+    "advanced": {
+      "addMoreDetails": "新增更多詳情以提升 AI 智能助手嘅表現",
+      "showAdvanced": "顯示進階欄位",
+      "hideAdvanced": "隱藏進階欄位"
+    },
+    "contentStrategy": {
+      "title": "內容策略",
+      "description": "定義內容支柱同主題",
+      "contentPillars": "內容支柱",
+      "pillarsPlaceholder": "輸入核心內容主題，以逗號分隔（例如：思想領導力、產品教育、客戶成功案例、行業洞察）",
+      "noPillars": "未定義內容支柱"
+    },
+    "successMetrics": {
+      "title": "成功指標與 KPI",
+      "description": "定義衡量成功嘅方式",
+      "primaryKPI": "主要 KPI",
+      "kpiPlaceholder": "例如：合格潛在客戶數",
+      "targetPlaceholder": "目標值（例如：100）",
+      "noTarget": "未設定目標",
+      "notDefined": "未定義"
+    },
+    "competitive": {
+      "title": "競爭背景",
+      "description": "市場定位與競爭環境",
+      "competitorContext": "競爭對手背景",
+      "contextPlaceholder": "主要競爭對手及差異化策略...",
+      "noContext": "未提供競爭背景",
+      "geographicTarget": "目標地域",
+      "geoPlaceholder": "例如：北美、全球、美國、加州、三藩市灣區",
+      "notSpecified": "未指定"
+    },
+    "organization": {
+      "title": "組織分類",
+      "description": "標籤與分類",
+      "tags": "標籤",
+      "tagsPlaceholder": "輸入標籤，以逗號分隔",
+      "noTags": "暫時冇標籤"
+    }
+  }
+}

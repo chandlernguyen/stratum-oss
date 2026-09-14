@@ -1,0 +1,336 @@
+{
+  "title": "라이브러리",
+  "subtitle": "마케팅 인텔리전스 결과물",
+  "savedOutputs": {
+    "title": "저장된 결과물",
+    "description": "저장된 에이전트 결과물을 탐색하고 관리하세요. 서로 다른 에이전트 간 워크플로에 활용할 수 있습니다."
+  },
+  "header": {
+    "badge": "인텔리전스 라이브러리",
+    "title": "내 결과물",
+    "subtitle": "AI가 생성한 모든 인사이트와 콘텐츠를 한곳에서",
+    "groupShort": "그룹",
+    "select": "선택",
+    "cancel": "취소",
+    "exportAll": "전체 내보내기",
+    "exportFiltered": "필터 결과 내보내기",
+    "exportShort": "내보내기"
+  },
+  "bulk": {
+    "itemsSelected": "{{count}}개 항목 선택됨",
+    "itemsSelected_other": "{{count}}개 항목 선택됨",
+    "exportSelected": "선택 항목 내보내기",
+    "archiveSelected": "선택 항목 보관"
+  },
+  "approved": {
+    "title": "승인된 결과물",
+    "subtitle": "사용 또는 게시 준비가 된 모든 승인 콘텐츠의 기준 저장소입니다.",
+    "subtitleWithClient": "{{clientName}}용 승인 콘텐츠가 사용 또는 게시를 위해 준비되었습니다.",
+    "searchPlaceholder": "승인된 결과물 검색...",
+    "filterByType": "유형별 필터",
+    "allTypes": "모든 유형",
+    "round": "{{round}}차",
+    "stats": {
+      "totalApproved": "총 승인 수",
+      "thisMonth": "이번 달",
+      "contentTypes": "콘텐츠 유형",
+      "avgRounds": "평균 라운드 수"
+    },
+    "empty": {
+      "title": "아직 승인된 결과물이 없습니다",
+      "description": "승인 워크플로를 통해 검토 및 승인이 완료되면 결과물이 여기에 표시됩니다.",
+      "noMatch": "필터와 일치하는 결과물이 없습니다. 검색어나 필터 조건을 조정해 보세요."
+    },
+    "agentTypes": {
+      "businessStrategy": "비즈니스 전략",
+      "customerPersona": "고객 페르소나",
+      "marketingStrategy": "마케팅 전략",
+      "content": "콘텐츠",
+      "campaign": "캠페인",
+      "performance": "퍼포먼스",
+      "competitiveIntel": "경쟁 인텔리전스",
+      "clientSuccess": "클라이언트 성공"
+    }
+  },
+  "dialog": {
+    "description": "저장된 AI 생성 콘텐츠를 보고 상호작용하세요",
+    "tabs": {
+      "content": "콘텐츠",
+      "comments": "댓글",
+      "history": "기록"
+    },
+    "fields": {
+      "title": "제목"
+    },
+    "generatedBy": "{{agent}} 에이전트가 생성",
+    "actions": {
+      "edit": "편집",
+      "cancel": "취소",
+      "save": "변경 사항 저장",
+      "close": "닫기",
+      "copy": "복사",
+      "copied": "복사됨!",
+      "export": "내보내기",
+      "exportPDF": "PDF로 내보내기",
+      "exportText": "텍스트로 내보내기",
+      "exportJSON": "JSON으로 내보내기"
+    },
+    "toast": {
+      "pdfStarted": "PDF 내보내기를 시작했습니다. 다운로드를 확인하세요",
+      "pdfError": "PDF 내보내기에 실패했습니다",
+      "textSuccess": "텍스트 파일을 성공적으로 내보냈습니다",
+      "textError": "텍스트 파일 내보내기에 실패했습니다",
+      "jsonSuccess": "JSON을 성공적으로 내보냈습니다",
+      "jsonError": "JSON 내보내기에 실패했습니다",
+      "saveSuccess": "결과물이 성공적으로 업데이트되었습니다",
+      "saveError": "변경 사항 저장에 실패했습니다"
+    }
+  },
+  "filters": {
+    "byCategory": "카테고리별 필터",
+    "all": "모든 결과물",
+    "strategic": "전략",
+    "customer": "고객",
+    "content": "콘텐츠",
+    "performance": "퍼포먼스",
+    "archived": "보관됨"
+  },
+  "list": {
+    "loading": "결과물을 불러오는 중...",
+    "empty": "아직 결과물이 없습니다",
+    "emptyTitle": "아직 저장된 결과물이 없습니다",
+    "emptyTitleFiltered": "아직 {{filterType}} 결과물이 없습니다",
+    "emptyDescription": "에이전트와 대화해 결과물을 생성하고 저장해 보세요. AI가 생성한 인사이트가 여기에 표시됩니다.",
+    "emptyDescriptionFiltered": "관련 에이전트를 사용해 {{filterType}} 결과물을 생성하세요.",
+    "emptyHint": "시작하려면 전략 또는 콘텐츠 에이전트를 사용해 보세요",
+    "noResults": "검색 조건과 일치하는 결과물이 없습니다",
+    "error": "결과물을 불러오지 못했습니다",
+    "errorTitle": "결과물 로딩 오류",
+    "errorDescription": "결과물을 불러오지 못했습니다. 다시 시도해 주세요.",
+    "retry": "다시 시도",
+    "similarItems": "유사 항목 {{count}}개",
+    "similarStrategies": "유사 전략 {{count}}개"
+  },
+  "actions": {
+    "export": "내보내기",
+    "exportAll": "전체 내보내기",
+    "archive": "보관",
+    "restore": "복원",
+    "delete": "삭제",
+    "edit": "편집",
+    "view": "보기",
+    "duplicate": "복제",
+    "bulkSelect": "다중 선택",
+    "selectAll": "전체 선택",
+    "deselectAll": "전체 선택 해제"
+  },
+  "grouping": {
+    "enable": "유사 항목 그룹화",
+    "disable": "그룹 해제",
+    "similarItems": "유사 항목 {{count}}개",
+    "showAll": "전체 보기"
+  },
+  "sort": {
+    "label": "정렬 기준",
+    "date": "날짜",
+    "title": "제목",
+    "newest": "최신순",
+    "oldest": "오래된순",
+    "aToZ": "제목 (A-Z)",
+    "zToA": "제목 (Z-A)"
+  },
+  "search": {
+    "placeholder": "결과물 검색..."
+  },
+  "card": {
+    "generatedBy": "{{agent}}가 생성",
+    "createdOn": "{{date}} 생성",
+    "viewDetails": "상세 보기",
+    "markActive": "활성으로 표시",
+    "setActive": "활성으로 설정",
+    "active": "활성",
+    "archived": "보관됨",
+    "copy": "복사",
+    "export": "내보내기",
+    "archive": "보관",
+    "delete": "삭제",
+    "restore": "복원"
+  },
+  "time": {
+    "justNow": "방금 전",
+    "hoursAgo": "{{count}}시간 전",
+    "yesterday": "어제"
+  },
+  "activity": {
+    "title": "활동 기록",
+    "loading": "활동 기록을 불러오는 중...",
+    "error": "활동 기록을 불러오지 못했습니다",
+    "empty": "아직 기록된 활동이 없습니다",
+    "unknownActor": "알 수 없음",
+    "labels": {
+      "created": "생성함",
+      "updated": "업데이트함",
+      "archived": "보관함",
+      "restored": "복원함",
+      "deleted": "삭제함",
+      "approval_requested": "승인을 요청함",
+      "approved": "승인함",
+      "rejected": "거부함",
+      "changes_requested": "수정을 요청함",
+      "published": "게시함",
+      "unpublished": "게시 취소함",
+      "viewed": "열람함",
+      "exported": "내보냄",
+      "shared": "공유함"
+    }
+  },
+  "editors": {
+    "common": {
+      "advancedSettings": "고급 설정",
+      "completeJson": "전체 JSON (고급)"
+    },
+    "analytics": {
+      "reportInfo": "분석 보고서 정보",
+      "reportTitle": "보고서 제목",
+      "reportTitlePlaceholder": "보고서 제목 입력",
+      "analyticsSummary": "분석 요약",
+      "analyticsSummaryPlaceholder": "분석 인사이트의 간단한 개요",
+      "reportPeriod": "보고 기간",
+      "reportPeriodPlaceholder": "2025년 4분기, 최근 30일 등",
+      "targetAudience": "타깃 고객",
+      "targetAudiencePlaceholder": "중소기업, 에이전시 등",
+      "tabs": {
+        "keyMetrics": "핵심 지표",
+        "performance": "성과",
+        "traffic": "트래픽",
+        "insights": "인사이트"
+      },
+      "pageViews": "페이지 조회수",
+      "conversionRate": "전환율 (%)",
+      "bounceRate": "이탈률 (%)",
+      "avgSession": "평균 세션 시간",
+      "performanceOverview": "성과 개요",
+      "performanceOverviewPlaceholder": "성과 분석 세부 내용",
+      "kpis": "핵심 성과 지표",
+      "kpisPlaceholder": "KPI 세부 정보와 측정값",
+      "growthTrends": "성장 추세",
+      "growthTrendsPlaceholder": "성장 추세 분석",
+      "trafficAnalysis": "트래픽 분석",
+      "trafficAnalysisPlaceholder": "트래픽 유입원과 분석",
+      "channelPerformance": "채널 성과",
+      "channelPerformancePlaceholder": "채널 성과 데이터",
+      "userBehavior": "사용자 행동",
+      "userBehaviorPlaceholder": "사용자 행동 인사이트",
+      "keyInsights": "핵심 인사이트 (쉼표로 구분)",
+      "keyInsightsPlaceholder": "트래픽이 전월 대비 25% 증가, 모바일 전환율이 크게 개선됨",
+      "recommendations": "추천 사항 (쉼표로 구분)",
+      "recommendationsPlaceholder": "모바일 결제 흐름 최적화, 소셜 미디어 광고비 증액",
+      "actionItems": "실행 항목 (쉼표로 구분)",
+      "actionItemsPlaceholder": "신규 랜딩 페이지 디자인 A/B 테스트, 모바일 전환 추적 설정"
+    },
+    "content": {
+      "portfolioInfo": "콘텐츠 포트폴리오 정보",
+      "contentInfo": "콘텐츠 정보",
+      "campaignName": "캠페인 이름",
+      "campaignNamePlaceholder": "2025 연말 마케팅 캠페인",
+      "contentSummary": "콘텐츠 요약",
+      "contentSummaryPlaceholder": "콘텐츠 전략과 핵심 메시지 개요",
+      "targetAudience": "타깃 고객",
+      "targetAudiencePlaceholder": "중소기업, B2B 의사결정자",
+      "contentTheme": "콘텐츠 테마",
+      "contentThemePlaceholder": "전문적 성장, 혁신",
+      "theme": "테마/주제",
+      "themePlaceholder": "제품 출시, 시즌성 등",
+      "tabs": {
+        "socialMedia": "소셜 미디어",
+        "email": "이메일",
+        "advertising": "광고",
+        "longForm": "롱폼"
+      },
+      "socialPosts": "소셜 미디어 게시물 (JSON 배열)",
+      "hashtagStrategy": "해시태그 전략",
+      "hashtagStrategyPlaceholder": "해시태그 전략과 추천 사항",
+      "contentCalendar": "콘텐츠 캘린더",
+      "contentCalendarPlaceholder": "콘텐츠 일정과 캘린더 계획",
+      "totalPosts": "총 게시물 수",
+      "contentPieces": "콘텐츠 수",
+      "emailTemplates": "이메일 템플릿 (JSON 배열)",
+      "subjectLines": "제목 줄",
+      "subjectLinesPlaceholder": "이 5가지 전략으로 ROI를 높이세요\n놓치지 마세요: 기간 한정 제안\n마케팅 전략에 필요한 이 업데이트",
+      "emailSequences": "이메일 시퀀스",
+      "emailSequencesPlaceholder": "이메일 시퀀스 전략과 자동화 흐름",
+      "totalEmailTemplates": "총 이메일 템플릿 수",
+      "adCopy": "광고 문구 (JSON 배열)",
+      "headlines": "헤드라인 (줄바꿈 구분)",
+      "headlinesPlaceholder": "지금 마케팅 ROI를 혁신하세요\nB2B 성공을 위한 궁극의 가이드\n숨겨진 성장 기회를 발견하세요",
+      "creativeAssets": "크리에이티브 에셋",
+      "creativeAssetsPlaceholder": "크리에이티브 에셋 설명, 이미지 요구사항, 디자인 사양",
+      "totalAdVariants": "총 광고 변형 수",
+      "blogPosts": "블로그 게시물",
+      "blogPostsPlaceholder": "블로그 주제, 개요 및 콘텐츠 전략",
+      "articles": "아티클",
+      "articlesPlaceholder": "롱폼 기사와 사고 리더십 콘텐츠",
+      "videoScripts": "영상 스크립트",
+      "videoScriptsPlaceholder": "영상 콘텐츠 스크립트와 스토리보드",
+      "caseStudies": "사례 연구",
+      "caseStudiesPlaceholder": "고객 성공 사례 및 사례 연구 템플릿"
+    },
+    "generic": {
+      "editContent": "{{agentType}} 콘텐츠 편집",
+      "tabs": {
+        "structured": "구조화",
+        "json": "JSON"
+      },
+      "noEditableFields": "편집 가능한 필드를 찾을 수 없습니다",
+      "switchToJson": "JSON 모드로 전환",
+      "rawJsonContent": "원시 JSON 콘텐츠",
+      "enterValidJson": "유효한 JSON을 입력하세요...",
+      "jsonError": "JSON 오류"
+    },
+    "strategy": {
+      "campaignInfo": "캠페인 정보",
+      "campaignName": "캠페인 이름",
+      "tabs": {
+        "messaging": "메시징",
+        "channels": "채널",
+        "budget": "예산",
+        "execution": "실행"
+      }
+    },
+    "roiBudget": {
+      "financialReportInfo": "재무 보고서 정보",
+      "tabs": {
+        "budget": "예산",
+        "roiAnalysis": "ROI 분석",
+        "performance": "성과",
+        "projections": "예측"
+      }
+    }
+  },
+  "strategyCard": {
+    "active": "활성",
+    "archived": "보관됨",
+    "archivedOn": "보관일",
+    "reason": "사유",
+    "alreadyActive": "이미 활성 상태",
+    "markAsActive": "활성으로 표시",
+    "copyContent": "콘텐츠 복사",
+    "viewDetails": "상세 보기",
+    "archive": "보관",
+    "deletePermanently": "영구 삭제",
+    "reach": "도달",
+    "budget": "예산",
+    "priority": "우선순위",
+    "created": "생성일",
+    "activate": "활성화"
+  },
+  "comparison": {
+    "title": "전략 비교",
+    "tabs": {
+      "overview": "개요",
+      "messaging": "메시징",
+      "channels": "채널",
+      "budget": "예산"
+    }
+  }
+}

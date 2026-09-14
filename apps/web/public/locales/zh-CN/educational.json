@@ -1,0 +1,149 @@
+{
+  "intelligenceBriefing": {
+    "title": "你的智能简报",
+    "subtitle": "基于你的业务背景推荐的 AI 行动",
+    "tooltip": "根据你的业务目标量身定制的 AI 下一步建议",
+    "emptyState": "我们正在分析你的业务，以推荐高影响的下一步行动。",
+    "emptyAction": "从业务战略开始",
+    "aiBadge": "AI 驱动",
+    "loadingState": "正在分析你的业务背景..."
+  },
+  "intelligenceVault": {
+    "title": "最近智能成果",
+    "subtitle": "来自 AI 智能体的战略洞察与输出",
+    "emptyState": "还没有智能成果。开始构建你的战略基础。",
+    "emptyAction": "生成第一份战略",
+    "viewAll": "查看全部智能成果 →",
+    "totalBadge": "共 {{count}} 项"
+  },
+  "campaigns": {
+    "title": "你的营销活动",
+    "subtitle": "按业务举措组织你的智能成果",
+    "createButton": "将智能成果组织到营销活动中",
+    "createButtonShort": "创建营销活动",
+    "emptyStateNoIntelligence": "还没有营销活动。请先完成关键智能输出（战略、画像、营销）。",
+    "emptyStateHasIntelligence": "准备好按业务举措组织你的智能成果了吗？",
+    "emptyActionPrimary": "从战略开始",
+    "emptyActionSecondary": "构建智能基础",
+    "emptyActionReady": "创建第一个营销活动",
+    "sectionDescription": "按业务举措组织你的智能成果"
+  },
+  "intelligenceReadiness": {
+    "bannerIncompleteTitle": "正在构建你的战略基础",
+    "bannerIncompleteSubtitle": "（已完成 {{percentage}}%）",
+    "bannerCompleteTitle": "已准备好创建你的第一个营销活动",
+    "bannerCompleteSubtitle": "你已经建立了扎实的战略基础",
+    "checklistLabel": "请完成这些关键智能输出：",
+    "checklistItems": {
+      "strategy": "业务战略",
+      "persona": "客户画像",
+      "marketingStrategy": "营销战略"
+    },
+    "actions": {
+      "createCampaign": "创建营销活动",
+      "maybeLater": "稍后再说"
+    },
+    "descriptionComplete": "创建营销活动，以按业务举措组织你的智能成果并跟踪表现。",
+    "descriptionIncomplete": "创建营销活动前，请先完成这些关键智能输出："
+  },
+  "outputs": {
+    "pageTitle": "输出中心",
+    "pageSubtitle": "所有 AI 生成的洞察与内容汇集于一处",
+    "organizeButtonNotReady": "组织智能成果",
+    "organizeButtonReady": "创建营销活动",
+    "emptyState": "还没有智能输出",
+    "emptyAction": "开始生成战略洞察"
+  },
+  "onboarding": {
+    "welcomeTitle": "欢迎来到 STRAŦUM 营销套件",
+    "welcomeSubtitle": "先建立智能基础，再自信执行",
+    "welcomeDescription": "先从了解你的业务和客户开始，营销活动在后面",
+    "ctaStrategy": {
+      "title": "从战略开始",
+      "subtitle": "推荐的第一步",
+      "description": "使用 11 个战略框架分析你的业务并建立稳固基础",
+      "timeEstimate": "3 分钟获得首个洞察"
+    },
+    "ctaPersona": {
+      "title": "了解你的客户",
+      "subtitle": "建立详细买家画像",
+      "description": "借助 AI 驱动的客户洞察，了解你的营销对象是谁",
+      "timeEstimate": "5 分钟创建画像"
+    },
+    "ctaQuickStart": {
+      "title": "快速开始模板",
+      "subtitle": "几分钟内获得结果",
+      "description": "从预配置的智能工作流中选择，立即获得洞察",
+      "timeEstimate": "2-10 分钟完成"
+    },
+    "agentExplorerTitle": "或探索 AI 智能体",
+    "agentCount": "{{count}} 个专业智能体助力你的营销成功"
+  },
+  "agentCategories": {
+    "foundation": {
+      "name": "基础",
+      "description": "打造你的营销基础"
+    },
+    "execution": {
+      "name": "执行",
+      "description": "将战略付诸行动"
+    },
+    "intelligence": {
+      "name": "智能分析",
+      "description": "优化并分析"
+    }
+  },
+  "emptyStates": {
+    "noIntelligence": {
+      "title": "还没有智能成果",
+      "description": "借助 AI 洞察开始建立你的战略基础",
+      "action": "从战略开始"
+    },
+    "noCampaigns": {
+      "title": "还没有营销活动",
+      "description": "营销活动用于按业务举措组织智能成果",
+      "action": "先构建智能基础"
+    },
+    "intelligenceVaultEmpty": {
+      "title": "你的智能资料库",
+      "description": "还没有智能输出。开始构建你的战略基础。",
+      "action": "生成第一份战略"
+    },
+    "campaignsNotReady": {
+      "title": "先构建智能基础",
+      "description": "在将内容组织到营销活动前，请先创建战略、画像和营销计划。",
+      "action": "从战略开始"
+    }
+  },
+  "tooltips": {
+    "intelligenceBriefing": {
+      "title": "你的 AI 下一步建议",
+      "description": "我们会分析你的业务背景，以推荐高影响行动",
+      "dismissLabel": "知道了"
+    }
+  },
+  "buttons": {
+    "organizeIntelligence": "将智能成果组织到营销活动中",
+    "createCampaign": "创建营销活动",
+    "startWithStrategy": "从战略开始",
+    "buildIntelligence": "构建智能基础",
+    "viewAllIntelligence": "查看全部智能成果",
+    "generateStrategy": "生成战略",
+    "exploreAgents": "探索 AI 智能体",
+    "quickStart": "快速开始（5 分钟）"
+  },
+  "progress": {
+    "readinessPercentage": "距可创建营销活动还有 {{percentage}}%",
+    "intelligenceOutputs": "{{count}} 个智能输出",
+    "intelligenceOutputs_other": "{{count}} 个智能输出",
+    "agentInteractions": "本周 {{count}} 次 AI 互动",
+    "agentInteractions_other": "本周 {{count}} 次 AI 互动",
+    "strategicFoundation": "战略基础：{{status}}"
+  },
+  "concepts": {
+    "intelligenceFirst": "在执行前先建立战略智能，以获得更好结果",
+    "campaignsOrganize": "营销活动用于组织你的智能成果，而不是直接驱动执行",
+    "aiAgents": "9 个专业 AI 智能体帮助你建立战略基础",
+    "quickWins": "在构建长期战略的同时，立即获得可执行洞察"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "Bảng Giá"
+  },
+  "hero": {
+    "title": "Bảng Giá Minh Bạch",
+    "subtitle": "Dùng thử miễn phí 30 ngày trên mọi gói. Không cần thẻ tín dụng. Hủy bất cứ lúc nào."
+  },
+  "tiers": {
+    "solo": {
+      "name": "Solo",
+      "description": "Dành cho nhà tiếp thị và tư vấn viên cá nhân",
+      "features": {
+        "agents": "Tất cả 9 trợ lý AI",
+        "seats": "1 thành viên",
+        "sessions": "Phiên không giới hạn"
+      }
+    },
+    "team": {
+      "name": "Team",
+      "description": "Dành cho nhóm marketing nhỏ",
+      "features": {
+        "agents": "Tất cả 9 trợ lý AI",
+        "seats": "Tối đa 3 thành viên",
+        "sessions": "Phiên không giới hạn",
+        "collaboration": "Cộng tác nhóm"
+      }
+    },
+    "agency": {
+      "name": "Agency",
+      "description": "Dành cho agency quản lý nhiều khách hàng",
+      "features": {
+        "agents": "Tất cả 9 trợ lý AI",
+        "seats": "Tối đa 10 thành viên",
+        "clients": "Tối đa 5 khách hàng",
+        "clientSuccess": "Trợ lý Client Success"
+      }
+    }
+  },
+  "perMonth": "/tháng",
+  "perSeat": "mỗi người",
+  "recommended": "Đề xuất",
+  "startTrial": "Dùng Thử Miễn Phí",
+  "getStarted": "Bắt Đầu",
+  "comparison": {
+    "title": "So Sánh STRATUM",
+    "subtitle": "Xem chúng tôi vượt trội so với các giải pháp thay thế.",
+    "stratum": "STRATUM",
+    "competitor1": "CRM Doanh nghiệp",
+    "competitor2": "Nền tảng AI Nội dung",
+    "competitor3": "Công cụ Quảng cáo Tự động",
+    "capabilities": {
+      "strategicIntelligence": "Thông tin Chiến lược",
+      "creativeGeneration": "Tạo Nội dung Sáng tạo",
+      "performanceAnalysis": "Phân tích Hiệu suất",
+      "learningAdaptation": "Học hỏi & Thích ứng",
+      "executionRisk": "Rủi ro Thực thi",
+      "multiClient": "Đa Khách hàng",
+      "startingPrice": "Giá Khởi điểm"
+    },
+    "values": {
+      "stratum": {
+        "strategicIntelligence": "11+ frameworks",
+        "creativeGeneration": "9 công cụ nội dung",
+        "performanceAnalysis": "Đa kênh",
+        "learningAdaptation": "Liên tục",
+        "executionRisk": "Không (chỉ đọc)",
+        "multiClient": "Tích hợp sẵn",
+        "startingPrice": "$29/tháng"
+      },
+      "competitor1": {
+        "strategicIntelligence": "Cơ bản",
+        "creativeGeneration": "Hạn chế",
+        "performanceAnalysis": "Tập trung CRM",
+        "learningAdaptation": "Hạn chế",
+        "executionRisk": "Trung bình",
+        "multiClient": "--",
+        "startingPrice": "$800+/tháng"
+      },
+      "competitor2": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "Chỉ nội dung",
+        "performanceAnalysis": "--",
+        "learningAdaptation": "--",
+        "executionRisk": "Không",
+        "multiClient": "--",
+        "startingPrice": "$39+/tháng"
+      },
+      "competitor3": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "--",
+        "performanceAnalysis": "Chỉ bản trả phí",
+        "learningAdaptation": "Hạn chế",
+        "executionRisk": "Cao",
+        "multiClient": "Hạn chế",
+        "startingPrice": "$2.000+/tháng"
+      }
+    }
+  },
+  "faq": {
+    "title": "Câu Hỏi Thường Gặp",
+    "items": [
+      {
+        "question": "Dùng thử miễn phí 30 ngày hoạt động như thế nào?",
+        "answer": "Mọi gói đều có 30 ngày dùng thử miễn phí. Không cần thẻ tín dụng để bắt đầu. Bạn được truy cập đầy đủ tất cả tính năng trong thời gian dùng thử."
+      },
+      {
+        "question": "Tôi có thể thay đổi gói sau không?",
+        "answer": "Hoàn toàn được. Bạn có thể nâng cấp hoặc hạ cấp gói bất cứ lúc nào từ cài đặt thanh toán. Thay đổi có hiệu lực ngay lập tức."
+      },
+      {
+        "question": "Điều gì xảy ra khi tôi thêm thành viên nhóm?",
+        "answer": "Mỗi gói bao gồm một số lượng chỗ nhất định. Nếu cần thêm, hãy nâng cấp lên gói cao hơn. Tất cả thành viên đều có quyền truy cập đầy đủ mọi trợ lý AI."
+      },
+      {
+        "question": "Dữ liệu của tôi được xử lý như thế nào?",
+        "answer": "Chúng tôi áp dụng các biện pháp bảo mật theo tiêu chuẩn ngành bao gồm mã hóa HTTPS, cách ly dữ liệu cấp cơ sở dữ liệu giữa các tổ chức, và kiểm soát truy cập cấp hàng. STRATUM hiện đang trong giai đoạn alpha — vui lòng xem Chính Sách Bảo Mật của chúng tôi để biết chi tiết đầy đủ về bảo mật và các giới hạn."
+      },
+      {
+        "question": "'Hiểu Rõ Trước Khi Hành Động' nghĩa là gì?",
+        "answer": "STRATUM là nền tảng thông tin chỉ đọc. Chúng tôi giúp bạn suy nghĩ, lập kế hoạch và xây dựng chiến lược — nhưng không bao giờ thực thi chiến dịch thay bạn. Điều này đảm bảo không có rủi ro thực thi và bạn hoàn toàn kiểm soát marketing."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Sẵn Sàng Tư Duy Chiến Lược?",
+    "subtitle": "Tham gia cùng các nhà tiếp thị đã thay thế phỏng đoán bằng trí tuệ chiến lược.",
+    "button": "Bắt Đầu Dùng Thử Miễn Phí",
+    "benefits": {
+      "trial": "Dùng thử 30 ngày miễn phí",
+      "noCreditCard": "Không cần thẻ tín dụng",
+      "cancelAnytime": "Hủy bất cứ lúc nào"
+    }
+  }
+}

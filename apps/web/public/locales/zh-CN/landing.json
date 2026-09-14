@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "STRAŦUM - 战略营销智能",
+    "description": "11大战略框架。9个AI智能体。渐进式学习。别再猜测，开始洞察。"
+  },
+  "hero": {
+    "badge": "现已开放",
+    "headlinePart1": "没有战略的",
+    "headlinePart2": "营销执行",
+    "headlinePart3": "只会变成昂贵的噪音。",
+    "tagline": "智能优先于执行。",
+    "description": "11大战略框架。9个AI智能体。渐进式学习。",
+    "cta": "别再猜测，开始洞察。",
+    "primaryButton": "开始免费试用",
+    "secondaryText": "已有账号？",
+    "secondaryLink": "登录",
+    "trialNote": "所有套餐均包含免费试用",
+    "scrollDiscover": "了解更多"
+  },
+  "valueProps": {
+    "clarity": {
+      "title": "即刻获得战略清晰度",
+      "description": "SWOT、波特五力、蓝海战略、BCG矩阵、VRIO、麦肯锡7S，成熟框架触手可及。"
+    },
+    "intelligence": {
+      "title": "会学习的智能系统",
+      "description": "每一次围绕你业务的对话，都会让系统更懂你。告诉一个智能体，九个都会同步受益。",
+      "badge": "渐进式学习"
+    },
+    "quickWins": {
+      "title": "15分钟快速见效",
+      "description": "第一次会话就拿到可执行洞察，而不是等到第五周。专为忙碌的营销人员打造。"
+    }
+  },
+  "audience": {
+    "title": "为两类截然不同的用户而打造",
+    "subtitle": "需求不同，智能平台相同",
+    "sme": {
+      "label": "面向中小企业",
+      "title": "面向中小企业",
+      "subtitle": "你负担得起的战略联合创始人",
+      "features": {
+        "clarity": {
+          "title": "15分钟看清方向",
+          "description": "在咖啡变凉之前，就拿到你的第一份完整且有数据支撑的战略。"
+        },
+        "budget": {
+          "title": "让预算少走弯路",
+          "description": "即使预算从0开始，也能获得可随业务增长自动调整的战略。"
+        },
+        "confidence": {
+          "title": "要信心，不要困惑",
+          "description": "用浅显易懂的框架说明，帮你理解方案背后的原因。"
+        }
+      }
+    },
+    "agency": {
+      "label": "面向代理机构",
+      "title": "面向代理机构",
+      "subtitle": "扩大战略产能，而不是单纯扩编团队",
+      "features": {
+        "clientReady": {
+          "title": "可直接交付给客户的战略",
+          "description": "写一封邮件的时间，就能为新客户生成完整的战略蓝图。"
+        },
+        "premiumFees": {
+          "title": "为高端服务费提供依据",
+          "description": "交付基于9个互联AI智能体的战略，而不是只靠直觉。"
+        },
+        "systematic": {
+          "title": "系统化的高标准交付",
+          "description": "借助内建的数据隔离和团队协作能力，同时管理多个客户的战略。"
+        }
+      }
+    }
+  },
+  "progressiveLearning": {
+    "badge": "自适应智能系统",
+    "title": "会随业务一起成长的智能系统",
+    "subtitle": "不同于静态工具，STRAŦUM 的AI智能体会在每一次对话中持续学习你的业务。",
+    "timeline": {
+      "day1": {
+        "label": "第1天",
+        "title": "首次互动",
+        "description": "只需分享一次业务背景，智能体就会开始自动捕捉关于市场、竞争对手和客户的关键信息。"
+      },
+      "week1": {
+        "label": "第1周",
+        "title": "智能持续深化",
+        "description": "每一次对话都会沉淀进你的学习历史。智能体会参考过去的洞察，给出越来越个性化的建议。"
+      },
+      "ongoing": {
+        "label": "持续进行",
+        "title": "预测式智能",
+        "description": "随着知识库不断丰富，智能体会预判你的需求并预填上下文。你始终掌握控制权，可查看并删除任何洞察。"
+      }
+    }
+  },
+  "frameworks": {
+    "title": "11大战略框架尽在掌握",
+    "subtitle": "财富500强顾问使用的同款框架，如今人人都能用。",
+    "list": [
+      "SWOT分析",
+      "波特五力",
+      "蓝海战略",
+      "BCG矩阵",
+      "VRIO Framework",
+      "McKinsey 7S",
+      "OKRs",
+      "三层增长地平线",
+      "ICE优先级排序",
+      "商业模式画布",
+      "待完成工作理论"
+    ]
+  },
+  "demo": {
+    "title": "看看 STRAŦUM 如何实际运作",
+    "subtitle": "15分钟带你了解中小企业如何构建完整营销战略"
+  },
+  "cta": {
+    "badge": "人人可用的战略智能",
+    "title": "从今天开始制定更聪明的战略",
+    "description": "加入已经在使用AI驱动战略智能做出更好营销决策的企业和代理机构。9个智能体，11个框架，一个平台。",
+    "primaryButton": "免费开始",
+    "secondaryText": "已有账号？",
+    "secondaryLink": "登录",
+    "benefits": {
+      "noCreditCard": "无需信用卡",
+      "foundingMember": "随时取消"
+    }
+  }
+}

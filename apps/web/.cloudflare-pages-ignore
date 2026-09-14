@@ -1,0 +1,33 @@
+# Cloudflare Pages Ignore
+# Exclude local environment files from Cloudflare Pages deployments
+# Cloudflare Pages will use environment variables set via dashboard instead
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# Test results and reports
+test-results/
+playwright-report/
+tests/screenshots/
+
+# Node modules (Cloudflare installs its own)
+node_modules/
+
+# Build artifacts from previous builds
+dist/
+.vite/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

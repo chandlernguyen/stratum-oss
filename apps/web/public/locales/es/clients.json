@@ -1,0 +1,68 @@
+{
+  "title": "Clientes",
+  "subtitle": "Gestiona la cartera de clientes de tu agencia",
+  "badge": "Cartera de clientes",
+  "addClient": "Anadir cliente",
+  "addFirstClient": "Anade tu primer cliente",
+  "search": {
+    "placeholder": "Buscar clientes por nombre o sector..."
+  },
+  "filters": {
+    "label": "Filtrar por estado",
+    "active": "Activo",
+    "archived": "Archivado",
+    "all": "Todos los clientes"
+  },
+  "card": {
+    "noIndustry": "Sector no especificado",
+    "archivedBadge": "Archivado",
+    "archivedOn": "Archivado",
+    "reason": "Motivo: {{reason}}",
+    "campaigns": "Campanas",
+    "campaignsCount": "{{active}} / {{total}}",
+    "clientSince": "Cliente desde",
+    "restoreClient": "Restaurar cliente",
+    "dashboard": "Panel",
+    "viewCampaignsAriaLabel": "Ver campanas de {{clientName}}"
+  },
+  "status": {
+    "active": "activo",
+    "paused": "pausado",
+    "churned": "perdido"
+  },
+  "emptyState": {
+    "noArchived": {
+      "title": "No hay clientes archivados",
+      "description": "Los clientes archivados apareceran aqui cuando archives clientes activos",
+      "viewActive": "Ver clientes activos"
+    },
+    "noClients": {
+      "title": "Todavia no hay clientes",
+      "description": "Empieza anadiendo tu primer cliente para comenzar a usar insights impulsados por IA"
+    },
+    "noResults": {
+      "title": "No se encontraron clientes",
+      "description": "Prueba a ajustar la busqueda"
+    }
+  },
+  "actions": {
+    "edit": "Editar",
+    "archive": "Archivar",
+    "restore": "Restaurar",
+    "delete": "Eliminar"
+  },
+  "toast": {
+    "archiveSuccess": "Cliente archivado correctamente",
+    "archiveFailed": "No se pudo archivar el cliente",
+    "deleteSuccess": "Cliente eliminado correctamente",
+    "deleteFailed": "No se pudo eliminar el cliente",
+    "restoreSuccess": "Cliente restaurado correctamente",
+    "restoreFailed": "No se pudo restaurar el cliente"
+  },
+  "onboarding": {
+    "industry": "Sector",
+    "industryPlaceholder": "Selecciona el sector de tu cliente",
+    "companySize": "Tamano de la empresa",
+    "companySizePlaceholder": "Selecciona el tamano de la empresa"
+  }
+}

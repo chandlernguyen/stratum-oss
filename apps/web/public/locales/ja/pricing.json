@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "料金"
+  },
+  "hero": {
+    "title": "シンプルで明確な料金体系",
+    "subtitle": "すべてのプランで30日間の無料トライアル。クレジットカード不要。いつでも解約できます。"
+  },
+  "tiers": {
+    "solo": {
+      "name": "Solo",
+      "description": "個人のマーケターやコンサルタント向け",
+      "features": {
+        "agents": "9体すべてのAIエージェント",
+        "seats": "1名分のシート",
+        "sessions": "セッション無制限"
+      }
+    },
+    "team": {
+      "name": "Team",
+      "description": "小規模なマーケティングチーム向け",
+      "features": {
+        "agents": "9体すべてのAIエージェント",
+        "seats": "最大3名",
+        "sessions": "セッション無制限",
+        "collaboration": "チームでの共同作業"
+      }
+    },
+    "agency": {
+      "name": "Agency",
+      "description": "複数のクライアントを担当する代理店向け",
+      "features": {
+        "agents": "9体すべてのAIエージェント",
+        "seats": "最大10名",
+        "clients": "最大5クライアント",
+        "clientSuccess": "Client Successエージェント"
+      }
+    }
+  },
+  "perMonth": "/月",
+  "perSeat": "1席あたり",
+  "recommended": "おすすめ",
+  "startTrial": "無料トライアルを開始",
+  "getStarted": "始める",
+  "comparison": {
+    "title": "STRATUMと他サービスの比較",
+    "subtitle": "代替サービスと比べた違いを確認できます。",
+    "stratum": "STRATUM",
+    "competitor1": "エンタープライズCRMスイート",
+    "competitor2": "AIコンテンツプラットフォーム",
+    "competitor3": "広告自動化ツール",
+    "capabilities": {
+      "strategicIntelligence": "戦略インテリジェンス",
+      "creativeGeneration": "クリエイティブ生成",
+      "performanceAnalysis": "パフォーマンス分析",
+      "learningAdaptation": "学習と適応",
+      "executionRisk": "実行リスク",
+      "multiClient": "マルチクライアント対応",
+      "startingPrice": "開始価格"
+    },
+    "values": {
+      "stratum": {
+        "strategicIntelligence": "11以上のフレームワーク",
+        "creativeGeneration": "9つのコンテンツツール",
+        "performanceAnalysis": "クロスチャネル",
+        "learningAdaptation": "継続的",
+        "executionRisk": "なし（閲覧専用）",
+        "multiClient": "標準搭載",
+        "startingPrice": "$29/月"
+      },
+      "competitor1": {
+        "strategicIntelligence": "基本機能のみ",
+        "creativeGeneration": "限定的",
+        "performanceAnalysis": "CRM中心",
+        "learningAdaptation": "限定的",
+        "executionRisk": "中",
+        "multiClient": "--",
+        "startingPrice": "$800+/月"
+      },
+      "competitor2": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "コンテンツ生成のみ",
+        "performanceAnalysis": "--",
+        "learningAdaptation": "--",
+        "executionRisk": "なし",
+        "multiClient": "--",
+        "startingPrice": "$39+/月"
+      },
+      "competitor3": {
+        "strategicIntelligence": "--",
+        "creativeGeneration": "--",
+        "performanceAnalysis": "有料配信のみ",
+        "learningAdaptation": "限定的",
+        "executionRisk": "高",
+        "multiClient": "限定対応",
+        "startingPrice": "$2,000+/月"
+      }
+    }
+  },
+  "faq": {
+    "title": "よくある質問",
+    "items": [
+      {
+        "question": "30日間の無料トライアルはどのように利用できますか？",
+        "answer": "すべてのプランに30日間の無料トライアルが付いています。開始時にクレジットカードは不要です。トライアル期間中は全機能を利用できます。"
+      },
+      {
+        "question": "後からプランを変更できますか？",
+        "answer": "はい。請求設定からいつでもアップグレードまたはダウングレードできます。変更はすぐに反映されます。"
+      },
+      {
+        "question": "チームメンバーを増やしたい場合はどうなりますか？",
+        "answer": "各プランには利用可能なシート数が含まれています。さらに必要な場合は上位プランへ変更してください。すべてのメンバーが全AIエージェントを利用できます。"
+      },
+      {
+        "question": "データはどのように保護されますか？",
+        "answer": "HTTPS暗号化、組織ごとのデータ分離、行レベルのアクセス制御など、業界標準のセキュリティ対策を実装しています。STRATUMは現在アルファ版のため、詳細な運用と制限についてはプライバシーポリシーをご確認ください。"
+      },
+      {
+        "question": "『Intelligence Over Execution』とはどういう意味ですか？",
+        "answer": "STRATUMは閲覧専用のインテリジェンスプラットフォームです。考えること、計画すること、戦略を組み立てることを支援しますが、キャンペーンを代行実行することはありません。そのため実行リスクはなく、マーケティングの主導権は常にあなたにあります。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "より賢く考える準備はできていますか？",
+    "subtitle": "勘に頼るやり方を、戦略インテリジェンスに置き換えたマーケターたちに加わりましょう。",
+    "button": "無料トライアルを始める",
+    "benefits": {
+      "trial": "30日間の無料トライアル",
+      "noCreditCard": "クレジットカード不要",
+      "cancelAnytime": "いつでも解約可能"
+    }
+  }
+}

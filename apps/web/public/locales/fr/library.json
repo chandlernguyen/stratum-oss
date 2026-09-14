@@ -1,0 +1,62 @@
+{
+  "title": "Gestion documentaire",
+  "subtitle": "Importez, recherchez et gerez la base de connaissances de votre organisation.",
+  "upload": {
+    "title": "Importer des documents",
+    "description": "Ajoutez de nouveaux documents a votre base de connaissances.",
+    "button": "Importer"
+  },
+  "documents": {
+    "title": "Vos documents",
+    "description": "Consultez et gerez les documents televerses.",
+    "emptyState": "Une liste ou une grille de documents s'affichera ici.",
+    "noDocuments": "Aucun document pour le moment. Importez votre premier document pour commencer."
+  },
+  "documentTypes": {
+    "pdf": "Document PDF",
+    "doc": "Document Word",
+    "docx": "Document Word",
+    "txt": "Fichier texte",
+    "csv": "Tableur CSV",
+    "xls": "Tableur Excel",
+    "xlsx": "Tableur Excel",
+    "ppt": "Presentation PowerPoint",
+    "pptx": "Presentation PowerPoint",
+    "image": "Fichier image",
+    "other": "Autre"
+  },
+  "actions": {
+    "upload": "Importer",
+    "download": "Telecharger",
+    "delete": "Supprimer",
+    "rename": "Renommer",
+    "share": "Partager",
+    "view": "Voir",
+    "edit": "Modifier",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "search": "Rechercher des documents..."
+  },
+  "status": {
+    "uploading": "Import...",
+    "processing": "Traitement...",
+    "ready": "Pret",
+    "error": "Erreur",
+    "uploaded": "Importe avec succes",
+    "deleted": "Supprime avec succes"
+  },
+  "errors": {
+    "uploadFailed": "Echec de l'import. Veuillez reessayer.",
+    "deleteFailed": "Echec de la suppression. Veuillez reessayer.",
+    "invalidFileType": "Type de fichier invalide. Importez un fichier compatible.",
+    "fileTooLarge": "Le fichier est trop volumineux. La taille maximale est de {{maxSize}}.",
+    "noFileSelected": "Aucun fichier selectionne."
+  },
+  "metadata": {
+    "uploadedOn": "Importe le {{date}}",
+    "uploadedBy": "Importe par {{name}}",
+    "lastModified": "Derniere modification le {{date}}",
+    "fileSize": "Taille du fichier : {{size}}",
+    "fileType": "Type de fichier : {{type}}"
+  }
+}

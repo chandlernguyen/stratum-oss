@@ -1,0 +1,166 @@
+{
+  "title": "Profil",
+  "tabs": {
+    "profile": "Profil",
+    "intelligence": "Business Intelligence",
+    "intelligenceShort": "Intel",
+    "permissions": "Berechtigungen",
+    "settings": "Einstellungen"
+  },
+  "orgType": {
+    "agency": "Agentur",
+    "sme": "KMU"
+  },
+  "roles": {
+    "sme_owner": "KMU-Inhaber",
+    "agency_owner": "Agenturinhaber",
+    "agency_admin": "Agenturadministrator",
+    "agency_account_manager": "Account Manager",
+    "agency_strategist": "Senior-Stratege",
+    "agency_creative": "Kreativteam",
+    "agency_analyst": "Analyst",
+    "agency_campaign_manager": "Kampagnenmanager",
+    "agency_client_viewer": "Kundenbetrachter",
+    "agency_freelancer": "Freelancer",
+    "agency_viewer": "Betrachter",
+    "account_manager": "Account Manager",
+    "client_stakeholder": "Kunden-Stakeholder",
+    "client_collaborator": "Kunden-Mitarbeiter",
+    "default": "Benutzer"
+  },
+  "deletion": {
+    "title": "Konto zur Löschung vorgemerkt",
+    "deletionDate": "Ihr Konto wird am {{date}} endgültig gelöscht",
+    "reason": "Grund: {{reason}}",
+    "restoreTitle": "So stellen Sie Ihr Konto wieder her:",
+    "restoreDescription": "Kontaktieren Sie den Support unter {{email}} vor dem Löschungsdatum. Geben Sie Ihre E-Mail-Adresse und Konto-ID in Ihrer Anfrage an."
+  },
+  "profileInfo": {
+    "title": "Profilinformationen",
+    "subtitle": "Persönliche und Organisationsdetails verwalten"
+  },
+  "personal": {
+    "title": "Persönliche Daten",
+    "displayName": "Anzeigename",
+    "displayNamePlaceholder": "Geben Sie Ihren vollständigen Namen ein",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "phonePlaceholder": "+49 (0) 123 456789",
+    "bio": "Biografie",
+    "bioPlaceholder": "Erzählen Sie uns etwas über sich..."
+  },
+  "organization": {
+    "title": "Organisationsinformationen",
+    "name": "Organisationsname",
+    "nameNote": "(Kontoname)",
+    "type": "Organisationstyp",
+    "typeAgency": "Marketing-Agentur",
+    "typeSME": "Kleines und mittleres Unternehmen",
+    "memberSince": "Mitglied seit",
+    "activeCampaigns": "Aktive Kampagnen",
+    "campaignCount_one": "{{count}} Kampagne",
+    "campaignCount_other": "{{count}} Kampagnen",
+    "website": "Unternehmenswebsite"
+  },
+  "permissions": {
+    "title": "Zugriffsberechtigungen",
+    "subtitle": "Ihre rollenbasierten Berechtigungen und Fähigkeiten",
+    "fullAdmin": {
+      "title": "Voller Administratorzugriff",
+      "enabled": "Aktiviert",
+      "permissions": [
+        "Alle Kundenkonten verwalten",
+        "Kampagnen erstellen und löschen",
+        "Auf alle Agentenfunktionen zugreifen",
+        "White-Label-Einstellungen konfigurieren",
+        "Alle Analysen und Berichte einsehen",
+        "Teammitglieder verwalten",
+        "Daten exportieren und importieren"
+      ]
+    },
+    "businessOwner": {
+      "title": "Geschäftsinhaber-Zugriff",
+      "enabled": "Aktiviert",
+      "permissions": [
+        "Voller Zugriff auf alle KI-Agenten",
+        "Kampagnen erstellen und verwalten",
+        "Analysen und Einblicke einsehen",
+        "Berichte und Daten exportieren",
+        "Teamzusammenarbeit verwalten",
+        "Geschäftseinstellungen konfigurieren"
+      ]
+    },
+    "accountManager": {
+      "title": "Account-Manager-Zugriff",
+      "enabled": "Aktiviert",
+      "permissions": [
+        "Zugewiesene Kundenkonten verwalten",
+        "Kampagnen für Kunden erstellen",
+        "Auf kundenspezifische Analysen zugreifen",
+        "Alle KI-Agenten nutzen",
+        "Kundenberichte exportieren",
+        "Mit Teammitgliedern zusammenarbeiten"
+      ]
+    },
+    "guest": {
+      "title": "Gastzugriff",
+      "limited": "Eingeschränkt",
+      "permissions": [
+        "Kampagnenergebnisse einsehen",
+        "Auf freigegebene Berichte zugreifen",
+        "Analyse-Dashboards einsehen",
+        "Exportierte Daten herunterladen"
+      ]
+    },
+    "security": {
+      "title": "Sicherheitsmaßnahmen",
+      "description": "Wir setzen bewährte Sicherheitspraktiken um, können jedoch als Alpha-Dienst keinen vollständigen Schutz garantieren. Weitere Details finden Sie in unserer Datenschutzrichtlinie.",
+      "measures": [
+        "Datenbank-Row-Level-Security (RLS)",
+        "Multi-Tenant-Datenisolierung",
+        "Sichere Authentifizierung (Supabase Auth)"
+      ]
+    }
+  },
+  "settings": {
+    "title": "Kontoeinstellungen",
+    "subtitle": "Kontoeinstellungen und Sicherheit verwalten",
+    "security": {
+      "title": "Sicherheit",
+      "changePassword": "Passwort ändern",
+      "manageMFA": "Zwei-Faktor-Authentifizierung verwalten",
+      "viewLoginActivity": "Anmeldeaktivitäten anzeigen",
+      "comingSoon": "Bald verfügbar"
+    },
+    "dataPrivacy": {
+      "title": "Daten & Datenschutz",
+      "downloadData": "Meine Daten herunterladen",
+      "downloading": "Wird heruntergeladen...",
+      "deleteAccount": "Konto löschen"
+    }
+  },
+  "validation": {
+    "fieldEmpty": "Feld darf nicht leer sein"
+  },
+  "toast": {
+    "notAuthenticated": "Nicht authentifiziert",
+    "notAuthenticatedDesc": "Bitte melden Sie sich an, um Ihre Daten herunterzuladen.",
+    "exportSuccess": "Daten erfolgreich exportiert",
+    "exportSuccessDesc": "Ihre Daten wurden als JSON-Datei heruntergeladen.",
+    "exportError": "Datenexport fehlgeschlagen",
+    "exportErrorDesc": "Bitte versuchen Sie es später erneut."
+  },
+  "insights": {
+    "status": {
+      "approved": "Genehmigt",
+      "rejected": "Abgelehnt",
+      "pendingReview": "Prüfung ausstehend"
+    },
+    "time": {
+      "justNow": "gerade eben",
+      "minutesAgo": "vor {{count}} Min.",
+      "hoursAgo": "vor {{count}} Std.",
+      "daysAgo": "vor {{count}} T."
+    }
+  }
+}

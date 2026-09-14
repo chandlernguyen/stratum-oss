@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "STRAŦUM - Nền Tảng Marketing Thông Minh",
+    "description": "11 khung chiến lược. 9 trợ lý AI. AI học hỏi liên tục. Đừng đoán mò. Hãy chắc chắn."
+  },
+  "hero": {
+    "badge": "Đã Mở Đăng Ký",
+    "headlinePart1": "Marketing",
+    "headlinePart2": "Thiếu Chiến Lược",
+    "headlinePart3": "Chỉ Là Đốt Tiền.",
+    "tagline": "Hiểu Rõ Trước Khi Hành Động.",
+    "description": "11 khung chiến lược. 9 trợ lý AI. AI học hỏi liên tục.",
+    "cta": "Đừng đoán mò. Hãy chắc chắn.",
+    "primaryButton": "Dùng Thử Miễn Phí",
+    "secondaryText": "Đã có tài khoản?",
+    "secondaryLink": "Đăng nhập",
+    "trialNote": "Tất cả gói đều có thời gian dùng thử miễn phí",
+    "scrollDiscover": "Khám phá"
+  },
+  "valueProps": {
+    "clarity": {
+      "title": "Chiến Lược Rõ Ràng, Ngay Lập Tức",
+      "description": "SWOT, 5 Lực lượng Porter, Chiến lược Đại Dương Xanh, Ma trận BCG, VRIO, McKinsey 7S — các khung phân tích hàng đầu trong tầm tay bạn."
+    },
+    "intelligence": {
+      "title": "AI Càng Dùng Càng Hiểu Bạn",
+      "description": "Càng trò chuyện về doanh nghiệp của BẠN, AI càng thông minh hơn. Chia sẻ với một trợ lý, cả 9 trợ lý đều được cập nhật.",
+      "badge": "Học Hỏi Liên Tục"
+    },
+    "quickWins": {
+      "title": "Kết Quả Ngay Trong 15 Phút",
+      "description": "Thông tin hữu ích ngay trong phiên đầu tiên, không cần chờ 5 tuần. Thiết kế cho người bận rộn."
+    }
+  },
+  "audience": {
+    "title": "Một Nền Tảng — Hai Nhóm Khách Hàng",
+    "subtitle": "Nhu cầu khác nhau, cùng một nền tảng phân tích",
+    "sme": {
+      "label": "Cho Doanh Nghiệp Vừa & Nhỏ",
+      "title": "Cho Doanh Nghiệp Vừa & Nhỏ",
+      "subtitle": "Cố Vấn Chiến Lược Trong Tầm Tay",
+      "features": {
+        "clarity": {
+          "title": "Rõ Ràng Trong 15 Phút",
+          "description": "Nhận chiến lược hoàn chỉnh, có căn cứ dữ liệu trước khi cà phê của bạn nguội."
+        },
+        "budget": {
+          "title": "Phù Hợp Mọi Ngân Sách",
+          "description": "Chiến lược xây dựng từ con số 0, tự động điều chỉnh khi bạn phát triển."
+        },
+        "confidence": {
+          "title": "Tự Tin Ra Quyết Định",
+          "description": "Hiểu rõ LÝ DO đằng sau kế hoạch với các khung phân tích được giải thích dễ hiểu."
+        }
+      }
+    },
+    "agency": {
+      "label": "Cho Agency",
+      "title": "Cho Agency",
+      "subtitle": "Mở Rộng Năng Lực, Không Cần Thêm Người",
+      "features": {
+        "clientReady": {
+          "title": "Chiến Lược Sẵn Sàng Gửi Khách",
+          "description": "Tạo bản thiết kế chiến lược hoàn chỉnh cho khách hàng mới trong thời gian viết một email."
+        },
+        "premiumFees": {
+          "title": "Giá Trị Xứng Đáng Mức Phí",
+          "description": "Cung cấp chiến lược dựa trên 9 trợ lý AI liên kết, không chỉ dựa vào cảm giác."
+        },
+        "systematic": {
+          "title": "Quy Trình Chuẩn Hóa",
+          "description": "Quản lý chiến lược cho nhiều khách hàng với dữ liệu riêng biệt và cộng tác nhóm tích hợp."
+        }
+      }
+    }
+  },
+  "progressiveLearning": {
+    "badge": "AI Thích Ứng Theo Bạn",
+    "title": "AI Phát Triển Cùng Doanh Nghiệp Của Bạn",
+    "subtitle": "Khác với các công cụ tĩnh, các trợ lý AI của STRAŦUM liên tục học hỏi về doanh nghiệp của bạn qua mỗi cuộc trò chuyện.",
+    "timeline": {
+      "day1": {
+        "label": "Ngày 1",
+        "title": "Lần Đầu Sử Dụng",
+        "description": "Chia sẻ về doanh nghiệp một lần. Các trợ lý tự động ghi nhận thông tin quan trọng về thị trường, đối thủ và khách hàng của bạn."
+      },
+      "week1": {
+        "label": "Tuần 1",
+        "title": "Hiểu Bạn Hơn",
+        "description": "Mỗi cuộc trò chuyện được lưu vào Lịch sử. Các trợ lý dựa vào đó để đưa ra gợi ý ngày càng phù hợp với bạn."
+      },
+      "ongoing": {
+        "label": "Về Sau",
+        "title": "Dự Đoán Nhu Cầu",
+        "description": "Với kho kiến thức tích lũy, các trợ lý dự đoán nhu cầu và điền sẵn thông tin. Bạn luôn kiểm soát — xem lại và xóa bất kỳ lúc nào."
+      }
+    }
+  },
+  "frameworks": {
+    "title": "11 Khung Chiến Lược Trong Tầm Tay",
+    "subtitle": "Các khung phân tích được các tập đoàn hàng đầu thế giới sử dụng, giờ ai cũng có thể tiếp cận.",
+    "list": [
+      "Phân tích SWOT",
+      "5 Lực lượng Porter",
+      "Chiến lược Đại Dương Xanh",
+      "Ma trận BCG",
+      "Khung VRIO",
+      "McKinsey 7S",
+      "OKRs",
+      "Ba Chân Trời Tăng Trưởng",
+      "Đánh Giá ICE",
+      "Mô Hình Kinh Doanh Canvas",
+      "Việc Cần Giải Quyết (JTBD)"
+    ]
+  },
+  "demo": {
+    "title": "Xem STRAŦUM Hoạt Động",
+    "subtitle": "Hướng dẫn 15 phút cách doanh nghiệp vừa và nhỏ xây dựng chiến lược marketing hoàn chỉnh"
+  },
+  "cta": {
+    "badge": "Nền Tảng Chiến Lược Cho Mọi Người",
+    "title": "Bắt Đầu Xây Dựng Chiến Lược Thông Minh Hôm Nay",
+    "description": "Cùng hàng trăm doanh nghiệp và agency sử dụng AI chiến lược để đưa ra quyết định marketing chính xác hơn. 9 trợ lý AI. 11 khung phân tích. Một nền tảng.",
+    "primaryButton": "Bắt Đầu Miễn Phí",
+    "secondaryText": "Đã có tài khoản?",
+    "secondaryLink": "Đăng nhập",
+    "benefits": {
+      "noCreditCard": "Không cần thẻ tín dụng",
+      "foundingMember": "Hủy bất kỳ lúc nào"
+    }
+  }
+}

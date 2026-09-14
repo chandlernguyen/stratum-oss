@@ -1,0 +1,30 @@
+{
+  "generic": "Algo deu errado. Por favor, tente novamente.",
+  "network": "Erro de rede. Verifique sua conexão.",
+  "server": "Erro no servidor. Por favor, tente novamente mais tarde.",
+  "notFound": "Recurso não encontrado.",
+  "unauthorized": "Você não tem autorização para realizar esta ação.",
+  "forbidden": "Acesso negado.",
+  "timeout": "A solicitação expirou. Por favor, tente novamente.",
+  "sessionExpired": "Sua sessão expirou. Por favor, entre novamente.",
+  "validation": {
+    "required": "{field} é obrigatório.",
+    "invalid": "{field} inválido.",
+    "tooShort": "{field} deve ter pelo menos {min} caracteres.",
+    "tooLong": "{field} deve ter no máximo {max} caracteres.",
+    "invalidEmail": "Por favor, insira um endereço de e-mail válido.",
+    "invalidPassword": "A senha não atende aos requisitos."
+  },
+  "auth": {
+    "invalidCredentials": "E-mail ou senha inválidos.",
+    "emailInUse": "Este e-mail já está cadastrado.",
+    "accountLocked": "Conta temporariamente bloqueada. Por favor, tente novamente mais tarde.",
+    "tooManyAttempts": "Muitas tentativas. Por favor, tente novamente mais tarde.",
+    "invalidInvitationCode": "Código de convite inválido."
+  },
+  "agent": {
+    "unavailable": "O agente está temporariamente indisponível. Por favor, tente novamente.",
+    "toolExecutionFailed": "Falha ao executar {tool}. Por favor, tente novamente.",
+    "responseGenerationFailed": "Falha ao gerar resposta. Por favor, tente novamente."
+  }
+}

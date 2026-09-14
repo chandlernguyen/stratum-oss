@@ -1,0 +1,140 @@
+{
+  "title": "Personas de Clientes",
+  "subtitle": "Entenda e defina seus clientes-alvo",
+  "list": {
+    "title": "Todas as Personas",
+    "empty": "Nenhuma persona ainda",
+    "emptyDescription": "Crie sua primeira persona para começar a entender seus clientes-alvo",
+    "createFirst": "Criar Primeira Persona",
+    "loading": "Carregando personas...",
+    "primary": "Principal",
+    "archived": "Arquivada",
+    "restore": "Restaurar",
+    "interview": "Entrevistar"
+  },
+  "form": {
+    "create": "Criar Persona",
+    "edit": "Editar Persona",
+    "sections": {
+      "basic": "Informações Básicas",
+      "demographics": "Demografia",
+      "psychographics": "Psicografia",
+      "behaviors": "Comportamentos",
+      "journey": "Jornada do Comprador"
+    },
+    "fields": {
+      "name": "Nome da Persona",
+      "namePlaceholder": "ex.: Gerente de Marketing Maria",
+      "avatar": "Avatar",
+      "description": "Descrição",
+      "descriptionPlaceholder": "Breve descrição desta persona",
+      "age": "Faixa Etária",
+      "gender": "Gênero",
+      "location": "Localização",
+      "income": "Nível de Renda",
+      "education": "Escolaridade",
+      "jobTitle": "Cargo",
+      "industry": "Setor",
+      "companySize": "Tamanho da Empresa",
+      "goals": "Objetivos e Motivações",
+      "goalsPlaceholder": "O que esta persona deseja alcançar?",
+      "painPoints": "Dores e Desafios",
+      "painPointsPlaceholder": "Quais problemas ela enfrenta?",
+      "values": "Valores e Prioridades",
+      "interests": "Interesses e Hobbies",
+      "mediaConsumption": "Consumo de Mídia",
+      "preferredChannels": "Canais Preferidos",
+      "buyingBehavior": "Comportamento de Compra",
+      "decisionFactors": "Fatores de Decisão",
+      "objections": "Objeções Comuns"
+    },
+    "validation": {
+      "nameRequired": "O nome da persona é obrigatório"
+    }
+  },
+  "detail": {
+    "overview": "Visão Geral",
+    "journey": "Jornada do Comprador",
+    "messaging": "Guia de Mensagens",
+    "campaigns": "Campanhas Relacionadas"
+  },
+  "journey": {
+    "stages": {
+      "awareness": "Consciência",
+      "consideration": "Consideração",
+      "decision": "Decisão",
+      "retention": "Retenção",
+      "advocacy": "Advocacia"
+    },
+    "fields": {
+      "touchpoints": "Pontos de Contato",
+      "content": "Necessidades de Conteúdo",
+      "questions": "Perguntas-Chave",
+      "actions": "Ações Desejadas"
+    }
+  },
+  "actions": {
+    "create": "Criar Persona",
+    "edit": "Editar",
+    "duplicate": "Duplicar",
+    "archive": "Arquivar",
+    "delete": "Excluir",
+    "export": "Exportar",
+    "viewDetails": "Ver Detalhes",
+    "generateWithAI": "Gerar com IA",
+    "moreOptions": "Mais opções"
+  },
+  "filters": {
+    "all": "Todas as Personas",
+    "active": "Ativas",
+    "archived": "Arquivadas",
+    "search": "Pesquisar personas..."
+  },
+  "confirmDelete": {
+    "title": "Excluir Persona",
+    "message": "Tem certeza de que deseja excluir esta persona? Isso não afetará campanhas que usaram esta persona.",
+    "confirm": "Excluir",
+    "cancel": "Cancelar"
+  },
+  "aiGeneration": {
+    "title": "Gerar Persona com IA",
+    "description": "Descreva seu cliente-alvo e nossa IA criará uma persona detalhada",
+    "placeholder": "Descreva seu cliente ideal: cargo, setor, desafios e o que procura...",
+    "generate": "Gerar Persona",
+    "generating": "Gerando..."
+  },
+  "sidebar": {
+    "expandTooltip": "Expandir barra lateral",
+    "collapseTooltip": "Recolher barra lateral",
+    "createTooltip": "Criar nova persona",
+    "header": "Agente de Persona",
+    "tabs": {
+      "history": "Histórico",
+      "outputs": "Personas"
+    },
+    "newPersona": "Nova Persona",
+    "newChat": "Nova Conversa",
+    "viewActive": "Ver Ativas",
+    "viewArchived": "Ver Arquivadas",
+    "loading": "Carregando personas...",
+    "emptyPersonas": "Nenhuma persona criada ainda",
+    "emptyPersonasDescription": "Crie sua primeira persona para começar a entender seus clientes",
+    "createFirstPersona": "Criar Primeira Persona",
+    "emptyHistory": "Nenhum histórico de conversas ainda",
+    "emptyHistoryDescription": "Inicie uma entrevista com uma persona para ver o histórico aqui",
+    "untitledSession": "Sessão Sem Título",
+    "messages": "{{count}} mensagens",
+    "archived": "Arquivada",
+    "primary": "Principal",
+    "sessionActions": {
+      "rename": "Renomear Sessão",
+      "export": "Exportar Sessão",
+      "duplicate": "Duplicar Sessão"
+    }
+  },
+  "relativeTime": {
+    "justNow": "Agora mesmo",
+    "hoursAgo": "{{count}}h atrás",
+    "daysAgo": "{{count}}d atrás"
+  }
+}

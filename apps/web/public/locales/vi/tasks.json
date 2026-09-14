@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Công Việc",
+  "pageSubtitle": "Quản lý và theo dõi công việc của nhóm",
+  "newTask": "Công Việc Mới",
+  "myTasks": "Công Việc Của Tôi",
+  "allTasks": "Tất Cả Công Việc",
+  "noTasks": "Không có công việc",
+  "status": {
+    "todo": "Cần Làm",
+    "in_progress": "Đang Thực Hiện",
+    "review": "Đang Xem Xét",
+    "done": "Hoàn Thành",
+    "cancelled": "Đã Hủy"
+  },
+  "taskType": {
+    "content_creation": "Tạo Nội Dung",
+    "review": "Xem Xét",
+    "analysis": "Phân Tích",
+    "campaign_setup": "Thiết Lập Chiến Dịch",
+    "strategy": "Chiến Lược",
+    "other": "Khác"
+  },
+  "priority": {
+    "low": "Thấp",
+    "normal": "Bình Thường",
+    "high": "Cao",
+    "urgent": "Khẩn Cấp"
+  },
+  "dueDate": {
+    "overdue": "Quá hạn",
+    "today": "Hôm nay",
+    "tomorrow": "Ngày mai"
+  },
+  "assignee": {
+    "unassigned": "Chưa phân công"
+  },
+  "actions": {
+    "moveTo": "Chuyển sang {{status}}",
+    "cancel": "Hủy"
+  },
+  "createDialog": {
+    "title": "Tạo Công Việc",
+    "description": "Giao công việc mới cho thành viên nhóm.",
+    "titleLabel": "Tiêu đề",
+    "titlePlaceholder": "Cần làm gì?",
+    "descriptionLabel": "Mô tả (không bắt buộc)",
+    "descriptionPlaceholder": "Thêm chi tiết...",
+    "typeLabel": "Loại",
+    "priorityLabel": "Độ ưu tiên",
+    "assigneeLabel": "Giao cho",
+    "assigneePlaceholder": "Chọn thành viên nhóm",
+    "dueDateLabel": "Ngày hết hạn",
+    "cancelButton": "Hủy",
+    "createButton": "Tạo Công Việc",
+    "creatingButton": "Đang tạo..."
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "title": "Hồ Sơ",
+  "tabs": {
+    "profile": "Hồ Sơ",
+    "intelligence": "Thông Tin Doanh Nghiệp",
+    "intelligenceShort": "Thông Tin",
+    "permissions": "Quyền Hạn",
+    "settings": "Cài Đặt"
+  },
+  "orgType": {
+    "agency": "Agency",
+    "sme": "Doanh Nghiệp"
+  },
+  "roles": {
+    "sme_owner": "Chủ Doanh Nghiệp",
+    "agency_owner": "Chủ Agency",
+    "agency_admin": "Quản Trị Viên Agency",
+    "agency_account_manager": "Quản Lý Tài Khoản",
+    "agency_strategist": "Chuyên Gia Chiến Lược",
+    "agency_creative": "Nhóm Sáng Tạo",
+    "agency_analyst": "Chuyên Viên Phân Tích",
+    "agency_campaign_manager": "Quản Lý Chiến Dịch",
+    "agency_client_viewer": "Người Xem Khách Hàng",
+    "agency_freelancer": "Freelancer",
+    "agency_viewer": "Người Xem",
+    "account_manager": "Quản Lý Tài Khoản",
+    "client_stakeholder": "Đối Tác Khách Hàng",
+    "client_collaborator": "Cộng Tác Viên",
+    "default": "Người Dùng"
+  },
+  "deletion": {
+    "title": "Tài Khoản Sẽ Bị Xóa",
+    "deletionDate": "Tài khoản của bạn sẽ bị xóa vĩnh viễn vào ngày {{date}}",
+    "reason": "Lý do: {{reason}}",
+    "restoreTitle": "Để khôi phục tài khoản:",
+    "restoreDescription": "Liên hệ hỗ trợ tại {{email}} trước ngày xóa. Bao gồm địa chỉ email và ID tài khoản trong yêu cầu của bạn."
+  },
+  "profileInfo": {
+    "title": "Thông Tin Hồ Sơ",
+    "subtitle": "Quản lý thông tin cá nhân và tổ chức"
+  },
+  "personal": {
+    "title": "Thông Tin Cá Nhân",
+    "displayName": "Tên Hiển Thị",
+    "displayNamePlaceholder": "Nhập họ tên đầy đủ",
+    "email": "Địa Chỉ Email",
+    "phone": "Số Điện Thoại",
+    "phonePlaceholder": "+84 (0) 123 456 789",
+    "bio": "Giới Thiệu",
+    "bioPlaceholder": "Giới thiệu về bản thân..."
+  },
+  "organization": {
+    "title": "Thông Tin Tổ Chức",
+    "name": "Tên Tổ Chức",
+    "nameNote": "(Tên tài khoản)",
+    "type": "Loại Tổ Chức",
+    "typeAgency": "Agency Marketing",
+    "typeSME": "Doanh Nghiệp Nhỏ",
+    "memberSince": "Thành Viên Từ",
+    "activeCampaigns": "Chiến Dịch Đang Chạy",
+    "campaignCount_one": "{{count}} chiến dịch",
+    "campaignCount_other": "{{count}} chiến dịch",
+    "website": "Website Công Ty"
+  },
+  "permissions": {
+    "title": "Quyền Truy Cập",
+    "subtitle": "Quyền hạn dựa trên vai trò của bạn",
+    "fullAdmin": {
+      "title": "Quyền Quản Trị Đầy Đủ",
+      "enabled": "Đã Bật",
+      "permissions": [
+        "Quản lý tất cả tài khoản khách hàng",
+        "Tạo và xóa chiến dịch",
+        "Truy cập tất cả tính năng AI",
+        "Cấu hình cài đặt white-label",
+        "Xem tất cả phân tích và báo cáo",
+        "Quản lý thành viên nhóm",
+        "Xuất và nhập dữ liệu"
+      ]
+    },
+    "businessOwner": {
+      "title": "Quyền Chủ Doanh Nghiệp",
+      "enabled": "Đã Bật",
+      "permissions": [
+        "Toàn quyền truy cập trợ lý AI",
+        "Tạo và quản lý chiến dịch",
+        "Xem phân tích và gợi ý",
+        "Xuất báo cáo và dữ liệu",
+        "Quản lý cộng tác nhóm",
+        "Cấu hình cài đặt doanh nghiệp"
+      ]
+    },
+    "accountManager": {
+      "title": "Quyền Quản Lý Tài Khoản",
+      "enabled": "Đã Bật",
+      "permissions": [
+        "Quản lý tài khoản khách hàng được phân",
+        "Tạo chiến dịch cho khách hàng",
+        "Truy cập phân tích riêng khách hàng",
+        "Sử dụng tất cả trợ lý AI",
+        "Xuất báo cáo khách hàng",
+        "Cộng tác với thành viên nhóm"
+      ]
+    },
+    "guest": {
+      "title": "Quyền Khách",
+      "limited": "Giới Hạn",
+      "permissions": [
+        "Xem kết quả chiến dịch",
+        "Truy cập báo cáo được duyệt",
+        "Xem dashboard phân tích",
+        "Tải xuống dữ liệu đã xuất"
+      ]
+    },
+    "security": {
+      "title": "Biện Pháp Bảo Mật",
+      "description": "Chúng tôi áp dụng các phương pháp bảo mật tốt nhất, nhưng là dịch vụ alpha, chúng tôi không thể đảm bảo bảo vệ hoàn toàn. Xem Chính sách Bảo mật để biết chi tiết.",
+      "measures": [
+        "Bảo mật Cấp Hàng Database (RLS)",
+        "Cô lập Dữ liệu Multi-Tenant",
+        "Xác thực An toàn (Supabase Auth)"
+      ]
+    }
+  },
+  "settings": {
+    "title": "Cài Đặt Tài Khoản",
+    "subtitle": "Quản lý tùy chọn và bảo mật tài khoản",
+    "security": {
+      "title": "Bảo Mật",
+      "changePassword": "Đổi Mật Khẩu",
+      "manageMFA": "Quản Lý Xác Thực Hai Yếu Tố",
+      "viewLoginActivity": "Xem Lịch Sử Đăng Nhập",
+      "comingSoon": "Sắp Ra Mắt"
+    },
+    "dataPrivacy": {
+      "title": "Dữ Liệu & Quyền Riêng Tư",
+      "downloadData": "Tải Xuống Dữ Liệu",
+      "downloading": "Đang tải...",
+      "deleteAccount": "Xóa Tài Khoản"
+    }
+  },
+  "validation": {
+    "fieldEmpty": "Trường không được để trống"
+  },
+  "toast": {
+    "notAuthenticated": "Chưa xác thực",
+    "notAuthenticatedDesc": "Vui lòng đăng nhập để tải xuống dữ liệu.",
+    "exportSuccess": "Xuất dữ liệu thành công",
+    "exportSuccessDesc": "Dữ liệu đã được tải xuống dạng file JSON.",
+    "exportError": "Xuất dữ liệu thất bại",
+    "exportErrorDesc": "Vui lòng thử lại sau."
+  },
+  "insights": {
+    "status": {
+      "approved": "Đã Duyệt",
+      "rejected": "Đã Từ Chối",
+      "pendingReview": "Chờ Xem Xét"
+    },
+    "time": {
+      "justNow": "vừa xong",
+      "minutesAgo": "{{count}} phút trước",
+      "hoursAgo": "{{count}} giờ trước",
+      "daysAgo": "{{count}} ngày trước"
+    }
+  }
+}

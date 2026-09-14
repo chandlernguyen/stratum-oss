@@ -1,0 +1,17 @@
+version: 2
+
+updates:
+  # CI actions go stale silently: a deprecated runtime shows up as a warning
+  # that everyone learns to ignore until the action stops working.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "ci"
+
+  # npm and Poetry are deliberately left out for now. This is a v1 repository
+  # with a known-failing test inventory (see TESTING.md); automated dependency
+  # PRs would mostly add noise on top of that. Add them once the suites are
+  # green and a failing dependabot PR means something.

@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "badge": "Portail de revision de contenu",
+    "defaultClientName": "Votre contenu",
+    "subtitle": "Relisez et validez le contenu prepare par votre equipe d'agence"
+  },
+  "loading": {
+    "message": "Chargement du contenu a relire..."
+  },
+  "error": {
+    "title": "Erreur lors du chargement du contenu",
+    "defaultMessage": "Impossible de charger le contenu. Veuillez reessayer."
+  },
+  "tabs": {
+    "pending": "En attente",
+    "approved": "Approuve",
+    "changes": "Modifications"
+  },
+  "stats": {
+    "pending": "En attente",
+    "approved": "Approuve",
+    "changes": "Modifications"
+  },
+  "status": {
+    "draft": "Brouillon",
+    "awaitingReview": "En attente de validation",
+    "approved": "Approuve",
+    "changesRequested": "Modifications demandees",
+    "rejected": "Refuse"
+  },
+  "outputCard": {
+    "untitledOutput": "Sortie sans titre",
+    "defaultAgentType": "Contenu",
+    "viewDetails": "Voir les details",
+    "approve": "Approuver",
+    "requestChanges": "Demander des modifications",
+    "approvedByClient": "Approuve par le client",
+    "changesRequestedByClient": "Modifications demandees par le client"
+  },
+  "emptyState": {
+    "pending": {
+      "title": "Tout est a jour",
+      "description": "Aucun contenu n'attend actuellement votre validation. Votre agence vous previendra des qu'un nouveau contenu sera pret.",
+      "hint": "Les nouvelles soumissions apparaitront ici"
+    },
+    "approved": {
+      "title": "Aucun contenu approuve pour le moment",
+      "description": "Le contenu que vous approuvez sera rassemble ici pour consultation et reutilisation futures.",
+      "hint": "Votre bibliotheque de contenus approuves"
+    },
+    "changes": {
+      "title": "Aucune demande de modification",
+      "description": "Lorsque vous demandez des modifications sur un contenu, les elements concernes apparaissent ici pour suivi.",
+      "hint": "Feedback en cours"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "masthead": {
+    "eyebrow": "Kiến Thức & Hướng Dẫn",
+    "title": "Blog STRATUM",
+    "description": "Marketing thông minh, phân tích khung chiến lược chuyên sâu, và bài học từ việc xây dựng nền tảng AI."
+  },
+  "hubs": {
+    "all": "Tất Cả",
+    "marketingIntelligence": "Marketing Thông Minh",
+    "marketingFrameworks": "Khung Chiến Lược",
+    "aiAgents": "Trợ Lý AI",
+    "agencyOperations": "Vận Hành Agency"
+  },
+  "post": {
+    "notFoundTitle": "Không tìm thấy bài viết",
+    "backToBlog": "Quay lại blog",
+    "allPosts": "Tất cả bài viết",
+    "completeGuide": "Hướng Dẫn Toàn Diện",
+    "minRead": "phút đọc",
+    "min": "phút",
+    "moreFrom": "Thêm từ {{hub}}",
+    "read": "Đọc tiếp",
+    "readArticle": "Đọc bài viết",
+    "emptyHub": "Chưa có bài viết nào trong mục này. Hãy quay lại sau."
+  },
+  "languages": {
+    "english": "English",
+    "vietnamese": "Tiếng Việt"
+  }
+}

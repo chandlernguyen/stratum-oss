@@ -1,0 +1,334 @@
+# ==============================================================================
+# PYTHON-SPECIFIC IGNORES
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Python Distribution / packaging (SPECIFIC PATHS ONLY)
+.Python
+apps/api/build/
+apps/api/dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+apps/api/lib/
+apps/api/lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+apps/api/target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+# ...except the pinned project runtime, which ships deliberately (see .nvmrc)
+!.python-version
+
+# pipenv
+Pipfile.lock
+
+# UV
+uv.lock
+
+# poetry
+#poetry.lock  # Uncomment if you want to ignore poetry.lock
+
+# pdm
+.pdm-python
+.pdm-build/
+
+# pixi
+.pixi
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+.env.*.local
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Abstra
+.abstra/
+
+# Ruff stuff
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+
+# Cursor
+.cursorignore
+.cursorindexingignore
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# ==============================================================================
+# NODE.JS / FRONTEND IGNORES
+# ==============================================================================
+
+# Dependencies
+node_modules/
+
+# Build outputs (frontend-specific)
+/apps/web/dist/
+/apps/web/dist-ssr/
+/apps/web/.npm/
+
+# Coverage
+/apps/web/coverage/
+
+# Local env files (specific to frontend)
+*.local
+
+# Logs
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==============================================================================
+# EDITOR / OS SPECIFIC
+# ==============================================================================
+
+.vscode/
+.idea/
+.DS_Store
+.mcp.json
+*.xcuserstate
+xcuserdata/
+ios/StratumApp/Config/Secrets.xcconfig
+*.swp
+*.swo
+*~
+
+# ==============================================================================
+# TESTING
+# ==============================================================================
+
+# Test artifacts
+testing_notes.md
+test-results/
+playwright-report/
+tests/screenshots/
+.playwright-cli/
+
+# Runtime state written by scripts/bootstrap.sh (pids and logs)
+.run/
+
+# Loose screenshots/design artifacts at repo root
+/*.png
+/*.yaml
+/*.yml
+# ...except the pnpm workspace manifest, which is required config
+!/pnpm-workspace.yaml
+
+# Marketing video outputs
+marketing/video_generation/short_form/generated/
+
+# ==============================================================================
+# SUPABASE
+# ==============================================================================
+
+supabase/signing_keys.json
+
+# ==============================================================================
+# VERCEL
+# ==============================================================================
+
+.vercel/
+.vercel
+apps/web/.vercel/
+apps/web/.env.vercel.*
+
+# ==============================================================================
+# CLOUDFLARE
+# ==============================================================================
+
+.wrangler/
+wrangler.toml.local
+
+# ==============================================================================
+# PRODUCTION CREDENTIALS
+# ==============================================================================
+
+apps/api/.env.production
+apps/web/.env.production
+jwt_secret
+**/jwt_secret
+
+# ==============================================================================
+# DEPLOYMENT ARTIFACTS
+# ==============================================================================
+
+.dockerignore
+Dockerfile.backup
+
+# ==============================================================================
+# GENERAL TEMPORARY FILES
+# ==============================================================================
+
+tmp/
+temp/
+*.tmp
+*.cache
+.cache/
+
+# ==============================================================================
+# MEDIA FILES (Demo Videos)
+# ==============================================================================
+
+# Video files - can be regenerated or stored elsewhere
+*.mp4
+*.mov
+*.avi
+
+# Audio files - can be regenerated from transcripts
+*.mp3
+*.wav
+*.aac
+.env.vercel.*
+.playwright-mcp/
+apps/mobile/artifacts/
+.env*.local
+
+# ==============================================================================
+# BACKUP / ONE-OFF FILES
+# ==============================================================================
+
+# Apple private keys (NEVER commit these)
+AuthKey_*.p8
+
+# Apple secret generation script (contains credentials)
+scripts/generate-apple-secret.py
+
+# OpenCode agent config (local only)
+.opencode/
+
+# Xcode Build MCP artifacts (local only)
+.xcodebuildmcp/
+
+# Backup files
+*.backup
+
+# One-off scripts at root (tests belong in tests/)
+/debug_*.py
+/test_*.py
+/test_*.mjs
+
+# Generated cover images (regenerate with scripts/generate-covers.py)
+generated-covers/
+
+# Sitemap is generated at build time by scripts/generate-sitemap.js (prebuild).
+# It is deploy-specific — set SITE_URL before generating — so it is not committed.
+apps/web/public/sitemap.xml

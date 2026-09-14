@@ -1,0 +1,33 @@
+{
+  "required": "{{field}} es obligatorio",
+  "minLength": "{{field}} debe tener al menos {{min}} caracteres",
+  "maxLength": "{{field}} debe tener como máximo {{max}} caracteres",
+  "email": "Introduce un correo electrónico válido",
+  "password": {
+    "minLength": "La contraseña debe tener al menos 8 caracteres",
+    "uppercase": "La contraseña debe incluir al menos una letra mayúscula",
+    "lowercase": "La contraseña debe incluir al menos una letra minúscula",
+    "number": "La contraseña debe incluir al menos un número",
+    "special": "La contraseña debe incluir al menos un carácter especial",
+    "match": "Las contraseñas deben coincidir"
+  },
+  "phone": "Introduce un numero de telefono valido",
+  "url": "Introduce una URL valida",
+  "date": "Introduce una fecha valida",
+  "number": {
+    "min": "{{field}} debe ser al menos {{min}}",
+    "max": "{{field}} debe ser como máximo {{max}}",
+    "integer": "{{field}} debe ser un numero entero",
+    "positive": "{{field}} debe ser un numero positivo"
+  },
+  "file": {
+    "required": "Selecciona un archivo",
+    "tooLarge": "El archivo debe pesar menos de {{max}}",
+    "invalidType": "Tipo de archivo no valido. Tipos permitidos: {{types}}"
+  },
+  "custom": {
+    "invitationCode": "El código de invitación no es válido",
+    "slugFormat": "El slug solo puede contener letras minusculas, numeros y guiones",
+    "uniqueEmail": "Este correo ya esta registrado"
+  }
+}

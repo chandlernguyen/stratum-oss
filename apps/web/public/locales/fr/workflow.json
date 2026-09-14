@@ -1,0 +1,10 @@
+{
+  "page": {
+    "title": "Workflow Builder IA",
+    "subtitle": "Connectez les agents pour creer des workflows marketing puissants"
+  },
+  "sections": {
+    "workflowBuilder": "Workflow Builder - Zone principale",
+    "aiRecommendations": "Recommandations IA - Barre laterale"
+  }
+}

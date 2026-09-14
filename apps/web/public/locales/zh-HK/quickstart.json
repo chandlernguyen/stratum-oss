@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "快速開始 - 5 分鐘智能成果",
+    "subtitle": "喺一次完整會話中生成你嘅策略、畫像同營銷計劃"
+  },
+  "featureCards": {
+    "strategyAnalysis": {
+      "title": "策略分析",
+      "description": "SWOT、商業模式畫布及策略框架"
+    },
+    "customerPersonas": {
+      "title": "客戶畫像",
+      "description": "詳細買家檔案同旅程映射"
+    },
+    "marketingStrategy": {
+      "title": "營銷策略",
+      "description": "渠道策略、訊息框架同 90 日路線圖"
+    }
+  },
+  "initialMessage": {
+    "intro": "我啱啱完成咗快速開始問卷。以下係我嘅業務背景：",
+    "company": "公司/業務：",
+    "goal": "主要營銷目標：",
+    "audience": "目標受眾：",
+    "budget": "每月營銷預算：",
+    "timeline": "見效時間：",
+    "request": "請基於呢啲資訊，為我生成完整嘅營銷智能基礎，包括：",
+    "item1": "1. 策略分析（SWOT、競爭定位）",
+    "item2": "2. 詳細客戶畫像",
+    "item3": "3. 完整營銷策略，包括渠道建議同訊息框架",
+    "closing": "等我哋開始打造我嘅營銷基礎！"
+  }
+}

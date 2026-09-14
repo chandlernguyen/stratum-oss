@@ -1,0 +1,183 @@
+{
+  "title": "팀",
+  "subtitle": "팀원과 권한을 관리하세요",
+  "management": {
+    "title": "팀 관리",
+    "subtitle": "팀원과 초대를 관리하세요",
+    "inviteButton": "팀원 초대"
+  },
+  "list": {
+    "title": "팀원",
+    "empty": "아직 팀원이 없습니다",
+    "emptyDescription": "마케팅 전략 협업을 위해 팀원을 초대하세요",
+    "inviteFirst": "첫 번째 팀원 초대하기"
+  },
+  "members": {
+    "title": "팀원",
+    "count": "팀원 ({{count}}명)",
+    "subtitle": "조직의 활성 구성원",
+    "empty": "팀원을 찾을 수 없습니다",
+    "joined": "{{date}}에 합류"
+  },
+  "invitations": {
+    "title": "대기 중인 초대",
+    "count": "대기 중인 초대 ({{count}}건)",
+    "subtitle": "아직 수락되지 않은 초대",
+    "empty": "대기 중인 초대가 없습니다",
+    "invitedBy": "{{name}}님이 초대함",
+    "expires": "{{date}} 만료",
+    "revoke": "초대 철회"
+  },
+  "table": {
+    "name": "이름",
+    "email": "이메일",
+    "role": "역할",
+    "clientAccess": "클라이언트 접근",
+    "joined": "합류일",
+    "expires": "만료일",
+    "invitedBy": "초대자",
+    "actions": "작업"
+  },
+  "clientAccess": {
+    "allClients": "모든 클라이언트",
+    "clientCount_one": "클라이언트 {{count}}개",
+    "clientCount_other": "클라이언트 {{count}}개",
+    "allClientsTooltip": "현재와 앞으로 생성될 모든 클라이언트에 접근할 수 있습니다",
+    "assignedClients": "할당된 클라이언트:",
+    "andMore": "...외 {{count}}개",
+    "noClientsAssigned": "할당된 클라이언트가 없습니다"
+  },
+  "dialogs": {
+    "changeRole": {
+      "title": "팀원 역할 변경",
+      "description": "{{name}} ({{email}})의 역할을 업데이트하세요",
+      "newRole": "새 역할",
+      "selectRole": "새 역할을 선택하세요",
+      "cancel": "취소",
+      "submit": "역할 업데이트",
+      "submitting": "업데이트 중..."
+    },
+    "clientAccess": {
+      "title": "클라이언트 접근 관리",
+      "description": "{{name}} ({{email}})의 클라이언트 접근 권한을 업데이트하세요",
+      "allClients": "모든 클라이언트",
+      "allClientsDescription": "사용자는 현재와 앞으로 생성될 모든 클라이언트에 접근할 수 있습니다",
+      "selectClients": "특정 클라이언트 선택:",
+      "loadingClients": "클라이언트를 불러오는 중...",
+      "noClients": "사용 가능한 클라이언트가 없습니다",
+      "selectAtLeastOne": "클라이언트를 하나 이상 선택하거나 \"모든 클라이언트\"를 선택하세요",
+      "cancel": "취소",
+      "submit": "접근 권한 업데이트",
+      "submitting": "업데이트 중..."
+    },
+    "revoke": {
+      "title": "초대 철회",
+      "description": "{{email}}에 대한 초대를 철회하시겠습니까?",
+      "confirm": "철회"
+    },
+    "remove": {
+      "title": "팀원 제거",
+      "description": "{{name}} ({{email}})을(를) 조직에서 제거하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+      "confirm": "팀원 제거"
+    }
+  },
+  "actions": {
+    "changeRole": "역할 변경",
+    "manageClientAccess": "클라이언트 접근 관리",
+    "removeMember": "팀원 제거",
+    "moreOptions": "추가 옵션"
+  },
+  "validation": {
+    "selectRole": "역할을 선택해 주세요",
+    "rolesNotLoaded": "역할이 아직 불러와지지 않았습니다",
+    "invalidRole": "선택한 역할이 올바르지 않습니다",
+    "noMemberSelected": "선택된 팀원이 없습니다",
+    "selectClientOrAll": "클라이언트를 하나 이상 선택하거나 \"모든 클라이언트\"를 선택해 주세요"
+  },
+  "roles": {
+    "owner": "소유자",
+    "admin": "관리자",
+    "editor": "편집자",
+    "viewer": "뷰어",
+    "descriptions": {
+      "owner": "결제와 팀 관리를 포함한 모든 기능에 전체 접근 가능",
+      "admin": "팀원을 관리하고 결제를 제외한 모든 기능에 접근 가능",
+      "editor": "콘텐츠, 캠페인, 페르소나를 생성하고 편집 가능",
+      "viewer": "대시보드와 보고서를 볼 수 있는 읽기 전용 접근"
+    }
+  },
+  "invite": {
+    "title": "팀원 초대",
+    "subtitle": "팀에 합류할 초대를 보내세요",
+    "fields": {
+      "email": "이메일 주소",
+      "emailPlaceholder": "colleague@company.com",
+      "role": "역할",
+      "message": "개인 메시지 (선택)",
+      "messagePlaceholder": "초대에 개인 메모를 추가하세요..."
+    },
+    "actions": {
+      "send": "초대 보내기",
+      "sending": "보내는 중...",
+      "cancel": "취소"
+    },
+    "success": "초대를 성공적으로 보냈습니다",
+    "error": "초대 전송에 실패했습니다"
+  },
+  "member": {
+    "joined": "합류",
+    "lastActive": "최근 활동",
+    "pendingInvite": "대기 중인 초대",
+    "inviteSent": "초대 전송됨",
+    "actions": {
+      "changeRole": "역할 변경",
+      "resendInvite": "초대 다시 보내기",
+      "cancelInvite": "초대 취소",
+      "remove": "팀에서 제거"
+    }
+  },
+  "permissions": {
+    "title": "권한",
+    "categories": {
+      "campaigns": "캠페인",
+      "personas": "페르소나",
+      "agents": "AI 에이전트",
+      "analytics": "분석",
+      "settings": "설정",
+      "team": "팀 관리"
+    },
+    "levels": {
+      "none": "접근 없음",
+      "view": "보기 전용",
+      "edit": "편집",
+      "full": "전체 접근"
+    }
+  },
+  "confirmRemove": {
+    "title": "팀원 제거",
+    "message": "{{name}}을(를) 팀에서 제거하시겠습니까? 이 사용자는 모든 팀 리소스에 대한 접근 권한을 잃게 됩니다.",
+    "confirm": "제거",
+    "cancel": "취소"
+  },
+  "confirmCancelInvite": {
+    "title": "초대 취소",
+    "message": "{{email}}로 보낸 초대를 취소하시겠습니까?",
+    "confirm": "초대 취소",
+    "cancel": "초대 유지"
+  },
+  "limits": {
+    "title": "팀 한도",
+    "membersUsed": "{{used}} / {{total}}명 사용 중",
+    "upgradePrompt": "더 많은 팀원을 추가하려면 업그레이드하세요"
+  },
+  "activity": {
+    "title": "최근 활동",
+    "empty": "최근 활동이 없습니다",
+    "actions": {
+      "invited": "초대함",
+      "joined": "팀에 합류함",
+      "removed": "팀에서 제거됨",
+      "roleChanged": "역할이 다음으로 변경됨"
+    }
+  }
+}

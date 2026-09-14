@@ -1,0 +1,30 @@
+{
+  "masthead": {
+    "eyebrow": "Insights & Guides",
+    "title": "The STRATUM Blog",
+    "description": "Strategic marketing intelligence, framework deep-dives, and lessons from building an AI-powered platform."
+  },
+  "hubs": {
+    "all": "All Posts",
+    "marketingIntelligence": "Marketing Intelligence",
+    "marketingFrameworks": "Frameworks",
+    "aiAgents": "AI Agents",
+    "agencyOperations": "Agency Ops"
+  },
+  "post": {
+    "notFoundTitle": "Post not found",
+    "backToBlog": "Back to blog",
+    "allPosts": "All posts",
+    "completeGuide": "Complete Guide",
+    "minRead": "min read",
+    "min": "min",
+    "moreFrom": "More from {{hub}}",
+    "read": "Read",
+    "readArticle": "Read article",
+    "emptyHub": "No additional posts in this hub yet. Check back soon."
+  },
+  "languages": {
+    "english": "English",
+    "vietnamese": "Tiếng Việt"
+  }
+}

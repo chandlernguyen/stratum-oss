@@ -1,0 +1,490 @@
+{
+  "aria": {
+    "bottomNavigation": "하단 내비게이션",
+    "breadcrumb": "브레드크럼",
+    "openMenu": "메뉴 열기"
+  },
+  "buttons": {
+    "save": "저장",
+    "cancel": "취소",
+    "confirm": "확인",
+    "delete": "삭제",
+    "edit": "수정",
+    "create": "생성",
+    "add": "추가",
+    "remove": "제거",
+    "close": "닫기",
+    "back": "뒤로",
+    "next": "다음",
+    "previous": "이전",
+    "submit": "제출",
+    "loading": "불러오는 중...",
+    "retry": "다시 시도",
+    "continue": "계속",
+    "skip": "건너뛰기",
+    "done": "완료",
+    "view": "보기",
+    "viewAll": "전체 보기",
+    "learnMore": "자세히 보기",
+    "getStarted": "시작하기",
+    "signUp": "회원가입",
+    "signIn": "로그인",
+    "signOut": "로그아웃",
+    "upgrade": "업그레이드",
+    "download": "다운로드",
+    "export": "내보내기",
+    "import": "가져오기",
+    "refresh": "새로고침",
+    "search": "검색",
+    "filter": "필터",
+    "sort": "정렬",
+    "copy": "복사",
+    "copied": "복사됨!",
+    "share": "공유",
+    "archive": "보관",
+    "restore": "복원",
+    "newSession": "새 세션"
+  },
+  "labels": {
+    "name": "이름",
+    "email": "이메일",
+    "password": "비밀번호",
+    "phone": "전화번호",
+    "description": "설명",
+    "title": "제목",
+    "status": "상태",
+    "date": "날짜",
+    "time": "시간",
+    "type": "유형",
+    "category": "카테고리",
+    "tags": "태그",
+    "notes": "메모",
+    "actions": "작업",
+    "settings": "설정",
+    "profile": "프로필",
+    "account": "계정",
+    "preferences": "환경설정",
+    "language": "언어",
+    "notifications": "알림",
+    "privacy": "개인정보",
+    "security": "보안",
+    "help": "도움말",
+    "support": "지원",
+    "feedback": "피드백",
+    "optional": "선택",
+    "required": "필수"
+  },
+  "status": {
+    "active": "활성",
+    "inactive": "비활성",
+    "pending": "대기 중",
+    "completed": "완료",
+    "failed": "실패",
+    "processing": "처리 중",
+    "draft": "초안",
+    "published": "게시됨",
+    "archived": "보관됨",
+    "deleted": "삭제됨"
+  },
+  "errors": {
+    "generic": "문제가 발생했습니다. 다시 시도해 주세요.",
+    "networkError": "네트워크 오류입니다. 연결 상태를 확인해 주세요.",
+    "serverError": "서버 오류입니다. 잠시 후 다시 시도해 주세요.",
+    "notFound": "리소스를 찾을 수 없습니다.",
+    "unauthorized": "이 작업을 수행할 권한이 없습니다.",
+    "forbidden": "접근이 거부되었습니다.",
+    "validationError": "입력 내용을 확인한 후 다시 시도해 주세요.",
+    "timeout": "요청 시간이 초과되었습니다. 다시 시도해 주세요.",
+    "sessionExpired": "세션이 만료되었습니다. 다시 로그인해 주세요."
+  },
+  "success": {
+    "saved": "변경 사항이 저장되었습니다.",
+    "created": "정상적으로 생성되었습니다.",
+    "updated": "정상적으로 업데이트되었습니다.",
+    "deleted": "정상적으로 삭제되었습니다.",
+    "copied": "클립보드에 복사되었습니다.",
+    "exported": "정상적으로 내보냈습니다.",
+    "imported": "정상적으로 가져왔습니다."
+  },
+  "confirm": {
+    "delete": {
+      "title": "항목 삭제",
+      "description": "이 항목을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+      "confirmButton": "영구 삭제",
+      "cancelButton": "취소"
+    },
+    "unsavedChanges": {
+      "title": "저장되지 않은 변경 사항",
+      "description": "저장되지 않은 변경 사항이 있습니다. 정말 나가시겠습니까?",
+      "confirmButton": "나가기",
+      "cancelButton": "머무르기"
+    },
+    "archive": {
+      "title": "항목 보관",
+      "description": "이 항목을 보관하시겠습니까?",
+      "confirmButton": "보관",
+      "cancelButton": "취소",
+      "reasonLabel": "보관 사유 (선택)",
+      "reasonPlaceholder": "예: 오래된 전략, 완료된 프로젝트, 더 이상 필요 없음...",
+      "reasonHelp": "이 내용은 감사 목적을 위해 저장되며, 나중에 보관 항목을 검토할 때 도움이 됩니다.",
+      "reversibleTitle": "보관은 되돌릴 수 있습니다",
+      "reversibleMessage": "보관된 항목 섹션에서 언제든지 이 {{itemName}}을(를) 복원할 수 있습니다."
+    },
+    "warning": {
+      "confirmButton": "계속"
+    },
+    "info": {
+      "confirmButton": "확인"
+    },
+    "deleteTip": "팁: 나중에 필요할 수도 있다면 삭제 대신 보관을 고려하세요. 보관된 항목은 언제든지 복원할 수 있습니다.",
+    "processing": "처리 중..."
+  },
+  "empty": {
+    "noResults": "결과가 없습니다.",
+    "noData": "사용 가능한 데이터가 없습니다.",
+    "noItems": "아직 항목이 없습니다.",
+    "noMatches": "검색 결과가 없습니다."
+  },
+  "loading": {
+    "default": "불러오는 중...",
+    "pleaseWait": "잠시만 기다려 주세요...",
+    "processing": "처리 중...",
+    "saving": "저장 중...",
+    "fetching": "데이터를 가져오는 중..."
+  },
+  "time": {
+    "justNow": "방금 전",
+    "minutesAgo": "{{count}}분 전",
+    "minutesAgo_other": "{{count}}분 전",
+    "hoursAgo": "{{count}}시간 전",
+    "hoursAgo_other": "{{count}}시간 전",
+    "daysAgo": "{{count}}일 전",
+    "daysAgo_other": "{{count}}일 전",
+    "today": "오늘",
+    "yesterday": "어제",
+    "tomorrow": "내일"
+  },
+  "navigation": {
+    "home": "홈",
+    "dashboard": "대시보드",
+    "overview": "개요",
+    "campaigns": "캠페인",
+    "agents": "에이전트",
+    "library": "라이브러리",
+    "approved": "승인됨",
+    "team": "팀",
+    "tasks": "작업",
+    "search": "검색",
+    "more": "더보기",
+    "settings": "설정",
+    "profile": "프로필",
+    "myProfile": "내 프로필",
+    "billing": "결제 및 구독",
+    "feedback": "피드백",
+    "contactUs": "문의하기",
+    "privacyPolicy": "개인정보처리방침",
+    "termsConditions": "이용약관",
+    "signOut": "로그아웃",
+    "help": "도움말",
+    "lightMode": "라이트 모드",
+    "darkMode": "다크 모드",
+    "intelligence": "인텔리전스",
+    "clients": "클라이언트",
+    "agencyOverview": "에이전시 개요",
+    "requestAccess": "가입하기",
+    "account": "계정",
+    "accountOptions": "계정 옵션",
+    "request": "요청",
+    "pricing": "요금제",
+    "blog": "블로그",
+    "whiteLabel": "화이트라벨",
+    "accountTypes": {
+      "agency": "에이전시 계정",
+      "sme": "중소기업 계정"
+    }
+  },
+  "auth": {
+    "signIn": "로그인",
+    "signUp": "회원가입",
+    "alreadyHaveAccount": "이미 계정이 있습니다",
+    "haveInvitation": "초대장이 있으신가요? 지금 참여하세요"
+  },
+  "breadcrumbs": {
+    "campaign": "캠페인",
+    "businessStrategy": "비즈니스 전략",
+    "personas": "페르소나",
+    "marketingStrategy": "마케팅 전략",
+    "content": "콘텐츠",
+    "analytics": "분석",
+    "roiBudget": "ROI 및 예산",
+    "campaignExecution": "캠페인 실행",
+    "competitiveIntelligence": "경쟁 인텔리전스",
+    "clientSuccess": "클라이언트 성공",
+    "quickWins": "퀵 윈",
+    "switchClient": "클라이언트 전환",
+    "contentCreation": "콘텐츠 제작",
+    "strategy": "전략",
+    "strategyAgent": "전략 에이전트",
+    "personaAgent": "페르소나 에이전트",
+    "contentAgent": "콘텐츠 에이전트",
+    "analyticsAgent": "분석 에이전트",
+    "campaignPlanning": "캠페인 계획",
+    "performanceIntelligence": "성과 인텔리전스",
+    "client": "클라이언트"
+  },
+  "clientLayout": {
+    "clientNotFound": "클라이언트를 찾을 수 없거나 접근이 거부되었습니다",
+    "loadingClientData": "클라이언트 데이터를 불러오는 중...",
+    "clientFeatureName": "클라이언트 워크스페이스",
+    "noAccessMessage": "이 클라이언트 워크스페이스에 접근할 수 없습니다. 에이전시 관리자에게 문의해 주세요."
+  },
+  "clientPortal": {
+    "title": "클라이언트 포털",
+    "review": "검토",
+    "loading": "워크스페이스를 불러오는 중...",
+    "noAccess": "클라이언트 접근 권한 없음",
+    "noAccessDescription": "접근 가능한 클라이언트 워크스페이스가 없습니다. 도움이 필요하면 에이전시에 문의해 주세요."
+  },
+  "footer": {
+    "copyright": "© 2026 STRAŦUM. All rights reserved.",
+    "privacy": "개인정보",
+    "terms": "약관",
+    "contact": "문의",
+    "pricing": "요금제",
+    "blog": "블로그",
+    "tagline": "실행보다 인텔리전스"
+  },
+  "theme": {
+    "light": "라이트",
+    "dark": "다크",
+    "switchToLight": "라이트 모드로 전환",
+    "switchToDark": "다크 모드로 전환"
+  },
+  "language": {
+    "switchToVietnamese": "베트남어로 전환",
+    "switchToEnglish": "영어로 전환"
+  },
+  "session": {
+    "untitled": "제목 없는 세션",
+    "archived": "보관됨",
+    "message": "메시지 {{count}}개",
+    "message_other": "메시지 {{count}}개",
+    "actions": {
+      "rename": "세션 이름 변경",
+      "export": "세션 내보내기",
+      "duplicate": "세션 복제",
+      "restore": "복원",
+      "archive": "보관",
+      "delete": "삭제"
+    }
+  },
+  "approvals": {
+    "title": "승인 대기",
+    "from": "{{name}}로부터",
+    "reviewContent": "콘텐츠 검토",
+    "contentNotAvailable": "검토할 수 있는 콘텐츠가 없습니다",
+    "viewToApprove": "콘텐츠를 확인하고 승인하거나 변경을 요청하세요",
+    "noPending": "대기 중인 승인 항목이 없습니다",
+    "allCaughtUp": "모두 확인했습니다!",
+    "viewAll": "전체 보기",
+    "priority": {
+      "low": "낮음",
+      "normal": "보통",
+      "high": "높음",
+      "urgent": "긴급"
+    }
+  },
+  "feedback": {
+    "pageTitle": "피드백",
+    "title": "피드백 공유",
+    "subtitle": "의견, 제안, 문제 제보를 통해 STRAŦUM 개선에 도움을 주세요.",
+    "categoryLabel": "카테고리",
+    "categoryPlaceholder": "카테고리를 선택하세요",
+    "feedbackLabel": "피드백 내용",
+    "feedbackPlaceholder": "생각하시는 내용을 들려주세요...",
+    "submitButton": "피드백 제출",
+    "submitting": "제출 중...",
+    "privacyNote": "피드백은 비공개이며 STRAŦUM 팀만 볼 수 있습니다.",
+    "successTitle": "피드백이 제출되었습니다!",
+    "successMessage": "STRAŦUM을 개선하는 데 도움을 주셔서 감사합니다. 여러분의 피드백은 매우 소중합니다.",
+    "submitAnother": "추가 피드백 제출",
+    "categories": {
+      "generalFeedback": {
+        "label": "일반 피드백",
+        "description": "STRAŦUM 전반에 대한 의견"
+      },
+      "agentPerformance": {
+        "label": "에이전트 성능",
+        "description": "Strategy, Persona, Content 등에 대한 피드백"
+      },
+      "featureRequest": {
+        "label": "기능 요청",
+        "description": "새 기능이나 개선 아이디어 제안"
+      },
+      "bugReport": {
+        "label": "버그 제보",
+        "description": "기술 문제나 오류 신고"
+      },
+      "userExperience": {
+        "label": "사용자 경험",
+        "description": "UI/UX 디자인에 대한 피드백"
+      },
+      "dataAccuracy": {
+        "label": "데이터 정확성",
+        "description": "잘못되었거나 오해를 부르는 AI 출력 신고"
+      }
+    },
+    "validation": {
+      "feedbackRequired": "피드백은 필수입니다",
+      "feedbackMinLength": "피드백은 최소 {{min}}자 이상이어야 합니다",
+      "feedbackMaxLength": "피드백은 {{max}}자를 초과할 수 없습니다",
+      "categoryRequired": "카테고리를 선택해 주세요"
+    },
+    "messages": {
+      "authError": "인증 오류입니다. 페이지를 새로고침해 주세요.",
+      "submitError": "피드백 제출에 실패했습니다. 다시 시도해 주세요.",
+      "unexpectedError": "예상치 못한 오류가 발생했습니다. 다시 시도해 주세요.",
+      "thankYou": "피드백 감사합니다!"
+    }
+  },
+  "chat": {
+    "showSuggestions": "추천 표시",
+    "hideSuggestions": "추천 숨기기",
+    "sendMessage": "메시지 보내기",
+    "analyzing": "실행 가능한 다음 단계를 분석 중...",
+    "analyzingStrategy": "마케팅 전략 요소를 분석 중..."
+  },
+  "search": {
+    "placeholder": "검색..."
+  },
+  "notifications": {
+    "count": "알림 {{count}}개",
+    "count_one": "알림 {{count}}개",
+    "noNotifications": "아직 알림이 없습니다",
+    "viewAll": "알림 {{count}}개 모두 보기"
+  },
+  "protectedRoute": {
+    "initializingAuth": "인증을 초기화하는 중...",
+    "loadingWorkspace": "워크스페이스를 불러오는 중..."
+  },
+  "security": {
+    "secureWorkspace": "보안 워크스페이스",
+    "workingInWorkspace": "{{clientName}}의 워크스페이스에서 작업 중",
+    "dataProtected": "데이터 보호",
+    "enterpriseGradeSecurity": "엔터프라이즈급 보안",
+    "dataIsolation": "완전한 데이터 분리",
+    "endToEndEncryption": "종단 간 암호화",
+    "soc2Compliant": "SOC 2 준수",
+    "aiPrivate": "AI 데이터는 비공개로 유지",
+    "currentlyWorkingIn": "현재 작업 중"
+  },
+  "archiveReasonDialog": {
+    "description": "\"{{resourceName}}\"을(를) 활성 화면에서는 제거하지만 모든 데이터는 유지합니다. 보관된 항목 보기에서 언제든 복원할 수 있습니다.",
+    "archiving": "보관 중...",
+    "archiveButton": "{{resourceDisplayName}} 보관"
+  },
+  "deleteConfirmDialog": {
+    "title": "정말로 삭제하시겠습니까?",
+    "archivedDescription": "이 {{itemName}}은(는) 이미 보관된 상태입니다. 삭제하면 시스템에서 영구적으로 제거되며 되돌릴 수 없습니다.",
+    "activeDescription": "{{itemName}}과(와) 관련된 모든 데이터를 영구 삭제합니다. 이 작업은 되돌릴 수 없습니다.",
+    "item": "항목",
+    "thisItem": "이 항목"
+  },
+  "languageSwitcher": {
+    "ariaLabel": "현재 언어: {{language}}. 언어를 변경하려면 클릭하세요."
+  },
+  "outputBrowser": {
+    "loading": "저장된 아웃풋을 불러오는 중...",
+    "savedOutputs": "저장된 아웃풋",
+    "searchPlaceholder": "아웃풋 검색...",
+    "allAgents": "모든 에이전트",
+    "agents": {
+      "strategy": "전략",
+      "persona": "페르소나",
+      "content": "콘텐츠",
+      "analytics": "분석"
+    },
+    "sortBy": {
+      "recent": "최신순",
+      "popular": "인기순",
+      "topRated": "높은 평가순"
+    },
+    "suggestedFor": "{{agent}}용 추천",
+    "noSavedOutputs": "아직 저장된 아웃풋이 없습니다.",
+    "saveHint": "에이전트 응답을 저장해 나중에 다시 활용하세요!",
+    "noMatchingOutputs": "검색 조건에 맞는 아웃풋이 없습니다.",
+    "views": "조회 {{count}}회",
+    "views_one": "조회 {{count}}회",
+    "reuses": "재사용 {{count}}회",
+    "reuses_one": "재사용 {{count}}회",
+    "selected": "{{count}}개 선택됨",
+    "useSelected": "선택 항목 사용 ({{count}})",
+    "weeksAgo": "{{count}}주 전",
+    "weeksAgo_one": "{{count}}주 전"
+  },
+  "quickSave": {
+    "quickSave": "빠른 저장",
+    "saved": "저장됨",
+    "saving": "저장 중...",
+    "saveWithDetails": "세부 정보와 함께 저장",
+    "copyToClipboard": "클립보드에 복사"
+  },
+  "relatedOutputs": {
+    "title": "관련 작업",
+    "description": "{{agent}} 작업에 도움이 될 수 있는 이전 아웃풋",
+    "hide": "관련 아웃풋 숨기기",
+    "show": "관련 아웃풋 보기",
+    "smartSuggestions": "스마트 추천",
+    "fromRelatedAgents": "관련 에이전트에서",
+    "useAsContext": "컨텍스트로 사용",
+    "usedTimes": "{{count}}회 사용됨",
+    "usedTimes_one": "{{count}}회 사용됨",
+    "emptyState": "아직 관련 아웃풋이 없습니다. 다른 에이전트를 사용해 {{agent}} 작업의 컨텍스트를 먼저 쌓아보세요.",
+    "loading": "관련 아웃풋을 불러오는 중...",
+    "copyError": "클립보드 복사에 실패했습니다"
+  },
+  "resourceActions": {
+    "actionsFor": "{{name}}에 대한 작업",
+    "view": "{{name}} 보기",
+    "edit": "{{name}} 수정",
+    "copyContent": "콘텐츠 복사",
+    "restore": "{{name}} 복원",
+    "restoring": "복원 중...",
+    "archive": "{{name}} 보관",
+    "archiving": "보관 중...",
+    "deleting": "삭제 중..."
+  },
+  "saveOutputDialog": {
+    "title": "{{agentType}} 아웃풋 저장",
+    "description": "이 아웃풋을 나중에 다시 활용할 수 있도록 제목과 태그를 추가하세요",
+    "saveWithDetails": "세부 정보와 함께 저장 (Cmd+S)",
+    "titleLabel": "제목",
+    "titlePlaceholder": "{{date}}의 {{agentType}} 분석",
+    "tagsPlaceholder": "사용자 지정 태그 추가...",
+    "suggestedTags": "추천 태그:",
+    "contentPreview": "콘텐츠 미리보기",
+    "words": "{{count}}단어",
+    "words_one": "{{count}}단어",
+    "minRead": "{{count}}분 읽기",
+    "outputType": "{{agentType}} 아웃풋",
+    "structuredData": "구조화 데이터",
+    "structuredDataHint": "에이전트 간 재사용 가능한 구조화된 분석 데이터가 포함되어 있습니다",
+    "keyboardHint": "빠르게 저장하려면 Cmd+Enter를 누르세요",
+    "saveOutput": "아웃풋 저장"
+  },
+  "smartStart": {
+    "preparingSuggestions": "스마트 추천을 준비 중...",
+    "readyToWork": "{{agent}} 에이전트와 작업할 준비가 되었습니다",
+    "smartSuggestions": "스마트 추천",
+    "continuePreviousWork": "이전 작업 이어가기",
+    "fromAgent": "{{agent}}에서",
+    "uses": "{{count}}회 사용",
+    "uses_one": "{{count}}회 사용",
+    "workflowTip": "워크플로 팁",
+    "workflowTipSuffix": "위 추천 중 하나를 클릭해 해당 컨텍스트로 이어가거나, 아래에서 새로 시작할 수 있습니다.",
+    "startFresh": "새로 시작",
+    "useBestMatch": "가장 적합한 항목 사용",
+    "readyForFreshIdeas": "새 아이디어를 시작할 준비가 되었습니다",
+    "noPreviousWork": "이전 작업이 없습니다. 지금이 {{agent}} 기반을 쌓기 좋은 시작점입니다."
+  }
+}

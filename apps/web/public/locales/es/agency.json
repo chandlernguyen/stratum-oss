@@ -1,0 +1,221 @@
+{
+  "pageTitle": "Guia de buenas practicas para agencias",
+  "pageSubtitle": "Domina STRAŦUM para gestionar mas de 5 clientes con eficiencia",
+  "backButton": "Volver",
+  "privateAlpha": {
+    "title": "Bienvenido a STRAŦUM",
+    "description": "Estas usando el <strong>plan gratuito</strong> de STRAŦUM. Seguimos construyendo y mejorando la plataforma, y tus comentarios nos ayudan a definir lo que viene despues.",
+    "protectWork": "Buenas practicas",
+    "protectWorkItems": {
+      "databaseReset": "Exporta el trabajo importante con regularidad como habito de respaldo",
+      "downloadData": "<strong>Descarga los datos valiosos con frecuencia</strong> (estrategias, contenidos e insights)",
+      "useExport": "Usa los botones de exportacion del Agente de Contenido y del Centro de resultados",
+      "feedbackValue": "Tus comentarios dan forma al producto y son muy valiosos para nosotros"
+    },
+    "questionsTitle": "¿Tienes preguntas o comentarios?",
+    "questionsDescription": "Haz clic en tu foto de perfil arriba a la derecha y selecciona <strong>\"Enviar comentarios\"</strong>. Leemos cada mensaje y usamos tus ideas para mejorar STRAŦUM."
+  },
+  "introduction": {
+    "title": "Introduccion",
+    "description": "Bienvenido a STRAŦUM. Esta guia recoge buenas practicas para agencias de marketing que usan la plataforma para gestionar varios clientes con eficiencia y ofrecer resultados sobresalientes con inteligencia impulsada por IA."
+  },
+  "clientOnboarding": {
+    "title": "Estrategia de onboarding de clientes",
+    "firstClientSetup": "Configuracion del primer cliente (15-20 minutos)",
+    "steps": {
+      "addClient": "<strong>Anadir cliente:</strong> ve al boton \"Anadir tu primer cliente\" en el panel principal",
+      "strategicFoundation": "<strong>Base estrategica:</strong> ejecuta el Agente de Estrategia de Negocio para definir los marcos estrategicos",
+      "customerInsights": "<strong>Insights de cliente:</strong> genera entre 3 y 5 personas con el Agente de Personas",
+      "marketingDirection": "<strong>Direccion de marketing:</strong> crea una estrategia inicial con el Agente de Estrategia de Marketing"
+    },
+    "proTipLabel": "Consejo profesional:",
+    "proTipContent": "No intentes recopilarlo todo desde el principio. Deja que los agentes de IA aprendan de forma progresiva a traves de las conversaciones. Cada interaccion construye contexto automaticamente."
+  },
+  "dataProtection": {
+    "title": "Los datos de tus clientes estan protegidos",
+    "description": "STRAŦUM mantiene los datos de cada cliente <strong>completamente separados y seguros</strong>. El Cliente A nunca vera la informacion del Cliente B, y viceversa. Esta proteccion esta integrada en la plataforma a nivel de base de datos.",
+    "doTitle": "HAZ ESTO:",
+    "doItems": {
+      "useSelector": "Usa el selector de clientes para cambiar entre cuentas",
+      "doubleCheck": "Asegurate de estar en el espacio de trabajo del cliente correcto",
+      "downloadRegularly": "Descarga con frecuencia las estrategias y contenidos importantes",
+      "lookForBadge": "Busca la insignia \"Datos protegidos\" para trabajar con tranquilidad"
+    },
+    "dontTitle": "NO HAGAS ESTO:",
+    "dontItems": {
+      "copySensitive": "Copiar informacion sensible entre espacios de trabajo de clientes",
+      "shareLogin": "Compartir tu acceso con otros miembros del equipo (invitalos en su lugar)",
+      "exportWithoutPermission": "Exportar datos de clientes sin su permiso"
+    },
+    "alphaTipTitle": "Consejo: guarda tu trabajo",
+    "alphaTipContent": "Te recomendamos descargar las estrategias y contenidos valiosos a medida que los creas. Usa los botones de exportacion del Agente de Contenido (Word, PDF, Google Docs) y del Centro de resultados. Es como guardar tu trabajo en un documento: siempre es una buena costumbre."
+  },
+  "teamRoles": {
+    "title": "Colaboracion del equipo y roles",
+    "description": "STRAŦUM ofrece 10 roles distintos para agencias, para que cada persona solo vea lo que necesita para hacer su trabajo:",
+    "roles": {
+      "agencyOwner": {
+        "title": "Propietario de la agencia",
+        "description": "Acceso total, facturacion y gestion del equipo"
+      },
+      "agencyAdmin": {
+        "title": "Administrador de la agencia",
+        "description": "Gestion completa de clientes, sin acceso a facturacion"
+      },
+      "accountManager": {
+        "title": "Gerente de cuentas",
+        "description": "Relaciones con clientes y visibilidad total de los datos"
+      },
+      "strategist": {
+        "title": "Estratega",
+        "description": "Crea estrategias, personas e inteligencia del negocio"
+      },
+      "campaignManager": {
+        "title": "Gerente de campanas",
+        "description": "Ejecuta campanas y gestiona el calendario de contenido"
+      },
+      "analyst": {
+        "title": "Analista",
+        "description": "Seguimiento del rendimiento, analisis ROI e informes"
+      },
+      "creative": {
+        "title": "Creativo",
+        "description": "Creacion de contenido y activos de diseno"
+      },
+      "freelancer": {
+        "title": "Freelancer",
+        "description": "Acceso por proyecto a clientes concretos"
+      },
+      "clientViewer": {
+        "title": "Lector de clientes",
+        "description": "Acceso de solo lectura a los datos del cliente asignado"
+      },
+      "agencyViewer": {
+        "title": "Lector de la agencia",
+        "description": "Acceso de solo lectura a todos los clientes"
+      }
+    },
+    "inviteInstructions": "<strong>Como invitar a miembros del equipo:</strong> haz clic en tu foto de perfil → Configuracion → Gestion del equipo. Asigna roles segun lo que cada persona hace de verdad, no por su cargo ni por su antigüedad. Da acceso a lo necesario: ni mas ni menos."
+  },
+  "aiWorkflow": {
+    "title": "Flujo de trabajo con agentes de IA",
+    "description": "Para clientes nuevos, sigue esta secuencia estrategica:",
+    "phases": {
+      "foundation": {
+        "title": "Fase 1: Base (Semana 1)",
+        "steps": {
+          "step1": "Agente de Estrategia de Negocio: define marcos (SWOT, las Cinco Fuerzas de Porter)",
+          "step2": "Agente de Personas: crea entre 3 y 5 personas detalladas",
+          "step3": "Agente de Estrategia de Marketing: desarrolla la estrategia de salida al mercado"
+        }
+      },
+      "execution": {
+        "title": "Fase 2: Planificacion de ejecucion (Semana 2)",
+        "steps": {
+          "step1": "Agente de Contenido: genera el calendario de contenido y los primeros activos",
+          "step2": "Agente de Planificacion de Campanas: define campanas multicanal",
+          "step3": "Agente de Inteligencia Competitiva: analiza el posicionamiento en el mercado"
+        }
+      },
+      "optimization": {
+        "title": "Fase 3: Optimizacion (Continua)",
+        "steps": {
+          "step1": "Agente de Inteligencia de Rendimiento: sigue ROI, KPIs e identifica oportunidades rapidas",
+          "step2": "Agente de Exito del Cliente: monitoriza la salud y retencion de clientes"
+        }
+      }
+    },
+    "crossAgentTitle": "Inteligencia entre agentes:",
+    "crossAgentContent": "Los agentes de STRAŦUM comparten contexto automaticamente. Las personas alimentan la generacion de contenido, las estrategias orientan las campanas y los datos de rendimiento activan insights de optimizacion. Confia en el flujo de datos del sistema."
+  },
+  "campaignManagement": {
+    "title": "Gestion de campanas",
+    "lifecycleTitle": "Ciclo de vida de la campana",
+    "lifecycleSteps": {
+      "planning": "<strong>Planificacion:</strong> usa el Agente de Estrategia de Marketing para definir objetivos y presupuesto (regla 70-20-10)",
+      "content": "<strong>Creacion de contenido:</strong> el Agente de Contenido ofrece 9 herramientas (blog SEO, redes sociales, email marketing, etc.)",
+      "execution": "<strong>Seguimiento de la ejecucion:</strong> marca una estrategia como \"Activa\" por campana y sube los datos de rendimiento mediante CSV",
+      "optimization": "<strong>Optimizacion:</strong> usa el Agente de Inteligencia de Rendimiento para detectar quick wins y el Optimizador de Presupuesto para mejorar la asignacion"
+    },
+    "multiClientTitle": "Gestion de varios clientes:",
+    "multiClientItems": {
+      "selector": "Selector de clientes en la navegacion superior para cambiar rapido",
+      "outputsHub": "El Centro de resultados muestra todo el contenido generado por IA de todos los clientes",
+      "bulkOperations": "Operaciones masivas para archivar campanas antiguas",
+      "comparison": "Comparacion lado a lado para evaluar estrategias"
+    }
+  },
+  "performanceTracking": {
+    "title": "Seguimiento del rendimiento",
+    "metricsTitle": "Panel de metricas clave",
+    "clientHealth": {
+      "title": "Puntuacion de salud del cliente:",
+      "items": {
+        "roi": "Tendencias del ROI de campana",
+        "content": "Rendimiento del contenido",
+        "alignment": "Alineacion estrategica",
+        "budget": "Eficiencia del presupuesto"
+      }
+    },
+    "agencyEfficiency": {
+      "title": "Eficiencia de la agencia:",
+      "items": {
+        "timeSaved": "Tiempo ahorrado por cliente",
+        "campaigns": "Campanas gestionadas a la vez",
+        "retention": "Tasas de retencion de clientes",
+        "upsell": "Oportunidades de upsell detectadas por IA"
+      }
+    }
+  },
+  "quickReference": {
+    "title": "Referencia rapida: tareas habituales",
+    "tableHeaders": {
+      "task": "Tarea",
+      "navigation": "Ruta de navegacion"
+    },
+    "tasks": {
+      "addClient": {
+        "task": "Anadir un cliente nuevo",
+        "navigation": "Panel principal → boton \"Anadir cliente\""
+      },
+      "createPersona": {
+        "task": "Crear una persona de cliente",
+        "navigation": "Clientes → [Cliente] → Agentes → Agente de Personas"
+      },
+      "generateCalendar": {
+        "task": "Generar calendario de contenido",
+        "navigation": "Clientes → [Cliente] → Agentes → Agente de Contenido"
+      },
+      "uploadPerformance": {
+        "task": "Subir datos de rendimiento",
+        "navigation": "Clientes → [Cliente] → Agentes → Inteligencia de Rendimiento"
+      },
+      "inviteTeam": {
+        "task": "Invitar a un miembro del equipo",
+        "navigation": "Configuracion → Gestion del equipo"
+      },
+      "switchClients": {
+        "task": "Cambiar entre clientes",
+        "navigation": "Navegacion superior → selector de clientes"
+      }
+    }
+  },
+  "nextSteps": {
+    "title": "Siguientes pasos",
+    "steps": {
+      "step1": "Anade tu primer cliente desde el panel principal",
+      "step2": "Genera la base estrategica (Estrategia de Negocio + Personas + Estrategia de Marketing)",
+      "step3": "Crea los primeros activos de contenido (Agente de Contenido)",
+      "step4": "Configura el seguimiento del rendimiento (sube el primer archivo CSV con el Agente de Inteligencia de Rendimiento)",
+      "step5": "Invita a miembros del equipo (si aplica)"
+    },
+    "remember": "<strong>Recuerda:</strong> STRAŦUM ofrece \"Intelligence Over Execution\". Centrate en los insights estrategicos, no en la automatizacion tactica. Deja que los agentes de IA construyan contexto de forma progresiva a traves de conversaciones naturales."
+  },
+  "footer": {
+    "feedbackTitle": "Nos encantaria conocer tu opinion",
+    "feedbackDescription": "Tus ideas son muy valiosas. ¿Has encontrado algo confuso? ¿Tienes una idea para mejorarlo? ¿Te has topado con un problema?",
+    "feedbackCta": "Haz clic en tu foto de perfil (arriba a la derecha) → \"Enviar comentarios\"",
+    "feedbackNote": "Leemos cada mensaje y usamos tu opinion para dar forma al futuro de STRAŦUM",
+    "lastUpdated": "Ultima actualizacion: 20 de enero de 2026 | Version 1.2"
+  }
+}

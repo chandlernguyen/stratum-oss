@@ -1,0 +1,68 @@
+{
+  "title": "客户",
+  "subtitle": "管理你的代理机构客户组合",
+  "badge": "客户组合",
+  "addClient": "添加客户",
+  "addFirstClient": "添加你的第一个客户",
+  "search": {
+    "placeholder": "按名称或行业搜索客户..."
+  },
+  "filters": {
+    "label": "按状态筛选",
+    "active": "活跃",
+    "archived": "已归档",
+    "all": "所有客户"
+  },
+  "card": {
+    "noIndustry": "未指定行业",
+    "archivedBadge": "已归档",
+    "archivedOn": "归档于",
+    "reason": "原因：{{reason}}",
+    "campaigns": "营销活动",
+    "campaignsCount": "{{active}} / {{total}}",
+    "clientSince": "合作开始于",
+    "restoreClient": "恢复客户",
+    "dashboard": "仪表盘",
+    "viewCampaignsAriaLabel": "查看 {{clientName}} 的营销活动"
+  },
+  "status": {
+    "active": "活跃",
+    "paused": "暂停",
+    "churned": "流失"
+  },
+  "emptyState": {
+    "noArchived": {
+      "title": "没有已归档客户",
+      "description": "当你归档活跃客户后，已归档客户会显示在这里",
+      "viewActive": "查看活跃客户"
+    },
+    "noClients": {
+      "title": "还没有客户",
+      "description": "先添加你的第一个客户，开始使用 AI 驱动洞察"
+    },
+    "noResults": {
+      "title": "未找到客户",
+      "description": "请尝试调整搜索条件"
+    }
+  },
+  "actions": {
+    "edit": "编辑",
+    "archive": "归档",
+    "restore": "恢复",
+    "delete": "删除"
+  },
+  "toast": {
+    "archiveSuccess": "客户归档成功",
+    "archiveFailed": "客户归档失败",
+    "deleteSuccess": "客户删除成功",
+    "deleteFailed": "客户删除失败",
+    "restoreSuccess": "客户恢复成功",
+    "restoreFailed": "客户恢复失败"
+  },
+  "onboarding": {
+    "industry": "行业",
+    "industryPlaceholder": "选择客户所属行业",
+    "companySize": "公司规模",
+    "companySizePlaceholder": "选择公司规模"
+  }
+}

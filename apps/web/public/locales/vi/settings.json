@@ -1,0 +1,187 @@
+{
+  "title": "Cài Đặt",
+  "subtitle": "Quản lý tài khoản và tùy chọn của bạn",
+  "tabs": {
+    "profile": "Hồ Sơ",
+    "preferences": "Tùy Chọn",
+    "notifications": "Thông Báo",
+    "security": "Bảo Mật",
+    "billing": "Thanh Toán"
+  },
+  "profile": {
+    "title": "Thông Tin Hồ Sơ",
+    "subtitle": "Cập nhật thông tin cá nhân và ảnh đại diện",
+    "fields": {
+      "avatar": "Ảnh Đại Diện",
+      "fullName": "Họ Tên",
+      "email": "Địa Chỉ Email",
+      "phone": "Số Điện Thoại",
+      "timezone": "Múi Giờ",
+      "language": "Ngôn Ngữ"
+    },
+    "actions": {
+      "save": "Lưu Thay Đổi",
+      "cancel": "Hủy",
+      "uploadPhoto": "Tải Ảnh Lên",
+      "removePhoto": "Xóa Ảnh"
+    }
+  },
+  "preferences": {
+    "title": "Tùy Chọn",
+    "subtitle": "Tùy chỉnh trải nghiệm của bạn",
+    "language": {
+      "title": "Ngôn Ngữ",
+      "description": "Chọn ngôn ngữ ưu thích cho giao diện"
+    },
+    "theme": {
+      "title": "Giao Diện",
+      "description": "Chọn giao diện sáng, tối hoặc theo hệ thống",
+      "options": {
+        "light": "Sáng",
+        "dark": "Tối",
+        "system": "Hệ Thống"
+      }
+    },
+    "dateFormat": {
+      "title": "Định Dạng Ngày",
+      "description": "Chọn cách hiển thị ngày tháng"
+    },
+    "currency": {
+      "title": "Tiền Tệ Mặc Định",
+      "description": "Đặt tiền tệ mặc định cho ngân sách và báo cáo"
+    }
+  },
+  "notifications": {
+    "title": "Cài Đặt Thông Báo",
+    "subtitle": "Quản lý cách bạn nhận thông báo",
+    "email": {
+      "title": "Thông Báo Email",
+      "weeklyDigest": "Tóm Tắt Hàng Tuần",
+      "weeklyDigestDesc": "Nhận tóm tắt hiệu suất marketing hàng tuần",
+      "campaignAlerts": "Cảnh Báo Chiến Dịch",
+      "campaignAlertsDesc": "Được thông báo khi chiến dịch cần chú ý",
+      "teamUpdates": "Cập Nhật Nhóm",
+      "teamUpdatesDesc": "Thông báo về hoạt động của thành viên nhóm"
+    },
+    "push": {
+      "title": "Thông Báo Đẩy",
+      "browser": "Thông Báo Trình Duyệt",
+      "browserDesc": "Nhận thông báo trên trình duyệt"
+    }
+  },
+  "security": {
+    "title": "Bảo Mật",
+    "subtitle": "Quản lý cài đặt bảo mật tài khoản",
+    "password": {
+      "title": "Đổi Mật Khẩu",
+      "description": "Cập nhật mật khẩu thường xuyên để bảo vệ tài khoản",
+      "currentPassword": "Mật Khẩu Hiện Tại",
+      "newPassword": "Mật Khẩu Mới",
+      "confirmPassword": "Xác Nhận Mật Khẩu Mới",
+      "updateButton": "Cập Nhật Mật Khẩu"
+    },
+    "twoFactor": {
+      "title": "Xác Thực Hai Yếu Tố",
+      "description": "Thêm lớp bảo mật cho tài khoản",
+      "enable": "Bật 2FA",
+      "disable": "Tắt 2FA",
+      "enabled": "Đã Bật",
+      "disabled": "Đã Tắt"
+    },
+    "sessions": {
+      "title": "Phiên Hoạt Động",
+      "description": "Quản lý các phiên hoạt động trên các thiết bị",
+      "currentSession": "Phiên Hiện Tại",
+      "signOutAll": "Đăng Xuất Tất Cả Phiên Khác"
+    }
+  },
+  "billing": {
+    "title": "Thanh Toán & Gói Dịch Vụ",
+    "subtitle": "Quản lý gói đăng ký và phương thức thanh toán",
+    "currentPlan": {
+      "title": "Gói Hiện Tại",
+      "freeTier": "Miễn Phí",
+      "pro": "Pro",
+      "enterprise": "Doanh Nghiệp"
+    },
+    "usage": {
+      "title": "Sử Dụng Tháng Này",
+      "aiCredits": "Tín Dụng AI Đã Dùng",
+      "storage": "Dung Lượng Đã Dùng"
+    },
+    "paymentMethod": {
+      "title": "Phương Thức Thanh Toán",
+      "addNew": "Thêm Phương Thức Thanh Toán",
+      "noMethod": "Chưa có phương thức thanh toán"
+    }
+  },
+  "whiteLabel": {
+    "pageTitle": "Cài Đặt Nhãn Trắng",
+    "pageSubtitle": "Tùy chỉnh nền tảng với thương hiệu và tên miền Agency của bạn",
+    "agencyOnly": {
+      "title": "Tính Năng Dành Cho Agency",
+      "description": "Tùy chỉnh nhãn trắng chỉ khả dụng cho tài khoản Agency.",
+      "learnMore": "Tìm Hiểu Về Gói Agency"
+    },
+    "status": {
+      "title": "Trạng Thái Nhãn Trắng",
+      "brandKit": {
+        "label": "Bộ Thương Hiệu",
+        "active": "Đang hoạt động",
+        "notConfigured": "Chưa cấu hình"
+      },
+      "customDomain": {
+        "label": "Tên Miền Riêng",
+        "usingDefault": "Đang dùng mặc định"
+      },
+      "sslCertificate": {
+        "label": "Chứng Chỉ SSL",
+        "autoProvisioned": "Tự động cấp phát"
+      }
+    },
+    "domain": {
+      "title": "Thiết Lập Tên Miền Riêng",
+      "description": "Sử dụng tên miền riêng của bạn để truy cập nền tảng",
+      "inputLabel": "Tên Miền Riêng Của Bạn",
+      "inputPlaceholder": "marketing.dailycuaban.com",
+      "configureButton": "Cấu Hình",
+      "dnsRequired": "Yêu Cầu Cấu Hình DNS",
+      "copyButton": "Sao Chép",
+      "copiedButton": "Đã Sao Chép",
+      "domainActive": {
+        "title": "Tên Miền Riêng Đã Kích Hoạt",
+        "description": "Nền tảng của bạn có thể truy cập tại:",
+        "visitSite": "Truy Cập Trang",
+        "changeDomain": "Thay Đổi Tên Miền"
+      }
+    },
+    "benefits": {
+      "title": "Lợi Ích Của Tên Miền Riêng",
+      "professional": {
+        "title": "Hình Ảnh Chuyên Nghiệp",
+        "description": "Củng cố thương hiệu với tên miền riêng"
+      },
+      "clientTrust": {
+        "title": "Niềm Tin Khách Hàng",
+        "description": "Tạo sự tin tưởng với URL có thương hiệu"
+      },
+      "seo": {
+        "title": "Lợi Ích SEO",
+        "description": "Cải thiện khả năng hiển thị trên công cụ tìm kiếm"
+      },
+      "ssl": {
+        "title": "Bao Gồm SSL",
+        "description": "Mã hóa HTTPS tự động"
+      }
+    }
+  },
+  "expertMode": {
+    "expert": "Chế độ Chuyên gia",
+    "guided": "Chế độ Hướng dẫn",
+    "expertAriaLabel": "Thông tin về chế độ chuyên gia",
+    "guidedAriaLabel": "Thông tin về chế độ hướng dẫn",
+    "expertDescription": "Chế độ Chuyên gia hiển thị tất cả công cụ và tùy chọn ngay lập tức, với giao diện thông tin dày đặc được tối ưu cho agency quản lý nhiều khách hàng.",
+    "guidedDescription": "Chế độ Hướng dẫn cung cấp giao diện đơn giản hóa với tiết lộ dần dần, hoàn hảo để bắt đầu nhanh chóng.",
+    "toggleAriaLabel": "Chuyển đổi chế độ chuyên gia"
+  }
+}

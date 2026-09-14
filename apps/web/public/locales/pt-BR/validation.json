@@ -1,0 +1,33 @@
+{
+  "required": "{{field}} é obrigatório",
+  "minLength": "{{field}} deve ter pelo menos {{min}} caracteres",
+  "maxLength": "{{field}} deve ter no máximo {{max}} caracteres",
+  "email": "Por favor, insira um endereço de e-mail válido",
+  "password": {
+    "minLength": "A senha deve ter pelo menos 8 caracteres",
+    "uppercase": "A senha deve conter pelo menos uma letra maiúscula",
+    "lowercase": "A senha deve conter pelo menos uma letra minúscula",
+    "number": "A senha deve conter pelo menos um número",
+    "special": "A senha deve conter pelo menos um caractere especial",
+    "match": "As senhas devem coincidir"
+  },
+  "phone": "Por favor, insira um número de telefone válido",
+  "url": "Por favor, insira uma URL válida",
+  "date": "Por favor, insira uma data válida",
+  "number": {
+    "min": "{{field}} deve ser pelo menos {{min}}",
+    "max": "{{field}} deve ser no máximo {{max}}",
+    "integer": "{{field}} deve ser um número inteiro",
+    "positive": "{{field}} deve ser um número positivo"
+  },
+  "file": {
+    "required": "Por favor, selecione um arquivo",
+    "tooLarge": "O tamanho do arquivo deve ser menor que {{max}}",
+    "invalidType": "Tipo de arquivo inválido. Tipos permitidos: {{types}}"
+  },
+  "custom": {
+    "invitationCode": "Código de convite inválido",
+    "slugFormat": "O slug pode conter apenas letras minúsculas, números e hifens",
+    "uniqueEmail": "Este e-mail já está cadastrado"
+  }
+}

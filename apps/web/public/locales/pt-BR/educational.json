@@ -1,0 +1,149 @@
+{
+  "intelligenceBriefing": {
+    "title": "Seu Briefing de Inteligência",
+    "subtitle": "Ações recomendadas pela IA com base no contexto do seu negócio",
+    "tooltip": "Seus próximos passos impulsionados por IA e adaptados aos seus objetivos de negócio",
+    "emptyState": "Estamos analisando seu negócio para sugerir próximos passos de alto impacto.",
+    "emptyAction": "Começar com Estratégia de Negócio",
+    "aiBadge": "Impulsionado por IA",
+    "loadingState": "Analisando o contexto do seu negócio..."
+  },
+  "intelligenceVault": {
+    "title": "Inteligência Recente",
+    "subtitle": "Insights estratégicos e saídas dos seus agentes de IA",
+    "emptyState": "Nenhuma inteligência ainda. Comece construindo sua base estratégica.",
+    "emptyAction": "Gerar Primeira Estratégia",
+    "viewAll": "Ver toda a inteligência →",
+    "totalBadge": "{{count}} no total"
+  },
+  "campaigns": {
+    "title": "Suas Campanhas",
+    "subtitle": "Organize sua inteligência por iniciativa de negócio",
+    "createButton": "Organizar Inteligência em Campanha",
+    "createButtonShort": "Criar Campanha",
+    "emptyStateNoIntelligence": "Nenhuma campanha ainda. Complete saídas-chave de inteligência primeiro (Estratégia, Personas, Marketing).",
+    "emptyStateHasIntelligence": "Pronto para organizar sua inteligência por iniciativa de negócio?",
+    "emptyActionPrimary": "Começar com Estratégia",
+    "emptyActionSecondary": "Construir Inteligência",
+    "emptyActionReady": "Criar Primeira Campanha",
+    "sectionDescription": "Organize sua inteligência por iniciativa de negócio"
+  },
+  "intelligenceReadiness": {
+    "bannerIncompleteTitle": "Construindo Sua Base Estratégica",
+    "bannerIncompleteSubtitle": "({{percentage}}% Completo)",
+    "bannerCompleteTitle": "Pronto para Criar Sua Primeira Campanha",
+    "bannerCompleteSubtitle": "Você construiu uma base estratégica sólida",
+    "checklistLabel": "Complete essas saídas-chave de inteligência:",
+    "checklistItems": {
+      "strategy": "Estratégia de Negócio",
+      "persona": "Personas de Clientes",
+      "marketingStrategy": "Estratégia de Marketing"
+    },
+    "actions": {
+      "createCampaign": "Criar Campanha",
+      "maybeLater": "Talvez Depois"
+    },
+    "descriptionComplete": "Crie uma campanha para organizar sua inteligência por iniciativa de negócio e acompanhar o desempenho.",
+    "descriptionIncomplete": "Complete essas saídas-chave de inteligência antes de criar campanhas:"
+  },
+  "outputs": {
+    "pageTitle": "Central de Saídas",
+    "pageSubtitle": "Todos os insights e conteúdos gerados por IA em um só lugar",
+    "organizeButtonNotReady": "Organizar Inteligência",
+    "organizeButtonReady": "Criar Campanha",
+    "emptyState": "Nenhuma saída de inteligência ainda",
+    "emptyAction": "Comece a gerar insights estratégicos"
+  },
+  "onboarding": {
+    "welcomeTitle": "Bem-vindo ao STRAŦUM Marketing Suite",
+    "welcomeSubtitle": "Construa inteligência primeiro, execute com confiança",
+    "welcomeDescription": "Comece entendendo seu negócio e clientes - campanhas vêm depois",
+    "ctaStrategy": {
+      "title": "Começar com Estratégia",
+      "subtitle": "Primeiro passo recomendado",
+      "description": "Analise seu negócio com 11 frameworks estratégicos e construa uma base sólida",
+      "timeEstimate": "3 minutos para o primeiro insight"
+    },
+    "ctaPersona": {
+      "title": "Conheça Seus Clientes",
+      "subtitle": "Construa personas de compradores detalhadas",
+      "description": "Entenda para quem você está fazendo marketing com insights de clientes impulsionados por IA",
+      "timeEstimate": "5 minutos para criar persona"
+    },
+    "ctaQuickStart": {
+      "title": "Templates de Início Rápido",
+      "subtitle": "Obtenha resultados em minutos",
+      "description": "Escolha entre workflows de inteligência pré-configurados para insights imediatos",
+      "timeEstimate": "2 a 10 minutos para completar"
+    },
+    "agentExplorerTitle": "OU EXPLORE OS AGENTES DE IA",
+    "agentCount": "{{count}} agentes especializados para potencializar seu sucesso em marketing"
+  },
+  "agentCategories": {
+    "foundation": {
+      "name": "Fundação",
+      "description": "Construa sua base de marketing"
+    },
+    "execution": {
+      "name": "Execução",
+      "description": "Coloque sua estratégia em ação"
+    },
+    "intelligence": {
+      "name": "Inteligência",
+      "description": "Otimize e analise"
+    }
+  },
+  "emptyStates": {
+    "noIntelligence": {
+      "title": "Nenhuma inteligência ainda",
+      "description": "Comece a construir sua base estratégica com insights impulsionados por IA",
+      "action": "Começar com Estratégia"
+    },
+    "noCampaigns": {
+      "title": "Nenhuma campanha ainda",
+      "description": "Campanhas organizam inteligência por iniciativa de negócio",
+      "action": "Construir Inteligência Primeiro"
+    },
+    "intelligenceVaultEmpty": {
+      "title": "Seu Cofre de Inteligência",
+      "description": "Nenhuma saída de inteligência ainda. Comece a construir sua base estratégica.",
+      "action": "Gerar Primeira Estratégia"
+    },
+    "campaignsNotReady": {
+      "title": "Construa Inteligência Primeiro",
+      "description": "Crie estratégia, personas e planos de marketing antes de organizar em campanhas.",
+      "action": "Começar com Estratégia"
+    }
+  },
+  "tooltips": {
+    "intelligenceBriefing": {
+      "title": "Seus Próximos Passos com IA",
+      "description": "Analisamos o contexto do seu negócio para recomendar ações de alto impacto",
+      "dismissLabel": "Entendi"
+    }
+  },
+  "buttons": {
+    "organizeIntelligence": "Organizar Inteligência em Campanha",
+    "createCampaign": "Criar Campanha",
+    "startWithStrategy": "Começar com Estratégia",
+    "buildIntelligence": "Construir Inteligência",
+    "viewAllIntelligence": "Ver Toda a Inteligência",
+    "generateStrategy": "Gerar Estratégia",
+    "exploreAgents": "Explorar Agentes de IA",
+    "quickStart": "Início Rápido (5 min)"
+  },
+  "progress": {
+    "readinessPercentage": "{{percentage}}% para prontidão de campanha",
+    "intelligenceOutputs": "{{count}} saída de inteligência",
+    "intelligenceOutputs_other": "{{count}} saídas de inteligência",
+    "agentInteractions": "{{count}} interação com IA esta semana",
+    "agentInteractions_other": "{{count}} interações com IA esta semana",
+    "strategicFoundation": "Base estratégica: {{status}}"
+  },
+  "concepts": {
+    "intelligenceFirst": "Construa inteligência estratégica antes da execução para melhores resultados",
+    "campaignsOrganize": "Campanhas organizam sua inteligência, não impulsionam a execução",
+    "aiAgents": "9 agentes de IA especializados ajudam você a construir bases estratégicas",
+    "quickWins": "Insights acionáveis imediatos enquanto constrói estratégia de longo prazo"
+  }
+}

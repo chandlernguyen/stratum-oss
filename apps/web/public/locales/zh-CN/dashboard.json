@@ -1,0 +1,473 @@
+{
+  "title": "仪表盘",
+  "subtitle": "你的营销智能概览",
+  "clients": {
+    "backToClients": "返回客户列表",
+    "addClient": {
+      "badge": "客户入驻",
+      "title": "添加新客户",
+      "description": "录入新客户的业务背景，以获得 AI 驱动的洞察"
+    },
+    "editClient": {
+      "title": "编辑客户",
+      "description": "更新客户信息和业务背景"
+    },
+    "features": {
+      "aiPowered": "AI 驱动智能",
+      "personalizedStrategies": "个性化策略"
+    }
+  },
+  "welcome": {
+    "morning": "早上好",
+    "afternoon": "下午好",
+    "evening": "晚上好",
+    "withName": "{{greeting}}, {{name}}"
+  },
+  "hero": {
+    "badge": "AI 驱动智能",
+    "title": "你的智能简报",
+    "subtitle": "根据你的业务背景量身定制的高影响行动。每条建议都建立在你的战略基础之上。",
+    "cta": "开始新的战略会话"
+  },
+  "loading": {
+    "intelligence": "正在加载你的智能数据...",
+    "data": "正在准备你的数据...",
+    "dashboard": "正在加载你的仪表盘...",
+    "clientDashboard": "正在加载 {{clientSlug}} 仪表盘...",
+    "fallback": "正在加载仪表盘..."
+  },
+  "clientDashboard": {
+    "title": "{{clientName}} 仪表盘",
+    "subtitle": "查看并管理该客户的所有活动"
+  },
+  "noOrganization": {
+    "title": "未找到组织",
+    "description": "看起来你目前还没有任何组织访问权限。请联系管理员。",
+    "viewProfile": "查看资料"
+  },
+  "error": {
+    "message": "错误：{{message}}"
+  },
+  "stats": {
+    "totalOutputs": "输出总数",
+    "intelligenceOutputs": "智能输出",
+    "activeCampaigns": "活跃活动",
+    "aiInteractions": "AI 互动次数",
+    "strategySessions": "战略会话",
+    "lastWeek": "最近 7 天",
+    "subtitles": {
+      "strategicDocuments": "战略文档",
+      "agentSessions": "智能体会话",
+      "inProgress": "进行中",
+      "completed": "已完成"
+    }
+  },
+  "quickActions": {
+    "title": "快速操作",
+    "newStrategy": "新建战略",
+    "createPersona": "创建画像",
+    "startCampaign": "开始活动"
+  },
+  "recommendations": {
+    "title": "推荐行动",
+    "available": "共 {{count}} 项可用",
+    "highImpact": "高影响",
+    "estimatedTime": "{{time}} min",
+    "items": {
+      "personaAnalysis": {
+        "title": "完成客户画像分析",
+        "description": "建立详细买家画像，以更精准地定位你的营销活动"
+      },
+      "marketingStrategy": {
+        "title": "查看营销战略",
+        "description": "面向你的市场生成的 AI 渠道组合与信息框架"
+      },
+      "contentGeneration": {
+        "title": "为最佳渠道生成内容",
+        "description": "为你表现最好的渠道创建优化后的活动素材"
+      }
+    }
+  },
+  "recentIntelligence": {
+    "title": "最近智能输出",
+    "vaultTitle": "你的智能资料库",
+    "viewAll": "查看全部",
+    "viewAllIntelligence": "查看全部智能输出",
+    "emptyState": "还没有输出。先开始一次战略会话吧。",
+    "emptyStateVault": "还没有智能输出。开始搭建你的战略基础。",
+    "generateFirst": "生成第一份战略",
+    "total": "共 {{count}} 项",
+    "agentLabels": {
+      "strategy": "战略",
+      "persona": "画像",
+      "marketingStrategy": "营销",
+      "content": "内容"
+    }
+  },
+  "recentActivity": {
+    "title": "最近活动",
+    "noActivity": "暂无最近活动",
+    "viewAll": "查看所有活动"
+  },
+  "intelligenceBriefing": {
+    "title": "你的智能简报",
+    "subtitle": "基于你的业务背景提供高影响行动建议",
+    "empty": "完成业务资料后即可获得个性化推荐",
+    "badge": "AI 驱动",
+    "toggleBriefing": "切换简报",
+    "analyzing": "我们正在分析你的业务背景，以推荐高影响的下一步行动。",
+    "startStrategy": "从业务战略开始",
+    "highImpact": "高影响",
+    "recommended": "推荐",
+    "minutes": "{{time}} min",
+    "viewAll": "查看全部 {{count}} 条推荐"
+  },
+  "campaignReadiness": {
+    "ready": {
+      "title": "已准备好创建你的第一个营销活动",
+      "description": "你已经建立了扎实的战略基础。创建营销活动可按业务举措组织智能成果并跟踪表现。",
+      "createCampaign": "创建营销活动",
+      "maybeLater": "稍后再说"
+    },
+    "building": {
+      "title": "正在搭建你的战略基础（已完成 {{percentage}}%）",
+      "description": "创建营销活动前，请先完成这些关键智能输出：",
+      "businessStrategy": "业务战略",
+      "customerPersonas": "客户画像",
+      "marketingStrategy": "营销战略"
+    }
+  },
+  "agency": {
+    "loading": {
+      "agencyData": "正在加载代理机构数据...",
+      "clientPortfolio": "正在加载客户组合..."
+    },
+    "onboarding": {
+      "badge": "代理机构指挥中心",
+      "title": "欢迎来到你的代理机构工作台",
+      "description": "借助 AI 驱动的营销智能管理多个客户",
+      "addFirstClient": "添加你的第一个客户",
+      "ctaHint": "在 5 分钟内开始管理你的第一个客户",
+      "learnPlatform": "了解平台",
+      "videoTitle": "多客户管理",
+      "videoHint": "视频讲解即将推出",
+      "soon": "即将推出",
+      "guideTitle": "代理机构最佳实践指南",
+      "guideDescription": "了解扩展客户工作的流程",
+      "unlimitedClients": "无限客户",
+      "fullAiAccess": "完整 AI 访问权限"
+    },
+    "header": {
+      "badge": "代理机构指挥中心",
+      "title": "{{name}} 仪表盘",
+      "subtitle": "正在管理 <strong>{{clientCount}}</strong> 位客户与 <strong>{{campaignCount}}</strong> 个营销活动",
+      "subtitleText": "正在管理 {{clientCount}} 位客户与 {{campaignCount}} 个营销活动"
+    },
+    "actions": {
+      "manageClients": "管理客户",
+      "addClient": "添加客户",
+      "addNewClient": "添加新客户",
+      "viewAllClients": "查看所有客户",
+      "manageTeam": "管理团队",
+      "addFirstClient": "添加你的第一个客户",
+      "viewAllClientsCount": "查看全部 {{count}} 位客户"
+    },
+    "metrics": {
+      "totalClients": "客户总数",
+      "activeCount": "{{count}} 位活跃",
+      "monthlyRevenue": "月收入",
+      "avgPerClient": "平均每位客户 {{amount}}",
+      "activeCampaigns": "活跃营销活动",
+      "ofTotal": "总计 {{total}} 个",
+      "avgCampaignsPerClient": "平均每客户活动数",
+      "perClient": "每位客户"
+    },
+    "portfolio": {
+      "title": "客户组合",
+      "subtitle": "你的所有代理机构客户概览",
+      "clientCount": "{{count}} 位客户",
+      "noClients": "还没有客户",
+      "campaigns": "{{count}} 个营销活动",
+      "active": "{{count}} 个活跃"
+    },
+    "quickActions": {
+      "title": "快速操作"
+    }
+  },
+  "clientOverview": {
+    "notFound": {
+      "title": "未找到客户",
+      "description": "你要找的客户不存在，或你没有访问权限。",
+      "backToClients": "返回客户列表"
+    },
+    "quickStats": {
+      "title": "快速统计"
+    },
+    "recommendations": {
+      "personaAnalysis": {
+        "title": "完成客户画像分析",
+        "description": "为 {{clientName}} 建立详细买家画像，以更精准地定位其营销活动"
+      },
+      "marketingStrategy": {
+        "title": "查看营销战略建议",
+        "description": "为该客户量身定制的 AI 渠道组合与信息框架"
+      },
+      "contentGeneration": {
+        "title": "为最佳渠道生成内容",
+        "description": "为其表现最好的渠道创建优化后的活动素材"
+      }
+    }
+  },
+  "clientOnboarding": {
+    "title": "为这个客户构建智能基础",
+    "subtitle": "先从了解他们的业务和客户开始",
+    "hint": "营销活动和内容在后面，先建立智能基础",
+    "divider": "或探索其他 AI 智能体",
+    "moreAgentsTitle": "更多 AI 营销智能体",
+    "moreAgentsSubtitle": "用专业智能体推动该客户的营销成功",
+    "cards": {
+      "strategy": {
+        "title": "从战略开始",
+        "subtitle": "推荐的第一步",
+        "description": "使用 11 个战略框架分析其业务，建立稳固基础",
+        "cta": "3 分钟获得首个洞察"
+      },
+      "persona": {
+        "title": "了解他们的客户",
+        "subtitle": "建立详细买家画像",
+        "description": "通过 AI 驱动的客户洞察，了解他们的营销对象是谁",
+        "cta": "5 分钟创建画像"
+      },
+      "marketingStrategy": {
+        "title": "营销战略",
+        "subtitle": "上市与获客规划",
+        "description": "通过渠道组合与信息框架创建完整营销战略",
+        "cta": "7 分钟完成"
+      }
+    },
+    "agents": {
+      "content": {
+        "name": "内容智能体",
+        "description": "9 个用于营销活动的内容生成工具"
+      },
+      "performance": {
+        "name": "绩效智能",
+        "description": "统一分析、ROI 与洞察"
+      },
+      "competitive": {
+        "name": "竞争智能",
+        "description": "市场分析与竞争趋势"
+      },
+      "campaignPlanning": {
+        "name": "营销活动规划",
+        "description": "多渠道活动部署"
+      }
+    }
+  },
+  "quickStartModal": {
+    "title": "快速开始 - 5 分钟生成智能成果",
+    "description": "回答 5 个简短问题，我们将为你生成战略、画像和营销计划",
+    "step": "第 {{current}} 步，共 {{total}} 步",
+    "complete": "已完成 {{percent}}%",
+    "back": "返回",
+    "next": "下一步",
+    "start": "开始快速上手",
+    "steps": {
+      "company": {
+        "label": "介绍一下你的公司",
+        "placeholder": "例如：我们是一家 B2B SaaS 公司，为远程团队提供项目管理工具...",
+        "hint": "简要描述你做什么、服务谁，以及你的独特之处"
+      },
+      "goal": {
+        "label": "你的主要营销目标是什么？",
+        "placeholder": "例如：为我们的企业产品每月获取 100 个合格线索...",
+        "hint": "尽量具体：线索、销售、品牌认知、产品发布等"
+      },
+      "audience": {
+        "label": "你的目标受众是谁？",
+        "placeholder": "例如：中型科技公司（50-500 人）中在团队协作方面遇到挑战的市场经理...",
+        "hint": "描述他们的角色、公司规模、挑战和行为特征"
+      },
+      "budget": {
+        "label": "你的月度营销预算是多少？",
+        "placeholder": "选择你的预算范围",
+        "hint": "这有助于我们推荐合适的策略和渠道",
+        "options": {
+          "bootstrap": "$0 - $1,000（起步阶段）",
+          "growing": "$1,000 - $5,000（增长阶段）",
+          "scaling": "$5,000 - $20,000（扩张阶段）",
+          "enterprise": "$20,000+（企业级）"
+        }
+      },
+      "timeline": {
+        "label": "你希望何时看到结果？",
+        "placeholder": "选择你的时间周期",
+        "hint": "我们会根据你的时间要求来确定优先策略",
+        "options": {
+          "immediate": "立即（快速见效）",
+          "shortTerm": "1-3 个月（短期活动）",
+          "mediumTerm": "3-6 个月（中期战略）",
+          "longTerm": "6-12 个月（长期增长）"
+        }
+      }
+    }
+  },
+  "sme": {
+    "onboarding": {
+      "badge": "让我们开始吧",
+      "title": "欢迎来到 STRAŦUM",
+      "subtitle": "先建立智能基础，再自信执行",
+      "hint": "先了解你的业务和客户，营销活动在后面",
+      "divider": "或探索 AI 智能体",
+      "agentsTitle": "AI 营销智能体",
+      "agentsSubtitle": "7 个专业智能体助力你的营销成功",
+      "agentCount": "（{{count}} 个智能体）",
+      "cards": {
+        "strategy": {
+          "badge": "推荐",
+          "title": "从战略开始",
+          "subtitle": "成功的基础",
+          "description": "使用 11 个战略框架分析你的业务并建立稳固基础",
+          "cta": "3 分钟获得首个洞察"
+        },
+        "persona": {
+          "title": "了解你的客户",
+          "subtitle": "建立详细买家画像",
+          "description": "借助 AI 驱动的客户洞察，了解你的营销对象是谁",
+          "cta": "5 分钟创建画像"
+        },
+        "quickStart": {
+          "title": "快速开始",
+          "subtitle": "回答 5 个问题，获得完整战略",
+          "description": "通过 5 个简短问题生成战略、画像和营销计划",
+          "cta": "5 分钟完成"
+        }
+      },
+      "categories": {
+        "foundation": {
+          "name": "基础",
+          "description": "建立你的营销智能"
+        },
+        "execution": {
+          "name": "执行",
+          "description": "创建并部署营销活动"
+        },
+        "intelligence": {
+          "name": "智能分析",
+          "description": "分析并优化表现"
+        }
+      },
+      "agents": {
+        "strategy": {
+          "name": "业务战略",
+          "description": "11 个战略框架与分析"
+        },
+        "persona": {
+          "name": "画像智能体",
+          "description": "客户画像与访谈模式"
+        },
+        "marketingStrategy": {
+          "name": "营销战略",
+          "description": "上市与渠道战略"
+        },
+        "content": {
+          "name": "内容智能体",
+          "description": "9 个内容生成工具"
+        },
+        "campaignPlanning": {
+          "name": "营销活动规划",
+          "description": "多渠道部署"
+        },
+        "performance": {
+          "name": "绩效智能",
+          "description": "统一分析、ROI 与洞察"
+        },
+        "competitive": {
+          "name": "竞争智能",
+          "description": "市场分析与趋势"
+        }
+      },
+      "trust": {
+        "noCreditCard": "无需信用卡",
+        "dataSecure": "你的数据安全无虞",
+        "cancelAnytime": "随时取消"
+      }
+    }
+  },
+  "buildingMomentum": {
+    "greeting": "欢迎回来，{{name}}！",
+    "progress": {
+      "label": "你的进度：",
+      "status": "正在积累势能"
+    },
+    "stats": {
+      "activeCampaigns": "活跃营销活动",
+      "savedStrategies": "已保存战略",
+      "aiInteractions": "AI 互动次数"
+    },
+    "continueSection": {
+      "title": "从上次中断的地方继续",
+      "resumeEditing": "继续编辑",
+      "budget": "Budget: ${{amount}}",
+      "emptyState": "还没有营销活动。请从下方开始你的第一个活动！",
+      "createCampaign": "创建营销活动"
+    },
+    "campaignStatus": {
+      "active": "活跃",
+      "paused": "已暂停",
+      "draft": "草稿",
+      "completed": "已完成"
+    }
+  },
+  "scalingUp": {
+    "title": "仪表盘",
+    "activeCampaigns": {
+      "title": "活跃营销活动（{{active}}/{{total}}）",
+      "metrics": {
+        "ctrUp": "↑ {{value}}% CTR",
+        "convUp": "↑ {{value}}% Conv",
+        "starting": "启动中..."
+      }
+    },
+    "quickActions": {
+      "title": "快速操作",
+      "viewAnalytics": "查看分析",
+      "createContent": "创建内容",
+      "strategyReview": "战略复盘"
+    },
+    "aiInsights": {
+      "title": "AI 洞察",
+      "agents": {
+        "content": "内容智能体",
+        "strategy": "战略智能体"
+      },
+      "insights": {
+        "holidayPerformance": "节日营销活动表现高于基准",
+        "competitorGap": "在竞争空白中发现了新机会"
+      }
+    }
+  },
+  "agencyScaling": {
+    "title": "代理机构仪表盘 - {{count}} 位活跃客户",
+    "campaigns": "{{count}} 个营销活动",
+    "status": {
+      "active": "活跃",
+      "paused": "已暂停"
+    },
+    "quickFilters": {
+      "title": "快速筛选",
+      "all": "全部",
+      "active": "活跃",
+      "needsAttention": "需要关注",
+      "reportsDue": "报告到期"
+    },
+    "priorities": {
+      "title": "本周优先事项",
+      "items": {
+        "strategyReview": "{{client}}：周四进行战略复盘会议",
+        "contentApproval": "{{client}}：需要内容审批",
+        "monthlyReport": "{{client}}：月度报告到期"
+      }
+    }
+  }
+}

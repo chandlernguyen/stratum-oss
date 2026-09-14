@@ -1,0 +1,505 @@
+{
+  "title": "Chiến Dịch",
+  "subtitle": "Quản lý và theo dõi các chiến dịch marketing",
+  "newCampaign": {
+    "pageTitle": "Tạo Chiến Dịch Mới",
+    "permissionTitle": "Tạo Chiến Dịch",
+    "title": "Tạo Chiến Dịch Mới",
+    "subtitle": "Thiết lập chiến dịch marketing và để trợ lý AI giúp bạn thành công",
+    "templatesTitle": "Mẫu Khởi Động Nhanh",
+    "formTitle": "Chi Tiết Chiến Dịch",
+    "formDescription": "Xác định các thông số chiến dịch và AI sẽ giúp tối ưu hóa để đạt kết quả tốt nhất",
+    "createButton": "Tạo Chiến Dịch",
+    "creating": "Đang tạo...",
+    "fields": {
+      "name": "Tên Chiến Dịch",
+      "namePlaceholder": "Ví dụ: Ra Mắt Sản Phẩm Q1 2026",
+      "description": "Mô Tả",
+      "descriptionPlaceholder": "Mô tả ngắn gọn mục tiêu và cách tiếp cận của chiến dịch...",
+      "objectives": "Mục Tiêu Chiến Dịch",
+      "objectivesPlaceholder": "Bạn muốn đạt được điều gì? Hãy cụ thể về các chỉ số hiệu suất (KPI)...",
+      "budget": "Ngân Sách ($)",
+      "budgetPlaceholder": "10000",
+      "targetAudience": "Đối Tượng Mục Tiêu",
+      "targetAudiencePlaceholder": "Mô tả nhân khẩu học, sở thích và hành vi của khách hàng lý tưởng...",
+      "startDate": "Ngày Bắt Đầu",
+      "endDate": "Ngày Kết Thúc",
+      "selectStartDate": "Chọn ngày bắt đầu",
+      "selectEndDate": "Chọn ngày kết thúc"
+    },
+    "templates": {
+      "quickWin": {
+        "title": "Chiến Dịch Kết Quả Nhanh",
+        "description": "Đạt kết quả ngay với các cơ hội dễ dàng",
+        "presetName": "Chiến Dịch Kết Quả Nhanh",
+        "presetObjectives": "Đạt cải thiện ROI ngay lập tức thông qua các tối ưu hóa chiến thuật"
+      },
+      "brandAwareness": {
+        "title": "Nhận Diện Thương Hiệu",
+        "description": "Tăng độ nhận biết và phạm vi tiếp cận thị trường",
+        "presetName": "Chiến Dịch Nhận Diện Thương Hiệu",
+        "presetObjectives": "Tăng độ nhận diện thương hiệu 30% trong phân khúc mục tiêu"
+      },
+      "leadGeneration": {
+        "title": "Tạo Khách Hàng Tiềm Năng",
+        "description": "Thu hút và nuôi dưỡng khách hàng tiềm năng",
+        "presetName": "Chiến Dịch Tạo Khách Hàng Tiềm Năng",
+        "presetObjectives": "Tạo 500 khách hàng tiềm năng đủ điều kiện mỗi tháng"
+      }
+    }
+  },
+  "emptyState": {
+    "title": "Sẵn sàng tổ chức thông tin chiến lược?",
+    "description": "Chiến dịch giúp bạn tổ chức các kết quả phân tích theo từng sáng kiến kinh doanh. Hoàn thành việc thu thập thông tin chiến lược trước để lập kế hoạch chiến dịch hiệu quả hơn.",
+    "readinessLabel": "Mức Độ Sẵn Sàng",
+    "readinessCount": "{{completed}} / {{total}} hoàn thành",
+    "readyMessage": "Bạn đã có đủ thông tin để tạo chiến dịch",
+    "notReadyMessage": "Hoàn thành ít nhất 2 phân tích để bắt đầu",
+    "completeBadge": "Hoàn Thành",
+    "createFirst": "Tạo Chiến Dịch Đầu Tiên",
+    "continueGathering": "Tiếp Tục Thu Thập Thông Tin",
+    "startGathering": "Bắt Đầu Thu Thập Thông Tin",
+    "createAnyway": "Tạo Chiến Dịch Ngay",
+    "whyGatherTitle": "Tại sao nên thu thập thông tin trước?",
+    "whyGatherDescription": "Chiến dịch tổ chức các phân tích chiến lược của bạn. Có sẵn chiến lược kinh doanh, chân dung khách hàng và kế hoạch marketing đảm bảo chiến dịch dựa trên dữ liệu ngay từ đầu.",
+    "totalOutputsReady": "Tổng số kết quả phân tích sẵn sàng để tổ chức",
+    "viewAllIntelligence": "Xem Tất Cả Kết Quả",
+    "prerequisites": {
+      "strategy": {
+        "title": "Chiến Lược Kinh Doanh",
+        "description": "Xác định vị thế thị trường và lợi thế cạnh tranh"
+      },
+      "persona": {
+        "title": "Chân Dung Khách Hàng",
+        "description": "Hiểu đối tượng mục tiêu và những vấn đề họ gặp phải"
+      },
+      "marketing": {
+        "title": "Chiến Lược Marketing",
+        "description": "Xác định kênh truyền thông và khung thông điệp"
+      },
+      "content": {
+        "title": "Mẫu Nội Dung",
+        "description": "Tạo tài liệu chiến dịch và thông điệp ban đầu"
+      }
+    }
+  },
+  "analytics": {
+    "error": {
+      "title": "Không thể tải dữ liệu phân tích",
+      "message": "{{message}}"
+    },
+    "empty": {
+      "title": "Chưa Có Dữ Liệu Phân Tích",
+      "description": "Dữ liệu phân tích sẽ có sẵn khi chiến dịch có hoạt động"
+    },
+    "cards": {
+      "budgetUtilized": "Ngân Sách Đã Dùng",
+      "budgetOf": "{{spent}} / {{total}}",
+      "conversionRate": "Tỷ Lệ Chuyển Đổi",
+      "conversionsFromReach": "{{conversions}} chuyển đổi từ {{reach}} tiếp cận",
+      "engagement": "Tương Tác",
+      "ctr": "{{rate}}% Tỷ Lệ Nhấp (CTR)",
+      "performance": "Hiệu Suất",
+      "impressions": "{{count}} lượt hiển thị"
+    },
+    "budget": {
+      "title": "Phân Tích Ngân Sách",
+      "subtitle": "Xu hướng chi tiêu và dự báo",
+      "dailySpendRate": "Tốc Độ Chi Tiêu Hàng Ngày",
+      "perDay": "{{amount}}/ngày",
+      "projectedTotalSpend": "Dự Kiến Tổng Chi Tiêu",
+      "budgetBurnRate": "Tốc Độ Tiêu Ngân Sách",
+      "daysToEnd": "Số Ngày Còn Ngân Sách",
+      "daysCount": "{{days}} ngày",
+      "costPerConversion": "Chi Phí Mỗi Chuyển Đổi"
+    },
+    "progress": {
+      "title": "Tiến Độ Chiến Dịch",
+      "subtitle": "Tổng quan tiến trình và nội dung",
+      "campaignProgress": "Tiến Độ Chiến Dịch",
+      "daysActive": "{{days}} ngày hoạt động",
+      "daysLeft": "Còn {{days}} ngày",
+      "strategies": "Chiến Lược",
+      "personas": "Chân Dung KH",
+      "activeOutputs": "Kết Quả Đang Dùng",
+      "topChannel": "Kênh Hiệu Quả Nhất",
+      "channelsConfigured": "{{count}} kênh đã cấu hình"
+    },
+    "alerts": {
+      "title": "Cần Chú Ý",
+      "overBudget": "Chiến dịch đã vượt ngân sách ({{percentage}}%)",
+      "underperforming": "Hiệu suất chiến dịch đang {{trend}}"
+    },
+    "generated": "Phân tích được tạo: {{date}}",
+    "performanceLevels": {
+      "excellent": "xuất sắc",
+      "good": "tốt",
+      "average": "trung bình",
+      "below_average": "dưới trung bình"
+    },
+    "burnRates": {
+      "low": "thấp",
+      "moderate": "vừa phải",
+      "high": "cao",
+      "very_high": "rất cao"
+    }
+  },
+  "list": {
+    "title": "Tất Cả Chiến Dịch",
+    "empty": "Chưa có chiến dịch nào",
+    "emptyDescription": "Tạo chiến dịch đầu tiên để bắt đầu theo dõi hoạt động marketing",
+    "createFirst": "Tạo Chiến Dịch Đầu Tiên",
+    "pageTitle": "Chiến Dịch Marketing",
+    "pageSubtitle": "Quản lý và theo dõi các chiến dịch marketing",
+    "managementBadge": "Quản Lý Chiến Dịch",
+    "newCampaign": "Chiến Dịch Mới",
+    "filterByStatus": "Lọc Theo Trạng Thái",
+    "createdOn": "Tạo ngày {{date}}",
+    "noData": "Không có dữ liệu",
+    "metricsCount_one": "{{count}} chỉ số",
+    "metricsCount_other": "{{count}} chỉ số",
+    "fields": {
+      "budget": "Ngân Sách",
+      "type": "Loại",
+      "duration": "Thời Gian",
+      "notSet": "Chưa đặt",
+      "notScheduled": "Chưa lên lịch"
+    },
+    "emptyStates": {
+      "noActive": {
+        "title": "Không có chiến dịch đang chạy",
+        "description": "Bạn có {{count}} chiến dịch nháp sẵn sàng khởi chạy",
+        "viewDrafts": "Xem Nháp"
+      },
+      "noCampaigns": {
+        "title": "Chưa có chiến dịch nào",
+        "description": "Xây dựng thông tin chiến lược trước, sau đó tổ chức thành chiến dịch",
+        "startStrategy": "Bắt Đầu Với Chiến Lược",
+        "createCampaign": "Tạo Chiến Dịch"
+      },
+      "noPlanned": {
+        "title": "Chưa có chiến dịch đã lên kế hoạch",
+        "description": "Tạo kế hoạch chiến dịch từ Trợ lý Lập Kế Hoạch và lưu lại để xem ở đây",
+        "generatePlans": "Tạo Kế Hoạch Chiến Dịch"
+      },
+      "noPaused": {
+        "title": "Không có chiến dịch tạm dừng",
+        "descriptionWithActive": "Bạn có {{count}} chiến dịch đang chạy",
+        "descriptionEmpty": "Chiến dịch tạm dừng sẽ xuất hiện ở đây khi bạn tạm dừng một chiến dịch đang chạy",
+        "viewActive": "Xem Chiến Dịch Đang Chạy"
+      },
+      "noDraft": {
+        "title": "Không có chiến dịch nháp",
+        "description": "Bạn có {{count}} chiến dịch đang chạy"
+      },
+      "noCompleted": {
+        "title": "Không có chiến dịch hoàn thành",
+        "description": "Bạn có {{count}} chiến dịch đang tiến hành"
+      },
+      "generic": {
+        "title": "Không có chiến dịch {{status}}",
+        "description": "Xây dựng các kết quả phân tích trước, sau đó tạo chiến dịch để tổ chức",
+        "buildIntelligence": "Xây Dựng Thông Tin"
+      }
+    }
+  },
+  "status": {
+    "draft": "Nháp",
+    "active": "Đang Chạy",
+    "planned": "Đã Lên Kế Hoạch",
+    "paused": "Tạm Dừng",
+    "completed": "Hoàn Thành",
+    "archived": "Lưu Trữ"
+  },
+  "form": {
+    "create": "Tạo Chiến Dịch",
+    "edit": "Chỉnh Sửa Chiến Dịch",
+    "fields": {
+      "name": "Tên Chiến Dịch",
+      "namePlaceholder": "Nhập tên chiến dịch",
+      "description": "Mô Tả",
+      "descriptionPlaceholder": "Mô tả mục tiêu và chiến lược của chiến dịch",
+      "startDate": "Ngày Bắt Đầu",
+      "endDate": "Ngày Kết Thúc",
+      "budget": "Ngân Sách",
+      "budgetPlaceholder": "Nhập số tiền ngân sách",
+      "status": "Trạng Thái",
+      "channels": "Kênh",
+      "objectives": "Mục Tiêu Chiến Dịch",
+      "targetAudience": "Đối Tượng Mục Tiêu"
+    },
+    "validation": {
+      "nameRequired": "Tên chiến dịch là bắt buộc",
+      "startDateRequired": "Ngày bắt đầu là bắt buộc",
+      "endDateAfterStart": "Ngày kết thúc phải sau ngày bắt đầu"
+    }
+  },
+  "detail": {
+    "pageTitle": "Chi Tiết Chiến Dịch",
+    "overview": "Tổng Quan",
+    "performance": "Hiệu Suất",
+    "assets": "Tài Nguyên",
+    "timeline": "Dòng Thời Gian",
+    "settings": "Cài Đặt",
+    "notFound": "Không tìm thấy chiến dịch",
+    "backToCampaigns": "Quay Lại Chiến Dịch",
+    "aiAgents": {
+      "title": "Trợ Lý AI",
+      "description": "Truy cập các trợ lý AI chuyên biệt cho chiến dịch này",
+      "agents": {
+        "strategy": {
+          "name": "Trợ Lý Chiến Lược",
+          "description": "Lập kế hoạch chiến lược và phân tích SWOT"
+        },
+        "persona": {
+          "name": "Trợ Lý Chân Dung KH",
+          "description": "Lập hồ sơ khách hàng và bản đồ hành trình"
+        },
+        "content": {
+          "name": "Trợ Lý Nội Dung",
+          "description": "Tạo và tối ưu hóa nội dung"
+        },
+        "analytics": {
+          "name": "Trợ Lý Phân Tích",
+          "description": "Theo dõi hiệu suất và phân tích"
+        }
+      }
+    },
+    "collaboration": {
+      "discussion": {
+        "title": "Thảo Luận",
+        "description": "Cộng tác với nhóm của bạn về chiến dịch này"
+      },
+      "tasks": {
+        "title": "Nhiệm Vụ",
+        "description": "Phân công và theo dõi công việc cho chiến dịch này"
+      }
+    }
+  },
+  "metrics": {
+    "impressions": "Lượt Hiển Thị",
+    "clicks": "Lượt Nhấp",
+    "conversions": "Chuyển Đổi",
+    "spend": "Chi Tiêu",
+    "ctr": "Tỷ Lệ Nhấp",
+    "cpc": "Chi Phí Mỗi Nhấp",
+    "cpa": "Chi Phí Mỗi Chuyển Đổi",
+    "roas": "Lợi Nhuận Quảng Cáo (ROAS)",
+    "roi": "Lợi Suất Đầu Tư (ROI)"
+  },
+  "actions": {
+    "create": "Tạo Chiến Dịch",
+    "edit": "Chỉnh Sửa",
+    "editDetails": "Chỉnh Sửa Chi Tiết",
+    "duplicate": "Nhân Bản",
+    "archive": "Lưu Trữ",
+    "delete": "Xóa",
+    "pause": "Tạm Dừng",
+    "resume": "Tiếp Tục",
+    "export": "Xuất",
+    "viewDetails": "Xem Chi Tiết",
+    "save": "Lưu",
+    "saveChanges": "Lưu Thay Đổi",
+    "cancel": "Hủy"
+  },
+  "filters": {
+    "all": "Tất Cả Chiến Dịch",
+    "active": "Đang Chạy",
+    "draft": "Nháp",
+    "completed": "Hoàn Thành",
+    "search": "Tìm kiếm chiến dịch...",
+    "dateRange": "Khoảng Thời Gian",
+    "channel": "Kênh"
+  },
+  "channels": {
+    "social": "Mạng Xã Hội",
+    "email": "Email",
+    "paid": "Quảng Cáo Trả Phí",
+    "seo": "SEO",
+    "content": "Marketing Nội Dung",
+    "events": "Sự Kiện",
+    "pr": "PR",
+    "other": "Khác"
+  },
+  "confirmDelete": {
+    "title": "Xóa Chiến Dịch",
+    "message": "Bạn có chắc chắn muốn xóa chiến dịch này? Hành động này không thể hoàn tác.",
+    "confirm": "Xóa",
+    "cancel": "Hủy"
+  },
+  "campaignTypes": {
+    "brand_awareness": "Nhận Diện Thương Hiệu",
+    "lead_generation": "Tạo Khách Hàng Tiềm Năng",
+    "product_launch": "Ra Mắt Sản Phẩm",
+    "seasonal_promotion": "Khuyến Mãi Theo Mùa",
+    "content_marketing": "Marketing Nội Dung",
+    "email_nurture": "Nuôi Dưỡng Email",
+    "social_media": "Mạng Xã Hội",
+    "event_promotion": "Quảng Bá Sự Kiện",
+    "customer_retention": "Giữ Chân Khách Hàng",
+    "referral_program": "Chương Trình Giới Thiệu",
+    "other": "Khác"
+  },
+  "marketingChannels": {
+    "email": "Email Marketing",
+    "social": "Mạng Xã Hội",
+    "content": "Marketing Nội Dung",
+    "paid_ads": "Quảng Cáo Trả Phí",
+    "seo": "SEO",
+    "events": "Sự Kiện",
+    "webinars": "Webinar",
+    "influencer": "Marketing Người Ảnh Hưởng",
+    "affiliate": "Marketing Liên Kết",
+    "direct_mail": "Thư Trực Tiếp"
+  },
+  "priorityLevels": {
+    "low": "Thấp",
+    "medium": "Trung Bình",
+    "high": "Cao",
+    "critical": "Khẩn Cấp"
+  },
+  "statusActions": {
+    "activate": "Kích Hoạt",
+    "activateCampaign": "Kích Hoạt Chiến Dịch",
+    "pause": "Tạm Dừng",
+    "complete": "Hoàn Thành",
+    "resume": "Tiếp Tục",
+    "archive": "Lưu Trữ"
+  },
+  "performance": {
+    "mapping": {
+      "title": "Ánh Xạ Chiến Dịch",
+      "metricsFound": "Tìm thấy {{count}} chỉ số trong CSV",
+      "exactMatches": "{{count}} khớp chính xác",
+      "fuzzyMatches": "{{count}} khớp tương đối",
+      "unmapped": "{{count}} chưa ánh xạ",
+      "description": "Xem xét và xác nhận ánh xạ chiến dịch trước khi nhập chỉ số",
+      "table": {
+        "csvCampaign": "Tên Chiến Dịch Trong CSV",
+        "matchStatus": "Trạng Thái Khớp",
+        "targetCampaign": "Chiến Dịch Đích"
+      },
+      "importSelected": "Nhập Chỉ Số Đã Chọn",
+      "importing": "Đang nhập...",
+      "successToast": "Đã nhập thành công {{count}} chỉ số",
+      "errorToast": "Không thể nhập chỉ số"
+    },
+    "selector": {
+      "placeholder": "Tìm kiếm chiến dịch...",
+      "selectCampaign": "Chọn chiến dịch",
+      "noCampaignsFound": "Không tìm thấy chiến dịch",
+      "createNew": "Tạo chiến dịch mới",
+      "exactMatch": "Khớp Chính Xác",
+      "fuzzyMatch": "Khớp {{percent}}%",
+      "suggested": "Đề Xuất",
+      "clear": "Xóa lựa chọn"
+    },
+    "upload": {
+      "title": "Tải Lên CSV Hiệu Suất",
+      "description": "Tải lên tệp CSV chứa chỉ số hiệu suất chiến dịch",
+      "steps": {
+        "uploadCSV": "Tải CSV",
+        "mapCampaigns": "Ánh Xạ Chiến Dịch",
+        "complete": "Hoàn Thành"
+      },
+      "dropHere": "Thả tệp CSV vào đây",
+      "dragDrop": "Kéo và thả tệp CSV vào đây, hoặc nhấp để chọn",
+      "requiredColumns": "Các cột bắt buộc: campaign_name, metric_date, spend",
+      "selectedFile": "Tệp đã chọn",
+      "removeFile": "Xóa tệp",
+      "fileRemoved": "Đã xóa tệp",
+      "loadedMetrics": "Đã tải {{count}} chỉ số từ {{filename}}",
+      "parseError": "Không thể phân tích tệp CSV",
+      "csvExtensionError": "Tệp phải có đuôi .csv",
+      "validationIssues": "Phát Hiện Lỗi Xác Thực",
+      "fixIssues": "Vui lòng sửa các lỗi sau trước khi nhập",
+      "fileFormatErrors": "{{count}} lỗi định dạng tệp",
+      "dataValidationErrors": "{{count}} lỗi xác thực dữ liệu",
+      "howToFix": {
+        "title": "Cách Sửa",
+        "requiredColumns": "Đảm bảo các cột này tồn tại",
+        "dateFormat": "Sử dụng định dạng YYYY-MM-DD cho ngày tháng",
+        "numericFields": "Đảm bảo spend, impressions, clicks và conversions là số",
+        "downloadTemplate": "Tải mẫu để có định dạng đúng"
+      },
+      "clearFile": "Xóa Tệp",
+      "downloadTemplate": "Tải Mẫu",
+      "downloadCSVTemplate": "Tải Mẫu CSV",
+      "importSuccess": "Nhập Thành Công!",
+      "importSuccessDescription": "Các chỉ số của bạn đã được nhập và liên kết với chiến dịch",
+      "importMore": "Nhập Thêm",
+      "viewMetrics": "Xem Chỉ Số"
+    },
+    "matchStatus": {
+      "noMatch": "Không Tìm Thấy Kết Quả Khớp",
+      "exactMatch": "Khớp Chính Xác",
+      "fuzzyMatch": "Khớp {{percent}}%"
+    }
+  },
+  "editForm": {
+    "details": {
+      "title": "Chi Tiết Chiến Dịch",
+      "description": "Thông tin cốt lõi về chiến dịch này"
+    },
+    "noDescription": "Không có mô tả",
+    "campaignType": "Loại Chiến Dịch",
+    "selectType": "Chọn loại",
+    "notSet": "Chưa đặt",
+    "priority": "Độ Ưu Tiên",
+    "selectPriority": "Chọn độ ưu tiên",
+    "targetAudiencePlaceholder": "Chiến dịch này nhắm đến ai? Hãy cụ thể để AI đưa ra gợi ý tốt hơn...",
+    "noTargetAudience": "Chưa xác định đối tượng mục tiêu",
+    "objectivesGoals": "Mục Tiêu & Kết Quả",
+    "objectivesPlaceholder": "Mục tiêu và tiêu chí thành công chính là gì? Ví dụ: 'Tạo 100 khách hàng tiềm năng đủ điều kiện vào Q4' hoặc 'Tăng nhận diện thương hiệu 30% trong phân khúc mục tiêu'",
+    "noObjectives": "Chưa xác định mục tiêu",
+    "primary": "Chính",
+    "secondary": "Phụ",
+    "cantChangeStartDate": "Không thể thay đổi ngày bắt đầu - chiến dịch đã khởi chạy",
+    "historicalData": "Dữ liệu lịch sử - không thể thay đổi",
+    "budgetLabel": "Ngân Sách ($)",
+    "channels": {
+      "title": "Kênh Marketing",
+      "description": "Chọn các kênh cho chiến dịch này",
+      "activeChannels": "Kênh Đang Hoạt Động",
+      "noChannels": "Chưa chọn kênh nào"
+    },
+    "advanced": {
+      "addMoreDetails": "Thêm chi tiết để cải thiện hiệu suất trợ lý AI",
+      "showAdvanced": "Hiện Trường Nâng Cao",
+      "hideAdvanced": "Ẩn Trường Nâng Cao"
+    },
+    "contentStrategy": {
+      "title": "Chiến Lược Nội Dung",
+      "description": "Xác định các trụ cột và chủ đề nội dung",
+      "contentPillars": "Trụ Cột Nội Dung",
+      "pillarsPlaceholder": "Nhập các chủ đề nội dung chính, phân cách bằng dấu phẩy (ví dụ: tư duy lãnh đạo, giáo dục sản phẩm, câu chuyện thành công khách hàng, phân tích ngành)",
+      "noPillars": "Chưa xác định trụ cột nội dung"
+    },
+    "successMetrics": {
+      "title": "Chỉ Số Hiệu Suất (KPI)",
+      "description": "Xác định cách đo lường thành công",
+      "primaryKPI": "KPI Chính",
+      "kpiPlaceholder": "Ví dụ: Khách Hàng Tiềm Năng Đủ Điều Kiện",
+      "targetPlaceholder": "Giá trị mục tiêu (ví dụ: 100)",
+      "noTarget": "Không có mục tiêu",
+      "notDefined": "Chưa xác định"
+    },
+    "competitive": {
+      "title": "Bối Cảnh Cạnh Tranh",
+      "description": "Định vị thị trường và cạnh tranh",
+      "competitorContext": "Bối Cảnh Đối Thủ",
+      "contextPlaceholder": "Các đối thủ chính và cách chúng ta khác biệt...",
+      "noContext": "Chưa cung cấp bối cảnh cạnh tranh",
+      "geographicTarget": "Mục Tiêu Địa Lý",
+      "geoPlaceholder": "Ví dụ: Việt Nam, Đông Nam Á, Toàn Cầu, TP. Hồ Chí Minh",
+      "notSpecified": "Chưa xác định"
+    },
+    "organization": {
+      "title": "Tổ Chức",
+      "description": "Thẻ và phân loại",
+      "tags": "Thẻ",
+      "tagsPlaceholder": "Nhập các thẻ phân cách bằng dấu phẩy",
+      "noTags": "Không có thẻ"
+    }
+  }
+}

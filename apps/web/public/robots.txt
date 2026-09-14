@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# AI crawlers — explicitly welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Add your own sitemap once deployed, e.g.:
+# Sitemap: https://your-domain.example/sitemap.xml

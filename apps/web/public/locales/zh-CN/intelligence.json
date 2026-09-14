@@ -1,0 +1,130 @@
+{
+  "pageTitle": {
+    "clientProfile": "客户资料",
+    "businessProfile": "业务资料"
+  },
+  "pageDescription": {
+    "client": "管理 {{clientSlug}} 的业务资料、品牌规范和智能成果",
+    "organization": "管理你组织的业务资料、品牌规范和智能成果"
+  },
+  "header": {
+    "title": "业务智能",
+    "description": "结合手动数据与 AI 学习洞察的业务资料"
+  },
+  "loading": "正在加载业务智能...",
+  "tabs": {
+    "businessProfile": "业务资料",
+    "businessProfileShort": "资料",
+    "brandGuidelines": "品牌规范",
+    "brandGuidelinesShort": "品牌",
+    "learningHistory": "学习历史",
+    "learningHistoryShort": "学习"
+  },
+  "alerts": {
+    "newSuggestions": "你有 {{count}} 条新的 AI 建议待审核",
+    "newSuggestions_other": "你有 {{count}} 条新的 AI 建议待审核",
+    "authoritative": "这是所有 AI 智能体使用的权威业务背景。点击编辑即可修改任意信息。"
+  },
+  "metrics": {
+    "title": "AI 学习到的业务指标"
+  },
+  "conflicts": {
+    "title": "检测到数据冲突",
+    "description": "AI 发现的信息与你的手动录入存在差异",
+    "current": "当前值",
+    "aiSuggestion": "AI 建议",
+    "notSet": "未设置",
+    "acceptAI": "接受 AI 值",
+    "keepCurrent": "保留当前值"
+  },
+  "learningHistory": {
+    "title": "AI 学习历史",
+    "description": "跟踪 AI 随时间如何了解你的业务",
+    "totalInsights": "洞察总数：",
+    "noInsights": {
+      "title": "还没有 AI 洞察",
+      "description": "随着你与营销智能体互动，AI 会逐步了解你的业务，并在这里呈现洞察供你审核。"
+    },
+    "status": {
+      "approved": "已批准",
+      "autoApproved": "自动批准",
+      "pending": "待处理",
+      "rejected": "已拒绝"
+    },
+    "filter": {
+      "allAgents": "所有智能体",
+      "persona": "画像洞察",
+      "strategy": "战略洞察",
+      "marketing": "营销洞察",
+      "content": "内容洞察"
+    },
+    "similar": "相似",
+    "fieldsExtracted": "已提取 {{count}} 个字段",
+    "confidence": "置信度",
+    "from": "来源于"
+  },
+  "patterns": {
+    "title": "跨画像模式",
+    "mentions": "{{count}} 次提及",
+    "personas": "{{count}} 个画像"
+  },
+  "fields": {
+    "companyName": "公司名称",
+    "organizationType": "组织类型",
+    "industry": "行业",
+    "companySize": "公司规模",
+    "description": "描述",
+    "targetMarket": "目标市场",
+    "geography": "地域",
+    "businessModel": "商业模式",
+    "priceRange": "价格区间",
+    "competitors": "竞争对手",
+    "uniqueValueProposition": "独特价值主张",
+    "technologyStack": "技术栈",
+    "annualRevenue": "年收入",
+    "growthRate": "增长率",
+    "marketingBudget": "营销预算"
+  },
+  "content": {
+    "notSpecified": "未指定",
+    "none": "无",
+    "noFieldsAvailable": "没有可用字段",
+    "errorDisplayingFields": "显示字段时出错",
+    "noContentAvailable": "没有可用内容",
+    "noDisplayableContent": "没有可显示内容",
+    "errorDisplayingContent": "显示内容时出错。请刷新后重试。",
+    "noInsightSelected": "未选择洞察"
+  },
+  "dialog": {
+    "extractedFrom": "从 {{agent}} 对话中提取",
+    "confidence": "置信度：",
+    "extractedContext": "提取的业务背景：",
+    "edit": "编辑",
+    "saveChanges": "保存更改",
+    "cancel": "取消"
+  },
+  "actions": {
+    "approveApply": "批准并应用",
+    "reject": "拒绝",
+    "approveAll": "批准全部相似项",
+    "rejectAll": "拒绝全部相似项",
+    "approveThisOnly": "仅批准当前项",
+    "rejectThisOnly": "仅拒绝当前项",
+    "bulkNote": "注意：此操作会影响该组中 {{count}} 条相似的待处理洞察。",
+    "orActOnThis": "或者只处理当前洞察："
+  },
+  "aiLearning": {
+    "businessContext": "业务背景",
+    "aiInsight": "AI 洞察",
+    "aiAgent": "AI 智能体",
+    "similar": "{{count}} 条相似项",
+    "confidence": "{{value}}% 置信度",
+    "fieldsExtracted": "已提取 {{count}} 个字段",
+    "dialogTitle": "AI 学习洞察",
+    "extractedFrom": "从 {{source}} 对话中提取",
+    "confidenceLabel": "置信度",
+    "extractedBusinessContext": "提取的业务背景",
+    "noContent": "没有详细内容可用",
+    "capturedOn": "记录于 {{date}}"
+  }
+}

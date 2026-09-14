@@ -1,0 +1,30 @@
+{
+  "generic": "Algo salió mal. Inténtalo de nuevo.",
+  "network": "Error de red. Revisa tu conexión.",
+  "server": "Error del servidor. Inténtalo más tarde.",
+  "notFound": "No se encontró el recurso.",
+  "unauthorized": "No tienes permiso para realizar esta acción.",
+  "forbidden": "Acceso denegado.",
+  "timeout": "La solicitud tardó demasiado. Inténtalo de nuevo.",
+  "sessionExpired": "Tu sesión ha expirado. Vuelve a iniciar sesión.",
+  "validation": {
+    "required": "{field} es obligatorio.",
+    "invalid": "{field} no es válido.",
+    "tooShort": "{field} debe tener al menos {min} caracteres.",
+    "tooLong": "{field} debe tener como máximo {max} caracteres.",
+    "invalidEmail": "Introduce un correo electrónico válido.",
+    "invalidPassword": "La contraseña no cumple los requisitos."
+  },
+  "auth": {
+    "invalidCredentials": "Correo o contraseña incorrectos.",
+    "emailInUse": "Este correo ya está registrado.",
+    "accountLocked": "La cuenta está bloqueada temporalmente. Inténtalo más tarde.",
+    "tooManyAttempts": "Demasiados intentos. Inténtalo más tarde.",
+    "invalidInvitationCode": "El código de invitación no es válido."
+  },
+  "agent": {
+    "unavailable": "El agente no está disponible temporalmente. Inténtalo de nuevo.",
+    "toolExecutionFailed": "No se pudo ejecutar {tool}. Inténtalo de nuevo.",
+    "responseGenerationFailed": "No se pudo generar la respuesta. Inténtalo de nuevo."
+  }
+}

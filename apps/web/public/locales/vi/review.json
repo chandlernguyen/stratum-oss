@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "badge": "Cổng Duyệt Nội Dung",
+    "defaultClientName": "Nội Dung Của Bạn",
+    "subtitle": "Xem xét và phê duyệt nội dung được đội ngũ agency của bạn tạo ra"
+  },
+  "loading": {
+    "message": "Đang tải nội dung để duyệt..."
+  },
+  "error": {
+    "title": "Lỗi Khi Tải Nội Dung",
+    "defaultMessage": "Không thể tải nội dung. Vui lòng thử lại."
+  },
+  "tabs": {
+    "pending": "Chờ duyệt",
+    "approved": "Đã duyệt",
+    "changes": "Cần chỉnh sửa"
+  },
+  "stats": {
+    "pending": "Chờ duyệt",
+    "approved": "Đã duyệt",
+    "changes": "Cần chỉnh sửa"
+  },
+  "status": {
+    "draft": "Bản nháp",
+    "awaitingReview": "Đang chờ duyệt",
+    "approved": "Đã được phê duyệt",
+    "changesRequested": "Yêu cầu chỉnh sửa",
+    "rejected": "Bị từ chối"
+  },
+  "outputCard": {
+    "untitledOutput": "Nội dung chưa đặt tên",
+    "defaultAgentType": "Nội dung",
+    "viewDetails": "Xem chi tiết",
+    "approve": "Phê duyệt",
+    "requestChanges": "Yêu cầu chỉnh sửa",
+    "approvedByClient": "Được khách hàng phê duyệt",
+    "changesRequestedByClient": "Khách hàng yêu cầu chỉnh sửa"
+  },
+  "emptyState": {
+    "pending": {
+      "title": "Đã Hoàn Tất",
+      "description": "Không có nội dung nào đang chờ bạn duyệt. Agency của bạn sẽ thông báo khi có nội dung mới sẵn sàng.",
+      "hint": "Các bài đăng mới sẽ xuất hiện tại đây"
+    },
+    "approved": {
+      "title": "Chưa Có Nội Dung Được Duyệt",
+      "description": "Nội dung bạn phê duyệt sẽ được lưu trữ tại đây để dễ dàng tham khảo và sử dụng sau này.",
+      "hint": "Thư viện nội dung đã duyệt của bạn"
+    },
+    "changes": {
+      "title": "Không Có Yêu Cầu Chỉnh Sửa",
+      "description": "Khi bạn yêu cầu chỉnh sửa nội dung, các mục đó sẽ xuất hiện tại đây để theo dõi.",
+      "hint": "Phản hồi đang được xử lý"
+    }
+  }
+}

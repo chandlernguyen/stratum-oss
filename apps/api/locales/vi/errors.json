@@ -1,0 +1,30 @@
+{
+  "generic": "Đã xảy ra lỗi. Vui lòng thử lại.",
+  "network": "Lỗi kết nối mạng. Vui lòng kiểm tra kết nối của bạn.",
+  "server": "Lỗi máy chủ. Vui lòng thử lại sau.",
+  "notFound": "Không tìm thấy tài nguyên.",
+  "unauthorized": "Bạn không có quyền thực hiện thao tác này.",
+  "forbidden": "Truy cập bị từ chối.",
+  "timeout": "Yêu cầu đã hết thời gian. Vui lòng thử lại.",
+  "sessionExpired": "Phiên làm việc đã hết hạn. Vui lòng đăng nhập lại.",
+  "validation": {
+    "required": "{field} là bắt buộc.",
+    "invalid": "{field} không hợp lệ.",
+    "tooShort": "{field} phải có ít nhất {min} ký tự.",
+    "tooLong": "{field} phải có tối đa {max} ký tự.",
+    "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ.",
+    "invalidPassword": "Mật khẩu không đáp ứng yêu cầu."
+  },
+  "auth": {
+    "invalidCredentials": "Email hoặc mật khẩu không đúng.",
+    "emailInUse": "Email này đã được đăng ký.",
+    "accountLocked": "Tài khoản tạm thời bị khóa. Vui lòng thử lại sau.",
+    "tooManyAttempts": "Quá nhiều lần thử. Vui lòng thử lại sau.",
+    "invalidInvitationCode": "Mã mời không hợp lệ."
+  },
+  "agent": {
+    "unavailable": "Trợ lý tạm thời không khả dụng. Vui lòng thử lại.",
+    "toolExecutionFailed": "Không thể thực thi {tool}. Vui lòng thử lại.",
+    "responseGenerationFailed": "Không thể tạo phản hồi. Vui lòng thử lại."
+  }
+}

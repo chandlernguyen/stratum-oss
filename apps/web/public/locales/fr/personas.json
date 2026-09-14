@@ -1,0 +1,140 @@
+{
+  "title": "Personas clients",
+  "subtitle": "Comprenez et definissez vos clients cibles",
+  "list": {
+    "title": "Tous les personas",
+    "empty": "Aucun persona pour le moment",
+    "emptyDescription": "Creez votre premier persona pour mieux comprendre vos clients cibles",
+    "createFirst": "Creer le premier persona",
+    "loading": "Chargement des personas...",
+    "primary": "Principal",
+    "archived": "Archive",
+    "restore": "Restaurer",
+    "interview": "Interviewer"
+  },
+  "form": {
+    "create": "Creer un persona",
+    "edit": "Modifier le persona",
+    "sections": {
+      "basic": "Informations de base",
+      "demographics": "Donnees demographiques",
+      "psychographics": "Psychographie",
+      "behaviors": "Comportements",
+      "journey": "Parcours d'achat"
+    },
+    "fields": {
+      "name": "Nom du persona",
+      "namePlaceholder": "Ex. : Marie, responsable marketing",
+      "avatar": "Avatar",
+      "description": "Description",
+      "descriptionPlaceholder": "Breve description de ce persona",
+      "age": "Tranche d'age",
+      "gender": "Genre",
+      "location": "Localisation",
+      "income": "Niveau de revenus",
+      "education": "Formation",
+      "jobTitle": "Poste",
+      "industry": "Secteur",
+      "companySize": "Taille de l'entreprise",
+      "goals": "Objectifs et motivations",
+      "goalsPlaceholder": "Que cherche a accomplir ce persona ?",
+      "painPoints": "Freins et difficultes",
+      "painPointsPlaceholder": "A quels problemes cette personne fait-elle face ?",
+      "values": "Valeurs et priorites",
+      "interests": "Centres d'interet et loisirs",
+      "mediaConsumption": "Consommation media",
+      "preferredChannels": "Canaux preferes",
+      "buyingBehavior": "Comportement d'achat",
+      "decisionFactors": "Facteurs de decision",
+      "objections": "Objections frequentes"
+    },
+    "validation": {
+      "nameRequired": "Le nom du persona est obligatoire"
+    }
+  },
+  "detail": {
+    "overview": "Vue d'ensemble",
+    "journey": "Parcours d'achat",
+    "messaging": "Guide de messaging",
+    "campaigns": "Campagnes associees"
+  },
+  "journey": {
+    "stages": {
+      "awareness": "Decouverte",
+      "consideration": "Consideration",
+      "decision": "Decision",
+      "retention": "Retention",
+      "advocacy": "Recommandation"
+    },
+    "fields": {
+      "touchpoints": "Points de contact",
+      "content": "Besoins en contenu",
+      "questions": "Questions cles",
+      "actions": "Actions attendues"
+    }
+  },
+  "actions": {
+    "create": "Creer un persona",
+    "edit": "Modifier",
+    "duplicate": "Dupliquer",
+    "archive": "Archiver",
+    "delete": "Supprimer",
+    "export": "Exporter",
+    "viewDetails": "Voir les details",
+    "generateWithAI": "Generer avec l'IA",
+    "moreOptions": "Plus d'options"
+  },
+  "filters": {
+    "all": "Tous les personas",
+    "active": "Actifs",
+    "archived": "Archives",
+    "search": "Rechercher des personas..."
+  },
+  "confirmDelete": {
+    "title": "Supprimer le persona",
+    "message": "Voulez-vous vraiment supprimer ce persona ? Cela n'affectera pas les campagnes qui l'utilisent deja.",
+    "confirm": "Supprimer",
+    "cancel": "Annuler"
+  },
+  "aiGeneration": {
+    "title": "Generer un persona avec l'IA",
+    "description": "Decrivez votre client cible et notre IA creera un persona detaille",
+    "placeholder": "Decrivez votre client ideal : son role, son secteur, ses difficultes et ce qu'il recherche...",
+    "generate": "Generer le persona",
+    "generating": "Generation..."
+  },
+  "sidebar": {
+    "expandTooltip": "Developper la barre laterale",
+    "collapseTooltip": "Replier la barre laterale",
+    "createTooltip": "Creer un nouveau persona",
+    "header": "Agent Personas",
+    "tabs": {
+      "history": "Historique",
+      "outputs": "Personas"
+    },
+    "newPersona": "Nouveau persona",
+    "newChat": "Nouveau chat",
+    "viewActive": "Voir les actifs",
+    "viewArchived": "Voir les archives",
+    "loading": "Chargement des personas...",
+    "emptyPersonas": "Aucun persona cree pour le moment",
+    "emptyPersonasDescription": "Creez votre premier persona pour commencer a comprendre vos clients",
+    "createFirstPersona": "Creer le premier persona",
+    "emptyHistory": "Aucun historique de chat pour le moment",
+    "emptyHistoryDescription": "Lancez une interview avec un persona pour voir l'historique ici",
+    "untitledSession": "Session sans titre",
+    "messages": "{{count}} messages",
+    "archived": "Archive",
+    "primary": "Principal",
+    "sessionActions": {
+      "rename": "Renommer la session",
+      "export": "Exporter la session",
+      "duplicate": "Dupliquer la session"
+    }
+  },
+  "relativeTime": {
+    "justNow": "a l'instant",
+    "hoursAgo": "il y a {{count}} h",
+    "daysAgo": "il y a {{count}} j"
+  }
+}

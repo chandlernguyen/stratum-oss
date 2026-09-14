@@ -1,0 +1,149 @@
+{
+  "intelligenceBriefing": {
+    "title": "你嘅智能簡報",
+    "subtitle": "基於你嘅業務背景推薦嘅 AI 行動",
+    "tooltip": "根據你嘅業務目標度身定制嘅 AI 下一步建議",
+    "emptyState": "我哋正在分析你嘅業務，以推薦高影響嘅下一步行動。",
+    "emptyAction": "從商業策略開始",
+    "aiBadge": "AI 驅動",
+    "loadingState": "正在分析你嘅業務背景..."
+  },
+  "intelligenceVault": {
+    "title": "最近智能成果",
+    "subtitle": "來自 AI 智能助手嘅策略洞察同產出",
+    "emptyState": "仲未有智能成果。開始構建你嘅策略基礎。",
+    "emptyAction": "生成第一份策略",
+    "viewAll": "查看全部智能成果 →",
+    "totalBadge": "共 {{count}} 項"
+  },
+  "campaigns": {
+    "title": "你嘅營銷活動",
+    "subtitle": "按業務計劃組織你嘅智能成果",
+    "createButton": "將智能成果組織到營銷活動中",
+    "createButtonShort": "建立營銷活動",
+    "emptyStateNoIntelligence": "仲未有營銷活動。請先完成關鍵智能產出（策略、畫像、營銷）。",
+    "emptyStateHasIntelligence": "準備好按業務計劃組織你嘅智能成果了嗎？",
+    "emptyActionPrimary": "從策略開始",
+    "emptyActionSecondary": "構建智能基礎",
+    "emptyActionReady": "建立第一個營銷活動",
+    "sectionDescription": "按業務計劃組織你嘅智能成果"
+  },
+  "intelligenceReadiness": {
+    "bannerIncompleteTitle": "正在構建你嘅策略基礎",
+    "bannerIncompleteSubtitle": "（已完成 {{percentage}}%）",
+    "bannerCompleteTitle": "已準備好建立你嘅第一個營銷活動",
+    "bannerCompleteSubtitle": "你已經建立咗扎實嘅策略基礎",
+    "checklistLabel": "請完成呢啲關鍵智能產出：",
+    "checklistItems": {
+      "strategy": "商業策略",
+      "persona": "客戶畫像",
+      "marketingStrategy": "營銷策略"
+    },
+    "actions": {
+      "createCampaign": "建立營銷活動",
+      "maybeLater": "遲啲先"
+    },
+    "descriptionComplete": "建立營銷活動，以按業務計劃組織你嘅智能成果並追蹤表現。",
+    "descriptionIncomplete": "建立營銷活動前，請先完成呢啲關鍵智能產出："
+  },
+  "outputs": {
+    "pageTitle": "產出中心",
+    "pageSubtitle": "所有 AI 生成嘅洞察同內容匯集於一處",
+    "organizeButtonNotReady": "組織智能成果",
+    "organizeButtonReady": "建立營銷活動",
+    "emptyState": "仲未有智能產出",
+    "emptyAction": "開始生成策略洞察"
+  },
+  "onboarding": {
+    "welcomeTitle": "歡迎嚟到 STRA\u0166UM 營銷套件",
+    "welcomeSubtitle": "先建立智能基礎，再自信咁執行",
+    "welcomeDescription": "先從了解你嘅業務同客戶開始，營銷活動之後先做",
+    "ctaStrategy": {
+      "title": "從策略開始",
+      "subtitle": "推薦嘅第一步",
+      "description": "使用 11 個策略框架分析你嘅業務並建立穩固基礎",
+      "timeEstimate": "3 分鐘獲得首個洞察"
+    },
+    "ctaPersona": {
+      "title": "了解你嘅客戶",
+      "subtitle": "建立詳細買家畫像",
+      "description": "藉助 AI 驅動嘅客戶洞察，了解你嘅營銷對象係邊個",
+      "timeEstimate": "5 分鐘建立畫像"
+    },
+    "ctaQuickStart": {
+      "title": "快速開始模板",
+      "subtitle": "幾分鐘內攞到成果",
+      "description": "從預設嘅智能工作流中揀選，即刻獲得洞察",
+      "timeEstimate": "2-10 分鐘完成"
+    },
+    "agentExplorerTitle": "或探索 AI 智能助手",
+    "agentCount": "{{count}} 個專業智能助手助力你嘅營銷成功"
+  },
+  "agentCategories": {
+    "foundation": {
+      "name": "基礎",
+      "description": "打造你嘅營銷基礎"
+    },
+    "execution": {
+      "name": "執行",
+      "description": "將策略付諸行動"
+    },
+    "intelligence": {
+      "name": "智能分析",
+      "description": "優化同分析"
+    }
+  },
+  "emptyStates": {
+    "noIntelligence": {
+      "title": "仲未有智能成果",
+      "description": "藉助 AI 洞察開始建立你嘅策略基礎",
+      "action": "從策略開始"
+    },
+    "noCampaigns": {
+      "title": "仲未有營銷活動",
+      "description": "營銷活動用嚟按業務計劃組織智能成果",
+      "action": "先構建智能基礎"
+    },
+    "intelligenceVaultEmpty": {
+      "title": "你嘅智能資料庫",
+      "description": "仲未有智能產出。開始構建你嘅策略基礎。",
+      "action": "生成第一份策略"
+    },
+    "campaignsNotReady": {
+      "title": "先構建智能基礎",
+      "description": "喺將內容組織到營銷活動前，請先建立策略、畫像同營銷計劃。",
+      "action": "從策略開始"
+    }
+  },
+  "tooltips": {
+    "intelligenceBriefing": {
+      "title": "你嘅 AI 下一步建議",
+      "description": "我哋會分析你嘅業務背景，以推薦高影響行動",
+      "dismissLabel": "知道了"
+    }
+  },
+  "buttons": {
+    "organizeIntelligence": "將智能成果組織到營銷活動中",
+    "createCampaign": "建立營銷活動",
+    "startWithStrategy": "從策略開始",
+    "buildIntelligence": "構建智能基礎",
+    "viewAllIntelligence": "查看全部智能成果",
+    "generateStrategy": "生成策略",
+    "exploreAgents": "探索 AI 智能助手",
+    "quickStart": "快速開始（5 分鐘）"
+  },
+  "progress": {
+    "readinessPercentage": "距可建立營銷活動仲差 {{percentage}}%",
+    "intelligenceOutputs": "{{count}} 個智能產出",
+    "intelligenceOutputs_other": "{{count}} 個智能產出",
+    "agentInteractions": "本週 {{count}} 次 AI 互動",
+    "agentInteractions_other": "本週 {{count}} 次 AI 互動",
+    "strategicFoundation": "策略基礎：{{status}}"
+  },
+  "concepts": {
+    "intelligenceFirst": "喺執行前先建立策略智能，以獲得更好嘅成果",
+    "campaignsOrganize": "營銷活動用嚟組織你嘅智能成果，而唔係直接驅動執行",
+    "aiAgents": "9 個專業 AI 智能助手幫你建立策略基礎",
+    "quickWins": "喺構建長期策略嘅同時，即刻獲得可執行洞察"
+  }
+}

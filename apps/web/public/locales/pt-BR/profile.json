@@ -1,0 +1,166 @@
+{
+  "title": "Perfil",
+  "tabs": {
+    "profile": "Perfil",
+    "intelligence": "Inteligência de Negócios",
+    "intelligenceShort": "Intel",
+    "permissions": "Permissões",
+    "settings": "Configurações"
+  },
+  "orgType": {
+    "agency": "Agência",
+    "sme": "PME"
+  },
+  "roles": {
+    "sme_owner": "Proprietário PME",
+    "agency_owner": "Proprietário da Agência",
+    "agency_admin": "Administrador da Agência",
+    "agency_account_manager": "Gerente de Contas",
+    "agency_strategist": "Estrategista Sênior",
+    "agency_creative": "Equipe Criativa",
+    "agency_analyst": "Analista",
+    "agency_campaign_manager": "Gerente de Campanhas",
+    "agency_client_viewer": "Visualizador de Clientes",
+    "agency_freelancer": "Freelancer",
+    "agency_viewer": "Visualizador",
+    "account_manager": "Gerente de Contas",
+    "client_stakeholder": "Stakeholder do Cliente",
+    "client_collaborator": "Colaborador do Cliente",
+    "default": "Usuário"
+  },
+  "deletion": {
+    "title": "Conta Agendada para Exclusão",
+    "deletionDate": "Sua conta será permanentemente excluída em {{date}}",
+    "reason": "Motivo: {{reason}}",
+    "restoreTitle": "Para restaurar sua conta:",
+    "restoreDescription": "Entre em contato com o suporte em {{email}} antes da data de exclusão. Inclua seu endereço de e-mail e ID da conta na solicitação."
+  },
+  "profileInfo": {
+    "title": "Informações do Perfil",
+    "subtitle": "Gerencie seus detalhes pessoais e da organização"
+  },
+  "personal": {
+    "title": "Dados Pessoais",
+    "displayName": "Nome de Exibição",
+    "displayNamePlaceholder": "Digite seu nome completo",
+    "email": "Endereço de E-mail",
+    "phone": "Número de Telefone",
+    "phonePlaceholder": "+55 (11) 90000-0000",
+    "bio": "Bio",
+    "bioPlaceholder": "Conte-nos sobre você..."
+  },
+  "organization": {
+    "title": "Informações da Organização",
+    "name": "Nome da Organização",
+    "nameNote": "(Nome da conta)",
+    "type": "Tipo de Organização",
+    "typeAgency": "Agência de Marketing",
+    "typeSME": "Pequena-Média Empresa",
+    "memberSince": "Membro Desde",
+    "activeCampaigns": "Campanhas Ativas",
+    "campaignCount_one": "{{count}} campanha",
+    "campaignCount_other": "{{count}} campanhas",
+    "website": "Site da Empresa"
+  },
+  "permissions": {
+    "title": "Permissões de Acesso",
+    "subtitle": "Suas permissões e capacidades baseadas em função",
+    "fullAdmin": {
+      "title": "Acesso Administrativo Completo",
+      "enabled": "Habilitado",
+      "permissions": [
+        "Gerenciar todas as contas de clientes",
+        "Criar e excluir campanhas",
+        "Acessar todos os recursos dos agentes",
+        "Configurar ajustes de white-label",
+        "Visualizar todas as análises e relatórios",
+        "Gerenciar membros da equipe",
+        "Exportar e importar dados"
+      ]
+    },
+    "businessOwner": {
+      "title": "Acesso de Proprietário do Negócio",
+      "enabled": "Habilitado",
+      "permissions": [
+        "Acesso completo a todos os agentes de IA",
+        "Criar e gerenciar campanhas",
+        "Visualizar análises e insights",
+        "Exportar relatórios e dados",
+        "Gerenciar colaboração da equipe",
+        "Configurar ajustes do negócio"
+      ]
+    },
+    "accountManager": {
+      "title": "Acesso de Gerente de Contas",
+      "enabled": "Habilitado",
+      "permissions": [
+        "Gerenciar contas de clientes atribuídas",
+        "Criar campanhas para clientes",
+        "Acessar análises específicas do cliente",
+        "Usar todos os agentes de IA",
+        "Exportar relatórios de clientes",
+        "Colaborar com membros da equipe"
+      ]
+    },
+    "guest": {
+      "title": "Acesso de Convidado",
+      "limited": "Limitado",
+      "permissions": [
+        "Visualizar resultados de campanhas",
+        "Acessar relatórios aprovados",
+        "Visualizar painéis de análise",
+        "Baixar dados exportados"
+      ]
+    },
+    "security": {
+      "title": "Medidas de Segurança",
+      "description": "Implementamos as melhores práticas de segurança, mas como serviço alpha, não podemos garantir proteção completa. Consulte nossa Política de Privacidade para detalhes.",
+      "measures": [
+        "Segurança em Nível de Linha no Banco de Dados (RLS)",
+        "Isolamento de Dados Multi-Tenant",
+        "Autenticação Segura (Supabase Auth)"
+      ]
+    }
+  },
+  "settings": {
+    "title": "Configurações da Conta",
+    "subtitle": "Gerencie as preferências e segurança da sua conta",
+    "security": {
+      "title": "Segurança",
+      "changePassword": "Alterar Senha",
+      "manageMFA": "Gerenciar Autenticação de Dois Fatores",
+      "viewLoginActivity": "Visualizar Atividade de Login",
+      "comingSoon": "Em Breve"
+    },
+    "dataPrivacy": {
+      "title": "Dados e Privacidade",
+      "downloadData": "Baixar Meus Dados",
+      "downloading": "Baixando...",
+      "deleteAccount": "Excluir Conta"
+    }
+  },
+  "validation": {
+    "fieldEmpty": "O campo não pode estar vazio"
+  },
+  "toast": {
+    "notAuthenticated": "Não autenticado",
+    "notAuthenticatedDesc": "Por favor, faça login para baixar seus dados.",
+    "exportSuccess": "Dados exportados com sucesso",
+    "exportSuccessDesc": "Seus dados foram baixados como um arquivo JSON.",
+    "exportError": "Falha ao exportar dados",
+    "exportErrorDesc": "Por favor, tente novamente mais tarde."
+  },
+  "insights": {
+    "status": {
+      "approved": "Aprovado",
+      "rejected": "Rejeitado",
+      "pendingReview": "Revisão Pendente"
+    },
+    "time": {
+      "justNow": "agora mesmo",
+      "minutesAgo": "{{count}}min atrás",
+      "hoursAgo": "{{count}}h atrás",
+      "daysAgo": "{{count}}d atrás"
+    }
+  }
+}

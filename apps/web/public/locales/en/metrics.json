@@ -1,0 +1,55 @@
+{
+  "title": "Real-Time Metrics Dashboard",
+  "subtitle": "Live campaign performance monitoring and insights",
+  "loading": "Loading metrics...",
+  "live": "LIVE",
+  "widget": {
+    "show": "Show ROI Widget",
+    "hide": "Hide ROI Widget"
+  },
+  "cards": {
+    "totalROI": "Total ROI",
+    "conversions": "Conversions",
+    "conversionRate": "Conversion Rate",
+    "clickThroughRate": "Click-Through Rate",
+    "impressions": "Impressions",
+    "budgetRemaining": "Budget Remaining"
+  },
+  "charts": {
+    "roiTrend": {
+      "title": "ROI Trend",
+      "description": "Real-time ROI performance over time"
+    },
+    "conversionsSpend": {
+      "title": "Conversions & Spend",
+      "description": "Correlation between spending and conversions"
+    },
+    "legends": {
+      "conversions": "Conversions",
+      "spend": "Spend ($)"
+    }
+  },
+  "agents": {
+    "title": "Active AI Agents",
+    "description": "Currently optimizing your campaign",
+    "status": "Active",
+    "tip": "Your agents are continuously monitoring and optimizing campaign performance in real-time."
+  },
+  "timePeriods": {
+    "minutes": "{{value}}m",
+    "hours": "{{value}}h",
+    "days": "{{value}}d",
+    "weeks": "{{value}}w"
+  },
+  "statistics": {
+    "thousand": "{{value}}K",
+    "million": "{{value}}M",
+    "percent": "{{value}}%",
+    "currency": "${{value}}"
+  },
+  "trends": {
+    "up": "Trending up",
+    "down": "Trending down",
+    "stable": "Stable"
+  }
+}

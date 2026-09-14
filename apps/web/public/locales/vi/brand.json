@@ -1,0 +1,389 @@
+{
+  "comparison": {
+    "pageTitle": "So Sánh Thương Hiệu",
+    "fourWayTitle": "So Sánh 4 Phiên Bản STRAŦUM",
+    "fourWayDescription": "Hãy chọn phiên bản STRAŦUM phù hợp nhất với bản sắc thương hiệu của bạn",
+    "cortexVsStratum": "CORTEX và STRAŦUM",
+    "backToSingleView": "Quay Lại Chế Độ Đơn",
+    "singleView": "Chế Độ Đơn",
+    "compareFourOptions": "So Sánh 4 Tùy Chọn STRAŦUM"
+  },
+  "brands": {
+    "cortex": {
+      "subtitle": "TRÍ TUỆ THẦN KINH"
+    },
+    "stratum": {
+      "subtitle": "CÁC TẦNG CHIẾN LƯỢC"
+    }
+  },
+  "hero": {
+    "subtitle": "Hiểu Rõ Trước Khi Hành Động"
+  },
+  "cta": {
+    "startFreeTrial": "Bắt Đầu Dùng Thử Miễn Phí",
+    "watchDemo": "Xem Demo",
+    "selectThisOption": "Chọn Tùy Chọn Này",
+    "learnMore": "Tìm Hiểu Thêm"
+  },
+  "valuePropositions": {
+    "strategicIntelligence": {
+      "title": "Phân Tích Chiến Lược",
+      "description": "SWOT, Mô Hình 5 Lực Lượng Porter, Business Model Canvas, và 8 khung phân tích đã được chứng minh khác"
+    },
+    "customerInsights": {
+      "title": "Hiểu Biết Khách Hàng",
+      "description": "Phân tích chân dung khách hàng sâu, lập bản đồ hành trình mua sắm, và phân tích hành vi"
+    },
+    "roiTracking": {
+      "title": "Theo Dõi ROI",
+      "description": "Phân tích hiệu suất thời gian thực và đề xuất tối ưu hóa bằng AI"
+    }
+  },
+  "features": {
+    "sectionTitle": {
+      "cortex": "Bộ Não Marketing Của Bạn, Được Hỗ Trợ Bởi AI",
+      "stratum": "Xây Dựng Nền Tảng Chiến Lược"
+    },
+    "sectionSubtitle": {
+      "cortex": "Phân tích thông minh cho mọi quyết định marketing",
+      "stratum": "Từng tầng một, xây dựng nền tảng marketing toàn diện"
+    },
+    "aiAgents": {
+      "title": "10 Trợ Lý AI Chuyên Biệt",
+      "description": "Chiến Lược, Chân Dung Khách Hàng, Nội Dung, Phân Tích, Lập Kế Hoạch Chiến Dịch, Theo Dõi ROI, và nhiều hơn nữa"
+    },
+    "continuousLearning": {
+      "title": "Hệ Thống Học Liên Tục",
+      "description": "AI ngày càng hiểu rõ hơn về doanh nghiệp của bạn qua mỗi tương tác"
+    },
+    "zeroExecutionRisk": {
+      "title": "Không Có Rủi Ro Thực Thi",
+      "description": "Thông tin và hiểu biết mà không tự động thực thi - bạn vẫn nắm quyền kiểm soát"
+    }
+  },
+  "footer": {
+    "copyright": "2026 {{brandName}}.",
+    "privacyPolicy": "Chính Sách Bảo Mật",
+    "termsConditions": "Điều Khoản & Điều Kiện",
+    "contact": "Liên Hệ"
+  },
+  "detailedComparison": {
+    "title": "So Sánh Chi Tiết",
+    "criteria": {
+      "visualDistinction": "Độc Đáo Về Thị Giác",
+      "matchesDialogueDna": "Phù Hợp DNA DIALOGUE",
+      "easyToType": "Dễ Gõ",
+      "conceptualFit": "Phù Hợp Khái Niệm",
+      "professionalFeel": "Cảm Nhận Chuyên Nghiệp",
+      "recommendation": "Đề Xuất"
+    },
+    "conceptualFitValues": {
+      "greekAlpha": "Alpha Hy Lạp",
+      "cuttingLayers": "Cắt Qua Các Tầng",
+      "topLayer": "Tầng Trên Cùng",
+      "multiLayer": "Đa Tầng"
+    },
+    "recommendations": {
+      "good": "Tốt",
+      "best": "Tốt Nhất",
+      "great": "Tuyệt Vời",
+      "bold": "Mạnh Mẽ"
+    },
+    "recommendedBrand": {
+      "title": "Đề Xuất: STRAŦUM",
+      "description": "Chữ Ŧ với nét ngang đại diện hoàn hảo cho \"cắt qua các tầng\" và phù hợp với DNA thương hiệu của DIALØGUE (cả hai đều sử dụng thiết kế đường kẻ qua chữ cái). Nó nổi bật về thị giác, phù hợp về mặt khái niệm với \"các tầng chiến lược,\" và được đặt nổi bật ở giữa từ."
+    }
+  },
+  "variationCard": {
+    "specialCharacter": "Ký Tự Đặc Biệt",
+    "colorPalette": "Bảng Màu",
+    "gradientPreview": "Xem Trước Gradient",
+    "inContext": "Trong Ngữ Cảnh",
+    "url": "URL",
+    "tagline": "Khẩu Hiệu",
+    "positioning": "Định Vị",
+    "colors": {
+      "primary": "Chính",
+      "dark": "Đậm",
+      "gold": "Vàng"
+    }
+  },
+  "splitView": {
+    "typography": "Phông Chữ",
+    "headingStyle": "Kiểu Tiêu Đề",
+    "bodyText": "Văn bản chính và mô tả sử dụng Inter với trọng số bình thường để có khả năng đọc tối ưu.",
+    "iconSymbol": "Biểu Tượng"
+  },
+  "guidelines": {
+    "similar": "tương tự",
+    "untitled": "Hướng Dẫn Chưa Đặt Tên",
+    "status": {
+      "archived": "Đã Lưu Trữ",
+      "default": "Mặc Định",
+      "active": "Đang Hoạt Động"
+    },
+    "activeCount": "{{count}} đang hoạt động",
+    "clickToView": "Nhấp để xem",
+    "actions": {
+      "restore": "Khôi Phục"
+    },
+    "emptyStates": {
+      "noGuidelines": {
+        "title": "Chưa có hướng dẫn thương hiệu",
+        "description": "Tạo hướng dẫn thương hiệu đầu tiên để thiết lập nhận diện thương hiệu"
+      },
+      "noArchivedGuidelines": {
+        "title": "Không có hướng dẫn đã lưu trữ",
+        "description": "Hướng dẫn đã lưu trữ sẽ xuất hiện ở đây"
+      }
+    },
+    "alerts": {
+      "multipleActive": {
+        "title": "Nhiều Hướng Dẫn Đang Hoạt Động",
+        "description": "Bạn có {{count}} hướng dẫn đang hoạt động. Hãy xem xét lưu trữ các phiên bản cũ để duy trì sự rõ ràng."
+      }
+    },
+    "stats": {
+      "totalGuidelines": "Tổng Số Hướng Dẫn",
+      "activeGuidelines": "Hướng Dẫn Đang Hoạt Động",
+      "archivedGuidelines": "Hướng Dẫn Đã Lưu Trữ"
+    },
+    "tabs": {
+      "active": "Đang Hoạt Động",
+      "archived": "Đã Lưu Trữ",
+      "all": "Tất Cả"
+    },
+    "view": {
+      "title": "Hướng Dẫn Thương Hiệu",
+      "tabs": {
+        "overview": "Tổng Quan",
+        "voice": "Giọng Điệu",
+        "visual": "Nhận Diện Hình Ảnh",
+        "messaging": "Thông Điệp"
+      },
+      "sections": {
+        "toneOfVoice": "Giọng Điệu",
+        "personality": "Tính Cách",
+        "writingStyle": "Phong Cách Viết",
+        "doAndDont": "Nên và Không Nên",
+        "brandVoice": "Giọng Nói Thương Hiệu",
+        "colorPalette": "Bảng Màu",
+        "typography": "Kiểu Chữ",
+        "imagery": "Hướng Dẫn Hình Ảnh",
+        "tagline": "Khẩu Hiệu",
+        "valueProposition": "Giá Trị Đề Xuất",
+        "keyMessages": "Thông Điệp Chính",
+        "targetAudience": "Đối Tượng Mục Tiêu"
+      }
+    },
+    "forms": {
+      "strategy": {
+        "title": "Chiến Lược Thương Hiệu",
+        "badge": "Chiến Lược",
+        "fields": {
+          "mission": {
+            "label": "Tuyên Bố Sứ Mệnh",
+            "placeholder": "Sứ mệnh của thương hiệu bạn là gì?"
+          },
+          "vision": {
+            "label": "Tuyên Bố Tầm Nhìn",
+            "placeholder": "Tầm nhìn dài hạn của thương hiệu bạn là gì?"
+          },
+          "values": {
+            "label": "Giá Trị Cốt Lõi",
+            "placeholder": "Thêm giá trị cốt lõi"
+          },
+          "positioning": {
+            "label": "Định Vị Thương Hiệu",
+            "placeholder": "Thương hiệu bạn định vị như thế nào trên thị trường?"
+          },
+          "targetAudience": {
+            "label": "Đối Tượng Mục Tiêu",
+            "placeholder": "Đối tượng mục tiêu của bạn là ai?"
+          },
+          "competitors": {
+            "label": "Đối Thủ Cạnh Tranh Chính",
+            "placeholder": "Thêm đối thủ cạnh tranh"
+          },
+          "differentiators": {
+            "label": "Yếu Tố Khác Biệt Chính",
+            "placeholder": "Thêm yếu tố khác biệt"
+          }
+        }
+      },
+      "voice": {
+        "title": "Giọng Nói Thương Hiệu",
+        "badge": "Giọng Nói",
+        "sections": {
+          "toneOfVoice": "Giọng Điệu",
+          "personality": "Đặc Điểm Tính Cách",
+          "writingStyle": "Phong Cách Viết",
+          "doAndDont": "Nên và Không Nên"
+        },
+        "fields": {
+          "toneAttributes": {
+            "label": "Thuộc Tính Giọng Điệu",
+            "placeholder": "Thêm thuộc tính giọng điệu (ví dụ: thân thiện, chuyên nghiệp)"
+          },
+          "toneDescription": {
+            "label": "Mô Tả Giọng Điệu",
+            "placeholder": "Mô tả giọng điệu tổng thể của thương hiệu"
+          },
+          "personalityTraits": {
+            "label": "Đặc Điểm Tính Cách",
+            "placeholder": "Thêm đặc điểm tính cách"
+          },
+          "brandPersona": {
+            "label": "Nhân Cách Thương Hiệu",
+            "placeholder": "Nếu thương hiệu là một người, bạn sẽ mô tả họ như thế nào?"
+          },
+          "writingPrinciples": {
+            "label": "Nguyên Tắc Viết",
+            "placeholder": "Thêm nguyên tắc viết"
+          },
+          "grammarPreferences": {
+            "label": "Ưu Tiên Ngữ Pháp",
+            "placeholder": "Bất kỳ ưu tiên ngữ pháp cụ thể nào (ví dụ: dấu phẩy Oxford, viết tắt)"
+          },
+          "vocabularyGuidelines": {
+            "label": "Hướng Dẫn Từ Vựng",
+            "placeholder": "Hướng dẫn sử dụng từ vựng"
+          },
+          "dos": {
+            "label": "Nên Làm",
+            "placeholder": "Thêm điều thương hiệu nên làm"
+          },
+          "donts": {
+            "label": "Không Nên Làm",
+            "placeholder": "Thêm điều thương hiệu nên tránh"
+          }
+        }
+      },
+      "messaging": {
+        "title": "Thông Điệp",
+        "badge": "Thông Điệp",
+        "fields": {
+          "tagline": {
+            "label": "Khẩu Hiệu",
+            "placeholder": "Khẩu hiệu hoặc slogan của thương hiệu"
+          },
+          "valueProposition": {
+            "label": "Giá Trị Đề Xuất",
+            "placeholder": "Giá trị độc đáo mà thương hiệu bạn mang lại là gì?"
+          },
+          "elevatorPitch": {
+            "label": "Giới Thiệu Ngắn",
+            "placeholder": "Mô tả ngắn gọn, hấp dẫn về thương hiệu của bạn"
+          },
+          "keyMessages": {
+            "label": "Thông Điệp Chính",
+            "placeholder": "Thêm thông điệp chính"
+          },
+          "proofPoints": {
+            "label": "Điểm Chứng Minh",
+            "placeholder": "Thêm bằng chứng hỗ trợ các tuyên bố của bạn"
+          },
+          "callToAction": {
+            "label": "Lời Kêu Gọi Hành Động Chính",
+            "placeholder": "Lời kêu gọi hành động chính của bạn"
+          }
+        }
+      },
+      "visual": {
+        "title": "Nhận Diện Hình Ảnh",
+        "badge": "Hình Ảnh",
+        "fields": {
+          "primaryColors": {
+            "label": "Màu Chính",
+            "placeholder": "Thêm màu chính (ví dụ: #FF5733)"
+          },
+          "secondaryColors": {
+            "label": "Màu Phụ",
+            "placeholder": "Thêm màu phụ"
+          },
+          "accentColors": {
+            "label": "Màu Nhấn",
+            "placeholder": "Thêm màu nhấn"
+          },
+          "primaryFont": {
+            "label": "Phông Chữ Chính",
+            "placeholder": "Kiểu chữ chính (ví dụ: Inter, Roboto)"
+          },
+          "secondaryFont": {
+            "label": "Phông Chữ Phụ",
+            "placeholder": "Kiểu chữ phụ"
+          },
+          "fontSizeScale": {
+            "label": "Thang Kích Thước Chữ",
+            "placeholder": "Hệ thống thang kích thước chữ"
+          },
+          "logoUsage": {
+            "label": "Hướng Dẫn Sử Dụng Logo",
+            "placeholder": "Hướng dẫn sử dụng logo"
+          },
+          "imageryStyle": {
+            "label": "Phong Cách Hình Ảnh",
+            "placeholder": "Mô tả phong cách hình ảnh thương hiệu sử dụng"
+          },
+          "iconStyle": {
+            "label": "Phong Cách Biểu Tượng",
+            "placeholder": "Mô tả phong cách biểu tượng"
+          },
+          "photographyGuidelines": {
+            "label": "Hướng Dẫn Nhiếp Ảnh",
+            "placeholder": "Hướng dẫn nhiếp ảnh thương hiệu"
+          }
+        }
+      }
+    }
+  },
+  "editor": {
+    "title": "Trình Chỉnh Sửa Nhãn Trắng",
+    "description": "Tùy chỉnh nền tảng với nhận diện thương hiệu của bạn",
+    "previewMode": "Chế độ Xem trước",
+    "export": "Xuất",
+    "import": "Nhập",
+    "sections": {
+      "companyIdentity": "Nhận diện Công ty",
+      "colorPalette": "Bảng Màu",
+      "typography": "Phông Chữ",
+      "uiPreferences": "Tùy chọn Giao diện",
+      "customCss": "CSS Tùy chỉnh (Nâng cao)"
+    },
+    "fields": {
+      "companyName": "Tên Công ty",
+      "logoUrl": "URL Logo",
+      "primaryColor": "Màu Chính",
+      "secondaryColor": "Màu Phụ",
+      "accentColor": "Màu Nhấn",
+      "headingFont": "Phông Tiêu đề",
+      "bodyFont": "Phông Nội dung",
+      "borderRadius": "Bo Góc",
+      "contentDensity": "Mật độ Nội dung"
+    },
+    "placeholders": {
+      "companyName": "Tên Công ty của Bạn",
+      "logoUrl": "https://example.com/logo.png",
+      "customCss": "/* Thêm CSS tùy chỉnh tại đây */\n.your-class {\n  property: value;\n}"
+    },
+    "options": {
+      "borderRadius": {
+        "none": "Không (Vuông)",
+        "small": "Nhỏ",
+        "medium": "Trung bình",
+        "large": "Lớn",
+        "extraLarge": "Rất Lớn"
+      },
+      "density": {
+        "comfortable": "Thoải mái",
+        "compact": "Chặt",
+        "spacious": "Rộng rãi"
+      }
+    },
+    "buttons": {
+      "resetToDefault": "Đặt lại Mặc định",
+      "preview": "Xem trước",
+      "saveAndApply": "Lưu & Áp dụng"
+    }
+  }
+}

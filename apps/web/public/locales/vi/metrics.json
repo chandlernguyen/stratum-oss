@@ -1,0 +1,55 @@
+{
+  "title": "Tổng Quan Chỉ Số Thời Gian Thực",
+  "subtitle": "Theo dõi hiệu suất chiến dịch trực tiếp và phân tích",
+  "loading": "Đang tải chỉ số...",
+  "live": "TRỰC TIẾP",
+  "widget": {
+    "show": "Hiển Thị Widget ROI",
+    "hide": "Ẩn Widget ROI"
+  },
+  "cards": {
+    "totalROI": "Lợi Suất Đầu Tư (ROI)",
+    "conversions": "Chuyển Đổi",
+    "conversionRate": "Tỷ Lệ Chuyển Đổi",
+    "clickThroughRate": "Tỷ Lệ Nhấp Chuột",
+    "impressions": "Lượt Hiển Thị",
+    "budgetRemaining": "Ngân Sách Còn Lại"
+  },
+  "charts": {
+    "roiTrend": {
+      "title": "Xu Hướng Lợi Suất",
+      "description": "Hiệu suất ROI thời gian thực theo thời gian"
+    },
+    "conversionsSpend": {
+      "title": "Chuyển Đổi & Chi Tiêu",
+      "description": "Mối tương quan giữa chi tiêu và chuyển đổi"
+    },
+    "legends": {
+      "conversions": "Chuyển Đổi",
+      "spend": "Chi Tiêu ($)"
+    }
+  },
+  "agents": {
+    "title": "Trợ Lý AI Đang Hoạt Động",
+    "description": "Đang tối ưu hóa chiến dịch của bạn",
+    "status": "Đang Hoạt Động",
+    "tip": "Các trợ lý của bạn đang liên tục theo dõi và tối ưu hóa hiệu suất chiến dịch theo thời gian thực."
+  },
+  "timePeriods": {
+    "minutes": "{{value}} phút",
+    "hours": "{{value}} giờ",
+    "days": "{{value}} ngày",
+    "weeks": "{{value}} tuần"
+  },
+  "statistics": {
+    "thousand": "{{value}}K",
+    "million": "{{value}}M",
+    "percent": "{{value}}%",
+    "currency": "${{value}}"
+  },
+  "trends": {
+    "up": "Xu hướng tăng",
+    "down": "Xu hướng giảm",
+    "stable": "Ổn định"
+  }
+}

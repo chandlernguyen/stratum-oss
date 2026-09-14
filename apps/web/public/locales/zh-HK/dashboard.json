@@ -1,0 +1,473 @@
+{
+  "title": "儀表板",
+  "subtitle": "你嘅營銷智能概覽",
+  "clients": {
+    "backToClients": "返回客戶列表",
+    "addClient": {
+      "badge": "客戶入駐",
+      "title": "新增客戶",
+      "description": "錄入新客戶嘅業務背景，以獲得 AI 驅動嘅洞察"
+    },
+    "editClient": {
+      "title": "編輯客戶",
+      "description": "更新客戶資訊同業務背景"
+    },
+    "features": {
+      "aiPowered": "AI 驅動智能",
+      "personalizedStrategies": "個人化策略"
+    }
+  },
+  "welcome": {
+    "morning": "早晨",
+    "afternoon": "午安",
+    "evening": "晚安",
+    "withName": "{{greeting}}，{{name}}"
+  },
+  "hero": {
+    "badge": "AI 驅動智能",
+    "title": "你嘅智能簡報",
+    "subtitle": "根據你嘅業務背景度身定制嘅高影響行動。每條建議都建立喺你嘅策略基礎之上。",
+    "cta": "開始新嘅策略會話"
+  },
+  "loading": {
+    "intelligence": "正在載入你嘅智能數據...",
+    "data": "正在準備你嘅數據...",
+    "dashboard": "正在載入你嘅儀表板...",
+    "clientDashboard": "正在載入 {{clientSlug}} 儀表板...",
+    "fallback": "正在載入儀表板..."
+  },
+  "clientDashboard": {
+    "title": "{{clientName}} 儀表板",
+    "subtitle": "查看並管理呢個客戶嘅所有活動"
+  },
+  "noOrganization": {
+    "title": "搵唔到組織",
+    "description": "你目前似乎仲未有任何組織存取權限。請聯絡管理員。",
+    "viewProfile": "查看資料"
+  },
+  "error": {
+    "message": "錯誤：{{message}}"
+  },
+  "stats": {
+    "totalOutputs": "產出總數",
+    "intelligenceOutputs": "智能產出",
+    "activeCampaigns": "活躍活動",
+    "aiInteractions": "AI 互動次數",
+    "strategySessions": "策略會話",
+    "lastWeek": "最近 7 日",
+    "subtitles": {
+      "strategicDocuments": "策略文件",
+      "agentSessions": "智能助手會話",
+      "inProgress": "進行中",
+      "completed": "已完成"
+    }
+  },
+  "quickActions": {
+    "title": "快速操作",
+    "newStrategy": "新建策略",
+    "createPersona": "建立畫像",
+    "startCampaign": "開始活動"
+  },
+  "recommendations": {
+    "title": "推薦行動",
+    "available": "共 {{count}} 項可用",
+    "highImpact": "高影響",
+    "estimatedTime": "{{time}} min",
+    "items": {
+      "personaAnalysis": {
+        "title": "完成客戶畫像分析",
+        "description": "建立詳細買家畫像，以更精準咁定位你嘅營銷活動"
+      },
+      "marketingStrategy": {
+        "title": "查看營銷策略",
+        "description": "面向你嘅市場生成嘅 AI 渠道組合同訊息框架"
+      },
+      "contentGeneration": {
+        "title": "為最佳渠道生成內容",
+        "description": "為你表現最好嘅渠道建立優化後嘅活動素材"
+      }
+    }
+  },
+  "recentIntelligence": {
+    "title": "最近智能產出",
+    "vaultTitle": "你嘅智能資料庫",
+    "viewAll": "查看全部",
+    "viewAllIntelligence": "查看全部智能產出",
+    "emptyState": "仲未有產出。先開始一次策略會話啦。",
+    "emptyStateVault": "仲未有智能產出。開始搭建你嘅策略基礎。",
+    "generateFirst": "生成第一份策略",
+    "total": "共 {{count}} 項",
+    "agentLabels": {
+      "strategy": "策略",
+      "persona": "畫像",
+      "marketingStrategy": "營銷",
+      "content": "內容"
+    }
+  },
+  "recentActivity": {
+    "title": "最近活動",
+    "noActivity": "暫時冇最近活動",
+    "viewAll": "查看所有活動"
+  },
+  "intelligenceBriefing": {
+    "title": "你嘅智能簡報",
+    "subtitle": "基於你嘅業務背景提供高影響行動建議",
+    "empty": "完成業務資料後即可獲得個人化推薦",
+    "badge": "AI 驅動",
+    "toggleBriefing": "切換簡報",
+    "analyzing": "我哋正在分析你嘅業務背景，以推薦高影響嘅下一步行動。",
+    "startStrategy": "從商業策略開始",
+    "highImpact": "高影響",
+    "recommended": "推薦",
+    "minutes": "{{time}} min",
+    "viewAll": "查看全部 {{count}} 條推薦"
+  },
+  "campaignReadiness": {
+    "ready": {
+      "title": "已準備好建立你嘅第一個營銷活動",
+      "description": "你已經建立咗扎實嘅策略基礎。建立營銷活動可以按業務計劃組織智能成果並追蹤表現。",
+      "createCampaign": "建立營銷活動",
+      "maybeLater": "遲啲先"
+    },
+    "building": {
+      "title": "正在搭建你嘅策略基礎（已完成 {{percentage}}%）",
+      "description": "建立營銷活動前，請先完成呢啲關鍵智能產出：",
+      "businessStrategy": "商業策略",
+      "customerPersonas": "客戶畫像",
+      "marketingStrategy": "營銷策略"
+    }
+  },
+  "agency": {
+    "loading": {
+      "agencyData": "正在載入代理機構數據...",
+      "clientPortfolio": "正在載入客戶組合..."
+    },
+    "onboarding": {
+      "badge": "代理機構指揮中心",
+      "title": "歡迎嚟到你嘅代理機構工作台",
+      "description": "藉助 AI 驅動嘅營銷智能管理多個客戶",
+      "addFirstClient": "新增你嘅第一個客戶",
+      "ctaHint": "5 分鐘內開始管理你嘅第一個客戶",
+      "learnPlatform": "了解平台",
+      "videoTitle": "多客戶管理",
+      "videoHint": "影片講解即將推出",
+      "soon": "即將推出",
+      "guideTitle": "代理機構最佳實踐指南",
+      "guideDescription": "了解擴展客戶工作嘅流程",
+      "unlimitedClients": "無限客戶",
+      "fullAiAccess": "完整 AI 存取權限"
+    },
+    "header": {
+      "badge": "代理機構指揮中心",
+      "title": "{{name}} 儀表板",
+      "subtitle": "正在管理 <strong>{{clientCount}}</strong> 位客戶同 <strong>{{campaignCount}}</strong> 個營銷活動",
+      "subtitleText": "正在管理 {{clientCount}} 位客戶同 {{campaignCount}} 個營銷活動"
+    },
+    "actions": {
+      "manageClients": "管理客戶",
+      "addClient": "新增客戶",
+      "addNewClient": "新增客戶",
+      "viewAllClients": "查看所有客戶",
+      "manageTeam": "管理團隊",
+      "addFirstClient": "新增你嘅第一個客戶",
+      "viewAllClientsCount": "查看全部 {{count}} 位客戶"
+    },
+    "metrics": {
+      "totalClients": "客戶總數",
+      "activeCount": "{{count}} 位活躍",
+      "monthlyRevenue": "月收入",
+      "avgPerClient": "平均每位客戶 {{amount}}",
+      "activeCampaigns": "活躍營銷活動",
+      "ofTotal": "總計 {{total}} 個",
+      "avgCampaignsPerClient": "平均每客戶活動數",
+      "perClient": "每位客戶"
+    },
+    "portfolio": {
+      "title": "客戶組合",
+      "subtitle": "你所有代理機構客戶嘅概覽",
+      "clientCount": "{{count}} 位客戶",
+      "noClients": "仲未有客戶",
+      "campaigns": "{{count}} 個營銷活動",
+      "active": "{{count}} 個活躍"
+    },
+    "quickActions": {
+      "title": "快速操作"
+    }
+  },
+  "clientOverview": {
+    "notFound": {
+      "title": "搵唔到客戶",
+      "description": "你要搵嘅客戶唔存在，或者你冇存取權限。",
+      "backToClients": "返回客戶列表"
+    },
+    "quickStats": {
+      "title": "快速統計"
+    },
+    "recommendations": {
+      "personaAnalysis": {
+        "title": "完成客戶畫像分析",
+        "description": "為 {{clientName}} 建立詳細買家畫像，以更精準咁定位佢哋嘅營銷活動"
+      },
+      "marketingStrategy": {
+        "title": "查看營銷策略建議",
+        "description": "為呢個客戶度身定制嘅 AI 渠道組合同訊息框架"
+      },
+      "contentGeneration": {
+        "title": "為最佳渠道生成內容",
+        "description": "為佢哋表現最好嘅渠道建立優化後嘅活動素材"
+      }
+    }
+  },
+  "clientOnboarding": {
+    "title": "為呢個客戶構建智能基礎",
+    "subtitle": "先從了解佢哋嘅業務同客戶開始",
+    "hint": "營銷活動同內容之後先做，智能基礎行先",
+    "divider": "或探索其他 AI 智能助手",
+    "moreAgentsTitle": "更多 AI 營銷智能助手",
+    "moreAgentsSubtitle": "用專業智能助手推動呢個客戶嘅營銷成功",
+    "cards": {
+      "strategy": {
+        "title": "從策略開始",
+        "subtitle": "推薦嘅第一步",
+        "description": "使用 11 個策略框架分析佢哋嘅業務，建立穩固基礎",
+        "cta": "3 分鐘獲得首個洞察"
+      },
+      "persona": {
+        "title": "了解佢哋嘅客戶",
+        "subtitle": "建立詳細買家畫像",
+        "description": "透過 AI 驅動嘅客戶洞察，了解佢哋嘅營銷對象係邊個",
+        "cta": "5 分鐘建立畫像"
+      },
+      "marketingStrategy": {
+        "title": "營銷策略",
+        "subtitle": "市場進入規劃",
+        "description": "透過渠道組合同訊息框架建立完整營銷策略",
+        "cta": "7 分鐘完成"
+      }
+    },
+    "agents": {
+      "content": {
+        "name": "內容智能助手",
+        "description": "9 個用於營銷活動嘅內容生成工具"
+      },
+      "performance": {
+        "name": "績效智能",
+        "description": "統一分析、ROI 同洞察"
+      },
+      "competitive": {
+        "name": "競爭智能",
+        "description": "市場分析同競爭趨勢"
+      },
+      "campaignPlanning": {
+        "name": "營銷活動規劃",
+        "description": "多渠道活動部署"
+      }
+    }
+  },
+  "quickStartModal": {
+    "title": "快速開始 - 5 分鐘生成智能成果",
+    "description": "回答 5 個簡短問題，我哋會為你生成策略、畫像同營銷計劃",
+    "step": "第 {{current}} 步，共 {{total}} 步",
+    "complete": "已完成 {{percent}}%",
+    "back": "返回",
+    "next": "下一步",
+    "start": "開始快速上手",
+    "steps": {
+      "company": {
+        "label": "介紹一下你嘅公司",
+        "placeholder": "例如：我哋係一間 B2B SaaS 公司，為遙距團隊提供項目管理工具...",
+        "hint": "簡要描述你做咩、服務邊個，以及你嘅獨特之處"
+      },
+      "goal": {
+        "label": "你嘅主要營銷目標係咩？",
+        "placeholder": "例如：為我哋嘅企業產品每月獲取 100 個合格潛在客戶...",
+        "hint": "盡量具體：潛在客戶、銷售、品牌認知、產品發佈等"
+      },
+      "audience": {
+        "label": "你嘅目標受眾係邊個？",
+        "placeholder": "例如：中型科技公司（50-500 人）中喺團隊協作方面遇到困難嘅市場經理...",
+        "hint": "描述佢哋嘅角色、公司規模、挑戰同行為特徵"
+      },
+      "budget": {
+        "label": "你嘅每月營銷預算係幾多？",
+        "placeholder": "揀選你嘅預算範圍",
+        "hint": "呢個有助我哋推薦合適嘅策略同渠道",
+        "options": {
+          "bootstrap": "$0 - $1,000（起步階段）",
+          "growing": "$1,000 - $5,000（增長階段）",
+          "scaling": "$5,000 - $20,000（擴張階段）",
+          "enterprise": "$20,000+（企業級）"
+        }
+      },
+      "timeline": {
+        "label": "你希望幾時見到成效？",
+        "placeholder": "揀選你嘅時間週期",
+        "hint": "我哋會根據你嘅時間要求嚟確定優先策略",
+        "options": {
+          "immediate": "即刻（快速見效）",
+          "shortTerm": "1-3 個月（短期活動）",
+          "mediumTerm": "3-6 個月（中期策略）",
+          "longTerm": "6-12 個月（長期增長）"
+        }
+      }
+    }
+  },
+  "sme": {
+    "onboarding": {
+      "badge": "開始使用啦",
+      "title": "歡迎嚟到 STRA\u0166UM",
+      "subtitle": "先建立智能基礎，再自信咁執行",
+      "hint": "先了解你嘅業務同客戶，營銷活動之後先做",
+      "divider": "或探索 AI 智能助手",
+      "agentsTitle": "AI 營銷智能助手",
+      "agentsSubtitle": "7 個專業智能助手助力你嘅營銷成功",
+      "agentCount": "（{{count}} 個智能助手）",
+      "cards": {
+        "strategy": {
+          "badge": "推薦",
+          "title": "從策略開始",
+          "subtitle": "成功嘅基礎",
+          "description": "使用 11 個策略框架分析你嘅業務並建立穩固基礎",
+          "cta": "3 分鐘獲得首個洞察"
+        },
+        "persona": {
+          "title": "了解你嘅客戶",
+          "subtitle": "建立詳細買家畫像",
+          "description": "藉助 AI 驅動嘅客戶洞察，了解你嘅營銷對象係邊個",
+          "cta": "5 分鐘建立畫像"
+        },
+        "quickStart": {
+          "title": "快速開始",
+          "subtitle": "回答 5 個問題，攞到完整策略",
+          "description": "透過 5 個簡短問題生成策略、畫像同營銷計劃",
+          "cta": "5 分鐘完成"
+        }
+      },
+      "categories": {
+        "foundation": {
+          "name": "基礎",
+          "description": "建立你嘅營銷智能"
+        },
+        "execution": {
+          "name": "執行",
+          "description": "建立同部署營銷活動"
+        },
+        "intelligence": {
+          "name": "智能分析",
+          "description": "分析同優化表現"
+        }
+      },
+      "agents": {
+        "strategy": {
+          "name": "商業策略",
+          "description": "11 個策略框架同分析"
+        },
+        "persona": {
+          "name": "畫像智能助手",
+          "description": "客戶畫像同訪談模式"
+        },
+        "marketingStrategy": {
+          "name": "營銷策略",
+          "description": "市場進入同渠道策略"
+        },
+        "content": {
+          "name": "內容智能助手",
+          "description": "9 個內容生成工具"
+        },
+        "campaignPlanning": {
+          "name": "營銷活動規劃",
+          "description": "多渠道部署"
+        },
+        "performance": {
+          "name": "績效智能",
+          "description": "統一分析、ROI 同洞察"
+        },
+        "competitive": {
+          "name": "競爭智能",
+          "description": "市場分析同趨勢"
+        }
+      },
+      "trust": {
+        "noCreditCard": "無需信用卡",
+        "dataSecure": "你嘅數據安全無虞",
+        "cancelAnytime": "隨時取消"
+      }
+    }
+  },
+  "buildingMomentum": {
+    "greeting": "歡迎返嚟，{{name}}！",
+    "progress": {
+      "label": "你嘅進度：",
+      "status": "正在積累動力"
+    },
+    "stats": {
+      "activeCampaigns": "活躍營銷活動",
+      "savedStrategies": "已儲存策略",
+      "aiInteractions": "AI 互動次數"
+    },
+    "continueSection": {
+      "title": "從上次中斷嘅地方繼續",
+      "resumeEditing": "繼續編輯",
+      "budget": "預算：${{amount}}",
+      "emptyState": "仲未有營銷活動。喺下方開始你嘅第一個活動！",
+      "createCampaign": "建立營銷活動"
+    },
+    "campaignStatus": {
+      "active": "活躍",
+      "paused": "已暫停",
+      "draft": "草稿",
+      "completed": "已完成"
+    }
+  },
+  "scalingUp": {
+    "title": "儀表板",
+    "activeCampaigns": {
+      "title": "活躍營銷活動（{{active}}/{{total}}）",
+      "metrics": {
+        "ctrUp": "↑ {{value}}% CTR",
+        "convUp": "↑ {{value}}% Conv",
+        "starting": "啟動中..."
+      }
+    },
+    "quickActions": {
+      "title": "快速操作",
+      "viewAnalytics": "查看分析",
+      "createContent": "建立內容",
+      "strategyReview": "策略複盤"
+    },
+    "aiInsights": {
+      "title": "AI 洞察",
+      "agents": {
+        "content": "內容智能助手",
+        "strategy": "策略智能助手"
+      },
+      "insights": {
+        "holidayPerformance": "節日營銷活動表現高於基準",
+        "competitorGap": "喺競爭空白中發現咗新機會"
+      }
+    }
+  },
+  "agencyScaling": {
+    "title": "代理機構儀表板 - {{count}} 位活躍客戶",
+    "campaigns": "{{count}} 個營銷活動",
+    "status": {
+      "active": "活躍",
+      "paused": "已暫停"
+    },
+    "quickFilters": {
+      "title": "快速篩選",
+      "all": "全部",
+      "active": "活躍",
+      "needsAttention": "需要關注",
+      "reportsDue": "報告到期"
+    },
+    "priorities": {
+      "title": "本週優先事項",
+      "items": {
+        "strategyReview": "{{client}}：週四進行策略複盤會議",
+        "contentApproval": "{{client}}：需要內容審批",
+        "monthlyReport": "{{client}}：月度報告到期"
+      }
+    }
+  }
+}

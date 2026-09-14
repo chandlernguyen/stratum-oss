@@ -1,0 +1,140 @@
+{
+  "title": "客戶畫像",
+  "subtitle": "了解並定義你嘅目標客戶",
+  "list": {
+    "title": "全部畫像",
+    "empty": "仲未有畫像",
+    "emptyDescription": "建立你嘅第一個畫像，開始了解目標客戶",
+    "createFirst": "建立第一個畫像",
+    "loading": "正在載入畫像...",
+    "primary": "主要",
+    "archived": "已封存",
+    "restore": "還原",
+    "interview": "訪談"
+  },
+  "form": {
+    "create": "建立畫像",
+    "edit": "編輯畫像",
+    "sections": {
+      "basic": "基本資訊",
+      "demographics": "人口統計",
+      "psychographics": "心理特徵",
+      "behaviors": "行為特徵",
+      "journey": "買家旅程"
+    },
+    "fields": {
+      "name": "畫像名稱",
+      "namePlaceholder": "例如：市場經理 Maria",
+      "avatar": "頭像",
+      "description": "描述",
+      "descriptionPlaceholder": "對呢個畫像嘅簡要描述",
+      "age": "年齡範圍",
+      "gender": "性別",
+      "location": "所在地",
+      "income": "收入水平",
+      "education": "教育背景",
+      "jobTitle": "職銜",
+      "industry": "行業",
+      "companySize": "公司規模",
+      "goals": "目標與動機",
+      "goalsPlaceholder": "呢個畫像想達成咩？",
+      "painPoints": "痛點與挑戰",
+      "painPointsPlaceholder": "佢哋面對邊啲問題？",
+      "values": "價值觀與優先事項",
+      "interests": "興趣與嗜好",
+      "mediaConsumption": "媒體消費習慣",
+      "preferredChannels": "偏好渠道",
+      "buyingBehavior": "購買行為",
+      "decisionFactors": "決策因素",
+      "objections": "常見異議"
+    },
+    "validation": {
+      "nameRequired": "必須填寫畫像名稱"
+    }
+  },
+  "detail": {
+    "overview": "概覽",
+    "journey": "買家旅程",
+    "messaging": "訊息指南",
+    "campaigns": "相關營銷活動"
+  },
+  "journey": {
+    "stages": {
+      "awareness": "認知",
+      "consideration": "考慮",
+      "decision": "決策",
+      "retention": "留存",
+      "advocacy": "倡導"
+    },
+    "fields": {
+      "touchpoints": "接觸點",
+      "content": "內容需求",
+      "questions": "關鍵問題",
+      "actions": "期望行動"
+    }
+  },
+  "actions": {
+    "create": "建立畫像",
+    "edit": "編輯",
+    "duplicate": "複製",
+    "archive": "封存",
+    "delete": "刪除",
+    "export": "匯出",
+    "viewDetails": "查看詳情",
+    "generateWithAI": "使用 AI 生成",
+    "moreOptions": "更多選項"
+  },
+  "filters": {
+    "all": "全部畫像",
+    "active": "活躍",
+    "archived": "已封存",
+    "search": "搜尋畫像..."
+  },
+  "confirmDelete": {
+    "title": "刪除畫像",
+    "message": "確定要刪除呢個畫像嗎？呢個唔會影響使用過呢個畫像嘅營銷活動。",
+    "confirm": "刪除",
+    "cancel": "取消"
+  },
+  "aiGeneration": {
+    "title": "使用 AI 生成畫像",
+    "description": "描述你嘅目標客戶，我哋嘅 AI 會建立一個詳細畫像",
+    "placeholder": "描述你嘅理想客戶：佢哋嘅角色、行業、挑戰，以及佢哋搵緊咩...",
+    "generate": "生成畫像",
+    "generating": "生成中..."
+  },
+  "sidebar": {
+    "expandTooltip": "展開側邊欄",
+    "collapseTooltip": "收起側邊欄",
+    "createTooltip": "建立新畫像",
+    "header": "畫像智能助手",
+    "tabs": {
+      "history": "歷史記錄",
+      "outputs": "畫像"
+    },
+    "newPersona": "新畫像",
+    "newChat": "新對話",
+    "viewActive": "查看活躍項",
+    "viewArchived": "查看封存項",
+    "loading": "正在載入畫像...",
+    "emptyPersonas": "仲未建立畫像",
+    "emptyPersonasDescription": "建立你嘅第一個畫像，開始了解客戶",
+    "createFirstPersona": "建立第一個畫像",
+    "emptyHistory": "仲未有對話記錄",
+    "emptyHistoryDescription": "開始同畫像進行訪談後，呢度會顯示歷史記錄",
+    "untitledSession": "未命名會話",
+    "messages": "{{count}} 條訊息",
+    "archived": "已封存",
+    "primary": "主要",
+    "sessionActions": {
+      "rename": "重新命名會話",
+      "export": "匯出會話",
+      "duplicate": "複製會話"
+    }
+  },
+  "relativeTime": {
+    "justNow": "剛剛",
+    "hoursAgo": "{{count}} 小時前",
+    "daysAgo": "{{count}} 日前"
+  }
+}
