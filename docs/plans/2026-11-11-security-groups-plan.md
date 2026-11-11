@@ -284,3 +284,38 @@ is the only group with real migration risk, and S3a's findings may reshape it.
 S3, S4 and S5. Owner decisions still open:
 S4's Vercel CLI removal (the recommended assumption above), and push authorization for each group.
 This plan authorizes no implementation, push, deploy or remote setting change.
+
+## Held items — executed 2026-11-11
+
+All verified on the final commit `fd6f2d7`: backend 323 pass / 85 skip / 0 fail; web unit 60/60;
+build OK; E2E subset 39/3; Docker healthy; `pip-audit` 0; `npm audit` 0 critical, 0 high,
+7 moderate; `npm audit --omit=dev` 0. Each commit had an independent review with no Critical or
+Required findings.
+
+- [x] `regex=` → `pattern=` in `routers/insights.py` — `4515dc7`, `995590f`. The deprecation test
+  failed first, then passed; rejections are pinned to `string_pattern_mismatch`.
+- [x] pytest-asyncio 0.21 → 1.4.1; pytest pin dropped (pytest 9.2.0) — `376dadf`, `995590f`.
+  - Per-file pass/skip outcomes are identical before and after.
+  - With warnings enabled (`-o addopts="" -W default`), the suite shows 0 unawaited or unhandled
+    coroutines. The earlier check under `--disable-warnings` proved nothing.
+  - `asyncio_default_fixture_loop_scope = "function"` set.
+- [x] i18next-http-backend 3 → 4 — `85ac331`. Drops cross-fetch and node-fetch. Observed in a
+  browser: `/vi/login` and `/ja/login` render their translations, and every `/locales/*.json`
+  request returned 200.
+- [x] remark-mdx-frontmatter 5 → 6 — `88403cc`. `toml` is replaced by `smol-toml`. No MDX files
+  exist yet, so a scratch compile of YAML and TOML frontmatter through the `vite.config.ts` plugin
+  chain is the evidence. `SECURITY.md` updated to match — `fd6f2d7`.
+- [ ] **typescript-eslint — held, no upstream fix.** The advisory is in `minimatch` (fixed in
+  ≥ 11.0.1), and every typescript-eslint release, the latest (8.72.2) included, requires
+  `minimatch ^9`. It is dev-only lint tooling, so an override across two majors is not justified.
+  Revisit when upstream moves.
+- [x] **Browser upload check.**
+  - Observed in the real UI: `FileUploadButton` sends `multipart/form-data` with a boundary.
+  - The server parses the file and passes its type and size validation.
+- **New finding, pre-existing, not fixed (out of scope):**
+  - The upload route builds `genai.Client(api_key=GOOGLE_API_KEY)` directly
+    (`routers/direct_agents.py`, around line 644) instead of using the demo-aware client.
+  - Under `DEMO_MODE`, an upload therefore still needs, and with a key set would call, the real
+    Gemini Files API.
+  - With the key empty it fails locally with a sanitized 400. The fix belongs in a separate,
+    tested change.
