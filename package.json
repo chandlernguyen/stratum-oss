@@ -9,9 +9,15 @@
     "node": "22.x"
   },
   "scripts": {
+    "test:dependencies": "node --test scripts/oss/dependencies.test.cjs",
     "dev": "npm run dev --prefix apps/web",
     "build": "npm run build --prefix apps/web",
     "db:reset": "supabase db reset && echo '\n⚠️  Please refresh your browser! ⚠️\n'"
+  },
+  "overrides": {
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "^11.0.8"
+    }
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.56.0",

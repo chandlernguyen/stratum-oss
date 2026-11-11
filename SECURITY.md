@@ -148,17 +148,20 @@ Also review:
 
 ### Dependency advisories
 
-As of November 2026, `pip-audit` reports nothing for the Python lock, and
-`npm audit --omit=dev` reports nothing. `npm audit` reports seven moderate
-advisories, all one chain: `typescript-eslint` → `@typescript-eslint/typescript-estree`
-→ `minimatch` (denial of service through glob-pattern amplification).
+As of November 11, 2026, the last recorded `pip-audit` reports nothing for
+the Python lock. The updated npm lock reports zero vulnerabilities, including
+development dependencies.
 
-The fix is `minimatch` 11.0.1, but every `typescript-eslint` release, the latest
-included, requires `minimatch ^9`, so no compatible fixed version exists.
-Assessed as **low practical risk**: it is a lint-time development dependency
-that matches glob patterns written by the project's own developers, and it never
-ships in the build or runs at request time. Revisit when `typescript-eslint`
-moves to a fixed `minimatch`.
+The root manifest overrides only `@typescript-eslint/typescript-estree`'s
+`minimatch` dependency to `^11.0.8`, fixing
+[glob-pattern amplification](https://github.com/isaacs/minimatch/security/advisories/GHSA-g3hv-75wg-m249).
+This crosses the consumer's declared major range. Its installed code uses only
+the retained `minimatch(filePath, pattern, { dot: true })` function; it does not
+use the APIs removed in version 11. `npm run test:dependencies` checks the
+reported vulnerable versions and exercises the parser's default-project allowlist,
+including a rejected file. Revisit this override when TypeScript ESLint supports
+minimatch 11 directly. The override deliberately leaves ESLint's minimatch 3
+dependency alone.
 
 ### Content-Security-Policy
 

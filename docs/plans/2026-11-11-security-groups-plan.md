@@ -5,6 +5,40 @@ Date: 2026-11-11. Status: **done** (executed 2026-11-11); commits `29886c1`..`98
 Follows [2026-10-30-dependency-maintenance-plan.md](2026-10-30-dependency-maintenance-plan.md),
 whose T4 listed these groups as held. This file owns task state for them.
 
+## Dependabot follow-up — November 11, 2026
+
+- **Observed:** GitHub still listed all 13 pasted alerts as open. The current
+  `origin/main` lock already excludes `toml` (replaced by `smol-toml` through
+  remark-mdx-frontmatter 6), and i18next-http-backend 4.0.10 exceeds the three
+  patched versions, 4.0.2–4.0.4. Those 12 alerts disagree with the current graph;
+  their eventual GitHub rescan/closure is **unknown**.
+- **Changed:** root npm override scoped to typescript-estree's minimatch,
+  9.0.9 → 11.0.8. ESLint's 3.1.5 remains unchanged. New transitive packages:
+  nonrecursive-glob-match 1.1.0 and balanced-match 4.0.4; brace-expansion advances
+  to 5.0.13. Lock entries are registry.npmjs.org URLs with integrity hashes,
+  development-only, and have no install scripts. Installation disabled scripts.
+- **Derived compatibility:** minimatch 11 removes makeRe, AST and several
+  internal methods. The installed typescript-estree uses only the retained
+  named minimatch function with `dot: true`. Its pattern inputs come from lint
+  configuration. The override crosses the declared major range; revisit it when
+  the consumer supports 11 directly. No runtime application code changed.
+- **Observed checks:** `npm run test:dependencies` initially failed on locked
+  minimatch 9.0.9, then passed all three checks after the update. The actual
+  TypeScript parser accepts a matching default-project file and rejects an
+  unlisted file. Node 22.23.4: web unit tests 60/60, production build passed.
+  Full lint output is byte-identical before/after (158 existing errors, 1,409
+  warnings). Final npm audit: zero vulnerabilities, including development
+  dependencies. No Python, database, browser or deployment checks were needed
+  for this lint dependency change.
+- **Review:** a blind, fresh-context agent independently reviewed the complete
+  diff and new test against HEAD `21b4f88`. No material findings. The reviewer
+  independently passed all three dependency checks on Node 22.23.4 and 26.13.0,
+  checked the installed graph and upstream advisory, and confirmed the consumer
+  uses only the retained API. Audit, full lint comparison and web tests/build
+  were not independently repeated; their results above are author-observed.
+- **Delivery:** the owner authorized committing and pushing this follow-up.
+  No alerts were dismissed, and no deployment or remote policy change was made.
+
 ## Outcome and scope
 
 Clear the remaining high-value advisories in this frozen public reference repo **without reviving it
