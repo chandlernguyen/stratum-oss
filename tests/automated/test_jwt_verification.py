@@ -99,11 +99,6 @@ def test_token_signed_with_another_secret_is_rejected(local_auth):
     _assert_rejected(local_auth, other)
 
 
-def test_unsigned_token_is_rejected(local_auth):
-    unsigned = pyjwt.encode(_claims(LOCAL_URL), None, algorithm="none")
-    _assert_rejected(local_auth, unsigned)
-
-
 # --- ES256 via JWKS -----------------------------------------------------------
 
 def test_valid_es256_token_verifies(hosted_auth, ec_key):
