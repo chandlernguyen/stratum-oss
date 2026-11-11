@@ -8,12 +8,12 @@ command to run each one, what is verified to work, and — importantly — what 
 
 | Layer | Location | Command | Measured state |
 |---|---|---|---|
-| Backend (pytest) | `tests/automated/` | `poetry run pytest` | **298 pass, 82 skip, 0 fail** with the stack up and no model/Stripe keys |
+| Backend (pytest) | `tests/automated/` | `poetry run pytest` | **304 pass, 85 skip, 0 fail** with the stack up and no model/Stripe keys |
 | Web unit (Vitest) | `apps/web/src/**/*.test.{ts,tsx}` | `npm test --prefix apps/web` | **60 pass** (5 files) |
-| Web E2E (Playwright) | `apps/web/tests/` | `cd apps/web && npx playwright test --project=chromium` | **37 pass, 3 skip, 0 fail** on chromium for smoke + user-journeys + integration + multi-tenant; 7 materially-stale specs quarantined behind `RUN_STALE_E2E=1` |
+| Web E2E (Playwright) | `apps/web/tests/` | `cd apps/web && npx playwright test --project=chromium` | **39 pass, 3 skip, 0 fail** on chromium for smoke + user-journeys + integration + multi-tenant; 7 materially-stale specs quarantined behind `RUN_STALE_E2E=1` |
 | Fresh-clone setup | — | see "Setup verification" | The seven README steps now run as written. Not automated |
 
-A fresh clone's `poetry run pytest` is green. The 82 skips are deliberate: tests
+A fresh clone's `poetry run pytest` is green. The 85 skips are deliberate: tests
 that need a live model, Stripe credentials, or that are known stale are
 quarantined rather than left red. Each category has an opt-in environment
 variable, so the debt stays visible and runnable — see "Quarantined tests".
@@ -22,7 +22,9 @@ variable, so the debt stays visible and runnable — see "Quarantined tests".
 
 The suite talks to two services: Supabase (REST, port `56321`) and the backend
 API (port `56300`). Supabase must be running; the API must be running for the
-integration tests.
+integration tests. A few tests read the `agency` schema with the `psql` client,
+so it must be on your `PATH` (on macOS, `brew install libpq` and add
+`$(brew --prefix libpq)/bin` to `PATH`); without it they fail rather than skip.
 
 ```bash
 supabase start
@@ -229,7 +231,7 @@ failed to load a page.
 ### Quarantined specs
 
 The critical path is green on chromium: smoke plus the `user-journeys`,
-`integration` and `multi-tenant` suites report 37 pass, 3 skip, 0 fail. Several
+`integration` and `multi-tenant` suites report 39 pass, 3 skip, 0 fail. Several
 specs are quarantined because they assert UI which has since changed, not
 because the app is broken; run them with `RUN_STALE_E2E=1`:
 

@@ -11,7 +11,7 @@ updates:
     commit-message:
       prefix: "ci"
 
-  # npm and Poetry are deliberately left out for now. This is a v1 repository
-  # with a known-failing test inventory (see TESTING.md); automated dependency
-  # PRs would mostly add noise on top of that. Add them once the suites are
-  # green and a failing dependabot PR means something.
+  # npm and Poetry are deliberately left out. The repository is frozen (see
+  # AGENTS.md) and CI is disabled, so routine version PRs would arrive untested.
+  # Package security is handled from Dependabot alerts instead: the maintainer
+  # reviews them monthly and lands narrow, locally tested fixes.

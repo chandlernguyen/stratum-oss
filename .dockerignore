@@ -1,0 +1,25 @@
+# The Dockerfile copies the whole repository, so anything listed here stays out
+# of the image. Local env files hold real keys; runtime config comes from the
+# container's environment instead.
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+!**/.env.*.template
+.envrc
+supabase/signing_keys.json
+**/jwt_secret
+**/AuthKey_*.p8
+**/*.pem
+scripts/generate-apple-secret.py
+.mcp.json
+.vercel
+.run
+.playwright-mcp
+supabase/.temp
+supabase/.branches
+
+.git
+**/node_modules
+**/__pycache__
+.venv

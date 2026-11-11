@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Poetry
-RUN pip install poetry==1.7.1
+RUN pip install poetry==2.4.3
 
 # Copy poetry files from root
 COPY pyproject.toml poetry.lock ./
@@ -25,7 +25,7 @@ COPY pyproject.toml poetry.lock ./
 RUN poetry config virtualenvs.create false
 
 # Install dependencies
-RUN poetry install --no-dev --no-interaction --no-ansi
+RUN poetry install --only main --no-interaction --no-ansi
 
 # Copy entire project (monorepo structure)
 COPY . .
