@@ -94,8 +94,8 @@ async def list_insights(
     confidence_min: Optional[float] = Query(0.0, ge=0, le=1),
     limit: int = Query(20, ge=1, le=100),
     offset: int = Query(0, ge=0),
-    sort: str = Query("created_at", regex="^(created_at|confidence|impact|usage)$"),
-    order: str = Query("desc", regex="^(asc|desc)$"),
+    sort: str = Query("created_at", pattern="^(created_at|confidence|impact|usage)$"),
+    order: str = Query("desc", pattern="^(asc|desc)$"),
     current_user: dict = Depends(get_current_user),
     supabase: Client = Depends(get_supabase_client)
 ):
@@ -636,7 +636,7 @@ async def delete_insight(
 
 @router.get("/export")
 async def export_insights(
-    format: str = Query("json", regex="^(json|csv)$"),
+    format: str = Query("json", pattern="^(json|csv)$"),
     date_from: Optional[datetime] = None,
     date_to: Optional[datetime] = None,
     current_user: dict = Depends(get_current_user),
