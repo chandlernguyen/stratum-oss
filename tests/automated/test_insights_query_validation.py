@@ -50,4 +50,6 @@ def client():
     ],
 )
 def test_unknown_allow_listed_values_are_rejected(client, path, params):
-    assert client.get(path, params=params).status_code == 422
+    response = client.get(path, params=params)
+    assert response.status_code == 422
+    assert response.json()["detail"][0]["type"] == "string_pattern_mismatch"
