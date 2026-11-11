@@ -36,7 +36,6 @@ bcrypt = "^5.0.0"
 aiofiles = "^25.1.0"
 resend = "^2.19.0"
 stripe = "^14.3.0"
-Pillow = "^11.3.0"
 
 [tool.pytest.ini_options]
 # Pytest configuration for backend tests
