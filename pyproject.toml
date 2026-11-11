@@ -11,7 +11,7 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
-fastapi = "^0.116.1"
+fastapi = "^0.162.4"
 uvicorn = {extras = ["standard"], version = "^0.35.0"}
 python-dotenv = "^1.0.0"
 # Google Cloud dependencies for RAG system
@@ -19,7 +19,7 @@ google-cloud-discoveryengine = "^0.11.0"
 google-cloud-storage = "^2.10.0"
 google-cloud-aiplatform = "^1.40.0"
 # Additional dependencies for file handling and processing
-python-multipart = "^0.0.9"
+python-multipart = "^0.0.33"
 psycopg2-binary = "^2.9.7"
 google-genai = "^2.23.0"
 pydantic = "^2.11.7"
