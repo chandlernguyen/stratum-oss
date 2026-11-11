@@ -15,13 +15,10 @@ load_dotenv(_API_DIR / ".env")  # Load .env base config
 load_dotenv(_API_DIR / ".env.local", override=True)  # Load .env.local overrides (Stripe keys, secrets)
 
 from fastapi import FastAPI, Request, Depends, HTTPException, status
-from fastapi.security import OAuth2PasswordBearer
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.exceptions import RequestValidationError
-from jose import jwt, jwk, JWTError
 from typing import Dict, Any
-import requests
 import uuid
 
 from .utils.error_sanitization import sanitize_error_message, sanitize_validation_error
@@ -77,17 +74,9 @@ logging.getLogger("httpx").setLevel(logging.INFO)
 
 # --- Configuration ---
 SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_JWT_SECRET = os.getenv("SUPABASE_JWT_SECRET") # For local HS256 validation
 
 if not SUPABASE_URL:
     raise ValueError("SUPABASE_URL environment variable not set")
-
-# Determine if we are in a local development environment
-IS_LOCAL_DEV = SUPABASE_JWT_SECRET is not None
-
-JWKS_URL = f"{SUPABASE_URL}/auth/v1/.well-known/jwks.json"
-AUDIENCE = "authenticated"
-ISSUER = f"{SUPABASE_URL}/auth/v1"
 
 # Security: Disable debug mode in production
 # Debug mode exposes stack traces and internal errors to clients
@@ -299,67 +288,6 @@ app.include_router(collaboration_router, dependencies=[Depends(verify_aal2)])
 app.include_router(invitations.router)  # PUBLIC endpoint - no authentication required
 app.include_router(billing.router)  # Mixed auth: webhook is PUBLIC (Stripe signature), other endpoints use get_current_user
 app.include_router(mobile_push.router)
-
-# --- JWT Verification Logic ---
-
-jwks_cache = {}
-
-def get_jwks():
-    """Fetches and caches the JSON Web Key Set (JWKS) from Supabase."""
-    if not jwks_cache:
-        response = requests.get(JWKS_URL)
-        response.raise_for_status()
-        jwks_cache.update(response.json())
-    return jwks_cache
-
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
-
-async def get_current_user_with_org(token: str = Depends(oauth2_scheme)) -> Dict[str, Any]:
-    """
-    Dependency to decode and validate the JWT from the Authorization header.
-    - For local dev, uses HS256 with the SUPABASE_JWT_SECRET.
-    - For production, uses ES256 with the public key from the JWKS endpoint.
-    - Also ensures that an `org_id` is present in the token's app_metadata.
-    """
-    credentials_exception = HTTPException(
-        status_code=status.HTTP_401_UNAUTHORIZED,
-        detail="Could not validate credentials",
-        headers={"WWW-Authenticate": "Bearer"},
-    )
-    try:
-        if IS_LOCAL_DEV:
-            # Local development: use HS256 with the shared secret
-            payload = jwt.decode(
-                token, SUPABASE_JWT_SECRET, algorithms=["HS256"], audience=AUDIENCE, issuer=ISSUER
-            )
-        else:
-            # Production: use ES256 with the public key from JWKS
-            unverified_header = jwt.get_unverified_header(token)
-            kid = unverified_header.get("kid")
-            if not kid:
-                raise JWTError("Missing 'kid' in token header")
-            jwks = get_jwks()
-            rsa_key = next((key for key in jwks["keys"] if key["kid"] == kid), None)
-            if not rsa_key:
-                raise JWTError("Matching key not found in JWKS")
-            payload = jwt.decode(
-                token, rsa_key, algorithms=["ES256"], audience=AUDIENCE, issuer=ISSUER
-            )
-
-        # --- Multi-tenancy Check ---
-        org_id = payload.get("app_metadata", {}).get("org_id")
-        if not org_id:
-            raise HTTPException(
-                status_code=status.HTTP_403_FORBIDDEN,
-                detail="User is not associated with an organization"
-            )
-        return payload
-
-    except JWTError as e:
-        raise credentials_exception from e
-    except requests.exceptions.RequestException as e:
-        raise HTTPException(status_code=503, detail="Could not fetch signing keys") from e
-
 
 # --- API Endpoints ---
 
