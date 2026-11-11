@@ -148,24 +148,17 @@ Also review:
 
 ### Dependency advisories
 
-`npm audit` reports 33 advisories across all dependencies; `npm audit --omit=dev`
-reports two, both high — the pair below — so the rest are dev and build-time
-only.
+As of November 2026, `pip-audit` reports nothing for the Python lock, and
+`npm audit --omit=dev` reports nothing. `npm audit` reports seven moderate
+advisories, all one chain: `typescript-eslint` → `@typescript-eslint/typescript-estree`
+→ `minimatch` (denial of service through glob-pattern amplification).
 
-`remark-mdx-frontmatter` (latest, 5.2.0) depends on `toml <= 4.1.2`, which has two
-high-severity advisories (uncontrolled recursion; prototype pollution). No patched
-release exists, and `npm audit` reports "No fix available".
-
-Assessed as **low practical risk**:
-
-- It is a **build-time** dependency. It parses MDX frontmatter during the build,
-  never in the browser and never at request time.
-- Exploiting it requires control of MDX source files at build time. An attacker
-  who can do that already has write access to the repository and build pipeline.
-
-It is retained because the MDX pipeline is a live product feature — the Content
-agent's blog post preview — not vestigial marketing tooling. Removing it to clear
-a scanner warning would break functionality. Revisit when upstream ships a fix.
+The fix is `minimatch` 11.0.1, but every `typescript-eslint` release, the latest
+included, requires `minimatch ^9`, so no compatible fixed version exists.
+Assessed as **low practical risk**: it is a lint-time development dependency
+that matches glob patterns written by the project's own developers, and it never
+ships in the build or runs at request time. Revisit when `typescript-eslint`
+moves to a fixed `minimatch`.
 
 ### Content-Security-Policy
 
